@@ -1,0 +1,40 @@
+name: King's cash game tracker
+
+on:
+  schedule:
+    - cron: "4,19,34,49 * * * *"   # every 15 minutes (GitHub sometimes starts a few minutes late - that's fine)
+  workflow_dispatch:                # adds a "Run workflow" button for a manual check
+
+permissions:
+  contents: write                   # lets the job save its results into this repository
+
+concurrency:
+  group: kings-tracker
+  cancel-in-progress: false
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v6
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: Install Playwright
+        run: pip install playwright
+
+      - name: Check the King's page and update stats
+        run: python tracker.py
+
+      - name: Save results
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git diff --cached --quiet && exit 0
+          git commit -q -m "Snapshot $(TZ=Europe/Prague date +'%Y-%m-%d %H:%M')"
+          git pull -q --rebase
+          git push -q
