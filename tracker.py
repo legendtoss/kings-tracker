@@ -6,7 +6,7 @@ GitHub Actions runs this about every 15 minutes. Each run it:
   1. opens https://kings-resort.com/poker/live in a headless Chrome browser,
   2. waits until the "Running Cash Games in Rozvadov" box has loaded,
   3. adds one line to data/YYYY-MM.csv (Czech local time),
-  4. rebuilds README.md with hour-by-hour statistics.
+  4. rebuilds README.md with hour-by-hour statistics (players, games running).
 
 You don't need to edit anything in this file.
 """
@@ -45,13 +45,13 @@ BOX_READY_JS = """() => {
   return !box.includes('loading');
 }""" % (BOX_START, len(BOX_START))
 
-# The "Cash Games: N" counter in the site header
+# The "Cash Games: N" counter in the site header (= number of running tables)
 COUNTER_JS = r"""() => {
   const m = (document.body.textContent || '').match(/cash games\s*:\s*(\d+)/i);
   return m ? m[1] : null;
 }"""
 
-# HTML of the Rozvadov box (kept in debug/ for fine-tuning)
+# HTML of the Rozvadov box (kept in debug/ in case the site's layout changes)
 BOX_HTML_JS = r"""() => {
   const re = /running cash games in rozvadov/i;
   const head = Array.from(document.querySelectorAll('body *')).find(
@@ -81,24 +81,17 @@ def launch(p):
 def scrape():
     from playwright.sync_api import sync_playwright, TimeoutError as PWTimeout
 
-    responses, ws_frames = [], []
+    feeds = []  # the site's own cash-game data feed, kept for debugging
 
     def on_response(r):
-        if r.request.resource_type in ("xhr", "fetch") and len(responses) < 40:
-            responses.append(r)
-
-    def on_websocket(ws):
-        def on_frame(payload):
-            if len(ws_frames) < 30:
-                ws_frames.append({"url": ws.url, "data": str(payload)[:3000]})
-        ws.on("framereceived", on_frame)
+        if "cash_games" in r.url and len(feeds) < 5:
+            feeds.append(r)
 
     with sync_playwright() as p:
         browser = launch(p)
         page = browser.new_page(user_agent=UA, locale="en-US",
                                 viewport={"width": 1366, "height": 900})
         page.on("response", on_response)
-        page.on("websocket", on_websocket)
 
         for attempt in (1, 2):
             try:
@@ -120,16 +113,16 @@ def scrape():
         counter = page.evaluate(COUNTER_JS)
         box_html = page.evaluate(BOX_HTML_JS)
 
-        network = []
-        for r in responses:
+        feed = []
+        for r in feeds:
             try:
                 body = r.text()
             except Exception as e:
                 body = f"<could not read: {e}>"
-            network.append({"url": r.url, "status": r.status, "body": body[:8000]})
+            feed.append({"url": r.url, "status": r.status, "body": body[:20000]})
         browser.close()
 
-    return status, text, counter, box_html, network, ws_frames
+    return status, text, counter, box_html, feed
 
 
 def cut_box(text):
@@ -147,9 +140,12 @@ def cut_box(text):
 STAKE_RE = re.compile(r"(€\s?)?(?<![\d/.:])(\d{1,4})\s?/\s?(€\s?)?(\d{1,4})"
                       r"(?:\s?/\s?(€\s?)?(\d{1,4}))?(?![\d/:])(\s?€(?!\s?\d))?")
 
+# One running table, as the site shows it: "NO LIMIT TEXAS HOLD'EM | € 2/4 | 7/8 PLAYERS"
+TABLE_RE = re.compile(r"([^|]*?)\s*\|\s*€\s*([\d/]+)\s*\|\s*(\d+)\s*/\s*(\d+)\s*players?", re.I)
+
 
 def stake_key(s):
-    return [int(x) for x in s.split("/")][::-1]
+    return [int(x) for x in s.split("/") if x.isdigit()][::-1]
 
 
 def find_stakes(box):
@@ -167,6 +163,54 @@ def find_stakes(box):
     return sorted({s for s, _ in found}, key=stake_key)
 
 
+def short_game(name):
+    n = name.lower()
+    if "omaha" in n:
+        cards = re.search(r"(\d)\s*card", n)
+        return "PLO" + (cards.group(1) if cards else "")
+    if "hold" in n:
+        return "NLH" if re.search(r"no[\s-]?limit", n) else "Hold'em"
+    return name.strip().title() or "Game"
+
+
+def parse_tables(box_text):
+    """[(game, stakes, seated, seats), ...] - one entry per running table."""
+    return [(short_game(g), s, int(a), int(b)) for g, s, a, b in TABLE_RE.findall(box_text or "")]
+
+
+GAME_NAMES = {"NLH": "No-Limit Hold'em (NLH)", "PLO": "Pot-Limit Omaha (PLO)",
+              "PLO5": "5-card Pot-Limit Omaha (PLO5)", "PLO6": "6-card Pot-Limit Omaha (PLO6)"}
+
+
+def game_order(game):
+    """NLH first, then the Omaha games, then anything else."""
+    return 0 if game == "NLH" else 1 if game.startswith("PLO") else 2
+
+
+def players_by_game(row):
+    """{'NLH': 15, 'PLO5': 23} for one check, or None if the box couldn't be read."""
+    tables = parse_tables(row["box_text"])
+    if not tables and row["stakes_running"]:
+        return None
+    count = Counter()
+    for g, _, seated, _ in tables:
+        count[g] += seated
+    return count
+
+
+def games_of(row):
+    """Labels like 'NLH €2/4' for every game + stake running in one check."""
+    tables = parse_tables(row["box_text"])
+    if tables:
+        return {f"{g} €{s}" for g, s, _, _ in tables}
+    return {f"€{s}" for s in row["stakes_running"].split(";") if s}
+
+
+def game_key(label):
+    game, _, stakes = label.rpartition("€")
+    return game_order(game.strip()), stake_key(stakes), game
+
+
 # ---------------------------------------------------------------- saving
 
 def append_row(now, row):
@@ -181,13 +225,13 @@ def append_row(now, row):
 
 
 def save_debug(now, row, debug):
-    """Raw copy of what the page sent (refreshed every 6 h or when the status changes)."""
+    """Raw copy of the box and the site's data feed (refreshed every 6 h or when the status changes)."""
     if not debug:
         return
     try:
         old = json.loads(DEBUG_FILE.read_text(encoding="utf-8"))
         recent = now - datetime.fromisoformat(old["saved_at"]) < timedelta(hours=6)
-        if recent and old.get("status") == row["status"]:
+        if recent and old.get("status") == row["status"] and "cash_games_feed" in old:
             return
     except Exception:
         pass
@@ -229,45 +273,63 @@ def write_readme():
 
     if ok:
         lr = ok[-1]
-        lines = [x for x in lr["box_text"].split(" | ") if x][:40] or ["(nothing listed)"]
-        out += [f"## What the page showed at {lr['time']}", "",
-                f"Cash Games counter: **{lr['cash_games'] or '?'}**", "", "```", *lines, "```", ""]
+        tables = sorted(parse_tables(lr["box_text"]), key=lambda t: (game_order(t[0]), stake_key(t[1])))
+        out += [f"## Tables running at {lr['time']}", ""]
+        if tables:
+            per_game = defaultdict(lambda: [0, 0])
+            for g, _, seated, _ in tables:
+                per_game[g][0] += seated
+                per_game[g][1] += 1
+            totals = sorted(per_game.items(), key=lambda kv: game_order(kv[0]))
+            out += ["```", *[f"{g:<7} €{s:<7} {a}/{b} players" for g, s, a, b in tables], "```",
+                    " · ".join(f"**{g}:** {p} players at {n} table{'s' * (n != 1)}" for g, (p, n) in totals), ""]
+        else:
+            lines = [x for x in lr["box_text"].split(" | ") if x][:40] or ["(no tables listed)"]
+            out += ["```", *lines, "```", ""]
 
-    # Table 1: average of the "Cash Games" counter by hour and weekday
-    sums, cnts = defaultdict(float), defaultdict(int)
-    for r in ok:
-        if r["cash_games"]:
+    # One table per game (NLH, PLO5, ...): average seated players by hour and weekday
+    checks = [(r, players_by_game(r)) for r in ok]
+    checks = [(r, pg) for r, pg in checks if pg is not None]
+    volume = Counter()
+    for _, pg in checks:
+        volume.update(pg)
+    games = sorted(volume, key=lambda g: (game_order(g), -volume[g]))[:4]
+    out += ["## Average players by hour", "",
+            "Seated players at each game's tables. 0 = that game wasn't running." if games
+            else "No player data yet.", ""]
+    for game in games:
+        sums, cnts = defaultdict(float), defaultdict(int)
+        for r, pg in checks:
             for key in ((int(r["hour"]), r["weekday"]), (int(r["hour"]), "All")):
-                sums[key] += float(r["cash_games"])
+                sums[key] += pg.get(game, 0)
                 cnts[key] += 1
-    out += ["## Average number of running cash games, by hour", "",
-            "Taken from the *Cash Games* counter on the site. Bigger number = more action.", "",
-            "| Hour | " + " | ".join(DAYS) + " | All days |",
-            "|:--|" + "--:|" * (len(DAYS) + 1)]
-    for h in range(24):
-        cells = [f"{sums[(h, d)] / cnts[(h, d)]:.1f}" if cnts[(h, d)] else "·" for d in DAYS + ["All"]]
-        out.append(f"| {h:02d}:00 | " + " | ".join(cells) + " |")
-    out.append("")
+        out += [f"### {GAME_NAMES.get(game, game)}", "",
+                "| Hour | " + " | ".join(DAYS) + " | All days |",
+                "|:--|" + "--:|" * (len(DAYS) + 1)]
+        for h in range(24):
+            cells = [f"{sums[(h, d)] / cnts[(h, d)]:.0f}" if cnts[(h, d)] else "·" for d in DAYS + ["All"]]
+            out.append(f"| {h:02d}:00 | " + " | ".join(cells) + " |")
+        out.append("")
 
-    # Table 2: how often each stake was listed, by hour (all days)
-    freq = Counter(s for r in ok for s in set(filter(None, r["stakes_running"].split(";"))))
-    stakes = sorted((s for s, _ in freq.most_common(10)), key=stake_key)
-    out += ["## How often each stake was running, by hour (all days)", ""]
-    if stakes:
+    # Table 2: how often each game was running, by hour (all days)
+    freq = Counter(label for r in ok for label in games_of(r))
+    labels = sorted((label for label, _ in freq.most_common(8)), key=game_key)
+    out += ["## How often each game was running, by hour (all days)", ""]
+    if labels:
         total_h, seen = defaultdict(int), defaultdict(int)
         for r in ok:
             h = int(r["hour"])
             total_h[h] += 1
-            for s in set(filter(None, r["stakes_running"].split(";"))):
-                seen[(h, s)] += 1
+            for label in games_of(r):
+                seen[(h, label)] += 1
         out += ["🟩 most of the time · 🟨 sometimes · 🟥 rarely", "",
-                "| Hour | " + " | ".join(f"€{s}" for s in stakes) + " | Checks |",
-                "|:--|" + "--:|" * (len(stakes) + 1)]
+                "| Hour | " + " | ".join(labels) + " | Checks |",
+                "|:--|" + "--:|" * (len(labels) + 1)]
         for h in range(24):
-            cells = [pct_cell(seen[(h, s)], total_h[h]) for s in stakes]
+            cells = [pct_cell(seen[(h, label)], total_h[h]) for label in labels]
             out.append(f"| {h:02d}:00 | " + " | ".join(cells) + f" | {total_h[h]} |")
     else:
-        out.append("No stakes recognised yet — see the latest check above.")
+        out.append("No games recognised yet — see the latest check above.")
 
     out += ["", "---", "Raw data: the `data` folder (one CSV file per month, opens in Excel)."]
     README.write_text("\n".join(out) + "\n", encoding="utf-8")
@@ -281,7 +343,7 @@ def main():
            "status": "", "cash_games": "", "stakes_running": "", "box_text": ""}
     debug = {}
     try:
-        status, text, counter, box_html, network, ws_frames = scrape()
+        status, text, counter, box_html, feed = scrape()
         box = cut_box(text)
         if box is None:
             status = "box not found on page"
@@ -294,7 +356,7 @@ def main():
         row["status"] = status
         row["cash_games"] = counter or ""
         debug = {"url": URL, "page_text_start": text[:5000], "box_html": box_html,
-                 "network": network, "websocket_frames": ws_frames}
+                 "cash_games_feed": feed}
     except Exception as e:
         first_line = (str(e).strip().splitlines() or [""])[0]
         row["status"] = f"error: {type(e).__name__}: {first_line}"[:200]
