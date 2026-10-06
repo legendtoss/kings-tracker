@@ -2,16 +2,16 @@
 
 Checks King's live cash games about every 15 minutes and updates this page by itself. All times are **Czech time** (same as Poland).
 
-**Last check:** 2026-10-06 11:26 — ✅ OK (data feed)  
-**Last 24 h:** 21 of 21 checks OK · **Collecting since:** 2026-10-06 (21 good checks)
+**Last check:** 2026-10-06 11:50 — ✅ OK (data feed)  
+**Last 24 h:** 22 of 22 checks OK · **Collecting since:** 2026-10-06 (22 good checks)
 
-## Tables running at 2026-10-06 11:26
+## Tables running at 2026-10-06 11:50
 
 ```
-NLH   €2/4     4/8 players
-PLO5  €10/10   6/8 players
+NLH   €2/4     6/8 players
+PLO5  €10/10   5/8 players
 ```
-**NLH:** 4 players at 1 table · **PLO5:** 6 players at 1 table
+**NLH:** 6 players at 1 table · **PLO5:** 5 players at 1 table
 
 ## Busiest times so far
 
@@ -39,7 +39,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 08:00 | · | 5 | · | · | · | · | · | 5 |
 | 09:00 | · | 5 | · | · | · | · | · | 5 |
 | 10:00 | · | 6 | · | · | · | · | · | 6 |
-| 11:00 | · | 4 | · | · | · | · | · | 4 |
+| 11:00 | · | 5 | · | · | · | · | · | 5 |
 | 12:00 | · | · | · | · | · | · | · | · |
 | 13:00 | · | · | · | · | · | · | · | · |
 | 14:00 | · | · | · | · | · | · | · | · |
@@ -99,7 +99,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 08:00 | 🟩 100% | 🟥 0% | 🟩 100% | 🟨 67% | 3 |
 | 09:00 | 🟩 100% | 🟥 0% | 🟨 50% | 🟨 50% | 2 |
 | 10:00 | 🟩 100% | 🟥 0% | 🟥 0% | 🟩 100% | 3 |
-| 11:00 | 🟩 100% | 🟥 0% | 🟥 0% | 🟩 100% | 2 |
+| 11:00 | 🟩 100% | 🟥 0% | 🟥 0% | 🟩 100% | 3 |
 | 12:00 | · | · | · | · | 0 |
 | 13:00 | · | · | · | · | 0 |
 | 14:00 | · | · | · | · | 0 |
@@ -117,10 +117,10 @@ Seated players at each game's tables. 0 = that game wasn't running.
 
 | Game | Running in | Most often | Last seen |
 |:--|--:|:--|:--|
-| NLH €2/4 | 100% of checks | Tue around 05:00 | 2026-10-06 11:26 |
-| NLH €5/10 | 52% of checks | Tue around 05:00 | 2026-10-06 07:49 |
-| PLO5 €5/5 | 71% of checks | Tue around 05:00 | 2026-10-06 09:23 |
-| PLO5 €10/10 | 90% of checks | Tue around 05:00 | 2026-10-06 11:26 |
+| NLH €2/4 | 100% of checks | Tue around 05:00 | 2026-10-06 11:50 |
+| NLH €5/10 | 50% of checks | Tue around 05:00 | 2026-10-06 07:49 |
+| PLO5 €5/5 | 68% of checks | Tue around 05:00 | 2026-10-06 09:23 |
+| PLO5 €10/10 | 91% of checks | Tue around 05:00 | 2026-10-06 11:50 |
 
 ---
 Raw data: the `data` folder (one CSV file per month, opens in Excel). The tracker is `tracker.py`; its schedule is in `.github/workflows/track.yml`.
