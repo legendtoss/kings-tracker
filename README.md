@@ -2,10 +2,10 @@
 
 Checks [the live page](https://kings-resort.com/poker/live) about every 15 minutes and updates this page automatically. All times are **Czech time** (same as Poland).
 
-**Last check:** 2026-10-06 04:40 — ✅ OK  
-**Checks so far:** 1 successful out of 1 (since 2026-10-06)
+**Last check:** 2026-10-06 04:47 — ✅ OK  
+**Checks so far:** 2 successful out of 2 (since 2026-10-06)
 
-## What the page showed at 2026-10-06 04:40
+## What the page showed at 2026-10-06 04:47
 
 Cash Games counter: **6**
 
@@ -18,7 +18,7 @@ POT-LIMIT OMAHA 5 CARDS
 8/8 PLAYERS
 POT-LIMIT OMAHA 5 CARDS
 € 5/5
-7/8 PLAYERS
+8/8 PLAYERS
 POT-LIMIT OMAHA 5 CARDS
 € 5/5
 8/8 PLAYERS
@@ -27,7 +27,7 @@ NO LIMIT TEXAS HOLD’EM
 8/8 PLAYERS
 NO LIMIT TEXAS HOLD’EM
 € 2/4
-7/8 PLAYERS
+8/8 PLAYERS
 ```
 
 ## Average number of running cash games, by hour
@@ -71,7 +71,7 @@ Taken from the *Cash Games* counter on the site. Bigger number = more action.
 | 01:00 | · | · | · | · | 0 |
 | 02:00 | · | · | · | · | 0 |
 | 03:00 | · | · | · | · | 0 |
-| 04:00 | 🟩 100% | 🟩 100% | 🟩 100% | 🟩 100% | 1 |
+| 04:00 | 🟩 100% | 🟩 100% | 🟩 100% | 🟩 100% | 2 |
 | 05:00 | · | · | · | · | 0 |
 | 06:00 | · | · | · | · | 0 |
 | 07:00 | · | · | · | · | 0 |
