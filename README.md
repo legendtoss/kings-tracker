@@ -1,20 +1,27 @@
 # 🃏 King's Rozvadov — cash game tracker
 
-Checks [the live page](https://kings-resort.com/poker/live) about every 15 minutes and updates this page automatically. All times are **Czech time** (same as Poland).
+Checks King's live cash games about every 15 minutes and updates this page by itself. All times are **Czech time** (same as Poland).
 
-**Last check:** 2026-10-06 05:21 — ✅ OK  
-**Checks so far:** 4 successful out of 4 (since 2026-10-06)
+**Last check:** 2026-10-06 05:51 — ✅ OK (data feed)  
+**Last 24 h:** 5 of 5 checks OK · **Collecting since:** 2026-10-06 (5 good checks)
 
-## Tables running at 2026-10-06 05:21
+## Tables running at 2026-10-06 05:51
 
 ```
-NLH     €2/4     8/8 players
-NLH     €5/10    3/8 players
-PLO5    €5/5     7/8 players
-PLO5    €5/5     8/8 players
-PLO5    €10/10   8/8 players
+NLH   €2/4     8/8 players
+NLH   €5/10    3/8 players
+PLO5  €5/5     4/8 players
+PLO5  €5/5     7/8 players
+PLO5  €10/10   7/8 players
 ```
-**NLH:** 11 players at 2 tables · **PLO5:** 23 players at 3 tables
+**NLH:** 11 players at 2 tables · **PLO5:** 18 players at 3 tables
+
+## Busiest times so far
+
+Day, hour and average seated players (only day-hour slots with at least 3 checks).
+
+- **NLH:** Tue 05:00 (13)
+- **PLO5:** Tue 05:00 (22)
 
 ## Average players by hour
 
@@ -29,7 +36,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 02:00 | · | · | · | · | · | · | · | · |
 | 03:00 | · | · | · | · | · | · | · | · |
 | 04:00 | · | 18 | · | · | · | · | · | 18 |
-| 05:00 | · | 14 | · | · | · | · | · | 14 |
+| 05:00 | · | 13 | · | · | · | · | · | 13 |
 | 06:00 | · | · | · | · | · | · | · | · |
 | 07:00 | · | · | · | · | · | · | · | · |
 | 08:00 | · | · | · | · | · | · | · | · |
@@ -58,7 +65,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 02:00 | · | · | · | · | · | · | · | · |
 | 03:00 | · | · | · | · | · | · | · | · |
 | 04:00 | · | 24 | · | · | · | · | · | 24 |
-| 05:00 | · | 24 | · | · | · | · | · | 24 |
+| 05:00 | · | 22 | · | · | · | · | · | 22 |
 | 06:00 | · | · | · | · | · | · | · | · |
 | 07:00 | · | · | · | · | · | · | · | · |
 | 08:00 | · | · | · | · | · | · | · | · |
@@ -89,7 +96,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 02:00 | · | · | · | · | 0 |
 | 03:00 | · | · | · | · | 0 |
 | 04:00 | 🟩 100% | 🟩 100% | 🟩 100% | 🟩 100% | 2 |
-| 05:00 | 🟩 100% | 🟩 100% | 🟩 100% | 🟩 100% | 2 |
+| 05:00 | 🟩 100% | 🟩 100% | 🟩 100% | 🟩 100% | 3 |
 | 06:00 | · | · | · | · | 0 |
 | 07:00 | · | · | · | · | 0 |
 | 08:00 | · | · | · | · | 0 |
@@ -109,5 +116,14 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 22:00 | · | · | · | · | 0 |
 | 23:00 | · | · | · | · | 0 |
 
+## All games seen
+
+| Game | Running in | Most often | Last seen |
+|:--|--:|:--|:--|
+| NLH €2/4 | 100% of checks | Tue around 05:00 | 2026-10-06 05:51 |
+| NLH €5/10 | 100% of checks | Tue around 05:00 | 2026-10-06 05:51 |
+| PLO5 €5/5 | 100% of checks | Tue around 05:00 | 2026-10-06 05:51 |
+| PLO5 €10/10 | 100% of checks | Tue around 05:00 | 2026-10-06 05:51 |
+
 ---
-Raw data: the `data` folder (one CSV file per month, opens in Excel).
+Raw data: the `data` folder (one CSV file per month, opens in Excel). The tracker is `tracker.py`; its schedule is in `.github/workflows/track.yml`.
