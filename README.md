@@ -2,37 +2,25 @@
 
 Checks [the live page](https://kings-resort.com/poker/live) about every 15 minutes and updates this page automatically. All times are **Czech time** (same as Poland).
 
-**Last check:** 2026-10-06 05:00 — ✅ OK  
-**Checks so far:** 3 successful out of 3 (since 2026-10-06)
+**Last check:** 2026-10-06 05:21 — ✅ OK  
+**Checks so far:** 4 successful out of 4 (since 2026-10-06)
 
-## What the page showed at 2026-10-06 05:00
-
-Cash Games counter: **6**
+## Tables running at 2026-10-06 05:21
 
 ```
-NO LIMIT TEXAS HOLD’EM
-€ 5/10
-3/8 PLAYERS
-POT-LIMIT OMAHA 5 CARDS
-€ 10/10
-8/8 PLAYERS
-POT-LIMIT OMAHA 5 CARDS
-€ 5/5
-8/8 PLAYERS
-POT-LIMIT OMAHA 5 CARDS
-€ 5/5
-8/8 PLAYERS
-NO LIMIT TEXAS HOLD’EM
-€ 2/4
-8/8 PLAYERS
-NO LIMIT TEXAS HOLD’EM
-€ 2/4
-7/8 PLAYERS
+NLH     €2/4     8/8 players
+NLH     €5/10    3/8 players
+PLO5    €5/5     7/8 players
+PLO5    €5/5     8/8 players
+PLO5    €10/10   8/8 players
 ```
+**NLH:** 11 players at 2 tables · **PLO5:** 23 players at 3 tables
 
-## Average number of running cash games, by hour
+## Average players by hour
 
-Taken from the *Cash Games* counter on the site. Bigger number = more action.
+Seated players at each game's tables. 0 = that game wasn't running.
+
+### No-Limit Hold'em (NLH)
 
 | Hour | Mon | Tue | Wed | Thu | Fri | Sat | Sun | All days |
 |:--|--:|--:|--:|--:|--:|--:|--:|--:|
@@ -40,8 +28,8 @@ Taken from the *Cash Games* counter on the site. Bigger number = more action.
 | 01:00 | · | · | · | · | · | · | · | · |
 | 02:00 | · | · | · | · | · | · | · | · |
 | 03:00 | · | · | · | · | · | · | · | · |
-| 04:00 | · | 6.0 | · | · | · | · | · | 6.0 |
-| 05:00 | · | 6.0 | · | · | · | · | · | 6.0 |
+| 04:00 | · | 18 | · | · | · | · | · | 18 |
+| 05:00 | · | 14 | · | · | · | · | · | 14 |
 | 06:00 | · | · | · | · | · | · | · | · |
 | 07:00 | · | · | · | · | · | · | · | · |
 | 08:00 | · | · | · | · | · | · | · | · |
@@ -61,18 +49,47 @@ Taken from the *Cash Games* counter on the site. Bigger number = more action.
 | 22:00 | · | · | · | · | · | · | · | · |
 | 23:00 | · | · | · | · | · | · | · | · |
 
-## How often each stake was running, by hour (all days)
+### 5-card Pot-Limit Omaha (PLO5)
+
+| Hour | Mon | Tue | Wed | Thu | Fri | Sat | Sun | All days |
+|:--|--:|--:|--:|--:|--:|--:|--:|--:|
+| 00:00 | · | · | · | · | · | · | · | · |
+| 01:00 | · | · | · | · | · | · | · | · |
+| 02:00 | · | · | · | · | · | · | · | · |
+| 03:00 | · | · | · | · | · | · | · | · |
+| 04:00 | · | 24 | · | · | · | · | · | 24 |
+| 05:00 | · | 24 | · | · | · | · | · | 24 |
+| 06:00 | · | · | · | · | · | · | · | · |
+| 07:00 | · | · | · | · | · | · | · | · |
+| 08:00 | · | · | · | · | · | · | · | · |
+| 09:00 | · | · | · | · | · | · | · | · |
+| 10:00 | · | · | · | · | · | · | · | · |
+| 11:00 | · | · | · | · | · | · | · | · |
+| 12:00 | · | · | · | · | · | · | · | · |
+| 13:00 | · | · | · | · | · | · | · | · |
+| 14:00 | · | · | · | · | · | · | · | · |
+| 15:00 | · | · | · | · | · | · | · | · |
+| 16:00 | · | · | · | · | · | · | · | · |
+| 17:00 | · | · | · | · | · | · | · | · |
+| 18:00 | · | · | · | · | · | · | · | · |
+| 19:00 | · | · | · | · | · | · | · | · |
+| 20:00 | · | · | · | · | · | · | · | · |
+| 21:00 | · | · | · | · | · | · | · | · |
+| 22:00 | · | · | · | · | · | · | · | · |
+| 23:00 | · | · | · | · | · | · | · | · |
+
+## How often each game was running, by hour (all days)
 
 🟩 most of the time · 🟨 sometimes · 🟥 rarely
 
-| Hour | €2/4 | €5/5 | €5/10 | €10/10 | Checks |
+| Hour | NLH €2/4 | NLH €5/10 | PLO5 €5/5 | PLO5 €10/10 | Checks |
 |:--|--:|--:|--:|--:|--:|
 | 00:00 | · | · | · | · | 0 |
 | 01:00 | · | · | · | · | 0 |
 | 02:00 | · | · | · | · | 0 |
 | 03:00 | · | · | · | · | 0 |
 | 04:00 | 🟩 100% | 🟩 100% | 🟩 100% | 🟩 100% | 2 |
-| 05:00 | 🟩 100% | 🟩 100% | 🟩 100% | 🟩 100% | 1 |
+| 05:00 | 🟩 100% | 🟩 100% | 🟩 100% | 🟩 100% | 2 |
 | 06:00 | · | · | · | · | 0 |
 | 07:00 | · | · | · | · | 0 |
 | 08:00 | · | · | · | · | 0 |
