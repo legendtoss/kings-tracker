@@ -2,16 +2,16 @@
 
 Checks King's live cash games about every 15 minutes and updates this page by itself. All times are **Czech time** (same as Poland).
 
-**Last check:** 2026-10-06 09:23 — ✅ OK (data feed)  
-**Last 24 h:** 15 of 15 checks OK · **Collecting since:** 2026-10-06 (15 good checks)
+**Last check:** 2026-10-06 09:50 — ✅ OK (data feed, via browser)  
+**Last 24 h:** 16 of 16 checks OK · **Collecting since:** 2026-10-06 (16 good checks)
 
-## Tables running at 2026-10-06 09:23
+## Tables running at 2026-10-06 09:50
 
 ```
 NLH   €2/4     5/8 players
-PLO5  €5/5     4/8 players
+PLO5  €10/10   5/8 players
 ```
-**NLH:** 5 players at 1 table · **PLO5:** 4 players at 1 table
+**NLH:** 5 players at 1 table · **PLO5:** 5 players at 1 table
 
 ## Busiest times so far
 
@@ -97,7 +97,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 06:00 | 🟩 100% | 🟩 100% | 🟩 100% | 🟩 100% | 3 |
 | 07:00 | 🟩 100% | 🟩 100% | 🟩 100% | 🟩 100% | 3 |
 | 08:00 | 🟩 100% | 🟥 0% | 🟩 100% | 🟨 67% | 3 |
-| 09:00 | 🟩 100% | 🟥 0% | 🟩 100% | 🟥 0% | 1 |
+| 09:00 | 🟩 100% | 🟥 0% | 🟨 50% | 🟨 50% | 2 |
 | 10:00 | · | · | · | · | 0 |
 | 11:00 | · | · | · | · | 0 |
 | 12:00 | · | · | · | · | 0 |
@@ -117,10 +117,10 @@ Seated players at each game's tables. 0 = that game wasn't running.
 
 | Game | Running in | Most often | Last seen |
 |:--|--:|:--|:--|
-| NLH €2/4 | 100% of checks | Tue around 05:00 | 2026-10-06 09:23 |
-| NLH €5/10 | 73% of checks | Tue around 05:00 | 2026-10-06 07:49 |
-| PLO5 €5/5 | 100% of checks | Tue around 05:00 | 2026-10-06 09:23 |
-| PLO5 €10/10 | 87% of checks | Tue around 05:00 | 2026-10-06 08:27 |
+| NLH €2/4 | 100% of checks | Tue around 05:00 | 2026-10-06 09:50 |
+| NLH €5/10 | 69% of checks | Tue around 05:00 | 2026-10-06 07:49 |
+| PLO5 €5/5 | 94% of checks | Tue around 05:00 | 2026-10-06 09:23 |
+| PLO5 €10/10 | 88% of checks | Tue around 05:00 | 2026-10-06 09:50 |
 
 ---
 Raw data: the `data` folder (one CSV file per month, opens in Excel). The tracker is `tracker.py`; its schedule is in `.github/workflows/track.yml`.
