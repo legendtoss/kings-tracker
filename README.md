@@ -2,10 +2,10 @@
 
 Checks [the live page](https://kings-resort.com/poker/live) about every 15 minutes and updates this page automatically. All times are **Czech time** (same as Poland).
 
-**Last check:** 2026-10-06 04:47 — ✅ OK  
-**Checks so far:** 2 successful out of 2 (since 2026-10-06)
+**Last check:** 2026-10-06 05:00 — ✅ OK  
+**Checks so far:** 3 successful out of 3 (since 2026-10-06)
 
-## What the page showed at 2026-10-06 04:47
+## What the page showed at 2026-10-06 05:00
 
 Cash Games counter: **6**
 
@@ -27,7 +27,7 @@ NO LIMIT TEXAS HOLD’EM
 8/8 PLAYERS
 NO LIMIT TEXAS HOLD’EM
 € 2/4
-8/8 PLAYERS
+7/8 PLAYERS
 ```
 
 ## Average number of running cash games, by hour
@@ -41,7 +41,7 @@ Taken from the *Cash Games* counter on the site. Bigger number = more action.
 | 02:00 | · | · | · | · | · | · | · | · |
 | 03:00 | · | · | · | · | · | · | · | · |
 | 04:00 | · | 6.0 | · | · | · | · | · | 6.0 |
-| 05:00 | · | · | · | · | · | · | · | · |
+| 05:00 | · | 6.0 | · | · | · | · | · | 6.0 |
 | 06:00 | · | · | · | · | · | · | · | · |
 | 07:00 | · | · | · | · | · | · | · | · |
 | 08:00 | · | · | · | · | · | · | · | · |
@@ -72,7 +72,7 @@ Taken from the *Cash Games* counter on the site. Bigger number = more action.
 | 02:00 | · | · | · | · | 0 |
 | 03:00 | · | · | · | · | 0 |
 | 04:00 | 🟩 100% | 🟩 100% | 🟩 100% | 🟩 100% | 2 |
-| 05:00 | · | · | · | · | 0 |
+| 05:00 | 🟩 100% | 🟩 100% | 🟩 100% | 🟩 100% | 1 |
 | 06:00 | · | · | · | · | 0 |
 | 07:00 | · | · | · | · | 0 |
 | 08:00 | · | · | · | · | 0 |
