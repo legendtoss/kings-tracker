@@ -2,10 +2,10 @@
 
 Checks King's live cash games about every 15 minutes and updates this page by itself. All times are **Czech time** (same as Poland).
 
-**Last check:** 2026-10-07 04:22 — ✅ OK (data feed)  
-**Last 24 h:** 70 of 70 checks OK · **Collecting since:** 2026-10-06 (70 good checks)
+**Last check:** 2026-10-07 04:49 — ✅ OK (data feed)  
+**Last 24 h:** 69 of 69 checks OK · **Collecting since:** 2026-10-06 (71 good checks)
 
-## Tables running at 2026-10-07 04:22
+## Tables running at 2026-10-07 04:49
 
 ```
 NLH   €2/4     7/8 players
@@ -33,7 +33,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 01:00 | · | · | 13 | · | · | · | · | 13 |
 | 02:00 | · | · | 14 | · | · | · | · | 14 |
 | 03:00 | · | · | 13 | · | · | · | · | 13 |
-| 04:00 | · | 18 | 10 | · | · | · | · | 14 |
+| 04:00 | · | 18 | 9 | · | · | · | · | 13 |
 | 05:00 | · | 13 | · | · | · | · | · | 13 |
 | 06:00 | · | 10 | · | · | · | · | · | 10 |
 | 07:00 | · | 8 | · | · | · | · | · | 8 |
@@ -62,7 +62,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 01:00 | · | · | 7 | · | · | · | · | 7 |
 | 02:00 | · | · | 6 | · | · | · | · | 6 |
 | 03:00 | · | · | 5 | · | · | · | · | 5 |
-| 04:00 | · | 24 | 4 | · | · | · | · | 14 |
+| 04:00 | · | 24 | 4 | · | · | · | · | 12 |
 | 05:00 | · | 22 | · | · | · | · | · | 22 |
 | 06:00 | · | 15 | · | · | · | · | · | 15 |
 | 07:00 | · | 12 | · | · | · | · | · | 12 |
@@ -122,7 +122,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 01:00 | 🟩 100% | 🟥 0% | 🟩 100% | 🟥 0% | 🟩 100% | 3 |
 | 02:00 | 🟩 100% | 🟥 0% | 🟩 100% | 🟥 0% | 🟨 67% | 3 |
 | 03:00 | 🟩 100% | 🟥 0% | 🟩 100% | 🟥 0% | 🟥 0% | 2 |
-| 04:00 | 🟩 100% | 🟨 50% | 🟩 100% | 🟨 50% | 🟥 0% | 4 |
+| 04:00 | 🟩 100% | 🟨 40% | 🟩 100% | 🟨 40% | 🟥 0% | 5 |
 | 05:00 | 🟩 100% | 🟩 100% | 🟩 100% | 🟩 100% | 🟥 0% | 3 |
 | 06:00 | 🟩 100% | 🟩 100% | 🟩 100% | 🟩 100% | 🟥 0% | 3 |
 | 07:00 | 🟩 100% | 🟩 100% | 🟩 100% | 🟩 100% | 🟥 0% | 3 |
@@ -147,10 +147,10 @@ Seated players at each game's tables. 0 = that game wasn't running.
 
 | Game | Running in | Most often | Last seen |
 |:--|--:|:--|:--|
-| NLH €2/4 | 100% of checks | Tue around 04:00 | 2026-10-07 04:22 |
-| NLH €5/10 | 16% of checks | Tue around 05:00 | 2026-10-06 07:49 |
-| PLO5 €5/5 | 79% of checks | Tue around 04:00 | 2026-10-07 04:22 |
-| PLO5 €10/10 | 83% of checks | Tue around 23:00 | 2026-10-07 00:59 |
+| NLH €2/4 | 100% of checks | Tue around 04:00 | 2026-10-07 04:49 |
+| NLH €5/10 | 15% of checks | Tue around 05:00 | 2026-10-06 07:49 |
+| PLO5 €5/5 | 79% of checks | Tue around 04:00 | 2026-10-07 04:49 |
+| PLO5 €10/10 | 82% of checks | Tue around 23:00 | 2026-10-07 00:59 |
 | MIX NLH /PLO €5/5 | 13% of checks | Wed around 00:00 | 2026-10-07 02:33 |
 
 ---
