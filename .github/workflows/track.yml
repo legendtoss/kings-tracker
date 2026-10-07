@@ -2,7 +2,7 @@ name: King's cash game tracker
 
 on:
   schedule:
-    - cron: "7,22,37,52 * * * *"   # every 15 min, away from GitHub's busy top of the hour
+    - cron: "3,13,23,33,43,53 * * * *"   # every 10 min, away from GitHub's busy top of the hour
   workflow_dispatch:                # adds a "Run workflow" button for a manual check
 
 permissions:
