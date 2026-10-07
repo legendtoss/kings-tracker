@@ -2,7 +2,7 @@
 """
 King's Resort Rozvadov - cash game tracker
 ==========================================
-Runs on GitHub Actions about every 15 minutes. Each run:
+Runs on GitHub Actions about every 10 minutes. Each run:
   1. reads the running cash tables from King's own data feed (the one their live page uses);
      if that ever fails, it opens the live page in a headless browser and reads it like a visitor,
   2. adds one line to data/YYYY-MM.csv (Czech local time),
@@ -10,7 +10,7 @@ Runs on GitHub Actions about every 15 minutes. Each run:
 
 Games are named the way the poker room's own system names them (NLH, PLO5, ...), so different
 games are never mixed together. If checks keep failing, the run reports an error and GitHub
-emails you (after about an hour, then at most once a day). Nothing here needs editing.
+emails you (after about an hour, then once a day). Nothing here needs editing.
 """
 
 import csv
@@ -32,7 +32,7 @@ PAGE_URL = os.environ.get("KINGS_URL", "https://kings-resort.com/poker/live")
 FEED_URL = os.environ.get("KINGS_FEED_URL", "https://admin.kings-resort.com/zeus/?data=cash_games_by_venue")
 VENUE = "1"                     # Rozvadov's number in the feed (Prague has another one)
 TZ = ZoneInfo("Europe/Prague")  # Rozvadov time = Warsaw time
-ALERT_AFTER = 4                 # failed checks in a row before GitHub emails you (about 1 hour)
+ALERT_AFTER = 6                 # failed checks in a row before GitHub emails you (about 1 hour)
 
 DATA_DIR = Path("data")
 README = Path("README.md")
@@ -419,7 +419,7 @@ def write_readme(rows, now):
     ok = [r for r in rows if r["status"] == "ok" and r["players"] != ""]
     checks = [(r, players_per_game(r)) for r in ok]
     out = ["# 🃏 King's Rozvadov — cash game tracker", "",
-           "Checks King's live cash games about every 15 minutes and updates this page by itself. "
+           "Checks King's live cash games about every 10 minutes and updates this page by itself. "
            "All times are **Czech time** (same as Poland).", ""]
 
     if rows:
@@ -540,6 +540,15 @@ def self_test():
         ("page table", 2, 15, "NLH €2/4 8/8; PLO5 €5/5 7/8"), old
 
 
+def should_alert(rows):
+    """Email-worthy: the first time ALERT_AFTER checks in a row have failed, then once a day
+    (on the first failed check of each new day) for as long as the problem lasts."""
+    streak = failure_streak(rows)
+    if streak < ALERT_AFTER:
+        return False
+    return streak == ALERT_AFTER or rows[-1]["time"][:10] != rows[-2]["time"][:10]
+
+
 def failure_streak(rows):
     streak = 0
     for r in reversed(rows):
@@ -573,9 +582,8 @@ def main():
     write_readme(rows, now)
     print(json.dumps(row, ensure_ascii=False))
 
-    streak = failure_streak(rows)
-    if streak >= ALERT_AFTER and (streak - ALERT_AFTER) % 96 == 0:  # after ~1 hour, then once a day
-        print(f"::error::{streak} checks in a row have failed. See README.md and debug/last_problem.json.")
+    if should_alert(rows):
+        print(f"::error::{failure_streak(rows)} checks in a row have failed. See README.md and debug/last_problem.json.")
         return 1
     return 0
 
