@@ -2,10 +2,10 @@
 
 Checks King's live cash games about every 15 minutes and updates this page by itself. All times are **Czech time** (same as Poland).
 
-**Last check:** 2026-10-07 17:05 — ✅ OK (data feed)  
-**Last 24 h:** 68 of 68 checks OK · **Collecting since:** 2026-10-06 (104 good checks)
+**Last check:** 2026-10-07 17:37 — ✅ OK (data feed)  
+**Last 24 h:** 67 of 67 checks OK · **Collecting since:** 2026-10-06 (105 good checks)
 
-## Tables running at 2026-10-07 17:05
+## Tables running at 2026-10-07 17:37
 
 ```
 NLH  €1/2     8/8 players
@@ -74,7 +74,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 14:00 | · | 9 | 0 | · | · | · | · | 5 |
 | 15:00 | · | 14 | 0 | · | · | · | · | 7 |
 | 16:00 | · | 15 | 0 | · | · | · | · | 8 |
-| 17:00 | · | 15 | 0 | · | · | · | · | 12 |
+| 17:00 | · | 15 | 0 | · | · | · | · | 9 |
 | 18:00 | · | 16 | · | · | · | · | · | 16 |
 | 19:00 | · | 16 | · | · | · | · | · | 16 |
 | 20:00 | · | 15 | · | · | · | · | · | 15 |
@@ -105,7 +105,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 14:00 | 🟨 50% | 🟨 50% | 🟥 0% | 🟥 17% | 🟨 50% | 🟥 0% | 🟥 0% | 6 |
 | 15:00 | 🟨 50% | 🟨 50% | 🟥 0% | 🟨 50% | 🟨 50% | 🟥 0% | 🟥 0% | 4 |
 | 16:00 | 🟨 50% | 🟨 50% | 🟥 0% | 🟨 50% | 🟨 50% | 🟥 0% | 🟥 0% | 6 |
-| 17:00 | 🟨 25% | 🟩 75% | 🟥 0% | 🟩 75% | 🟩 75% | 🟥 0% | 🟥 0% | 4 |
+| 17:00 | 🟨 40% | 🟨 60% | 🟥 0% | 🟨 60% | 🟨 60% | 🟥 0% | 🟥 0% | 5 |
 | 18:00 | 🟥 0% | 🟩 100% | 🟥 0% | 🟩 100% | 🟩 100% | 🟥 0% | 🟥 0% | 3 |
 | 19:00 | 🟥 0% | 🟩 100% | 🟥 0% | 🟩 100% | 🟩 100% | 🟥 0% | 🟥 0% | 3 |
 | 20:00 | 🟥 0% | 🟩 100% | 🟥 0% | 🟩 100% | 🟩 100% | 🟥 0% | 🟥 0% | 3 |
@@ -117,11 +117,11 @@ Seated players at each game's tables. 0 = that game wasn't running.
 
 | Game | Running in | Most often | Last seen |
 |:--|--:|:--|:--|
-| NLH €1/2 | 15% of checks | Wed around 12:00 | 2026-10-07 17:05 |
-| NLH €2/4 | 76% of checks | Tue around 05:00 | 2026-10-07 07:50 |
-| NLH €5/10 | 11% of checks | Tue around 05:00 | 2026-10-06 07:49 |
-| PLO5 €5/5 | 55% of checks | Tue around 04:00 | 2026-10-07 05:02 |
-| PLO5 €10/10 | 56% of checks | Tue around 23:00 | 2026-10-07 00:59 |
+| NLH €1/2 | 16% of checks | Wed around 12:00 | 2026-10-07 17:37 |
+| NLH €2/4 | 75% of checks | Tue around 05:00 | 2026-10-07 07:50 |
+| NLH €5/10 | 10% of checks | Tue around 05:00 | 2026-10-06 07:49 |
+| PLO5 €5/5 | 54% of checks | Tue around 04:00 | 2026-10-07 05:02 |
+| PLO5 €10/10 | 55% of checks | Tue around 23:00 | 2026-10-07 00:59 |
 | PLO5 €10/25 | 12% of checks | Wed around 06:00 | 2026-10-07 10:04 |
 | MIX NLH /PLO €5/5 | 9% of checks | Wed around 00:00 | 2026-10-07 02:33 |
 
