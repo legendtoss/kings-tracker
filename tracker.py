@@ -5,8 +5,9 @@ King's Resort Rozvadov - cash game tracker
 Runs on GitHub Actions about every 10 minutes. Each run:
   1. reads the running cash tables from King's own data feed (the one their live page uses);
      if that ever fails, it opens the live page in a headless browser and reads it like a visitor,
-  2. adds one line to data/YYYY-MM.csv (Czech local time),
-  3. rebuilds README.md with statistics per game.
+  2. also reads King's tournament clocks, to see how many tournament players are in action,
+  3. adds one line to data/YYYY-MM.csv (Czech local time),
+  4. rebuilds README.md with statistics per game and a cash-vs-tournament comparison.
 
 Games are named the way the poker room's own system names them (NLH, PLO5, ...), so different
 games are never mixed together. If checks keep failing, the run reports an error and GitHub
@@ -22,6 +23,7 @@ import sys
 import time
 import urllib.request
 from collections import Counter, defaultdict
+from functools import lru_cache
 from datetime import datetime, timedelta
 from pathlib import Path
 from zoneinfo import ZoneInfo
@@ -30,6 +32,7 @@ from zoneinfo import ZoneInfo
 
 PAGE_URL = os.environ.get("KINGS_URL", "https://kings-resort.com/poker/live")
 FEED_URL = os.environ.get("KINGS_FEED_URL", "https://admin.kings-resort.com/zeus/?data=cash_games_by_venue")
+CLOCKS_URL = os.environ.get("KINGS_CLOCKS_URL", "https://admin.kings-resort.com/zeus/?data=poker_clocks&venue=1")
 VENUE = "1"                     # Rozvadov's number in the feed (Prague has another one)
 TZ = ZoneInfo("Europe/Prague")  # Rozvadov time = Warsaw time
 ALERT_AFTER = 6                 # failed checks in a row before GitHub emails you (about 1 hour)
@@ -39,7 +42,8 @@ README = Path("README.md")
 PROBLEM_FILE = Path("debug/last_problem.json")
 OLD_DEBUG_FILE = Path("debug/last_page.json")  # written by earlier versions
 
-FIELDS = ["time", "weekday", "hour", "status", "source", "tables", "players", "games", "page_text"]
+FIELDS = ["time", "weekday", "hour", "status", "source", "tables", "players", "games",
+          "tourneys", "tourney_players", "tourney_list", "page_text"]
 DAYS = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
 UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
       "(KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36")
@@ -64,9 +68,14 @@ def clean(text, limit=40):
 
 def as_int(value):
     try:
-        return max(0, int(value))
-    except (TypeError, ValueError):
+        return max(0, int(float(value)))
+    except (TypeError, ValueError, OverflowError):
         return 0
+
+
+def norm_game(name):
+    """One spelling per game, also for data saved by older versions ('MIX NLH /PLO' -> 'MIX NLH/PLO')."""
+    return re.sub(r"\s*/\s*", "/", name).strip()
 
 
 def feed_game(t):
@@ -75,7 +84,7 @@ def feed_game(t):
     name = STAKES_IN_NAME.sub(" ", str((t.get("gameProfile") or {}).get("name") or ""))
     name = re.sub(r"(?i)\bPLO\s*(\d)[\s-]*cards?\b",
                   lambda m: "PLO" + ("" if m.group(1) == "4" else m.group(1)), name)
-    name = clean(name)
+    name = norm_game(clean(name))
     gtype = clean((t.get("gameType") or {}).get("name"))
     if name and len(name) <= 4 and name not in GAME_NAMES and gtype and gtype.lower() not in name.lower():
         name = clean(f"{name} ({gtype})")  # spell out short codes
@@ -111,14 +120,77 @@ def feed_entries(data):
     return entries
 
 
+@lru_cache(maxsize=None)
 def parse_games(games):
-    """'NLH €2/4 8/8; PLO5 €5/5 7/8' -> [('NLH', '2/4', 8, 8), ('PLO5', '5/5', 7, 8)]"""
+    """'NLH €2/4 8/8; PLO5 €5/5 7/8' -> (('NLH', '2/4', 8, 8), ('PLO5', '5/5', 7, 8))"""
     tables = []
     for entry in (games or "").split("; "):
         m = ENTRY_RE.match(entry.strip())
         if m:
-            tables.append((m.group(1), m.group(2), int(m.group(3)), int(m.group(4))))
-    return tables
+            tables.append((norm_game(m.group(1)), m.group(2), int(m.group(3)), int(m.group(4))))
+    return tuple(tables)
+
+
+# Tournaments in play are stored like  Daily Deepstack 40/62  (players still in / entries),
+# sometimes followed by the clock's status, e.g. [PAUSED].
+TOURNEY_RE = re.compile(r"^(.+?) (\d+)/(\d+)(?: \[[A-Z_]+\])?$")
+FINISHED = {"FINISHED", "ENDED", "CLOSED", "CANCELLED", "CANCELED", "COMPLETED"}
+LONG_PAUSE = timedelta(hours=2)  # a clock paused longer than this has stopped for the day
+
+
+def local_time(value):
+    try:
+        return datetime.fromisoformat(str(value)).replace(tzinfo=None)
+    except ValueError:
+        return None
+
+
+def paused_since(t):
+    """When the clock's current pause began (the earliest of nested pauses), or None."""
+    since, pause = None, t.get("activePause")
+    for _ in range(10):
+        if not isinstance(pause, dict):
+            break
+        start = local_time(pause.get("sinceTime"))
+        if start and (since is None or start < since):
+            since = start
+        pause = pause.get("previousPause")
+    return since
+
+
+def tournament_entries(data, now):
+    """Tournaments in play right now (started, not finished, players still in), or None if
+    the clock feed doesn't look right. Scheduled-but-not-started ones are left out."""
+    if not isinstance(data, list):
+        return None
+    local_now = now.replace(tzinfo=None)
+    entries = []
+    for t in data:
+        if not isinstance(t, dict):
+            continue
+        status = re.sub(r"[^A-Z_]", "", str(t.get("status") or "").upper())
+        active = as_int(t.get("activePlayers"))
+        start = local_time(t.get("start"))
+        if status in FINISHED or active == 0 or (start and start > local_now):
+            continue
+        since = paused_since(t) if (status == "PAUSED" or t.get("isPaused")) else None
+        if since and local_now - since > LONG_PAUSE:
+            continue  # e.g. Day 1 finished and chips bagged: nobody is playing
+        name = clean(t.get("fullName") or t.get("name") or "Tournament", 60)
+        entries.append(f"{name} {active}/{as_int(t.get('totalEntries'))}"
+                       + (f" [{status}]" if status and status != "RUNNING" else ""))
+    return entries
+
+
+@lru_cache(maxsize=None)
+def parse_tourneys(text):
+    """'Daily Deepstack 40/62; Day 1 84/565 [PAUSED]' -> (('Daily Deepstack', 40, 62), ('Day 1', 84, 565))"""
+    found = []
+    for entry in (text or "").split("; "):
+        m = TOURNEY_RE.match(entry.strip())
+        if m:
+            found.append((m.group(1), int(m.group(2)), int(m.group(3))))
+    return tuple(found)
 
 
 # The page's own table, used only when the feed can't be read:
@@ -163,9 +235,9 @@ def box_entries(box):
 
 # ---------------------------------------------------------------- reading King's
 
-def fetch_feed():
-    """King's own cash-game data: the small JSON file their live page loads."""
-    request = urllib.request.Request(FEED_URL, headers={
+def fetch_feed(url=None):
+    """King's own data (cash games by default): the small JSON files their live page loads."""
+    request = urllib.request.Request(url or FEED_URL, headers={
         "User-Agent": UA, "Accept": "application/json, text/plain, */*",
         "Origin": "https://kings-resort.com", "Referer": "https://kings-resort.com/"})
     with urllib.request.urlopen(request, timeout=30) as response:
@@ -285,6 +357,24 @@ def check():
     return "ok", source, entries, (box or "") if source == "page table" else "", problem
 
 
+def check_tournaments(now):
+    """(tournaments in play or None, error text). Tournament info is extra: if it can't be
+    read, the cash check still counts and the tournament columns are just left empty."""
+    error = ""
+    for attempt in (1, 2):
+        try:
+            entries = tournament_entries(fetch_feed(CLOCKS_URL), now)
+        except Exception as e:
+            error = short_error(e)
+            time.sleep(3)
+            continue
+        if entries is not None:
+            return entries, ""
+        error = "the tournament feed had an unexpected format"
+        break
+    return None, error
+
+
 # ---------------------------------------------------------------- saving
 
 def convert_old_row(r):
@@ -310,14 +400,17 @@ def convert_old_row(r):
 def migrate_old_files():
     """Bring CSV files from earlier versions up to date. Nothing is lost: old rows are converted
     and each file is replaced in one step, so a crash can't leave it half-written."""
+    for leftover in DATA_DIR.glob("*.tmp"):  # from a run that crashed mid-way
+        leftover.unlink()
     for path in sorted(DATA_DIR.glob("*.csv")):
-        with path.open(newline="", encoding="utf-8") as fh:
+        has_marker = path.read_bytes()[:3] == b"\xef\xbb\xbf"
+        with path.open(newline="", encoding="utf-8-sig") as fh:
             reader = csv.DictReader(fh)
-            if reader.fieldnames == FIELDS:
+            if reader.fieldnames == FIELDS and has_marker:
                 continue
             rows = [convert_old_row(r) for r in reader]
         tmp = path.with_suffix(".tmp")
-        with tmp.open("w", newline="", encoding="utf-8") as fh:
+        with tmp.open("w", newline="", encoding="utf-8-sig") as fh:
             writer = csv.DictWriter(fh, fieldnames=FIELDS, extrasaction="ignore")
             writer.writeheader()
             writer.writerows(rows)
@@ -328,7 +421,7 @@ def migrate_old_files():
 def append_row(now, row):
     path = DATA_DIR / f"{now:%Y-%m}.csv"
     new_file = not path.exists()
-    with path.open("a", newline="", encoding="utf-8") as fh:
+    with path.open("a", newline="", encoding="utf-8-sig" if new_file else "utf-8") as fh:
         writer = csv.DictWriter(fh, fieldnames=FIELDS)
         if new_file:
             writer.writeheader()
@@ -356,7 +449,7 @@ def save_problem(now, row, problem):
 def load_rows():
     rows = []
     for path in sorted(DATA_DIR.glob("*.csv")):
-        with path.open(newline="", encoding="utf-8") as fh:
+        with path.open(newline="", encoding="utf-8-sig") as fh:
             rows.extend(csv.DictReader(fh))
     return rows
 
@@ -398,13 +491,14 @@ def main_games(checks):
     return sorted(regular, key=lambda g: (game_order(g), -volume[g]))[:4]
 
 
-def busiest_slots(checks, game, top=3, min_checks=3):
-    total, count = defaultdict(float), defaultdict(int)
+def busiest_slots(checks, game, top=3, min_dates=2):
+    total, count, dates = defaultdict(float), defaultdict(int), defaultdict(set)
     for r, per_game in checks:
         slot = (r["weekday"], int(r["hour"]))
         total[slot] += per_game.get(game, 0)
         count[slot] += 1
-    slots = sorted(((total[s] / count[s], s) for s in count if count[s] >= min_checks), key=lambda x: -x[0])
+        dates[slot].add(r["time"][:10])
+    slots = sorted(((total[s] / count[s], s) for s in count if len(dates[s]) >= min_dates), key=lambda x: -x[0])
     return [f"{day} {hour:02d}:00 ({avg:.0f})" for avg, (day, hour) in slots[:top] if avg > 0]
 
 
@@ -419,7 +513,7 @@ def write_readme(rows, now):
     ok = [r for r in rows if r["status"] == "ok" and r["players"] != ""]
     checks = [(r, players_per_game(r)) for r in ok]
     out = ["# 🃏 King's Rozvadov — cash game tracker", "",
-           "Checks King's live cash games about every 10 minutes and updates this page by itself. "
+           "Checks King's live cash games and tournaments about every 10 minutes and updates this page by itself. "
            "All times are **Czech time** (same as Poland).", ""]
 
     if rows:
@@ -428,8 +522,12 @@ def write_readme(rows, now):
                  else f"⚠️ {clean(last['status'], 160)} — details in `debug/last_problem.json`")
         day_ago = (now - timedelta(hours=24)).strftime("%Y-%m-%d %H:%M")
         recent = [r for r in rows if r["time"] >= day_ago]
+        times = [datetime.strptime(r["time"], "%Y-%m-%d %H:%M") for r in recent]
+        gaps = [b - a for a, b in zip(times, times[1:])] or [timedelta(0)]
+        gap_min = int(max(gaps).total_seconds() // 60)
+        gap = f"longest gap {gap_min // 60} h {gap_min % 60} min" + (" (GitHub skipped runs)" if gap_min > 60 else "")
         out += [f"**Last check:** {last['time']} — {state}  ",
-                f"**Last 24 h:** {sum(r['status'] == 'ok' for r in recent)} of {len(recent)} checks OK · "
+                f"**Last 24 h:** {sum(r['status'] == 'ok' for r in recent)} of {len(recent)} checks OK, {gap} · "
                 f"**Collecting since:** {rows[0]['time'][:10]} ({len(ok)} good checks)", ""]
 
     if ok:
@@ -447,14 +545,20 @@ def write_readme(rows, now):
                     " · ".join(f"**{g}:** {p} players at {n} table{'s' * (n != 1)}" for g, (p, n) in totals), ""]
         else:
             out += ["No tables were running.", ""]
+        if latest.get("tourneys", "") != "":
+            running = parse_tourneys(latest["tourney_list"])
+            out += ["**Tournaments in play:** " + (" · ".join(f"{n} ({a} of {e} left)" for n, a, e in running)
+                                                   if running else "none"), ""]
+        else:
+            out += ["**Tournaments:** couldn't be read at this check (cash data is unaffected).", ""]
 
     games = main_games(checks) if checks else []
 
     # Quick answer first: when is each main game busiest?
     out += ["## Busiest times so far", ""]
     lines = [f"- **{g}:** " + " · ".join(slots) for g in games if (slots := busiest_slots(checks, g))]
-    out += (["Day, hour and average seated players (only day-hour slots with at least 3 checks).", "", *lines]
-            if lines else ["Needs about a week of data: every day-and-hour slot needs at least 3 checks."])
+    out += (["Day, hour and average seated players (only day-hour slots seen on at least 2 different dates).", "", *lines]
+            if lines else ["Needs about two weeks of data: each day-and-hour slot must be seen on at least 2 dates."])
     out.append("")
 
     # One table per main game: average seated players by hour and weekday
@@ -494,6 +598,27 @@ def write_readme(rows, now):
         out.append("No games seen yet.")
     out.append("")
 
+    # Do cash games get busier when tournaments are running?
+    with_t = [r for r in ok if r.get("tourney_players", "") != ""]
+    if with_t:
+        by_hour = defaultdict(list)
+        for r in ok:
+            by_hour[int(r["hour"])].append(int(r["players"]))
+        usual = {h: sum(v) / len(v) for h, v in by_hour.items()}
+        out += ["## Cash games vs tournaments", "",
+                "Cash players grouped by how many players were still in tournaments at the time. "
+                "\"vs usual\" compares each check with the average for the same hour of day, so the "
+                "normal evening rush doesn't fake a link. It needs a few weeks of data to mean much.", "",
+                "| Tournament players in action | Checks | Avg cash players | vs usual for that hour |",
+                "|:--|--:|--:|--:|"]
+        for label, low, high in (("none", 0, 0), ("1–49", 1, 49), ("50–149", 50, 149), ("150 or more", 150, 10**9)):
+            group = [r for r in with_t if low <= int(r["tourney_players"]) <= high]
+            if group:
+                avg = sum(int(r["players"]) for r in group) / len(group)
+                diff = sum(int(r["players"]) - usual[int(r["hour"])] for r in group) / len(group)
+                out.append(f"| {label} | {len(group)} | {avg:.0f} | {diff:+.0f} |")
+        out.append("")
+
     # Every game + stake ever seen, rare ones included
     appearances = defaultdict(list)
     for r, labels in labelled:
@@ -503,13 +628,13 @@ def write_readme(rows, now):
         out += ["## All games seen", "", "| Game | Running in | Most often | Last seen |", "|:--|--:|:--|:--|"]
         for label in sorted(appearances, key=label_key):
             seen_rows = appearances[label]
-            day = Counter(r["weekday"] for r in seen_rows).most_common(1)[0][0]
-            hour = Counter(int(r["hour"]) for r in seen_rows).most_common(1)[0][0]
+            day, hour = Counter((r["weekday"], int(r["hour"])) for r in seen_rows).most_common(1)[0][0]
             out.append(f"| {label} | {round(100 * len(seen_rows) / len(ok))}% of checks "
                        f"| {day} around {hour:02d}:00 | {seen_rows[-1]['time']} |")
         out.append("")
 
-    out += ["---", "Raw data: the `data` folder (one CSV file per month, opens in Excel). "
+    out += ["---", "Raw data: the `data` folder, one CSV file per month. To open one in Excel, use "
+            "Data → From Text/CSV (double-clicking puts everything in one column in Polish Excel). "
             "The tracker is `tracker.py`; its schedule is in `.github/workflows/track.yml`."]
     README.write_text("\n".join(out) + "\n", encoding="utf-8")
 
@@ -529,7 +654,7 @@ def self_test():
     assert got == ["NLH €2/4 7/8", "PLO5 €10/10 8/8", "SD (Short Deck) €25/50 5/8 [WAITING]",
                    "PLO €5/5 3/8", "X b Y €5/10 0/8"], got
     assert feed_entries({"error": "x"}) is None and feed_entries([]) == []
-    assert parse_games("; ".join(got[:3])) == [("NLH", "2/4", 7, 8), ("PLO5", "10/10", 8, 8),
+    assert list(parse_games("; ".join(got[:3]))) == [("NLH", "2/4", 7, 8), ("PLO5", "10/10", 8, 8),
                                                ("SD (Short Deck)", "25/50", 5, 8)]
     box = "NO LIMIT TEXAS HOLD’EM | € 2/4 | 8/8 PLAYERS | POT-LIMIT OMAHA 5 CARDS | € 5/5 | 7/8 PLAYERS"
     assert box_entries(box) == ["NLH €2/4 8/8", "PLO5 €5/5 7/8"], box_entries(box)
@@ -538,6 +663,21 @@ def self_test():
     old = convert_old_row({"time": "2026-10-06 04:40", "weekday": "Tue", "hour": "4", "status": "ok", "box_text": box})
     assert (old["source"], old["tables"], old["players"], old["games"]) == \
         ("page table", 2, 15, "NLH €2/4 8/8; PLO5 €5/5 7/8"), old
+    clocks = [{"fullName": "Daily | Deepstack", "status": "RUNNING", "start": "2026-10-08T18:00:00", "activePlayers": 40, "totalEntries": 62},
+              {"fullName": "Main Event - Final Day", "status": "REGISTRATION_OPEN", "start": "2026-10-08T23:00:00", "activePlayers": 85, "totalEntries": 565},
+              {"fullName": "Main Event - Day 1", "status": "PAUSED", "start": "2026-10-07T18:00:00", "activePlayers": 84, "totalEntries": 565},
+              {"fullName": "Turbo", "status": "FINISHED", "start": "2026-10-08T12:00:00", "activePlayers": 1, "totalEntries": 30}]
+    got = tournament_entries(clocks, datetime(2026, 10, 8, 20, 0, tzinfo=TZ))
+    assert got == ["Daily Deepstack 40/62", "Main Event - Day 1 84/565 [PAUSED]"], got
+    assert list(parse_tourneys("; ".join(got))) == [("Daily Deepstack", 40, 62), ("Main Event - Day 1", 84, 565)]
+    assert tournament_entries({"x": 1}, datetime(2026, 10, 8, tzinfo=TZ)) is None
+    bagged = {"fullName": "Day 1", "status": "PAUSED", "start": "2026-10-07T18:00:00", "activePlayers": 84,
+              "totalEntries": 565, "activePause": {"sinceTime": "2026-10-08T17:30:00.5",
+                                                   "previousPause": {"sinceTime": "2026-10-08T17:00:00"}}}
+    assert tournament_entries([bagged], datetime(2026, 10, 8, 18, 30, tzinfo=TZ)) == ["Day 1 84/565 [PAUSED]"]
+    assert tournament_entries([bagged], datetime(2026, 10, 8, 19, 30, tzinfo=TZ)) == []
+    assert parse_games("MIX NLH /PLO €5/5 6/8") == (("MIX NLH/PLO", "5/5", 6, 8),)
+    assert as_int("7.0") == 7 and as_int(None) == 0 and as_int("x") == 0
 
 
 def should_alert(rows):
@@ -570,11 +710,17 @@ def main():
     migrate_old_files()
 
     status, source, entries, page_text, problem = check()
+    tourneys, tourney_error = check_tournaments(now)
+    if tourney_error:
+        problem = {**(problem or {}), "tournaments": tourney_error}
     row = {"time": f"{now:%Y-%m-%d %H:%M}", "weekday": DAYS[now.weekday()], "hour": now.hour,
            "status": status, "source": source,
            "tables": len(entries) if entries is not None else "",
            "players": sum(t[2] for t in parse_games("; ".join(entries))) if entries is not None else "",
-           "games": "; ".join(entries or []), "page_text": page_text[:3000]}
+           "games": "; ".join(entries or []),
+           "tourneys": len(tourneys) if tourneys is not None else "",
+           "tourney_players": sum(a for _, a, _ in parse_tourneys("; ".join(tourneys))) if tourneys is not None else "",
+           "tourney_list": "; ".join(tourneys or []), "page_text": page_text[:3000]}
     append_row(now, row)
     save_problem(now, row, problem)
 
