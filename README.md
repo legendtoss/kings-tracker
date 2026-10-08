@@ -1,25 +1,26 @@
 # 🃏 King's Rozvadov — cash game tracker
 
-Checks King's live cash games about every 10 minutes and updates this page by itself. All times are **Czech time** (same as Poland).
+Checks King's live cash games and tournaments about every 10 minutes and updates this page by itself. All times are **Czech time** (same as Poland).
 
-**Last check:** 2026-10-08 16:35 — ✅ OK (data feed)  
-**Last 24 h:** 46 of 46 checks OK · **Collecting since:** 2026-10-06 (148 good checks)
+**Last check:** 2026-10-08 22:09 — ✅ OK (data feed)  
+**Last 24 h:** 33 of 33 checks OK, longest gap 7 h 31 min (GitHub skipped runs) · **Collecting since:** 2026-10-06 (149 good checks)
 
-## Tables running at 2026-10-08 16:35
+## Tables running at 2026-10-08 22:09
 
 ```
-NLH  €1/2     8/8 players
-NLH  €1/2     8/8 players
-PLO  €2/2     1/8 players
+NLH   €1/2     8/8 players
+NLH   €1/2     8/8 players
+NLH   €2/4     8/8 players
+NLH   €5/10    4/8 players
+PLO5  €5/5     5/8 players
 ```
-**NLH:** 16 players at 2 tables · **PLO:** 1 players at 1 table
+**NLH:** 28 players at 4 tables · **PLO5:** 5 players at 1 table
+
+**Tournaments in play:** GPD Mystery Bounty - Day 1B (66 of 163 left) · Satellite to GPD ME - Day 1C (34 of 50 left)
 
 ## Busiest times so far
 
-Day, hour and average seated players (only day-hour slots with at least 3 checks).
-
-- **NLH:** Wed 22:00 (26) · Wed 23:00 (24) · Tue 19:00 (22)
-- **PLO5:** Tue 05:00 (22) · Tue 23:00 (17) · Tue 18:00 (16)
+Needs about two weeks of data: each day-and-hour slot must be seen on at least 2 dates.
 
 ## Average players by hour
 
@@ -51,7 +52,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 19:00 | · | 22 | 16 | · | · | · | · | 20 |
 | 20:00 | · | 18 | 20 | · | · | · | · | 19 |
 | 21:00 | · | 20 | 27 | · | · | · | · | 23 |
-| 22:00 | · | 16 | 26 | · | · | · | · | 22 |
+| 22:00 | · | 16 | 26 | 28 | · | · | · | 23 |
 | 23:00 | · | 16 | 24 | · | · | · | · | 19 |
 
 ### 5-card Pot-Limit Omaha (PLO5)
@@ -80,14 +81,14 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 19:00 | · | 16 | 0 | · | · | · | · | 9 |
 | 20:00 | · | 15 | 0 | · | · | · | · | 7 |
 | 21:00 | · | 16 | 2 | · | · | · | · | 10 |
-| 22:00 | · | 16 | 6 | · | · | · | · | 10 |
+| 22:00 | · | 16 | 6 | 5 | · | · | · | 9 |
 | 23:00 | · | 17 | 7 | · | · | · | · | 13 |
 
 ## How often each game was running, by hour (all days)
 
 🟩 most of the time · 🟨 sometimes · 🟥 rarely
 
-| Hour | NLH €1/2 | NLH €2/4 | NLH €5/10 | PLO €2/2 | PLO5 €5/5 | PLO5 €10/10 | PLO5 €10/25 | MIX NLH /PLO €5/5 | Checks |
+| Hour | NLH €1/2 | NLH €2/4 | NLH €5/10 | PLO €2/2 | PLO5 €5/5 | PLO5 €10/10 | PLO5 €10/25 | MIX NLH/PLO €5/5 | Checks |
 |:--|--:|--:|--:|--:|--:|--:|--:|--:|--:|
 | 00:00 | 🟨 50% | 🟩 100% | 🟥 0% | 🟥 0% | 🟩 100% | 🟨 50% | 🟥 0% | 🟨 50% | 6 |
 | 01:00 | 🟨 57% | 🟩 100% | 🟥 0% | 🟥 0% | 🟨 43% | 🟥 0% | 🟥 0% | 🟨 43% | 7 |
@@ -111,21 +112,29 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 19:00 | 🟨 40% | 🟩 100% | 🟥 0% | 🟥 0% | 🟨 60% | 🟨 60% | 🟥 0% | 🟥 0% | 5 |
 | 20:00 | 🟨 50% | 🟩 100% | 🟥 0% | 🟥 0% | 🟨 50% | 🟨 50% | 🟥 0% | 🟥 0% | 6 |
 | 21:00 | 🟨 40% | 🟩 100% | 🟥 0% | 🟥 0% | 🟩 80% | 🟨 60% | 🟥 0% | 🟥 0% | 5 |
-| 22:00 | 🟨 60% | 🟩 100% | 🟥 0% | 🟥 0% | 🟩 100% | 🟨 40% | 🟥 0% | 🟥 0% | 5 |
+| 22:00 | 🟨 67% | 🟩 100% | 🟥 17% | 🟥 0% | 🟩 100% | 🟨 33% | 🟥 0% | 🟥 0% | 6 |
 | 23:00 | 🟨 43% | 🟩 100% | 🟥 0% | 🟥 0% | 🟩 100% | 🟨 57% | 🟥 0% | 🟥 14% | 7 |
+
+## Cash games vs tournaments
+
+Cash players grouped by how many players were still in tournaments at the time. "vs usual" compares each check with the average for the same hour of day, so the normal evening rush doesn't fake a link. It needs a few weeks of data to mean much.
+
+| Tournament players in action | Checks | Avg cash players | vs usual for that hour |
+|:--|--:|--:|--:|
+| 50–149 | 1 | 33 | +1 |
 
 ## All games seen
 
 | Game | Running in | Most often | Last seen |
 |:--|--:|:--|:--|
-| NLH €1/2 | 28% of checks | Wed around 16:00 | 2026-10-08 16:35 |
-| NLH €2/4 | 82% of checks | Tue around 04:00 | 2026-10-08 09:04 |
-| NLH €5/10 | 7% of checks | Tue around 05:00 | 2026-10-06 07:49 |
+| NLH €1/2 | 28% of checks | Thu around 01:00 | 2026-10-08 22:09 |
+| NLH €2/4 | 82% of checks | Tue around 23:00 | 2026-10-08 22:09 |
+| NLH €5/10 | 8% of checks | Tue around 05:00 | 2026-10-08 22:09 |
 | PLO €2/2 | 1% of checks | Thu around 16:00 | 2026-10-08 16:35 |
-| PLO5 €5/5 | 45% of checks | Tue around 23:00 | 2026-10-08 00:47 |
+| PLO5 €5/5 | 46% of checks | Tue around 23:00 | 2026-10-08 22:09 |
 | PLO5 €10/10 | 39% of checks | Tue around 23:00 | 2026-10-07 00:59 |
 | PLO5 €10/25 | 9% of checks | Wed around 06:00 | 2026-10-07 10:04 |
-| MIX NLH /PLO €5/5 | 6% of checks | Wed around 00:00 | 2026-10-07 02:33 |
+| MIX NLH/PLO €5/5 | 6% of checks | Wed around 00:00 | 2026-10-07 02:33 |
 
 ---
-Raw data: the `data` folder (one CSV file per month, opens in Excel). The tracker is `tracker.py`; its schedule is in `.github/workflows/track.yml`.
+Raw data: the `data` folder, one CSV file per month. To open one in Excel, use Data → From Text/CSV (double-clicking puts everything in one column in Polish Excel). The tracker is `tracker.py`; its schedule is in `.github/workflows/track.yml`.
