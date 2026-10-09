@@ -7,7 +7,10 @@ Runs on GitHub Actions about every 10 minutes. Each run:
      if that ever fails, it opens the live page in a headless browser and reads it like a visitor,
   2. also reads King's tournament clocks, to see how many tournament players are in action,
   3. adds one line to data/YYYY-MM.csv (Czech local time),
-  4. rebuilds README.md with statistics per game and a cash-vs-tournament comparison.
+  4. rebuilds README.md with statistics per game and a cash-vs-tournament comparison,
+  5. also checks Banco Casino Bratislava and the Šamorín casino (data/banco/ + BANCO.md,
+     data/samorin/ + SAMORIN.md). Those are kept fully separate, so a problem with their
+     websites can never affect the King's data.
 
 Games are named the way the poker room's own system names them (NLH, PLO5, ...), so different
 games are never mixed together. If checks keep failing, the run reports an error and GitHub
@@ -21,6 +24,7 @@ import re
 import subprocess
 import sys
 import time
+import urllib.parse
 import urllib.request
 from collections import Counter, defaultdict
 from functools import lru_cache
@@ -38,6 +42,12 @@ TZ = ZoneInfo("Europe/Prague")  # Rozvadov time = Warsaw time
 ALERT_AFTER = 6                 # failed checks in a row before GitHub emails you (about 1 hour)
 
 DATA_DIR = Path("data")
+SITE_FIELDS = ["time", "weekday", "hour", "status", "cash_text", "tournament_text"]
+# Slovak rooms read from their web pages: (folder name, display name, page address, results page)
+SITES = (("banco", "Banco Casino Bratislava", os.environ.get("BANCO_URL", "https://bancocasino.sk/ba/en"), Path("BANCO.md")),
+         ("samorin", "Kajot Casino Šamorín", os.environ.get("SAMORIN_URL", "https://bancocasino.sk/ba/en/casino-samorin"),
+          Path("SAMORIN.md")))
+SKIP_HOSTS = ("google", "facebook", "doubleclick", "hotjar", "twitch", "youtube", "gstatic", "cookiebot", "instagram")
 README = Path("README.md")
 PROBLEM_FILE = Path("debug/last_problem.json")
 OLD_DEBUG_FILE = Path("debug/last_page.json")  # written by earlier versions
@@ -64,6 +74,11 @@ STAKES_IN_NAME = re.compile(r"\d+(?:[.,]\d+)?(?:\s*[-/]\s*\d+(?:[.,]\d+)?)+")
 def clean(text, limit=40):
     """Plain text that can't break the CSV or the README tables (no | ; [ ] < > ` * #)."""
     return " ".join(UNSAFE.sub(" ", str(text or "")).split())[:limit]
+
+
+def shown(text, limit=80):
+    """Like clean(), but keeps € signs - for text that is only displayed, never parsed."""
+    return " ".join(re.sub(r"[^\w\s'’()+\-/.,:&€]", " ", str(text or "")).split())[:limit]
 
 
 def as_int(value):
@@ -284,14 +299,28 @@ BOX_HTML_JS = r"""() => {
 }"""
 
 
+def load_playwright():
+    """The browser tools, installed only when they're actually needed."""
+    try:
+        from playwright.sync_api import sync_playwright, TimeoutError as PWTimeout
+    except ImportError:
+        subprocess.run([sys.executable, "-m", "pip", "install", "-q", "playwright"], check=True)
+        from playwright.sync_api import sync_playwright, TimeoutError as PWTimeout
+    return sync_playwright, PWTimeout
+
+
+def open_browser(p):
+    try:
+        return p.chromium.launch(channel="chrome")  # GitHub's machines already have Chrome
+    except Exception:
+        subprocess.run([sys.executable, "-m", "playwright", "install", "--with-deps", "chromium"], check=True)
+        return p.chromium.launch()
+
+
 def browser_check():
     """Open the live page like a visitor (slow, so only used when the feed fails).
     Returns (entries or None, source, box text, details for debugging)."""
-    try:
-        from playwright.sync_api import sync_playwright, TimeoutError as PWTimeout
-    except ImportError:  # installed only when it's actually needed
-        subprocess.run([sys.executable, "-m", "pip", "install", "-q", "playwright"], check=True)
-        from playwright.sync_api import sync_playwright, TimeoutError as PWTimeout
+    sync_playwright, PWTimeout = load_playwright()
 
     responses = []
 
@@ -300,11 +329,7 @@ def browser_check():
             responses.append(response)
 
     with sync_playwright() as p:
-        try:
-            browser = p.chromium.launch(channel="chrome")  # GitHub's machines already have Chrome
-        except Exception:
-            subprocess.run([sys.executable, "-m", "playwright", "install", "--with-deps", "chromium"], check=True)
-            browser = p.chromium.launch()
+        browser = open_browser(p)
         page = browser.new_page(user_agent=UA, locale="en-US", viewport={"width": 1366, "height": 900})
         page.on("response", remember_feed)
         for attempt in (1, 2):
@@ -344,6 +369,79 @@ def browser_check():
     if box is None or not loaded:
         return None, "page table", box, details
     return box_entries(box), "page table", box, details
+
+
+def page_section(text, start, ends, limit=3000):
+    """Text of one section of a page (from a heading to the next one), lines joined by ' | '."""
+    low = text.lower()
+    a = low.find(start)
+    if a < 0:
+        return None
+    a += len(start)
+    end = min([i for i in (low.find(k, a) for k in ends) if i != -1] + [a + limit])
+    lines = (ln.strip() for ln in re.split(r"[\n\t]+", text[a:end]))
+    return " | ".join(ln for ln in lines if ln)
+
+
+SECTION_HTML_JS = r"""(title) => {
+  const head = Array.from(document.querySelectorAll('h1,h2,h3,h4,h5'))
+    .find(e => (e.textContent || '').trim().toLowerCase() === title);
+  return head && head.parentElement ? head.parentElement.outerHTML.slice(0, 30000) : null;
+}"""
+
+
+def sites_check():
+    """Open each Slovak room's page like a visitor and read its live 'Cash games' and 'Poker
+    tournaments' boxes. Returns {folder: (cash text, tournament text, details) or an Exception}."""
+    sync_playwright, PWTimeout = load_playwright()
+    results = {}
+    with sync_playwright() as p:
+        browser = open_browser(p)
+        for key, _, url, _ in SITES:
+            try:
+                results[key] = read_site(browser, url, PWTimeout)
+            except Exception as e:  # one site failing doesn't stop the others
+                results[key] = e
+        browser.close()
+    return results
+
+
+def read_site(browser, url, PWTimeout):
+    responses = []
+
+    def remember(response):
+        host = urllib.parse.urlparse(response.url).hostname or ""
+        if (response.request.resource_type in ("xhr", "fetch") and len(responses) < 30
+                and not any(skip in host for skip in SKIP_HOSTS)):
+            responses.append(response)
+
+    page = browser.new_page(user_agent=UA, locale="en-US", viewport={"width": 1366, "height": 900})
+    try:
+        page.on("response", remember)
+        page.goto(url, wait_until="domcontentloaded", timeout=60_000)
+        try:
+            page.get_by_text("Confirm", exact=True).first.click(timeout=3_000)  # the 18+ notice
+        except Exception:
+            pass
+        try:
+            page.wait_for_load_state("networkidle", timeout=20_000)
+        except PWTimeout:
+            pass
+        page.wait_for_timeout(3_000)
+        text = page.inner_text("body")
+        cash_html = page.evaluate(SECTION_HTML_JS, "cash games")
+        bodies = []
+        for response in responses:
+            try:
+                bodies.append({"url": response.url, "status": response.status, "body": response.text()[:20000]})
+            except Exception:
+                pass
+    finally:
+        page.close()
+
+    cash = page_section(text, "cash games", ("poker tournaments", "banco promotions"))
+    tournaments = page_section(text, "poker tournaments", ("banco promotions", "jackpot"), 1500)
+    return cash, tournaments, {"page_text_start": text[:6000], "cash_box_html": cash_html, "data_requests": bodies}
 
 
 def short_error(e):
@@ -464,6 +562,80 @@ def save_problem(now, row, problem):
     PROBLEM_FILE.write_text(json.dumps(payload, ensure_ascii=False, indent=1), encoding="utf-8")
 
 
+def record_sites(now):
+    """One check of each Slovak room, each saved to data/<folder>/YYYY-MM.csv.
+    Never raises: these sites can't break the King's tracking."""
+    try:
+        results = sites_check()
+    except Exception as e:  # e.g. the browser couldn't start
+        results = {key: e for key, *_ in SITES}
+    return {key: record_site(now, key, name, url, page, results.get(key)) for key, name, url, page in SITES}
+
+
+def record_site(now, key, name, url, page_path, result):
+    row = {"time": f"{now:%Y-%m-%d %H:%M}", "weekday": DAYS[now.weekday()], "hour": now.hour,
+           "status": "", "cash_text": "", "tournament_text": ""}
+    details = {}
+    if isinstance(result, Exception) or result is None:
+        row["status"] = f"error: {short_error(result)}" if result else "error: not checked"
+    else:
+        cash, tournaments, details = result
+        row["status"] = "ok" if cash is not None else "error: the 'Cash games' box wasn't found"
+        row["cash_text"] = (cash or "")[:3000]
+        row["tournament_text"] = (tournaments or "")[:1500]
+    try:
+        folder = DATA_DIR / key
+        debug_file = Path(f"debug/{key}_page.json")
+        folder.mkdir(parents=True, exist_ok=True)
+        path = folder / f"{now:%Y-%m}.csv"
+        new_file = not path.exists()
+        with path.open("a", newline="", encoding="utf-8-sig" if new_file else "utf-8") as fh:
+            writer = csv.DictWriter(fh, fieldnames=SITE_FIELDS)
+            if new_file:
+                writer.writeheader()
+            writer.writerow(row)
+        # raw copy of what the page loaded: first run, then every 6 h or when the status changes
+        try:
+            old = json.loads(debug_file.read_text(encoding="utf-8"))
+            fresh = old.get("status") == row["status"] and \
+                now - datetime.fromisoformat(old["saved_at"]) < timedelta(hours=6)
+        except (OSError, ValueError, KeyError):
+            fresh = False
+        if details and not fresh:
+            debug_file.parent.mkdir(exist_ok=True)
+            debug_file.write_text(json.dumps({"saved_at": now.isoformat(timespec="seconds"), "status": row["status"],
+                                              "url": url, **details}, ensure_ascii=False, indent=1), encoding="utf-8")
+        write_site_page(key, name, url, page_path)
+    except Exception as e:
+        print(f"{name} could not be saved: {short_error(e)}")
+    return row
+
+
+def write_site_page(key, name, url, page_path):
+    rows = []
+    for path in sorted((DATA_DIR / key).glob("*.csv")):
+        with path.open(newline="", encoding="utf-8-sig") as fh:
+            rows.extend(csv.DictReader(fh))
+    ok = [r for r in rows if r["status"] == "ok"]
+    out = [f"# 🃏 {name} — cash game tracker", "",
+           f"Checks [its page on Banco's website]({url}) together with King's, about every 10 minutes. "
+           "All times are **Czech time** (same as Poland and Slovakia). Back to [King's](README.md).", ""]
+    if rows:
+        last = rows[-1]
+        state = "✅ OK" if last["status"] == "ok" else f"⚠️ {clean(last['status'], 160)}"
+        out += [f"**Last check:** {last['time']} — {state}  ",
+                f"**Checks so far:** {len(ok)} successful out of {len(rows)} (since {rows[0]['time'][:10]})", ""]
+    if ok:
+        latest = ok[-1]
+        lines = [shown(x) for x in latest["cash_text"].split(" | ") if x][:40] or ["(no cash games listed)"]
+        out += [f"## Cash games on the site at {latest['time']}", "", "```", *lines, "```", "",
+                f"**Tournaments:** {shown(latest['tournament_text'], 300) or 'none listed'}", ""]
+    out += ["---", "First version: the lists are saved exactly as the site shows them. Statistics per game "
+            "and hour (like on the King's page) are added once a day of data shows the site's format.",
+            f"Raw data: `data/{key}` (one CSV file per month)."]
+    page_path.write_text("\n".join(out) + "\n", encoding="utf-8")
+
+
 def load_rows():
     rows = []
     for path in sorted(DATA_DIR.glob("*.csv")):
@@ -532,7 +704,8 @@ def write_readme(rows, now):
     checks = [(r, players_per_game(r)) for r in ok]
     out = ["# 🃏 King's Rozvadov — cash game tracker", "",
            "Checks King's live cash games and tournaments about every 10 minutes and updates this page by itself. "
-           "All times are **Czech time** (same as Poland).", ""]
+           "All times are **Czech time** (same as Poland). Also tracking: [Banco Casino Bratislava](BANCO.md) · "
+           "[Kajot Casino Šamorín](SAMORIN.md).", ""]
 
     if rows:
         last = rows[-1]
@@ -738,6 +911,9 @@ def self_test():
                                       "Pot-Limit Omaha Deepstack", "NLH/PLO Mix", "Short Deck Special")] == \
         ["NLH", "NLH", "PLO", "PLO", "Mixed", "Short Deck"]
     assert [family(g) for g in ("NLH", "PLO5", "PLO", "MIX NLH/PLO")] == ["NLH", "PLO", "PLO", "Other"]
+    page = "Cash Game\nCash games\nNLH\t1/2\t8\nPLO\t2/2\t6\nPoker tournaments\nCurrently we do not play any tournaments\nBanco promotions"
+    assert page_section(page, "cash games", ("poker tournaments",)) == "NLH | 1/2 | 8 | PLO | 2/2 | 6"
+    assert page_section(page, "poker tournaments", ("banco promotions",)) == "Currently we do not play any tournaments"
 
 
 def should_alert(rows):
@@ -787,6 +963,8 @@ def main():
     rows = load_rows()
     write_readme(rows, now)
     print(json.dumps(row, ensure_ascii=False))
+    for key, site_row in record_sites(now).items():
+        print(f"{key}:", json.dumps(site_row, ensure_ascii=False)[:200])
 
     if should_alert(rows):
         print(f"::error::{failure_streak(rows)} checks in a row have failed. See README.md and debug/last_problem.json.")
