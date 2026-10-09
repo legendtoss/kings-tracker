@@ -1,9 +1,9 @@
 name: King's cash game tracker
 
 on:
+  workflow_dispatch:                # started every 10 min by cron-job.org (and by the "Run workflow" button)
   schedule:
-    - cron: "3,13,23,33,43,53 * * * *"   # every 10 min, away from GitHub's busy top of the hour
-  workflow_dispatch:                # adds a "Run workflow" button for a manual check
+    - cron: "17 * * * *"            # hourly backup in case the outside timer ever stops
 
 permissions:
   contents: write                   # lets the job save its results into this repository
