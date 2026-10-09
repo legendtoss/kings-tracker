@@ -2,10 +2,10 @@
 
 Checks King's live cash games and tournaments about every 10 minutes and updates this page by itself. All times are **Czech time** (same as Poland).
 
-**Last check:** 2026-10-09 22:20 — ✅ OK (data feed)  
-**Last 24 h:** 41 of 41 checks OK, longest gap 7 h 12 min (GitHub skipped runs) · **Collecting since:** 2026-10-06 (190 good checks)
+**Last check:** 2026-10-09 22:30 — ✅ OK (data feed)  
+**Last 24 h:** 42 of 42 checks OK, longest gap 7 h 12 min (GitHub skipped runs) · **Collecting since:** 2026-10-06 (191 good checks)
 
-## Tables running at 2026-10-09 22:20
+## Tables running at 2026-10-09 22:30
 
 ```
 NLH   €1/2     8/8 players
@@ -16,11 +16,11 @@ NLH   €1/2     8/8 players
 NLH   €1/2     8/8 players
 NLH   €2/4     8/8 players
 PLO   €2/2     8/8 players
-PLO5  €5/5     7/8 players
+PLO5  €10/10   8/8 players
 ```
-**NLH:** 55 players at 7 tables · **PLO:** 8 players at 1 table · **PLO5:** 7 players at 1 table
+**NLH:** 55 players at 7 tables · **PLO:** 8 players at 1 table · **PLO5:** 8 players at 1 table
 
-**Tournaments in play:** GPD Mystery Bounty - Day 1D (105 of 190 left) · RENEMASTERMIX Friday Bounty (25 BOUNTY) (170 of 252 left)
+**Tournaments in play:** GPD Mystery Bounty - Day 1D (105 of 190 left) · RENEMASTERMIX Friday Bounty (25 BOUNTY) (169 of 266 left)
 
 ## Busiest times so far
 
@@ -56,7 +56,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 19:00 | · | 22 | 16 | · | 46 | · | · | 34 |
 | 20:00 | · | 18 | 20 | · | 47 | · | · | 33 |
 | 21:00 | · | 20 | 27 | · | 42 | · | · | 33 |
-| 22:00 | · | 16 | 26 | 28 | 53 | · | · | 35 |
+| 22:00 | · | 16 | 26 | 28 | 53 | · | · | 37 |
 | 23:00 | · | 16 | 24 | · | · | · | · | 19 |
 
 ### 5-card Pot-Limit Omaha (PLO5)
@@ -114,7 +114,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 19:00 | · | 0 | 0 | · | 8 | · | · | 4 |
 | 20:00 | · | 0 | 0 | · | 8 | · | · | 4 |
 | 21:00 | · | 0 | 0 | · | 8 | · | · | 4 |
-| 22:00 | · | 0 | 0 | 0 | 8 | · | · | 3 |
+| 22:00 | · | 0 | 0 | 0 | 8 | · | · | 4 |
 | 23:00 | · | 0 | 0 | · | · | · | · | 0 |
 
 ## How often each game was running, by hour (all days)
@@ -145,7 +145,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 19:00 | 🟨 73% | 🟩 100% | 🟥 9% | 🟨 55% | 🟩 82% | 🟨 27% | 🟥 0% | 🟥 0% | 11 |
 | 20:00 | 🟩 75% | 🟩 100% | 🟥 0% | 🟨 50% | 🟩 75% | 🟨 25% | 🟥 0% | 🟥 0% | 12 |
 | 21:00 | 🟨 73% | 🟩 100% | 🟥 0% | 🟨 55% | 🟩 91% | 🟨 27% | 🟥 0% | 🟥 0% | 11 |
-| 22:00 | 🟩 80% | 🟩 100% | 🟥 10% | 🟨 40% | 🟩 100% | 🟥 20% | 🟥 0% | 🟥 0% | 10 |
+| 22:00 | 🟩 82% | 🟩 100% | 🟥 9% | 🟨 45% | 🟩 91% | 🟨 27% | 🟥 0% | 🟥 0% | 11 |
 | 23:00 | 🟨 43% | 🟩 100% | 🟥 0% | 🟥 0% | 🟩 100% | 🟨 57% | 🟥 0% | 🟥 14% | 7 |
 
 ## Cash games vs tournaments
@@ -156,18 +156,18 @@ Cash players grouped by how many players were still in tournaments at the time. 
 |:--|--:|--:|--:|
 | none | 2 | 11 | -1 |
 | 50–149 | 13 | 41 | +6 |
-| 150 or more | 27 | 60 | +15 |
+| 150 or more | 28 | 60 | +15 |
 
 ## All games seen
 
 | Game | Running in | Most often | Last seen |
 |:--|--:|:--|:--|
-| NLH €1/2 | 44% of checks | Fri around 17:00 | 2026-10-09 22:20 |
-| NLH €2/4 | 76% of checks | Fri around 19:00 | 2026-10-09 22:20 |
+| NLH €1/2 | 44% of checks | Fri around 17:00 | 2026-10-09 22:30 |
+| NLH €2/4 | 76% of checks | Fri around 19:00 | 2026-10-09 22:30 |
 | NLH €5/10 | 11% of checks | Fri around 18:00 | 2026-10-09 19:00 |
-| PLO €2/2 | 18% of checks | Fri around 17:00 | 2026-10-09 22:20 |
+| PLO €2/2 | 19% of checks | Fri around 17:00 | 2026-10-09 22:30 |
 | PLO5 €5/5 | 50% of checks | Fri around 19:00 | 2026-10-09 22:20 |
-| PLO5 €10/10 | 31% of checks | Tue around 23:00 | 2026-10-07 00:59 |
+| PLO5 €10/10 | 31% of checks | Tue around 23:00 | 2026-10-09 22:30 |
 | PLO5 €10/25 | 7% of checks | Wed around 06:00 | 2026-10-07 10:04 |
 | MIX NLH/PLO €5/5 | 5% of checks | Wed around 00:00 | 2026-10-07 02:33 |
 
