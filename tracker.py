@@ -182,6 +182,24 @@ def tournament_entries(data, now):
     return entries
 
 
+def tourney_game(name):
+    """The feed doesn't say which game a tournament is, so it's read from the name: King's puts
+    PLO/Omaha, Mix etc. in the title of non-Hold'em events; everything else is NLH."""
+    n = name.lower().replace("’", "'")
+    if re.search(r"\bmix(ed)?\b|dealer'?s choice|h\.?o\.?r\.?s\.?e|\b8[- ]?game|\bstud\b|\brazz\b|badugi", n):
+        return "Mixed"
+    if re.search(r"\bplo\d?\b|omaha", n):
+        return "PLO"
+    if re.search(r"short ?deck|6\+", n):
+        return "Short Deck"
+    return "NLH"
+
+
+def family(game):
+    """Cash game family: NLH, PLO (any Omaha) or Other."""
+    return "NLH" if game.startswith("NLH") else "PLO" if game.startswith("PLO") else "Other"
+
+
 @lru_cache(maxsize=None)
 def parse_tourneys(text):
     """'Daily Deepstack 40/62; Day 1 84/565 [PAUSED]' -> (('Daily Deepstack', 40, 62), ('Day 1', 84, 565))"""
@@ -547,7 +565,7 @@ def write_readme(rows, now):
             out += ["No tables were running.", ""]
         if latest.get("tourneys", "") != "":
             running = parse_tourneys(latest["tourney_list"])
-            out += ["**Tournaments in play:** " + (" · ".join(f"{n} ({a} of {e} left)" for n, a, e in running)
+            out += ["**Tournaments in play:** " + (" · ".join(f"{n} ({tourney_game(n)}, {a} of {e} left)" for n, a, e in running)
                                                    if running else "none"), ""]
         else:
             out += ["**Tournaments:** couldn't be read at this check (cash data is unaffected).", ""]
@@ -619,6 +637,44 @@ def write_readme(rows, now):
                 out.append(f"| {label} | {len(group)} | {avg:.0f} | {diff:+.0f} |")
         out.append("")
 
+        # Which cash games run alongside which tournament games?
+        cash = {id(r): Counter() for r in ok}
+        per_hour = {"NLH": defaultdict(list), "PLO": defaultdict(list)}
+        for r in ok:
+            for game, _, seated, _ in parse_games(r["games"]):
+                cash[id(r)][family(game)] += seated
+            for fam in per_hour:
+                per_hour[fam][int(r["hour"])].append(cash[id(r)][fam])
+        usual_fam = {fam: {h: sum(v) / len(v) for h, v in hours.items()} for fam, hours in per_hour.items()}
+
+        def situation(r):
+            games_in_play = {tourney_game(n) for n, active, _ in parse_tourneys(r["tourney_list"]) if active}
+            if not games_in_play:
+                return "none"
+            if "PLO" in games_in_play:
+                return "a PLO tournament"
+            return "only NLH tournaments" if games_in_play == {"NLH"} else "other tournament games"
+
+        groups = defaultdict(list)
+        for r in with_t:
+            groups[situation(r)].append(r)
+        out += ["### Cash games by tournament type", "",
+                "NLH and PLO cash players depending on which tournament games were running. The game of a "
+                "tournament is read from its name (PLO/Omaha or Mix in the title; anything else counts as NLH).", "",
+                "| Tournaments in play | Checks | NLH cash players | vs usual | PLO cash players | vs usual |",
+                "|:--|--:|--:|--:|--:|--:|"]
+        for label in ("none", "only NLH tournaments", "a PLO tournament", "other tournament games"):
+            group = groups.get(label)
+            if not group:
+                continue
+            cells = []
+            for fam in ("NLH", "PLO"):
+                values = [cash[id(r)][fam] for r in group]
+                diffs = [cash[id(r)][fam] - usual_fam[fam][int(r["hour"])] for r in group]
+                cells += [f"{sum(values) / len(values):.0f}", f"{sum(diffs) / len(diffs):+.0f}"]
+            out.append(f"| {label} | {len(group)} | " + " | ".join(cells) + " |")
+        out.append("")
+
     # Every game + stake ever seen, rare ones included
     appearances = defaultdict(list)
     for r, labels in labelled:
@@ -678,6 +734,10 @@ def self_test():
     assert tournament_entries([bagged], datetime(2026, 10, 8, 19, 30, tzinfo=TZ)) == []
     assert parse_games("MIX NLH /PLO €5/5 6/8") == (("MIX NLH/PLO", "5/5", 6, 8),)
     assert as_int("7.0") == 7 and as_int(None) == 0 and as_int("x") == 0
+    assert [tourney_game(n) for n in ("GPD Mystery Bounty - Day 1D", "RENEMASTERMIX Friday Bounty", "PLO5 Bounty",
+                                      "Pot-Limit Omaha Deepstack", "NLH/PLO Mix", "Short Deck Special")] == \
+        ["NLH", "NLH", "PLO", "PLO", "Mixed", "Short Deck"]
+    assert [family(g) for g in ("NLH", "PLO5", "PLO", "MIX NLH/PLO")] == ["NLH", "PLO", "PLO", "Other"]
 
 
 def should_alert(rows):
