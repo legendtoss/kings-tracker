@@ -2,23 +2,23 @@
 
 Checks King's live cash games and tournaments about every 10 minutes and updates this page by itself. All times are **Czech time** (same as Poland).
 
-**Last check:** 2026-10-09 17:50 — ✅ OK (data feed)  
-**Last 24 h:** 14 of 14 checks OK, longest gap 7 h 12 min (GitHub skipped runs) · **Collecting since:** 2026-10-06 (162 good checks)
+**Last check:** 2026-10-09 18:00 — ✅ OK (data feed)  
+**Last 24 h:** 15 of 15 checks OK, longest gap 7 h 12 min (GitHub skipped runs) · **Collecting since:** 2026-10-06 (163 good checks)
 
-## Tables running at 2026-10-09 17:50
+## Tables running at 2026-10-09 18:00
 
 ```
-NLH  €1/2     8/8 players
+NLH  €1/2     7/8 players
 NLH  €1/2     8/8 players
 NLH  €1/2     8/8 players
 NLH  €1/2     8/8 players
 NLH  €1/2     8/8 players
 NLH  €5/10    5/8 players
-PLO  €2/2     8/8 players
+PLO  €2/2     7/8 players
 ```
-**NLH:** 45 players at 6 tables · **PLO:** 8 players at 1 table
+**NLH:** 44 players at 6 tables · **PLO:** 7 players at 1 table
 
-**Tournaments in play:** GPD Mystery Bounty - Day 1C (72 of 184 left) · Satellite to GPD ME - Day 1D (25 of 141 left)
+**Tournaments in play:** GPD Mystery Bounty - Day 1C (73 of 188 left) · GPD Mystery Bounty - Day 1D (45 of 45 left)
 
 ## Busiest times so far
 
@@ -50,7 +50,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 15:00 | · | 16 | 14 | · | 21 | · | · | 16 |
 | 16:00 | · | 16 | 16 | 16 | 32 | · | · | 22 |
 | 17:00 | · | 19 | 16 | · | 38 | · | · | 29 |
-| 18:00 | · | 19 | 18 | · | · | · | · | 19 |
+| 18:00 | · | 19 | 18 | · | 44 | · | · | 22 |
 | 19:00 | · | 22 | 16 | · | · | · | · | 20 |
 | 20:00 | · | 18 | 20 | · | · | · | · | 19 |
 | 21:00 | · | 20 | 27 | · | · | · | · | 23 |
@@ -79,7 +79,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 15:00 | · | 14 | 0 | · | 0 | · | · | 6 |
 | 16:00 | · | 15 | 0 | 0 | 0 | · | · | 4 |
 | 17:00 | · | 15 | 0 | · | 1 | · | · | 5 |
-| 18:00 | · | 16 | 0 | · | · | · | · | 8 |
+| 18:00 | · | 16 | 0 | · | 0 | · | · | 7 |
 | 19:00 | · | 16 | 0 | · | · | · | · | 9 |
 | 20:00 | · | 15 | 0 | · | · | · | · | 7 |
 | 21:00 | · | 16 | 2 | · | · | · | · | 10 |
@@ -110,7 +110,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 15:00 | 🟨 60% | 🟨 40% | 🟥 0% | 🟥 0% | 🟨 40% | 🟨 40% | 🟥 0% | 🟥 0% | 5 |
 | 16:00 | 🟨 73% | 🟨 27% | 🟥 0% | 🟥 9% | 🟨 27% | 🟨 27% | 🟥 0% | 🟥 0% | 11 |
 | 17:00 | 🟨 73% | 🟨 27% | 🟥 18% | 🟨 55% | 🟨 36% | 🟨 27% | 🟥 0% | 🟥 0% | 11 |
-| 18:00 | 🟨 50% | 🟩 100% | 🟥 0% | 🟥 0% | 🟨 50% | 🟨 50% | 🟥 0% | 🟥 0% | 6 |
+| 18:00 | 🟨 57% | 🟩 86% | 🟥 14% | 🟥 14% | 🟨 43% | 🟨 43% | 🟥 0% | 🟥 0% | 7 |
 | 19:00 | 🟨 40% | 🟩 100% | 🟥 0% | 🟥 0% | 🟨 60% | 🟨 60% | 🟥 0% | 🟥 0% | 5 |
 | 20:00 | 🟨 50% | 🟩 100% | 🟥 0% | 🟥 0% | 🟨 50% | 🟨 50% | 🟥 0% | 🟥 0% | 6 |
 | 21:00 | 🟨 40% | 🟩 100% | 🟥 0% | 🟥 0% | 🟩 80% | 🟨 60% | 🟥 0% | 🟥 0% | 5 |
@@ -124,18 +124,18 @@ Cash players grouped by how many players were still in tournaments at the time. 
 | Tournament players in action | Checks | Avg cash players | vs usual for that hour |
 |:--|--:|--:|--:|
 | none | 2 | 11 | -1 |
-| 50–149 | 11 | 39 | +7 |
+| 50–149 | 12 | 40 | +8 |
 | 150 or more | 1 | 21 | -1 |
 
 ## All games seen
 
 | Game | Running in | Most often | Last seen |
 |:--|--:|:--|:--|
-| NLH €1/2 | 34% of checks | Fri around 17:00 | 2026-10-09 17:50 |
+| NLH €1/2 | 34% of checks | Fri around 17:00 | 2026-10-09 18:00 |
 | NLH €2/4 | 75% of checks | Tue around 23:00 | 2026-10-08 22:09 |
-| NLH €5/10 | 9% of checks | Tue around 05:00 | 2026-10-09 17:50 |
-| PLO €2/2 | 4% of checks | Fri around 17:00 | 2026-10-09 17:50 |
-| PLO5 €5/5 | 43% of checks | Tue around 23:00 | 2026-10-09 17:30 |
+| NLH €5/10 | 9% of checks | Tue around 05:00 | 2026-10-09 18:00 |
+| PLO €2/2 | 5% of checks | Fri around 17:00 | 2026-10-09 18:00 |
+| PLO5 €5/5 | 42% of checks | Tue around 23:00 | 2026-10-09 17:30 |
 | PLO5 €10/10 | 36% of checks | Tue around 23:00 | 2026-10-07 00:59 |
 | PLO5 €10/25 | 8% of checks | Wed around 06:00 | 2026-10-07 10:04 |
 | MIX NLH/PLO €5/5 | 6% of checks | Wed around 00:00 | 2026-10-07 02:33 |
