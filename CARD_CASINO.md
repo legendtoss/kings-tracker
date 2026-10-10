@@ -2,19 +2,19 @@
 
 Reads [Card Casino's live cash-game list](https://www.cardcasino.sk/en/cashgames/) together with King's, about every 10 minutes. All times are **Czech time** (same as Poland and Slovakia). Back to [King's](README.md).
 
-**Last check:** 2026-10-10 23:30 — ⚠️ error: TimeoutError: Page.goto: Timeout 60000ms exceeded. — details in `debug/cardcasino_page.json`  
-**Last 24 h:** 109 of 130 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-10 (109 good checks)
+**Last check:** 2026-10-10 23:40 — ✅ OK (live list)  
+**Last 24 h:** 110 of 131 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-10 (110 good checks)
 
-## Tables running at 2026-10-10 23:20
+## Tables running at 2026-10-10 23:40
 
 ```
-NLH  €1/3     7/8 players
+NLH  €1/3     8/8 players
 NLH  €1/3     8/8 players
 NLH  €1/3     8/8 players
 PLO  €10/10   8/8 players
 PLO  €100/200 6/8 players
 ```
-**NLH:** 23 players at 3 tables · **PLO:** 14 players at 2 tables
+**NLH:** 24 players at 3 tables · **PLO:** 14 players at 2 tables
 
 ## Busiest times so far
 
@@ -111,16 +111,16 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 20:00 | 🟩 100% | 🟩 100% | 🟩 83% | 🟥 17% | 6 |
 | 21:00 | 🟩 100% | 🟩 100% | 🟥 0% | 🟩 100% | 6 |
 | 22:00 | 🟩 100% | 🟩 100% | 🟥 0% | 🟩 100% | 5 |
-| 23:00 | 🟩 100% | 🟩 100% | 🟥 0% | 🟩 100% | 2 |
+| 23:00 | 🟩 100% | 🟩 100% | 🟥 0% | 🟩 100% | 3 |
 
 ## All games seen
 
 | Game | Running in | Most often | Last seen |
 |:--|--:|:--|:--|
-| NLH €1/3 | 48% of checks | Sat around 06:00 | 2026-10-10 23:20 |
-| PLO €10/10 | 49% of checks | Sat around 19:00 | 2026-10-10 23:20 |
+| NLH €1/3 | 48% of checks | Sat around 06:00 | 2026-10-10 23:40 |
+| PLO €10/10 | 49% of checks | Sat around 19:00 | 2026-10-10 23:40 |
 | PLO €100/100 | 45% of checks | Sat around 14:00 | 2026-10-10 20:40 |
-| PLO €100/200 | 13% of checks | Sat around 21:00 | 2026-10-10 23:20 |
+| PLO €100/200 | 14% of checks | Sat around 21:00 | 2026-10-10 23:40 |
 
 ---
 Raw data: `data/cardcasino` (one CSV file per month). Card Casino lists seated players per table; it doesn't show waiting lists.
