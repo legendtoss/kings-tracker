@@ -2,10 +2,10 @@
 
 Reads [Card Casino's live cash-game list](https://www.cardcasino.sk/en/cashgames/) together with King's, about every 10 minutes. All times are **Czech time** (same as Poland and Slovakia). Back to [King's](README.md).
 
-**Last check:** 2026-10-10 14:37 — ✅ OK (live list)  
-**Last 24 h:** 62 of 75 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-10 (62 good checks)
+**Last check:** 2026-10-10 14:40 — ✅ OK (live list)  
+**Last 24 h:** 63 of 76 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-10 (63 good checks)
 
-## Tables running at 2026-10-10 14:37
+## Tables running at 2026-10-10 14:40
 
 ```
 PLO  €100/100 5/8 players
@@ -98,7 +98,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 11:00 | 🟥 0% | 🟥 0% | 🟥 0% | 5 |
 | 12:00 | 🟥 0% | 🟥 0% | 🟨 40% | 5 |
 | 13:00 | 🟥 0% | 🟥 0% | 🟩 100% | 5 |
-| 14:00 | 🟥 0% | 🟥 0% | 🟩 80% | 5 |
+| 14:00 | 🟥 0% | 🟥 0% | 🟩 83% | 6 |
 | 15:00 | · | · | · | 0 |
 | 16:00 | · | · | · | 0 |
 | 17:00 | · | · | · | 0 |
@@ -115,7 +115,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 |:--|--:|:--|:--|
 | NLH €1/3 | 37% of checks | Sat around 06:00 | 2026-10-10 07:10 |
 | PLO €10/10 | 32% of checks | Sat around 05:00 | 2026-10-10 06:40 |
-| PLO €100/100 | 26% of checks | Sat around 13:00 | 2026-10-10 14:37 |
+| PLO €100/100 | 27% of checks | Sat around 13:00 | 2026-10-10 14:40 |
 
 ---
 Raw data: `data/cardcasino` (one CSV file per month). Card Casino lists seated players per table; it doesn't show waiting lists.
