@@ -4,22 +4,22 @@ Checks King's live cash games and tournaments about every 10 minutes and updates
 
 **Right now:** King's: 6 tables, 44 players · [Card Casino Šamorín](CARD_CASINO.md): 1 table, 5 players · [Grand Casino Aš](GRAND_CASINO_AS.md): 0 tables running, 1 waiting · [Olympic Park Tallinn](OLYMPIC_TALLINN.md): couldn't be read at 16:00 · [Olympic Vilnius](OLYMPIC_VILNIUS.md): couldn't be read at 16:00 · [Banco](BANCO.md): no games listed
 
-**Last check:** 2026-10-10 16:00 — ✅ OK (data feed)  
-**Last 24 h:** 147 of 147 checks OK, longest gap 0 h 11 min · **Collecting since:** 2026-10-06 (299 good checks)
+**Last check:** 2026-10-10 16:10 — ✅ OK (data feed, via browser)  
+**Last 24 h:** 148 of 148 checks OK, longest gap 0 h 11 min · **Collecting since:** 2026-10-06 (300 good checks)
 
-## Tables running at 2026-10-10 16:00
+## Tables running at 2026-10-10 16:10
 
 ```
 NLH   €1/2     8/8 players
 NLH   €1/2     8/8 players
-NLH   €1/2     7/8 players
+NLH   €1/2     8/8 players
 NLH   €2/4     7/8 players
-PLO   €2/2     8/8 players
+PLO   €2/2     7/8 players
 PLO5  €5/5     6/8 players
 ```
-**NLH:** 30 players at 4 tables · **PLO:** 8 players at 1 table · **PLO5:** 6 players at 1 table
+**NLH:** 31 players at 4 tables · **PLO:** 7 players at 1 table · **PLO5:** 6 players at 1 table
 
-**Tournaments in play:** GPD Mystery Bounty - Day 1E (NLH, €124, €75 bounty, 184 of 347 left, late reg open, level 9, blinds 1000/2000/2000) · GPD Pot Limit Omaha (PLO, €125, 53 of 77 left, late reg open, level 4, blinds 200/400/400) · Flip n Go Satellite (8 handed) to GPD ME - Day 1F (NLH, €35, 16 of 16 left, late reg open, level 1, blinds 5000/5000/5000)
+**Tournaments in play:** GPD Mystery Bounty - Day 1E (NLH, €124, €75 bounty, 176 of 350 left, late reg open, level 9, blinds 1000/2000/2000) · GPD Pot Limit Omaha (PLO, €125, 59 of 86 left, late reg open, level 4, blinds 200/400/400) · Flip n Go Satellite (8 handed) to GPD ME - Day 1F (NLH, €35, 8 of 32 left, late reg open, level 1, blinds 5000/5000/5000)
 
 ## Busiest times so far
 
@@ -49,7 +49,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 13:00 | · | 8 | 11 | · | · | 21 | · | 15 |
 | 14:00 | · | 13 | 15 | · | · | 36 | · | 26 |
 | 15:00 | · | 16 | 14 | · | 21 | 30 | · | 23 |
-| 16:00 | · | 16 | 16 | 16 | 32 | 30 | · | 22 |
+| 16:00 | · | 16 | 16 | 16 | 32 | 30 | · | 23 |
 | 17:00 | · | 19 | 16 | · | 38 | · | · | 29 |
 | 18:00 | · | 19 | 18 | · | 44 | · | · | 31 |
 | 19:00 | · | 22 | 16 | · | 46 | · | · | 34 |
@@ -138,7 +138,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 13:00 | 🟩 75% | 🟨 25% | 🟥 0% | 🟨 50% | 🟥 0% | 🟨 25% | 🟥 0% | 🟥 0% | 12 |
 | 14:00 | 🟩 77% | 🟨 69% | 🟥 0% | 🟨 54% | 🟥 15% | 🟥 23% | 🟥 0% | 🟥 0% | 13 |
 | 15:00 | 🟩 82% | 🟨 73% | 🟥 0% | 🟨 55% | 🟨 73% | 🟥 18% | 🟥 0% | 🟥 0% | 11 |
-| 16:00 | 🟩 75% | 🟨 33% | 🟥 0% | 🟥 17% | 🟨 33% | 🟨 25% | 🟥 0% | 🟥 0% | 12 |
+| 16:00 | 🟩 77% | 🟨 38% | 🟥 0% | 🟥 23% | 🟨 38% | 🟥 23% | 🟥 0% | 🟥 0% | 13 |
 | 17:00 | 🟨 73% | 🟨 27% | 🟥 18% | 🟨 55% | 🟨 36% | 🟨 27% | 🟥 0% | 🟥 0% | 11 |
 | 18:00 | 🟩 75% | 🟨 50% | 🟨 50% | 🟨 50% | 🟨 58% | 🟨 25% | 🟥 0% | 🟥 0% | 12 |
 | 19:00 | 🟨 73% | 🟩 100% | 🟥 9% | 🟨 55% | 🟩 82% | 🟨 27% | 🟥 0% | 🟥 0% | 11 |
@@ -155,11 +155,11 @@ Collecting since 2026-10-08. Shown from 2026-10-22: with fewer than two weeks, t
 
 | Game | Running in | Most often | Last seen |
 |:--|--:|:--|:--|
-| NLH €1/2 | 64% of checks | Fri around 22:00 | 2026-10-10 16:00 |
-| NLH €2/4 | 73% of checks | Fri around 22:00 | 2026-10-10 16:00 |
+| NLH €1/2 | 64% of checks | Fri around 22:00 | 2026-10-10 16:10 |
+| NLH €2/4 | 73% of checks | Fri around 22:00 | 2026-10-10 16:10 |
 | NLH €5/10 | 7% of checks | Fri around 18:00 | 2026-10-09 19:00 |
-| PLO €2/2 | 38% of checks | Fri around 22:00 | 2026-10-10 16:00 |
-| PLO5 €5/5 | 38% of checks | Fri around 19:00 | 2026-10-10 16:00 |
+| PLO €2/2 | 38% of checks | Fri around 22:00 | 2026-10-10 16:10 |
+| PLO5 €5/5 | 39% of checks | Fri around 19:00 | 2026-10-10 16:10 |
 | PLO5 €10/10 | 28% of checks | Fri around 23:00 | 2026-10-10 02:30 |
 | PLO5 €10/25 | 4% of checks | Wed around 06:00 | 2026-10-07 10:04 |
 | MIX NLH/PLO €5/5 | 3% of checks | Wed around 00:00 | 2026-10-07 02:33 |
@@ -170,9 +170,9 @@ The most recent ones. The game is read from the tournament's name.
 
 | Tournament | Game | Buy-in | Entries | Seen |
 |:--|:--|--:|--:|:--|
-| GPD Mystery Bounty - Day 1E | NLH | €124 | 347 | 2026-10-10 11:00 → 10-10 16:00 |
-| GPD Pot Limit Omaha | PLO | €125 | 77 | 2026-10-10 15:00 → 10-10 16:00 |
-| Flip n Go Satellite (8 handed) to GPD ME - Day 1F | NLH | €35 | 16 | 2026-10-10 16:00 |
+| GPD Mystery Bounty - Day 1E | NLH | €124 | 350 | 2026-10-10 11:00 → 10-10 16:10 |
+| GPD Pot Limit Omaha | PLO | €125 | 86 | 2026-10-10 15:00 → 10-10 16:10 |
+| Flip n Go Satellite (8 handed) to GPD ME - Day 1F | NLH | €35 | 32 | 2026-10-10 16:00 |
 | RENEMASTERMIX Friday Bounty (25 BOUNTY) | NLH | €100 | 295 | 2026-10-09 21:00 → 10-10 04:10 |
 | GPD Mystery Bounty - Day 1D | NLH | €124 | 209 | 2026-10-09 18:00 → 10-10 03:30 |
 | GPD Mystery Bounty - Day 1C | NLH | · | 188 | 2026-10-09 15:48 → 10-09 21:20 |
