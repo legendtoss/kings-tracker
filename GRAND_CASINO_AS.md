@@ -2,14 +2,14 @@
 
 Reads [Grand Casino Aš's live cash games](https://www.grandcasinoas.eu/en/poker/poker-live) every 10 minutes and its [current tournaments](https://www.grandcasinoas.eu/en/poker) every 30 minutes. All times are **Czech time** (same as Poland). Back to [King's](README.md).
 
-**Last check:** 2026-10-10 13:50 — ✅ OK  
-**Last 24 h:** 63 of 63 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-10 (63 good checks)
+**Last check:** 2026-10-10 14:00 — ✅ OK  
+**Last 24 h:** 64 of 64 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-10 (64 good checks)
 
-## Cash games at 2026-10-10 13:50
+## Cash games at 2026-10-10 14:00
 
 No cash games listed.
 
-**Tournaments in play at 2026-10-10 13:30:** BHD PKO Main Event 1B (NLH, €230, 136 of 151 left, late reg open, level 3, blinds 200/400/400)
+**Tournaments in play at 2026-10-10 14:00:** BHD PKO Main Event 1B (NLH, €230, 143 of 174 left, late reg open, level 4, blinds 200/500/500)
 
 ## Running cash tables by hour
 
@@ -31,7 +31,7 @@ Average number of running tables (Grand Casino Aš shows which games run, not ho
 | 11:00 | · | · | · | · | · | 0.0 | · | 0.0 |
 | 12:00 | · | · | · | · | · | 0.0 | · | 0.0 |
 | 13:00 | · | · | · | · | · | 0.0 | · | 0.0 |
-| 14:00 | · | · | · | · | · | · | · | · |
+| 14:00 | · | · | · | · | · | 0.0 | · | 0.0 |
 | 15:00 | · | · | · | · | · | · | · | · |
 | 16:00 | · | · | · | · | · | · | · | · |
 | 17:00 | · | · | · | · | · | · | · | · |
@@ -62,7 +62,7 @@ Average number of running tables (Grand Casino Aš shows which games run, not ho
 | 11:00 | 🟥 0% | 6 |
 | 12:00 | 🟥 0% | 6 |
 | 13:00 | 🟥 0% | 6 |
-| 14:00 | · | 0 |
+| 14:00 | 🟥 0% | 1 |
 | 15:00 | · | 0 |
 | 16:00 | · | 0 |
 | 17:00 | · | 0 |
@@ -79,7 +79,7 @@ The most recent ones. The game is read from the tournament's name.
 
 | Tournament | Game | Buy-in | Entries | Seen |
 |:--|:--|--:|--:|:--|
-| BHD PKO Main Event 1B | NLH | €230 | 151 | 2026-10-10 12:30 → 10-10 13:30 |
+| BHD PKO Main Event 1B | NLH | €230 | 174 | 2026-10-10 12:30 → 10-10 14:00 |
 | Mayoman s Highroller | NLH | €400 | 97 | 2026-10-10 04:00 → 10-10 05:00 |
 
 ---
