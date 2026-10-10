@@ -392,6 +392,8 @@ def card_entries(fragment):
     blocks = CARD_BLOCK_RE.findall(fragment or "")
     if not blocks:
         return [] if len(strip_tags(fragment)) < 200 else None
+    if all("no games" in strip_tags(block).lower() for block in blocks):
+        return []  # their list says "No games currently"
     entries = [card_entry([strip_tags(c) for c in H4_RE.findall(block)]) for block in blocks]
     return None if None in entries else entries
 
@@ -420,7 +422,7 @@ def gas_cash_entries(html):
     """Entries from Grand Casino Aš's 'Current cash game' table; None if the table isn't there."""
     start = (html or "").lower().find("current cash game")
     if start < 0:
-        return None
+        return [] if "no cash game table is open" in strip_tags(html).lower() else None
     end = html.lower().find("</table>", start)
     if end < 0:
         return None
@@ -487,32 +489,45 @@ def gas_tournaments(html, now):
 
 # OlyBet cash games: per club a table of Game | Blinds | Buy-in | Tables | Players | Open seats | Waiting,
 # read from the page text, e.g. "CLOSED Select NLH 1/3 Tables 0 €1/3 €200.00 0 0/0 (1 waiting) 0 1"
-OLY_ROW_RE = re.compile(
-    r"(?:(?P<status>[A-Z]{3,15})\s+)?Select\s+(?P<name>.+?)\s+Tables\s+\d+\s+€\s?(?P<blinds>\d+(?:[.,]\d+)?(?:/\d+(?:[.,]\d+)?)+)"
-    r"\s+€\s?(?P<buyin>[\d.,]+)\s+(?P<tables>\d+)\s+(?P<players>\d+)\s*/\s*(?P<seats>\d+)(?:\s*\(\d+ waiting\))?"
-    r"\s+(?P<open>\d+)\s+(?P<waiting>\d+)")
 OLY_CLUB_RE = re.compile(r'href="([^"]*cash-games/?\?club=(\d+))"[^>]*>(.*?)</a>', re.S | re.I)
 BLOCK_SIGNS = ("cf-chl", "just a moment", "attention required", "cf_chl_opt", "challenge-platform")
+STAKES_TOKEN = re.compile(r"\d+(?:[.,]\d+)?(?:/\d+(?:[.,]\d+)?)+")
 
 
 def oly_cash_rows(html):
-    """Every listed game of the club shown on an OlyBet cash games page; None if the table isn't there."""
-    text = strip_tags(html)
+    """Every listed game of the club shown on an OlyBet cash games page, read from the page's words:
+    '<game> <stakes> Tables N' then €blinds, €buy-in, tables, players/seats, open seats, waiting -
+    skipping any extra labels in between. None if the table can't be read (never a guessed zero)."""
+    text = strip_tags(html).replace("€ ", "€")
     low = text.lower()
     a = low.find("choose up to two games")
     a = a if a >= 0 else low.find("open seats")
     if a < 0:
         return None
     b = low.find("registration", a)
+    tokens = text[a: b if b > 0 else a + 8000].split()
+    anchors = [i for i, token in enumerate(tokens)  # "<game> <stakes> Tables N" starts each game's row
+               if token.lower() == "tables" and 2 <= i < len(tokens) - 1 and tokens[i + 1].isdigit()
+               and STAKES_TOKEN.fullmatch(tokens[i - 1]) and re.search(r"[A-Za-z]", tokens[i - 2])]
     rows = []
-    for m in OLY_ROW_RE.finditer(text[a: b if b > 0 else a + 8000]):
-        name = STAKES_IN_NAME.sub(" ", m.group("name"))
-        rows.append({"game": card_game(name), "stakes": m.group("blinds").replace(",", "."),
-                     "buyin": number(m.group("buyin").replace(",", "")), "tables": as_int(m.group("tables")),
-                     "players": as_int(m.group("players")), "seats": as_int(m.group("seats")),
-                     "open": as_int(m.group("open")), "waiting": as_int(m.group("waiting")),
-                     "status": m.group("status") or ""})
-    return rows
+    for n, i in enumerate(anchors):
+        stop = anchors[n + 1] - 2 if n + 1 < len(anchors) else len(tokens)
+        found, j = [], i + 2
+        for pattern in (r"€(\d+(?:[.,]\d+)?(?:/\d+(?:[.,]\d+)?)+)", r"€([\d.,]+)", r"(\d+)", r"(\d+)/(\d+)", r"(\d+)", r"(\d+)"):
+            while j < stop:
+                m = re.fullmatch(pattern, tokens[j])
+                j += 1
+                if m:
+                    found.append(m)
+                    break
+        if len(found) < 6:
+            continue
+        status = next((t for t in reversed(tokens[max(0, i - 5): i - 2]) if re.fullmatch(r"[A-Z]{4,15}", t)), "")
+        rows.append({"game": card_game(tokens[i - 2]), "stakes": found[0].group(1).replace(",", "."),
+                     "buyin": number(found[1].group(1).replace(",", "")), "tables": as_int(found[2].group(1)),
+                     "players": as_int(found[3].group(1)), "seats": as_int(found[3].group(2)),
+                     "open": as_int(found[4].group(1)), "waiting": as_int(found[5].group(1)), "status": status})
+    return rows or None
 
 
 def oly_tournament_text(html, club):
@@ -969,8 +984,8 @@ def check_card():
     problem.update(details)
     if cash is None:
         return "error: the cash games list wasn't found on the page", "page table", None, "", problem
-    entries = card_text_entries(cash)
-    if not entries and cash.strip():
+    entries = [] if "no games" in cash.lower() else card_text_entries(cash)
+    if not entries and cash.strip() and "no games" not in cash.lower():
         return "error: couldn't read the cash games list", "page table", None, cash[:1000], problem
     return "ok", "page table", entries, "", problem
 
@@ -1164,6 +1179,7 @@ def record_olympic(now):
         clubs = json.loads(OLY_CLUBS_FILE.read_text(encoding="utf-8"))
     except (OSError, ValueError):
         clubs = {}
+    clubs = {k: v for k, v in clubs.items() if isinstance(v, dict) and "://" in v.get("url", "")}
     results = {}
     for site in OLY_SITES:
         row = {"time": f"{now:%Y-%m-%d %H:%M}", "weekday": DAYS[now.weekday()], "hour": now.hour, "status": "",
@@ -1171,7 +1187,8 @@ def record_olympic(now):
                "tournaments_text": "", "raw": ""}
         details = {}
         try:
-            urls = ([clubs[site["key"]]] if site["key"] in clubs else []) + site["urls"]
+            known = clubs.get(site["key"])
+            urls = ([known["url"]] if known else []) + site["urls"]
             html = rows = None
             for url in urls:
                 html, problem = oly_fetch(url, site["home"])
@@ -1180,20 +1197,32 @@ def record_olympic(now):
                     if "blocked" in problem:
                         break  # respect the refusal: no more requests to this site in this run
                     continue
-                links = OLY_CLUB_RE.findall(html)
-                wanted = next(((link, name) for link, _, name in links if site["club"] in strip_tags(name).lower()), None)
-                if wanted and wanted[0] != url and site["key"] not in clubs:  # first time: open the right club
-                    clubs[site["key"]] = unescape(wanted[0])
-                    html, problem = oly_fetch(clubs[site["key"]], site["home"])
+                if not known:  # first time: find the club in the site's list and open its page
+                    links = OLY_CLUB_RE.findall(html)
+                    match = next(((urllib.parse.urljoin(url, unescape(link)), strip_tags(name))
+                                  for link, _, name in links if site["club"] in strip_tags(name).lower()), None)
+                    if not match:
+                        row["status"] = f"error: no club matching '{site['club']}' on the page"
+                        details["page_start"] = html[:20000]
+                        break
+                    known = clubs[site["key"]] = {"url": match[0], "name": match[1]}
+                    html, problem = oly_fetch(known["url"], site["home"])
                     if html is None:
                         row["status"] = f"error: {problem}"
                         break
+                shown_club = re.search(r"<h2[^>]*>\s*" + re.escape(known["name"]) + r"\s*</h2>", html, re.I)
+                if not shown_club:
+                    row["status"] = "error: couldn't confirm the page shows the right club"
+                    details["page_start"] = html[:20000]
+                    clubs.pop(site["key"], None)  # look it up again next time
+                    break
                 rows = oly_cash_rows(html)
                 if rows is not None:
-                    row["club"] = shown(strip_tags(wanted[1]) if wanted else "first club on the page", 60)
+                    row["club"] = shown(known["name"], 60)
                     break
                 details["page_start"] = html[:20000]
-                row["status"] = "error: the cash games table wasn't found"
+                row["status"] = "error: couldn't read the cash games table"
+                break
             if rows is not None:
                 running = [r for r in rows if r["tables"] > 0]
                 entries = []
@@ -1248,6 +1277,42 @@ def write_olympic_page(site, now):
     out += all_games_lines(ok)
     out += ["---", f"Raw data: `data/{site['key']}` (one CSV file per month)."]
     site["page"].write_text("\n".join(out) + "\n", encoding="utf-8")
+
+
+def rewrite_csv(path, fields, rows):
+    tmp = path.with_suffix(".tmp")
+    with tmp.open("w", newline="", encoding="utf-8-sig") as fh:
+        writer = csv.DictWriter(fh, fieldnames=fields, extrasaction="ignore")
+        writer.writeheader()
+        writer.writerows(rows)
+    tmp.replace(path)
+
+
+def repair_history():
+    """Fix rows earlier versions recorded wrongly. Safe to run every time: it only touches rows
+    that match one of the known mistakes, and leaves everything else as it was."""
+    fixes = [
+        # Card Casino said "No games currently": that's 0 tables, not an error
+        (CARD_DIR, CARD_FIELDS, lambda r: r["status"] == "error: couldn't read the cash games list" and "no games" in r["raw"].lower(),
+         {"status": "ok", "source": "page table", "tables": 0, "players": 0, "games": "", "raw": ""}),
+        # Grand Casino Aš showed "No Cash Game table is open": 0 tables, not an error
+        (GAS_DIR, GAS_FIELDS, lambda r: r["status"] == "error: the 'Current cash game' table wasn't found",
+         {"status": "ok", "tables": 0, "waiting": 0, "games": ""}),
+    ]
+    for site in OLY_SITES:  # the first Olympic version reported 0 tables without actually reading the table
+        fixes.append((DATA_DIR / site["key"], OLY_FIELDS, lambda r: r["status"] == "ok" and not r["listed"],
+                      {"status": "error: table not read (first version)", "tables": "", "players": "", "waiting": "", "games": ""}))
+    for folder, fields, is_wrong, correction in fixes:
+        for path in sorted(folder.glob("*.csv")):
+            with path.open(newline="", encoding="utf-8-sig") as fh:
+                rows = list(csv.DictReader(fh))
+            changed = False
+            for r in rows:
+                if is_wrong(r):
+                    r.update(correction)
+                    changed = True
+            if changed:
+                rewrite_csv(path, fields, rows)
 
 
 def remove_retired_sites():
@@ -1745,7 +1810,13 @@ def self_test():
     rows = oly_cash_rows(oly_page)
     assert [(r["game"], r["stakes"], r["tables"], r["players"], r["seats"], r["waiting"], r["status"]) for r in rows] == \
         [("NLH", "1/3", 0, 0, 0, 1, "CLOSED"), ("PLO", "5/5", 2, 15, 18, 4, ""), ("NLH", "5/5", 0, 0, 0, 0, "CLOSED")], rows
+    with_labels = oly_page.replace("€1/3 €200.00", "Blinds € 1/3 Buy-in &euro;200.00").replace("2 15/18 3 4", "Tables 2 Players 15/18 Open 3 Waiting 4")
+    assert [(r["game"], r["tables"], r["players"], r["waiting"]) for r in oly_cash_rows(with_labels)] == \
+        [("NLH", 0, 0, 1), ("PLO", 2, 15, 4), ("NLH", 0, 0, 0)], oly_cash_rows(with_labels)
     assert oly_cash_rows("<p>nothing here</p>") is None
+    assert oly_cash_rows("<p>Choose up to two games and register</p> something else entirely") is None
+    assert card_entries('<div class="splide__slide">\r\n <div class="cash-game aligner">\r\n <h4>No games currently</h4>\r\n </div>\r\n</div>') == []
+    assert gas_cash_entries("<p>Back to home</p><p>No Cash Game table is open at this time</p>") == []
     assert [is_tracker(h) for h in ("www.googletagmanager.com", "ajax.googleapis.com", "connect.facebook.net",
                                     "admin.kings-resort.com", "bancocasino.sk")] == [True, False, True, False, False]
 
@@ -1798,6 +1869,7 @@ def main():
 
     remove_retired_sites()
     migrate_card_files()
+    repair_history()
     card_row = record_card(now)
     gas_row = record_gas(now)
     record_olympic(now)
