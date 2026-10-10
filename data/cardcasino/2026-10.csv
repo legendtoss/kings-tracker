@@ -70,3 +70,4 @@
 2026-10-10 13:40,Sat,13,ok,feed,1,4,PLO €100/100 4/8,
 2026-10-10 13:50,Sat,13,error: TimeoutError: Page.goto: Timeout 60000ms exceeded.,,,,,
 2026-10-10 14:00,Sat,14,ok,feed,1,5,PLO €100/100 5/8,
+2026-10-10 14:10,Sat,14,ok,feed,0,0,,No games currently
