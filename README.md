@@ -2,25 +2,25 @@
 
 Checks King's live cash games and tournaments about every 10 minutes and updates this page by itself. All times are **Czech time** (same as Poland). Also tracking: [Card Casino Šamorín](CARD_CASINO.md) · [Grand Casino Aš](GRAND_CASINO_AS.md) · [Banco Casino Bratislava](BANCO.md) · [Olympic Park Tallinn](OLYMPIC_TALLINN.md) · [Olympic Casino Vilnius](OLYMPIC_VILNIUS.md).
 
-**Right now:** King's: 7 tables, 43 players · [Card Casino Šamorín](CARD_CASINO.md): couldn't be read · [Grand Casino Aš](GRAND_CASINO_AS.md): 2 tables running, 1 waiting · [Olympic Park Tallinn](OLYMPIC_TALLINN.md): couldn't be read at 04:00 · [Olympic Vilnius](OLYMPIC_VILNIUS.md): blocked at 04:00 · [Banco](BANCO.md): no games listed
+**Right now:** King's: 7 tables, 39 players · [Card Casino Šamorín](CARD_CASINO.md): 3 tables, 21 players · [Grand Casino Aš](GRAND_CASINO_AS.md): 2 tables running, 1 waiting · [Olympic Park Tallinn](OLYMPIC_TALLINN.md): couldn't be read at 04:00 · [Olympic Vilnius](OLYMPIC_VILNIUS.md): blocked at 04:00 · [Banco](BANCO.md): no games listed
 
-**Last check:** 2026-10-10 04:00 — ✅ OK (data feed)  
-**Last 24 h:** 75 of 75 checks OK, longest gap 7 h 12 min (GitHub skipped runs) · **Collecting since:** 2026-10-06 (225 good checks)
+**Last check:** 2026-10-10 04:10 — ✅ OK (data feed)  
+**Last 24 h:** 76 of 76 checks OK, longest gap 7 h 12 min (GitHub skipped runs) · **Collecting since:** 2026-10-06 (226 good checks)
 
-## Tables running at 2026-10-10 04:00
+## Tables running at 2026-10-10 04:10
 
 ```
 NLH   €1/2     6/8 players
+NLH   €1/2     4/8 players
+NLH   €1/2     7/8 players
 NLH   €1/2     5/8 players
-NLH   €1/2     7/8 players
-NLH   €1/2     7/8 players
-NLH   €2/4     8/8 players
+NLH   €2/4     7/8 players
 PLO   €2/2     6/8 players
 PLO5  €5/5     4/8 players
 ```
-**NLH:** 33 players at 5 tables · **PLO:** 6 players at 1 table · **PLO5:** 4 players at 1 table
+**NLH:** 29 players at 5 tables · **PLO:** 6 players at 1 table · **PLO5:** 4 players at 1 table
 
-**Tournaments in play:** RENEMASTERMIX Friday Bounty (25 BOUNTY) (NLH, €100, €25 bounty, 5 of 295 left, level 25, blinds 40000/80000/80000)
+**Tournaments in play:** RENEMASTERMIX Friday Bounty (25 BOUNTY) (NLH, €100, €25 bounty, 4 of 295 left, level 25, blinds 40000/80000/80000)
 
 ## Busiest times so far
 
@@ -38,7 +38,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 01:00 | · | · | 13 | 15 | · | 70 | · | 40 |
 | 02:00 | · | · | 14 | 8 | 17 | 55 | · | 36 |
 | 03:00 | · | · | 13 | 6 | · | 39 | · | 27 |
-| 04:00 | · | 18 | 9 | 6 | · | 33 | · | 12 |
+| 04:00 | · | 18 | 9 | 6 | · | 31 | · | 13 |
 | 05:00 | · | 13 | 8 | 5 | · | · | · | 9 |
 | 06:00 | · | 10 | 8 | 4 | · | · | · | 7 |
 | 07:00 | · | 8 | 7 | 3 | · | · | · | 6 |
@@ -127,7 +127,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 01:00 | 🟩 77% | 🟩 100% | 🟥 0% | 🟨 46% | 🟨 31% | 🟨 46% | 🟥 0% | 🟥 23% | 13 |
 | 02:00 | 🟨 62% | 🟩 92% | 🟥 0% | 🟨 54% | 🟨 38% | 🟨 38% | 🟥 0% | 🟥 15% | 13 |
 | 03:00 | 🟨 60% | 🟩 100% | 🟥 0% | 🟨 60% | 🟩 80% | 🟥 0% | 🟥 0% | 🟥 0% | 10 |
-| 04:00 | 🟥 10% | 🟩 100% | 🟥 20% | 🟥 10% | 🟨 60% | 🟥 20% | 🟥 0% | 🟥 0% | 10 |
+| 04:00 | 🟥 18% | 🟩 100% | 🟥 18% | 🟥 18% | 🟨 64% | 🟥 18% | 🟥 0% | 🟥 0% | 11 |
 | 05:00 | 🟥 0% | 🟩 100% | 🟨 38% | 🟥 0% | 🟨 50% | 🟨 38% | 🟨 25% | 🟥 0% | 8 |
 | 06:00 | 🟥 0% | 🟩 100% | 🟨 33% | 🟥 0% | 🟨 33% | 🟨 33% | 🟨 33% | 🟥 0% | 9 |
 | 07:00 | 🟥 0% | 🟩 100% | 🟨 38% | 🟥 0% | 🟨 38% | 🟨 38% | 🟨 25% | 🟥 0% | 8 |
@@ -156,11 +156,11 @@ Collecting since 2026-10-08. Shown from 2026-10-22: with fewer than two weeks, t
 
 | Game | Running in | Most often | Last seen |
 |:--|--:|:--|:--|
-| NLH €1/2 | 52% of checks | Fri around 22:00 | 2026-10-10 04:00 |
-| NLH €2/4 | 80% of checks | Fri around 22:00 | 2026-10-10 04:00 |
+| NLH €1/2 | 53% of checks | Fri around 22:00 | 2026-10-10 04:10 |
+| NLH €2/4 | 80% of checks | Fri around 22:00 | 2026-10-10 04:10 |
 | NLH €5/10 | 9% of checks | Fri around 18:00 | 2026-10-09 19:00 |
-| PLO €2/2 | 31% of checks | Fri around 22:00 | 2026-10-10 04:00 |
-| PLO5 €5/5 | 47% of checks | Fri around 19:00 | 2026-10-10 04:00 |
+| PLO €2/2 | 31% of checks | Fri around 22:00 | 2026-10-10 04:10 |
+| PLO5 €5/5 | 47% of checks | Fri around 19:00 | 2026-10-10 04:10 |
 | PLO5 €10/10 | 37% of checks | Fri around 23:00 | 2026-10-10 02:30 |
 | PLO5 €10/25 | 6% of checks | Wed around 06:00 | 2026-10-07 10:04 |
 | MIX NLH/PLO €5/5 | 4% of checks | Wed around 00:00 | 2026-10-07 02:33 |
@@ -171,7 +171,7 @@ The most recent ones. The game is read from the tournament's name.
 
 | Tournament | Game | Buy-in | Entries | Seen |
 |:--|:--|--:|--:|:--|
-| RENEMASTERMIX Friday Bounty (25 BOUNTY) | NLH | €100 | 295 | 2026-10-09 21:00 → 10-10 04:00 |
+| RENEMASTERMIX Friday Bounty (25 BOUNTY) | NLH | €100 | 295 | 2026-10-09 21:00 → 10-10 04:10 |
 | GPD Mystery Bounty - Day 1D | NLH | €124 | 209 | 2026-10-09 18:00 → 10-10 03:30 |
 | GPD Mystery Bounty - Day 1C | NLH | · | 188 | 2026-10-09 15:48 → 10-09 21:20 |
 | Satellite to GPD ME - Day 1D | NLH | · | 141 | 2026-10-09 15:48 → 10-09 17:50 |
