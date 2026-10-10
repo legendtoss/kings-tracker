@@ -75,7 +75,7 @@ PROBLEM_FILE = Path("debug/last_problem.json")
 OLD_DEBUG_FILE = Path("debug/last_page.json")  # written by earlier versions
 
 FIELDS = ["time", "weekday", "hour", "status", "source", "tables", "players", "games",
-          "tourneys", "tourney_players", "tourney_list", "page_text"]
+          "tourneys", "tourney_players", "tourney_list", "tourney_details", "page_text"]
 DAYS = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
 UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
       "(KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36")
@@ -195,13 +195,38 @@ def paused_since(t):
     return since
 
 
-def tournament_entries(data, now):
+def number(value):
+    try:
+        x = float(value)
+    except (TypeError, ValueError):
+        return None
+    return int(x) if x == int(x) else round(x, 2)
+
+
+def tourney_details(t, name, game, status, active):
+    """Everything useful King's clock shows about one tournament, as a small dictionary."""
+    level = t.get("currentLevel") or {}
+    sb, bb, ante = number(level.get("sb")), number(level.get("bb")), number(level.get("ante"))
+    details = {"name": name, "game": game, "status": status or "RUNNING", "left": active,
+               "entries": as_int(t.get("totalEntries")), "buyin": number(t.get("entryValue")),
+               "fee": number(t.get("serviceFee")), "bounty": number(t.get("bountyValue")),
+               "prizepool": number(t.get("effectivePrizePool")), "currency": clean(t.get("currency"), 5),
+               "level": number(level.get("number")),
+               "blinds": f"{sb}/{bb}" + (f"/{ante}" if ante else "") if sb is not None and bb is not None else None,
+               "avg_stack": number(t.get("averageStack")), "start_stack": number(t.get("startingStack")),
+               "late_reg_open": bool(t.get("openRegistration")), "late_reg_until_level": number(t.get("lateRegistrationUntilLevel")),
+               "reentries": number(t.get("reEntryMaxCount")), "start": str(t.get("start") or "")[:16]}
+    return {k: v for k, v in details.items() if v not in (None, "")}
+
+
+def tournament_entries(data, now, with_details=False):
     """Tournaments in play right now (started, not finished, players still in), or None if
-    the clock feed doesn't look right. Scheduled-but-not-started ones are left out."""
+    the clock feed doesn't look right. Scheduled-but-not-started ones are left out.
+    with_details=True returns (entries, details) instead."""
     if not isinstance(data, list):
         return None
     local_now = now.replace(tzinfo=None)
-    entries = []
+    entries, all_details = [], []
     for t in data:
         if not isinstance(t, dict):
             continue
@@ -214,22 +239,36 @@ def tournament_entries(data, now):
         if since and local_now - since > LONG_PAUSE:
             continue  # e.g. Day 1 finished and chips bagged: nobody is playing
         name = clean(t.get("fullName") or t.get("name") or "Tournament", 60)
+        game = tourney_game(" ".join(str(t.get(k) or "") for k in ("fullName", "name", "tournamentName", "subName")))
         entries.append(f"{name} {active}/{as_int(t.get('totalEntries'))}"
                        + (f" [{status}]" if status and status != "RUNNING" else ""))
-    return entries
+        all_details.append(tourney_details(t, name, game, status, active))
+    return (entries, all_details) if with_details else entries
 
 
 def tourney_game(name):
-    """The feed doesn't say which game a tournament is, so it's read from the name: King's puts
-    PLO/Omaha, Mix etc. in the title of non-Hold'em events; everything else is NLH."""
-    n = name.lower().replace("’", "'")
-    if re.search(r"\bmix(ed)?\b|dealer'?s choice|h\.?o\.?r\.?s\.?e|\b8[- ]?game|\bstud\b|\brazz\b|badugi", n):
+    """Which poker game a tournament is. King's data doesn't say it directly, so it's read from the
+    tournament's names: King's puts PLO/Omaha, Mix, Short Deck, Pineapple etc. in the title of every
+    non-Hold'em event, and everything else is No-Limit Hold'em."""
+    n = " ".join(name.lower().replace("’", "'").split())
+    if re.search(r"\bmix(ed)?\b|dealer'?s choice|h\.?o\.?r\.?s\.?e|\b8[- ]?game|\bstud\b|\brazz\b|badugi|triple draw", n):
         return "Mixed"
-    if re.search(r"\bplo\d?\b|omaha", n):
-        return "PLO"
-    if re.search(r"short ?deck|6\+", n):
+    if "pineapple" in n:
+        return "Pineapple"
+    if re.search(r"short ?deck|\b6\+|six plus", n):
         return "Short Deck"
+    if re.search(r"\bbig o\b", n):
+        return "PLO5 Hi-Lo"
+    if re.search(r"\bplo\d?\b|omaha", n):
+        if re.search(r"hi[ -/]?lo|8 or better|\bo8\b|\bplo8\b", n):
+            return "PLO Hi-Lo"
+        cards = re.search(r"\bplo\s*([56])\b|\b([56])[ -]?cards?\b", n)
+        return "PLO" + (cards.group(1) or cards.group(2) if cards else "")
     return "NLH"
+
+
+def tourney_family(game):
+    return "PLO" if game.startswith("PLO") else "NLH" if game == "NLH" else "Other"
 
 
 def family(game):
@@ -635,21 +674,21 @@ def check():
 
 
 def check_tournaments(now):
-    """(tournaments in play or None, error text). Tournament info is extra: if it can't be
-    read, the cash check still counts and the tournament columns are just left empty."""
+    """(tournaments in play or None, their details, error text). Tournament info is extra: if it
+    can't be read, the cash check still counts and the tournament columns are just left empty."""
     error = ""
     for attempt in (1, 2):
         try:
-            entries = tournament_entries(fetch_feed(CLOCKS_URL), now)
+            result = tournament_entries(fetch_feed(CLOCKS_URL), now, with_details=True)
         except Exception as e:
             error = short_error(e)
             time.sleep(3)
             continue
-        if entries is not None:
-            return entries, ""
+        if result is not None:
+            return result[0], result[1], ""
         error = "the tournament feed had an unexpected format"
         break
-    return None, error
+    return None, [], error
 
 
 # ---------------------------------------------------------------- saving
@@ -1087,6 +1126,57 @@ def all_games_lines(ok):
     return out + [""]
 
 
+def tourney_info_of(row):
+    """The saved tournament details of one check (older checks only have names: the game is read from those)."""
+    try:
+        details = json.loads(row.get("tourney_details") or "[]")
+    except ValueError:
+        details = []
+    if details:
+        return details
+    return [{"name": n, "game": tourney_game(n), "left": a, "entries": e} for n, a, e in parse_tourneys(row.get("tourney_list"))]
+
+
+def money(value, currency="EUR"):
+    sign = {"EUR": "€", "CZK": "CZK ", "USD": "$"}.get(currency or "EUR", f"{currency} ")
+    return f"{sign}{value:,.0f}".replace(",", " ") if isinstance(value, (int, float)) else "?"
+
+
+def tourney_text(d):
+    parts = [d.get("game", "?")]
+    if d.get("buyin") is not None:
+        buyin = money(d["buyin"] + (d.get("fee") or 0), d.get("currency"))
+        parts.append(buyin + (f", {money(d['bounty'], d.get('currency'))} bounty" if d.get("bounty") else ""))
+    parts.append(f"{d.get('left', '?')} of {d.get('entries', '?')} left")
+    if d.get("late_reg_open"):
+        parts.append("late reg open")
+    if d.get("level") is not None:
+        parts.append(f"level {d['level']}" + (f", blinds {d['blinds']}" if d.get("blinds") else ""))
+    return f"{shown(d.get('name'), 60)} ({', '.join(parts)})"
+
+
+def tournaments_seen_lines(rows, limit=15):
+    """The tournaments seen most recently: game, buy-in and how big they got."""
+    seen = {}
+    for r in rows:
+        for d in tourney_info_of(r):
+            key = d.get("name")
+            item = seen.setdefault(key, {"d": d, "first": r["time"], "last": r["time"], "max_entries": 0})
+            item.update(d=d, last=r["time"])
+            item["max_entries"] = max(item["max_entries"], as_int(d.get("entries")))
+    if not seen:
+        return []
+    recent = sorted(seen.values(), key=lambda item: item["last"], reverse=True)[:limit]
+    out = ["## Tournaments seen", "", "The most recent ones. The game is read from the tournament's name.", "",
+           "| Tournament | Game | Buy-in | Entries | Seen |", "|:--|:--|--:|--:|:--|"]
+    for item in recent:
+        d = item["d"]
+        buyin = money(d["buyin"] + (d.get("fee") or 0), d.get("currency")) if d.get("buyin") is not None else "·"
+        period = item["first"] if item["first"][:13] == item["last"][:13] else f"{item['first']} → {item['last'][5:]}"
+        out.append(f"| {shown(d.get('name'), 60)} | {d.get('game', '?')} | {buyin} | {item['max_entries']} | {period} |")
+    return out + [""]
+
+
 def overview_line(kings_row, card_row, banco_row):
     """One line at the top of the King's page: what's running at all three rooms right now."""
     def cash(row):
@@ -1116,9 +1206,8 @@ def write_readme(rows, now, overview=""):
         latest = ok[-1]
         out += snapshot_lines(latest)
         if latest.get("tourneys", "") != "":
-            running = parse_tourneys(latest["tourney_list"])
-            out += ["**Tournaments in play:** " + (" · ".join(f"{n} ({tourney_game(n)}, {a} of {e} left)" for n, a, e in running)
-                                                   if running else "none"), ""]
+            running = tourney_info_of(latest)
+            out += ["**Tournaments in play:** " + (" · ".join(tourney_text(d) for d in running) if running else "none"), ""]
         else:
             out += ["**Tournaments:** couldn't be read at this check (cash data is unaffected).", ""]
 
@@ -1162,19 +1251,19 @@ def write_readme(rows, now, overview=""):
         usual_fam = {fam: {h: sum(v) / len(v) for h, v in hours.items()} for fam, hours in per_hour.items()}
 
         def situation(r):
-            games_in_play = {tourney_game(n) for n, active, _ in parse_tourneys(r["tourney_list"]) if active}
-            if not games_in_play:
+            families = {tourney_family(d.get("game", "NLH")) for d in tourney_info_of(r) if as_int(d.get("left"))}
+            if not families:
                 return "none"
-            if "PLO" in games_in_play:
+            if "PLO" in families:
                 return "a PLO tournament"
-            return "only NLH tournaments" if games_in_play == {"NLH"} else "other tournament games"
+            return "only NLH tournaments" if families == {"NLH"} else "other tournament games"
 
         groups = defaultdict(list)
         for r in with_t:
             groups[situation(r)].append(r)
         out += ["### Cash games by tournament type", "",
                 "NLH and PLO cash players depending on which tournament games were running. The game of a "
-                "tournament is read from its name (PLO/Omaha or Mix in the title; anything else counts as NLH).", "",
+                "tournament is read from its names (PLO/Omaha, Mix, Short Deck... in the title; otherwise NLH).", "",
                 "| Tournaments in play | Checks | NLH cash players | vs usual | PLO cash players | vs usual |",
                 "|:--|--:|--:|--:|--:|--:|"]
         for label in ("none", "only NLH tournaments", "a PLO tournament", "other tournament games"):
@@ -1190,6 +1279,7 @@ def write_readme(rows, now, overview=""):
         out.append("")
 
     out += all_games_lines(ok)
+    out += tournaments_seen_lines(rows)
     out += ["---", "Raw data: the `data` folder, one CSV file per month. To open one in Excel, use "
             "Data → From Text/CSV (double-clicking puts everything in one column in Polish Excel). "
             "The tracker is `tracker.py`; its schedule is in `.github/workflows/track.yml`."]
@@ -1235,9 +1325,21 @@ def self_test():
     assert tournament_entries([bagged], datetime(2026, 10, 8, 19, 30, tzinfo=TZ)) == []
     assert parse_games("MIX NLH /PLO €5/5 6/8") == (("MIX NLH/PLO", "5/5", 6, 8),)
     assert as_int("7.0") == 7 and as_int(None) == 0 and as_int("x") == 0
-    assert [tourney_game(n) for n in ("GPD Mystery Bounty - Day 1D", "RENEMASTERMIX Friday Bounty", "PLO5 Bounty",
-                                      "Pot-Limit Omaha Deepstack", "NLH/PLO Mix", "Short Deck Special")] == \
-        ["NLH", "NLH", "PLO", "PLO", "Mixed", "Short Deck"]
+    names = ("GPD Mystery Bounty - Day 1D", "RENEMASTERMIX Friday Bounty", "PLO5 Bounty", "Pot-Limit Omaha Deepstack",
+             "NLH/PLO Mix", "Short Deck Special", "PLO 6-Card Bounty", "Omaha Hi-Lo", "Flip & Go Pineapple", "Big O",
+             "GPD NLH Morning Turbo", "6-Max Turbo", "Satellite to PLO Main")
+    assert [tourney_game(n) for n in names] == ["NLH", "NLH", "PLO5", "PLO", "Mixed", "Short Deck", "PLO6", "PLO Hi-Lo",
+                                               "Pineapple", "PLO5 Hi-Lo", "NLH", "NLH", "PLO"], [tourney_game(n) for n in names]
+    clock = {"fullName": "KM EPC Closer - Day 1", "tournamentName": "KM EPC Closer", "subName": "played till ITM",
+             "status": "PAUSED", "currency": "EUR", "effectivePrizePool": 240125, "startingStack": 50000,
+             "openRegistration": False, "lateRegistrationUntilLevel": 9, "start": "2026-10-05T18:00:03", "totalEntries": 565,
+             "activePlayers": 84, "averageStack": 336310, "entryValue": 500, "serviceFee": 0, "bountyValue": None,
+             "currentLevel": {"sb": 5000, "bb": 10000, "ante": 10000, "number": 14}}
+    entries, details = tournament_entries([clock], datetime(2026, 10, 6, 4, 40, tzinfo=TZ), with_details=True)
+    assert entries == ["KM EPC Closer - Day 1 84/565 [PAUSED]"], entries
+    assert details[0]["game"] == "NLH" and details[0]["blinds"] == "5000/10000/10000" and details[0]["buyin"] == 500, details
+    assert tourney_text(details[0]) == "KM EPC Closer - Day 1 (NLH, €500, 84 of 565 left, level 14, blinds 5000/10000/10000)", \
+        tourney_text(details[0])
     assert [family(g) for g in ("NLH", "PLO5", "PLO", "MIX NLH/PLO")] == ["NLH", "PLO", "PLO", "Other"]
     page = "Cash Game\nCash games\nNLH\t1/2\t8\nPLO\t2/2\t6\nPoker tournaments\nCurrently we do not play any tournaments\nBanco promotions"
     assert page_section(page, "cash games", ("poker tournaments",)) == "NLH | 1/2 | 8 | PLO | 2/2 | 6"
@@ -1287,7 +1389,7 @@ def main():
     migrate_old_files()
 
     status, source, entries, page_text, problem = check()
-    tourneys, tourney_error = check_tournaments(now)
+    tourneys, tourney_info, tourney_error = check_tournaments(now)
     if tourney_error:
         problem = {**(problem or {}), "tournaments": tourney_error}
     row = {"time": f"{now:%Y-%m-%d %H:%M}", "weekday": DAYS[now.weekday()], "hour": now.hour,
@@ -1297,7 +1399,9 @@ def main():
            "games": "; ".join(entries or []),
            "tourneys": len(tourneys) if tourneys is not None else "",
            "tourney_players": sum(a for _, a, _ in parse_tourneys("; ".join(tourneys))) if tourneys is not None else "",
-           "tourney_list": "; ".join(tourneys or []), "page_text": page_text[:3000]}
+           "tourney_list": "; ".join(tourneys or []),
+           "tourney_details": json.dumps(tourney_info, ensure_ascii=False, separators=(",", ":")) if tourneys else "",
+           "page_text": page_text[:3000]}
     append_row(now, row)
     save_problem(now, row, problem)
 
