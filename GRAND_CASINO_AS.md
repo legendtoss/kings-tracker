@@ -2,16 +2,16 @@
 
 Reads [Grand Casino Aš's live cash games](https://www.grandcasinoas.eu/en/poker/poker-live) every 10 minutes and its [current tournaments](https://www.grandcasinoas.eu/en/poker) every 30 minutes. All times are **Czech time** (same as Poland). Back to [King's](README.md).
 
-**Last check:** 2026-10-10 14:30 — ✅ OK  
-**Last 24 h:** 67 of 67 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-10 (67 good checks)
+**Last check:** 2026-10-10 14:37 — ✅ OK  
+**Last 24 h:** 68 of 68 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-10 (68 good checks)
 
-## Cash games at 2026-10-10 14:30
+## Cash games at 2026-10-10 14:37
 
 ```
 PLO/NLH           waiting
 ```
 
-**Tournaments in play at 2026-10-10 14:30:** BHD PKO Main Event 1B (NLH, €230, 137 of 180 left, late reg open, level 5, blinds 300/600/600) · Saturday Freezeout (NLH, €120, 33 of 33 left, late reg open, level 2, blinds 50/100)
+**Tournaments in play at 2026-10-10 14:37:** BHD PKO Main Event 1B (NLH, €230, 138 of 182 left, late reg open, level 5, blinds 300/600/600) · Saturday Freezeout (NLH, €120, 35 of 35 left, late reg open, level 2, blinds 50/100)
 
 ## Running cash tables by hour
 
@@ -64,7 +64,7 @@ Average number of running tables (Grand Casino Aš shows which games run, not ho
 | 11:00 | 🟥 0% | 6 |
 | 12:00 | 🟥 0% | 6 |
 | 13:00 | 🟥 0% | 6 |
-| 14:00 | 🟥 0% | 4 |
+| 14:00 | 🟥 0% | 5 |
 | 15:00 | · | 0 |
 | 16:00 | · | 0 |
 | 17:00 | · | 0 |
@@ -81,8 +81,8 @@ The most recent ones. The game is read from the tournament's name.
 
 | Tournament | Game | Buy-in | Entries | Seen |
 |:--|:--|--:|--:|:--|
-| BHD PKO Main Event 1B | NLH | €230 | 180 | 2026-10-10 12:30 → 10-10 14:30 |
-| Saturday Freezeout | NLH | €120 | 33 | 2026-10-10 14:30 |
+| BHD PKO Main Event 1B | NLH | €230 | 182 | 2026-10-10 12:30 → 10-10 14:37 |
+| Saturday Freezeout | NLH | €120 | 35 | 2026-10-10 14:30 |
 | Mayoman s Highroller | NLH | €400 | 97 | 2026-10-10 04:00 → 10-10 05:00 |
 
 ---
