@@ -2,8 +2,8 @@
 
 Reads [Card Casino's live cash-game list](https://www.cardcasino.sk/en/cashgames/) together with King's, about every 10 minutes. All times are **Czech time** (same as Poland and Slovakia). Back to [King's](README.md).
 
-**Last check:** 2026-10-11 00:30 — ✅ OK (live list)  
-**Last 24 h:** 115 of 137 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-10 (115 good checks)
+**Last check:** 2026-10-11 00:40 — ⚠️ error: TimeoutError: Page.goto: Timeout 60000ms exceeded. — details in `debug/cardcasino_page.json`  
+**Last 24 h:** 115 of 138 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-10 (115 good checks)
 
 ## Tables running at 2026-10-11 00:30
 
@@ -16,7 +16,19 @@ PLO  €100/200 5/8 players
 ```
 **NLH:** 17 players at 3 tables · **PLO:** 13 players at 2 tables
 
+## Festivals and schedule
+
+- **Now:** 💵 **Cash game days: NLH/PLO/PLO5 from €10/20**, 8–11 Oct (cash event) — Announced on Card Casino's website
+- **Coming up:** 🎪 **Main Event week**, 20–25 Oct (festival) — €250 main event 21–25 Oct; €550 high roller 22 Oct
+- **Coming up:** 💵 **Cash game days: NLH/PLO €5/5**, 26 Nov – 1 Dec (cash event) — Announced on Card Casino's website
+
+No Omaha tournaments on the schedule in the next 14 days.
+
+**Public holidays in the next 30 days** where most players come from (Slovakia, Austria, Hungary): Fri 23 Oct: National Day (Hungary) · Mon 26 Oct: National Day (Austria) · Sun 1 Nov: All Saints' Day (Slovakia, Austria, Hungary).
+
 ## Busiest times so far
+
+*All days: fewer than two normal days recorded so far, so these include festival and holiday days (compared separately below).*
 
 Needs about two weeks of data: each day-and-hour slot must be seen on at least 2 dates.
 
@@ -112,6 +124,14 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 21:00 | 🟩 100% | 🟩 100% | 🟥 0% | 🟩 100% | 6 |
 | 22:00 | 🟩 100% | 🟩 100% | 🟥 0% | 🟩 100% | 5 |
 | 23:00 | 🟩 100% | 🟩 100% | 🟥 0% | 🟩 100% | 5 |
+
+## Festivals, holidays and normal days
+
+Average seated players per check on each kind of day, in total and for NLH and Omaha games. “vs normal” compares every check with normal days at the same hour, so days that happened to be checked mostly in the evening don't look busier just because evenings are. Festival dates: `calendar.csv`; public holidays: those of the countries most players come from (Slovakia, Austria, Hungary).
+
+| Days | Dates | Checks | Players | NLH | Omaha | vs normal, same hour |
+|:--|:--|--:|--:|--:|--:|--:|
+| 💵 Cash game days: NLH/PLO/PLO5 from €10/20 | 10–11 Oct (2 days) | 115 | 12.5 | 5.7 | 6.8 | · |
 
 ## All games seen
 

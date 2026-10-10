@@ -2,10 +2,10 @@
 
 Reads [Grand Casino Aš's live cash games](https://www.grandcasinoas.eu/en/poker/poker-live) every 10 minutes and its [current tournaments](https://www.grandcasinoas.eu/en/poker) every 30 minutes. All times are **Czech time** (same as Poland). Back to [King's](README.md).
 
-**Last check:** 2026-10-11 00:30 — ✅ OK  
-**Last 24 h:** 130 of 130 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-10 (130 good checks)
+**Last check:** 2026-10-11 00:40 — ✅ OK  
+**Last 24 h:** 131 of 131 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-10 (131 good checks)
 
-## Cash games at 2026-10-11 00:30
+## Cash games at 2026-10-11 00:40
 
 ```
 NLH      €1/2     running
@@ -16,6 +16,29 @@ PLO/NLH           waiting
 ```
 
 **Tournaments in play at 2026-10-11 00:30:** BHD PKO Main Event 1C (NLH, €230, 22 of 93 left, level 13, blinds 2000/4000/4000)
+
+## Festivals and schedule
+
+- **Now:** 🎟️ **BHD PKO Main Event**, 9–11 Oct (series) — €230 PKO main event
+- **Coming up:** 🎪 **PLO festival**, 15–18 Oct (festival) — Omaha: €550 PLO5 High Roller (15 Oct 20:00); €340 PLO Main Event (16–18 Oct); €100 PLO 4-5-6 mix (17 Oct 20:00); €660 PLO Turbo High Roller (18 Oct 16:00)
+- **Coming up:** 🎟️ **KaKo Cup**, 28–31 Oct (series) — €140 KaKo Cup 31 Oct; €300 KaKo Highroller 30 Oct · Omaha: €80 PLO (30 Oct 18:00)
+- **Coming up:** 🎪 **GRND festival**, 4–15 Nov (festival) — €200 GRND Main Event 11–15 Nov; €350 GRND Highroller 6 Nov; €100 GRND Cup 8–11 Nov
+- **Coming up:** 🎟️ **Isar series**, 25–29 Nov (series) — €150 Isar Main Event 28 Nov · Omaha: €60 NLH/PLO/Crazy Pineapple (26 Nov 14:00); €100 PLO StackAttack (27 Nov 20:00)
+
+**Omaha tournaments in the next 14 days** (from `hendonmob.txt`):
+
+| Day | Time (local) | Buy-in | Tournament |
+|:--|:--|--:|:--|
+| Thu 15 Oct | 20:00 | €550 | Pot Limit Omaha - 550er PLO5 Highroller |
+| Fri 16 Oct – Sun 18 Oct | 16:00 | €340 | Pot Limit Omaha - Main Event - Day 1A |
+| Sat 17 Oct | 14:00 | €340 | Pot Limit Omaha - Main Event - Day 1B |
+| Sat 17 Oct | 19:00 | €340 | Pot Limit Omaha - Main Event - Day 1C Fast |
+| Sat 17 Oct | 20:00 | €100 | Pot Limit Omaha - 4-5-6 in the Mix (PLO4/5/6) |
+| Sun 18 Oct | 10:00 | €340 | Pot Limit Omaha - Main Event - Day 1D Turbo |
+| Sun 18 Oct | 16:00 | · | PLO Main Event Day 2 |
+| Sun 18 Oct | 16:00 | €660 | Pot Limit Omaha - Turbo Highroller |
+
+**Public holidays in the next 30 days** where most players come from (Czechia, Bavaria, Saxony): Wed 28 Oct: Independent Czechoslovak State Day (Czechia) · Sat 31 Oct: Reformation Day (Saxony) · Sun 1 Nov: All Saints' Day (Bavaria).
 
 ## Running cash tables by hour
 
@@ -54,7 +77,7 @@ Average number of running tables (Grand Casino Aš shows which games run, not ho
 
 | Hour | NLH €1/2 | PLO €2/2 | DC €2/2 | Checks |
 |:--|--:|--:|--:|--:|
-| 00:00 | 🟩 100% | 🟥 0% | 🟩 100% | 4 |
+| 00:00 | 🟩 100% | 🟥 0% | 🟩 100% | 5 |
 | 01:00 | · | · | · | 0 |
 | 02:00 | · | · | · | 0 |
 | 03:00 | 🟩 100% | 🟥 0% | 🟥 0% | 2 |

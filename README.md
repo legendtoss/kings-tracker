@@ -2,16 +2,15 @@
 
 Checks King's live cash games and tournaments about every 10 minutes and updates this page by itself. All times are **Czech time** (same as Poland). Also tracking: [Card Casino Šamorín](CARD_CASINO.md) · [Grand Casino Aš](GRAND_CASINO_AS.md) · [Banco Casino Bratislava](BANCO.md) · [Olympic Park Tallinn](OLYMPIC_TALLINN.md) · [Olympic Casino Vilnius](OLYMPIC_VILNIUS.md).
 
-**Right now:** King's: 13 tables, 94 players · [Card Casino Šamorín](CARD_CASINO.md): 5 tables, 30 players · [Grand Casino Aš](GRAND_CASINO_AS.md): 4 tables running, 1 waiting · [Olympic Park Tallinn](OLYMPIC_TALLINN.md): couldn't be read at 00:30 · [Olympic Vilnius](OLYMPIC_VILNIUS.md): couldn't be read at 00:30 · [Banco](BANCO.md): no games listed
+**Right now:** King's: 13 tables, 94 players · [Card Casino Šamorín](CARD_CASINO.md) 💵 Cash game days: NLH/PLO/PLO5 from €10/20: couldn't be read · [Grand Casino Aš](GRAND_CASINO_AS.md): 4 tables running, 1 waiting · [Olympic Park Tallinn](OLYMPIC_TALLINN.md) 🎪 Kings of Tallinn: couldn't be read at 00:30 · [Olympic Vilnius](OLYMPIC_VILNIUS.md): couldn't be read at 00:30 · [Banco](BANCO.md): no games listed
 
-**Last check:** 2026-10-11 00:30 — ✅ OK (data feed)  
-**Last 24 h:** 150 of 150 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-06 (352 good checks)
+**Last check:** 2026-10-11 00:40 — ✅ OK (data feed)  
+**Last 24 h:** 150 of 150 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-06 (353 good checks)
 
-## Tables running at 2026-10-11 00:30
+## Tables running at 2026-10-11 00:40
 
 ```
 NLH   €1/2     8/8 players
-NLH   €1/2     7/8 players
 NLH   €1/2     8/8 players
 NLH   €1/2     8/8 players
 NLH   €1/2     8/8 players
@@ -19,14 +18,58 @@ NLH   €1/2     7/8 players
 NLH   €1/2     8/8 players
 NLH   €1/2     8/8 players
 NLH   €1/2     8/8 players
+NLH   €1/2     7/8 players
 NLH   €2/4     6/8 players
-NLH   €5/10    6/8 players
+NLH   €5/10    7/8 players
 PLO   €2/2     7/8 players
-PLO5  €5/5     5/8 players
+PLO5  €5/5     4/8 players
 ```
-**NLH:** 82 players at 11 tables · **PLO:** 7 players at 1 table · **PLO5:** 5 players at 1 table
+**NLH:** 83 players at 11 tables · **PLO:** 7 players at 1 table · **PLO5:** 4 players at 1 table
 
-**Tournaments in play:** GPD Mystery Bounty - Day 1F (NLH, €124, €75 bounty, 102 of 311 left, level 11, blinds 2000/4000/4000) · GPD Saturday Night Turbo (NLH, €125, 38 of 188 left, level 14, blinds 2500/5000/5000)
+**Tournaments in play:** GPD Mystery Bounty - Day 1F (NLH, €124, €75 bounty, 96 of 311 left, level 12, blinds 3000/6000/6000) · GPD Saturday Night Turbo (NLH, €125, 36 of 188 left, level 14, blinds 2500/5000/5000)
+
+## Festivals and schedule
+
+- **Now:** 🎟️ **GPD Mystery Bounty Edition**, 7–11 Oct (series) — €199 main event; €350 high roller 11 Oct · Omaha: €125 PLO (10 Oct 15:00)
+- **Coming up:** 🎟️ **Dutch Poker Masters (DPM)**, 14–19 Oct (series) — €225 main event; €500 high roller 18 Oct · Omaha: €120 PLO (17 Oct 15:00)
+- **Coming up:** 🎟️ **Balkan Poker Circuit (BPC)**, 19–26 Oct (series) — €295 main event; €600 high roller 25 Oct · Omaha: €350 PLO 8-Max One Day (23 Oct 14:00)
+- **Coming up:** 🎪 **WSOP Super Circuit**, 28 Oct – 11 Nov (festival) — €3,000 main event 5–11 Nov; €1,000 mini main 29 Oct – 2 Nov; €1,500 championship 8–11 Nov · Omaha: €1,000 PLO Bounty (28 Oct 16:00); €1,500 Big O (29 Oct 15:00); €1,500 PLO Monster Stack (30 Oct 16:00); €5,000 PLO High Roller (31 Oct – 1 Nov); €250 PLO side events (3, 7, 8, 9, 10 and 11 Nov)
+
+**Omaha tournaments in the next 14 days** (from `hendonmob.txt`):
+
+| Day | Time (local) | Buy-in | Tournament |
+|:--|:--|--:|:--|
+| Sat 17 Oct | 15:00 | €120 | Pot Limit Omaha |
+| Fri 23 Oct | 14:00 | €350 | Pot Limit Omaha - BPC 8-Max One Day |
+
+**Public holidays in the next 30 days** where most players come from (Czechia, Bavaria): Wed 28 Oct: Independent Czechoslovak State Day (Czechia) · Sun 1 Nov: All Saints' Day (Bavaria).
+
+## Coming up at all rooms
+
+From `calendar.csv` — open it on GitHub and use the pencil button to add or correct dates. 🎪 festival · 💵 cash-game event · 🎟️ smaller series · 📍 nearby, not tracked.
+
+| Dates | Room | Event | Omaha |
+|:--|:--|:--|:--|
+| 7–11 Oct **now** | [King's Rozvadov](README.md) | 🎟️ GPD Mystery Bounty Edition | €125 PLO (10 Oct 15:00) |
+| 8–11 Oct **now** | [Card Casino Šamorín](CARD_CASINO.md) | 💵 Cash game days: NLH/PLO/PLO5 from €10/20 | · |
+| 9–11 Oct **now** | [Grand Casino Aš](GRAND_CASINO_AS.md) | 🎟️ BHD PKO Main Event | · |
+| 9–18 Oct **now** | [Olympic Park Tallinn](OLYMPIC_TALLINN.md) | 🎪 Kings of Tallinn | €250 PLO4/PLO5 Progressive Bounty (10 Oct 20:00); €1,100 PLO4/PLO5 Championship (11–12 Oct); €350 PLO4/PLO5 Double Board Bomb Pot (12 Oct 17:00 and 14 Oct 20:00); €250 PLO High Only Mix (12 Oct 21:00); €250 PLO5 Progressive Bounty (13 Oct 15:00); €350 PLO4/PLO5 Mystery Bounty (14 Oct 16:00); €350 PLO4/5/6 Progressive Bounty (15 Oct 19:30); €350 PLO4/PLO5 Hi-Lo (17 Oct 13:00); €200 PLO4/5/6 Progressive Bounty (18 Oct 12:00) |
+| 14–19 Oct | [King's Rozvadov](README.md) | 🎟️ Dutch Poker Masters (DPM) | €120 PLO (17 Oct 15:00) |
+| 15–18 Oct | [Grand Casino Aš](GRAND_CASINO_AS.md) | 🎪 PLO festival | €550 PLO5 High Roller (15 Oct 20:00); €340 PLO Main Event (16–18 Oct); €100 PLO 4-5-6 mix (17 Oct 20:00); €660 PLO Turbo High Roller (18 Oct 16:00) |
+| 19–26 Oct | [King's Rozvadov](README.md) | 🎟️ Balkan Poker Circuit (BPC) | €350 PLO 8-Max One Day (23 Oct 14:00) |
+| 20–25 Oct | [Card Casino Šamorín](CARD_CASINO.md) | 🎪 Main Event week | · |
+| 26–31 Oct | [Olympic Park Tallinn](OLYMPIC_TALLINN.md) | 🎪 Mixed games festival | €200 Omaha Dealer's Choice (31 Oct 18:00) |
+| 28–31 Oct | [Grand Casino Aš](GRAND_CASINO_AS.md) | 🎟️ KaKo Cup | €80 PLO (30 Oct 18:00) |
+| 28 Oct – 11 Nov | [King's Rozvadov](README.md) | 🎪 WSOP Super Circuit | €1,000 PLO Bounty (28 Oct 16:00); €1,500 Big O (29 Oct 15:00); €1,500 PLO Monster Stack (30 Oct 16:00); €5,000 PLO High Roller (31 Oct – 1 Nov); €250 PLO side events (3, 7, 8, 9, 10 and 11 Nov) |
+| 4–16 Nov | [Banco Casino Bratislava](BANCO.md) | 🎪 PPC festival | €75 NLH/PLO 4/5 mix (14 Nov 10:00) |
+| 4–15 Nov | [Grand Casino Aš](GRAND_CASINO_AS.md) | 🎪 GRND festival | · |
+| 20–23 Nov | [Olympic Park Tallinn](OLYMPIC_TALLINN.md) | 🎪 The Hendon Mob Championship | €350 Pot Limit Dealer's Choice (21 Nov 13:00); €200 Omaha Jack (22 Nov 21:00); €350 PLO 4/5/6 (23 Nov 14:00) |
+| 24–29 Nov | [Olympic Park Tallinn](OLYMPIC_TALLINN.md) | 🎪 The Festival | €200 NLH/PLO Half n Half (24 Nov 20:00); €350 PLO Bomb Pot 4/5/6 (25 Nov 17:00); €200 Big O (25 Nov 20:00); €350 PLO Bomb Pot (26 Nov 15:00); €350 PLO 4/5 (27 Nov 15:00); €1,100 PLO High Roller (27 Nov 17:00); €350 PLO 4/5/6 Bomb Pot (28 Nov 13:00); €100 PLO Flips (29 Nov 12:30) |
+| 25–29 Nov | [Grand Casino Aš](GRAND_CASINO_AS.md) | 🎟️ Isar series | €60 NLH/PLO/Crazy Pineapple (26 Nov 14:00); €100 PLO StackAttack (27 Nov 20:00) |
+| 26 Nov – 1 Dec | [Card Casino Šamorín](CARD_CASINO.md) | 💵 Cash game days: NLH/PLO €5/5 | · |
+| 1–7 Dec | [Banco Casino Bratislava](BANCO.md) | 🎪 Masters festival | €250 PLO Masters Main Event 8-Max (3–5 Dec); €60 PLO Nightly Turbo (2 Dec 21:00); €150 NLH/PLO level of each (3 Dec 21:00); €130 PLO Masters Mystery Bounty (4 Dec 16:00); €150 Big O Masters (5 Dec 19:00); €60 PLO 4/5/6 Masters 7-Max (6 Dec 20:00) |
+| 2–13 Dec | nearby | 📍 EPT Prague (King's Casino Prague) | · |
+| 4–13 Dec | [Olympic Casino Vilnius](OLYMPIC_VILNIUS.md) | 🎪 Kings of Vilnius | €200 PLO4/PLO5 (5 Dec 19:00); €200 NLH/PLO mix (6 Dec 18:00); €200 PLO4/5/6 (7 Dec 19:00); €555 PLO4/PLO5 Championship (8 Dec 14:00); €250 Pot Limit Sviten (11 Dec 16:00); €250 PLO4/PLO5 Progressive KO (12 Dec 20:00) |
 
 ## Busiest times so far
 
@@ -40,7 +83,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 
 | Hour | Mon | Tue | Wed | Thu | Fri | Sat | Sun | All days |
 |:--|--:|--:|--:|--:|--:|--:|--:|--:|
-| 00:00 | · | · | 15 | 19 | · | 69 | 83 | 53 |
+| 00:00 | · | · | 15 | 19 | · | 69 | 83 | 55 |
 | 01:00 | · | · | 13 | 15 | · | 70 | · | 40 |
 | 02:00 | · | · | 14 | 8 | 17 | 55 | · | 36 |
 | 03:00 | · | · | 13 | 6 | · | 39 | · | 27 |
@@ -69,7 +112,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 
 | Hour | Mon | Tue | Wed | Thu | Fri | Sat | Sun | All days |
 |:--|--:|--:|--:|--:|--:|--:|--:|--:|
-| 00:00 | · | · | 14 | 5 | · | 8 | 6 | 8 |
+| 00:00 | · | · | 14 | 5 | · | 8 | 5 | 8 |
 | 01:00 | · | · | 7 | 0 | · | 9 | · | 6 |
 | 02:00 | · | · | 6 | 0 | 0 | 5 | · | 4 |
 | 03:00 | · | · | 5 | 0 | · | 4 | · | 4 |
@@ -129,7 +172,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 
 | Hour | NLH €1/2 | NLH €2/4 | NLH €5/10 | PLO €2/2 | PLO5 €5/5 | PLO5 €10/10 | PLO5 €10/25 | MIX NLH/PLO €5/5 | Checks |
 |:--|--:|--:|--:|--:|--:|--:|--:|--:|--:|
-| 00:00 | 🟩 81% | 🟩 100% | 🟨 25% | 🟨 62% | 🟨 62% | 🟨 56% | 🟥 0% | 🟥 19% | 16 |
+| 00:00 | 🟩 82% | 🟩 100% | 🟨 29% | 🟨 65% | 🟨 65% | 🟨 53% | 🟥 0% | 🟥 18% | 17 |
 | 01:00 | 🟩 77% | 🟩 100% | 🟥 0% | 🟨 46% | 🟨 31% | 🟨 46% | 🟥 0% | 🟥 23% | 13 |
 | 02:00 | 🟨 62% | 🟩 92% | 🟥 0% | 🟨 54% | 🟨 38% | 🟨 38% | 🟥 0% | 🟥 15% | 13 |
 | 03:00 | 🟨 60% | 🟩 100% | 🟥 0% | 🟨 60% | 🟩 80% | 🟥 0% | 🟥 0% | 🟥 0% | 10 |
@@ -162,11 +205,11 @@ Collecting since 2026-10-08. Shown from 2026-10-22: with fewer than two weeks, t
 
 | Game | Running in | Most often | Last seen |
 |:--|--:|:--|:--|
-| NLH €1/2 | 70% of checks | Fri around 22:00 | 2026-10-11 00:30 |
-| NLH €2/4 | 70% of checks | Fri around 22:00 | 2026-10-11 00:30 |
-| NLH €5/10 | 13% of checks | Sat around 23:00 | 2026-10-11 00:30 |
-| PLO €2/2 | 47% of checks | Fri around 22:00 | 2026-10-11 00:30 |
-| PLO5 €5/5 | 48% of checks | Sat around 19:00 | 2026-10-11 00:30 |
+| NLH €1/2 | 70% of checks | Fri around 22:00 | 2026-10-11 00:40 |
+| NLH €2/4 | 70% of checks | Fri around 22:00 | 2026-10-11 00:40 |
+| NLH €5/10 | 14% of checks | Sat around 23:00 | 2026-10-11 00:40 |
+| PLO €2/2 | 48% of checks | Fri around 22:00 | 2026-10-11 00:40 |
+| PLO5 €5/5 | 48% of checks | Sat around 19:00 | 2026-10-11 00:40 |
 | PLO5 €10/10 | 25% of checks | Fri around 23:00 | 2026-10-10 19:40 |
 | PLO5 €10/25 | 4% of checks | Wed around 06:00 | 2026-10-07 10:04 |
 | MIX NLH/PLO €5/5 | 3% of checks | Wed around 00:00 | 2026-10-07 02:33 |
@@ -177,8 +220,8 @@ The most recent ones. The game is read from the tournament's name.
 
 | Tournament | Game | Buy-in | Entries | Seen |
 |:--|:--|--:|--:|:--|
-| GPD Mystery Bounty - Day 1F | NLH | €124 | 311 | 2026-10-10 18:00 → 10-11 00:30 |
-| GPD Saturday Night Turbo | NLH | €125 | 188 | 2026-10-10 21:00 → 10-11 00:30 |
+| GPD Mystery Bounty - Day 1F | NLH | €124 | 311 | 2026-10-10 18:00 → 10-11 00:40 |
+| GPD Saturday Night Turbo | NLH | €125 | 188 | 2026-10-10 21:00 → 10-11 00:40 |
 | GPD Pot Limit Omaha | PLO | €125 | 114 | 2026-10-10 15:00 → 10-10 21:00 |
 | GPD Mystery Bounty - Day 1E | NLH | €124 | 371 | 2026-10-10 11:00 → 10-10 20:50 |
 | Flip n Go Satellite (8 handed) to GPD ME - Day 1F | NLH | €35 | 86 | 2026-10-10 16:00 → 10-10 18:10 |
@@ -191,4 +234,5 @@ The most recent ones. The game is read from the tournament's name.
 | Satellite to GPD ME - Day 1C | NLH | · | 50 | 2026-10-08 22:09 |
 
 ---
-Raw data: the `data` folder, one CSV file per month. To open one in Excel, use Data → From Text/CSV (double-clicking puts everything in one column in Polish Excel). The tracker is `tracker.py`; its schedule is in `.github/workflows/track.yml`.
+Raw data: the `data` folder, one CSV file per month. To open one in Excel, use Data → From Text/CSV (double-clicking puts everything in one column in Polish Excel). The tracker is `tracker.py`; its schedule is in `.github/workflows/track.yml`.  
+Festival dates: `calendar.csv` (edit on GitHub). Tournament schedule: `hendonmob.txt` — to refresh it, copy the Hendon Mob upcoming-events page and paste it over that file's contents; every event read so far is kept in `data/schedule/events.csv`. Public holidays: `data/holidays.json`.
