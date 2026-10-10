@@ -2,10 +2,10 @@
 
 Reads [Card Casino's live cash-game list](https://www.cardcasino.sk/en/cashgames/) together with King's, about every 10 minutes. All times are **Czech time** (same as Poland and Slovakia). Back to [King's](README.md).
 
-**Last check:** 2026-10-10 17:30 — ✅ OK (live list)  
-**Last 24 h:** 77 of 93 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-10 (77 good checks)
+**Last check:** 2026-10-10 17:40 — ✅ OK (live list)  
+**Last 24 h:** 78 of 94 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-10 (78 good checks)
 
-## Tables running at 2026-10-10 17:30
+## Tables running at 2026-10-10 17:40
 
 ```
 PLO  €10/10   5/8 players
@@ -71,7 +71,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 14:00 | · | · | · | · | · | 4 | · | 4 |
 | 15:00 | · | · | · | · | · | 5 | · | 5 |
 | 16:00 | · | · | · | · | · | 5 | · | 5 |
-| 17:00 | · | · | · | · | · | 7 | · | 7 |
+| 17:00 | · | · | · | · | · | 8 | · | 8 |
 | 18:00 | · | · | · | · | · | · | · | · |
 | 19:00 | · | · | · | · | · | · | · | · |
 | 20:00 | · | · | · | · | · | · | · | · |
@@ -102,7 +102,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 14:00 | 🟥 0% | 🟥 0% | 🟩 86% | 7 |
 | 15:00 | 🟥 0% | 🟥 0% | 🟩 100% | 4 |
 | 16:00 | 🟥 0% | 🟥 0% | 🟩 100% | 6 |
-| 17:00 | 🟥 0% | 🟨 33% | 🟩 100% | 3 |
+| 17:00 | 🟥 0% | 🟨 50% | 🟩 100% | 4 |
 | 18:00 | · | · | · | 0 |
 | 19:00 | · | · | · | 0 |
 | 20:00 | · | · | · | 0 |
@@ -114,9 +114,9 @@ Seated players at each game's tables. 0 = that game wasn't running.
 
 | Game | Running in | Most often | Last seen |
 |:--|--:|:--|:--|
-| NLH €1/3 | 30% of checks | Sat around 06:00 | 2026-10-10 07:10 |
-| PLO €10/10 | 27% of checks | Sat around 05:00 | 2026-10-10 17:30 |
-| PLO €100/100 | 40% of checks | Sat around 14:00 | 2026-10-10 17:30 |
+| NLH €1/3 | 29% of checks | Sat around 06:00 | 2026-10-10 07:10 |
+| PLO €10/10 | 28% of checks | Sat around 05:00 | 2026-10-10 17:40 |
+| PLO €100/100 | 41% of checks | Sat around 14:00 | 2026-10-10 17:40 |
 
 ---
 Raw data: `data/cardcasino` (one CSV file per month). Card Casino lists seated players per table; it doesn't show waiting lists.
