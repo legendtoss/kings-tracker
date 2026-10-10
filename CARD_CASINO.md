@@ -2,8 +2,8 @@
 
 Reads [Card Casino's live cash-game list](https://www.cardcasino.sk/en/cashgames/) together with King's, about every 10 minutes. All times are **Czech time** (same as Poland and Slovakia). Back to [King's](README.md).
 
-**Last check:** 2026-10-10 07:57 — ⚠️ error: couldn't read the cash games list — details in `debug/cardcasino_page.json`  
-**Last 24 h:** 23 of 34 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-10 (23 good checks)
+**Last check:** 2026-10-10 08:00 — ⚠️ error: TimeoutError: Page.goto: Timeout 60000ms exceeded. — details in `debug/cardcasino_page.json`  
+**Last 24 h:** 23 of 35 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-10 (23 good checks)
 
 ## Tables running at 2026-10-10 07:10
 
