@@ -1,3 +1,4 @@
 ﻿time,weekday,hour,status,tables,waiting,games,tourneys,tourney_players,tourney_details,raw
 2026-10-10 03:40,Sat,3,ok,2,1,NLH €1/2 [RUNNING]; NLH €1/2 [RUNNING]; PLO/NLH [WAITING],,,,
 2026-10-10 03:50,Sat,3,ok,2,1,NLH €1/2 [RUNNING]; NLH €1/2 [RUNNING]; PLO/NLH [WAITING],,,,
+2026-10-10 04:00,Sat,4,ok,2,1,NLH €1/2 [RUNNING]; NLH €1/2 [RUNNING]; PLO/NLH [WAITING],1,4,"[{""name"":""Mayoman s Highroller"",""game"":""NLH"",""status"":""RUNNING"",""left"":4,""entries"":97,""buyin"":400,""prizepool"":34920,""currency"":""EUR"",""level"":20,""blinds"":""75000/150000/150000"",""avg_stack"":4850000,""start_stack"":200000,""late_reg_open"":false,""start"":""09.10. 16:00""}]",

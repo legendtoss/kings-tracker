@@ -2,16 +2,18 @@
 
 Reads [Grand Casino Aš's live cash games](https://www.grandcasinoas.eu/en/poker/poker-live) every 10 minutes and its [current tournaments](https://www.grandcasinoas.eu/en/poker) every 30 minutes. All times are **Czech time** (same as Poland). Back to [King's](README.md).
 
-**Last check:** 2026-10-10 03:50 — ✅ OK  
-**Last 24 h:** 2 of 2 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-10 (2 good checks)
+**Last check:** 2026-10-10 04:00 — ✅ OK  
+**Last 24 h:** 3 of 3 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-10 (3 good checks)
 
-## Cash games at 2026-10-10 03:50
+## Cash games at 2026-10-10 04:00
 
 ```
 NLH      €1/2     running
 NLH      €1/2     running
 PLO/NLH           waiting
 ```
+
+**Tournaments in play at 2026-10-10 04:00:** Mayoman s Highroller (NLH, €400, 4 of 97 left, level 20, blinds 75000/150000/150000)
 
 ## Running cash tables by hour
 
@@ -23,7 +25,7 @@ Average number of running tables (Grand Casino Aš shows which games run, not ho
 | 01:00 | · | · | · | · | · | · | · | · |
 | 02:00 | · | · | · | · | · | · | · | · |
 | 03:00 | · | · | · | · | · | 2.0 | · | 2.0 |
-| 04:00 | · | · | · | · | · | · | · | · |
+| 04:00 | · | · | · | · | · | 2.0 | · | 2.0 |
 | 05:00 | · | · | · | · | · | · | · | · |
 | 06:00 | · | · | · | · | · | · | · | · |
 | 07:00 | · | · | · | · | · | · | · | · |
@@ -54,7 +56,7 @@ Average number of running tables (Grand Casino Aš shows which games run, not ho
 | 01:00 | · | 0 |
 | 02:00 | · | 0 |
 | 03:00 | 🟩 100% | 2 |
-| 04:00 | · | 0 |
+| 04:00 | 🟩 100% | 1 |
 | 05:00 | · | 0 |
 | 06:00 | · | 0 |
 | 07:00 | · | 0 |
@@ -74,6 +76,14 @@ Average number of running tables (Grand Casino Aš shows which games run, not ho
 | 21:00 | · | 0 |
 | 22:00 | · | 0 |
 | 23:00 | · | 0 |
+
+## Tournaments seen
+
+The most recent ones. The game is read from the tournament's name.
+
+| Tournament | Game | Buy-in | Entries | Seen |
+|:--|:--|--:|--:|:--|
+| Mayoman s Highroller | NLH | €400 | 97 | 2026-10-10 04:00 |
 
 ---
 Raw data: `data/grandcasinoas` (one CSV file per month).
