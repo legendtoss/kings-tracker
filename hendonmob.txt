@@ -1,0 +1,562 @@
+Hendon Mob schedule for the tracked rooms
+To update: open the Hendon Mob "upcoming events" page, select everything (Ctrl+A), copy, and paste it here,
+replacing this whole file. The tracker picks out the events at the tracked rooms on its next run and keeps
+older events in data/schedule/events.csv, so nothing is lost when you replace this file.
+
+Wed 7 - Sun 11 Oct	Czech Republic	€ 40 Satellite to GPD ME - Day 1A, King's Resort Live, Rozvadov
+Fri 9 - Sun 11 Oct	Czech Republic	€ 140 + 30 + 60 No Limit Hold'em - BHD PKO ME Day 1A, Grand Casino Asch ( Aš ), Asch
+Fri 9 - Sun 11 Oct	Estonia	€ 250 No Limit Hold'em - Kings of Tallinn Mini-Main Flight 1A (Event #2), Olympic Park Casino, Tallinn
+Sat 10 Oct at 11:00am	Czech Republic	€ 124 + 75 No Limit Hold'em - GPD Mystery Bounty Edition - Day 1E, King's Resort Live, Rozvadov
+Sat 10 Oct at 12:00pm	Czech Republic	€ 140 + 30 + 60 No Limit Hold'em - BHD PKO ME - Day 1B, Grand Casino Asch ( Aš ), Asch
+Sat 10 Oct at 12:00pm	Estonia	Freebuy Mega-Satellite (Event #3), Olympic Park Casino, Tallinn
+Sat 10 Oct at 12:30pm	Estonia	€ 250 No Limit Hold'em - Kings of Tallinn Mini-Main Flight 1B (Event #2), Olympic Park Casino, Tallinn
+Sat 10 Oct at 1:00pm	Estonia	€ 350 Open-Face Chinese Pineapple - DeepStack (Event #4), Olympic Park Casino, Tallinn
+Sat 10 Oct at 2:00pm	Czech Republic	€ 100 + 20 Saturday Freezeout, Grand Casino Asch ( Aš ), Asch
+Sat 10 Oct at 3:00pm	Czech Republic	€ 125 Pot Limit Omaha, King's Resort Live, Rozvadov
+Sat 10 Oct at 4:00pm	Estonia	€ 100 No Limit Hold'em - Win TV Series (Event #5), Olympic Park Casino, Tallinn
+Sat 10 Oct at 4:00pm	Czech Republic	€ 35 Flip & Go Satellite to GPD ME - Day 1F, King's Resort Live, Rozvadov
+Sat 10 Oct at 5:00pm	Czech Republic	€ 140 + 30 + 60 No Limit Hold'em - BHD PKO ME - Day 1C, Grand Casino Asch ( Aš ), Asch
+Sat 10 Oct at 6:00pm	Czech Republic	€ 124 + 75 No Limit Hold'em - GPD Mystery Bounty Edition - Day 1F, King's Resort Live, Rozvadov
+Sat 10 Oct at 7:30pm	Estonia	€ 250 No Limit Hold'em - Kings of Tallinn Mini-Main Flight 1C (Event #2), Olympic Park Casino, Tallinn
+Sat 10 Oct at 8:00pm	Czech Republic	€ 80 + 20 + 50 No Limit Hold'em - Saturday Quattro Bounty, Grand Casino Asch ( Aš ), Asch
+Sat 10 Oct at 8:00pm	Estonia	€ 150 +100 Pot Limit Omaha - PLO4/PLO5 Progressive Bounty (Event #6), Olympic Park Casino, Tallinn
+Sat 10 Oct at 8:00pm	Estonia	€ 80 Mega-Satellite to 555 Kings of Tallinn Championship (Event #7), Olympic Park Casino, Tallinn
+Sat 10 Oct at 9:00pm	Czech Republic	No Limit Hold'em - GPD Saturday Night Turbo, King's Resort Live, Rozvadov
+Sat 10 Oct at 10:30pm	Estonia	€ 80 Satellite to 1,100 PLO4/PLO5 Championship (Event #8), Olympic Park Casino, Tallinn
+Sun 11 Oct at 11:00am	Czech Republic	€ 124 + 75 No Limit Hold'em - GPD Mystery Bounty Edition - Day 1G Turbo, King's Resort Live, Rozvadov
+Sun 11 Oct at 12:00pm	Czech Republic	€ 110 + 20 No Limit Hold'em - Barista Rebel Cup, Grand Casino Asch ( Aš ), Asch
+Sun 11 Oct at 12:00pm	Czech Republic	BHD Main Event Final Day 2, Grand Casino Asch ( Aš ), Asch
+Sun 11 Oct at 12:00pm	Estonia	€ 250 No Limit Hold'em - Kings of Tallinn Mini-Main Final Day (Event #2), Olympic Park Casino, Tallinn
+Sun 11 Oct at 1:30pm	Estonia	Freebuy Satellite (Event #9), Olympic Park Casino, Tallinn
+Sun 11 Oct at 1:30pm	Czech Republic	€ 124 + 75 No Limit Hold'em - GPD Mystery Bounty Edition - Day 1 Flip & Go, King's Resort Live, Rozvadov
+Sun 11 - Mon 12 Oct at 2:00pm	Estonia	€ 1,100 Pot Limit Omaha - PLO4/PLO5 Championship Day 1 (Event #10), Olympic Park Casino, Tallinn
+Sun 11 - Mon 12 Oct at 2:30pm	Estonia	€ 350 No Limit Hold'em - Kings of Tallinn Cup Flight 1A (Event #11), Olympic Park Casino, Tallinn
+Sun 11 Oct at 4:00pm	Estonia	Freebuy Satellite to Event #20 - Women Only (Event #12), Olympic Park Casino, Tallinn Entry restricted
+Sun 11 Oct at 4:00pm	Estonia	€ 150 +100 Pot Limit Razz - Progressive Bounty, 100 Progressive Bounties, 7-handed (Event #13), Olympic Park Casino, Tallinn
+Sun 11 Oct at 4:00pm	Czech Republic	GPD Mystery Bounty Edition - Final Day, King's Resort Live, Rozvadov
+Sun 11 Oct at 6:00pm	Czech Republic	€ 350 No Limit Hold'em - GPD High Roller, King's Resort Live, Rozvadov
+Sun 11 - Wed 14 Oct at 7:00pm	Estonia	€ 555 No Limit Hold'em - Kings of Tallinn Championship Flight 1A (Event #14), Olympic Park Casino, Tallinn
+Sun 11 Oct at 7:30pm	Estonia	€ 350 Pot Limit Sviten - PLO5 & Draw (Event #15), Olympic Park Casino, Tallinn
+Sun 11 Oct at 8:00pm	Estonia	€ 350 No Limit Hold'em - 350 NLH Kings of Tallinn Cup Flight 1B, Plays 11 Levels Day 1 (Event #11), Olympic Park Casino, Tallinn
+Sun 11 Oct at 8:30pm	Estonia	€ 200 No Limit Hold'em - Turbo (Event #16), Olympic Park Casino, Tallinn
+Sun 11 Oct at 10:30pm	Estonia	€ 80 Mega-Satellite to 555 Kings of Tallinn Championship (Event #17), Olympic Park Casino, Tallinn
+Mon 12 Oct at 12:00pm	Estonia	€ 350 No Limit Hold'em - Kings of Tallinn Cup Final Day (Event #11), Olympic Park Casino, Tallinn
+Mon 12 Oct at 12:30pm	Estonia	€ 555 No Limit Hold'em - Kings of Tallinn Championship Flight 1B (Event #14), Olympic Park Casino, Tallinn
+Mon 12 Oct at 1:00pm	Estonia	PLO4/PLO5 Championship Final Day (Event #10), Olympic Park Casino, Tallinn
+Mon 12 Oct at 2:00pm	Estonia	€ 555 Open-Face Chinese Pineapple (Event #18), Olympic Park Casino, Tallinn
+Mon 12 Oct at 3:00pm	Estonia	€ 150 +100 No Limit Hold'em - Bounty (Event #19), Olympic Park Casino, Tallinn
+Mon 12 Oct at 4:00pm	Estonia	€ 200 No Limit Hold'em - Queens, Women Only (Event #20), Olympic Park Casino, Tallinn Entry restricted
+Mon 12 Oct at 5:00pm	Estonia	€ 350 Pot Limit Omaha - PLO4/PLO5 Double Board Bomb Pot (Event #21), Olympic Park Casino, Tallinn
+Mon 12 Oct at 7:30pm	Estonia	€ 555 No Limit Hold'em - Kings of Tallinn Championship Flight 1C (Event #14), Olympic Park Casino, Tallinn
+Mon 12 Oct at 8:00pm	Estonia	€ 80 Satellite 1,100 NLH DeepStack Mystery Bounty (Event #22), Olympic Park Casino, Tallinn
+Mon 12 Oct at 9:00pm	Estonia	€ 250 Pot Limit Omaha - High Only Mix, NLH-PLO4-PLO5-SVITEN (Event #23), Olympic Park Casino, Tallinn
+Mon 12 Oct at 10:30pm	Estonia	€ 150 Mega-Satellite to the 1,100 Kings of Tallinn Main Event (Event #24), Olympic Park Casino, Tallinn
+Tue 13 Oct at 12:00pm	Estonia	€ 555 No Limit Hold'em - Kings of Tallinn Championship Day 2 (Event #14), Olympic Park Casino, Tallinn
+Tue 13 Oct at 2:00pm	Estonia	Freebuy Mega-Satellite (Event #25), Olympic Park Casino, Tallinn
+Tue 13 Oct at 3:00pm	Estonia	€ 150 +100 Pot Limit Omaha - PLO5 Progressive Bounty (Event #26), Olympic Park Casino, Tallinn
+Tue 13 Oct at 4:00pm	Estonia	€ 250 Pot Limit - 2-7 Triple Draw (Event #28), Olympic Park Casino, Tallinn
+Tue 13 - Wed 14 Oct at 4:00pm	Estonia	€ 600 +500 No Limit Hold'em - DeepStack Mystery Bounty Day 1 (Event #27), Olympic Park Casino, Tallinn
+Tue 13 Oct at 6:00pm	Estonia	€ 200 No Limit Hold'em - Deep Stack Celebrity Special (Event #29), Olympic Park Casino, Tallinn
+Tue 13 Oct at 9:00pm	Estonia	€ 355 +200 No Limit Hold'em - Progressive Bounty (Event #30), Olympic Park Casino, Tallinn
+Tue 13 Oct at 9:00pm	Estonia	€ 150 Mega-Satellite to the 1,100 Kings of Tallinn Main Event (Event #31), Olympic Park Casino, Tallinn
+Wed 14 Oct at 12:00pm	Estonia	Kings of Tallinn Championship Final Day (Event #14), Olympic Park Casino, Tallinn
+Wed 14 - Sun 18 Oct at 12:00pm	Estonia	KOT € 1,100 No Limit Hold'em - Kings of Tallinn Main Event Flight 1A (Event #33), Olympic Park Casino, Tallinn
+Wed 14 Oct at 12:30pm	Estonia	€ 3,000 No Limit Hold'em (Event #34), Olympic Park Casino, Tallinn
+Wed 14 Oct at 1:00pm	Estonia	DeepStack Mystery Bounty Final Day (Event #27), Olympic Park Casino, Tallinn
+Wed 14 Oct at 1:00pm	Estonia	€ 350 No Limit Hold'em - DeepStack (Event #35), Olympic Park Casino, Tallinn
+Wed 14 Oct at 3:00pm	Czech Republic	€ 40 Satellite to DPM Main Event Day 1A, King's Resort Live, Rozvadov
+Wed 14 Oct at 4:00pm	Estonia	€ 200 +150 Pot Limit Omaha - PLO4/PLO5 DeepStack Mystery Bounty Day 1 (Event #36), Olympic Park Casino, Tallinn
+Wed 14 Oct at 6:00pm	Estonia	€ 1,100 No Limit Hold'em - Kings of Tallinn Main Event Flight 1B (Event #33), Olympic Park Casino, Tallinn
+Wed 14 - Mon 19 Oct at 6:00pm	Czech Republic	€ 225 No Limit Hold'em - DPM Day 1A, King's Resort Live, Rozvadov
+Wed 14 Oct at 7:00pm	Estonia	€ 150 Mega-Satellite to the 1,100 Kings of Tallinn Main Event (Event #37), Olympic Park Casino, Tallinn
+Wed 14 Oct at 8:00pm	Estonia	€ 350 Pot Limit Omaha - PLO4/PLO5 Double Board Bomb Pot (Event #38), Olympic Park Casino, Tallinn
+Wed 14 Oct at 10:30pm	Estonia	€ 150 Satellite to 3,000 NLH (Event #32), Olympic Park Casino, Tallinn
+Thu 15 Oct at 12:00pm	Estonia	€ 1,100 No Limit Hold'em - Kings of Tallinn Main Event Flight 1C (Event #33), Olympic Park Casino, Tallinn
+Thu 15 Oct at 12:00pm	Estonia	€ 80 Satellite to the 1,100 Kings of Tallinn Main Event (Event #40), Olympic Park Casino, Tallinn
+Thu 15 Oct at 12:00pm	Czech Republic	€ 105 + 25 No Limit Hold'em - DPM Morning Bounty, King's Resort Live, Rozvadov
+Thu 15 Oct at 1:00pm	Estonia	€ 555 No Limit Hold'em - 8-Game (Event #41), Olympic Park Casino, Tallinn
+Thu 15 Oct at 2:00pm	Estonia	€ 250 +100 No Limit Hold'em - DeepStack Progressive Bounty (Event #42), Olympic Park Casino, Tallinn
+Thu 15 Oct at 2:00pm	Czech Republic	€ 40 Satellite to DPM Main Event Day 1B, King's Resort Live, Rozvadov
+Thu 15 Oct at 5:00pm	Estonia	€ 200 Pot Limit Sviten - PLO5 (Event #43), Olympic Park Casino, Tallinn
+Thu 15 Oct at 5:00pm	Czech Republic	€ 225 No Limit Hold'em - DPM Day 1B, King's Resort Live, Rozvadov
+Thu 15 Oct at 6:00pm	Czech Republic	€ 100 + 10 Satellite to PLO5 Highroller, Grand Casino Asch ( Aš ), Asch
+Thu 15 Oct at 7:00pm	Estonia	€ 1,100 No Limit Hold'em - Kings of Tallinn Main Event Flight 1D (Event #33), Olympic Park Casino, Tallinn
+Thu 15 Oct at 7:30pm	Estonia	€ 250 +100 Pot Limit Omaha - PLO4/PLO5/PLO6 Progressive Bounty (Event #44), Olympic Park Casino, Tallinn
+Thu 15 Oct at 8:00pm	Czech Republic	€ 500 + 50 Pot Limit Omaha - 550er PLO5 Highroller, Grand Casino Asch ( Aš ), Asch
+Thu 15 Oct at 9:00pm	Estonia	€ 555 No Limit Hold'em (Event #45), Olympic Park Casino, Tallinn
+Thu 15 Oct at 10:00pm	Estonia	€ 200 Satellite to 3,000 NLH (Event #39), Olympic Park Casino, Tallinn
+Fri 16 Oct at 10:00am	Czech Republic	€ 120 + 50 No Limit Hold'em - DPM Friday Morning Bounty, King's Resort Live, Rozvadov
+Fri 16 Oct at 12:00pm	Estonia	€ 1,100 No Limit Hold'em - Kings of Tallinn Main Event Day 2 (Event #33), Olympic Park Casino, Tallinn
+Fri 16 Oct at 12:00pm	Czech Republic	€ 225 No Limit Hold'em - DPM Day 1C, King's Resort Live, Rozvadov
+Fri 16 Oct at 12:30pm	Estonia	€ 50 Satellite PLO5 to 555 Sviten Championship (Event #47), Olympic Park Casino, Tallinn
+Fri 16 Oct at 1:00pm	Czech Republic	€ 53 + 7 Satellite to PLO ME, Grand Casino Asch ( Aš ), Asch
+Fri 16 Oct at 3:00pm	Estonia	€ 150 +100 No Limit Hold'em - Progressive Bounty (Event #48), Olympic Park Casino, Tallinn
+Fri 16 Oct at 3:00pm	Czech Republic	€ 120 No Limit Hold'em - DPM Ladies Event, King's Resort Live, Rozvadov Entry restricted
+Fri 16 Oct at 4:00pm	Czech Republic	Flip n Go Satellite to DPM ME Day 1D, King's Resort Live, Rozvadov
+Fri 16 - Sun 18 Oct at 4:00pm	Czech Republic	€ 300 + 40 Pot Limit Omaha - Main Event - Day 1A, Grand Casino Asch ( Aš ), Asch
+Fri 16 - Sat 17 Oct at 4:30pm	Estonia	€ 555 Pot Limit Sviten Championship Day 1 (Event #49), Olympic Park Casino, Tallinn
+Fri 16 Oct at 6:00pm	Czech Republic	€ 60 + 10 No Limit Hold'em - Classic Friday, Grand Casino Asch ( Aš ), Asch
+Fri 16 Oct at 6:00pm	Czech Republic	€ 225 No Limit Hold'em - DPM Day 1D, King's Resort Live, Rozvadov
+Fri 16 - Sat 17 Oct at 6:00pm	Estonia	€ 700 +400 No Limit Hold'em - DeepStack Progressive Bounty Day 1 (Event #50), Olympic Park Casino, Tallinn
+Fri 16 Oct at 7:00pm	Estonia	€ 200 No Limit Hold'em - Turbo (Event #51), Olympic Park Casino, Tallinn
+Fri 16 Oct at 9:00pm	Estonia	€ 555 No Limit Hold'em (Event #52), Olympic Park Casino, Tallinn
+Fri 16 Oct at 9:00pm	Czech Republic	€ 130 No Limit Hold'em - DPM Friday Night Turbo, King's Resort Live, Rozvadov
+Fri 16 Oct at 10:30pm	Estonia	€ 200 No Limit Hold'em - Turbo (Event #46), Olympic Park Casino, Tallinn
+Sat 17 Oct at 11:00am	Czech Republic	€ 225 No Limit Hold'em - DPM Day 1E, King's Resort Live, Rozvadov
+Sat 17 Oct at 12:00pm	Czech Republic	€ 60 + 10 Supersatellite to PLO ME, Grand Casino Asch ( Aš ), Asch
+Sat 17 Oct at 12:00pm	Estonia	Kings of Tallinn Main Event Day 3 (Event #33), Olympic Park Casino, Tallinn
+Sat 17 Oct at 12:00pm	Estonia	Championship Final Day (Event #49), Olympic Park Casino, Tallinn
+Sat 17 Oct at 12:30pm	Estonia	Freebuy Satellite to Event #58 - Women Only (Event #54), Olympic Park Casino, Tallinn Entry restricted
+Sat 17 Oct at 1:00pm	Estonia	€ 350 Pot Limit Omaha - PLO4 HI-LO/PLO5 HI-LO (Event #55), Olympic Park Casino, Tallinn
+Sat 17 Oct at 1:00pm	Estonia	€ 700 +400 No Limit Hold'em - DeepStack Progressive Bounty Day 2 (Event #50), Olympic Park Casino, Tallinn
+Sat 17 Oct at 2:00pm	Czech Republic	€ 300 + 40 Pot Limit Omaha - Main Event - Day 1B, Grand Casino Asch ( Aš ), Asch
+Sat 17 - Sun 18 Oct at 2:00pm	Estonia	€ 3,000 No Limit Hold'em - Day 1 (Event #56), Olympic Park Casino, Tallinn
+Sat 17 Oct at 3:00pm	Estonia	€ 250 No Limit Hold'em - DeepStack (Event #57), Olympic Park Casino, Tallinn
+Sat 17 Oct at 3:00pm	Czech Republic	€ 120 Pot Limit Omaha, King's Resort Live, Rozvadov
+Sat 17 Oct at 4:00pm	Czech Republic	Flip n Go Satellite to DPM ME Day 1F, King's Resort Live, Rozvadov
+Sat 17 Oct at 5:00pm	Czech Republic	€ 70 + 10 No Limit Hold'em - Classic Deepstack, Grand Casino Asch ( Aš ), Asch
+Sat 17 Oct at 5:00pm	Estonia	€ 250 +40 No Limit Hold'em - Queens - Women Only (Event #58), Olympic Park Casino, Tallinn Entry restricted
+Sat 17 Oct at 6:00pm	Czech Republic	€ 34 + 6 Flip´n Go Satellite to PLO ME, Grand Casino Asch ( Aš ), Asch
+Sat 17 Oct at 6:00pm	Czech Republic	€ 225 No Limit Hold'em - DPM Day 1F, King's Resort Live, Rozvadov
+Sat 17 Oct at 7:00pm	Czech Republic	€ 300 + 40 Pot Limit Omaha - Main Event - Day 1C Fast, Grand Casino Asch ( Aš ), Asch
+Sat 17 Oct at 7:00pm	Estonia	€ 350 Mixed Games - NLH/PLO4/PLO5 (Event #59), Olympic Park Casino, Tallinn
+Sat 17 Oct at 8:00pm	Czech Republic	€ 85 + 15 Pot Limit Omaha - 4-5-6 in the Mix (PLO4/5/6), Grand Casino Asch ( Aš ), Asch
+Sat 17 Oct at 9:00pm	Estonia	€ 80 +70 No Limit Hold'em - Kings of Tallinn OlyBet Online Progressive Bounty (Event #60), Olympic Park Casino, Tallinn
+Sat 17 Oct at 9:00pm	Czech Republic	€ 130 No Limit Hold'em - DPM Saturday Night Turbo, King's Resort Live, Rozvadov
+Sat 17 Oct at 10:30pm	Estonia	€ 150 Satellite to 3,000 NLH (Event #53), Olympic Park Casino, Tallinn
+Sun 18 Oct at 10:00am	Czech Republic	€ 300 + 40 Pot Limit Omaha - Main Event - Day 1D Turbo, Grand Casino Asch ( Aš ), Asch
+Sun 18 Oct at 11:00am	Czech Republic	€ 225 No Limit Hold'em - DPM Day 1G Turbo, King's Resort Live, Rozvadov
+Sun 18 Oct at 12:00pm	Estonia	Kings of Tallinn Main Event Final Day (Event #33), Olympic Park Casino, Tallinn
+Sun 18 Oct at 12:00pm	Estonia	Final Day (Event #56), Olympic Park Casino, Tallinn
+Sun 18 Oct at 12:00pm	Estonia	€ 120 +80 Pot Limit Omaha - PLO4/PLO5/PLO6 Progressive Bounty (Event #62), Olympic Park Casino, Tallinn
+Sun 18 Oct at 12:00pm	Estonia	€ 200 Open-Face Chinese Pineapple (Event #63), Olympic Park Casino, Tallinn
+Sun 18 Oct at 1:00pm	Czech Republic	€ 100 + 10 Satellite to PLO Highroller, Grand Casino Asch ( Aš ), Asch
+Sun 18 Oct at 2:00pm	Estonia	€ 350 No Limit Hold'em - DeepStack Turbo (Event #64), Olympic Park Casino, Tallinn
+Sun 18 Oct at 2:00pm	Czech Republic	€ 225 No Limit Hold'em - DPM Day 1 Flip & Go, King's Resort Live, Rozvadov
+Sun 18 Oct at 3:00pm	Czech Republic	€ 110 + 10 Flip´n Go Satellite to PLO HR, Grand Casino Asch ( Aš ), Asch
+Sun 18 Oct at 4:00pm	Czech Republic	PLO Main Event Day 2, Grand Casino Asch ( Aš ), Asch
+Sun 18 Oct at 4:00pm	Czech Republic	€ 600 + 60 Pot Limit Omaha - Turbo Highroller, Grand Casino Asch ( Aš ), Asch
+Sun 18 Oct at 5:00pm	Czech Republic	DPM Day 2, King's Resort Live, Rozvadov
+Sun 18 Oct at 6:00pm	Czech Republic	€ 500 No Limit Hold'em - DPM High Roller, King's Resort Live, Rozvadov
+Sun 18 Oct at 9:00pm	Estonia	Kings Of Tallinn 2026 Autumn Edition Players' Party (Event #65), Olympic Park Casino, Tallinn
+Sun 18 Oct at 9:30pm	Estonia	€ 200 No Limit Hold'em - Turbo (Event #61), Olympic Park Casino, Tallinn
+Mon 19 Oct at 2:00pm	Czech Republic	DPM Final Day, King's Resort Live, Rozvadov
+Mon 19 Oct at 3:00pm	Czech Republic	€ 40 Satellite to BPC Main Event Day 1A, King's Resort Live, Rozvadov
+Mon 19 - Mon 26 Oct at 6:00pm	Czech Republic	€ 295 No Limit Hold'em - BPC Main Event Day 1A Speed, King's Resort Live, Rozvadov
+Tue 20 Oct at 3:00pm	Czech Republic	€ 40 Satellite to BPC Main Event Day 1B, King's Resort Live, Rozvadov
+Tue 20 Oct at 6:00pm	Czech Republic	€ 295 No Limit Hold'em - BPC Main Event Day 1B Speed, King's Resort Live, Rozvadov
+Tue 20 Oct at 7:00pm	Slovakia	€ 45 + 5 Mega Satellite to Main Event Day 1A, Card Casino Šamorín, Šamorín
+Wed 21 Oct at 3:00pm	Slovakia	€ 45 + 5 Satellite to Main Event, Card Casino Šamorín, Šamorín
+Wed 21 Oct at 3:00pm	Czech Republic	€ 40 Satellite to BPC Main Event Day 1C, King's Resort Live, Rozvadov
+Wed 21 Oct at 6:00pm	Czech Republic	€ 295 No Limit Hold'em - BPC Main Event Day 1C Speed, King's Resort Live, Rozvadov
+Wed 21 - Sun 25 Oct at 6:00pm	Slovakia	€ 225 + 25 No Limit Hold'em - Main Event Day 1A, Card Casino Šamorín, Šamorín
+Wed 21 Oct at 7:00pm	Slovakia	€ 45 + 5 Satellite to Main Event, Card Casino Šamorín, Šamorín
+Thu 22 Oct at 12:00pm	Czech Republic	€ 100 + 25 No Limit Hold'em - BPC Morning Turbo Knockout, King's Resort Live, Rozvadov
+Thu 22 Oct at 1:00pm	Slovakia	€ 70 + 10 Satellite to High Roller, Card Casino Šamorín, Šamorín
+Thu 22 Oct at 3:00pm	Slovakia	€ 500 + 50 No Limit Hold'em - High Roller, Card Casino Šamorín, Šamorín
+Thu 22 Oct at 3:00pm	Czech Republic	€ 40 Satellite to BPC Main Event Day 1D, King's Resort Live, Rozvadov
+Thu 22 Oct at 3:30pm	Slovakia	€ 45 + 5 Satellite to Main Event, Card Casino Šamorín, Šamorín
+Thu 22 Oct at 6:00pm	Slovakia	€ 225 + 25 No Limit Hold'em - Main Event Day 1B, Card Casino Šamorín, Šamorín
+Thu 22 Oct at 6:00pm	Czech Republic	€ 295 No Limit Hold'em - BPC Main Event Day 1D Speed, King's Resort Live, Rozvadov
+Thu 22 Oct at 7:00pm	Slovakia	€ 45 + 5 Satellite to Main Event, Card Casino Šamorín, Šamorín
+Fri 23 Oct at 11:00am	Czech Republic	€ 295 No Limit Hold'em - BPC Main Event Day 1E, King's Resort Live, Rozvadov
+Fri 23 Oct at 1:00pm	Slovakia	€ 225 + 25 No Limit Hold'em - Main Event Day 1C, Card Casino Šamorín, Šamorín
+Fri 23 Oct at 2:00pm	Czech Republic	€ 350 Pot Limit Omaha - BPC 8-Max One Day, King's Resort Live, Rozvadov
+Fri 23 Oct at 3:30pm	Slovakia	€ 45 + 5 Satellite to Main Event, Card Casino Šamorín, Šamorín
+Fri 23 Oct at 5:00pm	Czech Republic	€ 40 Flip n Go Satellite to Balkan Poker Circuit, King's Resort Live, Rozvadov
+Fri 23 Oct at 6:00pm	Slovakia	€ 225 + 25 No Limit Hold'em - Main Event Day 1D, Card Casino Šamorín, Šamorín
+Fri 23 Oct at 6:00pm	Czech Republic	€ 60 + 10 No Limit Hold'em - Classic Friday, Grand Casino Asch ( Aš ), Asch
+Fri 23 Oct at 6:00pm	Czech Republic	€ 295 No Limit Hold'em - BPC Main Event Day 1F Speed, King's Resort Live, Rozvadov
+Fri 23 Oct at 8:30pm	Slovakia	€ 50 + 15 + 50 No Limit Hold'em - Turbo PKO, Card Casino Šamorín, Šamorín
+Fri 23 Oct at 9:00pm	Czech Republic	€ 100 + 50 No Limit Hold'em - BPC Turbo Bounty, King's Resort Live, Rozvadov
+Sat 24 Oct at 11:00am	Slovakia	€ 45 + 5 Satellite to Main Event, Card Casino Šamorín, Šamorín
+Sat 24 Oct at 11:00am	Czech Republic	€ 295 No Limit Hold'em - BPC Main Event Day 1G, King's Resort Live, Rozvadov
+Sat 24 Oct at 12:00pm	Slovakia	€ 225 + 25 No Limit Hold'em - Main Event Day 1E, Card Casino Šamorín, Šamorín
+Sat 24 Oct at 2:00pm	Slovakia	€ 45 + 5 Satellite to Main Event, Card Casino Šamorín, Šamorín
+Sat 24 Oct at 2:00pm	Czech Republic	€ 200 No Limit Hold'em - BPC Ladies Event, King's Resort Live, Rozvadov Entry restricted
+Sat 24 Oct at 5:00pm	Czech Republic	€ 60 + 10 No Limit Hold'em - Megastack Turbo, Grand Casino Asch ( Aš ), Asch
+Sat 24 Oct at 5:00pm	Czech Republic	€ 40 Flip n Go Satellite to Balkan Poker Circuit, King's Resort Live, Rozvadov
+Sat 24 Oct at 6:00pm	Slovakia	€ 225 + 25 No Limit Hold'em - Main Event Day 1F, Card Casino Šamorín, Šamorín
+Sat 24 Oct at 6:00pm	Czech Republic	€ 295 No Limit Hold'em - BPC Main Event Day 1H Speed, King's Resort Live, Rozvadov
+Sat 24 Oct at 8:30pm	Slovakia	€ 85 + 15 No Limit Hold'em - Turbo, Card Casino Šamorín, Šamorín
+Sun 25 Oct at 11:00am	Slovakia	€ 225 + 25 No Limit Hold'em - Main Event Day 1G, Card Casino Šamorín, Šamorín
+Sun 25 Oct at 11:00am	Czech Republic	€ 295 No Limit Hold'em - BPC Main Event Day 1I Turbo, King's Resort Live, Rozvadov
+Sun 25 Oct at 1:00pm	Slovakia	€ 225 + 25 No Limit Hold'em - Main Event Day 1 Flip & Go, Card Casino Šamorín, Šamorín
+Sun 25 Oct at 2:00pm	Czech Republic	€ 295 No Limit Hold'em - BPC Main Event Day 1 Flip & Go, King's Resort Live, Rozvadov
+Sun 25 Oct at 4:00pm	Slovakia	Main Event Day 2, Card Casino Šamorín, Šamorín
+Sun 25 Oct at 5:00pm	Slovakia	€ 130 + 20 No Limit Hold'em - Mystery Bounty, Card Casino Šamorín, Šamorín
+Sun 25 Oct at 5:00pm	Czech Republic	BPC Main Event Day 2, King's Resort Live, Rozvadov
+Sun 25 Oct at 6:00pm	Czech Republic	€ 600 No Limit Hold'em - BPC High Roller, King's Resort Live, Rozvadov
+Mon 26 Oct at 2:00pm	Czech Republic	BPC Main Event Final Day, King's Resort Live, Rozvadov
+Mon 26 Oct at 4:00pm	Estonia	Welcome dinner - location to be determined, Olympic Park Casino, Tallinn
+Mon 26 Oct at 6:30pm	Estonia	€ 175 + 25 Big Bet Mix (Event #1), Olympic Park Casino, Tallinn
+Tue 27 Oct at 12:00pm	Estonia	€ 490 + 65 Lowball Draw Mix (Event #2), Olympic Park Casino, Tallinn
+Tue 27 - Wed 28 Oct at 6:00pm	Estonia	€ 260 + 40 Nordic Special Mix Day 1 (Event #3), Olympic Park Casino, Tallinn
+Wed 28 Oct at 11:30am	Estonia	Nordic Special Mix Final Day (Event #3), Olympic Park Casino, Tallinn
+Wed 28 Oct at 12:00pm	Czech Republic	€ 70 Satellite to Super Circuit Kick-off, King's Resort Live, Rozvadov
+Wed 28 - Thu 29 Oct at 12:00pm	Estonia	€ 615 + 85 Dealer's Choice Day 1 (Event #4), Olympic Park Casino, Tallinn
+Wed 28 Oct at 1:00pm	Czech Republic	€ 150 Satellite to Bounty PLO, King's Resort Live, Rozvadov
+Wed 28 Oct at 3:00pm	Czech Republic	€ 500 No Limit Hold'em - WSOPC Super Circuit Kick-off (Ring Event #1), King's Resort Live, Rozvadov
+Wed 28 Oct at 4:00pm	Estonia	€ 170 + 30 S.O.R.B.E.T. (Event #5), Olympic Park Casino, Tallinn
+Wed 28 Oct at 4:00pm	Czech Republic	€ 1,000 Pot Limit Omaha - WSOPC Bounty PLO (Ring Event #2), King's Resort Live, Rozvadov
+Wed 28 Oct at 7:00pm	Czech Republic	€ 60 + 10 No Limit Hold'em - KaKo Cup Opener, Grand Casino Asch ( Aš ), Asch
+Wed 28 Oct at 8:00pm	Czech Republic	€ 150 Satellite to Mini Main Event NLH - Day 1A, King's Resort Live, Rozvadov
+Wed 28 Oct at 8:30pm	Estonia	€ 720 + 80 T.O.E. Turbo (Event #6), Olympic Park Casino, Tallinn
+Thu 29 Oct at 12:00pm	Estonia	Community lunch - location to be determined, Olympic Park Casino, Tallinn
+Thu 29 Oct at 1:00pm	Czech Republic	€ 44 + 6 No Limit Crazy Pineapple, Grand Casino Asch ( Aš ), Asch
+Thu 29 Oct at 1:00pm	Czech Republic	€ 150 Satellite to Mini Main Event NLH - Day 1A, King's Resort Live, Rozvadov
+Thu 29 Oct at 1:30pm	Estonia	Dealer's Choice Day 2 (Event #4), Olympic Park Casino, Tallinn
+Thu 29 Oct at 2:00pm	Estonia	€ 160 + 25 Main Event satelite H.E.T.R.O.S. (Event #S1), Olympic Park Casino, Tallinn
+Thu 29 Oct at 2:00pm	Czech Republic	€ 80 Satellite to Ultra Stack NLH, King's Resort Live, Rozvadov
+Thu 29 - Fri 30 Oct at 2:00pm	Estonia	€ 1,350 + 150 S.O.R.B.E.T. High Roller Day 1 (Event #7), Olympic Park Casino, Tallinn
+Thu 29 Oct at 3:00pm	Czech Republic	€ 1,500 WSOPC Big O (Ring Event #3), King's Resort Live, Rozvadov
+Thu 29 Oct - Sun 1 Nov at 4:00pm	Czech Republic	€ 1,000 No Limit Hold'em - WSOPC Mini Main Event NLH - Day 1A (Ring Event #4), King's Resort Live, Rozvadov
+Thu 29 Oct at 5:00pm	Czech Republic	€ 600 No Limit Hold'em - WSOPC Ultra Stack NLH (Ring Event #5), King's Resort Live, Rozvadov
+Thu 29 - Fri 30 Oct at 6:00pm	Estonia	€ 260 + 40 Senkel's Paradise Pickem Day 1 (Event #8), Olympic Park Casino, Tallinn
+Thu 29 Oct at 7:00pm	Czech Republic	€ 60 + 10 No Limit Hold'em - Warm Up, Grand Casino Asch ( Aš ), Asch
+Thu 29 Oct at 8:00pm	Czech Republic	€ 150 Satellite to Mini Main Event NLH - Day 1B, King's Resort Live, Rozvadov
+Fri 30 Oct at 11:00am	Czech Republic	€ 1,000 No Limit Hold'em - WSOPC Mini Main Event NLH - Day 1B (Ring Event #4), King's Resort Live, Rozvadov
+Fri 30 Oct at 11:30am	Estonia	Senkel's Paradise Pickem Day 2 (Event #8), Olympic Park Casino, Tallinn
+Fri 30 - Sat 31 Oct at 11:30am	Estonia	€ 700 + 100 8 Game Main Event Day 1A (Event #9B), Olympic Park Casino, Tallinn
+Fri 30 Oct at 12:00pm	Estonia	S.O.R.B.E.T. High Roller Day 2 (Event #7), Olympic Park Casino, Tallinn
+Fri 30 Oct at 12:00pm	Czech Republic	€ 150 Satellite to Monster Stack PLO, King's Resort Live, Rozvadov
+Fri 30 Oct at 1:00pm	Estonia	€ 160 + 25 Main Event satelite H.E.T.R.O.S. (Event #S2), Olympic Park Casino, Tallinn
+Fri 30 Oct at 1:00pm	Czech Republic	€ 35 + 5 Super Satellite to HR, Grand Casino Asch ( Aš ), Asch
+Fri 30 - Sat 31 Oct at 2:00pm	Czech Republic	€ 500 No Limit Hold'em - WSOPC King's German Championship of Poker NLH (Ring Event #6) Day 1, King's Resort Live, Rozvadov
+Fri 30 Oct at 3:00pm	Czech Republic	€ 150 Satellite to Mini Main Event NLH - Day 1C, King's Resort Live, Rozvadov
+Fri 30 Oct at 4:00pm	Czech Republic	€ 270 + 30 No Limit Hold'em - KaKo Highroller, Grand Casino Asch ( Aš ), Asch
+Fri 30 Oct at 4:00pm	Czech Republic	€ 1,500 Pot Limit Omaha - WSOPC Monster Stack PLO (Ring Event #7), King's Resort Live, Rozvadov
+Fri 30 Oct at 5:00pm	Czech Republic	€ 1,000 No Limit Hold'em - WSOPC Mini Main Event NLH - Day 1C (Ring Event #4), King's Resort Live, Rozvadov
+Fri 30 Oct at 6:00pm	Czech Republic	€ 70 + 10 Pot Limit Omaha, Grand Casino Asch ( Aš ), Asch
+Fri 30 Oct at 6:30pm	Estonia	€ 700 + 100 8 Game Main Event Day 1B (Event #9B), Olympic Park Casino, Tallinn
+Fri 30 Oct at 8:00pm	Czech Republic	€ 150 Satellite to Mini Main Event NLH - Day 1D, King's Resort Live, Rozvadov
+Sat 31 Oct at 11:00am	Czech Republic	€ 1,000 No Limit Hold'em - WSOPC Mini Main Event NLH - Day 1D (Ring Event #4), King's Resort Live, Rozvadov
+Sat 31 Oct at 11:30am	Estonia	8 Game Main Event Day 2 (Event #9B), Olympic Park Casino, Tallinn
+Sat 31 Oct at 12:00pm	Estonia	€ 160 + 40 + 100 6 Game - Mystery Bounty (Event #10), Olympic Park Casino, Tallinn
+Sat 31 Oct at 1:00pm	Czech Republic	€ 120 + 20 No Limit Hold'em - KaKo Cup, Grand Casino Asch ( Aš ), Asch
+Sat 31 Oct at 2:00pm	Czech Republic	King's German Championship of Poker Final Day, King's Resort Live, Rozvadov
+Sat 31 Oct at 3:00pm	Czech Republic	€ 150 Satellite to Mini Main Event NLH - Day 1E, King's Resort Live, Rozvadov
+Sat 31 Oct - Sun 1 Nov at 4:00pm	Czech Republic	€ 5,000 Pot Limit Omaha - WSOPC High Roller PLO - Day 1, King's Resort Live, Rozvadov
+Sat 31 Oct at 4:30pm	Estonia	€ 1,350 + 150 6 Game High Roller (Event #11), Olympic Park Casino, Tallinn
+Sat 31 Oct at 6:00pm	Estonia	€ 175 + 25 Omaha Dealers Choice (Event #12), Olympic Park Casino, Tallinn
+Sat 31 Oct at 6:00pm	Czech Republic	€ 1,000 No Limit Hold'em - WSOPC Mini Main Event NLH - Day 1E (Ring Event #4), King's Resort Live, Rozvadov
+Sat 31 Oct at 7:00pm	Czech Republic	€ 70 + 10 No Limit Hold'em - Monsterstack, Grand Casino Asch ( Aš ), Asch
+Sat 31 Oct at 7:00pm	Czech Republic	€ 200 Satellite to WSOPC Main Event, King's Resort Live, Rozvadov
+Sat 31 Oct at 8:00pm	Czech Republic	€ 150 Satellite to Mystery Bounty NLH - Day 1A, King's Resort Live, Rozvadov
+Sun 1 Nov at 12:00pm	Czech Republic	€ 150 Satellite to Mystery Bounty NLH - Day 1A, King's Resort Live, Rozvadov
+Sun 1 Nov at 2:00pm	Czech Republic	WSOPC Mini Main Event NLH Day 2, King's Resort Live, Rozvadov
+Sun 1 Nov at 3:00pm	Czech Republic	WSOPC High Roller PLO Final Day, King's Resort Live, Rozvadov
+Sun 1 Nov at 4:00pm	Czech Republic	€ 700 + 300 No Limit Hold'em - WSOPC Mystery Bounty (Ring Event #9) Day 1A, King's Resort Live, Rozvadov
+Sun 1 Nov at 6:00pm	Czech Republic	€ 200 Satellite to WSOPC Main Event Day 1A, King's Resort Live, Rozvadov
+Sun 1 Nov at 8:00pm	Czech Republic	€ 150 Satellite to Mystery Bounty NLH - Day 1B, King's Resort Live, Rozvadov
+Mon 2 Nov at 12:00pm	Czech Republic	€ 150 Satellite to Mystery Bounty NLH - Day 1B, King's Resort Live, Rozvadov
+Mon 2 Nov at 1:00pm	Czech Republic	WSOPC Mini Main Event NLH Final Day, King's Resort Live, Rozvadov
+Mon 2 Nov at 1:00pm	Czech Republic	€ 700 + 300 No Limit Hold'em - WSOPC Mystery Bounty (Ring Event #9) Day 1B, King's Resort Live, Rozvadov
+Mon 2 - Tue 3 Nov at 3:00pm	Czech Republic	No Limit Hold'em - WSOPC High Roller (Ring Event #10) Day 1, King's Resort Live, Rozvadov
+Mon 2 Nov at 6:00pm	Czech Republic	€ 200 Satellite to WSOPC Main Event Day 1A, King's Resort Live, Rozvadov
+Mon 2 Nov at 8:00pm	Czech Republic	€ 150 Satellite to Mystery Bounty NLH - Day 1B, King's Resort Live, Rozvadov
+Tue 3 Nov at 12:00pm	Czech Republic	€ 200 No Limit Hold'em - Morning NLH Side Event, King's Resort Live, Rozvadov
+Tue 3 Nov at 1:00pm	Czech Republic	€ 700 + 300 No Limit Hold'em - WSOPC Mystery Bounty (Ring Event #9) Day 1C, King's Resort Live, Rozvadov
+Tue 3 Nov at 1:00pm	Czech Republic	€ 150 Satellite to Mystery Bounty NLH - Day 1C, King's Resort Live, Rozvadov
+Tue 3 Nov at 2:00pm	Czech Republic	WSOPC High Roller (Ring Event #10) Final Day, King's Resort Live, Rozvadov
+Tue 3 Nov at 6:00pm	Czech Republic	€ 250 Pot Limit Omaha Side Event, King's Resort Live, Rozvadov
+Tue 3 Nov at 8:00pm	Czech Republic	€ 200 Satellite to WSOPC Main Event Day 1A, King's Resort Live, Rozvadov
+Wed 4 Nov at 12:00pm	Czech Republic	€ 200 No Limit Hold'em - Morning NLH Side Event, King's Resort Live, Rozvadov
+Wed 4 Nov at 2:00pm	Czech Republic	WSOPC Mystery Bounty (Ring Event #9) Day 2, King's Resort Live, Rozvadov
+Wed 4 - Fri 6 Nov at 3:00pm	Czech Republic	€ 8,600 No Limit Hold'em - GGMillion$ NLH High Roller (Ring Event #11) Day 1, King's Resort Live, Rozvadov
+Wed 4 - Thu 5 Nov at 5:00pm	Czech Republic	€ 777 No Limit Hold'em - WSOPC King's Fiftystack NLH (Event #12) Day 1, King's Resort Live, Rozvadov
+Wed 4 Nov at 7:00pm	Czech Republic	€ 50 +20 No Limit Hold'em - Kroko Cup I, Grand Casino Asch ( Aš ), Asch
+Wed 4 Nov at 7:00pm	Slovakia	€ 50 No Limit Hold'em - PPC Opener, Banco Casino, Bratislava
+Wed 4 Nov at 8:00pm	Czech Republic	€ 200 Satellite to WSOPC Main Event Day 1A, King's Resort Live, Rozvadov
+Thu 5 Nov at 11:00am	Czech Republic	€ 200 Satellite to WSOPC Main Event Day 1A, King's Resort Live, Rozvadov
+Thu 5 Nov at 1:00pm	Czech Republic	€ 80 No Limit Hold'em - Snowman Special, Grand Casino Asch ( Aš ), Asch
+Thu 5 Nov at 1:00pm	Czech Republic	WSOPC Mystery Bounty (Ring Event #9) Final Day, King's Resort Live, Rozvadov
+Thu 5 Nov at 2:00pm	Czech Republic	WSOPC King's Fiftystack NLH (Ring Event #12) Final Day, King's Resort Live, Rozvadov
+Thu 5 - Wed 11 Nov at 2:00pm	Czech Republic	WSOPC € 3,000 No Limit Hold'em - WSOP Super Circuit Main Event (Ring Event #13) Day 1A, King's Resort Live, Rozvadov
+Thu 5 Nov at 3:00pm	Czech Republic	No Limit Hold'em - GGMillion$ NLH High Roller (Ring Event #11) Day 2, King's Resort Live, Rozvadov
+Thu 5 Nov at 6:00pm	Czech Republic	€ 80 +40 No Limit Hold'em - Hot PKO, Grand Casino Asch ( Aš ), Asch
+Thu 5 Nov at 7:00pm	Slovakia	€ 30 No Limit Hold'em - PPC Ladies Night, Banco Casino, Bratislava Entry restricted
+Thu 5 Nov at 8:00pm	Czech Republic	€ 200 Satellite to WSOPC Main Event Day 1B, King's Resort Live, Rozvadov
+Thu 5 Nov at 10:00pm	Czech Republic	€ 70 Satellite to Highroller, Grand Casino Asch ( Aš ), Asch
+Fri 6 Nov at 11:00am	Czech Republic	€ 200 Satellite to WSOPC Main Event Day 1B, King's Resort Live, Rozvadov
+Fri 6 Nov at 12:00pm	Czech Republic	€ 70 Supersatellite to Highroller, Grand Casino Asch ( Aš ), Asch
+Fri 6 - Mon 9 Nov at 12:00pm	Czech Republic	€ 350 No Limit Hold'em - WSOPC King's DreamMaker (Ring Event #14) Day 1A, King's Resort Live, Rozvadov
+Fri 6 Nov at 2:00pm	Czech Republic	€ 3,000 No Limit Hold'em - WSOP Super Circuit Main Event (Ring Event #13) Day 1B, King's Resort Live, Rozvadov
+Fri 6 Nov at 3:00pm	Czech Republic	€ 350 No Limit Hold'em - GRND Highroller, Grand Casino Asch ( Aš ), Asch
+Fri 6 Nov at 3:00pm	Czech Republic	GGMillion$ NLH High Roller (Ring Event #11) Final Day, King's Resort Live, Rozvadov
+Fri 6 Nov at 4:00pm	Czech Republic	€ 1,500 No Limit Hold'em - WSOPC Monster Stack (Ring Event #15), King's Resort Live, Rozvadov
+Fri 6 Nov at 6:00pm	Czech Republic	€ 80 No Limit Hold'em - GRND Night, Grand Casino Asch ( Aš ), Asch
+Fri 6 Nov at 6:00pm	Czech Republic	€ 350 No Limit Hold'em - WSOPC King's DreamMaker (Ring Event #14) Day 1B, King's Resort Live, Rozvadov
+Fri 6 - Mon 16 Nov at 6:00pm	Slovakia	€ 150 No Limit Hold'em - Main Event Day 1A (Event #1), Banco Casino, Bratislava
+Fri 6 Nov at 8:00pm	Czech Republic	€ 200 Satellite to WSOPC Main Event Day 1C, King's Resort Live, Rozvadov
+Sat 7 Nov at 11:00am	Czech Republic	€ 200 Satellite to WSOPC Main Event Day 1C, King's Resort Live, Rozvadov
+Sat 7 Nov at 12:00pm	Czech Republic	€ 350 No Limit Hold'em - WSOPC King's DreamMaker (Ring Event #14) Day 1C, King's Resort Live, Rozvadov
+Sat 7 Nov at 1:00pm	Czech Republic	€ 120 +40 No Limit Hold'em - Death Star - GRND Mystery, Grand Casino Asch ( Aš ), Asch
+Sat 7 Nov at 2:00pm	Czech Republic	€ 3,000 No Limit Hold'em - WSOP Super Circuit Main Event (Ring Event #13) Day 1C, King's Resort Live, Rozvadov
+Sat 7 Nov at 4:00pm	Czech Republic	€ 250 Pot Limit Omaha Side Event, King's Resort Live, Rozvadov
+Sat 7 Nov at 6:00pm	Czech Republic	€ 350 No Limit Hold'em - WSOPC King's DreamMaker (Ring Event #14) Day 1C, King's Resort Live, Rozvadov
+Sat 7 Nov at 6:00pm	Slovakia	€ 150 No Limit Hold'em - Main Event Day 1B (Event #1), Banco Casino, Bratislava
+Sat 7 Nov at 7:00pm	Czech Republic	€ 100 No Limit Hold'em - Starsnuts Special, Grand Casino Asch ( Aš ), Asch
+Sat 7 Nov at 7:00pm	Czech Republic	€ 700 + 300 No Limit Hold'em - Bounty Side Event, King's Resort Live, Rozvadov
+Sat 7 Nov at 8:00pm	Czech Republic	€ 200 Satellite to Super Circuit Championship NLH - Day 1A, King's Resort Live, Rozvadov
+Sun 8 Nov at 11:00am	Czech Republic	€ 350 No Limit Hold'em - WSOPC King's DreamMaker (Ring Event #14) Day 1E Turbo, King's Resort Live, Rozvadov
+Sun 8 Nov at 12:00pm	Czech Republic	€ 200 Satellite to Super Circuit Championship NLH - Day 1A, King's Resort Live, Rozvadov
+Sun 8 Nov at 1:00pm	Czech Republic	€ 60 No Limit Hold'em - Date With An Eight, Grand Casino Asch ( Aš ), Asch
+Sun 8 Nov at 2:00pm	Czech Republic	€ 3,000 No Limit Hold'em - WSOP Super Circuit Main Event (Ring Event #13) Day 2, King's Resort Live, Rozvadov
+Sun 8 Nov at 2:00pm	Slovakia	€ 150 No Limit Hold'em - Main Event Day 1C (Event #1), Banco Casino, Bratislava
+Sun 8 Nov at 4:00pm	Czech Republic	€ 1,500 No Limit Hold'em - WSOPC Super Circuit Championship - Day 1A, King's Resort Live, Rozvadov
+Sun 8 Nov at 5:00pm	Czech Republic	King's DreamMaker (Ring Event #14) Day 2, King's Resort Live, Rozvadov
+Sun 8 - Wed 11 Nov at 5:00pm	Czech Republic	€ 100 No Limit Hold'em - GRND Cup 1a, Grand Casino Asch ( Aš ), Asch
+Sun 8 Nov at 7:00pm	Czech Republic	€ 250 Pot Limit Omaha Side Event, King's Resort Live, Rozvadov
+Sun 8 Nov at 8:00pm	Czech Republic	€ 200 Satellite to Super Circuit Championship NLH - Day 1B, King's Resort Live, Rozvadov
+Mon 9 Nov at 12:00pm	Czech Republic	€ 200 Satellite to Super Circuit Championship NLH - Day 1B, King's Resort Live, Rozvadov
+Mon 9 Nov at 1:00pm	Czech Republic	WSOP Super Circuit Main Event (Ring Event #13) Day 3, King's Resort Live, Rozvadov
+Mon 9 Nov at 2:00pm	Czech Republic	€ 60 No Limit Hold'em - GRND Kick Off I, Grand Casino Asch ( Aš ), Asch
+Mon 9 Nov at 2:00pm	Czech Republic	King's DreamMaker (Ring Event #14) Final Day, King's Resort Live, Rozvadov
+Mon 9 Nov at 4:00pm	Czech Republic	€ 1,500 No Limit Hold'em - WSOPC Super Circuit Championship - Day 1B, King's Resort Live, Rozvadov
+Mon 9 Nov at 5:00pm	Czech Republic	€ 100 No Limit Hold'em - GRND Cup 1b, Grand Casino Asch ( Aš ), Asch
+Mon 9 Nov at 6:00pm	Czech Republic	€ 250 Pot Limit Omaha Side Event, King's Resort Live, Rozvadov
+Mon 9 Nov at 6:00pm	Slovakia	€ 150 No Limit Hold'em - Main Event Day 1D (Event #1), Banco Casino, Bratislava
+Tue 10 Nov at 12:00pm	Czech Republic	WSOP Super Circuit Main Event (Ring Event #13) Day 3, King's Resort Live, Rozvadov
+Tue 10 Nov at 2:00pm	Czech Republic	€ 60 No Limit Hold'em - GRND Kick Off II, Grand Casino Asch ( Aš ), Asch
+Tue 10 Nov at 2:00pm	Czech Republic	WSOPC Super Circuit Championship Day 2, King's Resort Live, Rozvadov
+Tue 10 Nov at 4:00pm	Czech Republic	€ 1,000 No Limit Hold'em - WSOPC Series Saver (Ring Event #17), King's Resort Live, Rozvadov
+Tue 10 Nov at 5:00pm	Czech Republic	€ 100 No Limit Hold'em - GRND Cup 1c, Grand Casino Asch ( Aš ), Asch
+Tue 10 Nov at 6:00pm	Czech Republic	€ 250 Pot Limit Omaha Side Event, King's Resort Live, Rozvadov
+Tue 10 Nov at 6:00pm	Slovakia	€ 150 No Limit Hold'em - Main Event Day 1E (Event #1), Banco Casino, Bratislava
+Wed 11 Nov at 12:00pm	Czech Republic	WSOP Super Circuit Main Event (Ring Event #13) Final Day, King's Resort Live, Rozvadov
+Wed 11 Nov at 12:00pm	Slovakia	€ 150 No Limit Hold'em - Main Event Day 1F (Event #1), Banco Casino, Bratislava
+Wed 11 Nov at 1:00pm	Czech Republic	WSOPC Super Circuit Championship Final Day, King's Resort Live, Rozvadov
+Wed 11 Nov at 2:00pm	Czech Republic	€ 60 No Limit Hold'em - GRND Kick Off III, Grand Casino Asch ( Aš ), Asch
+Wed 11 Nov at 3:00pm	Czech Republic	€ 1,500 + 500 No Limit Hold'em - WSOPC Super Turbo Bounty (Ring Event #18), King's Resort Live, Rozvadov
+Wed 11 Nov at 4:00pm	Czech Republic	€ 250 Pot Limit Omaha Side Event, King's Resort Live, Rozvadov
+Wed 11 Nov at 4:00pm	Slovakia	€ 250 No Limit Hold'em - Deep Stack (1-day event) (Event #2), Banco Casino, Bratislava
+Wed 11 Nov at 5:00pm	Czech Republic	GRND Cup Final Day, Grand Casino Asch ( Aš ), Asch
+Wed 11 Nov at 5:00pm	Slovakia	€ 150 No Limit Hold'em - Main Event Day 1G (Event #1), Banco Casino, Bratislava
+Wed 11 - Sun 15 Nov at 6:00pm	Czech Republic	€ 200 No Limit Hold'em - GRND Main Event 1a, Grand Casino Asch ( Aš ), Asch
+Wed 11 Nov at 10:00pm	Slovakia	€ 150 No Limit Hold'em - Main Event Day 1H Turbo (Event #1), Banco Casino, Bratislava
+Thu 12 Nov at 10:00am	Slovakia	€ 60 Satellite to NLH Super High Roller (Event #3), Banco Casino, Bratislava
+Thu 12 Nov at 12:00pm	Czech Republic	€ 50 Satellite to ME, Grand Casino Asch ( Aš ), Asch
+Thu 12 Nov at 12:00pm	Slovakia	€ 150 No Limit Hold'em - Main Event Day 1I Turbo (Event #1), Banco Casino, Bratislava
+Thu 12 Nov at 2:00pm	Czech Republic	€ 60 No Limit Hold'em - GRND Kick Off IV, Grand Casino Asch ( Aš ), Asch
+Thu 12 Nov at 2:00pm	Slovakia	€ 50 Celebrating 10 years of Polish Poker Series - Road to Dubai (Event #4), Banco Casino, Bratislava
+Thu 12 Nov at 3:00pm	Czech Republic	€ 200 No Limit Hold'em - GRND Main Event 1b, Grand Casino Asch ( Aš ), Asch
+Thu 12 Nov at 5:00pm	Slovakia	€ 150 No Limit Hold'em - Main Event Day 1J (Event #1), Banco Casino, Bratislava
+Thu 12 Nov at 5:00pm	Slovakia	€ 1,000 No Limit Hold'em - Super High Roller (1-day event) (Event #5), Banco Casino, Bratislava
+Thu 12 Nov at 7:00pm	Czech Republic	€ 77 No Limit Hold'em - Seven Always Comes, Grand Casino Asch ( Aš ), Asch
+Thu 12 Nov at 8:00pm	Slovakia	No Limit Hold'em - Ladies Event (Event #6), Banco Casino, Bratislava Entry restricted
+Thu 12 Nov at 10:00pm	Slovakia	€ 150 No Limit Hold'em - Main Event Day 1K Turbo (Event #1), Banco Casino, Bratislava
+Fri 13 Nov at 10:00am	Czech Republic	€ 50 Satellite to ME, Grand Casino Asch ( Aš ), Asch
+Fri 13 Nov at 10:00am	Slovakia	€ 60 Satellite to NLH High Roller (Event #7), Banco Casino, Bratislava
+Fri 13 Nov at 12:00pm	Slovakia	€ 150 No Limit Hold'em - Main Event Day 1L (Event #1), Banco Casino, Bratislava
+Fri 13 Nov at 1:00pm	Czech Republic	€ 200 No Limit Hold'em - GRND Main Event 1c, Grand Casino Asch ( Aš ), Asch
+Fri 13 - Sat 14 Nov at 4:00pm	Slovakia	€ 400 No Limit Hold'em - High Roller 8 Max Day 1 (Event #8), Banco Casino, Bratislava
+Fri 13 Nov at 5:00pm	Slovakia	€ 150 No Limit Hold'em - Main Event Day 1M (Event #1), Banco Casino, Bratislava
+Fri 13 Nov at 6:00pm	Czech Republic	€ 77 No Limit Hold'em - Seven Always Goes, Grand Casino Asch ( Aš ), Asch
+Fri 13 Nov at 7:00pm	Slovakia	€ 75 + 60 No Limit Hold'em - Championship K.O. (Event #9), Banco Casino, Bratislava
+Fri 13 Nov at 10:00pm	Czech Republic	€ 200 No Limit Hold'em - GRND Main Event 1d Turbo, Grand Casino Asch ( Aš ), Asch
+Fri 13 Nov at 10:00pm	Slovakia	€ 150 No Limit Hold'em - Main Event Day 1N Turbo (Event #1), Banco Casino, Bratislava
+Sat 14 Nov at 10:00am	Czech Republic	€ 50 Satellite to ME, Grand Casino Asch ( Aš ), Asch
+Sat 14 Nov at 10:00am	Slovakia	€ 75 No Limit Hold'em / Pot Limit Omaha 4/5 Card - Mix (Event #10), Banco Casino, Bratislava
+Sat 14 Nov at 12:00pm	Slovakia	€ 150 No Limit Hold'em - Main Event Day 1O (Event #1), Banco Casino, Bratislava
+Sat 14 Nov at 1:00pm	Czech Republic	€ 200 No Limit Hold'em - GRND Main Event 1e, Grand Casino Asch ( Aš ), Asch
+Sat 14 Nov at 4:00pm	Slovakia	High Roller Final Day (FT) (Event #8), Banco Casino, Bratislava
+Sat 14 Nov at 5:00pm	Slovakia	€ 150 No Limit Hold'em - Main Event Day 1P (Event #1), Banco Casino, Bratislava
+Sat 14 Nov at 6:00pm	Czech Republic	€ 100 No Limit Hold'em - Cooldown, Grand Casino Asch ( Aš ), Asch
+Sat 14 Nov at 8:00pm	Slovakia	€ 135 No Limit Hold'em - Freezeout Turbo Deepstack (Event #11), Banco Casino, Bratislava
+Sat 14 Nov at 10:00pm	Czech Republic	€ 200 No Limit Hold'em - GRND Main Event 1f Turbo, Grand Casino Asch ( Aš ), Asch
+Sat 14 Nov at 10:00pm	Slovakia	€ 150 No Limit Hold'em - Main Event Day 1Q Turbo (Event #1), Banco Casino, Bratislava
+Sun 15 Nov at 1:00pm	Czech Republic	€ 60 No Limit Hold'em - Kroko Cup II, Grand Casino Asch ( Aš ), Asch
+Sun 15 Nov at 1:00pm	Czech Republic	GRND Main Event Final Day, Grand Casino Asch ( Aš ), Asch
+Sun 15 Nov at 2:00pm	Slovakia	Main Event Day 2 (Event #1), Banco Casino, Bratislava
+Sun 15 Nov at 4:00pm	Slovakia	€ 50 + 50 No Limit Hold'em - Championship Mystery Bounty (Event #12), Banco Casino, Bratislava
+Mon 16 Nov at 2:00pm	Slovakia	Main Event Final Day (Event #1), Banco Casino, Bratislava
+Mon 16 Nov at 3:00pm	Slovakia	€ 100 No Limit Hold'em - Farewell Turbo Deepstack (Event #13), Banco Casino, Bratislava
+Fri 20 Nov at 12:00pm	Estonia	Freebuy Satellite to The Hendon Mob Championship 1A (Event #1), Olympic Park Casino, Tallinn
+Fri 20 Nov at 3:00pm	Estonia	€ 310 + 40 Sviten Special (Event #2), Olympic Park Casino, Tallinn
+Fri 20 - Sun 22 Nov at 5:00pm	Estonia	THMC € 310 + 40 No Limit Hold'em - The Hendon Mob Championship Day 1A (Event #3), Olympic Park Casino, Tallinn
+Fri 20 Nov at 7:00pm	Estonia	€ 170 + 30 No Limit Hold'em - Seniors Event 50+ (Event #4), Olympic Park Casino, Tallinn Entry restricted
+Fri 20 Nov at 8:00pm	Estonia	€ 170 + 30 Fixed Limit Baducey/Badacey (Event #5), Olympic Park Casino, Tallinn
+Fri 20 Nov at 9:00pm	Estonia	€ 20 + 30 + 150 No Limit Hold'em - Total Knock Out (Event #6), Olympic Park Casino, Tallinn
+Fri 20 - Thu 26 Nov at 11:00pm	Estonia	€ 110 + 15 Chicago European Championship Day 1A (Event #7), Olympic Park Casino, Tallinn
+Sat 21 Nov at 11:00am	Estonia	€ 110 + 15 Chicago European Championship Day 1B (Event #7), Olympic Park Casino, Tallinn
+Sat 21 Nov at 12:00pm	Estonia	€ 170 + 30 No Limit Hold'em - 72 Special (Event #8), Olympic Park Casino, Tallinn
+Sat 21 Nov at 1:00pm	Estonia	€ 310 + 40 Pot Limit Dealers Choice (Event #9), Olympic Park Casino, Tallinn
+Sat 21 Nov at 3:30pm	Estonia	€ 85 + 15 No Limit Hold'em - Win TV Live The Festival Special (Event #10), Olympic Park Casino, Tallinn
+Sat 21 Nov at 5:00pm	Estonia	€ 310 + 40 No Limit Hold'em - The Hendon Mob Championship Day 1B (Event #3), Olympic Park Casino, Tallinn
+Sat 21 Nov at 8:00pm	Estonia	€ 120 + 30 + 50 Pot Limit RAZZ - Progressive KO (Event #11), Olympic Park Casino, Tallinn
+Sat 21 Nov at 9:00pm	Estonia	€ 120 + 30 + 50 No Limit Hold'em - PKO With Straddle (Event #12), Olympic Park Casino, Tallinn
+Sat 21 Nov at 10:00pm	Estonia	€ 40 + 10 Mega-Satellite to €350 Mystery Bounty 1A (Event #13), Olympic Park Casino, Tallinn
+Sat 21 Nov at 11:00pm	Estonia	€ 110 + 15 Chicago European Championship Day 1C (Event #7), Olympic Park Casino, Tallinn
+Sun 22 Nov at 11:00am	Estonia	€ 110 + 15 Chicago European Championship Day 1D (Event #7), Olympic Park Casino, Tallinn
+Sun 22 Nov at 11:00am	Estonia	€ 310 + 40 No Limit Hold'em - The Hendon Mob Championship Day 1C Turbo (Event #3), Olympic Park Casino, Tallinn
+Sun 22 Nov at 11:30am	Estonia	Freebuy Satellite to Mystery Bounty Day 1A (Event #14), Olympic Park Casino, Tallinn
+Sun 22 - Wed 25 Nov at 1:00pm	Estonia	€ 160 + 40 + 150 No Limit Hold'em - Mystery Bounty Day 1A (Event #15), Olympic Park Casino, Tallinn
+Sun 22 Nov at 1:30pm	Estonia	€ 310 + 40 Sviten Six (Event #16), Olympic Park Casino, Tallinn
+Sun 22 Nov at 3:00pm	Estonia	€ 310 + 40 The Hendon Mob Championship Day 2 (Event #3), Olympic Park Casino, Tallinn
+Sun 22 Nov at 7:00pm	Estonia	€ 170 + 30 Super Hold'em (Event #17), Olympic Park Casino, Tallinn
+Sun 22 Nov at 9:00pm	Estonia	€ 170 + 30 Omaha Jack (Event #18), Olympic Park Casino, Tallinn
+Sun 22 Nov at 10:00pm	Estonia	€ 40 + 10 Mega-Satellite to €350 Mystery Bounty 1B (Event #19), Olympic Park Casino, Tallinn
+Sun 22 Nov at 11:00pm	Estonia	€ 110 + 15 Chicago European Championship Day 1E (Event #7), Olympic Park Casino, Tallinn
+Mon 23 Nov at 11:00am	Estonia	€ 110 + 15 Chicago European Championship Day 1F (Event #7), Olympic Park Casino, Tallinn
+Mon 23 Nov at 11:30am	Estonia	Freebuy Satellite to Mystery Bounty Day 1B (Event #20), Olympic Park Casino, Tallinn
+Mon 23 Nov at 12:00pm	Estonia	€ 310 + 40 Open Face Chinese Pineapple (Event #21), Olympic Park Casino, Tallinn
+Mon 23 Nov at 1:00pm	Estonia	€ 160 + 40 + 150 No Limit Hold'em - Mystery Bounty Day 1B (Event #15), Olympic Park Casino, Tallinn
+Mon 23 Nov at 2:00pm	Estonia	€ 310 + 40 Pot Limit Omaha 4/5/6 (Event #22), Olympic Park Casino, Tallinn
+Mon 23 Nov at 7:00pm	Estonia	€ 45 + 5 No Limit Hold'em - Wild Rebuy Madness (Event #23), Olympic Park Casino, Tallinn
+Mon 23 Nov at 8:00pm	Estonia	€ 170 + 30 Triple Draw Mix (Event #24), Olympic Park Casino, Tallinn
+Mon 23 Nov at 10:00pm	Estonia	€ 40 + 10 Mega-Satellite to €350 Mystery Bounty 1C (Event #25), Olympic Park Casino, Tallinn
+Mon 23 Nov at 11:00pm	Estonia	€ 110 + 15 Chicago European Championship Day 1G (Event #7), Olympic Park Casino, Tallinn
+Tue 24 Nov at 11:00am	Estonia	€ 110 + 15 Chicago European Championship Day 1H (Event #7), Olympic Park Casino, Tallinn
+Tue 24 Nov at 11:30am	Estonia	Freebuy Satellite to Mystery Bounty Day 1C (Event #26), Olympic Park Casino, Tallinn
+Tue 24 Nov at 1:00pm	Estonia	€ 160 + 40 + 150 No Limit Hold'em - Mystery Bounty Day 1C (Event #15), Olympic Park Casino, Tallinn
+Tue 24 - Wed 25 Nov at 1:30pm	Estonia	€ 500 + 55 T.O.R.S.E.S. - Mixed Games Main Event - Day 1 (Event #27), Olympic Park Casino, Tallinn
+Tue 24 Nov at 6:30pm	Estonia	€ 170 + 30 Seven Card Stud Mix (Event #28), Olympic Park Casino, Tallinn
+Tue 24 Nov at 7:00pm	Estonia	€ 160 + 40 + 150 No Limit Hold'em - Mystery Bounty Day 1D Turbo (Event #15), Olympic Park Casino, Tallinn
+Tue 24 Nov at 8:00pm	Estonia	€ 170 + 30 No Limit Hold'em / Pot Limit Omaha - Half n Half (Event #29), Olympic Park Casino, Tallinn
+Tue 24 Nov at 8:00pm	Estonia	€ 200 Cash Game Challenge (Event #30), Olympic Park Casino, Tallinn
+Tue 24 Nov at 9:00pm	Estonia	€ 110 + 15 Slots Championship (Event #31), Olympic Park Casino, Tallinn
+Tue 24 Nov at 10:00pm	Estonia	€ 70 + 10 Mega-Satellite to €555 Main Event Day 1A (Event #32), Olympic Park Casino, Tallinn
+Tue 24 Nov at 10:30pm	Estonia	€ 200 Cash Game Challenge (Event #33), Olympic Park Casino, Tallinn
+Tue 24 Nov at 11:00pm	Estonia	€ 110 + 15 Chicago European Championship Day 1I (Event #7), Olympic Park Casino, Tallinn
+Wed 25 Nov at 11:00am	Estonia	€ 110 + 15 Chicago European Championship Day 1J (Event #7), Olympic Park Casino, Tallinn
+Wed 25 - Sun 29 Nov at 12:00pm	Estonia	TF € 500 + 55 No Limit Hold'em - Main Event - Day 1A (Event #34), Olympic Park Casino, Tallinn
+Wed 25 Nov at 12:30pm	Estonia	€ 500 + 55 Mixed Games Main Event - TORSES Day 2 (Event #27), Olympic Park Casino, Tallinn
+Wed 25 Nov at 1:00pm	Estonia	Mystery Bounty Day 2 (Event #15), Olympic Park Casino, Tallinn
+Wed 25 Nov at 1:30pm	Estonia	€ 170 + 30 Open Face Chinese Pineapple (Event #35), Olympic Park Casino, Tallinn
+Wed 25 Nov at 5:00pm	Estonia	€ 310 + 40 Pot Limit Omaha - Bomb Pot 4/5/6 (Event #36), Olympic Park Casino, Tallinn
+Wed 25 Nov at 6:30pm	Estonia	€ 170 + 30 No Limit Hold'em - Deepstack Freezeout (Event #37), Olympic Park Casino, Tallinn
+Wed 25 Nov at 7:00pm	Estonia	€ 110 + 15 Blackjack Championship (Event #38), Olympic Park Casino, Tallinn
+Wed 25 Nov at 7:00pm	Czech Republic	€ 60 No Limit Hold'em - Isar Opener, Grand Casino Asch ( Aš ), Asch
+Wed 25 Nov at 8:00pm	Estonia	€ 200 Cash Game Challenge (Event #39), Olympic Park Casino, Tallinn
+Wed 25 Nov at 8:00pm	Estonia	€ 170 + 30 Big O (Event #40), Olympic Park Casino, Tallinn
+Wed 25 Nov at 10:00pm	Estonia	€ 70 + 10 Mega-Satellite to €555 Main Event Day 1/B (Event #41), Olympic Park Casino, Tallinn
+Wed 25 Nov at 10:30pm	Estonia	€ 200 Cash Game Challenge (Event #42), Olympic Park Casino, Tallinn
+Wed 25 Nov at 11:00pm	Estonia	€ 110 + 15 Chicago European Championship Day 1K (Event #7), Olympic Park Casino, Tallinn
+Thu 26 Nov at 11:00am	Estonia	€ 110 + 15 Chicago European Championship Day 1L (Event #7), Olympic Park Casino, Tallinn
+Thu 26 Nov at 12:00pm	Estonia	€ 500 + 55 No Limit Hold'em - Main Event - Day 1B (Event #34), Olympic Park Casino, Tallinn
+Thu 26 Nov at 12:30pm	Estonia	€ 310 + 40 8 Game (Event #43), Olympic Park Casino, Tallinn
+Thu 26 Nov at 1:00pm	Estonia	€ 70 + 10 Satellite to €1100 No Limit Hold'em - Highroller (Event #44), Olympic Park Casino, Tallinn
+Thu 26 Nov at 2:00pm	Estonia	Chicago European Championship Day 2 (Event #7), Olympic Park Casino, Tallinn
+Thu 26 Nov at 2:00pm	Czech Republic	€ 60 No Limit Hold'em/Pot Limit Omaha/Crazy Pineapple, Grand Casino Asch ( Aš ), Asch
+Thu 26 Nov at 3:00pm	Estonia	€ 310 + 40 Pot Limit Omaha - Bomb Pot (Event #45), Olympic Park Casino, Tallinn
+Thu 26 Nov at 6:00pm	Estonia	€ 1,000 + 100 No Limit Hold'em - High Roller (Event #46), Olympic Park Casino, Tallinn
+Thu 26 Nov at 6:00pm	Czech Republic	€ 80 No Limit Hold'em - Isar Warmup, Grand Casino Asch ( Aš ), Asch
+Thu 26 Nov at 6:30pm	Estonia	€ 110 + 15 Sviten Special - World Record Attempt (Event #47), Olympic Park Casino, Tallinn
+Thu 26 Nov at 7:00pm	Estonia	€ 110 + 15 Roulette Championship (Event #48), Olympic Park Casino, Tallinn
+Thu 26 Nov at 8:00pm	Estonia	€ 200 Cash Game Challenge (Event #49), Olympic Park Casino, Tallinn
+Thu 26 Nov at 9:00pm	Estonia	€ 120 + 30 + 50 No Limit Hold'em - PKO Madness (Event #50), Olympic Park Casino, Tallinn
+Thu 26 Nov at 10:00pm	Estonia	€ 70 + 10 Mega-Satellite to €555 The Festival Main Event 1 C/D (Event #51), Olympic Park Casino, Tallinn
+Thu 26 Nov at 10:30pm	Estonia	€ 200 Cash Game Challenge (Event #52), Olympic Park Casino, Tallinn
+Fri 27 Nov at 12:00pm	Estonia	€ 500 + 55 No Limit Hold'em - Main Event - Day 1C (Event #34), Olympic Park Casino, Tallinn
+Fri 27 Nov at 12:30pm	Estonia	€ 310 + 40 The Festival 10-Game (Event #53), Olympic Park Casino, Tallinn
+Fri 27 Nov at 1:00pm	Czech Republic	€ 60 Crazy Pineapple, Grand Casino Asch ( Aš ), Asch
+Fri 27 Nov at 3:00pm	Estonia	€ 310 + 40 Pot Limit Omaha 4/5 (Event #54), Olympic Park Casino, Tallinn
+Fri 27 Nov at 5:00pm	Estonia	€ 1,000 + 100 Pot Limit Omaha - High Roller (Event #55), Olympic Park Casino, Tallinn
+Fri 27 Nov at 5:00pm	Czech Republic	€ 100 +50 No Limit Hold'em - Bullets Mystery Bounty, Grand Casino Asch ( Aš ), Asch
+Fri 27 Nov at 6:00pm	Estonia	€ 170 + 30 Mixed Games Madness (Event #56), Olympic Park Casino, Tallinn
+Fri 27 Nov at 7:00pm	Estonia	€ 500 + 55 No Limit Hold'em - Main Event - Day 1D Turbo (Event #34), Olympic Park Casino, Tallinn
+Fri 27 Nov at 8:00pm	Estonia	€ 200 Cash Game Challenge (Event #57), Olympic Park Casino, Tallinn
+Fri 27 Nov at 8:00pm	Czech Republic	€ 100 Pot Limit Omaha - StackAttack, Grand Casino Asch ( Aš ), Asch
+Fri 27 Nov at 9:00pm	Estonia	€ 120 + 30 + 50 No Limit Hold'em - PKO Straddle (Event #58), Olympic Park Casino, Tallinn
+Fri 27 Nov at 10:30pm	Estonia	€ 200 Cash Game Challenge (Event #59), Olympic Park Casino, Tallinn
+Sat 28 Nov at 12:00pm	Estonia	€ 170 + 30 No Limit Hold'em - 72 Special (Event #60), Olympic Park Casino, Tallinn
+Sat 28 Nov at 12:30pm	Estonia	€ 310 + 40 Dealers Choice Fixed Limit (Event #61), Olympic Park Casino, Tallinn
+Sat 28 Nov at 1:00pm	Estonia	€ 310 + 40 Pot Limit Omaha 4/5/6 - Bomb Pot Feature (Event #62), Olympic Park Casino, Tallinn
+Sat 28 Nov at 1:00pm	Czech Republic	€ 150 No Limit Hold'em - Isar Main Event, Grand Casino Asch ( Aš ), Asch
+Sat 28 Nov at 2:00pm	Estonia	€ 110 + 15 Sportsbook Championship (Event #63), Olympic Park Casino, Tallinn
+Sat 28 Nov at 2:00pm	Estonia	Main Event - Day 2 (Event #34), Olympic Park Casino, Tallinn
+Sat 28 Nov at 4:00pm	Estonia	€ 130 + 20 No Limit Hold'em - The Festival Queens Ladies (Event #64), Olympic Park Casino, Tallinn Entry restricted
+Sat 28 - Sun 29 Nov at 5:00pm	Estonia	€ 1,000 + 100 The Festival 10-Game Day 1 (Event #65), Olympic Park Casino, Tallinn
+Sat 28 Nov at 6:00pm	Estonia	€ 170 + 30 No Limit Hold'em - Crazy Pineapple (Event #66), Olympic Park Casino, Tallinn
+Sat 28 Nov at 6:00pm	Czech Republic	€ 100 No Limit Hold'em - StackAttack, Grand Casino Asch ( Aš ), Asch
+Sat 28 Nov at 9:00pm	Estonia	€ 170 + 30 Thrilleri (Event #67), Olympic Park Casino, Tallinn
+Sun 29 Nov at 11:30am	Estonia	Flip Finals (Event #68), Olympic Park Casino, Tallinn
+Sun 29 Nov at 12:00pm	Estonia	€ 170 + 30 No Limit Hold'em - The Festival Brunch (Event #69), Olympic Park Casino, Tallinn
+Sun 29 Nov at 12:00pm	Czech Republic	€ 70 No Limit Hold'em - Isar Shutdown, Grand Casino Asch ( Aš ), Asch
+Sun 29 Nov at 12:30pm	Estonia	€ 85 + 15 Pot Limit Omaha Flips Tournament - Round 1 - Accumulator (Event #70), Olympic Park Casino, Tallinn
+Sun 29 Nov at 1:00pm	Estonia	Main Event - Day 3 (Event #34), Olympic Park Casino, Tallinn
+Sun 29 Nov at 1:30pm	Estonia	€ 1,000 + 100 The Festival 10-Game day 2 (Event #65), Olympic Park Casino, Tallinn
+Sun 29 Nov at 1:30pm	Estonia	€ 170 + 30 T.O.R.S.E.S. Baby Supreme (Event #71), Olympic Park Casino, Tallinn
+Sun 29 Nov at 2:00pm	Estonia	€ 1,000 + 100 Open Face Chinese Pineapple Highroller (Event #72), Olympic Park Casino, Tallinn
+Sun 29 Nov at 4:00pm	Estonia	Pot Limit Omaha Flips Tournament - Final - Accumulator (Event #70), Olympic Park Casino, Tallinn
+Mon 30 Nov at 7:00pm	Slovakia	€ 30 + 5 Supersatellite to Main Event, Banco Casino, Bratislava
+Tue 1 - Mon 7 Dec at 6:00pm	Slovakia	€ 85 No Limit Hold'em - Main Event Day 1A - Half price, Banco Casino, Bratislava
+Wed 2 Dec at 4:00pm	Slovakia	€ 30 + 5 Satellite to Main Event, Banco Casino, Bratislava
+Wed 2 Dec at 6:00pm	Slovakia	€ 170 No Limit Hold'em - Main Event Day 1B, Banco Casino, Bratislava
+Wed 2 Dec at 7:00pm	Slovakia	€ 50 + 10 Satellite to SPT Challenger, Banco Casino, Bratislava
+Wed 2 Dec at 9:00pm	Slovakia	€ 50 + 10 Pot Limit Omaha - Nightly Turbo, Banco Casino, Bratislava
+Thu 3 Dec at 3:00pm	Slovakia	€ 30 + 5 PLO Satellite to PLO Masters ME, Banco Casino, Bratislava
+Thu 3 Dec at 3:00pm	Slovakia	€ 170 No Limit Hold'em - Main Event Day 1C, Banco Casino, Bratislava
+Thu 3 - Sat 5 Dec at 6:00pm	Slovakia	€ 225 + 25 Pot Limit Omaha - Masters Main Event 8 Max Day 1A, Banco Casino, Bratislava
+Thu 3 Dec at 7:00pm	Slovakia	€ 50 + 10 Satellite to SPT Challenger, Banco Casino, Bratislava
+Thu 3 Dec at 8:00pm	Slovakia	€ 10 + 5 Satellite to Main Event Day 1D, Banco Casino, Bratislava
+Thu 3 Dec at 9:00pm	Slovakia	€ 135 + 15 No Limit Hold'em / Pot Limit Omaha - Level of Each, Banco Casino, Bratislava
+Thu 3 Dec at 10:00pm	Slovakia	€ 170 No Limit Hold'em - Main Event Day 1D Turbo, Banco Casino, Bratislava
+Fri 4 Dec at 1:00pm	Lithuania	€ 70 + 10 Satellite to €555 Kings of Vilnius Championship (Event #1), Olympic Casino Vilnius, Vilnius
+Fri 4 Dec at 3:00pm	Slovakia	€ 170 No Limit Hold'em - Main Event Day 1E, Banco Casino, Bratislava
+Fri 4 Dec at 4:00pm	Slovakia	€ 60 + 20 + 50 Pot Limit Omaha - Masters Mystery Bounty, Banco Casino, Bratislava
+Fri 4 - Sat 5 Dec at 5:00pm	Slovakia	€ 500 + 50 No Limit Hold'em - SPT Challenger 8 Max Day 1, Banco Casino, Bratislava
+Fri 4 - Sun 6 Dec at 5:00pm	Slovakia	€ 500 + 50 MGC 10-Game Mix Day 1, Banco Casino, Bratislava
+Fri 4 - Mon 7 Dec at 5:00pm	Lithuania	€ 500 + 55 No Limit Hold'em - Kings of Vilnius Championship (Event #2) Day 1A, Olympic Casino Vilnius, Vilnius
+Fri 4 Dec at 7:00pm	Slovakia	€ 225 + 25 Pot Limit Omaha - Masters Main Event 8 Max Day 1B, Banco Casino, Bratislava
+Fri 4 Dec at 7:00pm	Lithuania	€ 170 + 30 No Limit Hold'em (Event #3), Olympic Casino Vilnius, Vilnius
+Fri 4 Dec at 8:00pm	Slovakia	€ 10 + 5 Satellite to Main Event Day 1F, Banco Casino, Bratislava
+Fri 4 Dec at 9:30pm	Lithuania	€ 70 + 10 Satellite to the €1,100 Main Event (Event #4), Olympic Casino Vilnius, Vilnius
+Fri 4 Dec at 10:00pm	Slovakia	€ 170 No Limit Hold'em - Main Event Day 1F Turbo, Banco Casino, Bratislava
+Sat 5 Dec at 12:00pm	Slovakia	€ 170 No Limit Hold'em - Main Event Day 1G, Banco Casino, Bratislava
+Sat 5 Dec at 12:00pm	Lithuania	€ 500 + 55 No Limit Hold'em - Kings of Vilnius Championship (Event #2) Day 1B, Olympic Casino Vilnius, Vilnius
+Sat 5 Dec at 2:00pm	Slovakia	€ 2,500 + 200 MGC 10-Game Mix Day 2, Banco Casino, Bratislava
+Sat 5 Dec at 3:00pm	Slovakia	€ 225 + 25 PLO Masters Main Event Final Day, Banco Casino, Bratislava
+Sat 5 Dec at 3:00pm	Lithuania	€ 170 + 30 + 50 No Limit Hold'em - Knockout (Event #5), Olympic Casino Vilnius, Vilnius
+Sat 5 Dec at 5:00pm	Slovakia	SPT Challenger Final Day, Banco Casino, Bratislava
+Sat 5 Dec at 5:00pm	Slovakia	€ 170 No Limit Hold'em - Main Event Day 1H, Banco Casino, Bratislava
+Sat 5 Dec at 7:00pm	Slovakia	€ 135 + 15 Big O Masters, Banco Casino, Bratislava
+Sat 5 Dec at 7:00pm	Lithuania	€ 170 + 30 Pot Limit Omaha - PLO4/PLO5 (Event #6), Olympic Casino Vilnius, Vilnius
+Sat 5 Dec at 9:00pm	Lithuania	€ 500 + 55 No Limit Hold'em - Kings of Vilnius Championship (Event #2) Day 1C Turbo, Olympic Casino Vilnius, Vilnius
+Sat 5 Dec at 9:30pm	Lithuania	€ 70 + 10 Satellite to the €1,100 Main Event (Event #7), Olympic Casino Vilnius, Vilnius
+Sat 5 Dec at 10:00pm	Slovakia	€ 170 No Limit Hold'em - Main Event Day 1I Turbo, Banco Casino, Bratislava
+Sun 6 Dec at 10:00am	Slovakia	€ 170 No Limit Hold'em - Main Event Day 1J Hyper Turbo, Banco Casino, Bratislava
+Sun 6 Dec at 12:00pm	Lithuania	€ 500 + 55 No Limit Hold'em - Kings of Vilnius Championship (Event #2) Day 2, Olympic Casino Vilnius, Vilnius
+Sun 6 Dec at 12:30pm	Slovakia	€ 170 Last Chance Flip n Go to Main Event, Banco Casino, Bratislava
+Sun 6 Dec at 1:00pm	Slovakia	MGC 10-Game Mix Final Day, Banco Casino, Bratislava
+Sun 6 - Mon 7 Dec at 3:00pm	Lithuania	€ 210 + 40 + 100 No Limit Hold'em - Progressive Bounty (Event #8) Day 1, Olympic Casino Vilnius, Vilnius
+Sun 6 Dec at 4:00pm	Slovakia	Main Event Day 2, Banco Casino, Bratislava
+Sun 6 Dec at 6:00pm	Slovakia	€ 120 + 25 + 80 No Limit Hold'em - Mystery Bounty, Banco Casino, Bratislava
+Sun 6 Dec at 6:00pm	Lithuania	€ 170 + 30 No Limit Hold'em/Pot Limit Omaha Mix (Event #9), Olympic Casino Vilnius, Vilnius
+Sun 6 Dec at 8:00pm	Slovakia	€ 50 + 10 Pot Limit Omaha - 4/5/6 Masters 7 Max, Banco Casino, Bratislava
+Sun 6 Dec at 9:00pm	Lithuania	€ 70 + 10 Satellite to High Roller (Event #10), Olympic Casino Vilnius, Vilnius
+Mon 7 Dec at 12:00pm	Lithuania	Kings of Vilnius Championship (Event #2) Final Day, Olympic Casino Vilnius, Vilnius
+Mon 7 Dec at 1:00pm	Lithuania	€ 30 Satellite to the €1,100 Main Event (Event #11), Olympic Casino Vilnius, Vilnius
+Mon 7 Dec at 3:00pm	Lithuania	€ 210 + 40 + 100 No Limit Hold'em - Progressive Bounty (Event #8) Day 2, Olympic Casino Vilnius, Vilnius
+Mon 7 Dec at 4:00pm	Slovakia	Main Event Final Day, Banco Casino, Bratislava
+Mon 7 Dec at 4:00pm	Lithuania	€ 120 + 30 + 100 No Limit Hold'em - Bounty (Event #12), Olympic Casino Vilnius, Vilnius
+Mon 7 Dec at 5:00pm	Slovakia	€ 50 + 10 No Limit Hold'em - Farewell Turbo Deepstack, Banco Casino, Bratislava
+Mon 7 Dec at 7:00pm	Lithuania	€ 170 + 30 Pot Limit Omaha - PLO4/PLO5/PLO6 (Event #13), Olympic Casino Vilnius, Vilnius
+Mon 7 Dec at 9:00pm	Lithuania	€ 70 + 10 Satellite to High Roller (Event #14), Olympic Casino Vilnius, Vilnius
+Tue 8 Dec at 12:00pm	Lithuania	€ 70 + 10 Satellite to High Roller (Event #15), Olympic Casino Vilnius, Vilnius
+Tue 8 Dec at 2:00pm	Lithuania	€ 500 + 55 Pot Limit Omaha - PLO4/PLO5 Championship (Event #16), Olympic Casino Vilnius, Vilnius
+Tue 8 Dec at 5:00pm	Lithuania	€ 220 + 30 No Limit Hold'em - Turbo DeepStack (Event #17), Olympic Casino Vilnius, Vilnius
+Tue 8 Dec at 9:00pm	Lithuania	€ 30 Satellite to the €1,100 Main Event (Event #18), Olympic Casino Vilnius, Vilnius
+Wed 9 Dec at 12:00pm	Lithuania	€ 70 + 10 Satellite to High Roller (Event #19), Olympic Casino Vilnius, Vilnius
+Wed 9 Dec at 1:00pm	Lithuania	€ 220 + 30 Mixed Games - H.O.R.S.E. Championship 6-Handed (Event #20), Olympic Casino Vilnius, Vilnius
+Wed 9 - Thu 10 Dec at 4:00pm	Lithuania	€ 1,850 + 150 No Limit Hold'em - High Roller 8-Max (Event #21) Day 1, Olympic Casino Vilnius, Vilnius
+Wed 9 Dec at 6:00pm	Lithuania	€ 170 + 30 No Limit Hold'em (Event #22), Olympic Casino Vilnius, Vilnius
+Wed 9 Dec at 9:00pm	Lithuania	€ 30 Satellite to the €1,100 Main Event (Event #23), Olympic Casino Vilnius, Vilnius
+Thu 10 Dec at 12:00pm	Lithuania	€ 30 Satellite to the €1,100 Main Event (Event #24), Olympic Casino Vilnius, Vilnius
+Thu 10 Dec at 1:00pm	Lithuania	€ 1,850 + 150 No Limit Hold'em - High Roller 8-Max (Event #21) Day 2, Olympic Casino Vilnius, Vilnius
+Thu 10 - Sun 13 Dec at 4:00pm	Lithuania	€ 1,000 + 100 No Limit Hold'em - Main Event (Event #25) Day 1A, Olympic Casino Vilnius, Vilnius
+Thu 10 Dec at 10:00pm	Lithuania	€ 120 + 30 + 100 No Limit Hold'em - Progressive Bounty (Event #26), Olympic Casino Vilnius, Vilnius
+Fri 11 Dec at 12:00pm	Lithuania	€ 1,000 + 100 No Limit Hold'em - Main Event (Event #25) Day 1B, Olympic Casino Vilnius, Vilnius
+Fri 11 Dec at 4:00pm	Lithuania	€ 220 + 30 Mixed Games - Pot Limit Sviten (Event #27), Olympic Casino Vilnius, Vilnius
+Fri 11 Dec at 5:00pm	Lithuania	€ 220 + 30 No Limit Hold'em (Event #28), Olympic Casino Vilnius, Vilnius
+Fri 11 Dec at 8:00pm	Lithuania	€ 1,000 + 100 No Limit Hold'em - Main Event (Event #25) Day 1C, Olympic Casino Vilnius, Vilnius
+Fri 11 Dec at 9:00pm	Lithuania	€ 170 + 30 No Limit Hold'em (Event #29), Olympic Casino Vilnius, Vilnius
+Sat 12 Dec at 12:00pm	Lithuania	€ 1,000 + 100 No Limit Hold'em - Main Event (Event #25) Day 2, Olympic Casino Vilnius, Vilnius
+Sat 12 Dec at 12:00pm	Lithuania	€ 9 + 1 Satellite to Queens (Event #30), Olympic Casino Vilnius, Vilnius
+Sat 12 - Sun 13 Dec at 3:00pm	Lithuania	€ 500 + 55 No Limit Hold'em - OlyBet Special (Event #31) Day 1, Olympic Casino Vilnius, Vilnius
+Sat 12 Dec at 5:00pm	Lithuania	€ 130 + 20 No Limit Hold'em - Queens of Vilnius Ladies Only (Event #32), Olympic Casino Vilnius, Vilnius Entry restricted
+Sat 12 Dec at 8:00pm	Lithuania	€ 120 + 30 + 100 Pot Limit Omaha - PLO4/PLO5 Progressive Knockout (Event #33), Olympic Casino Vilnius, Vilnius
+Sun 13 Dec at 12:00pm	Lithuania	Main Event (Event #25) Day 3, Olympic Casino Vilnius, Vilnius
+Sun 13 Dec at 1:00pm	Lithuania	€ 500 + 55 No Limit Hold'em - OlyBet Special (Event #31) Day 2, Olympic Casino Vilnius, Vilnius
+Sun 13 Dec at 2:00pm	Lithuania	€ 120 + 30 + 100 No Limit Hold'em - Wrap-up Progressive Knockout, Olympic Casino Vilnius, Vilnius

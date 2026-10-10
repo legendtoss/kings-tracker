@@ -12,7 +12,10 @@ Runs on GitHub Actions about every 10 minutes. Each run:
      Aš's cash games and tournaments (data/grandcasinoas/ + GRAND_CASINO_AS.md) and Banco Casino
      Bratislava's website (data/banco/ + BANCO.md), plus Olympic Park Tallinn and Olympic Casino
      Vilnius from OlyBet's poker site (every 30 minutes). Those are kept fully separate, so a
-     problem with their websites can never affect the King's data.
+     problem with their websites can never affect the King's data,
+  6. marks festival weeks (calendar.csv), the tournament schedule (hendonmob.txt, a copied Hendon
+     Mob page) and public holidays in the players' home countries, so the statistics can show
+     normal days separately from festivals and holidays.
 
 Games are named the way the poker room's own system names them (NLH, PLO5, ...), so different
 games are never mixed together. If checks keep failing, the run reports an error and GitHub
@@ -33,7 +36,7 @@ import urllib.request
 from collections import Counter, defaultdict
 from functools import lru_cache
 from html import unescape
-from datetime import datetime, timedelta
+from datetime import date, datetime, timedelta
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
@@ -47,6 +50,7 @@ TZ = ZoneInfo("Europe/Prague")  # Rozvadov time = Warsaw time
 ALERT_AFTER = 6                 # failed checks in a row before GitHub emails you (about 1 hour)
 
 DATA_DIR = Path("data")
+MONTH_FILES = "[0-9][0-9][0-9][0-9]-[0-9][0-9].csv"  # King's data: one file per month, e.g. data/2026-10.csv
 SITE_FIELDS = ["time", "weekday", "hour", "status", "cash_text", "tournament_text"]
 # Slovak rooms read from their web pages: (folder name, display name, page address, results page)
 # Slovak rooms read from their websites with a browser. "reader" says where the list is on the page.
@@ -85,6 +89,30 @@ OLY_SITES = (
 OLY_FIELDS = ["time", "weekday", "hour", "status", "club", "tables", "players", "waiting", "games", "listed",
               "tournaments_text", "raw"]
 OLY_CLUBS_FILE = DATA_DIR / "olympic_clubs.json"  # remembers each site's club page address
+
+# Festivals, tournament schedule and public holidays (see "festivals, schedule and holidays" below)
+CALENDAR_FILE = Path("calendar.csv")          # festival / series / cash-game-event dates, edited by hand
+HENDONMOB_FILE = Path("hendonmob.txt")        # a copied Hendon Mob "upcoming events" page
+SCHEDULE_FILE = DATA_DIR / "schedule" / "events.csv"  # every event read from it so far (older ones are kept)
+SCHEDULE_FIELDS = ["room", "date", "end", "time", "kind", "game", "buyin", "title", "restricted"]
+HOLIDAY_FILE = DATA_DIR / "holidays.json"     # worked out once a day
+SAMPLE_DIR = Path("debug/samples")            # a few raw feed records a day, to spot unused details
+FESTIVAL_TYPES = ("festival", "cash event")   # these days are kept apart from normal days in the stats
+ROOMS = {  # key: (name, page, the countries most players come from - their public holidays matter)
+    "kings": ("King's Rozvadov", "README.md", (("CZ", None, "Czechia"), ("DE", "BY", "Bavaria"))),
+    "grandcasinoas": ("Grand Casino Aš", "GRAND_CASINO_AS.md",
+                      (("CZ", None, "Czechia"), ("DE", "BY", "Bavaria"), ("DE", "SN", "Saxony"))),
+    "cardcasino": ("Card Casino Šamorín", "CARD_CASINO.md",
+                   (("SK", None, "Slovakia"), ("AT", None, "Austria"), ("HU", None, "Hungary"))),
+    "banco": ("Banco Casino Bratislava", "BANCO.md",
+              (("SK", None, "Slovakia"), ("AT", None, "Austria"), ("HU", None, "Hungary"))),
+    "olympic-tallinn": ("Olympic Park Tallinn", "OLYMPIC_TALLINN.md", (("EE", None, "Estonia"), ("FI", None, "Finland"))),
+    "olympic-vilnius": ("Olympic Casino Vilnius", "OLYMPIC_VILNIUS.md",
+                        (("LT", None, "Lithuania"), ("LV", None, "Latvia"), ("PL", None, "Poland"))),
+}
+HM_ROOMS = (("King's Resort Live, Rozvadov", "kings"), ("Grand Casino Asch ( Aš ), Asch", "grandcasinoas"),
+            ("Card Casino Šamorín, Šamorín", "cardcasino"), ("Banco Casino, Bratislava", "banco"),
+            ("Olympic Park Casino, Tallinn", "olympic-tallinn"), ("Olympic Casino Vilnius, Vilnius", "olympic-vilnius"))
 RETIRED_SITES = (("samorin", Path("SAMORIN.md")),)  # an earlier attempt via Banco's site, which had no live data
 # Tracking/advertising services skipped during browser visits. Exact domains on purpose: matching
 # just "google" would also block Google's code-library servers, which many sites need to work.
@@ -272,25 +300,41 @@ def tournament_entries(data, now, with_details=False):
     return (entries, all_details) if with_details else entries
 
 
+OTHER_GAMES = re.compile(r"\bstud\b|\brazz\b|badugi|baducey|badacey|triple draw|lowball|\b2-7\b|sviten|drawmaha|"
+                         r"h\.?o\.?r\.?s\.?e|\b\d+[- ]?game\b|s\.o\.r\.b\.e\.t|t\.o\.r\.s\.e|torses|\bt\.o\.e\b|"
+                         r"h\.e\.t\.r\.o\.s|big bet mix|pickem|courchevel")
+
+
 def tourney_game(name):
-    """Which poker game a tournament is. King's data doesn't say it directly, so it's read from the
-    tournament's names: King's puts PLO/Omaha, Mix, Short Deck, Pineapple etc. in the title of every
-    non-Hold'em event, and everything else is No-Limit Hold'em."""
+    """Which poker game a tournament is, read from its name: rooms put PLO/Omaha, Mix, Short Deck,
+    Pineapple etc. in the title of every non-Hold'em event, and everything else is No-Limit Hold'em.
+    'PLO mix' = several Omaha variants (PLO4/PLO5/PLO6); 'Mixed' = Omaha mixed with other games."""
     n = " ".join(name.lower().replace("’", "'").split())
-    if re.search(r"\bmix(ed)?\b|dealer'?s choice|h\.?o\.?r\.?s\.?e|\b8[- ]?game|\bstud\b|\brazz\b|badugi|triple draw", n):
+    omaha = re.search(r"\bplo\d?\b|omaha|\bbig o\b", n)
+    holdem = re.search(r"hold'?em|\bnlh\b", n)
+    if OTHER_GAMES.search(n) or (omaha and holdem):
+        return "Mixed"
+    if re.search(r"dealer'?s choice", n):
+        return "PLO mix" if omaha else "Mixed"
+    if re.search(r"\bmix(ed)?\b", n) and not omaha:
         return "Mixed"
     if "pineapple" in n:
         return "Pineapple"
     if re.search(r"short ?deck|\b6\+|six plus", n):
         return "Short Deck"
+    if not omaha:
+        return "NLH"
     if re.search(r"\bbig o\b", n):
         return "PLO5 Hi-Lo"
-    if re.search(r"\bplo\d?\b|omaha", n):
-        if re.search(r"hi[ -/]?lo|8 or better|\bo8\b|\bplo8\b", n):
-            return "PLO Hi-Lo"
-        cards = re.search(r"\bplo\s*([56])\b|\b([56])[ -]?cards?\b", n)
-        return "PLO" + (cards.group(1) or cards.group(2) if cards else "")
-    return "NLH"
+    if re.search(r"hi[ -/]?lo|8 or better|\bo8\b|\bplo8\b", n):
+        return "PLO Hi-Lo"
+    sizes = set(re.findall(r"\bplo\s*([456])\b", n)) | set(re.findall(r"\b([56])[ -]?cards?\b", n))
+    for group in re.findall(r"\b[456](?:\s*[/-]\s*[456])+\b", n):
+        sizes |= set(re.findall(r"[456]", group))
+    if len(sizes) > 1 or re.search(r"\bmix\b", n):
+        return "PLO mix"
+    size = sizes.pop() if sizes else ""
+    return "PLO" + (size if size in ("5", "6") else "")
 
 
 def tourney_family(game):
@@ -819,7 +863,9 @@ def check():
     problem = {}
     for attempt in (1, 2):
         try:
-            entries = feed_entries(fetch_feed())
+            data = fetch_feed()
+            save_sample("kings_cash_feed", data, lambda t: str(t.get("venue")) == VENUE)
+            entries = feed_entries(data)
         except Exception as e:
             problem["feed"] = short_error(e)
             time.sleep(5)
@@ -845,7 +891,9 @@ def check_tournaments(now):
     error = ""
     for attempt in (1, 2):
         try:
-            result = tournament_entries(fetch_feed(CLOCKS_URL), now, with_details=True)
+            data = fetch_feed(CLOCKS_URL)
+            save_sample("kings_clocks_feed", data)
+            result = tournament_entries(data, now, with_details=True)
         except Exception as e:
             error = short_error(e)
             time.sleep(3)
@@ -884,7 +932,7 @@ def migrate_old_files():
     and each file is replaced in one step, so a crash can't leave it half-written."""
     for leftover in DATA_DIR.glob("*.tmp"):  # from a run that crashed mid-way
         leftover.unlink()
-    for path in sorted(DATA_DIR.glob("*.csv")):
+    for path in sorted(DATA_DIR.glob(MONTH_FILES)):
         has_marker = path.read_bytes()[:3] == b"\xef\xbb\xbf"
         with path.open(newline="", encoding="utf-8-sig") as fh:
             reader = csv.DictReader(fh)
@@ -1052,7 +1100,9 @@ def write_card_page(now):
     out += health_lines(rows, now, CARD_SOURCES, "debug/cardcasino_page.json")
     if ok:
         out += snapshot_lines(ok[-1])
-    out += busy_sections(ok, checks)
+    out += calendar_lines("cardcasino", now)
+    out += busy_sections(ok, checks, "cardcasino")
+    out += day_type_lines("cardcasino", ok)
     out += all_games_lines(ok)
     out += ["---", "Raw data: `data/cardcasino` (one CSV file per month). Card Casino lists seated players per table; "
             "it doesn't show waiting lists."]
@@ -1116,13 +1166,17 @@ def write_gas_page(now):
         out += [f"**Tournaments in play at {with_t[-1]['time']}:** "
                 + (" · ".join(tourney_text(d) for d in running) if running else "none"), ""]
 
+    out += calendar_lines("grandcasinoas", now)
+    all_ok = ok
+    ok, note = split_days("grandcasinoas", ok)
+
     # running tables by hour and weekday
     total, count = defaultdict(float), defaultdict(int)
     for r in ok:
         for key in ((int(r["hour"]), r["weekday"]), (int(r["hour"]), "All")):
             total[key] += as_int(r["tables"])
             count[key] += 1
-    out += ["## Running cash tables by hour", "",
+    out += ["## Running cash tables by hour", "", *([note, ""] if note else []),
             "Average number of running tables (Grand Casino Aš shows which games run, not how many players).", "",
             "| Hour | " + " | ".join(DAYS) + " | All days |", "|:--|" + "--:|" * (len(DAYS) + 1)]
     for h in range(24):
@@ -1151,6 +1205,7 @@ def write_gas_page(now):
     else:
         out.append("No running games seen yet.")
     out.append("")
+    out += day_type_lines("grandcasinoas", all_ok, measure="tables")
     out += tournaments_seen_lines(with_t)
     out += ["---", "Raw data: `data/grandcasinoas` (one CSV file per month)."]
     GAS_PAGE.write_text("\n".join(out) + "\n", encoding="utf-8")
@@ -1273,7 +1328,9 @@ def write_olympic_page(site, now):
     with_t = [r for r in rows if r.get("tournaments_text")]
     if with_t:
         out += [f"**Tournaments on their site at {with_t[-1]['time']}:** {with_t[-1]['tournaments_text']}", ""]
-    out += busy_sections(ok, checks)
+    out += calendar_lines(site["key"], now)
+    out += busy_sections(ok, checks, site["key"])
+    out += day_type_lines(site["key"], ok)
     out += all_games_lines(ok)
     out += ["---", f"Raw data: `data/{site['key']}` (one CSV file per month)."]
     site["page"].write_text("\n".join(out) + "\n", encoding="utf-8")
@@ -1380,6 +1437,8 @@ def write_site_page(key, name, url, page_path):
             or ["(no cash games listed)"]
         out += [f"## Cash games on the site at {latest['time']}", "", "```", *lines, "```", "",
                 f"**Tournaments:** {shown(latest['tournament_text'], 300) or 'none listed'}", ""]
+    if key in ROOMS:
+        out += calendar_lines(key, datetime.now(TZ))
     out += ["---", "First version: the lists are saved exactly as the site shows them. Statistics per game "
             "and hour (like on the King's page) are added once a day of data shows the site's format.",
             f"Raw data: `data/{key}` (one CSV file per month)."]
@@ -1388,10 +1447,396 @@ def write_site_page(key, name, url, page_path):
 
 def load_rows():
     rows = []
-    for path in sorted(DATA_DIR.glob("*.csv")):
+    for path in sorted(DATA_DIR.glob(MONTH_FILES)):
         with path.open(newline="", encoding="utf-8-sig") as fh:
             rows.extend(csv.DictReader(fh))
     return rows
+
+
+# ---------------------------------------------------------------- festivals, schedule and holidays
+
+MONTHS = ("Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec")
+_WD, _MON = "(?:Mon|Tue|Wed|Thu|Fri|Sat|Sun)", "(?:" + "|".join(MONTHS) + ")"
+HM_LINE = re.compile(rf"^(?P<d1>{_WD}) (?P<n1>\d{{1,2}})(?: (?P<m1>{_MON}))?(?: - (?P<d2>{_WD}) (?P<n2>\d{{1,2}}) (?P<m2>{_MON}))?"
+                     rf"(?: at (?P<t>\d{{1,2}}:\d{{2}} ?[ap]m))?\s+(?P<rest>\S.*)$", re.I)
+HM_ROOM_RES = [(re.compile(r"\s*".join(re.escape(part) for part in name.replace("(", " ( ").replace(")", " ) ")
+                                         .replace(",", " , ").split()), re.I), key) for name, key in HM_ROOMS]
+BUYIN_RE = re.compile(r"^(?:[A-Z]{2,6} )?€\s*(\d[\d,]*(?:\s*\+\s*\d[\d,]*)*)")
+TYPE_ICON = {"festival": "🎪", "cash event": "💵", "series": "🎟️", "nearby": "📍"}
+CONTEXT = {"calendar": [], "schedule": [], "holidays": {}}  # filled once per run by setup_context()
+
+
+def cal_text(text, limit=200):
+    """Calendar and schedule text for the pages: only characters that could break a markdown table go."""
+    text = " ".join(re.sub(r"[|`<>*\[\]]", " ", str(text or "")).split())
+    return text if len(text) <= limit else text[:limit - 1].rsplit(" ", 1)[0] + " …"
+
+
+def event_name(title):
+    """A schedule title without its buy-in prefix ('€ 300 + 40 Pot Limit Omaha - Main Event' -> 'Pot Limit Omaha - Main Event')."""
+    buy = BUYIN_RE.match(title)
+    return title[buy.end():].strip(" -") if buy else title
+
+
+def day_icon(room, day):
+    for c in CONTEXT["calendar"]:
+        if c["room"] == room and c["type"] in FESTIVAL_TYPES and c["start_d"].isoformat() <= day <= c["end_d"].isoformat():
+            return TYPE_ICON.get(c["type"], "🎪")
+    return "📅"
+
+
+def hm_day(weekday, day, month, today):
+    """The date of e.g. 'Sat 10 Oct': the nearest year in which that day really is a Saturday."""
+    options = []
+    for year in (today.year - 1, today.year, today.year + 1):
+        try:
+            d = date(year, month, day)
+        except ValueError:
+            continue
+        options.append((DAYS[d.weekday()] != weekday.title(), abs((d - today).days), d))
+    return min(options)[2] if options else None
+
+
+def hm_kind(title):
+    t = title.lower()
+    if "cash game challenge" in t:
+        return "cash"
+    if re.search(r"party|dinner|lunch|slots|blackjack|roulette|sportsbook|chicago|flip finals", t):
+        return "other"
+    if re.search(r"satell?ite|qualifier|flip\W*(?:n|&)\W*go to", t):
+        return "satellite"
+    return "tournament"
+
+
+def parse_hendonmob(text, today):
+    """The events at the tracked rooms in a copied Hendon Mob 'upcoming events' page (other lines are ignored)."""
+    events = []
+    for raw in (text or "").splitlines():
+        line = " ".join(raw.replace("’", "'").replace("´", "'").split())
+        m = HM_LINE.match(line)
+        if not m:
+            continue
+        rest = m.group("rest")
+        found = next(((regex.search(rest), key) for regex, key in HM_ROOM_RES if regex.search(rest)), None)
+        if not found:
+            continue
+        venue, room = found
+        title = rest[:venue.start()].rstrip(" ,")
+        for country in ("Czech Republic", "Slovakia", "Estonia", "Lithuania"):
+            if title.startswith(country + " "):
+                title = title[len(country) + 1:].strip()
+                break
+        month = m.group("m1") or m.group("m2")
+        start = hm_day(m.group("d1"), int(m.group("n1")), MONTHS.index(month.title()) + 1, today) if month else None
+        if not title or not start:
+            continue
+        end = start
+        if m.group("n2"):
+            end = hm_day(m.group("d2"), int(m.group("n2")), MONTHS.index(m.group("m2").title()) + 1, today) or start
+            end = end if timedelta(0) <= end - start <= timedelta(days=60) else start
+        buy = BUYIN_RE.match(title)
+        kind = hm_kind(title)
+        clock = datetime.strptime(m.group("t").replace(" ", "").upper(), "%I:%M%p") if m.group("t") else None
+        events.append({"room": room, "date": start.isoformat(), "end": end.isoformat() if end != start else "",
+                       "time": f"{clock:%H:%M}" if clock else "", "kind": kind,
+                       "game": "Other" if kind == "other" else tourney_game(title),
+                       "buyin": str(sum(int(x.replace(",", "")) for x in re.findall(r"\d[\d,]*", buy.group(1)))) if buy else "",
+                       "title": title[:150], "restricted": "yes" if "restricted" in rest[venue.end():].lower() else ""})
+    return events
+
+
+def update_schedule(today):
+    """Every event read from hendonmob.txt so far, kept in data/schedule/events.csv: replacing hendonmob.txt with a
+    fresh copy adds new events and keeps the old ones, so past days can still be compared."""
+    known = {}
+    try:
+        with SCHEDULE_FILE.open(newline="", encoding="utf-8-sig") as fh:
+            for r in csv.DictReader(fh):
+                known[(r["room"], r["date"], r["time"], r["title"])] = {k: r.get(k) or "" for k in SCHEDULE_FIELDS}
+    except OSError:
+        pass
+    saved = {k: dict(v) for k, v in known.items()}
+    try:
+        text = HENDONMOB_FILE.read_text(encoding="utf-8", errors="replace")
+    except OSError:
+        text = ""
+    for e in parse_hendonmob(text, today):
+        known[(e["room"], e["date"], e["time"], e["title"])] = e
+    for e in known.values():  # re-read the game of older rows too, in case the reading has improved
+        e["kind"] = hm_kind(e["title"])
+        e["game"] = "Other" if e["kind"] == "other" else tourney_game(e["title"])
+    rows = sorted(known.values(), key=lambda r: (r["date"], r["time"], r["room"], r["title"]))
+    if known != saved:
+        SCHEDULE_FILE.parent.mkdir(parents=True, exist_ok=True)
+        rewrite_csv(SCHEDULE_FILE, SCHEDULE_FIELDS, rows)
+    return rows
+
+
+def calendar_day(text):
+    for fmt in ("%Y-%m-%d", "%d.%m.%Y", "%d/%m/%Y"):
+        try:
+            return datetime.strptime(text.strip(), fmt).date()
+        except ValueError:
+            continue
+    return None
+
+
+def load_calendar():
+    """calendar.csv: one line per festival, series or cash-game event (also if saved by Excel with ';')."""
+    try:
+        text = CALENDAR_FILE.read_text(encoding="utf-8-sig")
+    except OSError:
+        return []
+    first = text.split("\n", 1)[0]
+    out = []
+    for r in csv.DictReader(text.splitlines(), delimiter=";" if first.count(";") > first.count(",") else ","):
+        r = {str(k).strip().lower(): (v or "").strip() for k, v in r.items() if k}
+        start, end = calendar_day(r.get("start", "")), calendar_day(r.get("end", "") or r.get("start", ""))
+        if not (start and r.get("room") and r.get("name")):
+            continue
+        out.append({**r, "type": r.get("type", "").lower() or "festival", "start_d": start, "end_d": max(start, end or start)})
+    return sorted(out, key=lambda c: (c["start_d"], c["room"]))
+
+
+def load_holidays(now):
+    """Public holidays in each room's main player countries, worked out once a day with the 'holidays'
+    package (installed on first use) and kept in data/holidays.json. If that fails, they're left out."""
+    today = f"{now:%Y-%m-%d}"
+    cache = {}
+    try:
+        cache = json.loads(HOLIDAY_FILE.read_text(encoding="utf-8"))
+        if cache.get("made") == today:
+            return cache.get("rooms", {})
+    except (OSError, ValueError, AttributeError):
+        cache = {}
+    try:
+        try:
+            import holidays as hol
+        except ImportError:
+            subprocess.run([sys.executable, "-m", "pip", "install", "-q", "holidays"], check=True, timeout=180)
+            import importlib
+            importlib.invalidate_caches()
+            import holidays as hol
+        years = list(range(now.year - 1, now.year + 2))
+        rooms = {}
+        for room, (_, _, markets) in ROOMS.items():
+            days = defaultdict(lambda: defaultdict(list))
+            for country, subdiv, label in markets:
+                try:
+                    found = hol.country_holidays(country, subdiv=subdiv, years=years, language="en_US")
+                except Exception:
+                    found = hol.country_holidays(country, subdiv=subdiv, years=years)
+                for day, names in found.items():
+                    for name in str(names).split("; "):
+                        days[day.isoformat()][name].append(label)
+            rooms[room] = {d: dict(names) for d, names in sorted(days.items())}
+        HOLIDAY_FILE.write_text(json.dumps({"made": today, "rooms": rooms}, ensure_ascii=False, indent=1), encoding="utf-8")
+        return rooms
+    except Exception as e:
+        print(f"Public holidays unavailable this run: {short_error(e)}")
+        return cache.get("rooms", {})
+
+
+def setup_context(now):
+    CONTEXT["calendar"] = load_calendar()
+    CONTEXT["schedule"] = update_schedule(now.date())
+    CONTEXT["holidays"] = load_holidays(now)
+    day_info.cache_clear()
+
+
+def holiday_text(names):
+    return "; ".join(f"{name} ({', '.join(labels)})" for name, labels in names.items())
+
+
+@lru_cache(maxsize=None)
+def day_info(room, day):
+    """What kind of day it was at a room: ('festival', name), ('holiday', names) or ('normal', '')."""
+    try:
+        d = date.fromisoformat(day)
+    except ValueError:
+        return "normal", ""
+    for c in CONTEXT["calendar"]:
+        if c["room"] == room and c["type"] in FESTIVAL_TYPES and c["start_d"] <= d <= c["end_d"]:
+            return "festival", c["name"]
+    names = CONTEXT["holidays"].get(room, {}).get(day)
+    return ("holiday", holiday_text(names)) if names else ("normal", "")
+
+
+def day_tag(room, day):
+    kind, label = day_info(room, day)
+    return f" {day_icon(room, day)} {label}" if kind == "festival" else " 📅 public holiday" if kind == "holiday" else ""
+
+
+def omaha_event(e):
+    """An Omaha tournament, or a mix that includes Omaha (satellites and side events left out)."""
+    if e["kind"] != "tournament":
+        return False
+    return tourney_family(e["game"]) == "PLO" or (e["game"] == "Mixed" and bool(re.search(r"\bplo\d?\b|omaha|\bbig o\b", e["title"], re.I)))
+
+
+def nice_dates(start, end):
+    if start == end:
+        return f"{start.day} {start:%b}"
+    if (start.year, start.month) == (end.year, end.month):
+        return f"{start.day}–{end.day} {end:%b}"
+    return f"{start.day} {start:%b} – {end.day} {end:%b}"
+
+
+def calendar_lines(room, now):
+    """Festivals now and next, Omaha tournaments in the next two weeks and coming public holidays."""
+    today = now.date()
+    if not (CONTEXT["calendar"] or CONTEXT["schedule"] or CONTEXT["holidays"]):
+        return []
+    out = ["## Festivals and schedule", ""]
+    cal = [c for c in CONTEXT["calendar"] if c["room"] == room and c["end_d"] >= today]
+    shown_rows = [("Now", c) for c in cal if c["start_d"] <= today] + [("Coming up", c) for c in cal if c["start_d"] > today][:4]
+    for label, c in shown_rows:
+        details = " · ".join(x for x in (cal_text(c.get("notes"), 300),
+                                         f"Omaha: {cal_text(c['omaha_events'], 900)}" if c.get("omaha_events") else "") if x)
+        out.append(f"- **{label}:** {TYPE_ICON.get(c['type'], '')} **{cal_text(c['name'], 80)}**, "
+                   f"{nice_dates(c['start_d'], c['end_d'])} ({c['type']})" + (f" — {details}" if details else ""))
+    if not shown_rows:
+        out.append("- No festivals listed for this room in `calendar.csv`.")
+    soon = [e for e in CONTEXT["schedule"] if e["room"] == room and omaha_event(e)
+            and today <= date.fromisoformat(e["date"]) <= today + timedelta(days=14)]
+    if soon:
+        out += ["", "**Omaha tournaments in the next 14 days** (from `hendonmob.txt`):", "",
+                "| Day | Time (local) | Buy-in | Tournament |", "|:--|:--|--:|:--|"]
+        for e in soon[:15]:
+            d = date.fromisoformat(e["date"])
+            when = f"{DAYS[d.weekday()]} {d.day} {d:%b}"
+            if e["end"]:
+                last = date.fromisoformat(e["end"])
+                when += f" – {DAYS[last.weekday()]} {last.day} {last:%b}"
+            out.append(f"| {when} | {e['time'] or '·'} | {money(int(e['buyin'])) if e['buyin'] else '·'} "
+                       f"| {cal_text(event_name(e['title']), 90)} |")
+    elif any(e["room"] == room for e in CONTEXT["schedule"]):
+        out += ["", "No Omaha tournaments on the schedule in the next 14 days."]
+    holidays = CONTEXT["holidays"].get(room, {})
+    if holidays:
+        markets = ", ".join(label for _, _, label in ROOMS[room][2])
+        last = (today + timedelta(days=30)).isoformat()
+        coming = [(d, names) for d, names in holidays.items() if today.isoformat() <= d <= last]
+        text = " · ".join(f"{DAYS[date.fromisoformat(d).weekday()]} {date.fromisoformat(d).day} "
+                          f"{date.fromisoformat(d):%b}: {holiday_text(names)}" for d, names in coming)
+        out += ["", f"**Public holidays in the next 30 days** where most players come from ({markets}): {text or 'none'}."]
+    return out + [""]
+
+
+def all_rooms_calendar_lines(now, limit=30):
+    today = now.date()
+    rows = [c for c in CONTEXT["calendar"] if c["end_d"] >= today]
+    if not rows:
+        return []
+    out = ["## Coming up at all rooms", "",
+           "From `calendar.csv` — open it on GitHub and use the pencil button to add or correct dates. "
+           "🎪 festival · 💵 cash-game event · 🎟️ smaller series · 📍 nearby, not tracked.", "",
+           "| Dates | Room | Event | Omaha |", "|:--|:--|:--|:--|"]
+    for c in rows[:limit]:
+        name, page = ROOMS[c["room"]][:2] if c["room"] in ROOMS else (c["room"], "")
+        room_cell = f"[{name}]({page})" if page else name
+        when = nice_dates(c["start_d"], c["end_d"]) + (" **now**" if c["start_d"] <= today else "")
+        out.append(f"| {when} | {room_cell} | {TYPE_ICON.get(c['type'], '')} {cal_text(c['name'], 60)} "
+                   f"| {cal_text(c.get('omaha_events'), 500) or '·'} |")
+    return out + [""]
+
+
+def split_days(room, rows):
+    """The rows for a page's main statistics: normal days only, once at least two normal days have been
+    recorded. Returns (rows, a note saying which days are included)."""
+    if not room or not rows:
+        return rows, ""
+    normal = [r for r in rows if day_info(room, r["time"][:10])[0] == "normal"]
+    special = len(rows) - len(normal)
+    if not special:
+        return rows, ""
+    if len({r["time"][:10] for r in normal}) >= 2:
+        return normal, (f"*Normal days only: {count_text(special, 'check')} during festivals, cash-game events or "
+                        "public holidays are compared separately in “Festivals, holidays and normal days” below.*")
+    return rows, ("*All days: fewer than two normal days recorded so far, so these include festival and holiday "
+                  "days (compared separately below).*")
+
+
+def day_type_lines(room, ok, measure="players"):
+    """Normal days, each festival and public holidays side by side, adjusted for the hour of day."""
+    groups = defaultdict(list)
+    for r in ok:
+        kind, label = day_info(room, r["time"][:10])
+        groups[(kind, label if kind == "festival" else "")].append(r)
+    if not groups or set(groups) == {("normal", "")}:
+        return []
+
+    def value(r):
+        return as_int(r["players"] if measure == "players" else r["tables"])
+
+    def families(r):
+        found = Counter()
+        if measure == "players":
+            for game, _, seated, _ in parse_games(r["games"]):
+                found[family(game)] += seated
+        else:
+            for game, _, status in parse_gas_games(r["games"]):
+                found[family(game)] += status == "RUNNING"
+        return found
+
+    hours = defaultdict(list)
+    for r in groups.get(("normal", ""), []):
+        hours[int(r["hour"])].append(value(r))
+    usual = {h: sum(v) / len(v) for h, v in hours.items()}
+    schedule_days = {e["date"] for e in CONTEXT["schedule"] if e["room"] == room}
+    omaha_days = {e["date"] for e in CONTEXT["schedule"] if e["room"] == room and omaha_event(e)}
+    first_listed = min(schedule_days) if schedule_days else None
+
+    def line(label, rows):
+        dates = sorted({r["time"][:10] for r in rows})
+        fam = [families(r) for r in rows]
+        diffs = [value(r) - usual[int(r["hour"])] for r in rows if int(r["hour"]) in usual]
+        span = f"{nice_dates(date.fromisoformat(dates[0]), date.fromisoformat(dates[-1]))} ({count_text(len(dates), 'day')})"
+        return (f"| {label} | {span} | {len(rows)} | {sum(value(r) for r in rows) / len(rows):.1f} "
+                f"| {sum(f['NLH'] for f in fam) / len(rows):.1f} | {sum(f['PLO'] for f in fam) / len(rows):.1f} "
+                f"| {(f'{sum(diffs) / len(diffs):+.1f}' if diffs else '·')} |")
+
+    markets = ", ".join(label for _, _, label in ROOMS[room][2])
+    what = "seated players" if measure == "players" else "running tables"
+    out = ["## Festivals, holidays and normal days", "",
+           f"Average {what} per check on each kind of day, in total and for NLH and Omaha games. “vs normal” "
+           "compares every check with normal days at the same hour, so days that happened to be checked mostly in "
+           "the evening don't look busier just because evenings are. Festival dates: `calendar.csv`; public "
+           f"holidays: those of the countries most players come from ({markets}).", "",
+           f"| Days | Dates | Checks | {'Players' if measure == 'players' else 'Tables'} | NLH | Omaha | vs normal, same hour |",
+           "|:--|:--|--:|--:|--:|--:|--:|"]
+    for key in sorted(groups, key=lambda g: ({"normal": 0, "festival": 1, "holiday": 2}[g[0]], min(r["time"] for r in groups[g]))):
+        rows = groups[key]
+        icon = day_icon(room, rows[0]["time"][:10]) if key[0] == "festival" else ""
+        out.append(line({"normal": "Normal days", "festival": f"{icon} {cal_text(key[1], 50)}", "holiday": "📅 Public holidays"}[key[0]], rows))
+        if key == ("normal", "") and first_listed:
+            listed = [r for r in rows if r["time"][:10] >= first_listed]
+            with_o = [r for r in listed if r["time"][:10] in omaha_days]
+            without = [r for r in listed if r["time"][:10] not in omaha_days]
+            if with_o and without:
+                out += [line("↳ with an Omaha tournament on the schedule", with_o), line("↳ without one", without)]
+    return out + [""]
+
+
+def save_sample(name, data, keep=None):
+    """Once a day, keep a few raw records of a data feed and the list of all its fields - to spot
+    details worth recording that the tracker doesn't use yet (debug/samples/)."""
+    path = SAMPLE_DIR / f"{name}.json"
+    today = f"{datetime.now(TZ):%Y-%m-%d}"
+    try:
+        if json.loads(path.read_text(encoding="utf-8")).get("saved_on") == today:
+            return
+    except (OSError, ValueError, AttributeError):
+        pass
+    try:
+        records = data if isinstance(data, list) else [data]
+        records = [r for r in records if keep is None or (isinstance(r, dict) and keep(r))] or records
+        fields = sorted({str(k) for r in records if isinstance(r, dict) for k in r})
+        SAMPLE_DIR.mkdir(parents=True, exist_ok=True)
+        path.write_text(json.dumps({"saved_on": today, "records": len(records), "fields": fields, "sample": records[:5]},
+                                   ensure_ascii=False, indent=1, default=str), encoding="utf-8")
+    except Exception:
+        pass
 
 
 # ---------------------------------------------------------------- README with statistics
@@ -1487,10 +1932,15 @@ def snapshot_lines(latest):
                   " · ".join(f"**{g}:** {p} players at {count_text(n, 'table')}" for g, (p, n) in totals), ""]
 
 
-def busy_sections(ok, checks):
-    """Busiest times, average players by hour per game, and how often each game + stake runs."""
+def busy_sections(ok, checks, room=None):
+    """Busiest times, average players by hour per game, and how often each game + stake runs
+    (normal days only once there are enough of them - see split_days)."""
+    kept, note = split_days(room, ok)
+    if kept is not ok:
+        ids = {id(r) for r in kept}
+        ok, checks = kept, [(r, pg) for r, pg in checks if id(r) in ids]
     games = main_games(checks) if checks else []
-    out = ["## Busiest times so far", ""]
+    out = ["## Busiest times so far", ""] + ([note, ""] if note else [])
     lines = [f"- **{g}:** " + " · ".join(slots) for g in games if (slots := busiest_slots(checks, g))]
     out += (["Day, hour and average seated players (only day-hour slots seen on at least 2 different dates).", "", *lines]
             if lines else ["Needs about two weeks of data: each day-and-hour slot must be seen on at least 2 dates."])
@@ -1600,27 +2050,30 @@ def tournaments_seen_lines(rows, limit=15):
     return out + [""]
 
 
-def overview_line(kings_row, card_row, banco_row, gas_row=None, oly_rows=None):
-    """One line at the top of the King's page: what's running at all three rooms right now."""
+def overview_line(kings_row, card_row, banco_row, gas_row=None, oly_rows=None, day=None):
+    """One line at the top of the King's page: what's running at every room right now."""
+    day = day or f"{datetime.now(TZ):%Y-%m-%d}"
     def cash(row):
         if row and row.get("status") == "ok" and row.get("players", "") != "":
             return f"{count_text(row['tables'], 'table')}, {count_text(row['players'], 'player')}"
         return "couldn't be read"
-    parts = [f"King's: {cash(kings_row)}", f"[Card Casino Šamorín](CARD_CASINO.md): {cash(card_row)}"]
+    parts = [f"King's{day_tag('kings', day)}: {cash(kings_row)}",
+             f"[Card Casino Šamorín](CARD_CASINO.md){day_tag('cardcasino', day)}: {cash(card_row)}"]
     if gas_row:
         gas = ("couldn't be read" if gas_row.get("status") != "ok"
                else f"{count_text(gas_row['tables'], 'table')} running" + (f", {gas_row['waiting']} waiting" if as_int(gas_row["waiting"]) else ""))
-        parts.append(f"[Grand Casino Aš](GRAND_CASINO_AS.md): {gas}")
+        parts.append(f"[Grand Casino Aš](GRAND_CASINO_AS.md){day_tag('grandcasinoas', day)}: {gas}")
     for site in OLY_SITES:
         row = (oly_rows or {}).get(site["key"])
         if row:
             text = cash(row) + (f" ({row['waiting']} waiting)" if as_int(row.get("waiting")) else "") \
                 if row.get("status") == "ok" else ("blocked" if "blocked" in row.get("status", "") else "couldn't be read")
-            parts.append(f"[{site['name'].replace(' Casino', '')}]({site['page'].name}): {text} at {row['time'][11:]}")
+            parts.append(f"[{site['name'].replace(' Casino', '')}]({site['page'].name}){day_tag(site['key'], day)}: "
+                         f"{text} at {row['time'][11:]}")
     if banco_row:
         listed = shown((banco_row.get("cash_text") or "").replace(" ; ", " ").replace(" | ", ", "), 70)
         banco = "couldn't be read" if banco_row.get("status") != "ok" else listed or "no games listed"
-        parts.append(f"[Banco](BANCO.md): {banco}")
+        parts.append(f"[Banco](BANCO.md){day_tag('banco', day)}: {banco}")
     return "**Right now:** " + " · ".join(parts)
 
 
@@ -1645,7 +2098,10 @@ def write_readme(rows, now, overview=""):
         else:
             out += ["**Tournaments:** couldn't be read at this check (cash data is unaffected).", ""]
 
-    out += busy_sections(ok, checks)
+    out += calendar_lines("kings", now)
+    out += all_rooms_calendar_lines(now)
+    out += busy_sections(ok, checks, "kings")
+    out += day_type_lines("kings", ok)
 
     # Do cash games get busier when tournaments are running?
     with_t = [r for r in ok if r.get("tourney_players", "") != ""]
@@ -1716,7 +2172,10 @@ def write_readme(rows, now, overview=""):
     out += tournaments_seen_lines(rows)
     out += ["---", "Raw data: the `data` folder, one CSV file per month. To open one in Excel, use "
             "Data → From Text/CSV (double-clicking puts everything in one column in Polish Excel). "
-            "The tracker is `tracker.py`; its schedule is in `.github/workflows/track.yml`."]
+            "The tracker is `tracker.py`; its schedule is in `.github/workflows/track.yml`.  ",
+            "Festival dates: `calendar.csv` (edit on GitHub). Tournament schedule: `hendonmob.txt` — to refresh it, "
+            "copy the Hendon Mob upcoming-events page and paste it over that file's contents; every event read so far "
+            "is kept in `data/schedule/events.csv`. Public holidays: `data/holidays.json`."]
     README.write_text("\n".join(out) + "\n", encoding="utf-8")
 
 
@@ -1764,6 +2223,59 @@ def self_test():
              "GPD NLH Morning Turbo", "6-Max Turbo", "Satellite to PLO Main")
     assert [tourney_game(n) for n in names] == ["NLH", "NLH", "PLO5", "PLO", "Mixed", "Short Deck", "PLO6", "PLO Hi-Lo",
                                                "Pineapple", "PLO5 Hi-Lo", "NLH", "NLH", "PLO"], [tourney_game(n) for n in names]
+    more = {"€ 1,100 Pot Limit Omaha - PLO4/PLO5 Championship Day 1 (Event #10)": "PLO mix",
+            "€ 85 + 15 Pot Limit Omaha - 4-5-6 in the Mix (PLO4/5/6)": "PLO mix",
+            "€ 175 + 25 Omaha Dealers Choice (Event #12)": "PLO mix", "€ 310 + 40 Pot Limit Dealers Choice": "Mixed",
+            "€ 350 Pot Limit Sviten - PLO5 & Draw (Event #15)": "Mixed",
+            "€ 170 + 30 No Limit Hold'em / Pot Limit Omaha - Half n Half": "Mixed",
+            "€ 1,500 WSOPC Big O (Ring Event #3)": "PLO5 Hi-Lo", "€ 350 Pot Limit Omaha - PLO4 HI-LO/PLO5 HI-LO": "PLO Hi-Lo",
+            "€ 500 + 50 Pot Limit Omaha - 550er PLO5 Highroller": "PLO5", "€ 250 Pot Limit - 2-7 Triple Draw": "Mixed",
+            "€ 125 Pot Limit Omaha": "PLO", "€ 310 + 40 Pot Limit Omaha 4/5/6 (Event #22)": "PLO mix",
+            "€ 50 + 10 Pot Limit Omaha - 4/5/6 Masters 7 Max": "PLO mix", "€ 295 No Limit Hold'em - BPC Main Event": "NLH",
+            "€ 1,500 No Limit Hold'em - WSOPC Monster Stack (Ring Event #15)": "NLH", "€ 220 + 30 Mixed Games - H.O.R.S.E.": "Mixed"}
+    assert {n: tourney_game(n) for n in more} == more, {n: tourney_game(n) for n in more if tourney_game(n) != more[n]}
+    paste = ("10-Oct-2026\tSaturday\nSat 10 Oct at 3:00pm\tCzech Republic\t€ 125 Pot Limit Omaha, King's Resort Live, Rozvadov\n"
+             "Sat 10 Oct at 2:00pm\tWales\t£ 100 No Limit Hold'em, Les Croupiers, Cardiff\n"
+             "Fri 30 Oct - Sun 1 Nov at 2:00pm  Czech Republic  € 500 No Limit Hold'em - WSOPC King's German Championship "
+             "(Ring Event #6) Day 1, King’s Resort Live, Rozvadov\n"
+             "Sun 11 - Mon 12 Oct at 2:00pm\tEstonia\tKOT € 1,100 + 100 Pot Limit Omaha - PLO4/PLO5 Championship Day 1 (Event #10), "
+             "Olympic Park Casino, Tallinn\n"
+             "Fri 16 Oct at 3:00pm\tCzech Republic\t€ 120 No Limit Hold'em - DPM Ladies Event, King's Resort Live, Rozvadov Entry restricted\n"
+             "Sat 17 Oct at 6:00pm\tCzech Republic\t€ 34 + 6 Flip´n Go Satellite to PLO ME, Grand Casino Asch (Aš), Asch\n"
+             "Tue 24 Nov at 8:00pm\tEstonia\t€ 200 Cash Game Challenge (Event #30), Olympic Park Casino, Tallinn\n"
+             "Fri 9 - Sun 11 Oct\tEstonia\t€ 250 No Limit Hold'em - Mini-Main (Event #2), Olympic Park Casino, Tallinn\n")
+    got = [(e["room"], e["date"], e["end"], e["time"], e["kind"], e["game"], e["buyin"], e["restricted"])
+           for e in parse_hendonmob(paste, date(2026, 10, 10))]
+    assert got == [("kings", "2026-10-10", "", "15:00", "tournament", "PLO", "125", ""),
+                   ("kings", "2026-10-30", "2026-11-01", "14:00", "tournament", "NLH", "500", ""),
+                   ("olympic-tallinn", "2026-10-11", "2026-10-12", "14:00", "tournament", "PLO mix", "1200", ""),
+                   ("kings", "2026-10-16", "", "15:00", "tournament", "NLH", "120", "yes"),
+                   ("grandcasinoas", "2026-10-17", "", "18:00", "satellite", "PLO", "40", ""),
+                   ("olympic-tallinn", "2026-11-24", "", "20:00", "cash", "NLH", "200", ""),
+                   ("olympic-tallinn", "2026-10-09", "2026-10-11", "", "tournament", "NLH", "250", "")], got
+    assert parse_hendonmob(paste, date(2027, 1, 20))[0]["date"] == "2026-10-10"  # the year follows the weekday
+    saved = dict(CONTEXT)
+    try:
+        CONTEXT.update(calendar=[{"room": "kings", "type": "festival", "name": "WSOPC", "start_d": date(2026, 10, 28),
+                                  "end_d": date(2026, 11, 11)}],
+                       schedule=[], holidays={"kings": {"2026-10-28": {"Independent Czechoslovak State Day": ["Czechia"]},
+                                                        "2026-11-17": {"Freedom Day": ["Czechia"]}}})
+        day_info.cache_clear()
+        assert day_info("kings", "2026-10-28") == ("festival", "WSOPC")  # a festival outranks the holiday
+        assert day_info("kings", "2026-11-17") == ("holiday", "Freedom Day (Czechia)")
+        assert day_info("kings", "2026-11-12") == ("normal", "") and day_info("cardcasino", "2026-10-30") == ("normal", "")
+        rows = [{"time": f"2026-11-{d:02d} 20:00", "hour": "20", "players": "30", "games": "NLH €2/4 8/8"} for d in (12, 13)]
+        rows += [{"time": "2026-10-29 20:00", "hour": "20", "players": "50", "games": "PLO5 €5/5 8/8"}]
+        kept, note = split_days("kings", rows)
+        assert len(kept) == 2 and "Normal days only" in note
+        table = "\n".join(day_type_lines("kings", rows))
+        assert "| 🎪 WSOPC | 29 Oct (1 day) | 1 | 50.0 | 0.0 | 8.0 | +20.0 |" in table, table
+        assert day_tag("kings", "2026-10-30") == " 🎪 WSOPC" and day_tag("kings", "2026-11-17") == " 📅 public holiday"
+        assert event_name("€ 300 + 40 Pot Limit Omaha - Main Event") == "Pot Limit Omaha - Main Event"
+        assert cal_text("€199 main event; €350 high roller 11–12 Oct | x") == "€199 main event; €350 high roller 11–12 Oct x"
+    finally:
+        CONTEXT.update(saved)
+        day_info.cache_clear()
     clock = {"fullName": "KM EPC Closer - Day 1", "tournamentName": "KM EPC Closer", "subName": "played till ITM",
              "status": "PAUSED", "currency": "EUR", "effectivePrizePool": 240125, "startingStack": 50000,
              "openRegistration": False, "lateRegistrationUntilLevel": 9, "start": "2026-10-05T18:00:03", "totalEntries": 565,
@@ -1849,6 +2361,10 @@ def main():
     now = datetime.now(TZ)
     DATA_DIR.mkdir(exist_ok=True)
     migrate_old_files()
+    try:
+        setup_context(now)
+    except Exception as e:  # the calendar is extra: a problem with it never stops the tracking
+        print(f"Festival calendar / schedule / holidays skipped: {short_error(e)}")
 
     status, source, entries, page_text, problem = check()
     tourneys, tourney_info, tourney_error = check_tournaments(now)
@@ -1880,7 +2396,7 @@ def main():
         if oly:
             latest_oly[site["key"]] = oly[-1]
     rows = load_rows()
-    write_readme(rows, now, overview_line(row, card_row, site_rows.get("banco"), gas_row, latest_oly))
+    write_readme(rows, now, overview_line(row, card_row, site_rows.get("banco"), gas_row, latest_oly, f"{now:%Y-%m-%d}"))
     print(json.dumps(row, ensure_ascii=False))
     print("cardcasino:", json.dumps(card_row, ensure_ascii=False)[:200])
     print("grandcasinoas:", json.dumps(gas_row, ensure_ascii=False)[:200])
