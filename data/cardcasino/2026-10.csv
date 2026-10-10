@@ -37,3 +37,4 @@
 2026-10-10 08:10,Sat,8,error: TimeoutError: Page.goto: Timeout 60000ms exceeded.,,,,,
 2026-10-10 08:20,Sat,8,error: couldn't read the cash games list,page table,,,,NO GAMES CURRENTLY
 2026-10-10 08:30,Sat,8,error: couldn't read the cash games list,page table,,,,NO GAMES CURRENTLY
+2026-10-10 08:40,Sat,8,error: TimeoutError: Page.goto: Timeout 60000ms exceeded.,,,,,
