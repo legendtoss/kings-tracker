@@ -10,8 +10,9 @@ Runs on GitHub Actions about every 10 minutes. Each run:
   4. rebuilds README.md with statistics per game and a cash-vs-tournament comparison,
   5. also reads Card Casino Šamorín's live list (data/cardcasino/ + CARD_CASINO.md), Grand Casino
      Aš's cash games and tournaments (data/grandcasinoas/ + GRAND_CASINO_AS.md) and Banco Casino
-     Bratislava's website (data/banco/ + BANCO.md). Those are kept fully separate, so a problem
-     with their websites can never affect the King's data.
+     Bratislava's website (data/banco/ + BANCO.md), plus Olympic Park Tallinn and Olympic Casino
+     Vilnius from OlyBet's poker site (every 30 minutes). Those are kept fully separate, so a
+     problem with their websites can never affect the King's data.
 
 Games are named the way the poker room's own system names them (NLH, PLO5, ...), so different
 games are never mixed together. If checks keep failing, the run reports an error and GitHub
@@ -26,6 +27,7 @@ import re
 import subprocess
 import sys
 import time
+import urllib.error
 import urllib.parse
 import urllib.request
 from collections import Counter, defaultdict
@@ -69,6 +71,20 @@ GAS_DIR = DATA_DIR / "grandcasinoas"
 GAS_FIELDS = ["time", "weekday", "hour", "status", "tables", "waiting", "games",
               "tourneys", "tourney_players", "tourney_details", "raw"]
 GAS_PAGE = Path("GRAND_CASINO_AS.md")
+# Olympic Casino rooms on OlyBet's poker site. That site has bot protection: the tracker only ever
+# makes ordinary page requests every 30 minutes, and if the site refuses one it records "blocked"
+# instead of trying to get around it.
+OLY_SITES = (
+    {"key": "olympic-tallinn", "name": "Olympic Park Casino Tallinn", "club": "olympic park",
+     "urls": [os.environ.get("OLY_EE_URL", "https://olybetpoker.com/ee/en/cash-games/")],
+     "home": os.environ.get("OLY_EE_HOME", "https://olybetpoker.com/ee/en/"), "page": Path("OLYMPIC_TALLINN.md")},
+    {"key": "olympic-vilnius", "name": "Olympic Casino Vilnius", "club": "vilni",
+     "urls": [os.environ.get("OLY_LT_URL", "https://olybetpoker.com/lt/en/cash-games/"), "https://olybetpoker.com/lt/cash-games/"],
+     "home": os.environ.get("OLY_LT_HOME", "https://olybetpoker.com/lt/en/"), "page": Path("OLYMPIC_VILNIUS.md")},
+)
+OLY_FIELDS = ["time", "weekday", "hour", "status", "club", "tables", "players", "waiting", "games", "listed",
+              "tournaments_text", "raw"]
+OLY_CLUBS_FILE = DATA_DIR / "olympic_clubs.json"  # remembers each site's club page address
 RETIRED_SITES = (("samorin", Path("SAMORIN.md")),)  # an earlier attempt via Banco's site, which had no live data
 # Tracking/advertising services skipped during browser visits. Exact domains on purpose: matching
 # just "google" would also block Google's code-library servers, which many sites need to work.
@@ -467,6 +483,52 @@ def gas_tournaments(html, now):
         details.append({k: v for k, v in d.items() if v not in (None, "")})
         entries.append(f"{name} {left}/{as_int(m.group('entries'))}")
     return entries, details
+
+
+# OlyBet cash games: per club a table of Game | Blinds | Buy-in | Tables | Players | Open seats | Waiting,
+# read from the page text, e.g. "CLOSED Select NLH 1/3 Tables 0 €1/3 €200.00 0 0/0 (1 waiting) 0 1"
+OLY_ROW_RE = re.compile(
+    r"(?:(?P<status>[A-Z]{3,15})\s+)?Select\s+(?P<name>.+?)\s+Tables\s+\d+\s+€\s?(?P<blinds>\d+(?:[.,]\d+)?(?:/\d+(?:[.,]\d+)?)+)"
+    r"\s+€\s?(?P<buyin>[\d.,]+)\s+(?P<tables>\d+)\s+(?P<players>\d+)\s*/\s*(?P<seats>\d+)(?:\s*\(\d+ waiting\))?"
+    r"\s+(?P<open>\d+)\s+(?P<waiting>\d+)")
+OLY_CLUB_RE = re.compile(r'href="([^"]*cash-games/?\?club=(\d+))"[^>]*>(.*?)</a>', re.S | re.I)
+BLOCK_SIGNS = ("cf-chl", "just a moment", "attention required", "cf_chl_opt", "challenge-platform")
+
+
+def oly_cash_rows(html):
+    """Every listed game of the club shown on an OlyBet cash games page; None if the table isn't there."""
+    text = strip_tags(html)
+    low = text.lower()
+    a = low.find("choose up to two games")
+    a = a if a >= 0 else low.find("open seats")
+    if a < 0:
+        return None
+    b = low.find("registration", a)
+    rows = []
+    for m in OLY_ROW_RE.finditer(text[a: b if b > 0 else a + 8000]):
+        name = STAKES_IN_NAME.sub(" ", m.group("name"))
+        rows.append({"game": card_game(name), "stakes": m.group("blinds").replace(",", "."),
+                     "buyin": number(m.group("buyin").replace(",", "")), "tables": as_int(m.group("tables")),
+                     "players": as_int(m.group("players")), "seats": as_int(m.group("seats")),
+                     "open": as_int(m.group("open")), "waiting": as_int(m.group("waiting")),
+                     "status": m.group("status") or ""})
+    return rows
+
+
+def oly_tournament_text(html, club):
+    """The 'Live' and 'Today' tournament lines on OlyBet's home page for one club (kept as text)."""
+    text = strip_tags(html)
+    low = text.lower()
+    a = low.find("tournaments", low.find("live cash games") if "live cash games" in low else 0)
+    if a < 0:
+        return ""
+    b = min([i for i in (low.find(k, a) for k in ("view more", "latest winners")) if i != -1] + [a + 4000])
+    section = text[a:b]
+    lines = re.split(r"(?=\b\d{1,2}:\d{2}\b)", section)
+    keep = [ln.strip() for ln in lines[1:] if club in ln.lower()] or [ln.strip() for ln in lines[1:]]
+    head = lines[0]
+    live = "live" if re.search(r"\blive\b", head, re.I) else ""
+    return shown(" | ".join(([live] if live else []) + keep), 1500)
 
 
 # ---------------------------------------------------------------- reading King's
@@ -1079,6 +1141,115 @@ def write_gas_page(now):
     GAS_PAGE.write_text("\n".join(out) + "\n", encoding="utf-8")
 
 
+def oly_fetch(url, referer):
+    """One ordinary page request. Returns (html, None) or (None, reason) - 'blocked' when the
+    site's bot protection refuses it. Nothing is done to get around a refusal."""
+    try:
+        html = fetch_text(url, referer)
+    except urllib.error.HTTPError as e:
+        return None, "blocked by the site's bot protection" if e.code in (403, 429, 503) else f"HTTP error {e.code}"
+    except Exception as e:
+        return None, short_error(e)
+    if any(sign in html[:20000].lower() for sign in BLOCK_SIGNS):
+        return None, "blocked by the site's bot protection"
+    return html, None
+
+
+def record_olympic(now):
+    """One check of each Olympic room (every 30 minutes). Never raises. Returns {key: row} for the
+    rooms checked in this run (none on the in-between runs)."""
+    if now.minute % 30 >= 10:
+        return {}
+    try:
+        clubs = json.loads(OLY_CLUBS_FILE.read_text(encoding="utf-8"))
+    except (OSError, ValueError):
+        clubs = {}
+    results = {}
+    for site in OLY_SITES:
+        row = {"time": f"{now:%Y-%m-%d %H:%M}", "weekday": DAYS[now.weekday()], "hour": now.hour, "status": "",
+               "club": "", "tables": "", "players": "", "waiting": "", "games": "", "listed": "",
+               "tournaments_text": "", "raw": ""}
+        details = {}
+        try:
+            urls = ([clubs[site["key"]]] if site["key"] in clubs else []) + site["urls"]
+            html = rows = None
+            for url in urls:
+                html, problem = oly_fetch(url, site["home"])
+                if html is None:
+                    row["status"] = f"error: {problem}"
+                    if "blocked" in problem:
+                        break  # respect the refusal: no more requests to this site in this run
+                    continue
+                links = OLY_CLUB_RE.findall(html)
+                wanted = next(((link, name) for link, _, name in links if site["club"] in strip_tags(name).lower()), None)
+                if wanted and wanted[0] != url and site["key"] not in clubs:  # first time: open the right club
+                    clubs[site["key"]] = unescape(wanted[0])
+                    html, problem = oly_fetch(clubs[site["key"]], site["home"])
+                    if html is None:
+                        row["status"] = f"error: {problem}"
+                        break
+                rows = oly_cash_rows(html)
+                if rows is not None:
+                    row["club"] = shown(strip_tags(wanted[1]) if wanted else "first club on the page", 60)
+                    break
+                details["page_start"] = html[:20000]
+                row["status"] = "error: the cash games table wasn't found"
+            if rows is not None:
+                running = [r for r in rows if r["tables"] > 0]
+                entries = []
+                for r in running:  # one entry per table; the site gives totals per game, so they're shared out evenly
+                    players, seats = divmod(r["players"], r["tables"]), divmod(r["seats"], r["tables"])
+                    entries += [f"{r['game']} €{r['stakes']} {players[0] + (i < players[1])}/{seats[0] + (i < seats[1])}"
+                                for i in range(r["tables"])]
+                row.update(status="ok", tables=sum(r["tables"] for r in rows), players=sum(r["players"] for r in rows),
+                           waiting=sum(r["waiting"] for r in rows), games="; ".join(entries),
+                           listed="; ".join(f"{r['game']} €{r['stakes']}: {count_text(r['tables'], 'table')}, "
+                                            f"{r['players']}/{r['seats']} players, {r['waiting']} waiting" for r in rows))
+            if now.minute < 10 and "blocked" not in row["status"]:  # tournaments once an hour
+                home, problem = oly_fetch(site["home"], site["home"])
+                if home is not None:
+                    row["tournaments_text"] = oly_tournament_text(home, site["club"])
+                elif problem:
+                    details["tournaments"] = problem
+        except Exception as e:
+            row["status"] = f"error: {short_error(e)}"
+        try:
+            append_csv(DATA_DIR / site["key"], OLY_FIELDS, now, row)
+            save_debug_copy(Path(f"debug/{site['key']}_page.json"), now, row["status"], site["urls"][0], details)
+            write_olympic_page(site, now)
+        except Exception as e:
+            print(f"{site['name']} could not be saved: {short_error(e)}")
+        results[site["key"]] = row
+    try:
+        OLY_CLUBS_FILE.write_text(json.dumps(clubs, indent=1), encoding="utf-8")
+    except OSError:
+        pass
+    return results
+
+
+def write_olympic_page(site, now):
+    rows = load_csv_rows(DATA_DIR / site["key"])
+    ok = [r for r in rows if r["status"] == "ok" and r["players"] != ""]
+    checks = [(r, players_per_game(r)) for r in ok]
+    out = [f"# 🃏 {site['name']} — cash game tracker", "",
+           f"Reads [OlyBet's live cash games page]({site['urls'][0]}) every 30 minutes (their site has bot protection, so "
+           "the tracker checks gently and simply records it when a check is refused). All times are **Czech time** "
+           "(Tallinn and Vilnius are one hour ahead). Back to [King's](README.md).", ""]
+    out += health_lines(rows, now, {}, f"debug/{site['key']}_page.json")
+    if ok:
+        latest = ok[-1]
+        out += [f"**Club:** {latest['club']}", ""]
+        out += snapshot_lines(latest)
+        out += [f"**Waiting lists:** {latest['waiting'] or 0} players · **All games listed:** {shown(latest['listed'], 600)}", ""]
+    with_t = [r for r in rows if r.get("tournaments_text")]
+    if with_t:
+        out += [f"**Tournaments on their site at {with_t[-1]['time']}:** {with_t[-1]['tournaments_text']}", ""]
+    out += busy_sections(ok, checks)
+    out += all_games_lines(ok)
+    out += ["---", f"Raw data: `data/{site['key']}` (one CSV file per month)."]
+    site["page"].write_text("\n".join(out) + "\n", encoding="utf-8")
+
+
 def remove_retired_sites():
     for key, page_path in RETIRED_SITES:
         folder = DATA_DIR / key
@@ -1364,7 +1535,7 @@ def tournaments_seen_lines(rows, limit=15):
     return out + [""]
 
 
-def overview_line(kings_row, card_row, banco_row, gas_row=None):
+def overview_line(kings_row, card_row, banco_row, gas_row=None, oly_rows=None):
     """One line at the top of the King's page: what's running at all three rooms right now."""
     def cash(row):
         if row and row.get("status") == "ok" and row.get("players", "") != "":
@@ -1375,6 +1546,12 @@ def overview_line(kings_row, card_row, banco_row, gas_row=None):
         gas = ("couldn't be read" if gas_row.get("status") != "ok"
                else f"{count_text(gas_row['tables'], 'table')} running" + (f", {gas_row['waiting']} waiting" if as_int(gas_row["waiting"]) else ""))
         parts.append(f"[Grand Casino Aš](GRAND_CASINO_AS.md): {gas}")
+    for site in OLY_SITES:
+        row = (oly_rows or {}).get(site["key"])
+        if row:
+            text = cash(row) + (f" ({row['waiting']} waiting)" if as_int(row.get("waiting")) else "") \
+                if row.get("status") == "ok" else ("blocked" if "blocked" in row.get("status", "") else "couldn't be read")
+            parts.append(f"[{site['name'].replace(' Casino', '')}]({site['page'].name}): {text} at {row['time'][11:]}")
     if banco_row:
         listed = shown((banco_row.get("cash_text") or "").replace(" ; ", " ").replace(" | ", ", "), 70)
         banco = "couldn't be read" if banco_row.get("status") != "ok" else listed or "no games listed"
@@ -1388,7 +1565,8 @@ def write_readme(rows, now, overview=""):
     out = ["# 🃏 King's Rozvadov — cash game tracker", "",
            "Checks King's live cash games and tournaments about every 10 minutes and updates this page by itself. "
            "All times are **Czech time** (same as Poland). Also tracking: [Card Casino Šamorín](CARD_CASINO.md) · "
-           "[Grand Casino Aš](GRAND_CASINO_AS.md) · [Banco Casino Bratislava](BANCO.md).", ""]
+           "[Grand Casino Aš](GRAND_CASINO_AS.md) · [Banco Casino Bratislava](BANCO.md) · "
+           "[Olympic Park Tallinn](OLYMPIC_TALLINN.md) · [Olympic Casino Vilnius](OLYMPIC_VILNIUS.md).", ""]
     if overview:
         out += [overview, ""]
     out += health_lines(rows, now, SOURCES, "debug/last_problem.json")
@@ -1560,6 +1738,14 @@ def self_test():
     assert entries == ["Crazy Pineapple 20/37"], entries
     assert (details[0]["game"], details[0]["prizepool"], details[0]["avg_stack"], details[0]["late_reg_open"]) == \
         ("Pineapple", 2220, 55500, False), details
+    oly_page = ("<h2>Olympic Park Casino</h2><p>Choose up to two games and register</p> REGISTER GAME BLINDS BUY-IN TABLES "
+                "PLAYERS OPEN SEATS WAITING CLOSED Select NLH 1/3 Tables 0 €1/3 €200.00 0 0/0 (1 waiting) 0 1 "
+                "Select PLO 5/5 Tables 2 €5/5 €300.00 2 15/18 3 4 CLOSED Select NLH 5/5 Tables 0 €5/5 €300.00 0 0/0 0 0 "
+                "REGISTER Registration Name Surname")
+    rows = oly_cash_rows(oly_page)
+    assert [(r["game"], r["stakes"], r["tables"], r["players"], r["seats"], r["waiting"], r["status"]) for r in rows] == \
+        [("NLH", "1/3", 0, 0, 0, 1, "CLOSED"), ("PLO", "5/5", 2, 15, 18, 4, ""), ("NLH", "5/5", 0, 0, 0, 0, "CLOSED")], rows
+    assert oly_cash_rows("<p>nothing here</p>") is None
     assert [is_tracker(h) for h in ("www.googletagmanager.com", "ajax.googleapis.com", "connect.facebook.net",
                                     "admin.kings-resort.com", "bancocasino.sk")] == [True, False, True, False, False]
 
@@ -1614,9 +1800,15 @@ def main():
     migrate_card_files()
     card_row = record_card(now)
     gas_row = record_gas(now)
+    record_olympic(now)
     site_rows = record_sites(now)
+    latest_oly = {}
+    for site in OLY_SITES:
+        oly = load_csv_rows(DATA_DIR / site["key"])
+        if oly:
+            latest_oly[site["key"]] = oly[-1]
     rows = load_rows()
-    write_readme(rows, now, overview_line(row, card_row, site_rows.get("banco"), gas_row))
+    write_readme(rows, now, overview_line(row, card_row, site_rows.get("banco"), gas_row, latest_oly))
     print(json.dumps(row, ensure_ascii=False))
     print("cardcasino:", json.dumps(card_row, ensure_ascii=False)[:200])
     print("grandcasinoas:", json.dumps(gas_row, ensure_ascii=False)[:200])
