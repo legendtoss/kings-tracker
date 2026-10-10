@@ -8,9 +8,10 @@ Runs on GitHub Actions about every 10 minutes. Each run:
   2. also reads King's tournament clocks, to see how many tournament players are in action,
   3. adds one line to data/YYYY-MM.csv (Czech local time),
   4. rebuilds README.md with statistics per game and a cash-vs-tournament comparison,
-  5. also reads Card Casino Šamorín's live list (data/cardcasino/ + CARD_CASINO.md, with full
-     statistics) and Banco Casino Bratislava's website (data/banco/ + BANCO.md). Those are kept
-     fully separate, so a problem with their websites can never affect the King's data.
+  5. also reads Card Casino Šamorín's live list (data/cardcasino/ + CARD_CASINO.md), Grand Casino
+     Aš's cash games and tournaments (data/grandcasinoas/ + GRAND_CASINO_AS.md) and Banco Casino
+     Bratislava's website (data/banco/ + BANCO.md). Those are kept fully separate, so a problem
+     with their websites can never affect the King's data.
 
 Games are named the way the poker room's own system names them (NLH, PLO5, ...), so different
 games are never mixed together. If checks keep failing, the run reports an error and GitHub
@@ -18,6 +19,7 @@ emails you (after about an hour, then once a day). Nothing here needs editing.
 """
 
 import csv
+import gzip
 import json
 import os
 import re
@@ -59,6 +61,14 @@ CARD_FEED_URL = os.environ.get("CARD_FEED_URL", "https://www.cardcasino.sk/ajax/
 CARD_DIR = DATA_DIR / "cardcasino"
 CARD_FIELDS = ["time", "weekday", "hour", "status", "source", "tables", "players", "games", "raw"]
 CARD_SOURCES = {"feed": "live list", "page table": "page, via browser"}
+# Grand Casino Aš: both pages are plain HTML. The tournament page is big (full schedule), so it's
+# read every 30 minutes rather than every 10, to go easy on their website.
+GAS_CASH_URL = os.environ.get("GAS_CASH_URL", "https://www.grandcasinoas.eu/en/poker/poker-live")
+GAS_TOURNEY_URL = os.environ.get("GAS_TOURNEY_URL", "https://www.grandcasinoas.eu/en/poker")
+GAS_DIR = DATA_DIR / "grandcasinoas"
+GAS_FIELDS = ["time", "weekday", "hour", "status", "tables", "waiting", "games",
+              "tourneys", "tourney_players", "tourney_details", "raw"]
+GAS_PAGE = Path("GRAND_CASINO_AS.md")
 RETIRED_SITES = (("samorin", Path("SAMORIN.md")),)  # an earlier attempt via Banco's site, which had no live data
 # Tracking/advertising services skipped during browser visits. Exact domains on purpose: matching
 # just "google" would also block Google's code-library servers, which many sites need to work.
@@ -384,6 +394,81 @@ def card_text_entries(text):
     return entries
 
 
+# Grand Casino Aš cash games: a table of Game | Blinds | Buy-in | Status (Running / Waiting).
+# Saved per table as an entry like  NLH €1/2 [RUNNING]  (no player counts: the site doesn't show them).
+GAS_ENTRY_RE = re.compile(r"^(.+?)(?: €([\d/.]+))? \[([A-Z_]+)\]$")
+GAS_BLINDS_RE = re.compile(r"(\d+(?:[.,]\d+)?)\s*€?\s*[-–/]\s*(\d+(?:[.,]\d+)?)(?:\s*€?\s*[-–/]\s*(\d+(?:[.,]\d+)?))?")
+
+
+def gas_cash_entries(html):
+    """Entries from Grand Casino Aš's 'Current cash game' table; None if the table isn't there."""
+    start = (html or "").lower().find("current cash game")
+    if start < 0:
+        return None
+    end = html.lower().find("</table>", start)
+    if end < 0:
+        return None
+    entries = []
+    for row in re.findall(r"<tr[^>]*>(.*?)</tr>", html[start:end], re.S | re.I):
+        cells = [strip_tags(c) for c in re.findall(r"<t[dh][^>]*>(.*?)</t[dh]>", row, re.S | re.I)]
+        if len(cells) < 4 or cells[0].lower() == "game":
+            continue
+        blinds = GAS_BLINDS_RE.search(cells[1])
+        stakes = "/".join(x.replace(",", ".") for x in blinds.groups() if x) if blinds else ""
+        status = re.sub(r"[^A-Z_]", "", cells[3].upper().replace(" ", "_")) or "UNKNOWN"
+        entries.append(f"{card_game(cells[0])}" + (f" €{stakes}" if stakes else "") + f" [{status}]")
+    return entries
+
+
+def parse_gas_games(games):
+    """'NLH €1/2 [RUNNING]; PLO/NLH [WAITING]' -> [('NLH', '1/2', 'RUNNING'), ('PLO/NLH', '', 'WAITING')]"""
+    found = []
+    for entry in (games or "").split("; "):
+        m = GAS_ENTRY_RE.match(entry.strip())
+        if m:
+            found.append((norm_game(m.group(1)), m.group(2) or "", m.group(3)))
+    return found
+
+
+GAS_TOURNEY_RE = re.compile(
+    r"Start\s+(?P<date>\d{1,2}\.\d{1,2}\.)\s+(?P<time>\d{1,2}:\d{2})\s+\S+\s+"
+    r"(?:LVL\s+(?P<level>\d+)\s+Level\s+(?P<blinds>\d+(?:/\d+)+)|Countdown\s+Level\s+Countdown)\s+"
+    r"(?P<buyin>[\d ]+?)\s*€\s*Buy-In\s+(?P<late>\S+)\s+Late Reg\.\s+(?P<sstack>[\d ]+?)\s+Starting Stack\s+"
+    r"(?P<avg>[\d ]+?)\s+Average Stack\s+(?P<left>\d+)\s*\((?P<entries>\d+)\)\s*Players\s+"
+    r"(?:€\s*(?P<pool>[\d ]+?)|-)\s*Prizepool", re.I)
+
+
+def gas_tournaments(html, now):
+    """Tournaments in play in Grand Casino Aš's 'Current Tournaments' box: (entries, details),
+    or None if the box isn't there."""
+    text = strip_tags(html).replace("\xa0", " ")
+    low = text.lower()
+    a = low.find("current tournaments")
+    if a < 0:
+        return None
+    b = low.find("all tournaments", a)
+    section = text[a + len("current tournaments"): b if b > 0 else a + 20000]
+    entries, details = [], []
+    for block in re.split(r"Next level\s+\d+(?:/\d+)+", section):
+        m = GAS_TOURNEY_RE.search(block)
+        if not m or not m.group("level"):
+            continue  # not started yet (still counting down)
+        left = as_int(m.group("left"))
+        if not left:
+            continue
+        name = clean(block[:m.start()], 60) or "Tournament"
+        late = m.group("late")
+        d = {"name": name, "game": tourney_game(name), "status": "RUNNING", "left": left,
+             "entries": as_int(m.group("entries")), "buyin": number(m.group("buyin").replace(" ", "")),
+             "prizepool": number((m.group("pool") or "").replace(" ", "")), "currency": "EUR",
+             "level": number(m.group("level")), "blinds": m.group("blinds"),
+             "avg_stack": number(m.group("avg").replace(" ", "")), "start_stack": number(m.group("sstack").replace(" ", "")),
+             "late_reg_open": late.lower() != "closed", "start": f"{m.group('date')} {m.group('time')}"}
+        details.append({k: v for k, v in d.items() if v not in (None, "")})
+        entries.append(f"{name} {left}/{as_int(m.group('entries'))}")
+    return entries, details
+
+
 # ---------------------------------------------------------------- reading King's
 
 def fetch_feed(url=None):
@@ -398,9 +483,13 @@ def fetch_feed(url=None):
 def fetch_text(url, referer):
     """A small piece of a casino's web page, fetched the way their page itself fetches it."""
     request = urllib.request.Request(url, headers={
-        "User-Agent": UA, "Accept": "text/html, */*; q=0.01", "X-Requested-With": "XMLHttpRequest", "Referer": referer})
+        "User-Agent": UA, "Accept": "text/html, */*; q=0.01", "X-Requested-With": "XMLHttpRequest",
+        "Referer": referer, "Accept-Encoding": "gzip"})
     with urllib.request.urlopen(request, timeout=30) as response:
-        return response.read().decode("utf-8", errors="replace")
+        data = response.read()
+        if response.headers.get("Content-Encoding", "").lower() == "gzip":
+            data = gzip.decompress(data)
+        return data.decode("utf-8", errors="replace")
 
 
 BOX_READY_JS = """() => {
@@ -893,6 +982,103 @@ def write_card_page(now):
     CARD_SITE["page"].write_text("\n".join(out) + "\n", encoding="utf-8")
 
 
+def record_gas(now):
+    """One Grand Casino Aš check, saved to data/grandcasinoas/YYYY-MM.csv. Never raises."""
+    row = {"time": f"{now:%Y-%m-%d %H:%M}", "weekday": DAYS[now.weekday()], "hour": now.hour, "status": "",
+           "tables": "", "waiting": "", "games": "", "tourneys": "", "tourney_players": "", "tourney_details": "", "raw": ""}
+    details = {}
+    try:
+        html = fetch_text(GAS_CASH_URL, "https://www.grandcasinoas.eu/en/poker")
+        entries = gas_cash_entries(html)
+        if entries is None:
+            row["status"] = "error: the 'Current cash game' table wasn't found"
+            details["cash_page"] = html[:20000]
+        else:
+            games = parse_gas_games("; ".join(entries))
+            row.update(status="ok", games="; ".join(entries),
+                       tables=sum(1 for g in games if g[2] == "RUNNING"), waiting=sum(1 for g in games if g[2] == "WAITING"))
+    except Exception as e:
+        row["status"] = f"error: {short_error(e)}"
+    if now.minute % 30 < 10:  # tournaments every 30 minutes
+        try:
+            html = fetch_text(GAS_TOURNEY_URL, "https://www.grandcasinoas.eu/en/")
+            result = gas_tournaments(html, now)
+            if result is None:
+                details["tournament_page_start"] = html[:20000]
+            else:
+                row.update(tourneys=len(result[0]), tourney_players=sum(d["left"] for d in result[1]),
+                           tourney_details=json.dumps(result[1], ensure_ascii=False, separators=(",", ":")))
+        except Exception as e:
+            details["tournaments"] = short_error(e)
+    try:
+        append_csv(GAS_DIR, GAS_FIELDS, now, row)
+        save_debug_copy(Path("debug/grandcasinoas_page.json"), now, row["status"], GAS_CASH_URL, details)
+        write_gas_page(now)
+    except Exception as e:
+        print(f"Grand Casino Aš could not be saved: {short_error(e)}")
+    return row
+
+
+def write_gas_page(now):
+    rows = load_csv_rows(GAS_DIR)
+    ok = [r for r in rows if r["status"] == "ok"]
+    out = ["# 🃏 Grand Casino Aš — cash game tracker", "",
+           f"Reads [Grand Casino Aš's live cash games]({GAS_CASH_URL}) every 10 minutes and its "
+           f"[current tournaments]({GAS_TOURNEY_URL}) every 30 minutes. All times are **Czech time** (same as Poland). "
+           "Back to [King's](README.md).", ""]
+    out += health_lines(rows, now, {}, "debug/grandcasinoas_page.json")
+    if ok:
+        latest = ok[-1]
+        games = sorted(parse_gas_games(latest["games"]), key=lambda g: (g[2] != "RUNNING", game_order(g[0]), stake_key(g[1])))
+        out += [f"## Cash games at {latest['time']}", ""]
+        out += (["```", *(f"{g:<9}{('€' + s) if s else '':<9}{status.lower()}" for g, s, status in games), "```", ""]
+                if games else ["No cash games listed.", ""])
+    with_t = [r for r in rows if r.get("tourneys", "") != ""]
+    if with_t:
+        running = tourney_info_of(with_t[-1])
+        out += [f"**Tournaments in play at {with_t[-1]['time']}:** "
+                + (" · ".join(tourney_text(d) for d in running) if running else "none"), ""]
+
+    # running tables by hour and weekday
+    total, count = defaultdict(float), defaultdict(int)
+    for r in ok:
+        for key in ((int(r["hour"]), r["weekday"]), (int(r["hour"]), "All")):
+            total[key] += as_int(r["tables"])
+            count[key] += 1
+    out += ["## Running cash tables by hour", "",
+            "Average number of running tables (Grand Casino Aš shows which games run, not how many players).", "",
+            "| Hour | " + " | ".join(DAYS) + " | All days |", "|:--|" + "--:|" * (len(DAYS) + 1)]
+    for h in range(24):
+        cells = [f"{total[(h, d)] / count[(h, d)]:.1f}" if count[(h, d)] else "·" for d in DAYS + ["All"]]
+        out.append(f"| {h:02d}:00 | " + " | ".join(cells) + " |")
+    out.append("")
+
+    # how often each game + stake was running
+    def running_labels(r):
+        return {f"{g} €{s}" if s else g for g, s, status in parse_gas_games(r["games"]) if status == "RUNNING"}
+    labelled = [(r, running_labels(r)) for r in ok]
+    freq = Counter(label for _, labels in labelled for label in labels)
+    top = sorted((label for label, _ in freq.most_common(8)), key=label_key)
+    out += ["## How often each game was running, by hour (all days)", ""]
+    if top:
+        total_h, seen = defaultdict(int), defaultdict(int)
+        for r, labels in labelled:
+            total_h[int(r["hour"])] += 1
+            for label in labels:
+                seen[(int(r["hour"]), label)] += 1
+        out += ["🟩 most of the time · 🟨 sometimes · 🟥 rarely", "",
+                "| Hour | " + " | ".join(top) + " | Checks |", "|:--|" + "--:|" * (len(top) + 1)]
+        for h in range(24):
+            out.append(f"| {h:02d}:00 | " + " | ".join(pct_cell(seen[(h, label)], total_h[h]) for label in top)
+                       + f" | {total_h[h]} |")
+    else:
+        out.append("No running games seen yet.")
+    out.append("")
+    out += tournaments_seen_lines(with_t)
+    out += ["---", "Raw data: `data/grandcasinoas` (one CSV file per month)."]
+    GAS_PAGE.write_text("\n".join(out) + "\n", encoding="utf-8")
+
+
 def remove_retired_sites():
     for key, page_path in RETIRED_SITES:
         folder = DATA_DIR / key
@@ -1034,9 +1220,10 @@ def count_text(n, word):
 def health_lines(rows, now, sources, problem_file):
     if not rows:
         return []
-    good = sum(1 for r in rows if r["status"] == "ok" and r["players"] != "")
+    good = sum(1 for r in rows if r["status"] == "ok" and r.get("players", "x") != "")
     last = rows[-1]
-    state = (f"✅ OK ({sources.get(last['source'], last['source'])})" if last["status"] == "ok"
+    source = last.get("source") or ""
+    state = ((f"✅ OK ({sources.get(source, source)})" if source else "✅ OK") if last["status"] == "ok"
              else f"⚠️ {clean(last['status'], 160)} — details in `{problem_file}`")
     day_ago = (now - timedelta(hours=24)).strftime("%Y-%m-%d %H:%M")
     recent = [r for r in rows if r["time"] >= day_ago]
@@ -1046,7 +1233,7 @@ def health_lines(rows, now, sources, problem_file):
     gap = f"longest gap {gap_min // 60} h {gap_min % 60} min" + (" (GitHub skipped runs)" if gap_min > 60 else "")
     return [f"**Last check:** {last['time']} — {state}  ",
             f"**Last 24 h:** {sum(r['status'] == 'ok' for r in recent)} of {len(recent)} checks OK, {gap} · "
-            f"**Collecting since:** {rows[0]['time'][:10]} ({good} good checks)", ""]
+            f"**Collecting since:** {rows[0]['time'][:10]} ({count_text(good, 'good check')})", ""]
 
 
 def snapshot_lines(latest):
@@ -1177,13 +1364,17 @@ def tournaments_seen_lines(rows, limit=15):
     return out + [""]
 
 
-def overview_line(kings_row, card_row, banco_row):
+def overview_line(kings_row, card_row, banco_row, gas_row=None):
     """One line at the top of the King's page: what's running at all three rooms right now."""
     def cash(row):
         if row and row.get("status") == "ok" and row.get("players", "") != "":
             return f"{count_text(row['tables'], 'table')}, {count_text(row['players'], 'player')}"
         return "couldn't be read"
     parts = [f"King's: {cash(kings_row)}", f"[Card Casino Šamorín](CARD_CASINO.md): {cash(card_row)}"]
+    if gas_row:
+        gas = ("couldn't be read" if gas_row.get("status") != "ok"
+               else f"{count_text(gas_row['tables'], 'table')} running" + (f", {gas_row['waiting']} waiting" if as_int(gas_row["waiting"]) else ""))
+        parts.append(f"[Grand Casino Aš](GRAND_CASINO_AS.md): {gas}")
     if banco_row:
         listed = shown((banco_row.get("cash_text") or "").replace(" ; ", " ").replace(" | ", ", "), 70)
         banco = "couldn't be read" if banco_row.get("status") != "ok" else listed or "no games listed"
@@ -1197,7 +1388,7 @@ def write_readme(rows, now, overview=""):
     out = ["# 🃏 King's Rozvadov — cash game tracker", "",
            "Checks King's live cash games and tournaments about every 10 minutes and updates this page by itself. "
            "All times are **Czech time** (same as Poland). Also tracking: [Card Casino Šamorín](CARD_CASINO.md) · "
-           "[Banco Casino Bratislava](BANCO.md).", ""]
+           "[Grand Casino Aš](GRAND_CASINO_AS.md) · [Banco Casino Bratislava](BANCO.md).", ""]
     if overview:
         out += [overview, ""]
     out += health_lines(rows, now, SOURCES, "debug/last_problem.json")
@@ -1355,6 +1546,20 @@ def self_test():
     assert card_entries('<div class="cash-game"><h4>NLH</h4></div>') is None
     assert card_text_entries("NLH | 1/3 € | 8/8 | PLO | 10/10 € | 8/8") == ["NLH €1/3 8/8", "PLO €10/10 8/8"]
     assert [card_game(g) for g in ("nlh", "PLO", "PLO 5", "PLO4", "NLH/PLO")] == ["NLH", "PLO", "PLO5", "PLO", "NLH/PLO"]
+    gas_table = ('<h2>Current cash game</h2><table><thead><tr><th>Game</th><th>Blinds</th><th>Buy-in</th><th>Status</th></tr>'
+                 '</thead><tr><td><a href="/x/15">NLH</a></td><td>1€-2€</td><td>€50 &ndash; €500</td><td>Running</td></tr>'
+                 '<tr><td><a href="/x/16">PLO/NLH</a></td><td></td><td></td><td>Waiting</td></tr></table>')
+    assert gas_cash_entries(gas_table) == ["NLH €1/2 [RUNNING]", "PLO/NLH [WAITING]"], gas_cash_entries(gas_table)
+    assert gas_cash_entries("<p>nothing</p>") is None
+    gas_page = ("<h2>Current Tournaments</h2><div>Crazy Pineapple</div> Start 01.10. 14:00 11:19 LVL 9 Level 1000/1500/1500 "
+                "70 € Buy-In Closed Late Reg. 30&nbsp;000 Starting Stack 55&nbsp;500 Average Stack 20 (37) Players "
+                "€ 2&nbsp;220 Prizepool Next level 1000/2000/2000 National NLH Championship 1A Start 01.10. 17:00 32:12 Countdown "
+                "Level Countdown 150 € Buy-In 05:12:12 Late Reg. 100 000 Starting Stack 100 000 Average Stack 3 (3) Players "
+                "€ 100 000 Prizepool Next level 200/500/500 01.10. 12:00 German Team Championship I All Tournaments (126)")
+    entries, details = gas_tournaments(gas_page, datetime(2026, 10, 1, 16, 0, tzinfo=TZ))
+    assert entries == ["Crazy Pineapple 20/37"], entries
+    assert (details[0]["game"], details[0]["prizepool"], details[0]["avg_stack"], details[0]["late_reg_open"]) == \
+        ("Pineapple", 2220, 55500, False), details
     assert [is_tracker(h) for h in ("www.googletagmanager.com", "ajax.googleapis.com", "connect.facebook.net",
                                     "admin.kings-resort.com", "bancocasino.sk")] == [True, False, True, False, False]
 
@@ -1408,11 +1613,13 @@ def main():
     remove_retired_sites()
     migrate_card_files()
     card_row = record_card(now)
+    gas_row = record_gas(now)
     site_rows = record_sites(now)
     rows = load_rows()
-    write_readme(rows, now, overview_line(row, card_row, site_rows.get("banco")))
+    write_readme(rows, now, overview_line(row, card_row, site_rows.get("banco"), gas_row))
     print(json.dumps(row, ensure_ascii=False))
     print("cardcasino:", json.dumps(card_row, ensure_ascii=False)[:200])
+    print("grandcasinoas:", json.dumps(gas_row, ensure_ascii=False)[:200])
     for key, site_row in site_rows.items():
         print(f"{key}:", json.dumps(site_row, ensure_ascii=False)[:200])
 
