@@ -2,16 +2,16 @@
 
 Reads [Grand Casino Aš's live cash games](https://www.grandcasinoas.eu/en/poker/poker-live) every 10 minutes and its [current tournaments](https://www.grandcasinoas.eu/en/poker) every 30 minutes. All times are **Czech time** (same as Poland). Back to [King's](README.md).
 
-**Last check:** 2026-10-10 17:20 — ✅ OK  
-**Last 24 h:** 85 of 85 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-10 (85 good checks)
+**Last check:** 2026-10-10 17:30 — ✅ OK  
+**Last 24 h:** 86 of 86 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-10 (86 good checks)
 
-## Cash games at 2026-10-10 17:20
+## Cash games at 2026-10-10 17:30
 
 ```
 PLO/NLH           waiting
 ```
 
-**Tournaments in play at 2026-10-10 17:00:** BHD PKO Main Event 1B (NLH, €230, 99 of 206 left, level 9, blinds 800/1600/1600)
+**Tournaments in play at 2026-10-10 17:30:** BHD PKO Main Event 1B (NLH, €230, 78 of 206 left, level 10, blinds 1000/2000/2000) · Saturday Freezeout (NLH, €120, 30 of 63 left, level 9, blinds 600/1200/1200) · BHD PKO Main Event 1C (NLH, €230, 29 of 30 left, late reg open, level 1, blinds 100/200/200)
 
 ## Running cash tables by hour
 
@@ -67,7 +67,7 @@ Average number of running tables (Grand Casino Aš shows which games run, not ho
 | 14:00 | 🟥 0% | 7 |
 | 15:00 | 🟥 0% | 6 |
 | 16:00 | 🟥 0% | 6 |
-| 17:00 | 🟥 0% | 3 |
+| 17:00 | 🟥 0% | 4 |
 | 18:00 | · | 0 |
 | 19:00 | · | 0 |
 | 20:00 | · | 0 |
@@ -81,8 +81,9 @@ The most recent ones. The game is read from the tournament's name.
 
 | Tournament | Game | Buy-in | Entries | Seen |
 |:--|:--|--:|--:|:--|
-| BHD PKO Main Event 1B | NLH | €230 | 206 | 2026-10-10 12:30 → 10-10 17:00 |
-| Saturday Freezeout | NLH | €120 | 58 | 2026-10-10 14:30 → 10-10 16:30 |
+| BHD PKO Main Event 1B | NLH | €230 | 206 | 2026-10-10 12:30 → 10-10 17:30 |
+| Saturday Freezeout | NLH | €120 | 63 | 2026-10-10 14:30 → 10-10 17:30 |
+| BHD PKO Main Event 1C | NLH | €230 | 30 | 2026-10-10 17:30 |
 | Mayoman s Highroller | NLH | €400 | 97 | 2026-10-10 04:00 → 10-10 05:00 |
 
 ---
