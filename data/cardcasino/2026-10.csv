@@ -81,3 +81,4 @@
 2026-10-10 15:20,Sat,15,ok,feed,1,5,PLO €100/100 5/8,
 2026-10-10 15:30,Sat,15,ok,feed,1,5,PLO €100/100 5/8,
 2026-10-10 15:40,Sat,15,ok,feed,1,5,PLO €100/100 5/8,
+2026-10-10 15:50,Sat,15,error: TimeoutError: Page.goto: Timeout 60000ms exceeded.,,,,,
