@@ -2,16 +2,16 @@
 
 Reads [Grand Casino Aš's live cash games](https://www.grandcasinoas.eu/en/poker/poker-live) every 10 minutes and its [current tournaments](https://www.grandcasinoas.eu/en/poker) every 30 minutes. All times are **Czech time** (same as Poland). Back to [King's](README.md).
 
-**Last check:** 2026-10-10 14:50 — ✅ OK  
-**Last 24 h:** 70 of 70 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-10 (70 good checks)
+**Last check:** 2026-10-10 15:00 — ✅ OK  
+**Last 24 h:** 71 of 71 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-10 (71 good checks)
 
-## Cash games at 2026-10-10 14:50
+## Cash games at 2026-10-10 15:00
 
 ```
 PLO/NLH           waiting
 ```
 
-**Tournaments in play at 2026-10-10 14:37:** BHD PKO Main Event 1B (NLH, €230, 138 of 182 left, late reg open, level 5, blinds 300/600/600) · Saturday Freezeout (NLH, €120, 35 of 35 left, late reg open, level 2, blinds 50/100)
+**Tournaments in play at 2026-10-10 15:00:** BHD PKO Main Event 1B (NLH, €230, 132 of 187 left, late reg open, level 6, blinds 400/800/800) · Saturday Freezeout (NLH, €120, 46 of 47 left, late reg open, level 3, blinds 100/200)
 
 ## Running cash tables by hour
 
@@ -34,7 +34,7 @@ Average number of running tables (Grand Casino Aš shows which games run, not ho
 | 12:00 | · | · | · | · | · | 0.0 | · | 0.0 |
 | 13:00 | · | · | · | · | · | 0.0 | · | 0.0 |
 | 14:00 | · | · | · | · | · | 0.0 | · | 0.0 |
-| 15:00 | · | · | · | · | · | · | · | · |
+| 15:00 | · | · | · | · | · | 0.0 | · | 0.0 |
 | 16:00 | · | · | · | · | · | · | · | · |
 | 17:00 | · | · | · | · | · | · | · | · |
 | 18:00 | · | · | · | · | · | · | · | · |
@@ -65,7 +65,7 @@ Average number of running tables (Grand Casino Aš shows which games run, not ho
 | 12:00 | 🟥 0% | 6 |
 | 13:00 | 🟥 0% | 6 |
 | 14:00 | 🟥 0% | 7 |
-| 15:00 | · | 0 |
+| 15:00 | 🟥 0% | 1 |
 | 16:00 | · | 0 |
 | 17:00 | · | 0 |
 | 18:00 | · | 0 |
@@ -81,8 +81,8 @@ The most recent ones. The game is read from the tournament's name.
 
 | Tournament | Game | Buy-in | Entries | Seen |
 |:--|:--|--:|--:|:--|
-| BHD PKO Main Event 1B | NLH | €230 | 182 | 2026-10-10 12:30 → 10-10 14:37 |
-| Saturday Freezeout | NLH | €120 | 35 | 2026-10-10 14:30 |
+| BHD PKO Main Event 1B | NLH | €230 | 187 | 2026-10-10 12:30 → 10-10 15:00 |
+| Saturday Freezeout | NLH | €120 | 47 | 2026-10-10 14:30 → 10-10 15:00 |
 | Mayoman s Highroller | NLH | €400 | 97 | 2026-10-10 04:00 → 10-10 05:00 |
 
 ---
