@@ -8,9 +8,9 @@ Runs on GitHub Actions about every 10 minutes. Each run:
   2. also reads King's tournament clocks, to see how many tournament players are in action,
   3. adds one line to data/YYYY-MM.csv (Czech local time),
   4. rebuilds README.md with statistics per game and a cash-vs-tournament comparison,
-  5. also checks Banco Casino Bratislava and the Šamorín casino (data/banco/ + BANCO.md,
-     data/samorin/ + SAMORIN.md). Those are kept fully separate, so a problem with their
-     websites can never affect the King's data.
+  5. also checks Banco Casino Bratislava (data/banco/ + BANCO.md) and Card Casino Šamorín
+     (data/cardcasino/ + CARD_CASINO.md). Those are kept fully separate, so a problem with
+     their websites can never affect the King's data.
 
 Games are named the way the poker room's own system names them (NLH, PLO5, ...), so different
 games are never mixed together. If checks keep failing, the run reports an error and GitHub
@@ -44,10 +44,25 @@ ALERT_AFTER = 6                 # failed checks in a row before GitHub emails yo
 DATA_DIR = Path("data")
 SITE_FIELDS = ["time", "weekday", "hour", "status", "cash_text", "tournament_text"]
 # Slovak rooms read from their web pages: (folder name, display name, page address, results page)
-SITES = (("banco", "Banco Casino Bratislava", os.environ.get("BANCO_URL", "https://bancocasino.sk/ba/en"), Path("BANCO.md")),
-         ("samorin", "Kajot Casino Šamorín", os.environ.get("SAMORIN_URL", "https://bancocasino.sk/ba/en/casino-samorin"),
-          Path("SAMORIN.md")))
-SKIP_HOSTS = ("google", "facebook", "doubleclick", "hotjar", "twitch", "youtube", "gstatic", "cookiebot", "instagram")
+# Slovak rooms read from their websites with a browser. "reader" says where the list is on the page.
+SITES = (
+    {"key": "banco", "name": "Banco Casino Bratislava", "url": os.environ.get("BANCO_URL", "https://bancocasino.sk/ba/en"),
+     "page": Path("BANCO.md"), "age_button": "Confirm", "reader": "banco-popup"},
+    {"key": "cardcasino", "name": "Card Casino Šamorín",
+     "url": os.environ.get("CARD_URL", "https://www.cardcasino.sk/en/cashgames/"),
+     "page": Path("CARD_CASINO.md"), "age_button": "I am over 18 years old", "reader": "section"},
+)
+RETIRED_SITES = (("samorin", Path("SAMORIN.md")),)  # an earlier attempt via Banco's site, which had no live data
+# Tracking/advertising services skipped during browser visits. Exact domains on purpose: matching
+# just "google" would also block Google's code-library servers, which many sites need to work.
+TRACKER_DOMAINS = ("google-analytics.com", "googletagmanager.com", "doubleclick.net", "googleadservices.com",
+                   "googlesyndication.com", "facebook.net", "facebook.com", "hotjar.com", "clarity.ms",
+                   "bing.com", "tiktok.com", "instagram.com", "youtube.com", "ytimg.com", "twitch.tv", "smartlook.com")
+
+
+def is_tracker(host):
+    host = (host or "").lower()
+    return any(host == domain or host.endswith("." + domain) for domain in TRACKER_DOMAINS)
 README = Path("README.md")
 PROBLEM_FILE = Path("debug/last_problem.json")
 OLD_DEBUG_FILE = Path("debug/last_page.json")  # written by earlier versions
@@ -317,6 +332,18 @@ def open_browser(p):
         return p.chromium.launch()
 
 
+def skip_extras(page):
+    """Don't load pictures, fonts, videos or tracking scripts: faster, and our checks
+    don't show up as visits in the casinos' website statistics."""
+    def handle(route):
+        request = route.request
+        host = urllib.parse.urlparse(request.url).hostname or ""
+        if request.resource_type in ("image", "media", "font") or is_tracker(host):
+            return route.abort()
+        return route.continue_()
+    page.route("**/*", handle)
+
+
 def browser_check():
     """Open the live page like a visitor (slow, so only used when the feed fails).
     Returns (entries or None, source, box text, details for debugging)."""
@@ -331,6 +358,7 @@ def browser_check():
     with sync_playwright() as p:
         browser = open_browser(p)
         page = browser.new_page(user_agent=UA, locale="en-US", viewport={"width": 1366, "height": 900})
+        skip_extras(page)
         page.on("response", remember_feed)
         for attempt in (1, 2):
             try:
@@ -386,7 +414,23 @@ def page_section(text, start, ends, limit=3000):
 SECTION_HTML_JS = r"""(title) => {
   const head = Array.from(document.querySelectorAll('h1,h2,h3,h4,h5'))
     .find(e => (e.textContent || '').trim().toLowerCase() === title);
-  return head && head.parentElement ? head.parentElement.outerHTML.slice(0, 30000) : null;
+  const box = head && (head.closest('section') || head.parentElement);
+  return box ? box.outerHTML.slice(0, 20000) : null;
+}"""
+
+# Banco's cash-game list lives in a pop-up window ("Cash games") that is hidden until opened.
+# This reads it either way: every table row as a list of cells, plus the plain text and HTML.
+CASH_POPUP_JS = r"""() => {
+  const title = Array.from(document.querySelectorAll('.modal-title, h1, h2, h3, h4, h5'))
+    .find(e => (e.textContent || '').trim().toLowerCase() === 'cash games');
+  if (!title) return null;
+  const box = title.closest('.modal') || title.closest('.modal-content') || title.parentElement.parentElement;
+  const rows = Array.from(box.querySelectorAll('tr'))
+    .map(tr => Array.from(tr.children).map(c => (c.textContent || '').replace(/\s+/g, ' ').trim()).filter(Boolean))
+    .filter(cells => cells.length);
+  const visible = box.offsetParent !== null;
+  return {rows, visible, text: ((visible ? box.innerText : box.textContent) || '').slice(0, 5000),
+          html: box.outerHTML.slice(0, 20000)};
 }"""
 
 
@@ -397,51 +441,85 @@ def sites_check():
     results = {}
     with sync_playwright() as p:
         browser = open_browser(p)
-        for key, _, url, _ in SITES:
+        for site in SITES:
             try:
-                results[key] = read_site(browser, url, PWTimeout)
+                results[site["key"]] = read_site(browser, site, PWTimeout)
             except Exception as e:  # one site failing doesn't stop the others
-                results[key] = e
+                results[site["key"]] = e
         browser.close()
     return results
 
 
-def read_site(browser, url, PWTimeout):
+def read_site(browser, site, PWTimeout):
     responses = []
 
     def remember(response):
         host = urllib.parse.urlparse(response.url).hostname or ""
-        if (response.request.resource_type in ("xhr", "fetch") and len(responses) < 30
-                and not any(skip in host for skip in SKIP_HOSTS)):
+        if response.request.resource_type in ("xhr", "fetch") and len(responses) < 10 and not is_tracker(host):
             responses.append(response)
 
     page = browser.new_page(user_agent=UA, locale="en-US", viewport={"width": 1366, "height": 900})
     try:
+        skip_extras(page)
         page.on("response", remember)
-        page.goto(url, wait_until="domcontentloaded", timeout=60_000)
+        page.goto(site["url"], wait_until="domcontentloaded", timeout=60_000)
         try:
-            page.get_by_text("Confirm", exact=True).first.click(timeout=3_000)  # the 18+ notice
+            page.get_by_text(site["age_button"], exact=True).first.click(timeout=3_000)  # the 18+ notice
         except Exception:
             pass
         try:
             page.wait_for_load_state("networkidle", timeout=20_000)
         except PWTimeout:
             pass
-        page.wait_for_timeout(3_000)
+        page.wait_for_timeout(2_000)
+        popup = section_html = None
+        if site["reader"] == "banco-popup":
+            try:  # open the "Cash games" pop-up, in case its list is only loaded when opened
+                page.get_by_text("Cash Game", exact=True).first.click(timeout=3_000)
+                page.wait_for_load_state("networkidle", timeout=10_000)
+            except Exception:
+                pass
+            page.wait_for_timeout(1_500)
+            popup = page.evaluate(CASH_POPUP_JS)
+        else:
+            section_html = page.evaluate(SECTION_HTML_JS, "cash games")
         text = page.inner_text("body")
-        cash_html = page.evaluate(SECTION_HTML_JS, "cash games")
         bodies = []
         for response in responses:
             try:
-                bodies.append({"url": response.url, "status": response.status, "body": response.text()[:20000]})
+                bodies.append({"url": response.url, "status": response.status, "body": response.text()[:10000]})
             except Exception:
                 pass
     finally:
         page.close()
 
-    cash = page_section(text, "cash games", ("poker tournaments", "banco promotions"))
-    tournaments = page_section(text, "poker tournaments", ("banco promotions", "jackpot"), 1500)
-    return cash, tournaments, {"page_text_start": text[:6000], "cash_box_html": cash_html, "data_requests": bodies}
+    details = {"page_text_start": text[:6000], "data_requests": bodies}
+    if site["reader"] == "banco-popup":
+        cash = popup_text(popup)
+        clock = page_section(text, "cash game", ("cash games", "poker tournaments"), 1500) or ""  # tournament clock
+        listed = page_section(text, "poker tournaments", ("banco promotions", "jackpot"), 1500) or ""
+        tournaments = " || ".join(part for part in (clock, listed) if part)
+        details["cash_popup"] = popup
+    else:  # the list sits on the page under a "Cash games" heading
+        cash = page_section(text, "cash games", ("current tournaments",), 3000)
+        if cash is not None:  # drop the fixed "Game limits" link and rake note, keep the live list
+            cash = " | ".join(part for part in cash.split(" | ")
+                              if part.lower() != "game limits" and not part.lower().startswith("rake "))
+        tournaments = ""
+        details["cash_section_html"] = section_html
+    return cash, tournaments, details
+
+
+def popup_text(popup):
+    """The cash-game list as text: table rows separated by ' | ', cells by ' ; '.
+    None if the pop-up wasn't on the page at all."""
+    if not popup:
+        return None
+    rows = [" ; ".join(cells) for cells in popup.get("rows") or []]
+    if rows:
+        return " | ".join(rows)
+    lines = [" ".join(ln.split()) for ln in (popup.get("text") or "").splitlines()]
+    return " | ".join(ln for ln in lines if ln and ln.lower() not in ("cash games", "close", "×", "x"))
 
 
 def short_error(e):
@@ -562,14 +640,32 @@ def save_problem(now, row, problem):
     PROBLEM_FILE.write_text(json.dumps(payload, ensure_ascii=False, indent=1), encoding="utf-8")
 
 
+def remove_retired_sites():
+    for key, page_path in RETIRED_SITES:
+        folder = DATA_DIR / key
+        rows = []
+        for path in folder.glob("*.csv"):
+            with path.open(newline="", encoding="utf-8-sig") as fh:
+                rows.extend(csv.DictReader(fh))
+        if any(r.get("status") == "ok" for r in rows):
+            continue  # it did collect something: keep it
+        for path in folder.glob("*.csv"):
+            path.unlink()
+        if folder.exists() and not any(folder.iterdir()):
+            folder.rmdir()
+        page_path.unlink(missing_ok=True)
+        Path(f"debug/{key}_page.json").unlink(missing_ok=True)
+
+
 def record_sites(now):
     """One check of each Slovak room, each saved to data/<folder>/YYYY-MM.csv.
     Never raises: these sites can't break the King's tracking."""
     try:
         results = sites_check()
     except Exception as e:  # e.g. the browser couldn't start
-        results = {key: e for key, *_ in SITES}
-    return {key: record_site(now, key, name, url, page, results.get(key)) for key, name, url, page in SITES}
+        results = {site["key"]: e for site in SITES}
+    return {site["key"]: record_site(now, site["key"], site["name"], site["url"], site["page"], results.get(site["key"]))
+            for site in SITES}
 
 
 def record_site(now, key, name, url, page_path, result):
@@ -580,7 +676,7 @@ def record_site(now, key, name, url, page_path, result):
         row["status"] = f"error: {short_error(result)}" if result else "error: not checked"
     else:
         cash, tournaments, details = result
-        row["status"] = "ok" if cash is not None else "error: the 'Cash games' box wasn't found"
+        row["status"] = "ok" if cash is not None else "error: the 'Cash games' list wasn't found on the page"
         row["cash_text"] = (cash or "")[:3000]
         row["tournament_text"] = (tournaments or "")[:1500]
     try:
@@ -594,11 +690,11 @@ def record_site(now, key, name, url, page_path, result):
             if new_file:
                 writer.writeheader()
             writer.writerow(row)
-        # raw copy of what the page loaded: first run, then every 6 h or when the status changes
+        # raw copy of what the page loaded: first run, then once a day or when the status changes
         try:
             old = json.loads(debug_file.read_text(encoding="utf-8"))
             fresh = old.get("status") == row["status"] and \
-                now - datetime.fromisoformat(old["saved_at"]) < timedelta(hours=6)
+                now - datetime.fromisoformat(old["saved_at"]) < timedelta(hours=24)
         except (OSError, ValueError, KeyError):
             fresh = False
         if details and not fresh:
@@ -618,7 +714,7 @@ def write_site_page(key, name, url, page_path):
             rows.extend(csv.DictReader(fh))
     ok = [r for r in rows if r["status"] == "ok"]
     out = [f"# 🃏 {name} — cash game tracker", "",
-           f"Checks [its page on Banco's website]({url}) together with King's, about every 10 minutes. "
+           f"Checks [its website]({url}) together with King's, about every 10 minutes. "
            "All times are **Czech time** (same as Poland and Slovakia). Back to [King's](README.md).", ""]
     if rows:
         last = rows[-1]
@@ -627,7 +723,8 @@ def write_site_page(key, name, url, page_path):
                 f"**Checks so far:** {len(ok)} successful out of {len(rows)} (since {rows[0]['time'][:10]})", ""]
     if ok:
         latest = ok[-1]
-        lines = [shown(x) for x in latest["cash_text"].split(" | ") if x][:40] or ["(no cash games listed)"]
+        lines = [shown(x.replace(" ; ", " · ")) for x in latest["cash_text"].split(" | ") if x][:40] \
+            or ["(no cash games listed)"]
         out += [f"## Cash games on the site at {latest['time']}", "", "```", *lines, "```", "",
                 f"**Tournaments:** {shown(latest['tournament_text'], 300) or 'none listed'}", ""]
     out += ["---", "First version: the lists are saved exactly as the site shows them. Statistics per game "
@@ -705,7 +802,7 @@ def write_readme(rows, now):
     out = ["# 🃏 King's Rozvadov — cash game tracker", "",
            "Checks King's live cash games and tournaments about every 10 minutes and updates this page by itself. "
            "All times are **Czech time** (same as Poland). Also tracking: [Banco Casino Bratislava](BANCO.md) · "
-           "[Kajot Casino Šamorín](SAMORIN.md).", ""]
+           "[Card Casino Šamorín](CARD_CASINO.md).", ""]
 
     if rows:
         last = rows[-1]
@@ -791,6 +888,12 @@ def write_readme(rows, now):
 
     # Do cash games get busier when tournaments are running?
     with_t = [r for r in ok if r.get("tourney_players", "") != ""]
+    first_t = datetime.strptime(min(r["time"] for r in with_t), "%Y-%m-%d %H:%M") if with_t else None
+    if first_t and now.replace(tzinfo=None) - first_t < timedelta(days=14):
+        out += ["## Cash games vs tournaments", "",
+                f"Collecting since {first_t:%Y-%m-%d}. Shown from {first_t + timedelta(days=14):%Y-%m-%d}: with fewer "
+                "than two weeks, the numbers would mostly reflect which days happened to be recorded.", ""]
+        with_t = []
     if with_t:
         by_hour = defaultdict(list)
         for r in ok:
@@ -914,6 +1017,11 @@ def self_test():
     page = "Cash Game\nCash games\nNLH\t1/2\t8\nPLO\t2/2\t6\nPoker tournaments\nCurrently we do not play any tournaments\nBanco promotions"
     assert page_section(page, "cash games", ("poker tournaments",)) == "NLH | 1/2 | 8 | PLO | 2/2 | 6"
     assert page_section(page, "poker tournaments", ("banco promotions",)) == "Currently we do not play any tournaments"
+    assert popup_text({"rows": [["Game", "Blinds"], ["NLH", "€1/2"]], "text": ""}) == "Game ; Blinds | NLH ; €1/2"
+    assert popup_text({"rows": [], "text": "Cash games\n×\nNo games at the moment"}) == "No games at the moment"
+    assert popup_text(None) is None
+    assert [is_tracker(h) for h in ("www.googletagmanager.com", "ajax.googleapis.com", "connect.facebook.net",
+                                    "admin.kings-resort.com", "bancocasino.sk")] == [True, False, True, False, False]
 
 
 def should_alert(rows):
@@ -963,6 +1071,7 @@ def main():
     rows = load_rows()
     write_readme(rows, now)
     print(json.dumps(row, ensure_ascii=False))
+    remove_retired_sites()
     for key, site_row in record_sites(now).items():
         print(f"{key}:", json.dumps(site_row, ensure_ascii=False)[:200])
 
