@@ -93,3 +93,4 @@
 2026-10-10 17:20,Sat,17,error: TimeoutError: Page.goto: Timeout 60000ms exceeded.,,,,,
 2026-10-10 17:30,Sat,17,ok,feed,2,10,PLO €10/10 5/8; PLO €100/100 5/8,
 2026-10-10 17:40,Sat,17,ok,feed,2,10,PLO €10/10 5/8; PLO €100/100 5/8,
+2026-10-10 17:50,Sat,17,ok,feed,2,11,PLO €10/10 6/8; PLO €100/100 5/8,
