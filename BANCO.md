@@ -1,9 +1,17 @@
 # 🃏 Banco Casino Bratislava — cash game tracker
 
-Checks [its page on Banco's website](https://bancocasino.sk/ba/en) together with King's, about every 10 minutes. All times are **Czech time** (same as Poland and Slovakia). Back to [King's](README.md).
+Checks [its website](https://bancocasino.sk/ba/en) together with King's, about every 10 minutes. All times are **Czech time** (same as Poland and Slovakia). Back to [King's](README.md).
 
-**Last check:** 2026-10-10 02:20 — ⚠️ error: the 'Cash games' box wasn't found  
-**Checks so far:** 0 successful out of 5 (since 2026-10-10)
+**Last check:** 2026-10-10 02:30 — ✅ OK  
+**Checks so far:** 1 successful out of 6 (since 2026-10-10)
+
+## Cash games on the site at 2026-10-10 02:30
+
+```
+(no cash games listed)
+```
+
+**Tournaments:** Guaranteed Prizepool Late reg. Buy-in Blinds Players Starting stack Next level Avg. stack
 
 ---
 First version: the lists are saved exactly as the site shows them. Statistics per game and hour (like on the King's page) are added once a day of data shows the site's format.
