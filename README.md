@@ -1,27 +1,29 @@
 # 🃏 King's Rozvadov — cash game tracker
 
-Checks King's live cash games and tournaments about every 10 minutes and updates this page by itself. All times are **Czech time** (same as Poland). Also tracking: [Banco Casino Bratislava](BANCO.md) · [Card Casino Šamorín](CARD_CASINO.md).
+Checks King's live cash games and tournaments about every 10 minutes and updates this page by itself. All times are **Czech time** (same as Poland). Also tracking: [Card Casino Šamorín](CARD_CASINO.md) · [Banco Casino Bratislava](BANCO.md).
 
-**Last check:** 2026-10-10 02:40 — ✅ OK (data feed)  
-**Last 24 h:** 67 of 67 checks OK, longest gap 7 h 12 min (GitHub skipped runs) · **Collecting since:** 2026-10-06 (217 good checks)
+**Right now:** King's: 10 tables, 65 players · [Card Casino Šamorín](CARD_CASINO.md): 4 tables, 29 players · [Banco](BANCO.md): no games listed
 
-## Tables running at 2026-10-10 02:40
+**Last check:** 2026-10-10 02:50 — ✅ OK (data feed)  
+**Last 24 h:** 68 of 68 checks OK, longest gap 7 h 12 min (GitHub skipped runs) · **Collecting since:** 2026-10-06 (218 good checks)
+
+## Tables running at 2026-10-10 02:50
 
 ```
 NLH   €1/2     7/8 players
 NLH   €1/2     8/8 players
 NLH   €1/2     8/8 players
 NLH   €1/2     5/8 players
-NLH   €1/2     5/8 players
+NLH   €1/2     7/8 players
 NLH   €1/2     6/8 players
 NLH   €2/4     7/8 players
 NLH   €2/4     6/8 players
-PLO   €2/2     8/8 players
-PLO5  €5/5     3/8 players
+PLO   €2/2     7/8 players
+PLO5  €5/5     4/8 players
 ```
-**NLH:** 52 players at 8 tables · **PLO:** 8 players at 1 table · **PLO5:** 3 players at 1 table
+**NLH:** 54 players at 8 tables · **PLO:** 7 players at 1 table · **PLO5:** 4 players at 1 table
 
-**Tournaments in play:** GPD Mystery Bounty - Day 1D (NLH, 29 of 209 left) · RENEMASTERMIX Friday Bounty (25 BOUNTY) (NLH, 18 of 295 left)
+**Tournaments in play:** GPD Mystery Bounty - Day 1D (NLH, 26 of 209 left) · RENEMASTERMIX Friday Bounty (25 BOUNTY) (NLH, 18 of 295 left)
 
 ## Busiest times so far
 
@@ -37,7 +39,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 |:--|--:|--:|--:|--:|--:|--:|--:|--:|
 | 00:00 | · | · | 15 | 19 | · | 69 | · | 43 |
 | 01:00 | · | · | 13 | 15 | · | 70 | · | 40 |
-| 02:00 | · | · | 14 | 8 | 17 | 56 | · | 34 |
+| 02:00 | · | · | 14 | 8 | 17 | 55 | · | 36 |
 | 03:00 | · | · | 13 | 6 | · | · | · | 10 |
 | 04:00 | · | 18 | 9 | 6 | · | · | · | 10 |
 | 05:00 | · | 13 | 8 | 5 | · | · | · | 9 |
@@ -66,7 +68,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 |:--|--:|--:|--:|--:|--:|--:|--:|--:|
 | 00:00 | · | · | 14 | 5 | · | 8 | · | 9 |
 | 01:00 | · | · | 7 | 0 | · | 9 | · | 6 |
-| 02:00 | · | · | 6 | 0 | 0 | 6 | · | 4 |
+| 02:00 | · | · | 6 | 0 | 0 | 5 | · | 4 |
 | 03:00 | · | · | 5 | 0 | · | · | · | 2 |
 | 04:00 | · | 24 | 4 | 0 | · | · | · | 7 |
 | 05:00 | · | 22 | 4 | 0 | · | · | · | 10 |
@@ -95,7 +97,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 |:--|--:|--:|--:|--:|--:|--:|--:|--:|
 | 00:00 | · | · | 0 | 0 | · | 13 | · | 6 |
 | 01:00 | · | · | 0 | 0 | · | 15 | · | 7 |
-| 02:00 | · | · | 0 | 0 | 0 | 16 | · | 8 |
+| 02:00 | · | · | 0 | 0 | 0 | 15 | · | 8 |
 | 03:00 | · | · | 0 | 0 | · | · | · | 0 |
 | 04:00 | · | 0 | 0 | 0 | · | · | · | 0 |
 | 05:00 | · | 0 | 0 | 0 | · | · | · | 0 |
@@ -126,7 +128,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 |:--|--:|--:|--:|--:|--:|--:|--:|--:|--:|
 | 00:00 | 🟩 75% | 🟩 100% | 🟥 0% | 🟨 50% | 🟨 50% | 🟩 75% | 🟥 0% | 🟨 25% | 12 |
 | 01:00 | 🟩 77% | 🟩 100% | 🟥 0% | 🟨 46% | 🟨 31% | 🟨 46% | 🟥 0% | 🟥 23% | 13 |
-| 02:00 | 🟨 58% | 🟩 92% | 🟥 0% | 🟨 50% | 🟨 33% | 🟨 42% | 🟥 0% | 🟥 17% | 12 |
+| 02:00 | 🟨 62% | 🟩 92% | 🟥 0% | 🟨 54% | 🟨 38% | 🟨 38% | 🟥 0% | 🟥 15% | 13 |
 | 03:00 | 🟥 0% | 🟩 100% | 🟥 0% | 🟥 0% | 🟨 50% | 🟥 0% | 🟥 0% | 🟥 0% | 4 |
 | 04:00 | 🟥 0% | 🟩 100% | 🟥 22% | 🟥 0% | 🟨 56% | 🟥 22% | 🟥 0% | 🟥 0% | 9 |
 | 05:00 | 🟥 0% | 🟩 100% | 🟨 38% | 🟥 0% | 🟨 50% | 🟨 38% | 🟨 25% | 🟥 0% | 8 |
@@ -157,11 +159,11 @@ Collecting since 2026-10-08. Shown from 2026-10-22: with fewer than two weeks, t
 
 | Game | Running in | Most often | Last seen |
 |:--|--:|:--|:--|
-| NLH €1/2 | 51% of checks | Fri around 22:00 | 2026-10-10 02:40 |
-| NLH €2/4 | 79% of checks | Fri around 22:00 | 2026-10-10 02:40 |
+| NLH €1/2 | 51% of checks | Fri around 22:00 | 2026-10-10 02:50 |
+| NLH €2/4 | 79% of checks | Fri around 22:00 | 2026-10-10 02:50 |
 | NLH €5/10 | 10% of checks | Fri around 18:00 | 2026-10-09 19:00 |
-| PLO €2/2 | 29% of checks | Fri around 22:00 | 2026-10-10 02:40 |
-| PLO5 €5/5 | 45% of checks | Fri around 19:00 | 2026-10-10 02:40 |
+| PLO €2/2 | 29% of checks | Fri around 22:00 | 2026-10-10 02:50 |
+| PLO5 €5/5 | 45% of checks | Fri around 19:00 | 2026-10-10 02:50 |
 | PLO5 €10/10 | 39% of checks | Fri around 23:00 | 2026-10-10 02:30 |
 | PLO5 €10/25 | 6% of checks | Wed around 06:00 | 2026-10-07 10:04 |
 | MIX NLH/PLO €5/5 | 4% of checks | Wed around 00:00 | 2026-10-07 02:33 |

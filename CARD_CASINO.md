@@ -1,29 +1,124 @@
 # 🃏 Card Casino Šamorín — cash game tracker
 
-Checks [its website](https://www.cardcasino.sk/en/cashgames/) together with King's, about every 10 minutes. All times are **Czech time** (same as Poland and Slovakia). Back to [King's](README.md).
+Reads [Card Casino's live cash-game list](https://www.cardcasino.sk/en/cashgames/) together with King's, about every 10 minutes. All times are **Czech time** (same as Poland and Slovakia). Back to [King's](README.md).
 
-**Last check:** 2026-10-10 02:40 — ✅ OK  
-**Checks so far:** 2 successful out of 2 (since 2026-10-10)
+**Last check:** 2026-10-10 02:50 — ✅ OK (live list)  
+**Last 24 h:** 3 of 3 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-10 (3 good checks)
 
-## Cash games on the site at 2026-10-10 02:40
+## Tables running at 2026-10-10 02:50
 
 ```
-NLH
-1/3 €
-8/8
-NLH
-1/3 €
-8/8
-PLO
-10/10 €
-8/8
-PLO
-100/100 €
-5/8
+NLH  €1/3     8/8 players
+NLH  €1/3     8/8 players
+PLO  €10/10   8/8 players
+PLO  €100/100 5/8 players
 ```
+**NLH:** 16 players at 2 tables · **PLO:** 13 players at 2 tables
 
-**Tournaments:** none listed
+## Busiest times so far
+
+Needs about two weeks of data: each day-and-hour slot must be seen on at least 2 dates.
+
+## Average players by hour
+
+Seated players at each game's tables. 0 = that game wasn't running.
+
+### No-Limit Hold'em (NLH)
+
+| Hour | Mon | Tue | Wed | Thu | Fri | Sat | Sun | All days |
+|:--|--:|--:|--:|--:|--:|--:|--:|--:|
+| 00:00 | · | · | · | · | · | · | · | · |
+| 01:00 | · | · | · | · | · | · | · | · |
+| 02:00 | · | · | · | · | · | 16 | · | 16 |
+| 03:00 | · | · | · | · | · | · | · | · |
+| 04:00 | · | · | · | · | · | · | · | · |
+| 05:00 | · | · | · | · | · | · | · | · |
+| 06:00 | · | · | · | · | · | · | · | · |
+| 07:00 | · | · | · | · | · | · | · | · |
+| 08:00 | · | · | · | · | · | · | · | · |
+| 09:00 | · | · | · | · | · | · | · | · |
+| 10:00 | · | · | · | · | · | · | · | · |
+| 11:00 | · | · | · | · | · | · | · | · |
+| 12:00 | · | · | · | · | · | · | · | · |
+| 13:00 | · | · | · | · | · | · | · | · |
+| 14:00 | · | · | · | · | · | · | · | · |
+| 15:00 | · | · | · | · | · | · | · | · |
+| 16:00 | · | · | · | · | · | · | · | · |
+| 17:00 | · | · | · | · | · | · | · | · |
+| 18:00 | · | · | · | · | · | · | · | · |
+| 19:00 | · | · | · | · | · | · | · | · |
+| 20:00 | · | · | · | · | · | · | · | · |
+| 21:00 | · | · | · | · | · | · | · | · |
+| 22:00 | · | · | · | · | · | · | · | · |
+| 23:00 | · | · | · | · | · | · | · | · |
+
+### Pot-Limit Omaha (PLO)
+
+| Hour | Mon | Tue | Wed | Thu | Fri | Sat | Sun | All days |
+|:--|--:|--:|--:|--:|--:|--:|--:|--:|
+| 00:00 | · | · | · | · | · | · | · | · |
+| 01:00 | · | · | · | · | · | · | · | · |
+| 02:00 | · | · | · | · | · | 13 | · | 13 |
+| 03:00 | · | · | · | · | · | · | · | · |
+| 04:00 | · | · | · | · | · | · | · | · |
+| 05:00 | · | · | · | · | · | · | · | · |
+| 06:00 | · | · | · | · | · | · | · | · |
+| 07:00 | · | · | · | · | · | · | · | · |
+| 08:00 | · | · | · | · | · | · | · | · |
+| 09:00 | · | · | · | · | · | · | · | · |
+| 10:00 | · | · | · | · | · | · | · | · |
+| 11:00 | · | · | · | · | · | · | · | · |
+| 12:00 | · | · | · | · | · | · | · | · |
+| 13:00 | · | · | · | · | · | · | · | · |
+| 14:00 | · | · | · | · | · | · | · | · |
+| 15:00 | · | · | · | · | · | · | · | · |
+| 16:00 | · | · | · | · | · | · | · | · |
+| 17:00 | · | · | · | · | · | · | · | · |
+| 18:00 | · | · | · | · | · | · | · | · |
+| 19:00 | · | · | · | · | · | · | · | · |
+| 20:00 | · | · | · | · | · | · | · | · |
+| 21:00 | · | · | · | · | · | · | · | · |
+| 22:00 | · | · | · | · | · | · | · | · |
+| 23:00 | · | · | · | · | · | · | · | · |
+
+## How often each game was running, by hour (all days)
+
+🟩 most of the time · 🟨 sometimes · 🟥 rarely
+
+| Hour | NLH €1/3 | PLO €10/10 | PLO €100/100 | Checks |
+|:--|--:|--:|--:|--:|
+| 00:00 | · | · | · | 0 |
+| 01:00 | · | · | · | 0 |
+| 02:00 | 🟩 100% | 🟩 100% | 🟩 100% | 3 |
+| 03:00 | · | · | · | 0 |
+| 04:00 | · | · | · | 0 |
+| 05:00 | · | · | · | 0 |
+| 06:00 | · | · | · | 0 |
+| 07:00 | · | · | · | 0 |
+| 08:00 | · | · | · | 0 |
+| 09:00 | · | · | · | 0 |
+| 10:00 | · | · | · | 0 |
+| 11:00 | · | · | · | 0 |
+| 12:00 | · | · | · | 0 |
+| 13:00 | · | · | · | 0 |
+| 14:00 | · | · | · | 0 |
+| 15:00 | · | · | · | 0 |
+| 16:00 | · | · | · | 0 |
+| 17:00 | · | · | · | 0 |
+| 18:00 | · | · | · | 0 |
+| 19:00 | · | · | · | 0 |
+| 20:00 | · | · | · | 0 |
+| 21:00 | · | · | · | 0 |
+| 22:00 | · | · | · | 0 |
+| 23:00 | · | · | · | 0 |
+
+## All games seen
+
+| Game | Running in | Most often | Last seen |
+|:--|--:|:--|:--|
+| NLH €1/3 | 100% of checks | Sat around 02:00 | 2026-10-10 02:50 |
+| PLO €10/10 | 100% of checks | Sat around 02:00 | 2026-10-10 02:50 |
+| PLO €100/100 | 100% of checks | Sat around 02:00 | 2026-10-10 02:50 |
 
 ---
-First version: the lists are saved exactly as the site shows them. Statistics per game and hour (like on the King's page) are added once a day of data shows the site's format.
-Raw data: `data/cardcasino` (one CSV file per month).
+Raw data: `data/cardcasino` (one CSV file per month). Card Casino lists seated players per table; it doesn't show waiting lists.
