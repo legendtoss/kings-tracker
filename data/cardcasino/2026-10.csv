@@ -119,3 +119,4 @@
 2026-10-10 21:30,Sat,21,ok,feed,4,25,NLH €1/3 8/8; NLH €1/3 3/8; PLO €10/10 8/8; PLO €100/200 6/8,
 2026-10-10 21:40,Sat,21,ok,feed,4,27,NLH €1/3 8/8; NLH €1/3 5/8; PLO €10/10 8/8; PLO €100/200 6/8,
 2026-10-10 21:50,Sat,21,ok,feed,4,30,NLH €1/3 8/8; NLH €1/3 8/8; PLO €10/10 8/8; PLO €100/200 6/8,
+2026-10-10 22:00,Sat,22,error: TimeoutError: Page.goto: Timeout 60000ms exceeded.,,,,,
