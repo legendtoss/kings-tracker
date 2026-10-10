@@ -1,4 +1,10 @@
 {
- "olympic-tallinn": "/ee/en/cash-games/?club=6",
- "olympic-vilnius": "/lt/cash-games/?club=10"
+ "olympic-tallinn": {
+  "url": "https://olybetpoker.com/ee/en/cash-games/?club=6",
+  "name": "Olympic Park Casino"
+ },
+ "olympic-vilnius": {
+  "url": "https://olybetpoker.com/lt/cash-games/?club=10",
+  "name": "Olympic Casino Vilnius, Lietuva"
+ }
 }
