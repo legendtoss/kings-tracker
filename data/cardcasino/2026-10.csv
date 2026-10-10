@@ -141,3 +141,4 @@
 2026-10-11 01:00,Sun,1,ok,feed,4,29,NLH €1/3 8/8; NLH €1/3 8/8; PLO €10/10 8/8; PLO €100/200 5/8,
 2026-10-11 01:10,Sun,1,ok,feed,4,29,NLH €1/3 8/8; NLH €1/3 8/8; PLO €10/10 8/8; PLO €100/200 5/8,
 2026-10-11 01:20,Sun,1,error: TimeoutError: Page.goto: Timeout 60000ms exceeded.,,,,,
+2026-10-11 01:30,Sun,1,ok,feed,4,29,NLH €1/3 8/8; NLH €1/3 8/8; PLO €10/10 8/8; PLO €100/200 5/8,
