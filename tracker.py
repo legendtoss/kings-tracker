@@ -24,6 +24,7 @@ emails you (after about an hour, then once a day). Nothing here needs editing.
 
 import csv
 import gzip
+import hashlib
 import json
 import os
 import re
@@ -95,6 +96,7 @@ CALENDAR_FILE = Path("calendar.csv")          # festival / series / cash-game-ev
 HENDONMOB_FILE = Path("hendonmob.txt")        # a copied Hendon Mob "upcoming events" page
 SCHEDULE_FILE = DATA_DIR / "schedule" / "events.csv"  # every event read from it so far (older ones are kept)
 SCHEDULE_FIELDS = ["room", "date", "end", "time", "kind", "game", "buyin", "title", "restricted"]
+PASTE_STATE = DATA_DIR / "schedule" / "paste.json"  # which copy of hendonmob.txt was read, and from when
 HOLIDAY_FILE = DATA_DIR / "holidays.json"     # worked out once a day
 SAMPLE_DIR = Path("debug/samples")            # a few raw feed records a day, to spot unused details
 FESTIVAL_TYPES = ("festival", "cash event")   # these days are kept apart from normal days in the stats
@@ -1545,6 +1547,31 @@ def parse_hendonmob(text, today):
     return events
 
 
+def hm_last_day(text, today):
+    """The last day a copied Hendon Mob page covers (any venue), so events past it are never touched."""
+    last = None
+    for raw in (text or "").splitlines():
+        m = HM_LINE.match(" ".join(raw.split()))
+        month = m and (m.group("m1") or m.group("m2"))
+        if month:
+            d = hm_day(m.group("d1"), int(m.group("n1")), MONTHS.index(month.title()) + 1, today)
+            last = max(last, d) if last and d else d or last
+    return last
+
+
+def merge_schedule(known, events, since, last_day):
+    """Add a fresh copy's events. For the rooms it lists, it has the final word on the days from
+    `since` (when it was pasted) to the last day it covers: anything it no longer lists there was moved
+    or cancelled and is dropped. Older days are never touched, so the history stays complete."""
+    fresh = {(e["room"], e["date"], e["time"], e["title"]): e for e in events}
+    rooms = {e["room"] for e in events}
+    for key in list(known):
+        if key[0] in rooms and since <= key[1] <= last_day and key not in fresh:
+            del known[key]
+    known.update(fresh)
+    return known
+
+
 def update_schedule(today):
     """Every event read from hendonmob.txt so far, kept in data/schedule/events.csv: replacing hendonmob.txt with a
     fresh copy adds new events and keeps the old ones, so past days can still be compared."""
@@ -1560,8 +1587,19 @@ def update_schedule(today):
         text = HENDONMOB_FILE.read_text(encoding="utf-8", errors="replace")
     except OSError:
         text = ""
-    for e in parse_hendonmob(text, today):
-        known[(e["room"], e["date"], e["time"], e["title"])] = e
+    events = parse_hendonmob(text, today)
+    if events:
+        try:
+            state = json.loads(PASTE_STATE.read_text(encoding="utf-8"))
+        except (OSError, ValueError):
+            state = {}
+        digest = hashlib.sha256(text.encode("utf-8")).hexdigest()[:16]
+        if state.get("hash") != digest:  # a new copy: it speaks for the days from today on
+            state = {"hash": digest, "from": today.isoformat()}
+            PASTE_STATE.parent.mkdir(parents=True, exist_ok=True)
+            PASTE_STATE.write_text(json.dumps(state), encoding="utf-8")
+        last = hm_last_day(text, today) or today
+        merge_schedule(known, events, state.get("from", today.isoformat()), last.isoformat())
     for e in known.values():  # re-read the game of older rows too, in case the reading has improved
         e["kind"] = hm_kind(e["title"])
         e["game"] = "Other" if e["kind"] == "other" else tourney_game(e["title"])
@@ -1682,6 +1720,19 @@ def nice_dates(start, end):
     return f"{start.day} {start:%b} – {end.day} {end:%b}"
 
 
+def uncovered_main_events(room, today):
+    """Main-event days on the schedule that no calendar.csv line covers yet - the cue to add a festival."""
+    covered = [(c["start_d"], c["end_d"]) for c in CONTEXT["calendar"] if c["room"] == room]
+    found = {}
+    for e in CONTEXT["schedule"]:
+        if e["room"] != room or e["kind"] != "tournament" or not re.search(r"main event|\bme\b", e["title"], re.I):
+            continue
+        d = date.fromisoformat(e["date"])
+        if d >= today and not any(a <= d <= b for a, b in covered):
+            found.setdefault(d, e)
+    return sorted(found.items())
+
+
 def calendar_lines(room, now):
     """Festivals now and next, Omaha tournaments in the next two weeks and coming public holidays."""
     today = now.date()
@@ -1697,6 +1748,12 @@ def calendar_lines(room, now):
                    f"{nice_dates(c['start_d'], c['end_d'])} ({c['type']})" + (f" — {details}" if details else ""))
     if not shown_rows:
         out.append("- No festivals listed for this room in `calendar.csv`.")
+    missing = uncovered_main_events(room, today)
+    if missing:
+        days = ", ".join(f"{d.day} {d:%b}" for d, _ in missing[:8]) + (" …" if len(missing) > 8 else "")
+        out.append(f"- ⚠️ **Not in `calendar.csv` yet:** Hendon Mob lists main-event days on {days} "
+                   f"(e.g. “{cal_text(event_name(missing[0][1]['title']), 70)}”). Add a line for that festival or "
+                   "series, so its days are compared separately instead of counting as normal days.")
     soon = [e for e in CONTEXT["schedule"] if e["room"] == room and omaha_event(e)
             and today <= date.fromisoformat(e["date"]) <= today + timedelta(days=14)]
     if soon:
@@ -1732,6 +1789,10 @@ def all_rooms_calendar_lines(now, limit=30):
            "From `calendar.csv` — open it on GitHub and use the pencil button to add or correct dates. "
            "🎪 festival · 💵 cash-game event · 🎟️ smaller series · 📍 nearby, not tracked.", "",
            "| Dates | Room | Event | Omaha |", "|:--|:--|:--|:--|"]
+    gaps = [ROOMS[room][0] for room in ROOMS if uncovered_main_events(room, today)]
+    if gaps:
+        out[3:3] = [f"⚠️ Main events on the schedule that `calendar.csv` doesn't cover yet: {', '.join(gaps)} "
+                    "(details on their pages).", ""]
     for c in rows[:limit]:
         name, page = ROOMS[c["room"]][:2] if c["room"] in ROOMS else (c["room"], "")
         room_cell = f"[{name}]({page})" if page else name
@@ -2272,6 +2333,17 @@ def self_test():
         assert "| 🎪 WSOPC | 29 Oct (1 day) | 1 | 50.0 | 0.0 | 8.0 | +20.0 |" in table, table
         assert day_tag("kings", "2026-10-30") == " 🎪 WSOPC" and day_tag("kings", "2026-11-17") == " 📅 public holiday"
         assert event_name("€ 300 + 40 Pot Limit Omaha - Main Event") == "Pot Limit Omaha - Main Event"
+        old = {("kings", "2026-10-09", "15:00", "Past event"): {}, ("kings", "2026-10-20", "15:00", "Cancelled"): {},
+               ("kings", "2026-12-30", "15:00", "Beyond the new copy"): {}, ("banco", "2026-10-20", "18:00", "Other room"): {},
+               ("kings", "2026-10-21", "14:00", "Moved"): {}}
+        new = [{"room": "kings", "date": "2026-10-21", "time": "16:00", "title": "Moved"}]
+        assert sorted(merge_schedule(old, new, "2026-10-11", "2026-12-19")) == [
+            ("banco", "2026-10-20", "18:00", "Other room"), ("kings", "2026-10-09", "15:00", "Past event"),
+            ("kings", "2026-10-21", "16:00", "Moved"), ("kings", "2026-12-30", "15:00", "Beyond the new copy")]
+        CONTEXT["schedule"] = [{"room": "kings", "date": "2026-11-12", "kind": "tournament", "title": "€ 500 NLH - Main Event Day 1A"},
+                               {"room": "kings", "date": "2026-11-02", "kind": "tournament", "title": "€ 500 NLH - Main Event Day 1A"},
+                               {"room": "kings", "date": "2026-11-13", "kind": "satellite", "title": "Satellite to ME"}]
+        assert [d.isoformat() for d, _ in uncovered_main_events("kings", date(2026, 10, 11))] == ["2026-11-12"]
         assert cal_text("€199 main event; €350 high roller 11–12 Oct | x") == "€199 main event; €350 high roller 11–12 Oct x"
     finally:
         CONTEXT.update(saved)
