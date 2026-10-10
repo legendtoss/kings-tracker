@@ -2,30 +2,30 @@
 
 Checks King's live cash games and tournaments about every 10 minutes and updates this page by itself. All times are **Czech time** (same as Poland). Also tracking: [Card Casino Šamorín](CARD_CASINO.md) · [Grand Casino Aš](GRAND_CASINO_AS.md) · [Banco Casino Bratislava](BANCO.md) · [Olympic Park Tallinn](OLYMPIC_TALLINN.md) · [Olympic Casino Vilnius](OLYMPIC_VILNIUS.md).
 
-**Right now:** King's: 12 tables, 92 players · [Card Casino Šamorín](CARD_CASINO.md): couldn't be read · [Grand Casino Aš](GRAND_CASINO_AS.md): 4 tables running, 1 waiting · [Olympic Park Tallinn](OLYMPIC_TALLINN.md): couldn't be read at 23:00 · [Olympic Vilnius](OLYMPIC_VILNIUS.md): couldn't be read at 23:00 · [Banco](BANCO.md): no games listed
+**Right now:** King's: 12 tables, 91 players · [Card Casino Šamorín](CARD_CASINO.md): 5 tables, 37 players · [Grand Casino Aš](GRAND_CASINO_AS.md): 4 tables running, 1 waiting · [Olympic Park Tallinn](OLYMPIC_TALLINN.md): couldn't be read at 23:00 · [Olympic Vilnius](OLYMPIC_VILNIUS.md): couldn't be read at 23:00 · [Banco](BANCO.md): no games listed
 
-**Last check:** 2026-10-10 23:00 — ✅ OK (data feed)  
-**Last 24 h:** 149 of 149 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-06 (342 good checks)
+**Last check:** 2026-10-10 23:10 — ✅ OK (data feed)  
+**Last 24 h:** 149 of 149 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-06 (343 good checks)
 
-## Tables running at 2026-10-10 23:00
+## Tables running at 2026-10-10 23:10
 
 ```
 NLH   €1/2     8/8 players
 NLH   €1/2     8/8 players
-NLH   €1/2     8/8 players
-NLH   €1/2     8/8 players
 NLH   €1/2     7/8 players
 NLH   €1/2     8/8 players
 NLH   €1/2     8/8 players
-NLH   €1/2     7/8 players
+NLH   €1/2     8/8 players
+NLH   €1/2     6/8 players
+NLH   €1/2     8/8 players
 NLH   €2/4     7/8 players
-NLH   €5/10    7/8 players
-PLO   €2/2     8/8 players
+NLH   €5/10    8/8 players
+PLO   €2/2     7/8 players
 PLO5  €5/5     8/8 players
 ```
-**NLH:** 76 players at 10 tables · **PLO:** 8 players at 1 table · **PLO5:** 8 players at 1 table
+**NLH:** 76 players at 10 tables · **PLO:** 7 players at 1 table · **PLO5:** 8 players at 1 table
 
-**Tournaments in play:** GPD Mystery Bounty - Day 1F (NLH, €124, €75 bounty, 152 of 289 left, late reg open, level 8, blinds 1000/1500/1500) · GPD Saturday Night Turbo (NLH, €125, 82 of 181 left, late reg open, level 8, blinds 500/1000/1000)
+**Tournaments in play:** GPD Mystery Bounty - Day 1F (NLH, €124, €75 bounty, 150 of 291 left, late reg open, level 9, blinds 1000/2000/2000) · GPD Saturday Night Turbo (NLH, €125, 86 of 186 left, late reg open, level 8, blinds 500/1000/1000)
 
 ## Busiest times so far
 
@@ -62,7 +62,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 20:00 | · | 18 | 20 | · | 47 | 61 | · | 42 |
 | 21:00 | · | 20 | 27 | · | 42 | 62 | · | 44 |
 | 22:00 | · | 16 | 26 | 28 | 54 | 71 | · | 49 |
-| 23:00 | · | 16 | 24 | · | 66 | 76 | · | 43 |
+| 23:00 | · | 16 | 24 | · | 66 | 76 | · | 46 |
 
 ### 5-card Pot-Limit Omaha (PLO5)
 
@@ -151,7 +151,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 20:00 | 🟩 83% | 🟨 67% | 🟥 17% | 🟨 67% | 🟩 83% | 🟥 17% | 🟥 0% | 🟥 0% | 18 |
 | 21:00 | 🟩 82% | 🟨 65% | 🟨 35% | 🟨 71% | 🟩 94% | 🟥 18% | 🟥 0% | 🟥 0% | 17 |
 | 22:00 | 🟩 89% | 🟨 68% | 🟨 37% | 🟨 68% | 🟩 84% | 🟨 26% | 🟥 0% | 🟥 0% | 19 |
-| 23:00 | 🟨 71% | 🟩 100% | 🟥 7% | 🟨 50% | 🟨 57% | 🟨 71% | 🟥 0% | 🟥 7% | 14 |
+| 23:00 | 🟨 73% | 🟩 100% | 🟥 13% | 🟨 53% | 🟨 60% | 🟨 67% | 🟥 0% | 🟥 7% | 15 |
 
 ## Cash games vs tournaments
 
@@ -161,11 +161,11 @@ Collecting since 2026-10-08. Shown from 2026-10-22: with fewer than two weeks, t
 
 | Game | Running in | Most often | Last seen |
 |:--|--:|:--|:--|
-| NLH €1/2 | 69% of checks | Fri around 22:00 | 2026-10-10 23:00 |
-| NLH €2/4 | 69% of checks | Fri around 22:00 | 2026-10-10 23:00 |
-| NLH €5/10 | 11% of checks | Fri around 18:00 | 2026-10-10 23:00 |
-| PLO €2/2 | 46% of checks | Fri around 22:00 | 2026-10-10 23:00 |
-| PLO5 €5/5 | 46% of checks | Sat around 19:00 | 2026-10-10 23:00 |
+| NLH €1/2 | 69% of checks | Fri around 22:00 | 2026-10-10 23:10 |
+| NLH €2/4 | 69% of checks | Fri around 22:00 | 2026-10-10 23:10 |
+| NLH €5/10 | 11% of checks | Fri around 18:00 | 2026-10-10 23:10 |
+| PLO €2/2 | 46% of checks | Fri around 22:00 | 2026-10-10 23:10 |
+| PLO5 €5/5 | 46% of checks | Sat around 19:00 | 2026-10-10 23:10 |
 | PLO5 €10/10 | 25% of checks | Fri around 23:00 | 2026-10-10 19:40 |
 | PLO5 €10/25 | 4% of checks | Wed around 06:00 | 2026-10-07 10:04 |
 | MIX NLH/PLO €5/5 | 3% of checks | Wed around 00:00 | 2026-10-07 02:33 |
@@ -176,8 +176,8 @@ The most recent ones. The game is read from the tournament's name.
 
 | Tournament | Game | Buy-in | Entries | Seen |
 |:--|:--|--:|--:|:--|
-| GPD Mystery Bounty - Day 1F | NLH | €124 | 289 | 2026-10-10 18:00 → 10-10 23:00 |
-| GPD Saturday Night Turbo | NLH | €125 | 181 | 2026-10-10 21:00 → 10-10 23:00 |
+| GPD Mystery Bounty - Day 1F | NLH | €124 | 291 | 2026-10-10 18:00 → 10-10 23:10 |
+| GPD Saturday Night Turbo | NLH | €125 | 186 | 2026-10-10 21:00 → 10-10 23:10 |
 | GPD Pot Limit Omaha | PLO | €125 | 114 | 2026-10-10 15:00 → 10-10 21:00 |
 | GPD Mystery Bounty - Day 1E | NLH | €124 | 371 | 2026-10-10 11:00 → 10-10 20:50 |
 | Flip n Go Satellite (8 handed) to GPD ME - Day 1F | NLH | €35 | 86 | 2026-10-10 16:00 → 10-10 18:10 |
