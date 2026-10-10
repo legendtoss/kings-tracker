@@ -2,8 +2,8 @@
 
 Reads [OlyBet's live cash games page](https://olybetpoker.com/ee/en/cash-games/) every 30 minutes (their site has bot protection, so the tracker checks gently and simply records it when a check is refused). All times are **Czech time** (Tallinn and Vilnius are one hour ahead). Back to [King's](README.md).
 
-**Last check:** 2026-10-10 04:00 — ⚠️ error: ValueError: unknown url type: '/ee/en/cash-games/ club 6' — details in `debug/olympic-tallinn_page.json`  
-**Last 24 h:** 0 of 1 checks OK, longest gap 0 h 0 min · **Collecting since:** 2026-10-10 (0 good checks)
+**Last check:** 2026-10-10 04:30 — ⚠️ error: blocked by the site's bot protection — details in `debug/olympic-tallinn_page.json`  
+**Last 24 h:** 0 of 2 checks OK, longest gap 0 h 30 min · **Collecting since:** 2026-10-10 (0 good checks)
 
 **Tournaments on their site at 2026-10-10 04:00:** live 12:00 Olympic Park Casino 3 FREEBUY NLH Mega-Satellite, €20 Rebuys & Add-On 10,000 €0 12:30 Olympic Park Casino 2 NLH Mini-Main Day 1/B 30,000 €250 13:00 Olympic Park Casino 4 OFC Pineapple 30,000 €350 17:00 Olympic Park Casino 5 NLH Win TV Series 30,000 €100 19:30 Olympic Park Casino 2 NLH Mini-Main Day 1/C 30,000 €250 20:00 Olympic Park Casino 6 PLO4/PLO5 Progressive Bounty 25,000 €250 20:00 Olympic Park Casino 7 NLH MegaSat to €555 Championship 15,000 €80 22:30 Olympic Park Casino 8 PLO5 Satellite to €1100 PLO4/PLO5 Championship 15,000 €80
 
