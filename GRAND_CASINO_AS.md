@@ -2,18 +2,19 @@
 
 Reads [Grand Casino Aš's live cash games](https://www.grandcasinoas.eu/en/poker/poker-live) every 10 minutes and its [current tournaments](https://www.grandcasinoas.eu/en/poker) every 30 minutes. All times are **Czech time** (same as Poland). Back to [King's](README.md).
 
-**Last check:** 2026-10-10 20:20 — ✅ OK  
-**Last 24 h:** 104 of 104 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-10 (104 good checks)
+**Last check:** 2026-10-10 20:30 — ✅ OK  
+**Last 24 h:** 105 of 105 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-10 (105 good checks)
 
-## Cash games at 2026-10-10 20:20
+## Cash games at 2026-10-10 20:30
 
 ```
+NLH      €1/2     running
 NLH      €1/2     running
 DC       €2/2     running
 PLO/NLH           waiting
 ```
 
-**Tournaments in play at 2026-10-10 20:00:** BHD PKO Main Event 1B (NLH, €230, 40 of 206 left, level 14, blinds 2000/5000/5000) · Saturday Freezeout (NLH, €120, 11 of 63 left, level 15, blinds 2000/5000/5000) · BHD PKO Main Event 1C (NLH, €230, 54 of 74 left, late reg open, level 6, blinds 400/800/800)
+**Tournaments in play at 2026-10-10 20:30:** BHD PKO Main Event 1B (NLH, €230, 34 of 206 left, level 15, blinds 3000/6000/6000) · Saturday Freezeout (NLH, €120, 9 of 63 left, level 16, blinds 3000/6000/6000) · BHD PKO Main Event 1C (NLH, €230, 47 of 80 left, late reg open, level 7, blinds 500/1000/1000) · Saturday Quattro Bounty (NLH, €150, 85 of 90 left, late reg open, level 2, blinds 100/200/200)
 
 ## Running cash tables by hour
 
@@ -41,7 +42,7 @@ Average number of running tables (Grand Casino Aš shows which games run, not ho
 | 17:00 | · | · | · | · | · | 0.0 | · | 0.0 |
 | 18:00 | · | · | · | · | · | 1.0 | · | 1.0 |
 | 19:00 | · | · | · | · | · | 2.0 | · | 2.0 |
-| 20:00 | · | · | · | · | · | 2.0 | · | 2.0 |
+| 20:00 | · | · | · | · | · | 2.2 | · | 2.2 |
 | 21:00 | · | · | · | · | · | · | · | · |
 | 22:00 | · | · | · | · | · | · | · | · |
 | 23:00 | · | · | · | · | · | · | · | · |
@@ -72,7 +73,7 @@ Average number of running tables (Grand Casino Aš shows which games run, not ho
 | 17:00 | 🟥 0% | 🟥 0% | 🟥 0% | 6 |
 | 18:00 | 🟨 50% | 🟨 50% | 🟥 0% | 6 |
 | 19:00 | 🟩 100% | 🟨 71% | 🟨 29% | 7 |
-| 20:00 | 🟩 100% | 🟥 0% | 🟩 100% | 3 |
+| 20:00 | 🟩 100% | 🟥 0% | 🟩 100% | 4 |
 | 21:00 | · | · | · | 0 |
 | 22:00 | · | · | · | 0 |
 | 23:00 | · | · | · | 0 |
@@ -83,9 +84,10 @@ The most recent ones. The game is read from the tournament's name.
 
 | Tournament | Game | Buy-in | Entries | Seen |
 |:--|:--|--:|--:|:--|
-| BHD PKO Main Event 1B | NLH | €230 | 206 | 2026-10-10 12:30 → 10-10 20:00 |
-| Saturday Freezeout | NLH | €120 | 63 | 2026-10-10 14:30 → 10-10 20:00 |
-| BHD PKO Main Event 1C | NLH | €230 | 74 | 2026-10-10 17:30 → 10-10 20:00 |
+| BHD PKO Main Event 1B | NLH | €230 | 206 | 2026-10-10 12:30 → 10-10 20:30 |
+| Saturday Freezeout | NLH | €120 | 63 | 2026-10-10 14:30 → 10-10 20:30 |
+| BHD PKO Main Event 1C | NLH | €230 | 80 | 2026-10-10 17:30 → 10-10 20:30 |
+| Saturday Quattro Bounty | NLH | €150 | 90 | 2026-10-10 20:30 |
 | Mayoman s Highroller | NLH | €400 | 97 | 2026-10-10 04:00 → 10-10 05:00 |
 
 ---
