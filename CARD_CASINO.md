@@ -2,15 +2,12 @@
 
 Reads [Card Casino's live cash-game list](https://www.cardcasino.sk/en/cashgames/) together with King's, about every 10 minutes. All times are **Czech time** (same as Poland and Slovakia). Back to [King's](README.md).
 
-**Last check:** 2026-10-11 08:30 — ✅ OK (live list)  
-**Last 24 h:** 124 of 148 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-10 (152 good checks)
+**Last check:** 2026-10-11 08:40 — ✅ OK (live list)  
+**Last 24 h:** 124 of 148 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-10 (153 good checks)
 
-## Tables running at 2026-10-11 08:30
+## Tables running at 2026-10-11 08:40
 
-```
-NLH  €1/3     7/8 players
-```
-**NLH:** 7 players at 1 table
+No tables were running.
 
 ## Festivals and schedule
 
@@ -44,7 +41,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 05:00 | · | · | · | · | · | 7 | 6 | 7 |
 | 06:00 | · | · | · | · | · | 6 | 8 | 7 |
 | 07:00 | · | · | · | · | · | 2 | 8 | 5 |
-| 08:00 | · | · | · | · | · | 0 | 8 | 4 |
+| 08:00 | · | · | · | · | · | 0 | 6 | 4 |
 | 09:00 | · | · | · | · | · | 0 | · | 0 |
 | 10:00 | · | · | · | · | · | 0 | · | 0 |
 | 11:00 | · | · | · | · | · | 0 | · | 0 |
@@ -104,7 +101,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 05:00 | 🟩 100% | 🟩 100% | 🟥 0% | 🟨 25% | 8 |
 | 06:00 | 🟩 100% | 🟩 92% | 🟥 0% | 🟥 0% | 12 |
 | 07:00 | 🟨 64% | 🟥 9% | 🟥 0% | 🟥 0% | 11 |
-| 08:00 | 🟨 57% | 🟥 0% | 🟥 0% | 🟥 0% | 7 |
+| 08:00 | 🟨 50% | 🟥 0% | 🟥 0% | 🟥 0% | 8 |
 | 09:00 | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 6 |
 | 10:00 | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 6 |
 | 11:00 | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 5 |
@@ -127,7 +124,7 @@ Average seated players per check on each kind of day, in total and for NLH and O
 
 | Days | Dates | Checks | Players | NLH | Omaha | vs normal, same hour |
 |:--|:--|--:|--:|--:|--:|--:|
-| 💵 Cash game days: NLH/PLO/PLO5 from €10/20 | 10–11 Oct (2 days) | 152 | 14.5 | 7.4 | 7.1 | · |
+| 💵 Cash game days: NLH/PLO/PLO5 from €10/20 | 10–11 Oct (2 days) | 153 | 14.4 | 7.4 | 7.0 | · |
 
 ## All games seen
 
