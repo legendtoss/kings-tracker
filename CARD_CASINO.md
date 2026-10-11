@@ -2,12 +2,15 @@
 
 Reads [Card Casino's live cash-game list](https://www.cardcasino.sk/en/cashgames/) together with King's, about every 10 minutes. All times are **Czech time** (same as Poland and Slovakia). Back to [King's](README.md).
 
-**Last check:** 2026-10-11 08:40 — ✅ OK (live list)  
-**Last 24 h:** 124 of 148 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-10 (153 good checks)
+**Last check:** 2026-10-11 08:50 — ✅ OK (live list)  
+**Last 24 h:** 125 of 148 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-10 (154 good checks)
 
-## Tables running at 2026-10-11 08:40
+## Tables running at 2026-10-11 08:50
 
-No tables were running.
+```
+NLH  €1/3     6/8 players
+```
+**NLH:** 6 players at 1 table
 
 ## Festivals and schedule
 
@@ -101,7 +104,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 05:00 | 🟩 100% | 🟩 100% | 🟥 0% | 🟨 25% | 8 |
 | 06:00 | 🟩 100% | 🟩 92% | 🟥 0% | 🟥 0% | 12 |
 | 07:00 | 🟨 64% | 🟥 9% | 🟥 0% | 🟥 0% | 11 |
-| 08:00 | 🟨 50% | 🟥 0% | 🟥 0% | 🟥 0% | 8 |
+| 08:00 | 🟨 56% | 🟥 0% | 🟥 0% | 🟥 0% | 9 |
 | 09:00 | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 6 |
 | 10:00 | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 6 |
 | 11:00 | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 5 |
@@ -124,14 +127,14 @@ Average seated players per check on each kind of day, in total and for NLH and O
 
 | Days | Dates | Checks | Players | NLH | Omaha | vs normal, same hour |
 |:--|:--|--:|--:|--:|--:|--:|
-| 💵 Cash game days: NLH/PLO/PLO5 from €10/20 | 10–11 Oct (2 days) | 153 | 14.4 | 7.4 | 7.0 | · |
+| 💵 Cash game days: NLH/PLO/PLO5 from €10/20 | 10–11 Oct (2 days) | 154 | 14.4 | 7.4 | 7.0 | · |
 
 ## All games seen
 
 | Game | Running in | Most often | Last seen |
 |:--|--:|:--|:--|
-| NLH €1/3 | 62% of checks | Sat around 06:00 | 2026-10-11 08:30 |
-| PLO €10/10 | 58% of checks | Sat around 19:00 | 2026-10-11 07:00 |
+| NLH €1/3 | 62% of checks | Sat around 06:00 | 2026-10-11 08:50 |
+| PLO €10/10 | 57% of checks | Sat around 19:00 | 2026-10-11 07:00 |
 | PLO €100/100 | 32% of checks | Sat around 14:00 | 2026-10-10 20:40 |
 | PLO €100/200 | 27% of checks | Sat around 21:00 | 2026-10-11 05:10 |
 
