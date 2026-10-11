@@ -4,21 +4,21 @@ Checks King's live cash games and tournaments about every 10 minutes and updates
 
 **Right now:** King's: 5 tables, 38 players · [Card Casino Šamorín](CARD_CASINO.md) 💵 Cash game days: NLH/PLO/PLO5 from €10/20: 2 tables, 16 players · [Grand Casino Aš](GRAND_CASINO_AS.md): 1 table running, 1 waiting · [Olympic Park Tallinn](OLYMPIC_TALLINN.md) 🎪 Kings of Tallinn: 2 tables, 17 players (11 waiting) at 20:30 · [Olympic Vilnius](OLYMPIC_VILNIUS.md): blocked at 20:30 · [Banco](BANCO.md): no games listed
 
-**Last check:** 2026-10-11 20:30 — ✅ OK (data feed)  
-**Last 24 h:** 148 of 148 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-06 (474 good checks)
+**Last check:** 2026-10-11 20:40 — ✅ OK (data feed)  
+**Last 24 h:** 148 of 148 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-06 (475 good checks)
 
-## Tables running at 2026-10-11 20:30
+## Tables running at 2026-10-11 20:40
 
 ```
 NLH   €1/2     8/8 players
-NLH   €1/2     7/8 players
-NLH   €1/2     7/8 players
+NLH   €1/2     6/8 players
+NLH   €1/2     8/8 players
 PLO   €2/2     8/8 players
 PLO5  €5/5     8/8 players
 ```
 **NLH:** 22 players at 3 tables · **PLO:** 8 players at 1 table · **PLO5:** 8 players at 1 table
 
-**Tournaments in play:** GPD Mystery - Final day (NLH, €124, €75 bounty, 36 of 1686 left, level 22, blinds 50000/100000/100000) · GPD High Roller (NLH, €350, 96 of 118 left, late reg open, level 5, blinds 1500/3000/3000)
+**Tournaments in play:** GPD Mystery - Final day (NLH, €124, €75 bounty, 33 of 1686 left, level 22, blinds 50000/100000/100000) · GPD High Roller (NLH, €350, 95 of 121 left, late reg open, level 5, blinds 1500/3000/3000)
 
 ## Festivals and schedule
 
@@ -95,7 +95,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 17:00 | · | 19 | 16 | · | 38 | 44 | 37 | 35 |
 | 18:00 | · | 19 | 18 | · | 44 | 46 | 28 | 34 |
 | 19:00 | · | 22 | 16 | · | 46 | 50 | 26 | 37 |
-| 20:00 | · | 18 | 20 | · | 47 | 61 | 22 | 39 |
+| 20:00 | · | 18 | 20 | · | 47 | 61 | 22 | 38 |
 | 21:00 | · | 20 | 27 | · | 42 | 62 | · | 44 |
 | 22:00 | · | 16 | 26 | 28 | 54 | 71 | · | 49 |
 | 23:00 | · | 16 | 24 | · | 66 | 78 | · | 54 |
@@ -184,7 +184,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 17:00 | 🟩 87% | 🟨 43% | 🟨 26% | 🟩 78% | 🟨 70% | 🟥 13% | 🟥 0% | 🟥 0% | 23 |
 | 18:00 | 🟩 88% | 🟨 50% | 🟨 50% | 🟩 75% | 🟩 79% | 🟥 12% | 🟥 0% | 🟥 0% | 24 |
 | 19:00 | 🟩 88% | 🟨 54% | 🟥 21% | 🟩 79% | 🟩 92% | 🟨 25% | 🟥 0% | 🟥 0% | 24 |
-| 20:00 | 🟩 86% | 🟨 55% | 🟥 14% | 🟨 73% | 🟩 86% | 🟥 14% | 🟥 0% | 🟥 0% | 22 |
+| 20:00 | 🟩 87% | 🟨 52% | 🟥 13% | 🟨 74% | 🟩 87% | 🟥 13% | 🟥 0% | 🟥 0% | 23 |
 | 21:00 | 🟩 82% | 🟨 65% | 🟨 35% | 🟨 71% | 🟩 94% | 🟥 18% | 🟥 0% | 🟥 0% | 17 |
 | 22:00 | 🟩 89% | 🟨 68% | 🟨 37% | 🟨 68% | 🟩 84% | 🟨 26% | 🟥 0% | 🟥 0% | 19 |
 | 23:00 | 🟩 80% | 🟩 100% | 🟨 35% | 🟨 65% | 🟨 70% | 🟨 50% | 🟥 0% | 🟥 5% | 20 |
@@ -197,11 +197,11 @@ Collecting since 2026-10-08. Shown from 2026-10-22: with fewer than two weeks, t
 
 | Game | Running in | Most often | Last seen |
 |:--|--:|:--|:--|
-| NLH €1/2 | 77% of checks | Fri around 22:00 | 2026-10-11 20:30 |
-| NLH €2/4 | 58% of checks | Fri around 22:00 | 2026-10-11 17:30 |
+| NLH €1/2 | 77% of checks | Fri around 22:00 | 2026-10-11 20:40 |
+| NLH €2/4 | 57% of checks | Fri around 22:00 | 2026-10-11 17:30 |
 | NLH €5/10 | 14% of checks | Sat around 23:00 | 2026-10-11 19:30 |
-| PLO €2/2 | 47% of checks | Fri around 22:00 | 2026-10-11 20:30 |
-| PLO5 €5/5 | 45% of checks | Sat around 19:00 | 2026-10-11 20:30 |
+| PLO €2/2 | 47% of checks | Fri around 22:00 | 2026-10-11 20:40 |
+| PLO5 €5/5 | 45% of checks | Sat around 19:00 | 2026-10-11 20:40 |
 | PLO5 €10/10 | 18% of checks | Fri around 23:00 | 2026-10-10 19:40 |
 | PLO5 €10/25 | 3% of checks | Wed around 06:00 | 2026-10-07 10:04 |
 | MIX NLH/PLO €5/5 | 2% of checks | Wed around 00:00 | 2026-10-07 02:33 |
@@ -212,8 +212,8 @@ The most recent ones. The game is read from the tournament's name.
 
 | Tournament | Game | Buy-in | Entries | Seen |
 |:--|:--|--:|--:|:--|
-| GPD Mystery - Final day | NLH | €124 | 1686 | 2026-10-11 16:00 → 10-11 20:30 |
-| GPD High Roller | NLH | €350 | 118 | 2026-10-11 18:00 → 10-11 20:30 |
+| GPD Mystery - Final day | NLH | €124 | 1686 | 2026-10-11 16:00 → 10-11 20:40 |
+| GPD High Roller | NLH | €350 | 121 | 2026-10-11 18:00 → 10-11 20:40 |
 | GPD Mystery - Day 1G Turbo | NLH | €124 | 245 | 2026-10-11 11:00 → 10-11 15:20 |
 | GPD Mystery - Day 1 Flip and Go Pineapple | Pineapple | €124 | 87 | 2026-10-11 13:30 → 10-11 15:20 |
 | GPD Saturday Night Turbo | NLH | €125 | 188 | 2026-10-10 21:00 → 10-11 04:00 |
