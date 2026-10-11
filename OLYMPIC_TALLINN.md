@@ -2,16 +2,16 @@
 
 Reads [OlyBet's live cash games page](https://olybetpoker.com/ee/en/cash-games/) every 30 minutes (their site has bot protection, so the tracker checks gently and simply records it when a check is refused). All times are **Czech time** (Tallinn and Vilnius are one hour ahead). Back to [King's](README.md).
 
-**Last check:** 2026-10-11 15:00 — ✅ OK  
-**Last 24 h:** 13 of 49 checks OK, longest gap 0 h 30 min · **Collecting since:** 2026-10-10 (13 good checks)
+**Last check:** 2026-10-11 15:30 — ✅ OK  
+**Last 24 h:** 14 of 49 checks OK, longest gap 0 h 30 min · **Collecting since:** 2026-10-10 (14 good checks)
 
 **Club:** Olympic Park Casino
 
-## Tables running at 2026-10-11 15:00
+## Tables running at 2026-10-11 15:30
 
 No tables were running.
 
-**Waiting lists:** 3 players · **All games listed:** NLH €1/3 (closed): 0 tables, 0/0 players, 1 waiting PLO/PLO5 €1/3 (closed): 0 tables, 0/0 players, 2 waiting NLH €5/5 (closed): 0 tables, 0/0 players, 0 waiting PLO/PLO5 €5/5 (closed): 0 tables, 0/0 players, 0 waiting
+**Waiting lists:** 4 players · **All games listed:** NLH €1/3 (closed): 0 tables, 0/0 players, 1 waiting PLO/PLO5 €1/3 (closed): 0 tables, 0/0 players, 2 waiting NLH €5/5 (closed): 0 tables, 0/0 players, 1 waiting PLO/PLO5 €5/5 (closed): 0 tables, 0/0 players, 0 waiting
 
 **Tournaments on their site at 2026-10-11 15:00:** live 12:00 Olympic Park Casino 2 NLH Mini-Main Final 30,000 €250 13:30 Olympic Park Casino 9 FREEBUY NLH Satellite to KOT Cup, €20 Rebuys & Add-On 10,000 €0 14:00 Olympic Park Casino 10 PLO 4/5 Championship Day 1 30,000 €1,100 15:05 Olympic Park Casino 11 NLH Kings of Tallinn Cup Day 1/A 30,000 €350 16:00 Olympic Park Casino 13 PL Razz Progressive Bounty 30,000 €250 16:00 Olympic Park Casino 12 FREEBUY NLH Satellite to 20 NLH Queens, €20 Rebuys & Add-On 10,000 €0 19:00 Olympic Park Casino 14 NLH Championship Day 1/A 30,000 €555 19:30 Olympic Park Casino 15 PL Sviten 30,000 €350 20:00 Olympic Park Casino 11 NLH Kings of Tallinn Cup Day 1/B 30,000 €350 22:30 Olympic Park Casino 16 NLH Turbo, 8-handed 25,000 €200 22:30 Olympic Park Casino 17 NLH MegaSat to €555 Championship 15,000 €80
 
@@ -62,7 +62,7 @@ Average seated players per check on each kind of day, in total and for NLH and O
 
 | Days | Dates | Checks | Players | NLH | Omaha | vs normal, same hour |
 |:--|:--|--:|--:|--:|--:|--:|
-| 🎪 Kings of Tallinn | 11 Oct (1 day) | 13 | 0.0 | 0.0 | 0.0 | · |
+| 🎪 Kings of Tallinn | 11 Oct (1 day) | 14 | 0.0 | 0.0 | 0.0 | · |
 
 ---
 Raw data: `data/olympic-tallinn` (one CSV file per month).

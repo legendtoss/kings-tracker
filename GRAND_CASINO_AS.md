@@ -2,16 +2,16 @@
 
 Reads [Grand Casino Aš's live cash games](https://www.grandcasinoas.eu/en/poker/poker-live) every 10 minutes and its [current tournaments](https://www.grandcasinoas.eu/en/poker) every 30 minutes. All times are **Czech time** (same as Poland). Back to [King's](README.md).
 
-**Last check:** 2026-10-11 15:20 — ✅ OK  
-**Last 24 h:** 148 of 148 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-10 (220 good checks)
+**Last check:** 2026-10-11 15:30 — ✅ OK  
+**Last 24 h:** 148 of 148 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-10 (221 good checks)
 
-## Cash games at 2026-10-11 15:20
+## Cash games at 2026-10-11 15:30
 
 ```
 PLO/NLH           waiting
 ```
 
-**Tournaments in play at 2026-10-11 15:00:** Barista Rebel Cup (NLH, €130, 51 of 89 left, late reg open, level 8, blinds 500/1000/1000)
+**Tournaments in play at 2026-10-11 15:30:** Barista Rebel Cup (NLH, €130, 50 of 95 left, level 9, blinds 600/1200/1200) · BHD PKO Main Event Final Day (NLH, €230, 24 of 420 left, level 20, blinds 10000/25000/25000)
 
 ## Festivals and schedule
 
@@ -88,7 +88,7 @@ Average number of running tables (Grand Casino Aš shows which games run, not ho
 | 12:00 | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 12 |
 | 13:00 | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 12 |
 | 14:00 | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 13 |
-| 15:00 | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 9 |
+| 15:00 | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 10 |
 | 16:00 | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 6 |
 | 17:00 | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 6 |
 | 18:00 | 🟨 50% | 🟨 50% | 🟥 0% | 🟥 0% | 6 |
@@ -104,8 +104,8 @@ The most recent ones. The game is read from the tournament's name.
 
 | Tournament | Game | Buy-in | Entries | Seen |
 |:--|:--|--:|--:|:--|
-| Barista Rebel Cup | NLH | €130 | 89 | 2026-10-11 12:30 → 10-11 15:00 |
-| BHD PKO Main Event Final Day | NLH | €230 | 420 | 2026-10-11 12:00 → 10-11 14:30 |
+| BHD PKO Main Event Final Day | NLH | €230 | 420 | 2026-10-11 12:00 → 10-11 15:30 |
+| Barista Rebel Cup | NLH | €130 | 95 | 2026-10-11 12:30 → 10-11 15:30 |
 | BHD PKO Main Event 1C | NLH | €230 | 93 | 2026-10-10 17:30 → 10-11 11:00 |
 | Saturday Quattro Bounty | NLH | €150 | 151 | 2026-10-10 20:30 → 10-11 05:00 |
 | Saturday Freezeout | NLH | €120 | 63 | 2026-10-10 14:30 → 10-10 22:00 |

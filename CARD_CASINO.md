@@ -2,10 +2,10 @@
 
 Reads [Card Casino's live cash-game list](https://www.cardcasino.sk/en/cashgames/) together with King's, about every 10 minutes. All times are **Czech time** (same as Poland and Slovakia). Back to [King's](README.md).
 
-**Last check:** 2026-10-11 15:20 — ✅ OK (live list)  
-**Last 24 h:** 125 of 148 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-10 (190 good checks)
+**Last check:** 2026-10-11 15:30 — ✅ OK (live list)  
+**Last 24 h:** 125 of 148 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-10 (191 good checks)
 
-## Tables running at 2026-10-11 15:20
+## Tables running at 2026-10-11 15:30
 
 No tables were running.
 
@@ -77,7 +77,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 12:00 | · | · | · | · | · | 2 | 0 | 1 |
 | 13:00 | · | · | · | · | · | 4 | 0 | 2 |
 | 14:00 | · | · | · | · | · | 4 | 0 | 2 |
-| 15:00 | · | · | · | · | · | 5 | 0 | 3 |
+| 15:00 | · | · | · | · | · | 5 | 0 | 2 |
 | 16:00 | · | · | · | · | · | 5 | · | 5 |
 | 17:00 | · | · | · | · | · | 8 | · | 8 |
 | 18:00 | · | · | · | · | · | 11 | · | 11 |
@@ -108,7 +108,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 12:00 | 🟥 0% | 🟥 0% | 🟥 18% | 🟥 0% | 11 |
 | 13:00 | 🟥 0% | 🟥 0% | 🟨 56% | 🟥 0% | 9 |
 | 14:00 | 🟥 0% | 🟥 0% | 🟨 50% | 🟥 0% | 12 |
-| 15:00 | 🟥 0% | 🟥 0% | 🟨 57% | 🟥 0% | 7 |
+| 15:00 | 🟥 0% | 🟥 0% | 🟨 50% | 🟥 0% | 8 |
 | 16:00 | 🟥 0% | 🟥 0% | 🟩 100% | 🟥 0% | 6 |
 | 17:00 | 🟥 0% | 🟨 60% | 🟩 100% | 🟥 0% | 5 |
 | 18:00 | 🟩 80% | 🟩 100% | 🟩 100% | 🟥 0% | 5 |
@@ -124,7 +124,7 @@ Average seated players per check on each kind of day, in total and for NLH and O
 
 | Days | Dates | Checks | Players | NLH | Omaha | vs normal, same hour |
 |:--|:--|--:|--:|--:|--:|--:|
-| 💵 Cash game days: NLH/PLO/PLO5 from €10/20 | 10–11 Oct (2 days) | 190 | 11.7 | 6.1 | 5.6 | · |
+| 💵 Cash game days: NLH/PLO/PLO5 from €10/20 | 10–11 Oct (2 days) | 191 | 11.7 | 6.1 | 5.6 | · |
 
 ## All games seen
 
@@ -133,7 +133,7 @@ Average seated players per check on each kind of day, in total and for NLH and O
 | NLH €1/3 | 53% of checks | Sat around 06:00 | 2026-10-11 09:30 |
 | PLO €10/10 | 46% of checks | Sat around 19:00 | 2026-10-11 07:00 |
 | PLO €100/100 | 26% of checks | Sat around 14:00 | 2026-10-10 20:40 |
-| PLO €100/200 | 22% of checks | Sat around 21:00 | 2026-10-11 05:10 |
+| PLO €100/200 | 21% of checks | Sat around 21:00 | 2026-10-11 05:10 |
 
 ---
 Raw data: `data/cardcasino` (one CSV file per month). Card Casino lists seated players per table; it doesn't show waiting lists.
