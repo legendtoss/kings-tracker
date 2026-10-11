@@ -4,18 +4,18 @@ Checks King's live cash games and tournaments about every 10 minutes and updates
 
 **Right now:** King's: 2 tables, 10 players · [Card Casino Šamorín](CARD_CASINO.md) 💵 Cash game days: NLH/PLO/PLO5 from €10/20: 0 tables, 0 players · [Grand Casino Aš](GRAND_CASINO_AS.md): 0 tables running · [Olympic Park Tallinn](OLYMPIC_TALLINN.md) 🎪 Kings of Tallinn: 0 tables, 0 players at 11:00 · [Olympic Vilnius](OLYMPIC_VILNIUS.md): 0 tables, 0 players at 11:00 · [Banco](BANCO.md): no games listed
 
-**Last check:** 2026-10-11 11:00 — ✅ OK (data feed)  
-**Last 24 h:** 149 of 149 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-06 (416 good checks)
+**Last check:** 2026-10-11 11:10 — ✅ OK (data feed)  
+**Last 24 h:** 149 of 149 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-06 (417 good checks)
 
-## Tables running at 2026-10-11 11:00
+## Tables running at 2026-10-11 11:10
 
 ```
-NLH  €1/2     6/8 players
-NLH  €1/2     4/8 players
+NLH  €1/2     5/8 players
+NLH  €1/2     5/8 players
 ```
 **NLH:** 10 players at 2 tables
 
-**Tournaments in play:** GPD Mystery - Day 1G Turbo (NLH, €124, €75 bounty, 97 of 97 left, late reg open)
+**Tournaments in play:** GPD Mystery - Day 1G Turbo (NLH, €124, €75 bounty, 120 of 120 left, late reg open, level 1, blinds 100/300/300)
 
 ## Festivals and schedule
 
@@ -112,7 +112,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 08:00 | · | 9 | 2 | 0 | 0 | 0 | 0 | 2 |
 | 09:00 | · | 4 | 2 | 0 | · | 0 | 0 | 1 |
 | 10:00 | · | 5 | 1 | · | · | 0 | 0 | 1 |
-| 11:00 | · | 6 | 0 | · | · | 0 | 0 | 2 |
+| 11:00 | · | 6 | 0 | · | · | 0 | 0 | 1 |
 | 12:00 | · | 6 | 0 | · | · | 0 | · | 2 |
 | 13:00 | · | 7 | 0 | · | · | 0 | · | 2 |
 | 14:00 | · | 9 | 0 | · | · | 1 | · | 3 |
@@ -172,7 +172,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 08:00 | 🟨 62% | 🟨 38% | 🟥 0% | 🟥 0% | 🟥 14% | 🟥 10% | 🟥 14% | 🟥 0% | 21 |
 | 09:00 | 🟨 72% | 🟥 17% | 🟥 0% | 🟥 0% | 🟥 6% | 🟥 6% | 🟥 11% | 🟥 0% | 18 |
 | 10:00 | 🟨 67% | 🟥 17% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 17% | 🟥 6% | 🟥 0% | 18 |
-| 11:00 | 🟨 67% | 🟨 25% | 🟥 0% | 🟥 0% | 🟥 0% | 🟨 25% | 🟥 0% | 🟥 0% | 12 |
+| 11:00 | 🟨 69% | 🟥 23% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 23% | 🟥 0% | 🟥 0% | 13 |
 | 12:00 | 🟩 75% | 🟨 25% | 🟥 0% | 🟨 25% | 🟥 0% | 🟨 25% | 🟥 0% | 🟥 0% | 12 |
 | 13:00 | 🟩 75% | 🟨 25% | 🟥 0% | 🟨 50% | 🟥 0% | 🟨 25% | 🟥 0% | 🟥 0% | 12 |
 | 14:00 | 🟩 77% | 🟨 69% | 🟥 0% | 🟨 54% | 🟥 15% | 🟥 23% | 🟥 0% | 🟥 0% | 13 |
@@ -194,7 +194,7 @@ Collecting since 2026-10-08. Shown from 2026-10-22: with fewer than two weeks, t
 
 | Game | Running in | Most often | Last seen |
 |:--|--:|:--|:--|
-| NLH €1/2 | 74% of checks | Fri around 22:00 | 2026-10-11 11:00 |
+| NLH €1/2 | 74% of checks | Fri around 22:00 | 2026-10-11 11:10 |
 | NLH €2/4 | 62% of checks | Fri around 22:00 | 2026-10-11 02:50 |
 | NLH €5/10 | 13% of checks | Sat around 23:00 | 2026-10-11 01:30 |
 | PLO €2/2 | 45% of checks | Fri around 22:00 | 2026-10-11 03:50 |
@@ -209,7 +209,7 @@ The most recent ones. The game is read from the tournament's name.
 
 | Tournament | Game | Buy-in | Entries | Seen |
 |:--|:--|--:|--:|:--|
-| GPD Mystery - Day 1G Turbo | NLH | €124 | 97 | 2026-10-11 11:00 |
+| GPD Mystery - Day 1G Turbo | NLH | €124 | 120 | 2026-10-11 11:00 |
 | GPD Saturday Night Turbo | NLH | €125 | 188 | 2026-10-10 21:00 → 10-11 04:00 |
 | GPD Mystery Bounty - Day 1F | NLH | €124 | 311 | 2026-10-10 18:00 → 10-11 03:40 |
 | GPD Pot Limit Omaha | PLO | €125 | 114 | 2026-10-10 15:00 → 10-10 21:00 |
