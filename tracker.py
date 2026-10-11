@@ -86,7 +86,7 @@ OLY_SITES = (
      "home": os.environ.get("OLY_EE_HOME", "https://olybetpoker.com/ee/en/"), "page": Path("OLYMPIC_TALLINN.md")},
     {"key": "olympic-vilnius", "name": "Olympic Casino Vilnius", "club": "vilni",
      "urls": [os.environ.get("OLY_LT_URL", "https://olybetpoker.com/lt/en/cash-games/"), "https://olybetpoker.com/lt/cash-games/"],
-     "home": os.environ.get("OLY_LT_HOME", "https://olybetpoker.com/lt/en/"), "page": Path("OLYMPIC_VILNIUS.md")},
+     "home": os.environ.get("OLY_LT_HOME", "https://olybetpoker.com/lt/"), "page": Path("OLYMPIC_VILNIUS.md")},
 )
 OLY_FIELDS = ["time", "weekday", "hour", "status", "club", "tables", "players", "waiting", "games", "listed",
               "tournaments_text", "raw"]
@@ -543,43 +543,62 @@ def gas_tournaments(html, now):
 # read from the page text, e.g. "CLOSED Select NLH 1/3 Tables 0 €1/3 €200.00 0 0/0 (1 waiting) 0 1"
 OLY_CLUB_RE = re.compile(r'href="([^"]*cash-games/?\?club=(\d+))"[^>]*>(.*?)</a>', re.S | re.I)
 BLOCK_SIGNS = ("cf-chl", "just a moment", "attention required", "cf_chl_opt", "challenge-platform")
-STAKES_TOKEN = re.compile(r"\d+(?:[.,]\d+)?(?:/\d+(?:[.,]\d+)?)+")
+OLY_STATUS_RE = re.compile(r'row-status-badge[^"]*"[^>]*>([^<]*)<', re.I)
+
+
+def oly_cell(chunk, cls):
+    """The text of one cell of an OlyBet table row, e.g. 'col-players' -> '9 /9 (3 waiting)'."""
+    m = re.search(r'class="' + cls + r'"[^>]*>(.*?)</div>', chunk, re.S)
+    return " ".join(strip_tags(m.group(1)).split()) if m else ""
+
+
+def oly_attr(chunk, name):
+    m = re.search(name + r'="([^"]*)"', chunk)
+    return unescape(m.group(1)).strip() if m else ""
 
 
 def oly_cash_rows(html):
-    """Every listed game of the club shown on an OlyBet cash games page, read from the page's words:
-    '<game> <stakes> Tables N' then €blinds, €buy-in, tables, players/seats, open seats, waiting -
-    skipping any extra labels in between. None if the table can't be read (never a guessed zero)."""
-    text = strip_tags(html).replace("€ ", "€")
-    low = text.lower()
-    a = low.find("choose up to two games")
-    a = a if a >= 0 else low.find("open seats")
-    if a < 0:
+    """Every game listed for the club shown on an OlyBet cash games page. Each game is one row of the
+    page's table, with its status (OPENED / CLOSED / WAITING TO START), blinds (written '€1/€3' or
+    '€1/2€'), buy-in, tables, players/seats ('9 /9'), open seats and waiting list.
+    [] if the table is there but lists no games; None if it can't be read (never a guessed zero)."""
+    body = (html or "").split('id="cash-games-row-template"')[0]  # an empty row the page keeps for its own updates
+    if "table-header-row" not in body and "table-data-row" not in body:
         return None
-    b = low.find("registration", a)
-    tokens = text[a: b if b > 0 else a + 8000].split()
-    anchors = [i for i, token in enumerate(tokens)  # "<game> <stakes> Tables N" starts each game's row
-               if token.lower() == "tables" and 2 <= i < len(tokens) - 1 and tokens[i + 1].isdigit()
-               and STAKES_TOKEN.fullmatch(tokens[i - 1]) and re.search(r"[A-Za-z]", tokens[i - 2])]
     rows = []
-    for n, i in enumerate(anchors):
-        stop = anchors[n + 1] - 2 if n + 1 < len(anchors) else len(tokens)
-        found, j = [], i + 2
-        for pattern in (r"€(\d+(?:[.,]\d+)?(?:/\d+(?:[.,]\d+)?)+)", r"€([\d.,]+)", r"(\d+)", r"(\d+)/(\d+)", r"(\d+)", r"(\d+)"):
-            while j < stop:
-                m = re.fullmatch(pattern, tokens[j])
-                j += 1
-                if m:
-                    found.append(m)
-                    break
-        if len(found) < 6:
+    for chunk in body.split('class="table-data-row"')[1:]:
+        name = oly_attr(chunk, "data-game-name") or oly_cell(chunk, "col-game")
+        if not name:
             continue
-        status = next((t for t in reversed(tokens[max(0, i - 5): i - 2]) if re.fullmatch(r"[A-Z]{4,15}", t)), "")
-        rows.append({"game": card_game(tokens[i - 2]), "stakes": found[0].group(1).replace(",", "."),
-                     "buyin": number(found[1].group(1).replace(",", "")), "tables": as_int(found[2].group(1)),
-                     "players": as_int(found[3].group(1)), "seats": as_int(found[3].group(2)),
-                     "open": as_int(found[4].group(1)), "waiting": as_int(found[5].group(1)), "status": status})
-    return rows or None
+        stakes = "/".join(re.findall(r"\d+(?:[.,]\d+)?", oly_attr(chunk, "data-blinds") or oly_cell(chunk, "col-blinds")))
+        players = re.search(r"(\d+)\s*/\s*(\d+)", oly_cell(chunk, "col-players"))
+        if not stakes or not players:
+            return None  # a row has changed shape: better an error than a wrong number
+        status = OLY_STATUS_RE.search(chunk)
+        rows.append({"game": card_game(STAKES_IN_NAME.sub(" ", name)), "stakes": stakes.replace(",", "."),
+                     "buyin": number(re.sub(r"[^\d.]", "", oly_attr(chunk, "data-buyin") or oly_cell(chunk, "col-buyin"))),
+                     "tables": as_int(oly_cell(chunk, "col-tables")), "players": as_int(players.group(1)),
+                     "seats": as_int(players.group(2)), "open": as_int(oly_cell(chunk, "col-seats")),
+                     "waiting": as_int(oly_cell(chunk, "col-waiting")),
+                     "status": " ".join((status.group(1) if status else "").split()).upper()})
+    return rows
+
+
+def oly_summary(rows):
+    """Totals and per-table entries for one OlyBet check. A game counts as running when it has a table
+    with players at it (or is marked OPENED); a table still waiting to start is marked [WAITING].
+    Waiting lists are counted for every game, running or not - they show demand."""
+    running = [r for r in rows if r["tables"] > 0 and (r["players"] > 0 or "OPEN" in r["status"])]
+    entries = []
+    for r in running:  # one entry per table; the site gives totals per game, so they're shared out evenly
+        players, seats = divmod(r["players"], r["tables"]), divmod(r["seats"], r["tables"])
+        mark = " [WAITING]" if "WAIT" in r["status"] else ""
+        entries += [f"{r['game']} €{r['stakes']} {players[0] + (i < players[1])}/{seats[0] + (i < seats[1])}{mark}"
+                    for i in range(r["tables"])]
+    listed = "; ".join(f"{r['game']} €{r['stakes']} ({r['status'].lower() or 'listed'}): {count_text(r['tables'], 'table')}, "
+                       f"{r['players']}/{r['seats']} players, {r['waiting']} waiting" for r in rows)
+    return (sum(r["tables"] for r in running), sum(r["players"] for r in running), sum(r["waiting"] for r in rows),
+            entries, listed or "no games listed")
 
 
 def oly_tournament_text(html, club):
@@ -1034,12 +1053,13 @@ def save_debug_copy(path, now, status, url, details):
 
 def check_card():
     """Card Casino's live list. Returns (status, source, entries or None, raw text, details)."""
-    problem = {}
+    problem, no_answer = {}, 0
     for attempt in (1, 2):
         try:
             fragment = fetch_text(CARD_FEED_URL, CARD_SITE["url"])
         except Exception as e:
             problem["feed"] = short_error(e)
+            no_answer += isinstance(e, (TimeoutError, ConnectionError)) or "timed out" in str(e) or "refused" in str(e)
             time.sleep(3)
             continue
         entries = card_entries(fragment)
@@ -1047,6 +1067,8 @@ def check_card():
             return "ok", "feed", entries, "" if entries else shown(strip_tags(fragment), 300), None
         problem.update(feed="the list had an unexpected format", feed_body=fragment[:5000])
         break
+    if no_answer == 2:  # the site isn't answering at all, so the browser would only wait another minute
+        return "error: Card Casino's site didn't answer", "", None, "", problem
     if short_on_time():
         return "error: the feed failed and there was no time left for the browser backup", "", None, "", problem
     try:  # backup: the cash games page in a browser
@@ -1317,16 +1339,8 @@ def record_olympic(now):
                 row["status"] = "error: couldn't read the cash games table (page saved for a closer look)"
                 break
             if rows is not None:
-                running = [r for r in rows if r["tables"] > 0]
-                entries = []
-                for r in running:  # one entry per table; the site gives totals per game, so they're shared out evenly
-                    players, seats = divmod(r["players"], r["tables"]), divmod(r["seats"], r["tables"])
-                    entries += [f"{r['game']} €{r['stakes']} {players[0] + (i < players[1])}/{seats[0] + (i < seats[1])}"
-                                for i in range(r["tables"])]
-                row.update(status="ok", tables=sum(r["tables"] for r in rows), players=sum(r["players"] for r in rows),
-                           waiting=sum(r["waiting"] for r in rows), games="; ".join(entries),
-                           listed="; ".join(f"{r['game']} €{r['stakes']}: {count_text(r['tables'], 'table')}, "
-                                            f"{r['players']}/{r['seats']} players, {r['waiting']} waiting" for r in rows))
+                tables, players, waiting, entries, listed = oly_summary(rows)
+                row.update(status="ok", tables=tables, players=players, waiting=waiting, games="; ".join(entries), listed=listed)
             if now.minute < 10 and "blocked" not in row["status"]:  # tournaments once an hour
                 home, problem = oly_fetch(site["home"], site["home"])
                 if home is not None:
@@ -2423,22 +2437,40 @@ def self_test():
     assert entries == ["Crazy Pineapple 20/37"], entries
     assert (details[0]["game"], details[0]["prizepool"], details[0]["avg_stack"], details[0]["late_reg_open"]) == \
         ("Pineapple", 2220, 55500, False), details
-    oly_page = ("<h2>Olympic Park Casino</h2><p>Choose up to two games and register</p> REGISTER GAME BLINDS BUY-IN TABLES "
-                "PLAYERS OPEN SEATS WAITING CLOSED Select NLH 1/3 Tables 0 €1/3 €200.00 0 0/0 (1 waiting) 0 1 "
-                "Select PLO 5/5 Tables 2 €5/5 €300.00 2 15/18 3 4 CLOSED Select NLH 5/5 Tables 0 €5/5 €300.00 0 0/0 0 0 "
-                "REGISTER Registration Name Surname")
+    def oly_row(status, name, blinds, buyin, tables, seated, seats, open_seats, waiting):
+        return (f'<div class="table-data-row" data-game-type-id="1"><span class="row-status-badge status-x">{status}</span>'
+                f'<div class="col-checkbox"><label><input type="checkbox" data-game-name="{name}" data-club-name="Olympic Park Casino" '
+                f'data-blinds="{blinds}" data-buyin="{buyin}" /><span class="select-text">Select</span></label></div>'
+                f'<div class="col-game"><span class="game-name">{name}</span><span class="game-tables-label">Tables {tables}</span></div>'
+                f'<div class="col-blinds" data-label="BLINDS"><span>{blinds}</span></div><div class="col-buyin"><span>{buyin}</span></div>'
+                f'<div class="row-stats"><div class="col-tables">\n<span>{tables}</span>\n</div><div class="col-players"><svg/>'
+                f'<span class="players-total"><span class="players-count">{seated}</span><span class="players-max">/{seats}</span></span>'
+                f'<span class="waiting-count">({waiting} waiting)</span></div><div class="col-seats"><span>{open_seats}</span></div>'
+                f'<div class="col-waiting"><span>{waiting}</span></div></div></div>')
+    oly_page = ('<div class="table-header-row">GAME</div><div class="table-rows">'
+                + oly_row("OPENED", "NLH 1/3", "€1/€3", "€200", 1, 9, 9, 0, 3) + oly_row("OPENED", "PLO/PLO5", "€1/€3", "€200", 0, 0, 0, 0, 0)
+                + oly_row("CLOSED", "NLH 5/5", "€5/€5", "€300", 0, 0, 0, 0, 0) + oly_row("OPENED", "PLO/PLO5", "€5/€5", "€300", 2, 13, 16, 3, 1)
+                + oly_row("WAITING TO START", "Dealer&#039;s Choice", "€1/2€", "€100", 1, 0, 8, 8, 0)
+                + oly_row("WAITING TO START", "NLH", "€1/2€", "€100", 1, 4, 9, 5, 0)
+                + '</div><template id="cash-games-row-template">' + oly_row("", "", "", "", "", "", "", "", 0) + "</template>")
     rows = oly_cash_rows(oly_page)
-    assert [(r["game"], r["stakes"], r["tables"], r["players"], r["seats"], r["waiting"], r["status"]) for r in rows] == \
-        [("NLH", "1/3", 0, 0, 0, 1, "CLOSED"), ("PLO", "5/5", 2, 15, 18, 4, ""), ("NLH", "5/5", 0, 0, 0, 0, "CLOSED")], rows
-    with_labels = oly_page.replace("€1/3 €200.00", "Blinds € 1/3 Buy-in &euro;200.00").replace("2 15/18 3 4", "Tables 2 Players 15/18 Open 3 Waiting 4")
-    assert [(r["game"], r["tables"], r["players"], r["waiting"]) for r in oly_cash_rows(with_labels)] == \
-        [("NLH", 0, 0, 1), ("PLO", 2, 15, 4), ("NLH", 0, 0, 0)], oly_cash_rows(with_labels)
+    assert [(r["game"], r["stakes"], r["buyin"], r["status"], r["tables"], r["players"], r["seats"], r["open"], r["waiting"])
+            for r in rows] == [("NLH", "1/3", 200, "OPENED", 1, 9, 9, 0, 3), ("PLO/PLO5", "1/3", 200, "OPENED", 0, 0, 0, 0, 0),
+                               ("NLH", "5/5", 300, "CLOSED", 0, 0, 0, 0, 0), ("PLO/PLO5", "5/5", 300, "OPENED", 2, 13, 16, 3, 1),
+                               ("Dealer's Choice", "1/2", 100, "WAITING TO START", 1, 0, 8, 8, 0),
+                               ("NLH", "1/2", 100, "WAITING TO START", 1, 4, 9, 5, 0)], rows
+    tables, players, waiting, entries, listed = oly_summary(rows)
+    assert (tables, players, waiting) == (4, 26, 4) and entries == [
+        "NLH €1/3 9/9", "PLO/PLO5 €5/5 7/8", "PLO/PLO5 €5/5 6/8", "NLH €1/2 4/9 [WAITING]"], entries
+    assert all(ENTRY_RE.match(e) for e in entries) and listed.startswith("NLH €1/3 (opened): 1 table, 9/9 players, 3 waiting")
+    assert oly_cash_rows('<div class="table-header-row">GAME</div><div class="table-rows"></div>') == []
+    assert oly_summary([])[4] == "no games listed"
     assert oly_cash_rows("<p>nothing here</p>") is None
     saved = page_details("<html><head><script src='/a.js'></script><script>var cashAjax = {url: '/x'};</script></head>"
                          "<body><h1>Cash games</h1><style>p{}</style><p>Table</p></body></html>")
     assert saved["scripts"] == ["/a.js"] and "cashAjax" in saved["inline_scripts"][0] and saved["page_text"] == "Cash games Table"
     assert gzip.decompress(base64.b64decode(saved["page_gz_base64"])).decode().startswith("<html>")
-    assert oly_cash_rows("<p>Choose up to two games and register</p> something else entirely") is None
+    assert oly_cash_rows(oly_page.replace('<span class="players-max">/9</span>', "", 1)) is None  # a row changed shape
     assert card_entries('<div class="splide__slide">\r\n <div class="cash-game aligner">\r\n <h4>No games currently</h4>\r\n </div>\r\n</div>') == []
     assert gas_cash_entries("<p>Back to home</p><p>No Cash Game table is open at this time</p>") == []
     assert [is_tracker(h) for h in ("www.googletagmanager.com", "ajax.googleapis.com", "connect.facebook.net",
