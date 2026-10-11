@@ -2,20 +2,21 @@
 
 Reads [OlyBet's live cash games page](https://olybetpoker.com/ee/en/cash-games/) every 30 minutes (their site has bot protection, so the tracker checks gently and simply records it when a check is refused). All times are **Czech time** (Tallinn and Vilnius are one hour ahead). Back to [King's](README.md).
 
-**Last check:** 2026-10-11 21:00 — ⚠️ error: blocked by the site's bot protection — details in `debug/olympic-tallinn_page.json`  
-**Last 24 h:** 15 of 50 checks OK, longest gap 0 h 30 min · **Collecting since:** 2026-10-10 (15 good checks)
+**Last check:** 2026-10-11 21:30 — ✅ OK  
+**Last 24 h:** 16 of 50 checks OK, longest gap 0 h 30 min · **Collecting since:** 2026-10-10 (16 good checks)
 
 **Club:** Olympic Park Casino
 
-## Tables running at 2026-10-11 20:30
+## Tables running at 2026-10-11 21:30
 
 ```
-NLH       €1/3     9/9 players
+NLH       €1/3     8/9 players
+NLH       €1/3     7/9 players
 PLO/PLO5  €1/3     8/8 players
 ```
-**NLH:** 9 players at 1 table · **PLO/PLO5:** 8 players at 1 table
+**NLH:** 15 players at 2 tables · **PLO/PLO5:** 8 players at 1 table
 
-**Waiting lists:** 11 players · **All games listed:** NLH €1/3 (opened): 1 table, 9/9 players, 5 waiting PLO/PLO5 €1/3 (opened): 1 table, 8/8 players, 2 waiting NLH €5/5 (closed): 0 tables, 0/0 players, 0 waiting PLO/PLO5 €5/5 (closed): 0 tables, 0/0 players, 4 waiting
+**Waiting lists:** 10 players · **All games listed:** NLH €1/3 (opened): 2 tables, 15/18 players, 0 waiting PLO/PLO5 €1/3 (opened): 1 table, 8/8 players, 4 waiting NLH €5/5 (closed): 0 tables, 0/0 players, 1 waiting PLO/PLO5 €5/5 (closed): 0 tables, 0/0 players, 5 waiting
 
 **Tournaments on their site at 2026-10-11 15:00:** live 12:00 Olympic Park Casino 2 NLH Mini-Main Final 30,000 €250 13:30 Olympic Park Casino 9 FREEBUY NLH Satellite to KOT Cup, €20 Rebuys & Add-On 10,000 €0 14:00 Olympic Park Casino 10 PLO 4/5 Championship Day 1 30,000 €1,100 15:05 Olympic Park Casino 11 NLH Kings of Tallinn Cup Day 1/A 30,000 €350 16:00 Olympic Park Casino 13 PL Razz Progressive Bounty 30,000 €250 16:00 Olympic Park Casino 12 FREEBUY NLH Satellite to 20 NLH Queens, €20 Rebuys & Add-On 10,000 €0 19:00 Olympic Park Casino 14 NLH Championship Day 1/A 30,000 €555 19:30 Olympic Park Casino 15 PL Sviten 30,000 €350 20:00 Olympic Park Casino 11 NLH Kings of Tallinn Cup Day 1/B 30,000 €350 22:30 Olympic Park Casino 16 NLH Turbo, 8-handed 25,000 €200 22:30 Olympic Park Casino 17 NLH MegaSat to €555 Championship 15,000 €80
 
@@ -54,7 +55,65 @@ Needs about two weeks of data: each day-and-hour slot must be seen on at least 2
 
 ## Average players by hour
 
-No player data yet.
+Seated players at each game's tables. 0 = that game wasn't running.
+
+### No-Limit Hold'em (NLH)
+
+| Hour | Mon | Tue | Wed | Thu | Fri | Sat | Sun | All days |
+|:--|--:|--:|--:|--:|--:|--:|--:|--:|
+| 00:00 | · | · | · | · | · | · | · | · |
+| 01:00 | · | · | · | · | · | · | · | · |
+| 02:00 | · | · | · | · | · | · | · | · |
+| 03:00 | · | · | · | · | · | · | · | · |
+| 04:00 | · | · | · | · | · | · | · | · |
+| 05:00 | · | · | · | · | · | · | · | · |
+| 06:00 | · | · | · | · | · | · | · | · |
+| 07:00 | · | · | · | · | · | · | 0 | 0 |
+| 08:00 | · | · | · | · | · | · | 0 | 0 |
+| 09:00 | · | · | · | · | · | · | 0 | 0 |
+| 10:00 | · | · | · | · | · | · | 0 | 0 |
+| 11:00 | · | · | · | · | · | · | 0 | 0 |
+| 12:00 | · | · | · | · | · | · | 0 | 0 |
+| 13:00 | · | · | · | · | · | · | · | · |
+| 14:00 | · | · | · | · | · | · | 0 | 0 |
+| 15:00 | · | · | · | · | · | · | 0 | 0 |
+| 16:00 | · | · | · | · | · | · | · | · |
+| 17:00 | · | · | · | · | · | · | · | · |
+| 18:00 | · | · | · | · | · | · | · | · |
+| 19:00 | · | · | · | · | · | · | · | · |
+| 20:00 | · | · | · | · | · | · | 9 | 9 |
+| 21:00 | · | · | · | · | · | · | 15 | 15 |
+| 22:00 | · | · | · | · | · | · | · | · |
+| 23:00 | · | · | · | · | · | · | · | · |
+
+### PLO/PLO5
+
+| Hour | Mon | Tue | Wed | Thu | Fri | Sat | Sun | All days |
+|:--|--:|--:|--:|--:|--:|--:|--:|--:|
+| 00:00 | · | · | · | · | · | · | · | · |
+| 01:00 | · | · | · | · | · | · | · | · |
+| 02:00 | · | · | · | · | · | · | · | · |
+| 03:00 | · | · | · | · | · | · | · | · |
+| 04:00 | · | · | · | · | · | · | · | · |
+| 05:00 | · | · | · | · | · | · | · | · |
+| 06:00 | · | · | · | · | · | · | · | · |
+| 07:00 | · | · | · | · | · | · | 0 | 0 |
+| 08:00 | · | · | · | · | · | · | 0 | 0 |
+| 09:00 | · | · | · | · | · | · | 0 | 0 |
+| 10:00 | · | · | · | · | · | · | 0 | 0 |
+| 11:00 | · | · | · | · | · | · | 0 | 0 |
+| 12:00 | · | · | · | · | · | · | 0 | 0 |
+| 13:00 | · | · | · | · | · | · | · | · |
+| 14:00 | · | · | · | · | · | · | 0 | 0 |
+| 15:00 | · | · | · | · | · | · | 0 | 0 |
+| 16:00 | · | · | · | · | · | · | · | · |
+| 17:00 | · | · | · | · | · | · | · | · |
+| 18:00 | · | · | · | · | · | · | · | · |
+| 19:00 | · | · | · | · | · | · | · | · |
+| 20:00 | · | · | · | · | · | · | 8 | 8 |
+| 21:00 | · | · | · | · | · | · | 8 | 8 |
+| 22:00 | · | · | · | · | · | · | · | · |
+| 23:00 | · | · | · | · | · | · | · | · |
 
 ## How often each game was running, by hour (all days)
 
@@ -83,7 +142,7 @@ No player data yet.
 | 18:00 | · | · | 0 |
 | 19:00 | · | · | 0 |
 | 20:00 | 🟩 100% | 🟩 100% | 1 |
-| 21:00 | · | · | 0 |
+| 21:00 | 🟩 100% | 🟩 100% | 1 |
 | 22:00 | · | · | 0 |
 | 23:00 | · | · | 0 |
 
@@ -93,14 +152,14 @@ Average seated players per check on each kind of day, in total and for NLH and O
 
 | Days | Dates | Checks | Players | NLH | Omaha | vs normal, same hour |
 |:--|:--|--:|--:|--:|--:|--:|
-| 🎪 Kings of Tallinn | 11 Oct (1 day) | 15 | 1.1 | 0.6 | 0.5 | · |
+| 🎪 Kings of Tallinn | 11 Oct (1 day) | 16 | 2.5 | 1.5 | 1.0 | · |
 
 ## All games seen
 
 | Game | Running in | Most often | Last seen |
 |:--|--:|:--|:--|
-| NLH €1/3 | 7% of checks | Sun around 20:00 | 2026-10-11 20:30 |
-| PLO/PLO5 €1/3 | 7% of checks | Sun around 20:00 | 2026-10-11 20:30 |
+| NLH €1/3 | 12% of checks | Sun around 20:00 | 2026-10-11 21:30 |
+| PLO/PLO5 €1/3 | 12% of checks | Sun around 20:00 | 2026-10-11 21:30 |
 
 ---
 Raw data: `data/olympic-tallinn` (one CSV file per month).
