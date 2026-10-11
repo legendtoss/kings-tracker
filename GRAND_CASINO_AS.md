@@ -2,16 +2,16 @@
 
 Reads [Grand Casino Aš's live cash games](https://www.grandcasinoas.eu/en/poker/poker-live) every 10 minutes and its [current tournaments](https://www.grandcasinoas.eu/en/poker) every 30 minutes. All times are **Czech time** (same as Poland). Back to [King's](README.md).
 
-**Last check:** 2026-10-11 17:20 — ✅ OK  
-**Last 24 h:** 149 of 149 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-10 (233 good checks)
+**Last check:** 2026-10-11 17:30 — ✅ OK  
+**Last 24 h:** 149 of 149 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-10 (234 good checks)
 
-## Cash games at 2026-10-11 17:20
+## Cash games at 2026-10-11 17:30
 
 ```
 PLO/NLH           waiting
 ```
 
-**Tournaments in play at 2026-10-11 17:00:** Barista Rebel Cup (NLH, €130, 24 of 95 left, level 13, blinds 1500/3000/3000) · BHD PKO Main Event Final Day (NLH, €230, 15 of 420 left, level 22, blinds 20000/40000/40000)
+**Tournaments in play at 2026-10-11 17:30:** BHD PKO Main Event Final Day (NLH, €230, 15 of 420 left, level 23, blinds 25000/50000/50000)
 
 ## Festivals and schedule
 
@@ -90,7 +90,7 @@ Average number of running tables (Grand Casino Aš shows which games run, not ho
 | 14:00 | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 13 |
 | 15:00 | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 12 |
 | 16:00 | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 13 |
-| 17:00 | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 9 |
+| 17:00 | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 10 |
 | 18:00 | 🟨 50% | 🟨 50% | 🟥 0% | 🟥 0% | 6 |
 | 19:00 | 🟩 100% | 🟨 71% | 🟥 0% | 🟨 29% | 7 |
 | 20:00 | 🟩 100% | 🟥 0% | 🟥 0% | 🟩 100% | 6 |
@@ -104,7 +104,7 @@ The most recent ones. The game is read from the tournament's name.
 
 | Tournament | Game | Buy-in | Entries | Seen |
 |:--|:--|--:|--:|:--|
-| BHD PKO Main Event Final Day | NLH | €230 | 420 | 2026-10-11 12:00 → 10-11 17:00 |
+| BHD PKO Main Event Final Day | NLH | €230 | 420 | 2026-10-11 12:00 → 10-11 17:30 |
 | Barista Rebel Cup | NLH | €130 | 95 | 2026-10-11 12:30 → 10-11 17:00 |
 | BHD PKO Main Event 1C | NLH | €230 | 93 | 2026-10-10 17:30 → 10-11 11:00 |
 | Saturday Quattro Bounty | NLH | €150 | 151 | 2026-10-10 20:30 → 10-11 05:00 |
