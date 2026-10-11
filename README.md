@@ -4,21 +4,21 @@ Checks King's live cash games and tournaments about every 10 minutes and updates
 
 **Right now:** King's: 5 tables, 39 players · [Card Casino Šamorín](CARD_CASINO.md) 💵 Cash game days: NLH/PLO/PLO5 from €10/20: 2 tables, 16 players · [Grand Casino Aš](GRAND_CASINO_AS.md): 0 tables running, 1 waiting · [Olympic Park Tallinn](OLYMPIC_TALLINN.md) 🎪 Kings of Tallinn: blocked at 19:30 · [Olympic Vilnius](OLYMPIC_VILNIUS.md): blocked at 19:30 · [Banco](BANCO.md): no games listed
 
-**Last check:** 2026-10-11 19:40 — ✅ OK (data feed)  
-**Last 24 h:** 149 of 149 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-06 (469 good checks)
+**Last check:** 2026-10-11 19:50 — ✅ OK (data feed)  
+**Last 24 h:** 149 of 149 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-06 (470 good checks)
 
-## Tables running at 2026-10-11 19:40
+## Tables running at 2026-10-11 19:50
 
 ```
 NLH   €1/2     8/8 players
 NLH   €1/2     8/8 players
-NLH   €1/2     8/8 players
+NLH   €1/2     7/8 players
 PLO   €2/2     8/8 players
-PLO5  €5/5     7/8 players
+PLO5  €5/5     8/8 players
 ```
-**NLH:** 24 players at 3 tables · **PLO:** 8 players at 1 table · **PLO5:** 7 players at 1 table
+**NLH:** 23 players at 3 tables · **PLO:** 8 players at 1 table · **PLO5:** 8 players at 1 table
 
-**Tournaments in play:** GPD Mystery - Final day (NLH, €124, €75 bounty, 57 of 1686 left, level 21, blinds 40000/80000/80000) · GPD High Roller (NLH, €350, 90 of 107 left, late reg open, level 4, blinds 1000/2000/2000)
+**Tournaments in play:** GPD Mystery - Final day (NLH, €124, €75 bounty, 49 of 1686 left, level 21, blinds 40000/80000/80000) · GPD High Roller (NLH, €350, 92 of 109 left, late reg open, level 4, blinds 1000/2000/2000)
 
 ## Festivals and schedule
 
@@ -183,7 +183,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 16:00 | 🟩 88% | 🟨 50% | 🟥 0% | 🟨 58% | 🟨 67% | 🟥 12% | 🟥 0% | 🟥 0% | 24 |
 | 17:00 | 🟩 87% | 🟨 43% | 🟨 26% | 🟩 78% | 🟨 70% | 🟥 13% | 🟥 0% | 🟥 0% | 23 |
 | 18:00 | 🟩 88% | 🟨 50% | 🟨 50% | 🟩 75% | 🟩 79% | 🟥 12% | 🟥 0% | 🟥 0% | 24 |
-| 19:00 | 🟩 87% | 🟨 57% | 🟥 22% | 🟩 78% | 🟩 91% | 🟨 26% | 🟥 0% | 🟥 0% | 23 |
+| 19:00 | 🟩 88% | 🟨 54% | 🟥 21% | 🟩 79% | 🟩 92% | 🟨 25% | 🟥 0% | 🟥 0% | 24 |
 | 20:00 | 🟩 83% | 🟨 67% | 🟥 17% | 🟨 67% | 🟩 83% | 🟥 17% | 🟥 0% | 🟥 0% | 18 |
 | 21:00 | 🟩 82% | 🟨 65% | 🟨 35% | 🟨 71% | 🟩 94% | 🟥 18% | 🟥 0% | 🟥 0% | 17 |
 | 22:00 | 🟩 89% | 🟨 68% | 🟨 37% | 🟨 68% | 🟩 84% | 🟨 26% | 🟥 0% | 🟥 0% | 19 |
@@ -197,11 +197,11 @@ Collecting since 2026-10-08. Shown from 2026-10-22: with fewer than two weeks, t
 
 | Game | Running in | Most often | Last seen |
 |:--|--:|:--|:--|
-| NLH €1/2 | 77% of checks | Fri around 22:00 | 2026-10-11 19:40 |
+| NLH €1/2 | 77% of checks | Fri around 22:00 | 2026-10-11 19:50 |
 | NLH €2/4 | 58% of checks | Fri around 22:00 | 2026-10-11 17:30 |
 | NLH €5/10 | 14% of checks | Sat around 23:00 | 2026-10-11 19:30 |
-| PLO €2/2 | 47% of checks | Fri around 22:00 | 2026-10-11 19:40 |
-| PLO5 €5/5 | 44% of checks | Sat around 19:00 | 2026-10-11 19:40 |
+| PLO €2/2 | 47% of checks | Fri around 22:00 | 2026-10-11 19:50 |
+| PLO5 €5/5 | 44% of checks | Sat around 19:00 | 2026-10-11 19:50 |
 | PLO5 €10/10 | 19% of checks | Fri around 23:00 | 2026-10-10 19:40 |
 | PLO5 €10/25 | 3% of checks | Wed around 06:00 | 2026-10-07 10:04 |
 | MIX NLH/PLO €5/5 | 2% of checks | Wed around 00:00 | 2026-10-07 02:33 |
@@ -212,8 +212,8 @@ The most recent ones. The game is read from the tournament's name.
 
 | Tournament | Game | Buy-in | Entries | Seen |
 |:--|:--|--:|--:|:--|
-| GPD Mystery - Final day | NLH | €124 | 1686 | 2026-10-11 16:00 → 10-11 19:40 |
-| GPD High Roller | NLH | €350 | 107 | 2026-10-11 18:00 → 10-11 19:40 |
+| GPD Mystery - Final day | NLH | €124 | 1686 | 2026-10-11 16:00 → 10-11 19:50 |
+| GPD High Roller | NLH | €350 | 109 | 2026-10-11 18:00 → 10-11 19:50 |
 | GPD Mystery - Day 1G Turbo | NLH | €124 | 245 | 2026-10-11 11:00 → 10-11 15:20 |
 | GPD Mystery - Day 1 Flip and Go Pineapple | Pineapple | €124 | 87 | 2026-10-11 13:30 → 10-11 15:20 |
 | GPD Saturday Night Turbo | NLH | €125 | 188 | 2026-10-10 21:00 → 10-11 04:00 |
