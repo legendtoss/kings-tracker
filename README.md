@@ -2,23 +2,22 @@
 
 Checks King's live cash games and tournaments about every 10 minutes and updates this page by itself. All times are **Czech time** (same as Poland). Also tracking: [Card Casino Šamorín](CARD_CASINO.md) · [Grand Casino Aš](GRAND_CASINO_AS.md) · [Banco Casino Bratislava](BANCO.md) · [Olympic Park Tallinn](OLYMPIC_TALLINN.md) · [Olympic Casino Vilnius](OLYMPIC_VILNIUS.md).
 
-**Right now:** King's: 5 tables, 34 players · [Card Casino Šamorín](CARD_CASINO.md) 💵 Cash game days: NLH/PLO/PLO5 from €10/20: 4 tables, 27 players · [Grand Casino Aš](GRAND_CASINO_AS.md): 4 tables running, 1 waiting · [Olympic Park Tallinn](OLYMPIC_TALLINN.md) 🎪 Kings of Tallinn: blocked at 04:00 · [Olympic Vilnius](OLYMPIC_VILNIUS.md): blocked at 04:00 · [Banco](BANCO.md): no games listed
+**Right now:** King's: 4 tables, 32 players · [Card Casino Šamorín](CARD_CASINO.md) 💵 Cash game days: NLH/PLO/PLO5 from €10/20: 4 tables, 27 players · [Grand Casino Aš](GRAND_CASINO_AS.md): 4 tables running, 1 waiting · [Olympic Park Tallinn](OLYMPIC_TALLINN.md) 🎪 Kings of Tallinn: blocked at 04:00 · [Olympic Vilnius](OLYMPIC_VILNIUS.md): blocked at 04:00 · [Banco](BANCO.md): no games listed
 
-**Last check:** 2026-10-11 04:00 — ✅ OK (data feed)  
-**Last 24 h:** 149 of 149 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-06 (373 good checks)
+**Last check:** 2026-10-11 04:10 — ✅ OK (data feed)  
+**Last 24 h:** 149 of 149 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-06 (374 good checks)
 
-## Tables running at 2026-10-11 04:00
+## Tables running at 2026-10-11 04:10
 
 ```
-NLH  €1/2     5/8 players
 NLH  €1/2     8/8 players
 NLH  €1/2     8/8 players
-NLH  €1/2     7/8 players
-NLH  €1/2     6/8 players
+NLH  €1/2     8/8 players
+NLH  €1/2     8/8 players
 ```
-**NLH:** 34 players at 5 tables
+**NLH:** 32 players at 4 tables
 
-**Tournaments in play:** GPD Saturday Night Turbo (NLH, €125, 3 of 188 left, level 25, blinds 40000/80000/80000)
+**Tournaments in play:** none
 
 ## Festivals and schedule
 
@@ -79,7 +78,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 01:00 | · | · | 13 | 15 | · | 70 | 75 | 51 |
 | 02:00 | · | · | 14 | 8 | 17 | 55 | 60 | 43 |
 | 03:00 | · | · | 13 | 6 | · | 39 | 43 | 33 |
-| 04:00 | · | 18 | 9 | 6 | · | 26 | 34 | 17 |
+| 04:00 | · | 18 | 9 | 6 | · | 26 | 33 | 18 |
 | 05:00 | · | 13 | 8 | 5 | · | 20 | · | 14 |
 | 06:00 | · | 10 | 8 | 4 | · | 17 | · | 11 |
 | 07:00 | · | 8 | 7 | 3 | · | 17 | · | 11 |
@@ -168,7 +167,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 01:00 | 🟩 84% | 🟩 100% | 🟥 21% | 🟨 63% | 🟥 21% | 🟨 32% | 🟥 0% | 🟥 16% | 19 |
 | 02:00 | 🟨 74% | 🟩 95% | 🟥 0% | 🟨 68% | 🟨 26% | 🟨 26% | 🟥 0% | 🟥 11% | 19 |
 | 03:00 | 🟩 75% | 🟨 62% | 🟥 0% | 🟩 75% | 🟨 50% | 🟥 0% | 🟥 0% | 🟥 0% | 16 |
-| 04:00 | 🟨 44% | 🟩 94% | 🟥 12% | 🟨 38% | 🟨 50% | 🟥 12% | 🟥 0% | 🟥 0% | 16 |
+| 04:00 | 🟨 47% | 🟩 88% | 🟥 12% | 🟨 35% | 🟨 47% | 🟥 12% | 🟥 0% | 🟥 0% | 17 |
 | 05:00 | 🟨 43% | 🟩 100% | 🟥 21% | 🟨 43% | 🟨 29% | 🟥 21% | 🟥 14% | 🟥 0% | 14 |
 | 06:00 | 🟨 40% | 🟩 100% | 🟥 20% | 🟨 40% | 🟥 20% | 🟥 20% | 🟥 20% | 🟥 0% | 15 |
 | 07:00 | 🟨 47% | 🟩 100% | 🟥 20% | 🟨 27% | 🟥 20% | 🟥 20% | 🟥 13% | 🟥 0% | 15 |
@@ -197,11 +196,11 @@ Collecting since 2026-10-08. Shown from 2026-10-22: with fewer than two weeks, t
 
 | Game | Running in | Most often | Last seen |
 |:--|--:|:--|:--|
-| NLH €1/2 | 71% of checks | Fri around 22:00 | 2026-10-11 04:00 |
+| NLH €1/2 | 71% of checks | Fri around 22:00 | 2026-10-11 04:10 |
 | NLH €2/4 | 70% of checks | Fri around 22:00 | 2026-10-11 02:50 |
 | NLH €5/10 | 14% of checks | Sat around 23:00 | 2026-10-11 01:30 |
 | PLO €2/2 | 50% of checks | Fri around 22:00 | 2026-10-11 03:50 |
-| PLO5 €5/5 | 46% of checks | Sat around 19:00 | 2026-10-11 00:50 |
+| PLO5 €5/5 | 45% of checks | Sat around 19:00 | 2026-10-11 00:50 |
 | PLO5 €10/10 | 23% of checks | Fri around 23:00 | 2026-10-10 19:40 |
 | PLO5 €10/25 | 3% of checks | Wed around 06:00 | 2026-10-07 10:04 |
 | MIX NLH/PLO €5/5 | 2% of checks | Wed around 00:00 | 2026-10-07 02:33 |
