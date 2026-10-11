@@ -2,16 +2,16 @@
 
 Reads [Grand Casino Aš's live cash games](https://www.grandcasinoas.eu/en/poker/poker-live) every 10 minutes and its [current tournaments](https://www.grandcasinoas.eu/en/poker) every 30 minutes. All times are **Czech time** (same as Poland). Back to [King's](README.md).
 
-**Last check:** 2026-10-11 11:50 — ✅ OK  
-**Last 24 h:** 149 of 149 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-10 (199 good checks)
+**Last check:** 2026-10-11 12:00 — ✅ OK  
+**Last 24 h:** 149 of 149 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-10 (200 good checks)
 
-## Cash games at 2026-10-11 11:50
+## Cash games at 2026-10-11 12:00
 
 ```
 PLO/NLH           waiting
 ```
 
-**Tournaments in play at 2026-10-11 11:30:** none
+**Tournaments in play at 2026-10-11 12:00:** BHD PKO Main Event Final Day (NLH, €230, 63 of 420 left, level 16, blinds 4000/8000/8000)
 
 ## Festivals and schedule
 
@@ -54,7 +54,7 @@ Average number of running tables (Grand Casino Aš shows which games run, not ho
 | 09:00 | · | · | · | · | · | 0.0 | 0.0 | 0.0 |
 | 10:00 | · | · | · | · | · | 0.0 | 0.0 | 0.0 |
 | 11:00 | · | · | · | · | · | 0.0 | 0.0 | 0.0 |
-| 12:00 | · | · | · | · | · | 0.0 | · | 0.0 |
+| 12:00 | · | · | · | · | · | 0.0 | 0.0 | 0.0 |
 | 13:00 | · | · | · | · | · | 0.0 | · | 0.0 |
 | 14:00 | · | · | · | · | · | 0.0 | · | 0.0 |
 | 15:00 | · | · | · | · | · | 0.0 | · | 0.0 |
@@ -85,7 +85,7 @@ Average number of running tables (Grand Casino Aš shows which games run, not ho
 | 09:00 | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 13 |
 | 10:00 | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 12 |
 | 11:00 | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 12 |
-| 12:00 | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 6 |
+| 12:00 | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 7 |
 | 13:00 | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 6 |
 | 14:00 | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 7 |
 | 15:00 | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 6 |
@@ -104,6 +104,7 @@ The most recent ones. The game is read from the tournament's name.
 
 | Tournament | Game | Buy-in | Entries | Seen |
 |:--|:--|--:|--:|:--|
+| BHD PKO Main Event Final Day | NLH | €230 | 420 | 2026-10-11 12:00 |
 | BHD PKO Main Event 1C | NLH | €230 | 93 | 2026-10-10 17:30 → 10-11 11:00 |
 | Saturday Quattro Bounty | NLH | €150 | 151 | 2026-10-10 20:30 → 10-11 05:00 |
 | Saturday Freezeout | NLH | €120 | 63 | 2026-10-10 14:30 → 10-10 22:00 |
