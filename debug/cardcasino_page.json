@@ -1,7 +1,6 @@
 {
- "saved_at": "2026-10-10T11:30:28+02:00",
- "status": "error: TimeoutError: Page.goto: Timeout 60000ms exceeded.",
+ "saved_at": "2026-10-11T07:10:20+02:00",
+ "status": "error: Card Casino's site didn't answer",
  "url": "https://www.cardcasino.sk/ajax/cashgames.php?lang=EN",
- "feed": "URLError: urlopen error timed out",
- "browser": "TimeoutError: Page.goto: Timeout 60000ms exceeded."
+ "feed": "URLError: urlopen error timed out"
 }

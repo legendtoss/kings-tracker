@@ -2,8 +2,8 @@
 
 Reads [Card Casino's live cash-game list](https://www.cardcasino.sk/en/cashgames/) together with King's, about every 10 minutes. All times are **Czech time** (same as Poland and Slovakia). Back to [King's](README.md).
 
-**Last check:** 2026-10-11 07:00 — ✅ OK (live list)  
-**Last 24 h:** 123 of 149 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-10 (144 good checks)
+**Last check:** 2026-10-11 07:10 — ⚠️ error: Card Casino's site didn't answer — details in `debug/cardcasino_page.json`  
+**Last 24 h:** 122 of 149 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-10 (144 good checks)
 
 ## Tables running at 2026-10-11 07:00
 
