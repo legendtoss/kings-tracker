@@ -2,10 +2,10 @@
 
 Reads [Card Casino's live cash-game list](https://www.cardcasino.sk/en/cashgames/) together with King's, about every 10 minutes. All times are **Czech time** (same as Poland and Slovakia). Back to [King's](README.md).
 
-**Last check:** 2026-10-11 09:20 — ✅ OK (live list)  
-**Last 24 h:** 126 of 149 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-10 (158 good checks)
+**Last check:** 2026-10-11 09:30 — ✅ OK (live list)  
+**Last 24 h:** 126 of 149 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-10 (159 good checks)
 
-## Tables running at 2026-10-11 09:20
+## Tables running at 2026-10-11 09:30
 
 ```
 NLH  €1/3     3/8 players
@@ -105,7 +105,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 06:00 | 🟩 100% | 🟩 92% | 🟥 0% | 🟥 0% | 12 |
 | 07:00 | 🟨 64% | 🟥 9% | 🟥 0% | 🟥 0% | 11 |
 | 08:00 | 🟨 56% | 🟥 0% | 🟥 0% | 🟥 0% | 9 |
-| 09:00 | 🟨 40% | 🟥 0% | 🟥 0% | 🟥 0% | 10 |
+| 09:00 | 🟨 45% | 🟥 0% | 🟥 0% | 🟥 0% | 11 |
 | 10:00 | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 6 |
 | 11:00 | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 5 |
 | 12:00 | 🟥 0% | 🟥 0% | 🟨 40% | 🟥 0% | 5 |
@@ -127,14 +127,14 @@ Average seated players per check on each kind of day, in total and for NLH and O
 
 | Days | Dates | Checks | Players | NLH | Omaha | vs normal, same hour |
 |:--|:--|--:|--:|--:|--:|--:|
-| 💵 Cash game days: NLH/PLO/PLO5 from €10/20 | 10–11 Oct (2 days) | 158 | 14.1 | 7.3 | 6.8 | · |
+| 💵 Cash game days: NLH/PLO/PLO5 from €10/20 | 10–11 Oct (2 days) | 159 | 14.0 | 7.3 | 6.7 | · |
 
 ## All games seen
 
 | Game | Running in | Most often | Last seen |
 |:--|--:|:--|:--|
-| NLH €1/3 | 63% of checks | Sat around 06:00 | 2026-10-11 09:20 |
-| PLO €10/10 | 56% of checks | Sat around 19:00 | 2026-10-11 07:00 |
+| NLH €1/3 | 64% of checks | Sat around 06:00 | 2026-10-11 09:30 |
+| PLO €10/10 | 55% of checks | Sat around 19:00 | 2026-10-11 07:00 |
 | PLO €100/100 | 31% of checks | Sat around 14:00 | 2026-10-10 20:40 |
 | PLO €100/200 | 26% of checks | Sat around 21:00 | 2026-10-11 05:10 |
 
