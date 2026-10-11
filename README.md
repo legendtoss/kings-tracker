@@ -2,29 +2,28 @@
 
 Checks King's live cash games and tournaments about every 10 minutes and updates this page by itself. All times are **Czech time** (same as Poland). Also tracking: [Card Casino Šamorín](CARD_CASINO.md) · [Grand Casino Aš](GRAND_CASINO_AS.md) · [Banco Casino Bratislava](BANCO.md) · [Olympic Park Tallinn](OLYMPIC_TALLINN.md) · [Olympic Casino Vilnius](OLYMPIC_VILNIUS.md).
 
-**Right now:** King's: 7 tables, 51 players · [Card Casino Šamorín](CARD_CASINO.md) 💵 Cash game days: NLH/PLO/PLO5 from €10/20: 3 tables, 23 players · [Grand Casino Aš](GRAND_CASINO_AS.md): 0 tables running · [Olympic Park Tallinn](OLYMPIC_TALLINN.md) 🎪 Kings of Tallinn: 4 tables, 34 players (7 waiting) at 23:30 · [Olympic Vilnius](OLYMPIC_VILNIUS.md): 0 tables, 0 players at 23:30 · [Banco](BANCO.md): no games listed
+**Right now:** King's: 7 tables, 49 players · [Card Casino Šamorín](CARD_CASINO.md): 3 tables, 23 players · [Grand Casino Aš](GRAND_CASINO_AS.md): 0 tables running · [Olympic Park Tallinn](OLYMPIC_TALLINN.md) 🎪 Kings of Tallinn: 4 tables, 34 players (12 waiting) at 00:00 · [Olympic Vilnius](OLYMPIC_VILNIUS.md): 0 tables, 0 players at 00:00 · [Banco](BANCO.md): no games listed
 
-**Last check:** 2026-10-11 23:50 — ✅ OK (data feed)  
-**Last 24 h:** 148 of 148 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-06 (495 good checks)
+**Last check:** 2026-10-12 00:00 — ✅ OK (data feed)  
+**Last 24 h:** 148 of 148 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-06 (496 good checks)
 
-## Tables running at 2026-10-11 23:50
+## Tables running at 2026-10-12 00:00
 
 ```
 NLH   €1/2     7/8 players
-NLH   €1/2     7/8 players
-NLH   €1/2     8/8 players
 NLH   €1/2     6/8 players
 NLH   €1/2     7/8 players
+NLH   €1/2     5/8 players
+NLH   €1/2     8/8 players
 PLO   €2/2     8/8 players
 PLO5  €5/5     8/8 players
 ```
-**NLH:** 35 players at 5 tables · **PLO:** 8 players at 1 table · **PLO5:** 8 players at 1 table
+**NLH:** 33 players at 5 tables · **PLO:** 8 players at 1 table · **PLO5:** 8 players at 1 table
 
-**Tournaments in play:** GPD Mystery - Final day (NLH, €124, €75 bounty, 15 of 1686 left, level 26, blinds 100000/200000/200000) · GPD High Roller (NLH, €350, 41 of 158 left, level 12, blinds 10000/15000/15000)
+**Tournaments in play:** GPD Mystery - Final day (NLH, €124, €75 bounty, 15 of 1686 left, level 27, blinds 150000/300000/300000) · GPD High Roller (NLH, €350, 39 of 158 left, level 12, blinds 10000/15000/15000)
 
 ## Festivals and schedule
 
-- **Now:** 🎟️ **GPD Mystery Bounty Edition**, 7–11 Oct (series) — €199 main event; €350 high roller 11 Oct · Omaha: €125 PLO (10 Oct 15:00)
 - **Coming up:** 🎟️ **Dutch Poker Masters (DPM)**, 14–19 Oct (series) — €225 main event; €500 high roller 18 Oct · Omaha: €120 PLO (17 Oct 15:00)
 - **Coming up:** 🎟️ **Balkan Poker Circuit (BPC)**, 19–26 Oct (series) — €295 main event; €600 high roller 25 Oct · Omaha: €350 PLO 8-Max One Day (23 Oct 14:00)
 - **Coming up:** 🎪 **WSOP Super Circuit**, 28 Oct – 11 Nov (festival) — €3,000 main event 5–11 Nov; €1,000 mini main 29 Oct – 2 Nov; €1,500 championship 8–11 Nov · Omaha: €1,000 PLO Bounty (28 Oct 16:00); €1,500 Big O (29 Oct 15:00); €1,500 PLO Monster Stack (30 Oct 16:00); €5,000 PLO High Roller (31 Oct – 1 Nov); €250 PLO side events (3, 7, 8, 9, 10 and 11 Nov)
@@ -44,9 +43,6 @@ From `calendar.csv` — open it on GitHub and use the pencil button to add or co
 
 | Dates | Room | Event | Omaha |
 |:--|:--|:--|:--|
-| 7–11 Oct **now** | [King's Rozvadov](README.md) | 🎟️ GPD Mystery Bounty Edition | €125 PLO (10 Oct 15:00) |
-| 8–11 Oct **now** | [Card Casino Šamorín](CARD_CASINO.md) | 💵 Cash game days: NLH/PLO/PLO5 from €10/20 | · |
-| 9–11 Oct **now** | [Grand Casino Aš](GRAND_CASINO_AS.md) | 🎟️ BHD PKO Main Event | · |
 | 9–18 Oct **now** | [Olympic Park Tallinn](OLYMPIC_TALLINN.md) | 🎪 Kings of Tallinn | €250 PLO4/PLO5 Progressive Bounty (10 Oct 20:00); €1,100 PLO4/PLO5 Championship (11–12 Oct); €350 PLO4/PLO5 Double Board Bomb Pot (12 Oct 17:00 and 14 Oct 20:00); €250 PLO High Only Mix (12 Oct 21:00); €250 PLO5 Progressive Bounty (13 Oct 15:00); €350 PLO4/PLO5 Mystery Bounty (14 Oct 16:00); €350 PLO4/5/6 Progressive Bounty (15 Oct 19:30); €350 PLO4/PLO5 Hi-Lo (17 Oct 13:00); €200 PLO4/5/6 Progressive Bounty (18 Oct 12:00) |
 | 14–19 Oct | [King's Rozvadov](README.md) | 🎟️ Dutch Poker Masters (DPM) | €120 PLO (17 Oct 15:00) |
 | 15–18 Oct | [Grand Casino Aš](GRAND_CASINO_AS.md) | 🎪 PLO festival | €550 PLO5 High Roller (15 Oct 20:00); €340 PLO Main Event (16–18 Oct); €100 PLO 4-5-6 mix (17 Oct 20:00); €660 PLO Turbo High Roller (18 Oct 16:00) |
@@ -77,7 +73,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 
 | Hour | Mon | Tue | Wed | Thu | Fri | Sat | Sun | All days |
 |:--|--:|--:|--:|--:|--:|--:|--:|--:|
-| 00:00 | · | · | 15 | 19 | · | 69 | 82 | 56 |
+| 00:00 | 33 | · | 15 | 19 | · | 69 | 82 | 55 |
 | 01:00 | · | · | 13 | 15 | · | 70 | 75 | 51 |
 | 02:00 | · | · | 14 | 8 | 17 | 55 | 60 | 43 |
 | 03:00 | · | · | 13 | 6 | · | 39 | 43 | 33 |
@@ -106,7 +102,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 
 | Hour | Mon | Tue | Wed | Thu | Fri | Sat | Sun | All days |
 |:--|--:|--:|--:|--:|--:|--:|--:|--:|
-| 00:00 | · | · | 14 | 5 | · | 8 | 5 | 8 |
+| 00:00 | 8 | · | 14 | 5 | · | 8 | 5 | 8 |
 | 01:00 | · | · | 7 | 0 | · | 9 | 0 | 4 |
 | 02:00 | · | · | 6 | 0 | 0 | 5 | 0 | 3 |
 | 03:00 | · | · | 5 | 0 | · | 4 | 0 | 2 |
@@ -135,7 +131,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 
 | Hour | Mon | Tue | Wed | Thu | Fri | Sat | Sun | All days |
 |:--|--:|--:|--:|--:|--:|--:|--:|--:|
-| 00:00 | · | · | 0 | 0 | · | 13 | 8 | 7 |
+| 00:00 | 8 | · | 0 | 0 | · | 13 | 8 | 7 |
 | 01:00 | · | · | 0 | 0 | · | 15 | 11 | 8 |
 | 02:00 | · | · | 0 | 0 | 0 | 15 | 13 | 10 |
 | 03:00 | · | · | 0 | 0 | · | 8 | 7 | 6 |
@@ -166,7 +162,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 
 | Hour | NLH €1/2 | NLH €2/4 | NLH €5/10 | PLO €2/2 | PLO5 €5/5 | PLO5 €10/10 | PLO5 €10/25 | MIX NLH/PLO €5/5 | Checks |
 |:--|--:|--:|--:|--:|--:|--:|--:|--:|--:|
-| 00:00 | 🟩 83% | 🟩 100% | 🟨 33% | 🟨 67% | 🟨 67% | 🟨 50% | 🟥 0% | 🟥 17% | 18 |
+| 00:00 | 🟩 84% | 🟩 95% | 🟨 32% | 🟨 68% | 🟨 68% | 🟨 47% | 🟥 0% | 🟥 16% | 19 |
 | 01:00 | 🟩 84% | 🟩 100% | 🟥 21% | 🟨 63% | 🟥 21% | 🟨 32% | 🟥 0% | 🟥 16% | 19 |
 | 02:00 | 🟨 74% | 🟩 95% | 🟥 0% | 🟨 68% | 🟨 26% | 🟨 26% | 🟥 0% | 🟥 11% | 19 |
 | 03:00 | 🟩 75% | 🟨 62% | 🟥 0% | 🟩 75% | 🟨 50% | 🟥 0% | 🟥 0% | 🟥 0% | 16 |
@@ -199,11 +195,11 @@ Collecting since 2026-10-08. Shown from 2026-10-22: with fewer than two weeks, t
 
 | Game | Running in | Most often | Last seen |
 |:--|--:|:--|:--|
-| NLH €1/2 | 78% of checks | Fri around 22:00 | 2026-10-11 23:50 |
+| NLH €1/2 | 78% of checks | Fri around 22:00 | 2026-10-12 00:00 |
 | NLH €2/4 | 55% of checks | Fri around 22:00 | 2026-10-11 17:30 |
 | NLH €5/10 | 14% of checks | Sat around 23:00 | 2026-10-11 19:30 |
-| PLO €2/2 | 49% of checks | Fri around 22:00 | 2026-10-11 23:50 |
-| PLO5 €5/5 | 44% of checks | Sat around 19:00 | 2026-10-11 23:50 |
+| PLO €2/2 | 50% of checks | Fri around 22:00 | 2026-10-12 00:00 |
+| PLO5 €5/5 | 44% of checks | Sat around 19:00 | 2026-10-12 00:00 |
 | PLO5 €10/10 | 18% of checks | Fri around 23:00 | 2026-10-10 19:40 |
 | PLO5 €10/25 | 3% of checks | Wed around 06:00 | 2026-10-07 10:04 |
 | MIX NLH/PLO €5/5 | 2% of checks | Wed around 00:00 | 2026-10-07 02:33 |
@@ -214,8 +210,8 @@ The most recent ones. The game is read from the tournament's name.
 
 | Tournament | Game | Buy-in | Entries | Seen |
 |:--|:--|--:|--:|:--|
-| GPD Mystery - Final day | NLH | €124 | 1686 | 2026-10-11 16:00 → 10-11 23:50 |
-| GPD High Roller | NLH | €350 | 158 | 2026-10-11 18:00 → 10-11 23:50 |
+| GPD Mystery - Final day | NLH | €124 | 1686 | 2026-10-11 16:00 → 10-12 00:00 |
+| GPD High Roller | NLH | €350 | 158 | 2026-10-11 18:00 → 10-12 00:00 |
 | GPD Mystery - Day 1G Turbo | NLH | €124 | 245 | 2026-10-11 11:00 → 10-11 15:20 |
 | GPD Mystery - Day 1 Flip and Go Pineapple | Pineapple | €124 | 87 | 2026-10-11 13:30 → 10-11 15:20 |
 | GPD Saturday Night Turbo | NLH | €125 | 188 | 2026-10-10 21:00 → 10-11 04:00 |
