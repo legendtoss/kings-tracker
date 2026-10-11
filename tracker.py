@@ -22,6 +22,7 @@ games are never mixed together. If checks keep failing, the run reports an error
 emails you (after about an hour, then once a day). Nothing here needs editing.
 """
 
+import base64
 import csv
 import gzip
 import hashlib
@@ -90,6 +91,11 @@ OLY_SITES = (
 OLY_FIELDS = ["time", "weekday", "hour", "status", "club", "tables", "players", "waiting", "games", "listed",
               "tournaments_text", "raw"]
 OLY_CLUBS_FILE = DATA_DIR / "olympic_clubs.json"  # remembers each site's club page address
+
+# GitHub stops a run after 10 minutes and then nothing gets saved, so once a run has taken this long
+# the slower extras (other rooms, browser backups) are skipped and King's data is saved in good time.
+RUN_BUDGET = 300  # seconds
+RUN = {"start": time.monotonic(), "timings": []}
 
 # Festivals, tournament schedule and public holidays (see "festivals, schedule and holidays" below)
 CALENDAR_FILE = Path("calendar.csv")          # festival / series / cash-game-event dates, edited by hand
@@ -603,12 +609,26 @@ def fetch_feed(url=None):
         return json.loads(response.read().decode("utf-8"))
 
 
-def fetch_text(url, referer):
+def short_on_time():
+    """True once this run has used its time budget (see RUN_BUDGET)."""
+    return time.monotonic() - RUN["start"] > RUN_BUDGET
+
+
+def timed(label, func, *args):
+    """Runs one check and notes how long it took (printed at the end, to spot slow sites in GitHub's log)."""
+    start = time.monotonic()
+    try:
+        return func(*args)
+    finally:
+        RUN["timings"].append(f"{label} {time.monotonic() - start:.0f}s")
+
+
+def fetch_text(url, referer, timeout=30):
     """A small piece of a casino's web page, fetched the way their page itself fetches it."""
     request = urllib.request.Request(url, headers={
         "User-Agent": UA, "Accept": "text/html, */*; q=0.01", "X-Requested-With": "XMLHttpRequest",
         "Referer": referer, "Accept-Encoding": "gzip"})
-    with urllib.request.urlopen(request, timeout=30) as response:
+    with urllib.request.urlopen(request, timeout=timeout) as response:
         data = response.read()
         if response.headers.get("Content-Encoding", "").lower() == "gzip":
             data = gzip.decompress(data)
@@ -1027,6 +1047,8 @@ def check_card():
             return "ok", "feed", entries, "" if entries else shown(strip_tags(fragment), 300), None
         problem.update(feed="the list had an unexpected format", feed_body=fragment[:5000])
         break
+    if short_on_time():
+        return "error: the feed failed and there was no time left for the browser backup", "", None, "", problem
     try:  # backup: the cash games page in a browser
         cash, _, details = browser_read(CARD_SITE)
     except Exception as e:
@@ -1217,7 +1239,7 @@ def oly_fetch(url, referer):
     """One ordinary page request. Returns (html, None) or (None, reason) - 'blocked' when the
     site's bot protection refuses it. Nothing is done to get around a refusal."""
     try:
-        html = fetch_text(url, referer)
+        html = fetch_text(url, referer, timeout=20)
     except urllib.error.HTTPError as e:
         return None, "blocked by the site's bot protection" if e.code in (403, 429, 503) else f"HTTP error {e.code}"
     except Exception as e:
@@ -1225,6 +1247,20 @@ def oly_fetch(url, referer):
     if any(sign in html[:20000].lower() for sign in BLOCK_SIGNS):
         return None, "blocked by the site's bot protection"
     return html, None
+
+
+def page_details(html):
+    """Everything needed to work out why a page couldn't be read: its text, the scripts it loads (the
+    list may be filled in by one of them) and the whole page, compressed (debug/ only)."""
+    lower = html.lower()
+    body = html[lower.find("<body"):] if "<body" in lower else html
+    body = re.sub(r"<(script|style)\b[^>]*>.*?</\1>", " ", body, flags=re.S | re.I)
+    inline = [" ".join(x.split())[:800] for x in re.findall(r"<script\b[^>]*>(.*?)</script>", html, re.S | re.I)
+              if re.search(r"ajax|cash|club|nonce|api|table|json", x, re.I)]
+    return {"page_text": strip_tags(body)[:15000],
+            "scripts": re.findall(r"<script\b[^>]*\bsrc=[\"']([^\"']+)", html, re.I)[:50],
+            "inline_scripts": inline[:25],
+            "page_gz_base64": base64.b64encode(gzip.compress(html.encode("utf-8"))).decode("ascii")}
 
 
 def record_olympic(now):
@@ -1260,7 +1296,7 @@ def record_olympic(now):
                                   for link, _, name in links if site["club"] in strip_tags(name).lower()), None)
                     if not match:
                         row["status"] = f"error: no club matching '{site['club']}' on the page"
-                        details["page_start"] = html[:20000]
+                        details.update(page_details(html))
                         break
                     known = clubs[site["key"]] = {"url": match[0], "name": match[1]}
                     html, problem = oly_fetch(known["url"], site["home"])
@@ -1270,15 +1306,15 @@ def record_olympic(now):
                 shown_club = re.search(r"<h2[^>]*>\s*" + re.escape(known["name"]) + r"\s*</h2>", html, re.I)
                 if not shown_club:
                     row["status"] = "error: couldn't confirm the page shows the right club"
-                    details["page_start"] = html[:20000]
+                    details.update(page_details(html))
                     clubs.pop(site["key"], None)  # look it up again next time
                     break
                 rows = oly_cash_rows(html)
                 if rows is not None:
                     row["club"] = shown(known["name"], 60)
                     break
-                details["page_start"] = html[:20000]
-                row["status"] = "error: couldn't read the cash games table"
+                details.update(page_details(html))
+                row["status"] = "error: couldn't read the cash games table (page saved for a closer look)"
                 break
             if rows is not None:
                 running = [r for r in rows if r["tables"] > 0]
@@ -2398,6 +2434,10 @@ def self_test():
     assert [(r["game"], r["tables"], r["players"], r["waiting"]) for r in oly_cash_rows(with_labels)] == \
         [("NLH", 0, 0, 1), ("PLO", 2, 15, 4), ("NLH", 0, 0, 0)], oly_cash_rows(with_labels)
     assert oly_cash_rows("<p>nothing here</p>") is None
+    saved = page_details("<html><head><script src='/a.js'></script><script>var cashAjax = {url: '/x'};</script></head>"
+                         "<body><h1>Cash games</h1><style>p{}</style><p>Table</p></body></html>")
+    assert saved["scripts"] == ["/a.js"] and "cashAjax" in saved["inline_scripts"][0] and saved["page_text"] == "Cash games Table"
+    assert gzip.decompress(base64.b64decode(saved["page_gz_base64"])).decode().startswith("<html>")
     assert oly_cash_rows("<p>Choose up to two games and register</p> something else entirely") is None
     assert card_entries('<div class="splide__slide">\r\n <div class="cash-game aligner">\r\n <h4>No games currently</h4>\r\n </div>\r\n</div>') == []
     assert gas_cash_entries("<p>Back to home</p><p>No Cash Game table is open at this time</p>") == []
@@ -2424,6 +2464,7 @@ def failure_streak(rows):
 
 
 def main():
+    RUN["start"], RUN["timings"] = time.monotonic(), []
     try:
         self_test()
     except AssertionError as e:
@@ -2438,8 +2479,8 @@ def main():
     except Exception as e:  # the calendar is extra: a problem with it never stops the tracking
         print(f"Festival calendar / schedule / holidays skipped: {short_error(e)}")
 
-    status, source, entries, page_text, problem = check()
-    tourneys, tourney_info, tourney_error = check_tournaments(now)
+    status, source, entries, page_text, problem = timed("King's", check)
+    tourneys, tourney_info, tourney_error = timed("King's tournaments", check_tournaments, now)
     if tourney_error:
         problem = {**(problem or {}), "tournaments": tourney_error}
     row = {"time": f"{now:%Y-%m-%d %H:%M}", "weekday": DAYS[now.weekday()], "hour": now.hour,
@@ -2458,10 +2499,18 @@ def main():
     remove_retired_sites()
     migrate_card_files()
     repair_history()
-    card_row = record_card(now)
-    gas_row = record_gas(now)
-    record_olympic(now)
-    site_rows = record_sites(now)
+    card_row = timed("Card Casino", record_card, now)
+    gas_row, site_rows = None, {}
+    for label, step in (("Grand Casino Aš", lambda: record_gas(now)), ("Olympic", lambda: record_olympic(now)),
+                        ("Banco", lambda: record_sites(now))):
+        if short_on_time():  # better to skip a room this once than to lose the whole run
+            RUN["timings"].append(f"{label} skipped (run running long)")
+            continue
+        result = timed(label, step)
+        if label == "Grand Casino Aš":
+            gas_row = result
+        elif label == "Banco":
+            site_rows = result
     latest_oly = {}
     for site in OLY_SITES:
         oly = load_csv_rows(DATA_DIR / site["key"])
@@ -2474,6 +2523,7 @@ def main():
     print("grandcasinoas:", json.dumps(gas_row, ensure_ascii=False)[:200])
     for key, site_row in site_rows.items():
         print(f"{key}:", json.dumps(site_row, ensure_ascii=False)[:200])
+    print("Timing: " + " · ".join(RUN["timings"]) + f" · total {time.monotonic() - RUN['start']:.0f}s")
 
     if should_alert(rows):
         print(f"::error::{failure_streak(rows)} checks in a row have failed. See README.md and debug/last_problem.json.")
