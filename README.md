@@ -2,12 +2,12 @@
 
 Checks King's live cash games and tournaments about every 10 minutes and updates this page by itself. All times are **Czech time** (same as Poland). Also tracking: [Card Casino Šamorín](CARD_CASINO.md) · [Grand Casino Aš](GRAND_CASINO_AS.md) · [Banco Casino Bratislava](BANCO.md) · [Olympic Park Tallinn](OLYMPIC_TALLINN.md) · [Olympic Casino Vilnius](OLYMPIC_VILNIUS.md).
 
-**Right now:** King's: 3 tables, 24 players · [Card Casino Šamorín](CARD_CASINO.md) 💵 Cash game days: NLH/PLO/PLO5 from €10/20: 0 tables, 0 players · [Grand Casino Aš](GRAND_CASINO_AS.md): 0 tables running, 1 waiting · [Olympic Park Tallinn](OLYMPIC_TALLINN.md) 🎪 Kings of Tallinn: 0 tables, 0 players at 12:30 · [Olympic Vilnius](OLYMPIC_VILNIUS.md): blocked at 12:30 · [Banco](BANCO.md): no games listed
+**Right now:** King's: 3 tables, 24 players · [Card Casino Šamorín](CARD_CASINO.md) 💵 Cash game days: NLH/PLO/PLO5 from €10/20: 0 tables, 0 players · [Grand Casino Aš](GRAND_CASINO_AS.md): 0 tables running, 1 waiting · [Olympic Park Tallinn](OLYMPIC_TALLINN.md) 🎪 Kings of Tallinn: blocked at 13:00 · [Olympic Vilnius](OLYMPIC_VILNIUS.md): blocked at 13:00 · [Banco](BANCO.md): no games listed
 
-**Last check:** 2026-10-11 12:50 — ✅ OK (data feed)  
-**Last 24 h:** 149 of 149 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-06 (427 good checks)
+**Last check:** 2026-10-11 13:00 — ✅ OK (data feed)  
+**Last 24 h:** 149 of 149 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-06 (428 good checks)
 
-## Tables running at 2026-10-11 12:50
+## Tables running at 2026-10-11 13:00
 
 ```
 NLH  €1/2     8/8 players
@@ -16,7 +16,7 @@ NLH  €1/2     8/8 players
 ```
 **NLH:** 24 players at 3 tables
 
-**Tournaments in play:** GPD Mystery - Day 1G Turbo (NLH, €124, €75 bounty, 138 of 224 left, late reg open, level 10, blinds 1500/3000/3000)
+**Tournaments in play:** GPD Mystery - Day 1G Turbo (NLH, €124, €75 bounty, 130 of 231 left, late reg open, level 10, blinds 1500/3000/3000)
 
 ## Festivals and schedule
 
@@ -86,7 +86,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 10:00 | · | 6 | 0 | · | · | 15 | 8 | 8 |
 | 11:00 | · | 5 | 2 | · | · | 15 | 10 | 10 |
 | 12:00 | · | 7 | 8 | · | · | 21 | 20 | 16 |
-| 13:00 | · | 8 | 11 | · | · | 21 | · | 15 |
+| 13:00 | · | 8 | 11 | · | · | 21 | 24 | 16 |
 | 14:00 | · | 13 | 15 | · | · | 36 | · | 26 |
 | 15:00 | · | 16 | 14 | · | 21 | 30 | · | 23 |
 | 16:00 | · | 16 | 16 | 16 | 32 | 38 | · | 27 |
@@ -115,7 +115,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 10:00 | · | 5 | 1 | · | · | 0 | 0 | 1 |
 | 11:00 | · | 6 | 0 | · | · | 0 | 0 | 1 |
 | 12:00 | · | 6 | 0 | · | · | 0 | 0 | 1 |
-| 13:00 | · | 7 | 0 | · | · | 0 | · | 2 |
+| 13:00 | · | 7 | 0 | · | · | 0 | 0 | 2 |
 | 14:00 | · | 9 | 0 | · | · | 1 | · | 3 |
 | 15:00 | · | 14 | 0 | · | 0 | 6 | · | 6 |
 | 16:00 | · | 15 | 0 | 0 | 0 | 6 | · | 5 |
@@ -144,7 +144,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 10:00 | · | 0 | 0 | · | · | 0 | 0 | 0 |
 | 11:00 | · | 0 | 0 | · | · | 0 | 0 | 0 |
 | 12:00 | · | 0 | 0 | · | · | 2 | 0 | 1 |
-| 13:00 | · | 0 | 0 | · | · | 8 | · | 4 |
+| 13:00 | · | 0 | 0 | · | · | 8 | 0 | 4 |
 | 14:00 | · | 0 | 0 | · | · | 13 | · | 7 |
 | 15:00 | · | 0 | 0 | · | 0 | 10 | · | 6 |
 | 16:00 | · | 0 | 0 | 1 | 0 | 7 | · | 3 |
@@ -175,7 +175,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 10:00 | 🟨 67% | 🟥 17% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 17% | 🟥 6% | 🟥 0% | 18 |
 | 11:00 | 🟩 76% | 🟥 18% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 18% | 🟥 0% | 🟥 0% | 17 |
 | 12:00 | 🟩 83% | 🟥 17% | 🟥 0% | 🟥 17% | 🟥 0% | 🟥 17% | 🟥 0% | 🟥 0% | 18 |
-| 13:00 | 🟩 75% | 🟨 25% | 🟥 0% | 🟨 50% | 🟥 0% | 🟨 25% | 🟥 0% | 🟥 0% | 12 |
+| 13:00 | 🟩 77% | 🟥 23% | 🟥 0% | 🟨 46% | 🟥 0% | 🟥 23% | 🟥 0% | 🟥 0% | 13 |
 | 14:00 | 🟩 77% | 🟨 69% | 🟥 0% | 🟨 54% | 🟥 15% | 🟥 23% | 🟥 0% | 🟥 0% | 13 |
 | 15:00 | 🟩 82% | 🟨 73% | 🟥 0% | 🟨 55% | 🟨 73% | 🟥 18% | 🟥 0% | 🟥 0% | 11 |
 | 16:00 | 🟩 82% | 🟨 53% | 🟥 0% | 🟨 41% | 🟨 53% | 🟥 18% | 🟥 0% | 🟥 0% | 17 |
@@ -195,7 +195,7 @@ Collecting since 2026-10-08. Shown from 2026-10-22: with fewer than two weeks, t
 
 | Game | Running in | Most often | Last seen |
 |:--|--:|:--|:--|
-| NLH €1/2 | 75% of checks | Fri around 22:00 | 2026-10-11 12:50 |
+| NLH €1/2 | 75% of checks | Fri around 22:00 | 2026-10-11 13:00 |
 | NLH €2/4 | 61% of checks | Fri around 22:00 | 2026-10-11 02:50 |
 | NLH €5/10 | 12% of checks | Sat around 23:00 | 2026-10-11 01:30 |
 | PLO €2/2 | 44% of checks | Fri around 22:00 | 2026-10-11 03:50 |
@@ -210,7 +210,7 @@ The most recent ones. The game is read from the tournament's name.
 
 | Tournament | Game | Buy-in | Entries | Seen |
 |:--|:--|--:|--:|:--|
-| GPD Mystery - Day 1G Turbo | NLH | €124 | 224 | 2026-10-11 11:00 → 10-11 12:50 |
+| GPD Mystery - Day 1G Turbo | NLH | €124 | 231 | 2026-10-11 11:00 → 10-11 13:00 |
 | GPD Saturday Night Turbo | NLH | €125 | 188 | 2026-10-10 21:00 → 10-11 04:00 |
 | GPD Mystery Bounty - Day 1F | NLH | €124 | 311 | 2026-10-10 18:00 → 10-11 03:40 |
 | GPD Pot Limit Omaha | PLO | €125 | 114 | 2026-10-10 15:00 → 10-10 21:00 |
