@@ -4,10 +4,10 @@ Checks King's live cash games and tournaments about every 10 minutes and updates
 
 **Right now:** King's: 1 table, 8 players · [Card Casino Šamorín](CARD_CASINO.md): 0 tables, 0 players · [Grand Casino Aš](GRAND_CASINO_AS.md): 0 tables running · [Olympic Park Tallinn](OLYMPIC_TALLINN.md) 🎪 Kings of Tallinn: 0 tables, 0 players (5 waiting) at 16:00 · [Olympic Vilnius](OLYMPIC_VILNIUS.md): 0 tables, 0 players at 16:00 · [Banco](BANCO.md): no games listed
 
-**Last check:** 2026-10-12 16:10 — ✅ OK (data feed)  
-**Last 24 h:** 149 of 149 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-06 (596 good checks)
+**Last check:** 2026-10-12 16:20 — ✅ OK (data feed)  
+**Last 24 h:** 149 of 149 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-06 (597 good checks)
 
-## Tables running at 2026-10-12 16:10
+## Tables running at 2026-10-12 16:20
 
 ```
 NLH  €1/2     8/8 players
@@ -172,7 +172,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 13:00 | 🟩 88% | 🟥 12% | 🟥 0% | 🟨 25% | 🟥 8% | 🟥 12% | 🟥 0% | 🟥 0% | 24 |
 | 14:00 | 🟩 88% | 🟨 60% | 🟥 0% | 🟨 36% | 🟨 32% | 🟥 12% | 🟥 0% | 🟥 0% | 25 |
 | 15:00 | 🟩 91% | 🟨 35% | 🟥 0% | 🟨 52% | 🟨 61% | 🟥 9% | 🟥 0% | 🟥 0% | 23 |
-| 16:00 | 🟩 88% | 🟨 46% | 🟥 0% | 🟨 54% | 🟨 62% | 🟥 12% | 🟥 0% | 🟥 0% | 26 |
+| 16:00 | 🟩 89% | 🟨 44% | 🟥 0% | 🟨 52% | 🟨 59% | 🟥 11% | 🟥 0% | 🟥 0% | 27 |
 | 17:00 | 🟩 87% | 🟨 43% | 🟨 26% | 🟩 78% | 🟨 70% | 🟥 13% | 🟥 0% | 🟥 0% | 23 |
 | 18:00 | 🟩 88% | 🟨 50% | 🟨 50% | 🟩 75% | 🟩 79% | 🟥 12% | 🟥 0% | 🟥 0% | 24 |
 | 19:00 | 🟩 88% | 🟨 54% | 🟥 21% | 🟩 79% | 🟩 92% | 🟨 25% | 🟥 0% | 🟥 0% | 24 |
@@ -189,7 +189,7 @@ Collecting since 2026-10-08. Shown from 2026-10-22: with fewer than two weeks, t
 
 | Game | Running in | Most often | Last seen |
 |:--|--:|:--|:--|
-| NLH €1/2 | 79% of checks | Fri around 22:00 | 2026-10-12 16:10 |
+| NLH €1/2 | 79% of checks | Fri around 22:00 | 2026-10-12 16:20 |
 | NLH €2/4 | 46% of checks | Fri around 22:00 | 2026-10-11 17:30 |
 | NLH €5/10 | 11% of checks | Sat around 23:00 | 2026-10-11 19:30 |
 | PLO €2/2 | 46% of checks | Fri around 22:00 | 2026-10-12 04:40 |
