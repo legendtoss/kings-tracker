@@ -790,9 +790,21 @@ CASH_POPUP_JS = r"""() => {
   const rows = Array.from(box.querySelectorAll('tr'))
     .map(tr => Array.from(tr.children).map(c => (c.textContent || '').replace(/\s+/g, ' ').trim()).filter(Boolean))
     .filter(cells => cells.length);
-  const visible = box.offsetParent !== null;
+  const style = getComputedStyle(box);
+  const visible = style.display !== 'none' && style.visibility !== 'hidden' && box.getClientRects().length > 0;
   return {rows, visible, text: ((visible ? box.innerText : box.textContent) || '').slice(0, 5000),
           html: box.outerHTML.slice(0, 20000)};
+}"""
+
+
+OPEN_CASH_POPUP_JS = r"""() => {
+  const modal = document.querySelector('#cash-games-modal');
+  if (modal && getComputedStyle(modal).display !== 'none') return 'already open';
+  const link = document.querySelector('[data-target="#cash-games-modal"], [data-bs-target="#cash-games-modal"], a[href="#cash-games-modal"]');
+  if (link) { link.click(); return 'its link'; }
+  if (modal && window.jQuery && window.jQuery.fn && window.jQuery.fn.modal) { window.jQuery(modal).modal('show'); return 'jQuery'; }
+  if (modal && window.bootstrap && window.bootstrap.Modal) { new window.bootstrap.Modal(modal).show(); return 'Bootstrap'; }
+  return 'could not open it';
 }"""
 
 
@@ -831,10 +843,25 @@ def read_site(browser, site, PWTimeout):
         if response.request.resource_type in ("xhr", "fetch") and len(responses) < 10 and not is_tracker(host):
             responses.append(response)
 
+    seen, sockets = [], []
+
+    def note_request(request):  # Banco: every request the page makes, to find where its cash list comes from
+        host = urllib.parse.urlparse(request.url).hostname or ""
+        if request.resource_type not in ("image", "media", "font", "stylesheet") and not is_tracker(host) and len(seen) < 150:
+            seen.append(f"{request.resource_type} {request.method} {request.url[:300]}")
+
+    def note_socket(ws):
+        entry = {"url": ws.url[:300], "frames": []}
+        sockets.append(entry)
+        ws.on("framereceived", lambda payload: len(entry["frames"]) < 5 and entry["frames"].append(str(payload)[:800]))
+
     page = browser.new_page(user_agent=UA, locale="en-US", viewport={"width": 1366, "height": 900})
     try:
         skip_extras(page)
         page.on("response", remember)
+        if site["reader"] == "banco-popup":
+            page.on("request", note_request)
+            page.on("websocket", note_socket)
         page.goto(site["url"], wait_until="domcontentloaded", timeout=60_000)
         try:
             page.get_by_text(site["age_button"], exact=True).first.click(timeout=3_000)  # the 18+ notice
@@ -846,14 +873,29 @@ def read_site(browser, site, PWTimeout):
             pass
         page.wait_for_timeout(2_000)
         popup = section_html = None
+        extra = {}
         if site["reader"] == "banco-popup":
+            opened = "its button"
             try:  # open the "Cash games" pop-up, in case its list is only loaded when opened
                 page.get_by_text("Cash Game", exact=True).first.click(timeout=3_000)
-                page.wait_for_load_state("networkidle", timeout=10_000)
             except Exception:
-                pass
+                opened = "button not found"
             page.wait_for_timeout(1_500)
             popup = page.evaluate(CASH_POPUP_JS)
+            if popup and not popup.get("visible"):  # the button didn't open it: try the page's own ways
+                opened = page.evaluate(OPEN_CASH_POPUP_JS)
+                page.wait_for_timeout(3_000)
+            try:
+                page.wait_for_load_state("networkidle", timeout=8_000)
+            except Exception:
+                pass
+            popup = page.evaluate(CASH_POPUP_JS)
+            html = page.content()
+            extra = {"popup_opened_by": opened, "requests": seen, "websockets": sockets,
+                     "frames": [f.url[:300] for f in page.frames][:20],
+                     "scripts_about_cash": [" ".join(x.split())[:1000] for x in re.findall(r"<script\b[^>]*>(.*?)</script>", html, re.S | re.I)
+                                            if re.search(r"cash|now-?playing|playing|modal", x, re.I)][:15],
+                     "page_gz_base64": base64.b64encode(gzip.compress(html.encode("utf-8"))).decode("ascii")}
         else:
             section_html = page.evaluate(SECTION_HTML_JS, "cash games")
         text = page.inner_text("body")
@@ -873,6 +915,7 @@ def read_site(browser, site, PWTimeout):
         listed = page_section(text, "poker tournaments", ("banco promotions", "jackpot"), 1500) or ""
         tournaments = " || ".join(part for part in (clock, listed) if part)
         details["cash_popup"] = popup
+        details.update(extra)
     else:  # the list sits on the page under a "Cash games" heading
         cash = page_section(text, "cash games", ("current tournaments",), 3000)
         if cash is not None:  # drop the fixed "Game limits" link and rake note, keep the live list
@@ -1042,7 +1085,8 @@ def save_debug_copy(path, now, status, url, details):
         return
     try:
         old = json.loads(path.read_text(encoding="utf-8"))
-        if old.get("status") == status and now - datetime.fromisoformat(old["saved_at"]) < timedelta(hours=24):
+        if (old.get("status") == status and now - datetime.fromisoformat(old["saved_at"]) < timedelta(hours=24)
+                and set(details) <= set(old)):
             return
     except (OSError, ValueError, KeyError):
         pass
@@ -1489,6 +1533,12 @@ def write_site_page(key, name, url, page_path):
             or ["(no cash games listed)"]
         out += [f"## Cash games on the site at {latest['time']}", "", "```", *lines, "```", "",
                 f"**Tournaments:** {shown(latest['tournament_text'], 300) or 'none listed'}", ""]
+    if len(ok) >= 100 and not any(r["cash_text"] for r in ok):
+        weekend = sum(1 for r in ok if r["weekday"] in ("Fri", "Sat") and int(r["hour"]) >= 18)
+        out += [f"**Note:** the cash-games list has been empty in all {len(ok)} successful checks since {ok[0]['time'][:10]}, "
+                f"including {weekend} on Friday and Saturday evenings. Either Banco isn't running cash games outside its "
+                "festivals, or the list fills in a way the tracker can't see yet - it now keeps a fuller copy of the page "
+                "once a day (`debug/banco_page.json`) to find out.", ""]
     if key in ROOMS:
         out += calendar_lines(key, datetime.now(TZ))
     out += ["---", "First version: the lists are saved exactly as the site shows them. Statistics per game "
