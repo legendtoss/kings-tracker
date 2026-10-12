@@ -4,10 +4,10 @@ Checks King's live cash games and tournaments about every 10 minutes and updates
 
 **Right now:** King's: 0 tables, 0 players · [Card Casino Šamorín](CARD_CASINO.md): 0 tables, 0 players · [Grand Casino Aš](GRAND_CASINO_AS.md): 0 tables running · [Olympic Park Tallinn](OLYMPIC_TALLINN.md) 🎪 Kings of Tallinn: 0 tables, 0 players (2 waiting) at 12:00 · [Olympic Vilnius](OLYMPIC_VILNIUS.md): 0 tables, 0 players at 12:00 · [Banco](BANCO.md): no games listed
 
-**Last check:** 2026-10-12 12:10 — ✅ OK (page table, via browser)  
-**Last 24 h:** 149 of 149 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-06 (571 good checks)
+**Last check:** 2026-10-12 12:20 — ✅ OK (page table, via browser)  
+**Last 24 h:** 149 of 149 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-06 (572 good checks)
 
-## Tables running at 2026-10-12 12:10
+## Tables running at 2026-10-12 12:20
 
 No tables were running.
 
@@ -165,7 +165,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 09:00 | 🟨 67% | 🟥 12% | 🟥 0% | 🟥 0% | 🟥 4% | 🟥 4% | 🟥 8% | 🟥 0% | 24 |
 | 10:00 | 🟨 50% | 🟥 12% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 12% | 🟥 4% | 🟥 0% | 24 |
 | 11:00 | 🟨 57% | 🟥 13% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 13% | 🟥 0% | 🟥 0% | 23 |
-| 12:00 | 🟩 75% | 🟥 15% | 🟥 0% | 🟥 15% | 🟥 0% | 🟥 15% | 🟥 0% | 🟥 0% | 20 |
+| 12:00 | 🟨 71% | 🟥 14% | 🟥 0% | 🟥 14% | 🟥 0% | 🟥 14% | 🟥 0% | 🟥 0% | 21 |
 | 13:00 | 🟩 83% | 🟥 17% | 🟥 0% | 🟨 33% | 🟥 11% | 🟥 17% | 🟥 0% | 🟥 0% | 18 |
 | 14:00 | 🟩 84% | 🟩 79% | 🟥 0% | 🟨 47% | 🟨 42% | 🟥 16% | 🟥 0% | 🟥 0% | 19 |
 | 15:00 | 🟩 88% | 🟨 47% | 🟥 0% | 🟨 71% | 🟩 82% | 🟥 12% | 🟥 0% | 🟥 0% | 17 |
