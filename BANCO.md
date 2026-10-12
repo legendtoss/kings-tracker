@@ -2,16 +2,18 @@
 
 Checks [its website](https://bancocasino.sk/ba/en) together with King's, about every 10 minutes. All times are **Czech time** (same as Poland and Slovakia). Back to [King's](README.md).
 
-**Last check:** 2026-10-12 17:10 — ✅ OK  
-**Checks so far:** 387 successful out of 392 (since 2026-10-10)
+**Last check:** 2026-10-12 17:20 — ✅ OK  
+**Checks so far:** 388 successful out of 393 (since 2026-10-10)
 
-## Cash games on the site at 2026-10-12 17:10
+## Cash games on the site at 2026-10-12 17:20
 
 ```
 (no cash games listed)
 ```
 
 **Tournaments:** Guaranteed Prizepool Late reg. Buy-in Blinds Players Starting stack Next level Avg. stack
+
+**Note:** the cash-games list has been empty in all 388 successful checks since 2026-10-10, including 38 on Friday and Saturday evenings. Either Banco isn't running cash games outside its festivals, or the list fills in a way the tracker can't see yet - it now keeps a fuller copy of the page once a day (`debug/banco_page.json`) to find out.
 
 ## Festivals and schedule
 
