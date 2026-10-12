@@ -2,12 +2,12 @@
 
 Reads [OlyBet's live cash games page](https://olybetpoker.com/ee/en/cash-games/) every 30 minutes (their site has bot protection, so the tracker checks gently and simply records it when a check is refused). All times are **Czech time** (Tallinn and Vilnius are one hour ahead). Back to [King's](README.md).
 
-**Last check:** 2026-10-12 12:00 — ✅ OK  
-**Last 24 h:** 29 of 50 checks OK, longest gap 0 h 30 min · **Collecting since:** 2026-10-10 (38 good checks)
+**Last check:** 2026-10-12 12:30 — ✅ OK  
+**Last 24 h:** 30 of 50 checks OK, longest gap 0 h 30 min · **Collecting since:** 2026-10-10 (39 good checks)
 
 **Club:** Olympic Park Casino
 
-## Tables running at 2026-10-12 12:00
+## Tables running at 2026-10-12 12:30
 
 No tables were running.
 
@@ -155,7 +155,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 09:00 | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 4 |
 | 10:00 | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 3 |
 | 11:00 | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 4 |
-| 12:00 | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 2 |
+| 12:00 | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 3 |
 | 13:00 | · | · | · | · | 0 |
 | 14:00 | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 2 |
 | 15:00 | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 2 |
@@ -174,16 +174,16 @@ Average seated players per check on each kind of day, in total and for NLH and O
 
 | Days | Dates | Checks | Players | NLH | Omaha | vs normal, same hour |
 |:--|:--|--:|--:|--:|--:|--:|
-| 🎪 Kings of Tallinn | 11–12 Oct (2 days) | 38 | 12.0 | 6.3 | 5.6 | · |
+| 🎪 Kings of Tallinn | 11–12 Oct (2 days) | 39 | 11.7 | 6.2 | 5.5 | · |
 
 ## All games seen
 
 | Game | Running in | Most often | Last seen |
 |:--|--:|:--|:--|
-| NLH €1/3 | 42% of checks | Sun around 22:00 | 2026-10-12 07:00 |
-| PLO/PLO5 €1/3 | 34% of checks | Sun around 22:00 | 2026-10-12 04:30 |
+| NLH €1/3 | 41% of checks | Sun around 22:00 | 2026-10-12 07:00 |
+| PLO/PLO5 €1/3 | 33% of checks | Sun around 22:00 | 2026-10-12 04:30 |
 | PLO/PLO5 €5/5 | 26% of checks | Sun around 23:00 | 2026-10-12 07:00 |
-| NLH/PLO €5/5 | 11% of checks | Mon around 03:00 | 2026-10-12 04:00 |
+| NLH/PLO €5/5 | 10% of checks | Mon around 03:00 | 2026-10-12 04:00 |
 
 ---
 Raw data: `data/olympic-tallinn` (one CSV file per month).
