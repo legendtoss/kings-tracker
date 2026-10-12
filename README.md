@@ -2,20 +2,20 @@
 
 Checks King's live cash games and tournaments about every 10 minutes and updates this page by itself. All times are **Czech time** (same as Poland). Also tracking: [Card Casino Šamorín](CARD_CASINO.md) · [Grand Casino Aš](GRAND_CASINO_AS.md) · [Banco Casino Bratislava](BANCO.md) · [Olympic Park Tallinn](OLYMPIC_TALLINN.md) · [Olympic Casino Vilnius](OLYMPIC_VILNIUS.md).
 
-**Right now:** King's: 2 tables, 12 players · [Card Casino Šamorín](CARD_CASINO.md): 1 table, 8 players · [Grand Casino Aš](GRAND_CASINO_AS.md): 0 tables running · [Olympic Park Tallinn](OLYMPIC_TALLINN.md) 🎪 Kings of Tallinn: 5 tables, 41 players (11 waiting) at 01:00 · [Olympic Vilnius](OLYMPIC_VILNIUS.md): 0 tables, 0 players at 01:00 · [Banco](BANCO.md): no games listed
+**Right now:** King's: 2 tables, 11 players · [Card Casino Šamorín](CARD_CASINO.md): 1 table, 8 players · [Grand Casino Aš](GRAND_CASINO_AS.md): 0 tables running · [Olympic Park Tallinn](OLYMPIC_TALLINN.md) 🎪 Kings of Tallinn: 5 tables, 41 players (11 waiting) at 01:00 · [Olympic Vilnius](OLYMPIC_VILNIUS.md): 0 tables, 0 players at 01:00 · [Banco](BANCO.md): no games listed
 
-**Last check:** 2026-10-13 01:10 — ✅ OK (data feed)  
-**Last 24 h:** 148 of 148 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-06 (651 good checks)
+**Last check:** 2026-10-13 01:20 — ✅ OK (data feed)  
+**Last 24 h:** 148 of 148 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-06 (652 good checks)
 
-## Tables running at 2026-10-13 01:10
+## Tables running at 2026-10-13 01:20
 
 ```
-NLH   €1/2     7/8 players
+NLH   €1/2     6/8 players
 PLO5  €5/5     5/8 players
 ```
-**NLH:** 7 players at 1 table · **PLO5:** 5 players at 1 table
+**NLH:** 6 players at 1 table · **PLO5:** 5 players at 1 table
 
-**Tournaments in play:** King's Big Monday (NLH, €100, 4 of 107 left, level 18, blinds 6000/12000/12000)
+**Tournaments in play:** King's Big Monday (NLH, €100, 4 of 107 left, level 19, blinds 10000/15000/15000)
 
 ## Festivals and schedule
 
@@ -69,7 +69,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | Hour | Mon | Tue | Wed | Thu | Fri | Sat | Sun | All days |
 |:--|--:|--:|--:|--:|--:|--:|--:|--:|
 | 00:00 | 30 | 8 | 15 | 19 | · | 69 | 82 | 41 |
-| 01:00 | 25 | 8 | 13 | 15 | · | 70 | 75 | 42 |
+| 01:00 | 25 | 7 | 13 | 15 | · | 70 | 75 | 41 |
 | 02:00 | 20 | · | 14 | 8 | 17 | 55 | 60 | 38 |
 | 03:00 | 19 | · | 13 | 6 | · | 39 | 43 | 29 |
 | 04:00 | 9 | 18 | 9 | 6 | · | 26 | 29 | 17 |
@@ -127,7 +127,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | Hour | Mon | Tue | Wed | Thu | Fri | Sat | Sun | All days |
 |:--|--:|--:|--:|--:|--:|--:|--:|--:|
 | 00:00 | 8 | 4 | 0 | 0 | · | 13 | 8 | 7 |
-| 01:00 | 8 | 0 | 0 | 0 | · | 15 | 11 | 8 |
+| 01:00 | 8 | 0 | 0 | 0 | · | 15 | 11 | 7 |
 | 02:00 | 8 | · | 0 | 0 | 0 | 15 | 13 | 9 |
 | 03:00 | 6 | · | 0 | 0 | · | 8 | 7 | 6 |
 | 04:00 | 4 | 0 | 0 | 0 | · | 6 | 0 | 2 |
@@ -158,7 +158,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | Hour | NLH €1/2 | NLH €2/4 | NLH €5/10 | PLO €2/2 | PLO5 €5/5 | PLO5 €10/10 | PLO5 €10/25 | MIX NLH/PLO €5/5 | Checks |
 |:--|--:|--:|--:|--:|--:|--:|--:|--:|--:|
 | 00:00 | 🟩 90% | 🟨 58% | 🟥 19% | 🟩 77% | 🟨 65% | 🟨 29% | 🟥 0% | 🟥 10% | 31 |
-| 01:00 | 🟩 89% | 🟨 70% | 🟥 15% | 🟨 67% | 🟨 44% | 🟥 22% | 🟥 0% | 🟥 11% | 27 |
+| 01:00 | 🟩 89% | 🟨 68% | 🟥 14% | 🟨 64% | 🟨 46% | 🟥 21% | 🟥 0% | 🟥 11% | 28 |
 | 02:00 | 🟩 80% | 🟨 72% | 🟥 0% | 🟩 76% | 🟨 32% | 🟥 20% | 🟥 0% | 🟥 8% | 25 |
 | 03:00 | 🟩 82% | 🟨 45% | 🟥 0% | 🟩 82% | 🟨 36% | 🟥 0% | 🟥 0% | 🟥 0% | 22 |
 | 04:00 | 🟨 68% | 🟨 54% | 🟥 7% | 🟨 43% | 🟨 29% | 🟥 7% | 🟥 0% | 🟥 0% | 28 |
@@ -190,11 +190,11 @@ Collecting since 2026-10-08. Shown from 2026-10-22: with fewer than two weeks, t
 
 | Game | Running in | Most often | Last seen |
 |:--|--:|:--|:--|
-| NLH €1/2 | 81% of checks | Fri around 22:00 | 2026-10-13 01:10 |
+| NLH €1/2 | 81% of checks | Fri around 22:00 | 2026-10-13 01:20 |
 | NLH €2/4 | 42% of checks | Fri around 22:00 | 2026-10-11 17:30 |
 | NLH €5/10 | 10% of checks | Sat around 23:00 | 2026-10-11 19:30 |
 | PLO €2/2 | 45% of checks | Fri around 22:00 | 2026-10-13 00:40 |
-| PLO5 €5/5 | 41% of checks | Sat around 19:00 | 2026-10-13 01:10 |
+| PLO5 €5/5 | 41% of checks | Sat around 19:00 | 2026-10-13 01:20 |
 | PLO5 €10/10 | 13% of checks | Fri around 23:00 | 2026-10-10 19:40 |
 | PLO5 €10/25 | 2% of checks | Wed around 06:00 | 2026-10-07 10:04 |
 | MIX NLH/PLO €5/5 | 1% of checks | Wed around 00:00 | 2026-10-07 02:33 |
@@ -205,7 +205,7 @@ The most recent ones. The game is read from the tournament's name.
 
 | Tournament | Game | Buy-in | Entries | Seen |
 |:--|:--|--:|--:|:--|
-| King's Big Monday | NLH | €100 | 107 | 2026-10-12 18:00 → 10-13 01:10 |
+| King's Big Monday | NLH | €100 | 107 | 2026-10-12 18:00 → 10-13 01:20 |
 | GPD High Roller | NLH | €350 | 158 | 2026-10-11 18:00 → 10-12 05:40 |
 | GPD Mystery - Final day | NLH | €124 | 1686 | 2026-10-11 16:00 → 10-12 03:10 |
 | GPD Mystery - Day 1G Turbo | NLH | €124 | 245 | 2026-10-11 11:00 → 10-11 15:20 |
