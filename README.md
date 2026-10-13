@@ -2,12 +2,12 @@
 
 Checks King's live cash games and tournaments about every 10 minutes and updates this page by itself. All times are **Czech time** (same as Poland). Also tracking: [Card Casino Šamorín](CARD_CASINO.md) · [Grand Casino Aš](GRAND_CASINO_AS.md) · [Banco Casino Bratislava](BANCO.md) · [Olympic Park Tallinn](OLYMPIC_TALLINN.md) · [Olympic Casino Vilnius](OLYMPIC_VILNIUS.md).
 
-**Right now:** King's: 0 tables, 0 players · [Card Casino Šamorín](CARD_CASINO.md): couldn't be read · [Grand Casino Aš](GRAND_CASINO_AS.md): 0 tables running · [Olympic Park Tallinn](OLYMPIC_TALLINN.md) 🎪 Kings of Tallinn: blocked at 08:30 · [Olympic Vilnius](OLYMPIC_VILNIUS.md): blocked at 08:30 · [Banco](BANCO.md): no games listed
+**Right now:** King's: 0 tables, 0 players · [Card Casino Šamorín](CARD_CASINO.md): 0 tables, 0 players · [Grand Casino Aš](GRAND_CASINO_AS.md): 0 tables running · [Olympic Park Tallinn](OLYMPIC_TALLINN.md) 🎪 Kings of Tallinn: 1 table, 8 players at 09:00 · [Olympic Vilnius](OLYMPIC_VILNIUS.md): 0 tables, 0 players at 09:00 · [Banco](BANCO.md): no games listed
 
-**Last check:** 2026-10-13 08:50 — ✅ OK (page table, via browser)  
-**Last 24 h:** 148 of 148 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-06 (698 good checks)
+**Last check:** 2026-10-13 09:00 — ✅ OK (page table, via browser)  
+**Last 24 h:** 148 of 148 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-06 (699 good checks)
 
-## Tables running at 2026-10-13 08:50
+## Tables running at 2026-10-13 09:00
 
 No tables were running.
 
@@ -56,7 +56,7 @@ From `calendar.csv` — open it on GitHub and use the pencil button to add or co
 
 Day, hour and average seated players (only day-hour slots seen on at least 2 different dates).
 
-- **NLH:** Tue 05:00 (4) · Tue 04:00 (4) · Tue 06:00 (3)
+- **NLH:** Tue 05:00 (4) · Tue 04:00 (4) · Tue 09:00 (3)
 - **PLO5:** Tue 05:00 (7) · Tue 04:00 (5) · Tue 06:00 (5)
 
 ## Average players by hour
@@ -76,7 +76,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 06:00 | 7 | 3 | 8 | 4 | · | 17 | 14 | 9 |
 | 07:00 | 7 | 3 | 7 | 3 | · | 17 | 12 | 8 |
 | 08:00 | 6 | 2 | 0 | 4 | 5 | 12 | 9 | 6 |
-| 09:00 | 2 | 5 | 0 | 4 | · | 14 | 6 | 6 |
+| 09:00 | 2 | 3 | 0 | 4 | · | 14 | 6 | 6 |
 | 10:00 | 0 | 6 | 0 | · | · | 15 | 8 | 6 |
 | 11:00 | 0 | 5 | 2 | · | · | 15 | 10 | 7 |
 | 12:00 | 2 | 7 | 8 | · | · | 21 | 20 | 12 |
@@ -105,7 +105,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 06:00 | 0 | 5 | 4 | 0 | · | 0 | 0 | 2 |
 | 07:00 | 0 | 4 | 4 | 0 | · | 0 | 0 | 1 |
 | 08:00 | 0 | 3 | 2 | 0 | 0 | 0 | 0 | 1 |
-| 09:00 | 0 | 4 | 2 | 0 | · | 0 | 0 | 1 |
+| 09:00 | 0 | 3 | 2 | 0 | · | 0 | 0 | 1 |
 | 10:00 | 0 | 5 | 1 | · | · | 0 | 0 | 1 |
 | 11:00 | 0 | 6 | 0 | · | · | 0 | 0 | 1 |
 | 12:00 | 0 | 6 | 0 | · | · | 0 | 0 | 1 |
@@ -165,7 +165,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 06:00 | 🟨 55% | 🟨 45% | 🟥 9% | 🟥 18% | 🟥 9% | 🟥 9% | 🟥 9% | 🟥 0% | 33 |
 | 07:00 | 🟨 58% | 🟨 45% | 🟥 9% | 🟥 12% | 🟥 9% | 🟥 9% | 🟥 6% | 🟥 0% | 33 |
 | 08:00 | 🟨 58% | 🟥 24% | 🟥 0% | 🟥 0% | 🟥 9% | 🟥 6% | 🟥 9% | 🟥 0% | 33 |
-| 09:00 | 🟨 67% | 🟥 12% | 🟥 0% | 🟥 0% | 🟥 4% | 🟥 4% | 🟥 8% | 🟥 0% | 24 |
+| 09:00 | 🟨 64% | 🟥 12% | 🟥 0% | 🟥 0% | 🟥 4% | 🟥 4% | 🟥 8% | 🟥 0% | 25 |
 | 10:00 | 🟨 50% | 🟥 12% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 12% | 🟥 4% | 🟥 0% | 24 |
 | 11:00 | 🟨 57% | 🟥 13% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 13% | 🟥 0% | 🟥 0% | 23 |
 | 12:00 | 🟩 76% | 🟥 12% | 🟥 0% | 🟥 12% | 🟥 0% | 🟥 12% | 🟥 0% | 🟥 0% | 25 |
