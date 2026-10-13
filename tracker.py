@@ -694,14 +694,22 @@ def open_browser(p):
         return p.chromium.launch()
 
 
+BLANK_GIF = base64.b64decode("R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7")
+
+
 def skip_extras(page):
-    """Don't load pictures, fonts, videos or tracking scripts: faster, and our checks
-    don't show up as visits in the casinos' website statistics."""
+    """Don't download pictures, fonts, videos or tracking scripts: faster, and our checks don't
+    show up as visits in the casinos' website statistics. Pictures get a tiny blank stand-in
+    rather than an error, because some pages' scripts stop working when an image fails."""
     def handle(route):
         request = route.request
         host = urllib.parse.urlparse(request.url).hostname or ""
-        if request.resource_type in ("image", "media", "font") or is_tracker(host):
+        if is_tracker(host):
             return route.abort()
+        if request.resource_type == "image":
+            return route.fulfill(status=200, content_type="image/gif", body=BLANK_GIF)
+        if request.resource_type in ("media", "font"):
+            return route.fulfill(status=200, body=b"")
         return route.continue_()
     page.route("**/*", handle)
 
@@ -792,8 +800,13 @@ CASH_POPUP_JS = r"""() => {
     .filter(cells => cells.length);
   const style = getComputedStyle(box);
   const visible = style.display !== 'none' && style.visibility !== 'hidden' && box.getClientRects().length > 0;
+  const section = document.querySelector('#now-playing');
+  const sectionRows = section ? Array.from(section.querySelectorAll('tr'))
+    .map(tr => Array.from(tr.children).map(c => (c.textContent || '').replace(/\s+/g, ' ').trim()).filter(Boolean))
+    .filter(cells => cells.length) : [];
   return {rows, visible, text: ((visible ? box.innerText : box.textContent) || '').slice(0, 5000),
-          html: box.outerHTML.slice(0, 20000)};
+          html: box.outerHTML.slice(0, 20000), section_rows: sectionRows,
+          section_text: section ? (section.innerText || section.textContent || '').slice(0, 5000) : ''};
 }"""
 
 
@@ -805,6 +818,31 @@ OPEN_CASH_POPUP_JS = r"""() => {
   if (modal && window.jQuery && window.jQuery.fn && window.jQuery.fn.modal) { window.jQuery(modal).modal('show'); return 'jQuery'; }
   if (modal && window.bootstrap && window.bootstrap.Modal) { new window.bootstrap.Modal(modal).show(); return 'Bootstrap'; }
   return 'could not open it';
+}"""
+
+
+BANCO_SCRIPTS_JS = r"""async () => {
+  const out = [];
+  const sources = Array.from(document.scripts).map(s => s.src).filter(src => src && src.startsWith(location.origin));
+  for (const src of sources) {
+    try {
+      const text = await (await fetch(src)).text();
+      const find = /now[-_]?playing|apiCall|kholdem|cash[-_ ]?games?/gi;
+      let m, n = 0;
+      while ((m = find.exec(text)) && n < 5) {
+        out.push({script: src.split('/').pop().split('?')[0], snippet: text.slice(Math.max(0, m.index - 300), m.index + 700)});
+        find.lastIndex = m.index + 700; n++;
+      }
+    } catch (e) {}
+  }
+  return out.slice(0, 30);
+}"""
+BANCO_API_JS = r"""async () => {
+  try {
+    const body = new URLSearchParams({"endPoint": "event/search", "method": "POST", "data[status]": "running"});
+    const r = await fetch(new URL("kholdem/apiCall/", location.href), {method: "POST", body, headers: {"X-Requested-With": "XMLHttpRequest"}});
+    return {status: r.status, body: (await r.text()).slice(0, 6000)};
+  } catch (e) { return {error: String(e)}; }
 }"""
 
 
@@ -843,7 +881,7 @@ def read_site(browser, site, PWTimeout):
         if response.request.resource_type in ("xhr", "fetch") and len(responses) < 10 and not is_tracker(host):
             responses.append(response)
 
-    seen, sockets = [], []
+    seen, sockets, errors = [], [], []
 
     def note_request(request):  # Banco: every request the page makes, to find where its cash list comes from
         host = urllib.parse.urlparse(request.url).hostname or ""
@@ -862,6 +900,8 @@ def read_site(browser, site, PWTimeout):
         if site["reader"] == "banco-popup":
             page.on("request", note_request)
             page.on("websocket", note_socket)
+            page.on("pageerror", lambda e: len(errors) < 20 and errors.append(str(e)[:400]))
+            page.on("console", lambda m: m.type == "error" and len(errors) < 20 and errors.append(m.text[:400]))
         page.goto(site["url"], wait_until="domcontentloaded", timeout=60_000)
         try:
             page.get_by_text(site["age_button"], exact=True).first.click(timeout=3_000)  # the 18+ notice
@@ -891,7 +931,12 @@ def read_site(browser, site, PWTimeout):
                 pass
             popup = page.evaluate(CASH_POPUP_JS)
             html = page.content()
-            extra = {"popup_opened_by": opened, "requests": seen, "websockets": sockets,
+            try:
+                scripts, api = page.evaluate(BANCO_SCRIPTS_JS), page.evaluate(BANCO_API_JS)
+            except Exception as e:
+                scripts, api = [], {"error": short_error(e)}
+            extra = {"popup_opened_by": opened, "requests": seen, "websockets": sockets, "page_errors": errors,
+                     "script_snippets": scripts, "api_running_events": api,
                      "frames": [f.url[:300] for f in page.frames][:20],
                      "scripts_about_cash": [" ".join(x.split())[:1000] for x in re.findall(r"<script\b[^>]*>(.*?)</script>", html, re.S | re.I)
                                             if re.search(r"cash|now-?playing|playing|modal", x, re.I)][:15],
@@ -931,10 +976,10 @@ def popup_text(popup):
     None if the pop-up wasn't on the page at all."""
     if not popup:
         return None
-    rows = [" ; ".join(cells) for cells in popup.get("rows") or []]
+    rows = [" ; ".join(cells) for cells in popup.get("rows") or popup.get("section_rows") or []]
     if rows:
         return " | ".join(rows)
-    lines = [" ".join(ln.split()) for ln in (popup.get("text") or "").splitlines()]
+    lines = [" ".join(ln.split()) for ln in f"{popup.get('text') or ''}\n{popup.get('section_text') or ''}".splitlines()]
     return " | ".join(ln for ln in lines if ln and ln.lower() not in ("cash games", "close", "×", "x"))
 
 
