@@ -4,17 +4,17 @@ Checks King's live cash games and tournaments about every 10 minutes and updates
 
 **Right now:** King's: 1 table, 8 players · [Card Casino Šamorín](CARD_CASINO.md): 1 table, 6 players · [Grand Casino Aš](GRAND_CASINO_AS.md): 0 tables running · [Olympic Park Tallinn](OLYMPIC_TALLINN.md) 🎪 Kings of Tallinn: 3 tables, 25 players (15 waiting) at 21:00 · [Olympic Vilnius](OLYMPIC_VILNIUS.md): blocked at 21:00 · [Banco](BANCO.md): Bratislava, NLHE 1/3€, --, -- 100€, 3, Košice, DCH 1/2€, --, -- 50€, 8
 
-**Last check:** 2026-10-13 21:00 — ✅ OK (data feed)  
-**Last 24 h:** 148 of 148 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-06 (772 good checks)
+**Last check:** 2026-10-13 21:10 — ✅ OK (data feed)  
+**Last 24 h:** 148 of 148 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-06 (773 good checks)
 
-## Tables running at 2026-10-13 21:00
+## Tables running at 2026-10-13 21:10
 
 ```
 NLH  €1/2     8/8 players
 ```
 **NLH:** 8 players at 1 table
 
-**Tournaments in play:** King's Big Tuesday (NLH, €100, 45 of 82 left, late reg open, level 8, blinds 500/1000/1000)
+**Tournaments in play:** King's Big Tuesday (NLH, €100, 48 of 86 left, late reg open, level 8, blinds 500/1000/1000)
 
 ## Festivals and schedule
 
@@ -59,8 +59,8 @@ From `calendar.csv` — open it on GitHub and use the pencil button to add or co
 
 Day, hour and average seated players (only day-hour slots seen on at least 2 different dates).
 
-- **NLH:** Tue 21:00 (17) · Tue 17:00 (12) · Tue 20:00 (11)
-- **PLO5:** Tue 21:00 (12) · Tue 05:00 (7) · Tue 18:00 (5)
+- **NLH:** Tue 21:00 (15) · Tue 17:00 (12) · Tue 20:00 (11)
+- **PLO5:** Tue 21:00 (10) · Tue 05:00 (7) · Tue 18:00 (5)
 
 ## Average players by hour
 
@@ -91,7 +91,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 18:00 | 7 | 9 | 18 | · | 44 | 46 | 28 | 24 |
 | 19:00 | 8 | 10 | 16 | · | 46 | 50 | 26 | 26 |
 | 20:00 | 8 | 11 | 20 | · | 47 | 61 | 23 | 27 |
-| 21:00 | 10 | 17 | 27 | · | 42 | 62 | 27 | 32 |
+| 21:00 | 10 | 15 | 27 | · | 42 | 62 | 27 | 32 |
 | 22:00 | 6 | 16 | 26 | 28 | 54 | 71 | 30 | 36 |
 | 23:00 | 8 | 16 | 24 | · | 66 | 78 | 34 | 42 |
 
@@ -120,7 +120,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 18:00 | 6 | 5 | 0 | · | 3 | 8 | 6 | 5 |
 | 19:00 | 6 | 5 | 0 | · | 8 | 9 | 7 | 7 |
 | 20:00 | 6 | 5 | 0 | · | 8 | 8 | 8 | 6 |
-| 21:00 | 0 | 12 | 2 | · | 8 | 8 | 3 | 5 |
+| 21:00 | 0 | 10 | 2 | · | 8 | 8 | 3 | 5 |
 | 22:00 | 0 | 16 | 6 | 5 | 8 | 8 | 0 | 5 |
 | 23:00 | 0 | 17 | 7 | · | 8 | 8 | 1 | 6 |
 
@@ -180,7 +180,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 18:00 | 🟩 89% | 🟨 33% | 🟨 33% | 🟨 50% | 🟨 69% | 🟥 8% | 🟥 0% | 🟥 0% | 36 |
 | 19:00 | 🟩 81% | 🟨 39% | 🟥 14% | 🟨 53% | 🟩 78% | 🟥 17% | 🟥 0% | 🟥 0% | 36 |
 | 20:00 | 🟩 92% | 🟨 32% | 🟥 8% | 🟨 51% | 🟩 76% | 🟥 8% | 🟥 0% | 🟥 0% | 37 |
-| 21:00 | 🟩 90% | 🟨 37% | 🟥 20% | 🟨 60% | 🟨 60% | 🟥 10% | 🟥 0% | 🟥 0% | 30 |
+| 21:00 | 🟩 90% | 🟨 35% | 🟥 19% | 🟨 58% | 🟨 58% | 🟥 10% | 🟥 0% | 🟥 0% | 31 |
 | 22:00 | 🟩 94% | 🟨 41% | 🟥 22% | 🟩 81% | 🟨 50% | 🟥 16% | 🟥 0% | 🟥 0% | 32 |
 | 23:00 | 🟩 88% | 🟨 62% | 🟥 22% | 🟩 78% | 🟨 47% | 🟨 31% | 🟥 0% | 🟥 3% | 32 |
 
@@ -192,7 +192,7 @@ Collecting since 2026-10-08. Shown from 2026-10-22: with fewer than two weeks, t
 
 | Game | Running in | Most often | Last seen |
 |:--|--:|:--|:--|
-| NLH €1/2 | 73% of checks | Fri around 22:00 | 2026-10-13 21:00 |
+| NLH €1/2 | 73% of checks | Fri around 22:00 | 2026-10-13 21:10 |
 | NLH €2/4 | 35% of checks | Fri around 22:00 | 2026-10-13 19:30 |
 | NLH €5/10 | 9% of checks | Sat around 23:00 | 2026-10-11 19:30 |
 | PLO €2/2 | 38% of checks | Fri around 22:00 | 2026-10-13 00:40 |
@@ -207,7 +207,7 @@ The most recent ones. The game is read from the tournament's name.
 
 | Tournament | Game | Buy-in | Entries | Seen |
 |:--|:--|--:|--:|:--|
-| King's Big Tuesday | NLH | €100 | 82 | 2026-10-13 18:00 → 10-13 21:00 |
+| King's Big Tuesday | NLH | €100 | 86 | 2026-10-13 18:00 → 10-13 21:10 |
 | King's Big Monday | NLH | €100 | 107 | 2026-10-12 18:00 → 10-13 02:00 |
 | GPD High Roller | NLH | €350 | 158 | 2026-10-11 18:00 → 10-12 05:40 |
 | GPD Mystery - Final day | NLH | €124 | 1686 | 2026-10-11 16:00 → 10-12 03:10 |
