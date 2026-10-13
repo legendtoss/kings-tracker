@@ -1,6 +1,6 @@
 {
- "saved_on": "2026-10-13",
- "records": 2,
+ "saved_on": "2026-10-14",
+ "records": 3,
  "fields": [
   "activePause",
   "activePlayers",
@@ -40,6 +40,7 @@
   "startingStack",
   "status",
   "stickerText",
+  "subName",
   "totalEntries",
   "tournamentName",
   "tournament_id",
@@ -47,10 +48,10 @@
  ],
  "sample": [
   {
-   "referenceTime": "2026-10-13T00:00:07.922",
-   "name": "King's Big Monday",
-   "fullName": "King's Big Monday",
-   "tournamentName": "King's Big Monday",
+   "referenceTime": "2026-10-14T00:00:40.912",
+   "name": "King's Big Tuesday",
+   "fullName": "King's Big Tuesday",
+   "tournamentName": "King's Big Tuesday",
    "notes": null,
    "color": "#1a237e",
    "background": null,
@@ -65,15 +66,15 @@
    "openRegistration": false,
    "lateRegistrationUntilLevel": 8,
    "expectedLastLevel": null,
-   "start": "2026-10-12T18:00:14",
-   "pausedSeconds": 135,
-   "pausedMillis": 135645,
-   "flightGameTimeDelta": -135645,
+   "start": "2026-10-13T18:00:18",
+   "pausedSeconds": 1385,
+   "pausedMillis": 1385298,
+   "flightGameTimeDelta": -1385298,
    "stickerText": null,
-   "totalEntries": 107,
-   "activePlayers": 11,
-   "averageStack": 194545,
-   "nextBreakStart": "2026-10-13T01:12:30.539",
+   "totalEntries": 93,
+   "activePlayers": 12,
+   "averageStack": 155000,
+   "nextBreakStart": "2026-10-14T01:38:23.487",
    "nextBreakSeconds": 600,
    "entryValue": 100,
    "serviceFee": 0,
@@ -82,37 +83,37 @@
     {
      "from": 1,
      "to": 1,
-     "amount": 2354,
+     "amount": 2328,
      "label": null
     },
     {
      "from": 2,
      "to": 2,
-     "amount": 1527,
+     "amount": 1495,
      "label": null
     },
     {
      "from": 3,
      "to": 3,
-     "amount": 1028,
+     "amount": 1000,
      "label": null
     },
     {
      "from": 4,
      "to": 4,
-     "amount": 719,
+     "amount": 698,
      "label": null
     },
     {
      "from": 5,
      "to": 5,
-     "amount": 524,
+     "amount": 511,
      "label": null
     },
     {
      "from": 6,
      "to": 6,
-     "amount": 398,
+     "amount": 392,
      "label": null
     },
     {
@@ -124,32 +125,38 @@
     {
      "from": 8,
      "to": 8,
-     "amount": 263,
+     "amount": 269,
      "label": null
     },
     {
      "from": 9,
      "to": 9,
-     "amount": 229,
+     "amount": 241,
      "label": null
     },
     {
      "from": 10,
      "to": 10,
-     "amount": 210,
+     "amount": 230,
      "label": null
     },
     {
      "from": 11,
      "to": 11,
-     "amount": 210,
+     "amount": 230,
+     "label": null
+    },
+    {
+     "from": 12,
+     "to": 12,
+     "amount": 230,
      "label": null
     }
    ],
    "currentLevel": {
-    "start": "2026-10-12T23:52:30.539",
-    "gameEnd": "2026-10-13T00:12:30.539",
-    "levelEnd": "2026-10-13T00:12:30.539",
+    "start": "2026-10-13T23:58:23.487",
+    "gameEnd": "2026-10-14T00:18:23.487",
+    "levelEnd": "2026-10-14T00:18:23.487",
     "sb": 4000,
     "bb": 8000,
     "number": 16,
@@ -192,28 +199,28 @@
     "addOnLimit": null,
     "reBuyLimit": null
    },
-   "tournament_id": 13778
+   "tournament_id": 13779
   },
   {
-   "referenceTime": "2026-10-13T00:00:03.077",
-   "name": "King's Big Tuesday",
-   "fullName": "King's Big Tuesday",
-   "tournamentName": "King's Big Tuesday",
+   "referenceTime": "2026-10-14T00:00:09.042",
+   "name": "Satellite to DPM ME - Day 1A",
+   "fullName": "Satellite to DPM ME - Day 1A",
+   "tournamentName": "Satellite to DPM ME - Day 1A",
    "notes": null,
-   "color": "#1a237e",
+   "color": "#f57f17",
    "background": null,
    "status": "READY_FOR_PUBLICATION",
    "isPaused": false,
    "currency": "EUR",
-   "effectivePrizePool": 10000,
+   "effectivePrizePool": 3375,
    "guaranteeInEffect": true,
    "overlay": null,
    "reEntryMaxCount": null,
-   "startingStack": 20000,
+   "startingStack": 10000,
    "openRegistration": true,
    "lateRegistrationUntilLevel": 8,
    "expectedLastLevel": null,
-   "start": "2026-10-13T18:00:00",
+   "start": "2026-10-14T15:00:00",
    "pausedSeconds": null,
    "pausedMillis": null,
    "flightGameTimeDelta": null,
@@ -223,7 +230,7 @@
    "averageStack": 0,
    "nextBreakStart": null,
    "nextBreakSeconds": null,
-   "entryValue": 100,
+   "entryValue": 40,
    "serviceFee": 0,
    "bountyValue": null,
    "payoutPositions": null,
@@ -233,36 +240,107 @@
      "sb": 100,
      "bb": 100,
      "number": 1,
-     "gameSeconds": 1200,
+     "gameSeconds": 900,
      "breakSeconds": 0,
-     "limits": "",
+     "limits": null,
      "ante": 100
     },
     {
      "sb": 100,
      "bb": 200,
      "number": 2,
-     "gameSeconds": 1200,
+     "gameSeconds": 900,
      "breakSeconds": 0,
-     "limits": "",
+     "limits": null,
      "ante": 200
     }
    ],
    "softPauseEnd": null,
    "activePause": null,
    "plannedEnd": null,
-   "winningStructureType": "STANDARD",
+   "winningStructureType": "SATELLITE",
    "levelCount": null,
    "reEntryCountLimit": null,
    "availableTickets": {
-    "buyIn": 100,
+    "buyIn": 40,
     "serviceFee": 0,
     "addon": null,
     "rebuy": null,
     "addOnLimit": null,
     "reBuyLimit": null
    },
-   "tournament_id": 13779
+   "tournament_id": 13767
+  },
+  {
+   "referenceTime": "2026-10-14T00:00:09.139",
+   "name": "Dutch Poker Masters  - Day 1A",
+   "fullName": "Dutch Poker Masters  - Day 1A",
+   "tournamentName": "Dutch Poker Masters ",
+   "notes": "15% ITM MC 450€ • played till 10%",
+   "color": "#b71c1c",
+   "background": "kings_cards_1.jpg",
+   "status": "READY_FOR_PUBLICATION",
+   "isPaused": false,
+   "currency": "EUR",
+   "effectivePrizePool": 500000,
+   "guaranteeInEffect": true,
+   "overlay": null,
+   "reEntryMaxCount": null,
+   "startingStack": 50000,
+   "openRegistration": true,
+   "lateRegistrationUntilLevel": 10,
+   "expectedLastLevel": 15,
+   "start": "2026-10-14T18:00:00",
+   "pausedSeconds": null,
+   "pausedMillis": null,
+   "flightGameTimeDelta": null,
+   "stickerText": null,
+   "totalEntries": 0,
+   "activePlayers": 0,
+   "averageStack": 0,
+   "nextBreakStart": null,
+   "nextBreakSeconds": null,
+   "entryValue": 225,
+   "serviceFee": 0,
+   "bountyValue": null,
+   "payoutPositions": null,
+   "currentLevel": null,
+   "nextLevels": [
+    {
+     "sb": 100,
+     "bb": 300,
+     "number": 1,
+     "gameSeconds": 1800,
+     "breakSeconds": 0,
+     "limits": null,
+     "ante": 300
+    },
+    {
+     "sb": 200,
+     "bb": 400,
+     "number": 2,
+     "gameSeconds": 1800,
+     "breakSeconds": 0,
+     "limits": null,
+     "ante": 400
+    }
+   ],
+   "softPauseEnd": null,
+   "activePause": null,
+   "plannedEnd": null,
+   "winningStructureType": "STANDARD",
+   "levelCount": 15,
+   "reEntryCountLimit": null,
+   "subName": "15% ITM MC 450€ • played till 10%",
+   "availableTickets": {
+    "buyIn": 225,
+    "serviceFee": 0,
+    "addon": null,
+    "rebuy": null,
+    "addOnLimit": null,
+    "reBuyLimit": null
+   },
+   "tournament_id": 13754
   }
  ]
 }

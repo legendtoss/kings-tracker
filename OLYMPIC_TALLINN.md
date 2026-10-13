@@ -2,8 +2,8 @@
 
 Reads [OlyBet's live cash games page](https://olybetpoker.com/ee/en/cash-games/) every 30 minutes (their site has bot protection, so the tracker checks gently and simply records it when a check is refused). All times are **Czech time** (Tallinn and Vilnius are one hour ahead). Back to [King's](README.md).
 
-**Last check:** 2026-10-13 23:30 — ✅ OK  
-**Last 24 h:** 35 of 50 checks OK, longest gap 0 h 30 min · **Collecting since:** 2026-10-10 (88 good checks)
+**Last check:** 2026-10-14 00:00 — ⚠️ error: blocked by the site's bot protection — details in `debug/olympic-tallinn_page.json`  
+**Last 24 h:** 34 of 50 checks OK, longest gap 0 h 30 min · **Collecting since:** 2026-10-10 (88 good checks)
 
 **Club:** Olympic Park Casino
 
@@ -33,7 +33,6 @@ PLO/PLO5   €1/3     8/8 players
 
 | Day | Time (local) | Buy-in | Tournament |
 |:--|:--|--:|:--|
-| Tue 13 Oct | 15:00 | €250 | Pot Limit Omaha - PLO5 Progressive Bounty (Event #26) |
 | Wed 14 Oct | 16:00 | €350 | Pot Limit Omaha - PLO4/PLO5 DeepStack Mystery Bounty Day 1 (Event #36) |
 | Wed 14 Oct | 20:00 | €350 | Pot Limit Omaha - PLO4/PLO5 Double Board Bomb Pot (Event #38) |
 | Thu 15 Oct | 17:00 | €200 | Pot Limit Sviten - PLO5 (Event #43) |
