@@ -2,10 +2,10 @@
 
 Reads [Card Casino's live cash-game list](https://www.cardcasino.sk/en/cashgames/) together with King's, about every 10 minutes. All times are **Czech time** (same as Poland and Slovakia). Back to [King's](README.md).
 
-**Last check:** 2026-10-13 09:00 — ✅ OK (live list)  
-**Last 24 h:** 122 of 148 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-10 (409 good checks)
+**Last check:** 2026-10-13 09:10 — ✅ OK (live list)  
+**Last 24 h:** 122 of 148 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-10 (410 good checks)
 
-## Tables running at 2026-10-13 09:00
+## Tables running at 2026-10-13 09:10
 
 No tables were running.
 
@@ -101,7 +101,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 06:00 | 🟥 0% | 🟨 50% | 10 |
 | 07:00 | 🟥 0% | 🟨 45% | 11 |
 | 08:00 | 🟥 0% | 🟨 60% | 10 |
-| 09:00 | 🟥 0% | 🟩 86% | 7 |
+| 09:00 | 🟥 0% | 🟩 75% | 8 |
 | 10:00 | 🟥 0% | 🟨 33% | 3 |
 | 11:00 | 🟥 0% | 🟥 0% | 5 |
 | 12:00 | 🟥 0% | 🟥 0% | 6 |
@@ -123,8 +123,8 @@ Average seated players per check on each kind of day, in total and for NLH and O
 
 | Days | Dates | Checks | Players | NLH | Omaha | vs normal, same hour |
 |:--|:--|--:|--:|--:|--:|--:|
-| Normal days | 12–13 Oct (2 days) | 169 | 6.8 | 2.6 | 4.2 | +0.0 |
-| 💵 Cash game days: NLH/PLO/PLO5 from €10/20 | 10–11 Oct (2 days) | 240 | 11.9 | 6.2 | 5.7 | +6.1 |
+| Normal days | 12–13 Oct (2 days) | 170 | 6.7 | 2.6 | 4.2 | +0.0 |
+| 💵 Cash game days: NLH/PLO/PLO5 from €10/20 | 10–11 Oct (2 days) | 240 | 11.9 | 6.2 | 5.7 | +6.2 |
 
 ## All games seen
 
