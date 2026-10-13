@@ -4,10 +4,10 @@ Checks King's live cash games and tournaments about every 10 minutes and updates
 
 **Right now:** King's: 0 tables, 0 players · [Card Casino Šamorín](CARD_CASINO.md): 1 table, 7 players · [Grand Casino Aš](GRAND_CASINO_AS.md): 0 tables running · [Olympic Park Tallinn](OLYMPIC_TALLINN.md) 🎪 Kings of Tallinn: 4 tables, 30 players (5 waiting) at 03:30 · [Olympic Vilnius](OLYMPIC_VILNIUS.md): 0 tables, 0 players at 03:30 · [Banco](BANCO.md): no games listed
 
-**Last check:** 2026-10-13 03:30 — ✅ OK (page table, via browser)  
-**Last 24 h:** 148 of 148 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-06 (665 good checks)
+**Last check:** 2026-10-13 03:40 — ✅ OK (page table, via browser)  
+**Last 24 h:** 148 of 148 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-06 (666 good checks)
 
-## Tables running at 2026-10-13 03:30
+## Tables running at 2026-10-13 03:40
 
 No tables were running.
 
@@ -67,7 +67,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 00:00 | 30 | 8 | 15 | 19 | · | 69 | 82 | 41 |
 | 01:00 | 25 | 6 | 13 | 15 | · | 70 | 75 | 38 |
 | 02:00 | 20 | 4 | 14 | 8 | 17 | 55 | 60 | 31 |
-| 03:00 | 19 | 0 | 13 | 6 | · | 39 | 43 | 25 |
+| 03:00 | 19 | 0 | 13 | 6 | · | 39 | 43 | 24 |
 | 04:00 | 9 | 18 | 9 | 6 | · | 26 | 29 | 17 |
 | 05:00 | 7 | 13 | 8 | 5 | · | 20 | 23 | 14 |
 | 06:00 | 7 | 10 | 8 | 4 | · | 17 | 14 | 11 |
@@ -96,7 +96,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 00:00 | 8 | 1 | 14 | 5 | · | 8 | 5 | 6 |
 | 01:00 | 7 | 5 | 7 | 0 | · | 9 | 0 | 5 |
 | 02:00 | 2 | 4 | 6 | 0 | 0 | 5 | 0 | 3 |
-| 03:00 | 0 | 2 | 5 | 0 | · | 4 | 0 | 2 |
+| 03:00 | 0 | 1 | 5 | 0 | · | 4 | 0 | 2 |
 | 04:00 | 0 | 24 | 4 | 0 | · | 2 | 0 | 3 |
 | 05:00 | 0 | 22 | 4 | 0 | · | 0 | 0 | 3 |
 | 06:00 | 0 | 15 | 4 | 0 | · | 0 | 0 | 2 |
@@ -156,7 +156,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 00:00 | 🟩 90% | 🟨 58% | 🟥 19% | 🟩 77% | 🟨 65% | 🟨 29% | 🟥 0% | 🟥 10% | 31 |
 | 01:00 | 🟩 90% | 🟨 61% | 🟥 13% | 🟨 58% | 🟨 52% | 🟥 19% | 🟥 0% | 🟥 10% | 31 |
 | 02:00 | 🟩 81% | 🟨 58% | 🟥 0% | 🟨 61% | 🟨 45% | 🟥 16% | 🟥 0% | 🟥 6% | 31 |
-| 03:00 | 🟨 69% | 🟨 38% | 🟥 0% | 🟨 69% | 🟨 42% | 🟥 0% | 🟥 0% | 🟥 0% | 26 |
+| 03:00 | 🟨 67% | 🟨 37% | 🟥 0% | 🟨 67% | 🟨 41% | 🟥 0% | 🟥 0% | 🟥 0% | 27 |
 | 04:00 | 🟨 68% | 🟨 54% | 🟥 7% | 🟨 43% | 🟨 29% | 🟥 7% | 🟥 0% | 🟥 0% | 28 |
 | 05:00 | 🟨 69% | 🟨 54% | 🟥 12% | 🟥 23% | 🟥 15% | 🟥 12% | 🟥 8% | 🟥 0% | 26 |
 | 06:00 | 🟨 67% | 🟨 56% | 🟥 11% | 🟥 22% | 🟥 11% | 🟥 11% | 🟥 11% | 🟥 0% | 27 |
