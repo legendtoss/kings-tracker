@@ -4,10 +4,10 @@ Checks King's live cash games and tournaments about every 10 minutes and updates
 
 **Right now:** King's: 2 tables, 16 players · [Card Casino Šamorín](CARD_CASINO.md): couldn't be read · [Grand Casino Aš](GRAND_CASINO_AS.md): 0 tables running · [Olympic Park Tallinn](OLYMPIC_TALLINN.md) 🎪 Kings of Tallinn: blocked at 22:00 · [Olympic Vilnius](OLYMPIC_VILNIUS.md): blocked at 22:00 · [Banco](BANCO.md): Bratislava, NLHE 1/3€, --, -- 100€, 5, Košice, DCH 1/2€, --, -- 50€, 7
 
-**Last check:** 2026-10-13 22:00 — ✅ OK (data feed)  
-**Last 24 h:** 148 of 148 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-06 (778 good checks)
+**Last check:** 2026-10-13 22:10 — ✅ OK (data feed)  
+**Last 24 h:** 148 of 148 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-06 (779 good checks)
 
-## Tables running at 2026-10-13 22:00
+## Tables running at 2026-10-13 22:10
 
 ```
 NLH  €1/2     8/8 players
@@ -15,7 +15,7 @@ NLH  €1/2     8/8 players
 ```
 **NLH:** 16 players at 2 tables
 
-**Tournaments in play:** King's Big Tuesday (NLH, €100, 35 of 93 left, level 11, blinds 1000/2000/2000)
+**Tournaments in play:** King's Big Tuesday (NLH, €100, 34 of 93 left, level 11, blinds 1000/2000/2000)
 
 ## Festivals and schedule
 
@@ -61,7 +61,7 @@ From `calendar.csv` — open it on GitHub and use the pencil button to add or co
 Day, hour and average seated players (only day-hour slots seen on at least 2 different dates).
 
 - **NLH:** Tue 22:00 (16) · Tue 21:00 (14) · Tue 17:00 (12)
-- **PLO5:** Tue 22:00 (10) · Tue 05:00 (7) · Tue 18:00 (5)
+- **PLO5:** Tue 22:00 (8) · Tue 05:00 (7) · Tue 18:00 (5)
 
 ## Average players by hour
 
@@ -93,7 +93,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 19:00 | 8 | 10 | 16 | · | 46 | 50 | 26 | 26 |
 | 20:00 | 8 | 11 | 20 | · | 47 | 61 | 23 | 27 |
 | 21:00 | 10 | 14 | 27 | · | 42 | 62 | 27 | 30 |
-| 22:00 | 6 | 16 | 26 | 28 | 54 | 71 | 30 | 36 |
+| 22:00 | 6 | 16 | 26 | 28 | 54 | 71 | 30 | 35 |
 | 23:00 | 8 | 16 | 24 | · | 66 | 78 | 34 | 42 |
 
 ### 5-card Pot-Limit Omaha (PLO5)
@@ -122,7 +122,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 19:00 | 6 | 5 | 0 | · | 8 | 9 | 7 | 7 |
 | 20:00 | 6 | 5 | 0 | · | 8 | 8 | 8 | 6 |
 | 21:00 | 0 | 5 | 2 | · | 8 | 8 | 3 | 5 |
-| 22:00 | 0 | 10 | 6 | 5 | 8 | 8 | 0 | 5 |
+| 22:00 | 0 | 8 | 6 | 5 | 8 | 8 | 0 | 5 |
 | 23:00 | 0 | 17 | 7 | · | 8 | 8 | 1 | 6 |
 
 ### Pot-Limit Omaha (PLO)
@@ -182,7 +182,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 19:00 | 🟩 81% | 🟨 39% | 🟥 14% | 🟨 53% | 🟩 78% | 🟥 17% | 🟥 0% | 🟥 0% | 36 |
 | 20:00 | 🟩 92% | 🟨 32% | 🟥 8% | 🟨 51% | 🟩 76% | 🟥 8% | 🟥 0% | 🟥 0% | 37 |
 | 21:00 | 🟩 91% | 🟨 31% | 🟥 17% | 🟨 51% | 🟨 51% | 🟥 9% | 🟥 0% | 🟥 0% | 35 |
-| 22:00 | 🟩 94% | 🟨 39% | 🟥 21% | 🟩 79% | 🟨 48% | 🟥 15% | 🟥 0% | 🟥 0% | 33 |
+| 22:00 | 🟩 94% | 🟨 38% | 🟥 21% | 🟩 76% | 🟨 47% | 🟥 15% | 🟥 0% | 🟥 0% | 34 |
 | 23:00 | 🟩 88% | 🟨 62% | 🟥 22% | 🟩 78% | 🟨 47% | 🟨 31% | 🟥 0% | 🟥 3% | 32 |
 
 ## Cash games vs tournaments
@@ -193,7 +193,7 @@ Collecting since 2026-10-08. Shown from 2026-10-22: with fewer than two weeks, t
 
 | Game | Running in | Most often | Last seen |
 |:--|--:|:--|:--|
-| NLH €1/2 | 73% of checks | Fri around 22:00 | 2026-10-13 22:00 |
+| NLH €1/2 | 73% of checks | Fri around 22:00 | 2026-10-13 22:10 |
 | NLH €2/4 | 35% of checks | Fri around 22:00 | 2026-10-13 19:30 |
 | NLH €5/10 | 9% of checks | Sat around 23:00 | 2026-10-11 19:30 |
 | PLO €2/2 | 38% of checks | Fri around 22:00 | 2026-10-13 00:40 |
@@ -208,7 +208,7 @@ The most recent ones. The game is read from the tournament's name.
 
 | Tournament | Game | Buy-in | Entries | Seen |
 |:--|:--|--:|--:|:--|
-| King's Big Tuesday | NLH | €100 | 93 | 2026-10-13 18:00 → 10-13 22:00 |
+| King's Big Tuesday | NLH | €100 | 93 | 2026-10-13 18:00 → 10-13 22:10 |
 | King's Big Monday | NLH | €100 | 107 | 2026-10-12 18:00 → 10-13 02:00 |
 | GPD High Roller | NLH | €350 | 158 | 2026-10-11 18:00 → 10-12 05:40 |
 | GPD Mystery - Final day | NLH | €124 | 1686 | 2026-10-11 16:00 → 10-12 03:10 |
