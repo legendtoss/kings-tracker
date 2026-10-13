@@ -2,10 +2,10 @@
 
 Checks [its website](https://bancocasino.sk/ba/en) together with King's, about every 10 minutes. All times are **Czech time** (same as Poland and Slovakia). Back to [King's](README.md).
 
-**Last check:** 2026-10-13 23:10 — ✅ OK  
-**Checks so far:** 71 successful out of 575 (since 2026-10-10)
+**Last check:** 2026-10-13 23:20 — ✅ OK  
+**Checks so far:** 72 successful out of 576 (since 2026-10-10)
 
-## Cash games on the site at 2026-10-13 23:10
+## Cash games on the site at 2026-10-13 23:20
 
 ```
 Bratislava
@@ -17,7 +17,7 @@ Košice
 DCH 1/2€
 --
 -- 50€
-5
+4
 ```
 
 **Tournaments:** none listed
