@@ -642,6 +642,82 @@ def timed(label, func, *args):
         RUN["timings"].append(f"{label} {time.monotonic() - start:.0f}s")
 
 
+BANCO_NOW_PLAYING_URL = os.environ.get("BANCO_NOW_PLAYING_URL", "https://bancocasino.sk/ba/getNowPlaying")
+BANCO_API_URL = os.environ.get("BANCO_API_URL", "https://bancocasino.sk/ba/kholdem/apiCall/")
+BANCO_DIRECT_SINCE = "2026-10-13 12:00"  # before this, the tracker couldn't see Banco's cash list
+
+
+def post_form(url, fields, referer, timeout=20):
+    """A form sent the way a casino's own page sends it (for Banco's poker system)."""
+    request = urllib.request.Request(url, data=urllib.parse.urlencode(fields).encode(), headers={
+        "User-Agent": UA, "Accept": "application/json, text/javascript, */*; q=0.01", "X-Requested-With": "XMLHttpRequest",
+        "Referer": referer, "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8", "Accept-Encoding": "gzip"})
+    with urllib.request.urlopen(request, timeout=timeout) as response:
+        data = response.read()
+        if response.headers.get("Content-Encoding", "").lower() == "gzip":
+            data = gzip.decompress(data)
+        return data.decode("utf-8", errors="replace")
+
+
+def banco_cash_text(fragment):
+    """Banco's 'now playing' list (the piece of HTML its page shows) as 'cell ; cell | next game'.
+    Header rows and its 'updated ...' line are left out, so an empty list gives ''."""
+    fragment = re.sub(r'<(\w+)[^>]*class="[^"]*\bupdated\b[^"]*"[^>]*>.*?</\1>', " ", fragment or "", flags=re.S | re.I)
+    rows = []
+    for tr in re.findall(r"<tr\b.*?</tr>", fragment, re.S | re.I):
+        cells = [" ".join(strip_tags(c).split()) for c in re.findall(r"<td\b.*?</td>", tr, re.S | re.I)]
+        if any(cells):
+            rows.append(" ; ".join(c for c in cells if c))
+    if rows or re.search(r"<tr\b", fragment, re.I):
+        return " | ".join(rows)
+    lines = re.sub(r"<(?:br|/div|/p|/li|/h\d)\b[^>]*>", "\n", fragment, flags=re.I)
+    return " | ".join(x for x in (" ".join(strip_tags(line).split()) for line in lines.splitlines()) if x)
+
+
+def banco_tournaments(referer):
+    """Today's running tournaments from Banco's poker system - the same two calls its own tournament
+    clock makes. Returns (text, details)."""
+    found = json.loads(post_form(BANCO_API_URL, {"endPoint": "event/search", "method": "POST", "data[status]": "running"}, referer))
+    if not isinstance(found, dict):
+        return "", {"search": str(found)[:300]}
+    parts, first = [], None
+    for event in (found.get("results") or [])[:4]:
+        try:
+            e = json.loads(post_form(BANCO_API_URL, {"endPoint": f"event/{event.get('id')}", "method": "GET"}, referer))
+            first = first or e
+            stats, levels = e.get("stats") or {}, e.get("levels") or []
+            level_id = as_int(((e.get("status") or {}).get("level") or {}).get("id"))
+            current = levels[level_id - 1] if 0 < level_id <= len(levels) else {}
+            text = str((e.get("dailyDetails") or {}).get("fullname") or event.get("name") or "tournament")
+            if stats.get("totalPlayers"):
+                text += f": {stats['totalPlayers']}/{stats.get('totalEntries', '?')} players"
+            if current.get("type") == 1:
+                text += f", level {current.get('index')}, blinds {current.get('smallBlind')}/{current.get('bigBlind')}"
+            elif current:
+                text += ", on a break"
+            fee = ((e.get("subscription") or {}).get("buyin") or {}).get("buyinFee")
+            text += f", buy-in €{fee}" if fee else ""
+            text += f", €{stats['guaranteedAmount']} GTD" if stats.get("guaranteedAmount") else ""
+            parts.append(text)
+        except Exception as ex:
+            parts.append(f"tournament {event.get('id')}: details couldn't be read ({short_error(ex)})")
+    return "; ".join(parts), {"running": len(found.get("results") or []), "first": json.dumps(first)[:3000] if first else ""}
+
+
+def banco_direct(site):
+    """Banco's cash list and running tournaments read straight from their sources (no browser).
+    Raises if the cash list address doesn't answer with the list, so the browser backup takes over."""
+    fragment = fetch_text(BANCO_NOW_PLAYING_URL, site["url"], timeout=20)
+    if re.search(r"<html|<body", fragment, re.I):
+        raise ValueError("the cash list address answered with a whole page")
+    cash = banco_cash_text(fragment)
+    try:
+        tournaments, info = banco_tournaments(site["url"])
+    except Exception as e:
+        tournaments, info = "", {"error": short_error(e)}
+    return cash, tournaments, {"source": "direct", "now_playing_html": fragment[:20000], "tournaments": info}
+
+
 def fetch_text(url, referer, timeout=30):
     """A small piece of a casino's web page, fetched the way their page itself fetches it."""
     request = urllib.request.Request(url, headers={
@@ -821,39 +897,14 @@ OPEN_CASH_POPUP_JS = r"""() => {
 }"""
 
 
-BANCO_SCRIPTS_JS = r"""async () => {
-  const out = [];
-  const sources = Array.from(document.scripts).map(s => s.src).filter(src => src && src.startsWith(location.origin));
-  for (const src of sources) {
-    try {
-      const text = await (await fetch(src)).text();
-      const find = /now[-_]?playing|apiCall|kholdem|cash[-_ ]?games?/gi;
-      let m, n = 0;
-      while ((m = find.exec(text)) && n < 5) {
-        out.push({script: src.split('/').pop().split('?')[0], snippet: text.slice(Math.max(0, m.index - 300), m.index + 700)});
-        find.lastIndex = m.index + 700; n++;
-      }
-    } catch (e) {}
-  }
-  return out.slice(0, 30);
-}"""
-BANCO_API_JS = r"""async () => {
-  try {
-    const body = new URLSearchParams({"endPoint": "event/search", "method": "POST", "data[status]": "running"});
-    const r = await fetch(new URL("kholdem/apiCall/", location.href), {method: "POST", body, headers: {"X-Requested-With": "XMLHttpRequest"}});
-    return {status: r.status, body: (await r.text()).slice(0, 6000)};
-  } catch (e) { return {error: String(e)}; }
-}"""
-
-
-def sites_check():
+def sites_check(sites=SITES):
     """Open each Slovak room's page like a visitor and read its live 'Cash games' and 'Poker
     tournaments' boxes. Returns {folder: (cash text, tournament text, details) or an Exception}."""
     sync_playwright, PWTimeout = load_playwright()
     results = {}
     with sync_playwright() as p:
         browser = open_browser(p)
-        for site in SITES:
+        for site in sites:
             try:
                 results[site["key"]] = read_site(browser, site, PWTimeout)
             except Exception as e:  # one site failing doesn't stop the others
@@ -931,12 +982,7 @@ def read_site(browser, site, PWTimeout):
                 pass
             popup = page.evaluate(CASH_POPUP_JS)
             html = page.content()
-            try:
-                scripts, api = page.evaluate(BANCO_SCRIPTS_JS), page.evaluate(BANCO_API_JS)
-            except Exception as e:
-                scripts, api = [], {"error": short_error(e)}
             extra = {"popup_opened_by": opened, "requests": seen, "websockets": sockets, "page_errors": errors,
-                     "script_snippets": scripts, "api_running_events": api,
                      "frames": [f.url[:300] for f in page.frames][:20],
                      "scripts_about_cash": [" ".join(x.split())[:1000] for x in re.findall(r"<script\b[^>]*>(.*?)</script>", html, re.S | re.I)
                                             if re.search(r"cash|now-?playing|playing|modal", x, re.I)][:15],
@@ -987,6 +1033,21 @@ def short_error(e):
     return clean(f"{type(e).__name__}: {(str(e).strip().splitlines() or [''])[0]}", 160)
 
 
+def empty_feed_confirmed(now):
+    """True when an empty feed can be taken at its word (no tables running): the page itself showed no
+    tables within the last two hours. One check an hour still double-checks on the page, so a feed that
+    breaks quietly can't hide running tables for long."""
+    if now.minute < 10:
+        return False
+    try:
+        with (DATA_DIR / f"{now:%Y-%m}.csv").open(newline="", encoding="utf-8-sig") as fh:
+            recent = list(csv.DictReader(fh))[-14:]
+    except OSError:
+        return False
+    checked = [r for r in recent if r["status"] == "ok" and r["source"] in ("page table", "browser feed")]
+    return bool(checked) and checked[-1]["tables"] in ("0", "") and checked[-1]["time"] >= f"{now - timedelta(hours=2):%Y-%m-%d %H:%M}"
+
+
 def check():
     """Read the tables now. Returns (status, source, entries or None, page text, problem details)."""
     problem = {}
@@ -1001,6 +1062,8 @@ def check():
             continue
         if entries:
             return "ok", "feed", entries, "", None
+        if entries == [] and empty_feed_confirmed(datetime.now(TZ)):
+            return "ok", "feed", [], "", None
         problem["feed"] = "no Rozvadov tables in the feed" if entries == [] else "the feed had an unexpected format"
         break  # an empty answer is double-checked on the page below
     try:
@@ -1497,6 +1560,9 @@ def repair_history():
         (GAS_DIR, GAS_FIELDS, lambda r: r["status"] == "error: the 'Current cash game' table wasn't found",
          {"status": "ok", "tables": 0, "waiting": 0, "games": ""}),
     ]
+    fixes.append((DATA_DIR / "banco", SITE_FIELDS,
+                  lambda r: r["status"] == "ok" and not r["cash_text"] and r["time"] < BANCO_DIRECT_SINCE,
+                  {"status": "error: the cash list wasn't visible to the tracker yet"}))
     for site in OLY_SITES:  # the first Olympic version reported 0 tables without actually reading the table
         fixes.append((DATA_DIR / site["key"], OLY_FIELDS, lambda r: r["status"] == "ok" and not r["listed"],
                       {"status": "error: table not read (first version)", "tables": "", "players": "", "waiting": "", "games": ""}))
@@ -1533,10 +1599,20 @@ def remove_retired_sites():
 def record_sites(now):
     """One check of each Slovak room, each saved to data/<folder>/YYYY-MM.csv.
     Never raises: these sites can't break the King's tracking."""
-    try:
-        results = sites_check()
-    except Exception as e:  # e.g. the browser couldn't start
-        results = {site["key"]: e for site in SITES}
+    results, in_browser = {}, []
+    for site in SITES:
+        if site["reader"] == "banco-popup":
+            try:
+                results[site["key"]] = banco_direct(site)
+                continue
+            except Exception as e:
+                print(f"{site['name']}: direct read failed ({short_error(e)}), using the page instead")
+        in_browser.append(site)
+    if in_browser:
+        try:
+            results.update(sites_check(in_browser))
+        except Exception as e:  # e.g. the browser couldn't start
+            results.update({site["key"]: e for site in in_browser})
     return {site["key"]: record_site(now, site["key"], site["name"], site["url"], site["page"], results.get(site["key"]))
             for site in SITES}
 
@@ -1578,12 +1654,15 @@ def write_site_page(key, name, url, page_path):
             or ["(no cash games listed)"]
         out += [f"## Cash games on the site at {latest['time']}", "", "```", *lines, "```", "",
                 f"**Tournaments:** {shown(latest['tournament_text'], 300) or 'none listed'}", ""]
-    if len(ok) >= 100 and not any(r["cash_text"] for r in ok):
-        weekend = sum(1 for r in ok if r["weekday"] in ("Fri", "Sat") and int(r["hour"]) >= 18)
-        out += [f"**Note:** the cash-games list has been empty in all {len(ok)} successful checks since {ok[0]['time'][:10]}, "
-                f"including {weekend} on Friday and Saturday evenings. Either Banco isn't running cash games outside its "
-                "festivals, or the list fills in a way the tracker can't see yet - it now keeps a fuller copy of the page "
-                "once a day (`debug/banco_page.json`) to find out.", ""]
+    direct = [r for r in ok if r["time"] >= BANCO_DIRECT_SINCE]
+    if key == "banco":
+        note = ("Since 13 Oct the tracker reads Banco's cash list and its live tournaments straight from where its page "
+                "gets them; before that, its page's scripts didn't run in the tracker's browser, so those checks show as errors.")
+        if len(direct) >= 30 and not any(r["cash_text"] for r in direct):
+            weekend = sum(1 for r in direct if r["weekday"] in ("Fri", "Sat") and int(r["hour"]) >= 18)
+            note += (f" The list has been empty in all {len(direct)} checks since then, including {weekend} on Friday and "
+                     "Saturday evenings - Banco doesn't seem to run cash games outside its festivals.")
+        out += [f"**Note:** {note}", ""]
     if key in ROOMS:
         out += calendar_lines(key, datetime.now(TZ))
     out += ["---", "First version: the lists are saved exactly as the site shows them. Statistics per game "
@@ -2561,6 +2640,11 @@ def self_test():
     assert oly_cash_rows('<div class="table-header-row">GAME</div><div class="table-rows"></div>') == []
     assert oly_summary([])[4] == "no games listed"
     assert oly_cash_rows("<p>nothing here</p>") is None
+    assert banco_cash_text("") == "" and banco_cash_text("  ") == ""
+    assert banco_cash_text('<table><tr><th>Game</th><th>Blinds</th></tr></table><p class="updated">Updated <a>12:00</a></p>') == ""
+    assert banco_cash_text('<table><tr><th>Game</th><th>Blinds</th></tr><tr><td>NLH</td><td>1/2</td><td><span class="hide">7/9</span></td></tr>'
+                           '<tr><td>PLO</td><td>2/2</td><td>6/9</td></tr></table>') == "NLH ; 1/2 ; 7/9 | PLO ; 2/2 ; 6/9"
+    assert banco_cash_text("<div>NLH 1/2 - 7 players</div><div>PLO 2/2 - 6 players</div>") == "NLH 1/2 - 7 players | PLO 2/2 - 6 players"
     saved = page_details("<html><head><script src='/a.js'></script><script>var cashAjax = {url: '/x'};</script></head>"
                          "<body><h1>Cash games</h1><style>p{}</style><p>Table</p></body></html>")
     assert saved["scripts"] == ["/a.js"] and "cashAjax" in saved["inline_scripts"][0] and saved["page_text"] == "Cash games Table"
