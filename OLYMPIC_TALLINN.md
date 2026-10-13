@@ -2,24 +2,23 @@
 
 Reads [OlyBet's live cash games page](https://olybetpoker.com/ee/en/cash-games/) every 30 minutes (their site has bot protection, so the tracker checks gently and simply records it when a check is refused). All times are **Czech time** (Tallinn and Vilnius are one hour ahead). Back to [King's](README.md).
 
-**Last check:** 2026-10-14 01:00 — ✅ OK  
-**Last 24 h:** 35 of 50 checks OK, longest gap 0 h 30 min · **Collecting since:** 2026-10-10 (90 good checks)
+**Last check:** 2026-10-14 01:30 — ✅ OK  
+**Last 24 h:** 35 of 50 checks OK, longest gap 0 h 30 min · **Collecting since:** 2026-10-10 (91 good checks)
 
 **Club:** Olympic Park Casino
 
-## Tables running at 2026-10-14 01:00
+## Tables running at 2026-10-14 01:30
 
 ```
 NLH        €1/3     9/9 players
-NLH        €1/3     9/9 players
-NLH        €5/5     3/8 players
+NLH        €1/3     8/9 players
 PLO/PLO 5  €5/5/10  8/8 players
 PLO/PLO5   €1/3     8/8 players
 PLO/PLO5   €1/3     8/8 players
 ```
-**NLH:** 21 players at 3 tables · **PLO/PLO 5:** 8 players at 1 table · **PLO/PLO5:** 16 players at 2 tables
+**NLH:** 17 players at 2 tables · **PLO/PLO 5:** 8 players at 1 table · **PLO/PLO5:** 16 players at 2 tables
 
-**Waiting lists:** 16 players · **All games listed:** NLH €1/3 (opened): 2 tables, 18/18 players, 0 waiting PLO/PLO5 €1/3 (opened): 2 tables, 16/16 players, 1 waiting PLO €5/5 (closed): 0 tables, 0/0 players, 3 waiting PLO/PLO 5 €5/5/10 (opened): 1 table, 8/8 players, 4 waiting NLH €5/5 (opened): 1 table, 3/8 players, 0 waiting NLH €10/10 (closed): 0 tables, 0/0 players, 3 waiting PLO/PLO 5 €10/10 (closed): 0 tables, 0/0 players, 5 waiting
+**Waiting lists:** 8 players · **All games listed:** NLH €1/3 (opened): 2 tables, 17/18 players, 0 waiting PLO/PLO5 €1/3 (opened): 2 tables, 16/16 players, 1 waiting PLO €5/5 (closed): 0 tables, 0/0 players, 3 waiting PLO/PLO 5 €5/5/10 (opened): 1 table, 8/8 players, 4 waiting NLH €5/5 (closed): 0 tables, 0/0 players, 0 waiting NLH €10/10 (closed): 0 tables, 0/0 players, 0 waiting PLO/PLO 5 €10/10 (closed): 0 tables, 0/0 players, 0 waiting
 
 **Tournaments on their site at 2026-10-14 01:00:** live 12:00 Olympic Park Casino 14 NLH Championship Final 30,000 €555 12:00 Olympic Park Casino 33 NLH Kings of Tallinn Main Event Day 1/A 30,000 €1,100 12:30 Olympic Park Casino 34 NLH 50,000 €3,000 13:00 Olympic Park Casino 28 NLH Mystery Bounty Final 50,000 €1,100 13:00 Olympic Park Casino 35 NLH DeepStack 30,000 €350 16:00 Olympic Park Casino 36 PLO4/PLO5 DeepStack Mystery Bounty Day 1 30,000 €350 18:00 Olympic Park Casino 33 NLH Kings of Tallinn Main Event Day 1/B 30,000 €1,100 19:00 Olympic Park Casino 37 Mega-Satellite to the €1,100 Kings of Tallinn Main Event 15,000 €150 20:00 Olympic Park Casino 38 PLO4/PLO5 Double Board BOMB POT 25,000 €350 22:00 Olympic Park Casino 39 NLH Satellite to Any €555, 7 x €555 SEATS GTD 15,000 €100
 
@@ -59,7 +58,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | Hour | Mon | Tue | Wed | Thu | Fri | Sat | Sun | All days |
 |:--|--:|--:|--:|--:|--:|--:|--:|--:|
 | 00:00 | 18 | 13 | 21 | · | · | · | · | 17 |
-| 01:00 | 18 | 9 | 21 | · | · | · | · | 16 |
+| 01:00 | 18 | 9 | 19 | · | · | · | · | 16 |
 | 02:00 | 18 | 4 | · | · | · | · | · | 9 |
 | 03:00 | 15 | 7 | · | · | · | · | · | 12 |
 | 04:00 | 12 | 8 | · | · | · | · | · | 10 |
@@ -88,7 +87,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | Hour | Mon | Tue | Wed | Thu | Fri | Sat | Sun | All days |
 |:--|--:|--:|--:|--:|--:|--:|--:|--:|
 | 00:00 | 16 | 24 | 16 | · | · | · | · | 19 |
-| 01:00 | 24 | 24 | 16 | · | · | · | · | 21 |
+| 01:00 | 24 | 24 | 16 | · | · | · | · | 20 |
 | 02:00 | 22 | 32 | · | · | · | · | · | 28 |
 | 03:00 | 18 | 23 | · | · | · | · | · | 19 |
 | 04:00 | 12 | 15 | · | · | · | · | · | 14 |
@@ -117,7 +116,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | Hour | Mon | Tue | Wed | Thu | Fri | Sat | Sun | All days |
 |:--|--:|--:|--:|--:|--:|--:|--:|--:|
 | 00:00 | 0 | 0 | 8 | · | · | · | · | 3 |
-| 01:00 | 0 | 0 | 8 | · | · | · | · | 3 |
+| 01:00 | 0 | 0 | 8 | · | · | · | · | 4 |
 | 02:00 | 0 | 0 | · | · | · | · | · | 0 |
 | 03:00 | 0 | 0 | · | · | · | · | · | 0 |
 | 04:00 | 0 | 0 | · | · | · | · | · | 0 |
@@ -148,7 +147,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | Hour | NLH €1/3 | NLH €5/5 | PLO/PLO5 €1/3 | PLO/PLO5 €5/5 | PLO/PLO 5 €5/5/10 | PLO/PLO5 €5/5/10 | DC €1/3 | NLH/PLO €5/5 | Checks |
 |:--|--:|--:|--:|--:|--:|--:|--:|--:|--:|
 | 00:00 | 🟩 100% | 🟨 67% | 🟩 100% | 🟨 67% | 🟨 33% | 🟥 0% | 🟨 33% | 🟥 0% | 3 |
-| 01:00 | 🟩 100% | 🟨 33% | 🟩 100% | 🟨 67% | 🟨 33% | 🟥 0% | 🟨 33% | 🟥 0% | 3 |
+| 01:00 | 🟩 100% | 🟨 25% | 🟩 100% | 🟨 50% | 🟨 50% | 🟥 0% | 🟨 25% | 🟥 0% | 4 |
 | 02:00 | 🟩 100% | 🟥 0% | 🟩 100% | 🟩 100% | 🟥 0% | 🟥 0% | 🟥 0% | 🟨 33% | 3 |
 | 03:00 | 🟩 100% | 🟥 0% | 🟩 100% | 🟨 67% | 🟥 0% | 🟥 0% | 🟥 0% | 🟨 67% | 3 |
 | 04:00 | 🟩 100% | 🟥 0% | 🟩 100% | 🟨 25% | 🟥 0% | 🟨 25% | 🟥 0% | 🟨 25% | 4 |
@@ -178,18 +177,18 @@ Average seated players per check on each kind of day, in total and for NLH and O
 
 | Days | Dates | Checks | Players | NLH | Omaha | vs normal, same hour |
 |:--|:--|--:|--:|--:|--:|--:|
-| 🎪 Kings of Tallinn | 11–14 Oct (4 days) | 90 | 15.5 | 7.3 | 7.9 | · |
+| 🎪 Kings of Tallinn | 11–14 Oct (4 days) | 91 | 15.8 | 7.4 | 8.1 | · |
 
 ## All games seen
 
 | Game | Running in | Most often | Last seen |
 |:--|--:|:--|:--|
-| NLH €1/3 | 61% of checks | Sun around 22:00 | 2026-10-14 01:00 |
-| NLH €5/5 | 17% of checks | Mon around 19:00 | 2026-10-14 01:00 |
-| PLO/PLO5 €1/3 | 47% of checks | Sun around 22:00 | 2026-10-14 01:00 |
+| NLH €1/3 | 62% of checks | Sun around 22:00 | 2026-10-14 01:30 |
+| NLH €5/5 | 16% of checks | Mon around 19:00 | 2026-10-14 01:00 |
+| PLO/PLO5 €1/3 | 47% of checks | Sun around 22:00 | 2026-10-14 01:30 |
 | PLO/PLO 5 €5/5 | 1% of checks | Tue around 19:00 | 2026-10-13 19:00 |
 | PLO/PLO5 €5/5 | 21% of checks | Sun around 23:00 | 2026-10-13 04:30 |
-| PLO/PLO 5 €5/5/10 | 10% of checks | Tue around 20:00 | 2026-10-14 01:00 |
+| PLO/PLO 5 €5/5/10 | 11% of checks | Tue around 20:00 | 2026-10-14 01:30 |
 | PLO/PLO5 €5/5/10 | 7% of checks | Tue around 05:00 | 2026-10-13 07:00 |
 | DC €1/3 | 3% of checks | Mon around 23:00 | 2026-10-13 01:00 |
 | NLH/PLO €5/5 | 4% of checks | Mon around 03:00 | 2026-10-12 04:00 |
