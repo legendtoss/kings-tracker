@@ -2,19 +2,16 @@
 
 Checks King's live cash games and tournaments about every 10 minutes and updates this page by itself. All times are **Czech time** (same as Poland). Also tracking: [Card Casino Šamorín](CARD_CASINO.md) · [Grand Casino Aš](GRAND_CASINO_AS.md) · [Banco Casino Bratislava](BANCO.md) · [Olympic Park Tallinn](OLYMPIC_TALLINN.md) · [Olympic Casino Vilnius](OLYMPIC_VILNIUS.md).
 
-**Right now:** King's: 1 table, 4 players · [Card Casino Šamorín](CARD_CASINO.md): 1 table, 4 players · [Grand Casino Aš](GRAND_CASINO_AS.md): 0 tables running · [Olympic Park Tallinn](OLYMPIC_TALLINN.md) 🎪 Kings of Tallinn: blocked at 15:30 · [Olympic Vilnius](OLYMPIC_VILNIUS.md): 0 tables, 0 players at 15:30 · [Banco](BANCO.md): 1 table, 7 players
+**Right now:** King's: 0 tables, 0 players · [Card Casino Šamorín](CARD_CASINO.md): 1 table, 4 players · [Grand Casino Aš](GRAND_CASINO_AS.md): 0 tables running · [Olympic Park Tallinn](OLYMPIC_TALLINN.md) 🎪 Kings of Tallinn: 2 tables, 14 players (6 waiting) at 16:00 · [Olympic Vilnius](OLYMPIC_VILNIUS.md): 0 tables, 0 players at 16:00 · [Banco](BANCO.md): 1 table, 8 players
 
-**Last check:** 2026-10-14 15:50 — ✅ OK (data feed)  
-**Last 24 h:** 146 of 148 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-06 (886 good checks)
+**Last check:** 2026-10-14 16:00 — ✅ OK (page table, via browser)  
+**Last 24 h:** 146 of 148 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-06 (887 good checks)
 
-## Tables running at 2026-10-14 15:50
+## Tables running at 2026-10-14 16:00
 
-```
-NLH  €1/2     4/8 players
-```
-**NLH:** 4 players at 1 table
+No tables were running.
 
-**Tournaments in play:** Satellite to DPM ME - Day 1A (NLH, €40, 49 of 57 left, late reg open, level 4, blinds 200/400/400)
+**Tournaments in play:** Satellite to DPM ME - Day 1A (NLH, €40, 50 of 59 left, late reg open, level 5, blinds 200/500/500)
 
 ## Festivals and schedule
 
@@ -88,7 +85,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 13:00 | 5 | 3 | 9 | · | · | 21 | 30 | 12 |
 | 14:00 | 5 | 4 | 8 | · | · | 36 | 41 | 17 |
 | 15:00 | 6 | 5 | 7 | · | 21 | 30 | 35 | 16 |
-| 16:00 | 8 | 10 | 16 | 16 | 32 | 38 | 33 | 22 |
+| 16:00 | 8 | 10 | 12 | 16 | 32 | 38 | 33 | 21 |
 | 17:00 | 8 | 12 | 16 | · | 38 | 44 | 37 | 26 |
 | 18:00 | 7 | 9 | 18 | · | 44 | 46 | 28 | 24 |
 | 19:00 | 8 | 10 | 16 | · | 46 | 50 | 26 | 26 |
@@ -177,7 +174,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 13:00 | 🟩 75% | 🟥 8% | 🟥 0% | 🟥 17% | 🟥 6% | 🟥 8% | 🟥 0% | 🟥 0% | 36 |
 | 14:00 | 🟩 76% | 🟨 41% | 🟥 0% | 🟥 24% | 🟥 22% | 🟥 8% | 🟥 0% | 🟥 0% | 37 |
 | 15:00 | 🟩 83% | 🟥 23% | 🟥 0% | 🟨 34% | 🟨 40% | 🟥 6% | 🟥 0% | 🟥 0% | 35 |
-| 16:00 | 🟩 92% | 🟨 33% | 🟥 0% | 🟨 39% | 🟨 53% | 🟥 8% | 🟥 0% | 🟥 0% | 36 |
+| 16:00 | 🟩 89% | 🟨 32% | 🟥 0% | 🟨 38% | 🟨 51% | 🟥 8% | 🟥 0% | 🟥 0% | 37 |
 | 17:00 | 🟩 91% | 🟨 29% | 🟥 17% | 🟨 51% | 🟨 63% | 🟥 9% | 🟥 0% | 🟥 0% | 35 |
 | 18:00 | 🟩 89% | 🟨 33% | 🟨 33% | 🟨 50% | 🟨 69% | 🟥 8% | 🟥 0% | 🟥 0% | 36 |
 | 19:00 | 🟩 81% | 🟨 39% | 🟥 14% | 🟨 53% | 🟩 78% | 🟥 17% | 🟥 0% | 🟥 0% | 36 |
@@ -209,7 +206,7 @@ The most recent ones. The game is read from the tournament's name.
 
 | Tournament | Game | Buy-in | Entries | Seen |
 |:--|:--|--:|--:|:--|
-| Satellite to DPM ME - Day 1A | NLH | €40 | 57 | 2026-10-14 15:00 |
+| Satellite to DPM ME - Day 1A | NLH | €40 | 59 | 2026-10-14 15:00 → 10-14 16:00 |
 | King's Big Tuesday | NLH | €100 | 93 | 2026-10-13 18:00 → 10-14 01:30 |
 | King's Big Monday | NLH | €100 | 107 | 2026-10-12 18:00 → 10-13 02:00 |
 | GPD High Roller | NLH | €350 | 158 | 2026-10-11 18:00 → 10-12 05:40 |
