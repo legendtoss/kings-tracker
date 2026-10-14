@@ -2,18 +2,18 @@
 
 Checks King's live cash games and tournaments about every 10 minutes and updates this page by itself. All times are **Czech time** (same as Poland). Also tracking: [Card Casino Šamorín](CARD_CASINO.md) · [Grand Casino Aš](GRAND_CASINO_AS.md) · [Banco Casino Bratislava](BANCO.md) · [Olympic Park Tallinn](OLYMPIC_TALLINN.md) · [Olympic Casino Vilnius](OLYMPIC_VILNIUS.md).
 
-**Right now:** King's: 2 tables, 16 players · [Card Casino Šamorín](CARD_CASINO.md): 1 table, 5 players · [Grand Casino Aš](GRAND_CASINO_AS.md): 0 tables running, 1 waiting · [Olympic Park Tallinn](OLYMPIC_TALLINN.md) 🎪 Kings of Tallinn: blocked at 21:00 · [Olympic Vilnius](OLYMPIC_VILNIUS.md): blocked at 21:00 · [Banco](BANCO.md): 1 table, 7 players
+**Right now:** King's: 2 tables, 15 players · [Card Casino Šamorín](CARD_CASINO.md): 1 table, 5 players · [Grand Casino Aš](GRAND_CASINO_AS.md): 0 tables running, 1 waiting · [Olympic Park Tallinn](OLYMPIC_TALLINN.md) 🎪 Kings of Tallinn: 5 tables, 39 players (9 waiting) at 21:30 · [Olympic Vilnius](OLYMPIC_VILNIUS.md): 0 tables, 0 players at 21:30 · [Banco](BANCO.md): 1 table, 7 players
 
-**Last check:** 2026-10-14 21:27 — ✅ OK (data feed)  
-**Last 24 h:** 146 of 148 checks OK, longest gap 0 h 20 min · **Collecting since:** 2026-10-06 (920 good checks)
+**Last check:** 2026-10-14 21:30 — ✅ OK (data feed)  
+**Last 24 h:** 147 of 149 checks OK, longest gap 0 h 20 min · **Collecting since:** 2026-10-06 (921 good checks)
 
-## Tables running at 2026-10-14 21:27
+## Tables running at 2026-10-14 21:30
 
 ```
 NLH  €1/2     8/8 players
-NLH  €1/2     8/8 players
+NLH  €1/2     7/8 players
 ```
-**NLH:** 16 players at 2 tables
+**NLH:** 15 players at 2 tables
 
 **Tournaments in play:** Dutch Poker Masters - Day 1A (NLH, €225, 46 of 70 left, late reg open, level 7, blinds 600/1200/1200)
 
@@ -61,7 +61,7 @@ From `calendar.csv` — open it on GitHub and use the pencil button to add or co
 
 Day, hour and average seated players (only day-hour slots seen on at least 2 different dates).
 
-- **NLH:** Wed 21:00 (20) · Wed 20:00 (17) · Tue 22:00 (16)
+- **NLH:** Wed 21:00 (19) · Wed 20:00 (17) · Tue 22:00 (16)
 - **PLO5:** Wed 00:00 (9) · Tue 23:00 (9) · Tue 05:00 (7)
 - **PLO:** Tue 23:00 (2) · Tue 22:00 (2)
 
@@ -94,7 +94,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 18:00 | 7 | 9 | 11 | · | 44 | 46 | 28 | 22 |
 | 19:00 | 8 | 10 | 12 | · | 46 | 50 | 26 | 24 |
 | 20:00 | 8 | 11 | 17 | · | 47 | 61 | 23 | 26 |
-| 21:00 | 10 | 14 | 20 | · | 42 | 62 | 27 | 28 |
+| 21:00 | 10 | 14 | 19 | · | 42 | 62 | 27 | 28 |
 | 22:00 | 6 | 16 | 26 | 28 | 54 | 71 | 30 | 33 |
 | 23:00 | 8 | 15 | 24 | · | 66 | 78 | 34 | 37 |
 
@@ -183,7 +183,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 18:00 | 🟩 90% | 🟨 29% | 🟨 29% | 🟨 43% | 🟨 60% | 🟥 7% | 🟥 0% | 🟥 0% | 42 |
 | 19:00 | 🟩 83% | 🟨 33% | 🟥 12% | 🟨 45% | 🟨 67% | 🟥 14% | 🟥 0% | 🟥 0% | 42 |
 | 20:00 | 🟩 93% | 🟨 28% | 🟥 7% | 🟨 44% | 🟨 65% | 🟥 7% | 🟥 0% | 🟥 0% | 43 |
-| 21:00 | 🟩 92% | 🟨 28% | 🟥 15% | 🟨 46% | 🟨 46% | 🟥 8% | 🟥 0% | 🟥 0% | 39 |
+| 21:00 | 🟩 92% | 🟨 28% | 🟥 15% | 🟨 45% | 🟨 45% | 🟥 8% | 🟥 0% | 🟥 0% | 40 |
 | 22:00 | 🟩 95% | 🟨 34% | 🟥 18% | 🟨 74% | 🟨 42% | 🟥 13% | 🟥 0% | 🟥 0% | 38 |
 | 23:00 | 🟩 89% | 🟨 53% | 🟥 18% | 🟨 74% | 🟨 47% | 🟨 26% | 🟥 0% | 🟥 3% | 38 |
 
@@ -195,7 +195,7 @@ Collecting since 2026-10-08. Shown from 2026-10-22: with fewer than two weeks, t
 
 | Game | Running in | Most often | Last seen |
 |:--|--:|:--|:--|
-| NLH €1/2 | 74% of checks | Wed around 13:00 | 2026-10-14 21:27 |
+| NLH €1/2 | 74% of checks | Wed around 13:00 | 2026-10-14 21:30 |
 | NLH €2/4 | 31% of checks | Wed around 02:00 | 2026-10-14 03:20 |
 | NLH €5/10 | 7% of checks | Sat around 23:00 | 2026-10-11 19:30 |
 | PLO €2/2 | 32% of checks | Fri around 22:00 | 2026-10-13 23:20 |
@@ -210,7 +210,7 @@ The most recent ones. The game is read from the tournament's name.
 
 | Tournament | Game | Buy-in | Entries | Seen |
 |:--|:--|--:|--:|:--|
-| Dutch Poker Masters - Day 1A | NLH | €225 | 70 | 2026-10-14 18:00 → 10-14 21:27 |
+| Dutch Poker Masters - Day 1A | NLH | €225 | 70 | 2026-10-14 18:00 → 10-14 21:30 |
 | Satellite to DPM ME - Day 1A | NLH | €40 | 88 | 2026-10-14 15:00 → 10-14 19:00 |
 | King's Big Tuesday | NLH | €100 | 93 | 2026-10-13 18:00 → 10-14 01:30 |
 | King's Big Monday | NLH | €100 | 107 | 2026-10-12 18:00 → 10-13 02:00 |
