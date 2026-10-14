@@ -762,24 +762,35 @@ def banco_tournaments(referer):
     for event in (found.get("results") or [])[:4]:
         try:
             e = json.loads(post_form(BANCO_API_URL, {"endPoint": f"event/{event.get('id')}", "method": "GET"}, referer))
-            stats, levels = e.get("stats") or {}, e.get("levels") or []
-            level_id = as_int(((e.get("status") or {}).get("level") or {}).get("id"))
-            current = levels[level_id - 1] if 0 < level_id <= len(levels) else {}
+            text, current = banco_event_line(e, event.get("name"))
             first = first or banco_event_extract(e, current)
-            text = str((e.get("dailyDetails") or {}).get("fullname") or event.get("name") or "tournament")
-            if stats.get("totalPlayers"):
-                text += f": {stats['totalPlayers']}/{stats.get('totalEntries', '?')} players"
-            if current.get("type") == 1:
-                text += f", level {current.get('index')}, blinds {current.get('smallBlind')}/{current.get('bigBlind')}"
-            elif current:
-                text += ", on a break"
-            fee = ((e.get("subscription") or {}).get("buyin") or {}).get("buyinFee")
-            text += f", buy-in €{fee}" if fee else ""
-            text += f", €{stats['guaranteedAmount']} GTD" if stats.get("guaranteedAmount") else ""
             parts.append(text)
         except Exception as ex:
             parts.append(f"tournament {event.get('id')}: details couldn't be read ({short_error(ex)})")
     return "; ".join(parts), {"running": len(found.get("results") or []), "first": first}
+
+
+def banco_event_line(e, name=None):
+    """One running Banco tournament as text, plus its current level. Before the start, Banco's clock
+    counts down in a level 0 that looks like a break, so that one is shown as the start time."""
+    stats, levels = e.get("stats") or {}, e.get("levels") or []
+    level_id = as_int(((e.get("status") or {}).get("level") or {}).get("id"))
+    current = levels[level_id - 1] if 0 < level_id <= len(levels) else {}
+    details = e.get("dailyDetails") or {}
+    text = str(details.get("fullname") or name or "tournament")
+    if stats.get("totalPlayers"):
+        text += f": {stats['totalPlayers']}/{stats.get('totalEntries', '?')} players"
+    if current.get("type") == 1:
+        text += f", level {current.get('index')}, blinds {current.get('smallBlind')}/{current.get('bigBlind')}"
+    elif current.get("index") == 0:
+        start = str(details.get("startDate") or "")[11:16]
+        text += f", starts at {start}" if re.fullmatch(r"\d\d:\d\d", start) else ", not started yet"
+    elif current:
+        text += ", on a break"
+    fee = ((e.get("subscription") or {}).get("buyin") or {}).get("buyinFee")
+    text += f", buy-in €{fee}" if fee else ""
+    text += f", €{stats['guaranteedAmount']} GTD" if stats.get("guaranteedAmount") else ""
+    return text, current
 
 
 def banco_event_extract(e, current):
@@ -2857,6 +2868,15 @@ def self_test():
     extract = json.loads(banco_event_extract({"status": {"level": {"id": 2}}, "stats": {"totalPlayers": 0},
                                               "levels": [{"type": 1}, {"type": 2}]}, {"type": 2}))
     assert extract["level"] == {"type": 2} and extract["levels"] == 2
+    ladies = {"dailyDetails": {"fullname": "Ladies Night", "startDate": "2026-10-14T19:00:00"},
+              "subscription": {"buyin": {"buyinFee": 35}}, "stats": {"totalPlayers": 0, "guaranteedAmount": 3000},
+              "status": {"level": {"id": 1}}, "levels": [{"index": 0, "type": 2}, {"index": 1, "type": 1, "smallBlind": 100,
+                                                                                    "bigBlind": 100}, {"index": 2, "type": 2}]}
+    assert banco_event_line(ladies)[0] == "Ladies Night, starts at 19:00, buy-in €35, €3000 GTD"
+    ladies.update(stats={"totalPlayers": 33, "totalEntries": 33, "guaranteedAmount": 3000}, status={"level": {"id": 2}})
+    assert banco_event_line(ladies)[0] == "Ladies Night: 33/33 players, level 1, blinds 100/100, buy-in €35, €3000 GTD"
+    ladies.update(status={"level": {"id": 3}})
+    assert banco_event_line(ladies)[0] == "Ladies Night: 33/33 players, on a break, buy-in €35, €3000 GTD"
     assert card_entries('<div class="splide__slide">\r\n <div class="cash-game aligner">\r\n <h4>No games currently</h4>\r\n </div>\r\n</div>') == []
     assert gas_cash_entries("<p>Back to home</p><p>No Cash Game table is open at this time</p>") == []
     assert [is_tracker(h) for h in ("www.googletagmanager.com", "ajax.googleapis.com", "connect.facebook.net",
