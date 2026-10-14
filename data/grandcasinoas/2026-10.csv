@@ -686,3 +686,4 @@
 2026-10-14 19:00,Wed,19,ok,0,1,PLO/NLH [WAITING],0,0,[],
 2026-10-14 19:10,Wed,19,ok,0,1,PLO/NLH [WAITING],,,,
 2026-10-14 19:20,Wed,19,ok,0,1,PLO/NLH [WAITING],,,,
+2026-10-14 19:30,Wed,19,ok,0,1,PLO/NLH [WAITING],1,19,"[{""name"":""Kickstarter"",""game"":""NLH"",""status"":""RUNNING"",""left"":19,""entries"":19,""buyin"":50,""prizepool"":2000,""currency"":""EUR"",""level"":2,""blinds"":""100/200"",""avg_stack"":50000,""start_stack"":50000,""late_reg_open"":true,""start"":""14.10. 19:00""}]",
