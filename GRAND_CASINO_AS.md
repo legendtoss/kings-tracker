@@ -2,16 +2,16 @@
 
 Reads [Grand Casino Aš's live cash games](https://www.grandcasinoas.eu/en/poker/poker-live) every 10 minutes and its [current tournaments](https://www.grandcasinoas.eu/en/poker) every 30 minutes. All times are **Czech time** (same as Poland). Back to [King's](README.md).
 
-**Last check:** 2026-10-14 23:20 — ✅ OK  
-**Last 24 h:** 149 of 149 checks OK, longest gap 0 h 20 min · **Collecting since:** 2026-10-10 (712 good checks)
+**Last check:** 2026-10-14 23:30 — ✅ OK  
+**Last 24 h:** 149 of 149 checks OK, longest gap 0 h 20 min · **Collecting since:** 2026-10-10 (713 good checks)
 
-## Cash games at 2026-10-14 23:20
+## Cash games at 2026-10-14 23:30
 
 ```
 PLO/NLH           waiting
 ```
 
-**Tournaments in play at 2026-10-14 23:00:** none
+**Tournaments in play at 2026-10-14 23:30:** Kickstarter (NLH, €50, 10 of 42 left, level 16, blinds 6000/12000/12000)
 
 ## Festivals and schedule
 
@@ -95,7 +95,7 @@ Average number of running tables (Grand Casino Aš shows which games run, not ho
 | 20:00 | 🟨 39% | 🟥 3% | 🟥 0% | 🟥 19% | 31 |
 | 21:00 | 🟥 19% | 🟥 16% | 🟥 0% | 🟥 19% | 31 |
 | 22:00 | 🟥 19% | 🟥 0% | 🟥 0% | 🟥 19% | 31 |
-| 23:00 | 🟨 25% | 🟥 0% | 🟥 0% | 🟨 25% | 28 |
+| 23:00 | 🟥 24% | 🟥 0% | 🟥 0% | 🟥 24% | 29 |
 
 ## Tournaments seen
 
@@ -103,7 +103,7 @@ The most recent ones. The game is read from the tournament's name.
 
 | Tournament | Game | Buy-in | Entries | Seen |
 |:--|:--|--:|--:|:--|
-| Kickstarter | NLH | €50 | 42 | 2026-10-14 19:30 → 10-14 22:30 |
+| Kickstarter | NLH | €50 | 42 | 2026-10-14 19:30 → 10-14 23:30 |
 | Barista Rebel Cup | NLH | €130 | 95 | 2026-10-11 12:30 → 10-11 22:00 |
 | BHD PKO Main Event Final Day | NLH | €230 | 420 | 2026-10-11 12:00 → 10-11 21:30 |
 | BHD PKO Main Event 1C | NLH | €230 | 93 | 2026-10-10 17:30 → 10-11 11:00 |
