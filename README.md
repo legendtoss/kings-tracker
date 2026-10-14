@@ -2,12 +2,12 @@
 
 Checks King's live cash games and tournaments about every 10 minutes and updates this page by itself. All times are **Czech time** (same as Poland). Also tracking: [Card Casino Šamorín](CARD_CASINO.md) · [Grand Casino Aš](GRAND_CASINO_AS.md) · [Banco Casino Bratislava](BANCO.md) · [Olympic Park Tallinn](OLYMPIC_TALLINN.md) · [Olympic Casino Vilnius](OLYMPIC_VILNIUS.md).
 
-**Right now:** King's: 0 tables, 0 players · [Card Casino Šamorín](CARD_CASINO.md): couldn't be read · [Grand Casino Aš](GRAND_CASINO_AS.md): 0 tables running · [Olympic Park Tallinn](OLYMPIC_TALLINN.md) 🎪 Kings of Tallinn: blocked at 10:30 · [Olympic Vilnius](OLYMPIC_VILNIUS.md): 0 tables, 0 players at 10:30 · [Banco](BANCO.md): 0 tables, 0 players
+**Right now:** King's: 0 tables, 0 players · [Card Casino Šamorín](CARD_CASINO.md): 1 table, 4 players · [Grand Casino Aš](GRAND_CASINO_AS.md): 0 tables running · [Olympic Park Tallinn](OLYMPIC_TALLINN.md) 🎪 Kings of Tallinn: blocked at 11:00 · [Olympic Vilnius](OLYMPIC_VILNIUS.md): blocked at 11:00 · [Banco](BANCO.md): 0 tables, 0 players
 
-**Last check:** 2026-10-14 10:50 — ✅ OK (data feed)  
-**Last 24 h:** 148 of 148 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-06 (857 good checks)
+**Last check:** 2026-10-14 11:00 — ✅ OK (page table, via browser)  
+**Last 24 h:** 148 of 148 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-06 (858 good checks)
 
-## Tables running at 2026-10-14 10:50
+## Tables running at 2026-10-14 11:00
 
 No tables were running.
 
@@ -169,7 +169,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 08:00 | 🟨 64% | 🟥 21% | 🟥 0% | 🟥 0% | 🟥 8% | 🟥 5% | 🟥 8% | 🟥 0% | 39 |
 | 09:00 | 🟨 56% | 🟥 8% | 🟥 0% | 🟥 0% | 🟥 3% | 🟥 3% | 🟥 6% | 🟥 0% | 36 |
 | 10:00 | 🟨 33% | 🟥 8% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 8% | 🟥 3% | 🟥 0% | 36 |
-| 11:00 | 🟨 45% | 🟥 10% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 10% | 🟥 0% | 🟥 0% | 29 |
+| 11:00 | 🟨 43% | 🟥 10% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 10% | 🟥 0% | 🟥 0% | 30 |
 | 12:00 | 🟨 59% | 🟥 9% | 🟥 0% | 🟥 9% | 🟥 0% | 🟥 9% | 🟥 0% | 🟥 0% | 32 |
 | 13:00 | 🟨 70% | 🟥 10% | 🟥 0% | 🟥 20% | 🟥 7% | 🟥 10% | 🟥 0% | 🟥 0% | 30 |
 | 14:00 | 🟨 71% | 🟨 48% | 🟥 0% | 🟨 29% | 🟨 26% | 🟥 10% | 🟥 0% | 🟥 0% | 31 |
