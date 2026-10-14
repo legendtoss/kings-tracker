@@ -2,10 +2,10 @@
 
 Checks [its website](https://bancocasino.sk/ba/en) together with King's, about every 10 minutes. All times are **Czech time** (same as Poland and Slovakia). Back to [King's](README.md).
 
-**Last check:** 2026-10-14 09:50 — ✅ OK  
-**Checks so far:** 137 successful out of 641 (since 2026-10-10)
+**Last check:** 2026-10-14 10:00 — ✅ OK  
+**Checks so far:** 138 successful out of 642 (since 2026-10-10)
 
-## Tables running at 2026-10-14 09:50
+## Tables running at 2026-10-14 10:00
 
 No tables were running.
 
@@ -45,7 +45,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 07:00 | · | · | 0 | · | · | · | · | 0 |
 | 08:00 | · | · | 0 | · | · | · | · | 0 |
 | 09:00 | · | · | 0 | · | · | · | · | 0 |
-| 10:00 | · | · | · | · | · | · | · | · |
+| 10:00 | · | · | 0 | · | · | · | · | 0 |
 | 11:00 | · | 5 | · | · | · | · | · | 5 |
 | 12:00 | · | 14 | · | · | · | · | · | 14 |
 | 13:00 | · | 22 | · | · | · | · | · | 22 |
@@ -74,7 +74,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 07:00 | · | · | 0 | · | · | · | · | 0 |
 | 08:00 | · | · | 0 | · | · | · | · | 0 |
 | 09:00 | · | · | 0 | · | · | · | · | 0 |
-| 10:00 | · | · | · | · | · | · | · | · |
+| 10:00 | · | · | 0 | · | · | · | · | 0 |
 | 11:00 | · | 6 | · | · | · | · | · | 6 |
 | 12:00 | · | 8 | · | · | · | · | · | 8 |
 | 13:00 | · | 8 | · | · | · | · | · | 8 |
@@ -105,7 +105,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 07:00 | 🟥 0% | 🟥 0% | 6 |
 | 08:00 | 🟥 0% | 🟥 0% | 6 |
 | 09:00 | 🟥 0% | 🟥 0% | 6 |
-| 10:00 | · | · | 0 |
+| 10:00 | 🟥 0% | 🟥 0% | 1 |
 | 11:00 | 🟩 100% | 🟩 100% | 2 |
 | 12:00 | 🟩 100% | 🟩 100% | 7 |
 | 13:00 | 🟩 100% | 🟩 100% | 6 |
