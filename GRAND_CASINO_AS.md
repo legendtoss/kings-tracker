@@ -2,10 +2,10 @@
 
 Reads [Grand Casino Aš's live cash games](https://www.grandcasinoas.eu/en/poker/poker-live) every 10 minutes and its [current tournaments](https://www.grandcasinoas.eu/en/poker) every 30 minutes. All times are **Czech time** (same as Poland). Back to [King's](README.md).
 
-**Last check:** 2026-10-14 21:30 — ✅ OK  
-**Last 24 h:** 149 of 149 checks OK, longest gap 0 h 20 min · **Collecting since:** 2026-10-10 (701 good checks)
+**Last check:** 2026-10-14 21:40 — ✅ OK  
+**Last 24 h:** 149 of 149 checks OK, longest gap 0 h 20 min · **Collecting since:** 2026-10-10 (702 good checks)
 
-## Cash games at 2026-10-14 21:30
+## Cash games at 2026-10-14 21:40
 
 ```
 PLO/NLH           waiting
@@ -93,7 +93,7 @@ Average number of running tables (Grand Casino Aš shows which games run, not ho
 | 18:00 | 🟥 10% | 🟥 10% | 🟥 0% | 🟥 0% | 30 |
 | 19:00 | 🟥 23% | 🟥 16% | 🟥 0% | 🟥 6% | 31 |
 | 20:00 | 🟨 39% | 🟥 3% | 🟥 0% | 🟥 19% | 31 |
-| 21:00 | 🟥 21% | 🟥 17% | 🟥 0% | 🟥 21% | 29 |
+| 21:00 | 🟥 20% | 🟥 17% | 🟥 0% | 🟥 20% | 30 |
 | 22:00 | 🟥 24% | 🟥 0% | 🟥 0% | 🟥 24% | 25 |
 | 23:00 | 🟨 28% | 🟥 0% | 🟥 0% | 🟨 28% | 25 |
 
