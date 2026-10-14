@@ -1,6 +1,6 @@
 {
- "saved_on": "2026-10-14",
- "records": 3,
+ "saved_on": "2026-10-15",
+ "records": 4,
  "fields": [
   "activePause",
   "activePlayers",
@@ -48,141 +48,139 @@
  ],
  "sample": [
   {
-   "referenceTime": "2026-10-14T00:00:40.912",
-   "name": "King's Big Tuesday",
-   "fullName": "King's Big Tuesday",
-   "tournamentName": "King's Big Tuesday",
-   "notes": null,
-   "color": "#1a237e",
-   "background": null,
+   "referenceTime": "2026-10-15T00:00:37.776",
+   "name": "Dutch Poker Masters  - Day 1A",
+   "fullName": "Dutch Poker Masters  - Day 1A",
+   "tournamentName": "Dutch Poker Masters ",
+   "notes": "15% ITM MC 450€ • played till 10%",
+   "color": "#b71c1c",
+   "background": "kings_cards_1.jpg",
    "status": "RUNNING",
+   "isPaused": false,
+   "currency": "EUR",
+   "effectivePrizePool": 500000,
+   "guaranteeInEffect": true,
+   "overlay": null,
+   "reEntryMaxCount": null,
+   "startingStack": 50000,
+   "openRegistration": false,
+   "lateRegistrationUntilLevel": 10,
+   "expectedLastLevel": 18,
+   "start": "2026-10-14T18:00:05",
+   "pausedSeconds": 0,
+   "pausedMillis": 0,
+   "flightGameTimeDelta": 0,
+   "stickerText": "♠♥♦♣ 10x KINGS MILLION EUROPEAN POKER PACKAGES (3500€) included in prizepool ♠♥♦♣\n\n13 players ITM (min. cash 450€) ♠♥♦♣\n\nDay 1 is played down to the last 9 players ♠♥♦♣\n\nThe tournament is played as a multi-stack format – if you play multiple flights, only your biggest stack advances to Day 2 ♠♥♦♣\n\nChipleader of the flight will receive a bonus King's Million European Poker Championship 2027 Super Main Event ticket (1.150€) ♦♣♠♥",
+   "totalEntries": 86,
+   "activePlayers": 30,
+   "averageStack": 143333,
+   "nextBreakStart": "2026-10-15T00:30:05.783",
+   "nextBreakSeconds": 900,
+   "entryValue": 225,
+   "serviceFee": 0,
+   "bountyValue": null,
+   "payoutPositions": null,
+   "currentLevel": {
+    "start": "2026-10-15T00:00:05.783",
+    "gameEnd": "2026-10-15T00:30:05.783",
+    "levelEnd": "2026-10-15T00:45:05.783",
+    "sb": 2500,
+    "bb": 5000,
+    "number": 12,
+    "gameSeconds": 1800,
+    "breakSeconds": 900,
+    "limits": null,
+    "ante": 5000
+   },
+   "nextLevels": [
+    {
+     "sb": 3000,
+     "bb": 6000,
+     "number": 13,
+     "gameSeconds": 1800,
+     "breakSeconds": 0,
+     "limits": null,
+     "ante": 6000
+    },
+    {
+     "sb": 4000,
+     "bb": 8000,
+     "number": 14,
+     "gameSeconds": 1800,
+     "breakSeconds": 0,
+     "limits": null,
+     "ante": 8000
+    }
+   ],
+   "softPauseEnd": null,
+   "activePause": null,
+   "plannedEnd": null,
+   "winningStructureType": "STANDARD",
+   "levelCount": 18,
+   "reEntryCountLimit": null,
+   "subName": "15% ITM MC 450€ • played till 10%",
+   "availableTickets": {
+    "buyIn": 225,
+    "serviceFee": 0,
+    "addon": null,
+    "rebuy": null,
+    "addOnLimit": null,
+    "reBuyLimit": null
+   },
+   "tournament_id": 13754
+  },
+  {
+   "referenceTime": "2026-10-15T00:00:06.977",
+   "name": "DPM Morning Bounty (25€ Bounty)",
+   "fullName": "DPM Morning Bounty (25€ Bounty)",
+   "tournamentName": "DPM Morning Bounty (25€ Bounty)",
+   "notes": null,
+   "color": "#33691e",
+   "background": null,
+   "status": "READY_FOR_PUBLICATION",
    "isPaused": false,
    "currency": "EUR",
    "effectivePrizePool": 10000,
    "guaranteeInEffect": true,
    "overlay": null,
-   "reEntryMaxCount": null,
-   "startingStack": 20000,
-   "openRegistration": false,
+   "reEntryMaxCount": 2,
+   "startingStack": 15000,
+   "openRegistration": true,
    "lateRegistrationUntilLevel": 8,
    "expectedLastLevel": null,
-   "start": "2026-10-13T18:00:18",
-   "pausedSeconds": 1385,
-   "pausedMillis": 1385298,
-   "flightGameTimeDelta": -1385298,
+   "start": "2026-10-15T12:00:00",
+   "pausedSeconds": null,
+   "pausedMillis": null,
+   "flightGameTimeDelta": null,
    "stickerText": null,
-   "totalEntries": 93,
-   "activePlayers": 12,
-   "averageStack": 155000,
-   "nextBreakStart": "2026-10-14T01:38:23.487",
-   "nextBreakSeconds": 600,
-   "entryValue": 100,
+   "totalEntries": 0,
+   "activePlayers": 0,
+   "averageStack": 0,
+   "nextBreakStart": null,
+   "nextBreakSeconds": null,
+   "entryValue": 105,
    "serviceFee": 0,
-   "bountyValue": null,
-   "payoutPositions": [
-    {
-     "from": 1,
-     "to": 1,
-     "amount": 2328,
-     "label": null
-    },
-    {
-     "from": 2,
-     "to": 2,
-     "amount": 1495,
-     "label": null
-    },
-    {
-     "from": 3,
-     "to": 3,
-     "amount": 1000,
-     "label": null
-    },
-    {
-     "from": 4,
-     "to": 4,
-     "amount": 698,
-     "label": null
-    },
-    {
-     "from": 5,
-     "to": 5,
-     "amount": 511,
-     "label": null
-    },
-    {
-     "from": 6,
-     "to": 6,
-     "amount": 392,
-     "label": null
-    },
-    {
-     "from": 7,
-     "to": 7,
-     "amount": 316,
-     "label": null
-    },
-    {
-     "from": 8,
-     "to": 8,
-     "amount": 269,
-     "label": null
-    },
-    {
-     "from": 9,
-     "to": 9,
-     "amount": 241,
-     "label": null
-    },
-    {
-     "from": 10,
-     "to": 10,
-     "amount": 230,
-     "label": null
-    },
-    {
-     "from": 11,
-     "to": 11,
-     "amount": 230,
-     "label": null
-    },
-    {
-     "from": 12,
-     "to": 12,
-     "amount": 230,
-     "label": null
-    }
-   ],
-   "currentLevel": {
-    "start": "2026-10-13T23:58:23.487",
-    "gameEnd": "2026-10-14T00:18:23.487",
-    "levelEnd": "2026-10-14T00:18:23.487",
-    "sb": 4000,
-    "bb": 8000,
-    "number": 16,
-    "gameSeconds": 1200,
-    "breakSeconds": 0,
-    "limits": "",
-    "ante": 8000
-   },
+   "bountyValue": 25,
+   "payoutPositions": null,
+   "currentLevel": null,
    "nextLevels": [
     {
-     "sb": 5000,
-     "bb": 10000,
-     "number": 17,
-     "gameSeconds": 1200,
+     "sb": 100,
+     "bb": 100,
+     "number": 1,
+     "gameSeconds": 900,
      "breakSeconds": 0,
-     "limits": "",
-     "ante": 10000
+     "limits": null,
+     "ante": 100
     },
     {
-     "sb": 6000,
-     "bb": 12000,
-     "number": 18,
-     "gameSeconds": 1200,
+     "sb": 100,
+     "bb": 200,
+     "number": 2,
+     "gameSeconds": 900,
      "breakSeconds": 0,
-     "limits": "",
-     "ante": 12000
+     "limits": null,
+     "ante": 200
     }
    ],
    "softPauseEnd": null,
@@ -190,22 +188,22 @@
    "plannedEnd": null,
    "winningStructureType": "STANDARD",
    "levelCount": null,
-   "reEntryCountLimit": null,
+   "reEntryCountLimit": 2,
    "availableTickets": {
-    "buyIn": 100,
+    "buyIn": 105,
     "serviceFee": 0,
     "addon": null,
     "rebuy": null,
     "addOnLimit": null,
     "reBuyLimit": null
    },
-   "tournament_id": 13779
+   "tournament_id": 13769
   },
   {
-   "referenceTime": "2026-10-14T00:00:09.042",
-   "name": "Satellite to DPM ME - Day 1A",
-   "fullName": "Satellite to DPM ME - Day 1A",
-   "tournamentName": "Satellite to DPM ME - Day 1A",
+   "referenceTime": "2026-10-15T00:00:07.060",
+   "name": "Satellite to DPM ME - Day 1B",
+   "fullName": "Satellite to DPM ME - Day 1B",
+   "tournamentName": "Satellite to DPM ME - Day 1B",
    "notes": null,
    "color": "#f57f17",
    "background": null,
@@ -220,7 +218,7 @@
    "openRegistration": true,
    "lateRegistrationUntilLevel": 8,
    "expectedLastLevel": null,
-   "start": "2026-10-14T15:00:00",
+   "start": "2026-10-15T14:00:00",
    "pausedSeconds": null,
    "pausedMillis": null,
    "flightGameTimeDelta": null,
@@ -269,16 +267,16 @@
     "addOnLimit": null,
     "reBuyLimit": null
    },
-   "tournament_id": 13767
+   "tournament_id": 13768
   },
   {
-   "referenceTime": "2026-10-14T00:00:09.139",
-   "name": "Dutch Poker Masters  - Day 1A",
-   "fullName": "Dutch Poker Masters  - Day 1A",
+   "referenceTime": "2026-10-15T00:00:07.153",
+   "name": "Dutch Poker Masters  - Day 1B",
+   "fullName": "Dutch Poker Masters  - Day 1B",
    "tournamentName": "Dutch Poker Masters ",
    "notes": "15% ITM MC 450€ • played till 10%",
-   "color": "#b71c1c",
-   "background": "kings_cards_1.jpg",
+   "color": "#4a148c",
+   "background": "chips_with_cards.jpg",
    "status": "READY_FOR_PUBLICATION",
    "isPaused": false,
    "currency": "EUR",
@@ -290,11 +288,11 @@
    "openRegistration": true,
    "lateRegistrationUntilLevel": 10,
    "expectedLastLevel": 15,
-   "start": "2026-10-14T18:00:00",
+   "start": "2026-10-15T17:00:00",
    "pausedSeconds": null,
    "pausedMillis": null,
    "flightGameTimeDelta": null,
-   "stickerText": null,
+   "stickerText": "♠♥♦♣ 10x KINGS MILLION EUROPEAN POKER PACKAGES (3500€) included in prizepool ♠♥♦♣\n\n15% of players ITM (min. cash 450€) ♠♥♦♣\n\nDay 1 is played down to the last 10% of the field ♠♥♦♣\n\nThe tournament is played as a multi-stack format – if you play multiple flights, only your biggest stack advances to Day 2 ♠♥♦♣\n\nChipleader of the flight will receive a bonus King's Million European Poker Championship 2027 Super Main Event ticket (1.150€) ♦♣♠♥",
    "totalEntries": 0,
    "activePlayers": 0,
    "averageStack": 0,
@@ -340,7 +338,7 @@
     "addOnLimit": null,
     "reBuyLimit": null
    },
-   "tournament_id": 13754
+   "tournament_id": 13755
   }
  ]
 }

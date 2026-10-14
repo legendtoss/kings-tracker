@@ -2,20 +2,20 @@
 
 Reads [Grand Casino Aš's live cash games](https://www.grandcasinoas.eu/en/poker/poker-live) every 10 minutes and its [current tournaments](https://www.grandcasinoas.eu/en/poker) every 30 minutes. All times are **Czech time** (same as Poland). Back to [King's](README.md).
 
-**Last check:** 2026-10-14 23:50 — ✅ OK  
-**Last 24 h:** 149 of 149 checks OK, longest gap 0 h 20 min · **Collecting since:** 2026-10-10 (715 good checks)
+**Last check:** 2026-10-15 00:00 — ✅ OK  
+**Last 24 h:** 149 of 149 checks OK, longest gap 0 h 20 min · **Collecting since:** 2026-10-10 (716 good checks)
 
-## Cash games at 2026-10-14 23:50
+## Cash games at 2026-10-15 00:00
 
 ```
 PLO/NLH           waiting
 ```
 
-**Tournaments in play at 2026-10-14 23:30:** Kickstarter (NLH, €50, 10 of 42 left, level 16, blinds 6000/12000/12000)
+**Tournaments in play at 2026-10-15 00:00:** Kickstarter (NLH, €50, 8 of 42 left, level 16, blinds 6000/12000/12000)
 
 ## Festivals and schedule
 
-- **Coming up:** 🎪 **PLO festival**, 15–18 Oct (festival) — Omaha: €550 PLO5 High Roller (15 Oct 20:00); €340 PLO Main Event (16–18 Oct); €100 PLO 4-5-6 mix (17 Oct 20:00); €660 PLO Turbo High Roller (18 Oct 16:00)
+- **Now:** 🎪 **PLO festival**, 15–18 Oct (festival) — Omaha: €550 PLO5 High Roller (15 Oct 20:00); €340 PLO Main Event (16–18 Oct); €100 PLO 4-5-6 mix (17 Oct 20:00); €660 PLO Turbo High Roller (18 Oct 16:00)
 - **Coming up:** 🎟️ **KaKo Cup**, 28–31 Oct (series) — €140 KaKo Cup 31 Oct; €300 KaKo Highroller 30 Oct · Omaha: €80 PLO (30 Oct 18:00)
 - **Coming up:** 🎪 **GRND festival**, 4–15 Nov (festival) — €200 GRND Main Event 11–15 Nov; €350 GRND Highroller 6 Nov; €100 GRND Cup 8–11 Nov
 - **Coming up:** 🎟️ **Isar series**, 25–29 Nov (series) — €150 Isar Main Event 28 Nov · Omaha: €60 NLH/PLO/Crazy Pineapple (26 Nov 14:00); €100 PLO StackAttack (27 Nov 20:00)
@@ -36,6 +36,8 @@ PLO/NLH           waiting
 **Public holidays in the next 30 days** where most players come from (Czechia, Bavaria, Saxony): Wed 28 Oct: Independent Czechoslovak State Day (Czechia) · Sat 31 Oct: Reformation Day (Saxony) · Sun 1 Nov: All Saints' Day (Bavaria).
 
 ## Running cash tables by hour
+
+*Normal days only: 1 check during festivals, cash-game events or public holidays are compared separately in “Festivals, holidays and normal days” below.*
 
 Average number of running tables (Grand Casino Aš shows which games run, not how many players).
 
@@ -97,13 +99,22 @@ Average number of running tables (Grand Casino Aš shows which games run, not ho
 | 22:00 | 🟥 19% | 🟥 0% | 🟥 0% | 🟥 19% | 31 |
 | 23:00 | 🟥 23% | 🟥 0% | 🟥 0% | 🟥 23% | 31 |
 
+## Festivals, holidays and normal days
+
+Average running tables per check on each kind of day, in total and for NLH and Omaha games. “vs normal” compares every check with normal days at the same hour, so days that happened to be checked mostly in the evening don't look busier just because evenings are. Festival dates: `calendar.csv`; public holidays: those of the countries most players come from (Czechia, Bavaria, Saxony).
+
+| Days | Dates | Checks | Tables | NLH | Omaha | vs normal, same hour |
+|:--|:--|--:|--:|--:|--:|--:|
+| Normal days | 10–14 Oct (5 days) | 715 | 0.4 | 0.3 | 0.0 | -0.0 |
+| 🎪 PLO festival | 15 Oct (1 day) | 1 | 0.0 | 0.0 | 0.0 | -1.0 |
+
 ## Tournaments seen
 
 The most recent ones. The game is read from the tournament's name.
 
 | Tournament | Game | Buy-in | Entries | Seen |
 |:--|:--|--:|--:|:--|
-| Kickstarter | NLH | €50 | 42 | 2026-10-14 19:30 → 10-14 23:30 |
+| Kickstarter | NLH | €50 | 42 | 2026-10-14 19:30 → 10-15 00:00 |
 | Barista Rebel Cup | NLH | €130 | 95 | 2026-10-11 12:30 → 10-11 22:00 |
 | BHD PKO Main Event Final Day | NLH | €230 | 420 | 2026-10-11 12:00 → 10-11 21:30 |
 | BHD PKO Main Event 1C | NLH | €230 | 93 | 2026-10-10 17:30 → 10-11 11:00 |
