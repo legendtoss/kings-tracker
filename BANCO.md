@@ -2,10 +2,10 @@
 
 Checks [its website](https://bancocasino.sk/ba/en) together with King's, about every 10 minutes. All times are **Czech time** (same as Poland and Slovakia). Back to [King's](README.md).
 
-**Last check:** 2026-10-14 09:30 — ✅ OK  
-**Checks so far:** 135 successful out of 639 (since 2026-10-10)
+**Last check:** 2026-10-14 09:40 — ✅ OK  
+**Checks so far:** 136 successful out of 640 (since 2026-10-10)
 
-## Tables running at 2026-10-14 09:30
+## Tables running at 2026-10-14 09:40
 
 No tables were running.
 
@@ -46,7 +46,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 08:00 | · | · | 0 | · | · | · | · | 0 |
 | 09:00 | · | · | 0 | · | · | · | · | 0 |
 | 10:00 | · | · | · | · | · | · | · | · |
-| 11:00 | · | · | · | · | · | · | · | · |
+| 11:00 | · | 5 | · | · | · | · | · | 5 |
 | 12:00 | · | 14 | · | · | · | · | · | 14 |
 | 13:00 | · | 22 | · | · | · | · | · | 22 |
 | 14:00 | · | 21 | · | · | · | · | · | 21 |
@@ -75,7 +75,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 08:00 | · | · | 0 | · | · | · | · | 0 |
 | 09:00 | · | · | 0 | · | · | · | · | 0 |
 | 10:00 | · | · | · | · | · | · | · | · |
-| 11:00 | · | · | · | · | · | · | · | · |
+| 11:00 | · | 6 | · | · | · | · | · | 6 |
 | 12:00 | · | 8 | · | · | · | · | · | 8 |
 | 13:00 | · | 8 | · | · | · | · | · | 8 |
 | 14:00 | · | 8 | · | · | · | · | · | 8 |
@@ -104,9 +104,9 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 06:00 | 🟥 0% | 🟥 0% | 7 |
 | 07:00 | 🟥 0% | 🟥 0% | 6 |
 | 08:00 | 🟥 0% | 🟥 0% | 6 |
-| 09:00 | 🟥 0% | 🟥 0% | 4 |
+| 09:00 | 🟥 0% | 🟥 0% | 5 |
 | 10:00 | · | · | 0 |
-| 11:00 | · | · | 0 |
+| 11:00 | 🟩 100% | 🟩 100% | 2 |
 | 12:00 | 🟩 100% | 🟩 100% | 7 |
 | 13:00 | 🟩 100% | 🟩 100% | 6 |
 | 14:00 | 🟩 100% | 🟩 100% | 6 |
@@ -128,5 +128,5 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | PLO 4/5 €2/2 | 40% of checks | Tue around 12:00 | 2026-10-13 20:30 |
 
 ---
-First version: the lists are saved exactly as the site shows them. Statistics per game and hour (like on the King's page) are added once a day of data shows the site's format.
+The numbers count Bratislava only (Banco's list also shows Košice, kept in words above). Banco shows no seat counts, so tables show players only.
 Raw data: `data/banco` (one CSV file per month).
