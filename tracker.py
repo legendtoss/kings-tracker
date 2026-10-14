@@ -53,7 +53,7 @@ ALERT_AFTER = 6                 # failed checks in a row before GitHub emails yo
 
 DATA_DIR = Path("data")
 MONTH_FILES = "[0-9][0-9][0-9][0-9]-[0-9][0-9].csv"  # King's data: one file per month, e.g. data/2026-10.csv
-SITE_FIELDS = ["time", "weekday", "hour", "status", "cash_text", "tournament_text"]
+SITE_FIELDS = ["time", "weekday", "hour", "status", "tables", "players", "games", "cash_text", "tournament_text"]
 # Slovak rooms read from their web pages: (folder name, display name, page address, results page)
 # Slovak rooms read from their websites with a browser. "reader" says where the list is on the page.
 SITES = (
@@ -575,7 +575,8 @@ def oly_cash_rows(html):
         if not stakes or not players:
             return None  # a row has changed shape: better an error than a wrong number
         status = OLY_STATUS_RE.search(chunk)
-        rows.append({"game": card_game(STAKES_IN_NAME.sub(" ", name)), "stakes": stakes.replace(",", "."),
+        name = re.sub(r"\bPLO\s+(\d)\b", r"PLO\1", STAKES_IN_NAME.sub(" ", name))  # 'PLO/PLO 5' -> 'PLO/PLO5'
+        rows.append({"game": card_game(name), "stakes": stakes.replace(",", "."),
                      "buyin": number(re.sub(r"[^\d.]", "", oly_attr(chunk, "data-buyin") or oly_cell(chunk, "col-buyin"))),
                      "tables": as_int(oly_cell(chunk, "col-tables")), "players": as_int(players.group(1)),
                      "seats": as_int(players.group(2)), "open": as_int(oly_cell(chunk, "col-seats")),
@@ -659,6 +660,72 @@ def post_form(url, fields, referer, timeout=20):
         return data.decode("utf-8", errors="replace")
 
 
+BANCO_ROOM = "Bratislava"  # Banco's list also shows its Košice casino; Bratislava is the room tracked
+BANCO_NONE = re.compile(r"nehraj|žiadne cash|no cash games", re.I)  # its "no cash games right now" message
+
+
+def banco_game(text, room, buyin, players):
+    """One table of Banco's list: 'PLO 4/5c 2/2€' -> PLO 4/5 at €2/2 (game names made to match the others)."""
+    m = re.match(r"^(.*?)\s*(\d+(?:[.,]\d+)?/\d+(?:[.,]\d+)?)\s*€?\s*$", " ".join(unescape(text).split()))
+    if not m:
+        return None
+    name = re.sub(r"(\d)c\b", r"\1", m.group(1).strip(), flags=re.I)  # '4/5c' (cards) -> '4/5'
+    name = "Dealer's Choice" if name.upper() in ("DCH", "DC") else card_game(name)
+    return {"room": room, "game": name, "stakes": m.group(2).replace(",", "."), "buyin": as_int(re.sub(r"\D", "", buyin or "")),
+            "players": as_int(re.sub(r"\D", "", players or ""))}
+
+
+def banco_games(fragment):
+    """Every table in Banco's list: each room's name, then one 'game-info' block per table with its
+    game and stakes, buy-in and players (no seat count)."""
+    games, room = [], ""
+    for part in re.split(r"(<div class=['\"]title['\"]>.*?</div>)", fragment or "", flags=re.S):
+        title = re.match(r"<div class=['\"]title['\"]>(.*?)</div>", part, re.S)
+        if title:
+            room = " ".join(unescape(strip_tags(title.group(1))).split())
+            continue
+        for chunk in part.split('class="game-info"')[1:]:
+            cells = {name: re.search(r'class="' + name + r'[^"]*"[^>]*>(.*?)</(?:div|span)>', chunk, re.S)
+                     for name in ("game-type", "buy-in", "players")}
+            if cells["game-type"]:
+                game = banco_game(strip_tags(cells["game-type"].group(1)), room,
+                                  strip_tags(cells["buy-in"].group(1)) if cells["buy-in"] else "",
+                                  strip_tags(cells["players"].group(1)) if cells["players"] else "")
+                if game:
+                    games.append(game)
+    return games
+
+
+def banco_old_text_games(text):
+    """The same tables from a check saved by the first direct reader, which kept the list as text like
+    'Bratislava | PLO 4/5c 2/2€ | <!-- | --> 100€ | 6 | Košice | DCH 1/2€ | <!-- | --> 50€ | 4'."""
+    games, room = [], ""
+    for token in (t.strip() for t in (text or "").split(" | ")):
+        if re.search(r"\d+(?:[.,]\d+)?/\d+(?:[.,]\d+)?\s*€$", token):
+            game = banco_game(token, room, "", "")
+            if game:
+                games.append(game)
+        elif token.startswith("-->") and games:
+            games[-1]["buyin"] = as_int(re.sub(r"\D", "", token))
+        elif token.isdigit() and games:
+            games[-1]["players"] = int(token)
+        elif token and token not in ("<!--",) and not re.search(r"\d", token):
+            room = token
+    return games
+
+
+def banco_summary(games):
+    """(tables, players, entries for the stats, readable text) - the stats count the tracked room only."""
+    mine = [g for g in games if g["room"] == BANCO_ROOM]
+    entries = [f"{g['game']} €{g['stakes']} {g['players']}/0" for g in mine]
+    rooms = {}
+    for g in games:
+        rooms.setdefault(g["room"] or "?", []).append(f"{g['game']} €{g['stakes']} {g['players']} players"
+                                                       + (f" (buy-in €{g['buyin']})" if g["buyin"] else ""))
+    text = " · ".join(f"{room}: {', '.join(tables)}" for room, tables in rooms.items())
+    return len(mine), sum(g["players"] for g in mine), "; ".join(entries), text
+
+
 def banco_cash_text(fragment):
     """Banco's 'now playing' list (the piece of HTML its page shows) as 'cell ; cell | next game'.
     Header rows and its 'updated ...' line are left out, so an empty list gives ''."""
@@ -710,12 +777,17 @@ def banco_direct(site):
     fragment = fetch_text(BANCO_NOW_PLAYING_URL, site["url"], timeout=20)
     if re.search(r"<html|<body", fragment, re.I):
         raise ValueError("the cash list address answered with a whole page")
-    cash = banco_cash_text(fragment)
+    games = banco_games(fragment)
+    if games or "game-info" in fragment or not fragment.strip() or BANCO_NONE.search(strip_tags(fragment)):
+        tables, players, entries, cash = banco_summary(games)
+        stats = {"tables": tables, "players": players, "games": entries}
+    else:  # the list has changed shape: keep its text, leave the numbers out
+        cash, stats = banco_cash_text(fragment), {}
     try:
         tournaments, info = banco_tournaments(site["url"])
     except Exception as e:
         tournaments, info = "", {"error": short_error(e)}
-    return cash, tournaments, {"source": "direct", "now_playing_html": fragment[:20000], "tournaments": info}
+    return cash, tournaments, {"source": "direct", "now_playing_html": fragment[:20000], "tournaments": info, "stats": stats}
 
 
 def fetch_text(url, referer, timeout=30):
@@ -1257,6 +1329,24 @@ def record_card(now):
     return row
 
 
+def migrate_site_files():
+    """Banco's files from before tables/players/games were columns: add them, and fill them in for
+    the checks already read straight from Banco's list (their text holds the tables)."""
+    for site in SITES:
+        for path in sorted((DATA_DIR / site["key"]).glob("*.csv")):
+            with path.open(newline="", encoding="utf-8-sig") as fh:
+                reader = csv.DictReader(fh)
+                if reader.fieldnames == SITE_FIELDS:
+                    continue
+                rows = list(reader)
+            for r in rows:
+                games = banco_old_text_games(r["cash_text"]) if r["status"] == "ok" and r["time"] >= BANCO_DIRECT_SINCE else []
+                if games or (r["status"] == "ok" and r["time"] >= BANCO_DIRECT_SINCE
+                             and (not r["cash_text"] or BANCO_NONE.search(r["cash_text"]))):
+                    r["tables"], r["players"], r["games"], r["cash_text"] = banco_summary(games)
+            rewrite_csv(path, SITE_FIELDS, rows)
+
+
 def migrate_card_files():
     """Card Casino rows saved by the previous version (as page text) converted to the current columns."""
     for path in sorted(CARD_DIR.glob("*.csv")):
@@ -1618,8 +1708,8 @@ def record_sites(now):
 
 
 def record_site(now, key, name, url, page_path, result):
-    row = {"time": f"{now:%Y-%m-%d %H:%M}", "weekday": DAYS[now.weekday()], "hour": now.hour,
-           "status": "", "cash_text": "", "tournament_text": ""}
+    row = {"time": f"{now:%Y-%m-%d %H:%M}", "weekday": DAYS[now.weekday()], "hour": now.hour, "status": "",
+           "tables": "", "players": "", "games": "", "cash_text": "", "tournament_text": ""}
     details = {}
     if isinstance(result, Exception) or result is None:
         row["status"] = f"error: {short_error(result)}" if result else "error: not checked"
@@ -1628,6 +1718,7 @@ def record_site(now, key, name, url, page_path, result):
         row["status"] = "ok" if cash is not None else "error: the 'Cash games' list wasn't found on the page"
         row["cash_text"] = (cash or "")[:3000]
         row["tournament_text"] = (tournaments or "")[:1500]
+        row.update(details.pop("stats", None) or {})
     try:
         append_csv(DATA_DIR / key, SITE_FIELDS, now, row)
         save_debug_copy(Path(f"debug/{key}_page.json"), now, row["status"], url, details)
@@ -1648,13 +1739,20 @@ def write_site_page(key, name, url, page_path):
         state = "✅ OK" if last["status"] == "ok" else f"⚠️ {clean(last['status'], 160)}"
         out += [f"**Last check:** {last['time']} — {state}  ",
                 f"**Checks so far:** {len(ok)} successful out of {len(rows)} (since {rows[0]['time'][:10]})", ""]
-    if ok:
+    direct = [r for r in ok if r["time"] >= BANCO_DIRECT_SINCE]
+    counted = [r for r in direct if r.get("players", "") != ""]
+    if counted:  # Bratislava's tables as numbers; the whole list (Košice too) in words below them
+        latest = counted[-1]
+        out += snapshot_lines(latest)
+        out += [f"*The whole list (Banco also shows its Košice casino; the numbers above are {BANCO_ROOM} only):* "
+                f"{shown(latest['cash_text'], 400) or 'no games listed'}  ",
+                f"**Tournaments running:** {shown(latest['tournament_text'], 300) or 'none'}", ""]
+    elif ok:
         latest = ok[-1]
         lines = [shown(x.replace(" ; ", " · ")) for x in latest["cash_text"].split(" | ") if x][:40] \
             or ["(no cash games listed)"]
         out += [f"## Cash games on the site at {latest['time']}", "", "```", *lines, "```", "",
                 f"**Tournaments:** {shown(latest['tournament_text'], 300) or 'none listed'}", ""]
-    direct = [r for r in ok if r["time"] >= BANCO_DIRECT_SINCE]
     if key == "banco":
         note = ("Since 13 Oct the tracker reads Banco's cash list and its live tournaments straight from where its page "
                 "gets them; before that, its page's scripts didn't run in the tracker's browser, so those checks show as errors.")
@@ -1665,6 +1763,11 @@ def write_site_page(key, name, url, page_path):
         out += [f"**Note:** {note}", ""]
     if key in ROOMS:
         out += calendar_lines(key, datetime.now(TZ))
+    if counted:
+        checks = [(r, players_per_game(r)) for r in counted]
+        out += busy_sections(counted, checks, key)
+        out += day_type_lines(key, counted)
+        out += all_games_lines(counted)
     out += ["---", "First version: the lists are saved exactly as the site shows them. Statistics per game "
             "and hour (like on the King's page) are added once a day of data shows the site's format.",
             f"Raw data: `data/{key}` (one CSV file per month)."]
@@ -2213,7 +2316,8 @@ def snapshot_lines(latest):
         per_game[game][0] += seated
         per_game[game][1] += 1
     totals = sorted(per_game.items(), key=lambda kv: (game_order(kv[0]), kv[0]))
-    return out + ["```", *(f"{g:<{width}}€{s:<8}{a}/{b} players" for g, s, a, b in tables), "```",
+    return out + ["```", *(f"{g:<{width}}€{s:<8}{a}/{b} players" if b else f"{g:<{width}}€{s:<8}{a} players"
+                           for g, s, a, b in tables), "```",
                   " · ".join(f"**{g}:** {p} players at {count_text(n, 'table')}" for g, (p, n) in totals), ""]
 
 
@@ -2357,7 +2461,8 @@ def overview_line(kings_row, card_row, banco_row, gas_row=None, oly_rows=None, d
                          f"{text} at {row['time'][11:]}")
     if banco_row:
         listed = shown((banco_row.get("cash_text") or "").replace(" ; ", " ").replace(" | ", ", "), 70)
-        banco = "couldn't be read" if banco_row.get("status") != "ok" else listed or "no games listed"
+        banco = ("couldn't be read" if banco_row.get("status") != "ok" else cash(banco_row) if banco_row.get("players", "") != ""
+                 else listed or "no games listed")
         parts.append(f"[Banco](BANCO.md){day_tag('banco', day)}: {banco}")
     return "**Right now:** " + " · ".join(parts)
 
@@ -2640,6 +2745,24 @@ def self_test():
     assert oly_cash_rows('<div class="table-header-row">GAME</div><div class="table-rows"></div>') == []
     assert oly_summary([])[4] == "no games listed"
     assert oly_cash_rows("<p>nothing here</p>") is None
+    real = ("<div class='title'>Bratislava</div><div class=\"game-info\"><div class=\"game-type info-item\">PLO 4/5c 2/2&euro;</div><!--\n"
+            "--><div class=\"buy-in info-item\">100&euro;</div><div class=\"players info-item\">\n 6 <i class=\"fa fa-users\"></i>\n</div>"
+            "<a href=\"tel:+421\" class=\"phone info-item\"><i class=\"fa fa-phone\"></i></a></div><div class=\"game-info\">"
+            "<div class=\"game-type info-item\">NLHE 1/3&euro;</div><div class=\"buy-in info-item\">100&euro;</div>"
+            "<div class=\"players info-item\"> 5 <i class=\"fa fa-users\"></i></div></div><div class=\"title\">Košice</div>"
+            "<div class=\"game-info\"><div class=\"game-type info-item\">DCH 1/2&euro;</div><div class=\"buy-in info-item\">50&euro;</div>"
+            "<div class=\"players info-item\"> 4 </div></div><div class=\"title\">&nbsp;</div><div class=\"game-info\"></div>"
+            "<div class=\"updated\"><span>Aktualizované: </span> 13.10.2026 11:40 </div>")
+    games = banco_games(real)
+    assert [(g["room"], g["game"], g["stakes"], g["buyin"], g["players"]) for g in games] == [
+        ("Bratislava", "PLO 4/5", "2/2", 100, 6), ("Bratislava", "NLH", "1/3", 100, 5), ("Košice", "Dealer's Choice", "1/2", 50, 4)], games
+    tables, players, entries, text = banco_summary(games)
+    assert (tables, players, entries) == (2, 11, "PLO 4/5 €2/2 6/0; NLH €1/3 5/0") and text.startswith("Bratislava: PLO 4/5 €2/2 6 players")
+    assert parse_games(entries) == (("PLO 4/5", "2/2", 6, 0), ("NLH", "1/3", 5, 0))
+    old = banco_old_text_games("Bratislava | PLO 4/5c 2/2€ | <!-- | --> 100€ | 6 | NLHE 1/3€ | <!-- | --> 100€ | 8 | Košice | DCH 1/2€ | <!-- | --> 50€ | 4")
+    assert [(g["room"], g["game"], g["buyin"], g["players"]) for g in old] == [
+        ("Bratislava", "PLO 4/5", 100, 6), ("Bratislava", "NLH", 100, 8), ("Košice", "Dealer's Choice", 50, 4)], old
+    assert banco_summary([]) == (0, 0, "", "") and BANCO_NONE.search("Momentálne sa nehrajú žiadne cash games.")
     assert banco_cash_text("") == "" and banco_cash_text("  ") == ""
     assert banco_cash_text('<table><tr><th>Game</th><th>Blinds</th></tr></table><p class="updated">Updated <a>12:00</a></p>') == ""
     assert banco_cash_text('<table><tr><th>Game</th><th>Blinds</th></tr><tr><td>NLH</td><td>1/2</td><td><span class="hide">7/9</span></td></tr>'
@@ -2650,6 +2773,7 @@ def self_test():
     assert saved["scripts"] == ["/a.js"] and "cashAjax" in saved["inline_scripts"][0] and saved["page_text"] == "Cash games Table"
     assert gzip.decompress(base64.b64decode(saved["page_gz_base64"])).decode().startswith("<html>")
     assert oly_cash_rows(oly_page.replace('<span class="players-max">/9</span>', "", 1)) is None  # a row changed shape
+    assert oly_cash_rows(oly_row("OPENED", "PLO/PLO 5 5/5/10", "€5/€5/€10", "€500", 1, 7, 8, 1, 0))[0]["game"] == "PLO/PLO5"
     assert card_entries('<div class="splide__slide">\r\n <div class="cash-game aligner">\r\n <h4>No games currently</h4>\r\n </div>\r\n</div>') == []
     assert gas_cash_entries("<p>Back to home</p><p>No Cash Game table is open at this time</p>") == []
     assert [is_tracker(h) for h in ("www.googletagmanager.com", "ajax.googleapis.com", "connect.facebook.net",
@@ -2709,6 +2833,7 @@ def main():
 
     remove_retired_sites()
     migrate_card_files()
+    migrate_site_files()
     repair_history()
     card_row = timed("Card Casino", record_card, now)
     gas_row, site_rows = None, {}
