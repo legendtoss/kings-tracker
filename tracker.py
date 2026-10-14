@@ -409,6 +409,11 @@ def strip_tags(fragment):
     return " ".join(unescape(re.sub(r"<[^>]+>", " ", fragment or "")).split())
 
 
+def plo_digits(text):
+    """'PLO/PLO 5' -> 'PLO/PLO5': OlyBet writes the same game both ways, which split it in two in the stats."""
+    return re.sub(r"\bPLO\s+(\d)\b", r"PLO\1", text or "")
+
+
 def card_game(name):
     """Card Casino's game names: 'NLH', 'PLO', 'PLO5'... anything else keeps its own name."""
     n = clean(name).upper().replace(" ", "")
@@ -575,7 +580,7 @@ def oly_cash_rows(html):
         if not stakes or not players:
             return None  # a row has changed shape: better an error than a wrong number
         status = OLY_STATUS_RE.search(chunk)
-        name = re.sub(r"\bPLO\s+(\d)\b", r"PLO\1", STAKES_IN_NAME.sub(" ", name))  # 'PLO/PLO 5' -> 'PLO/PLO5'
+        name = plo_digits(STAKES_IN_NAME.sub(" ", name))
         rows.append({"game": card_game(name), "stakes": stakes.replace(",", "."),
                      "buyin": number(re.sub(r"[^\d.]", "", oly_attr(chunk, "data-buyin") or oly_cell(chunk, "col-buyin"))),
                      "tables": as_int(oly_cell(chunk, "col-tables")), "players": as_int(players.group(1)),
@@ -645,7 +650,7 @@ def timed(label, func, *args):
 
 BANCO_NOW_PLAYING_URL = os.environ.get("BANCO_NOW_PLAYING_URL", "https://bancocasino.sk/ba/getNowPlaying")
 BANCO_API_URL = os.environ.get("BANCO_API_URL", "https://bancocasino.sk/ba/kholdem/apiCall/")
-BANCO_DIRECT_SINCE = "2026-10-13 12:00"  # before this, the tracker couldn't see Banco's cash list
+BANCO_DIRECT_SINCE = "2026-10-13 11:40"  # first direct read; before this, the tracker couldn't see Banco's cash list
 
 
 def post_form(url, fields, referer, timeout=20):
@@ -712,6 +717,12 @@ def banco_old_text_games(text):
         elif token and token not in ("<!--",) and not re.search(r"\d", token):
             room = token
     return games
+
+
+def banco_row_numbers(r):
+    """Tables, players and games for a check saved as text by the first direct reader (13 Oct 11:40 and 11:50)."""
+    tables, players, games, text = banco_summary(banco_old_text_games(r["cash_text"]))
+    return {"tables": tables, "players": players, "games": games, "cash_text": text}
 
 
 def banco_summary(games):
@@ -1653,9 +1664,17 @@ def repair_history():
     fixes.append((DATA_DIR / "banco", SITE_FIELDS,
                   lambda r: r["status"] == "ok" and not r["cash_text"] and r["time"] < BANCO_DIRECT_SINCE,
                   {"status": "error: the cash list wasn't visible to the tracker yet"}))
+    # Banco's first two direct reads (13 Oct 11:40, 11:50) were kept as text only: fill in their numbers
+    fixes.append((DATA_DIR / "banco", SITE_FIELDS,
+                  lambda r: r["status"] == "ok" and r["tables"] == "" and "<!--" in r["cash_text"]
+                  and banco_old_text_games(r["cash_text"]), banco_row_numbers))
     for site in OLY_SITES:  # the first Olympic version reported 0 tables without actually reading the table
         fixes.append((DATA_DIR / site["key"], OLY_FIELDS, lambda r: r["status"] == "ok" and not r["listed"],
                       {"status": "error: table not read (first version)", "tables": "", "players": "", "waiting": "", "games": ""}))
+        # before v27, 'PLO/PLO 5' was saved as written by the site, so the same game showed up twice in the stats
+        fixes.append((DATA_DIR / site["key"], OLY_FIELDS,
+                      lambda r: plo_digits(r["games"]) != r["games"] or plo_digits(r["listed"]) != r["listed"],
+                      lambda r: {"games": plo_digits(r["games"]), "listed": plo_digits(r["listed"])}))
     for folder, fields, is_wrong, correction in fixes:
         for path in sorted(folder.glob("*.csv")):
             with path.open(newline="", encoding="utf-8-sig") as fh:
@@ -1663,7 +1682,7 @@ def repair_history():
             changed = False
             for r in rows:
                 if is_wrong(r):
-                    r.update(correction)
+                    r.update(correction(r) if callable(correction) else correction)
                     changed = True
             if changed:
                 rewrite_csv(path, fields, rows)
@@ -1768,9 +1787,11 @@ def write_site_page(key, name, url, page_path):
         out += busy_sections(counted, checks, key)
         out += day_type_lines(key, counted)
         out += all_games_lines(counted)
-    out += ["---", "First version: the lists are saved exactly as the site shows them. Statistics per game "
-            "and hour (like on the King's page) are added once a day of data shows the site's format.",
-            f"Raw data: `data/{key}` (one CSV file per month)."]
+    footer = (f"The numbers count {BANCO_ROOM} only (Banco's list also shows Košice, kept in words above). "
+              "Banco shows no seat counts, so tables show players only.") if counted else (
+        "First version: the lists are saved exactly as the site shows them. Statistics per game "
+        "and hour (like on the King's page) are added once a day of data shows the site's format.")
+    out += ["---", footer, f"Raw data: `data/{key}` (one CSV file per month)."]
     page_path.write_text("\n".join(out) + "\n", encoding="utf-8")
 
 
@@ -2774,6 +2795,12 @@ def self_test():
     assert gzip.decompress(base64.b64decode(saved["page_gz_base64"])).decode().startswith("<html>")
     assert oly_cash_rows(oly_page.replace('<span class="players-max">/9</span>', "", 1)) is None  # a row changed shape
     assert oly_cash_rows(oly_row("OPENED", "PLO/PLO 5 5/5/10", "€5/€5/€10", "€500", 1, 7, 8, 1, 0))[0]["game"] == "PLO/PLO5"
+    assert plo_digits("NLH €1/3 9/9; PLO/PLO 5 €5/5/10 8/8") == "NLH €1/3 9/9; PLO/PLO5 €5/5/10 8/8"
+    assert plo_digits("PLO €5/5 (closed): 0 tables, 0/0 players, 3 waiting; PLO5 €5/5 7/8") == \
+        "PLO €5/5 (closed): 0 tables, 0/0 players, 3 waiting; PLO5 €5/5 7/8"
+    first = banco_row_numbers({"cash_text": "Bratislava | PLO 4/5c 2/2€ | <!-- | --> 100€ | 6 | NLHE 1/3€ | <!-- | --> 100€ | 5"})
+    assert (first["tables"], first["players"], first["games"]) == (2, 11, "PLO 4/5 €2/2 6/0; NLH €1/3 5/0"), first
+    assert first["cash_text"] == "Bratislava: PLO 4/5 €2/2 6 players (buy-in €100), NLH €1/3 5 players (buy-in €100)"
     assert card_entries('<div class="splide__slide">\r\n <div class="cash-game aligner">\r\n <h4>No games currently</h4>\r\n </div>\r\n</div>') == []
     assert gas_cash_entries("<p>Back to home</p><p>No Cash Game table is open at this time</p>") == []
     assert [is_tracker(h) for h in ("www.googletagmanager.com", "ajax.googleapis.com", "connect.facebook.net",
