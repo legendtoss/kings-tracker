@@ -2,10 +2,10 @@
 
 Checks [its website](https://bancocasino.sk/ba/en) together with King's, about every 10 minutes. All times are **Czech time** (same as Poland and Slovakia). Back to [King's](README.md).
 
-**Last check:** 2026-10-14 22:40 — ✅ OK  
-**Checks so far:** 216 successful out of 720 (since 2026-10-10)
+**Last check:** 2026-10-14 22:50 — ✅ OK  
+**Checks so far:** 217 successful out of 721 (since 2026-10-10)
 
-## Tables running at 2026-10-14 22:40
+## Tables running at 2026-10-14 22:50
 
 ```
 PLO 4/5  €2/2     7 players
@@ -13,7 +13,7 @@ PLO 4/5  €2/2     7 players
 **PLO 4/5:** 7 players at 1 table
 
 *The whole list (Banco also shows its Košice casino; the numbers above are Bratislava only):* Bratislava: PLO 4/5 €2/2 7 players (buy-in €100)  
-**Tournaments running:** Ladies Night: 34/96 players, on a break, buy-in €35, €3000 GTD
+**Tournaments running:** Ladies Night: 33/96 players, starts at 19:00, buy-in €35, €3000 GTD
 
 **Note:** Since 13 Oct the tracker reads Banco's cash list and its live tournaments straight from where its page gets them; before that, its page's scripts didn't run in the tracker's browser, so those checks show as errors.
 
@@ -89,7 +89,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 19:00 | · | 8 | 7 | · | · | · | · | 7 |
 | 20:00 | · | 3 | 7 | · | · | · | · | 5 |
 | 21:00 | · | 0 | 7 | · | · | · | · | 4 |
-| 22:00 | · | 0 | 7 | · | · | · | · | 3 |
+| 22:00 | · | 0 | 7 | · | · | · | · | 4 |
 | 23:00 | · | 0 | · | · | · | · | · | 0 |
 
 ## How often each game was running, by hour (all days)
@@ -120,15 +120,15 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 19:00 | 🟥 0% | 🟩 100% | 12 |
 | 20:00 | 🟥 17% | 🟩 83% | 12 |
 | 21:00 | 🟨 46% | 🟨 54% | 13 |
-| 22:00 | 🟨 55% | 🟨 45% | 11 |
+| 22:00 | 🟨 50% | 🟨 50% | 12 |
 | 23:00 | 🟩 100% | 🟥 0% | 6 |
 
 ## All games seen
 
 | Game | Running in | Most often | Last seen |
 |:--|--:|:--|:--|
-| NLH €1/3 | 31% of checks | Tue around 12:00 | 2026-10-14 18:50 |
-| PLO 4/5 €2/2 | 46% of checks | Tue around 12:00 | 2026-10-14 22:40 |
+| NLH €1/3 | 30% of checks | Tue around 12:00 | 2026-10-14 18:50 |
+| PLO 4/5 €2/2 | 47% of checks | Tue around 12:00 | 2026-10-14 22:50 |
 
 ---
 The numbers count Bratislava only (Banco's list also shows Košice, kept in words above). Banco shows no seat counts, so tables show players only.
