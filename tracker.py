@@ -758,14 +758,14 @@ def banco_tournaments(referer):
     found = json.loads(post_form(BANCO_API_URL, {"endPoint": "event/search", "method": "POST", "data[status]": "running"}, referer))
     if not isinstance(found, dict):
         return "", {"search": str(found)[:300]}
-    parts, first = [], None
+    parts, first = [], ""
     for event in (found.get("results") or [])[:4]:
         try:
             e = json.loads(post_form(BANCO_API_URL, {"endPoint": f"event/{event.get('id')}", "method": "GET"}, referer))
-            first = first or e
             stats, levels = e.get("stats") or {}, e.get("levels") or []
             level_id = as_int(((e.get("status") or {}).get("level") or {}).get("id"))
             current = levels[level_id - 1] if 0 < level_id <= len(levels) else {}
+            first = first or banco_event_extract(e, current)
             text = str((e.get("dailyDetails") or {}).get("fullname") or event.get("name") or "tournament")
             if stats.get("totalPlayers"):
                 text += f": {stats['totalPlayers']}/{stats.get('totalEntries', '?')} players"
@@ -779,7 +779,14 @@ def banco_tournaments(referer):
             parts.append(text)
         except Exception as ex:
             parts.append(f"tournament {event.get('id')}: details couldn't be read ({short_error(ex)})")
-    return "; ".join(parts), {"running": len(found.get("results") or []), "first": json.dumps(first)[:3000] if first else ""}
+    return "; ".join(parts), {"running": len(found.get("results") or []), "first": first}
+
+
+def banco_event_extract(e, current):
+    """The parts of one Banco tournament its line is made from (status, numbers, current level), for debug."""
+    return json.dumps({"status": e.get("status"), "stats": e.get("stats"), "level": current,
+                       "levels": len(e.get("levels") or []), "dailyDetails": e.get("dailyDetails")},
+                      ensure_ascii=False, default=str)[:3000]
 
 
 def banco_direct(site):
@@ -798,7 +805,10 @@ def banco_direct(site):
         tournaments, info = banco_tournaments(site["url"])
     except Exception as e:
         tournaments, info = "", {"error": short_error(e)}
-    return cash, tournaments, {"source": "direct", "now_playing_html": fragment[:20000], "tournaments": info, "stats": stats}
+    details = {"source": "direct", "now_playing_html": fragment[:20000], "tournaments": info, "stats": stats}
+    if tournaments:  # its own entry, so debug/banco_page.json is saved again when a tournament first shows up
+        details["tournament_event"] = info.get("first", "")
+    return cash, tournaments, details
 
 
 def fetch_text(url, referer, timeout=30):
@@ -1117,9 +1127,8 @@ def short_error(e):
 
 
 def empty_feed_confirmed(now):
-    """True when an empty feed can be taken at its word (no tables running): the page itself showed no
-    tables within the last two hours. One check an hour still double-checks on the page, so a feed that
-    breaks quietly can't hide running tables for long."""
+    """True when an empty feed can be taken at its word (no tables running). One check an hour still
+    double-checks on the page, so a feed that breaks quietly can't hide running tables for long."""
     if now.minute < 10:
         return False
     try:
@@ -1127,8 +1136,33 @@ def empty_feed_confirmed(now):
             recent = list(csv.DictReader(fh))[-14:]
     except OSError:
         return False
-    checked = [r for r in recent if r["status"] == "ok" and r["source"] in ("page table", "browser feed")]
-    return bool(checked) and checked[-1]["tables"] in ("0", "") and checked[-1]["time"] >= f"{now - timedelta(hours=2):%Y-%m-%d %H:%M}"
+    return trusted_empty(recent, now)
+
+
+def trusted_empty(recent, now):
+    """The rule for an empty feed, given the latest checks: the page itself showed no tables within the
+    last two hours, and no check since then has seen a table. (Until v28 a table that came and went
+    in between didn't count, so a feed that briefly showed nothing was recorded as 0 tables.)"""
+    pages = [i for i, r in enumerate(recent) if r["status"] == "ok" and r["source"] in ("page table", "browser feed")]
+    if not pages:
+        return False
+    last = recent[pages[-1]]
+    return (last["tables"] in ("0", "") and last["time"] >= f"{now - timedelta(hours=2):%Y-%m-%d %H:%M}"
+            and all(r["tables"] in ("0", "") for r in recent[pages[-1] + 1:]))
+
+
+UNCHECKED_EMPTY = "error: the feed showed no tables and the page wasn't re-checked"
+
+
+def unchecked_empties(rows):
+    """Rows (by position) where an empty feed was recorded as 0 tables although a table had been seen
+    since the page last showed none - the checks the current rule sends to the page first."""
+    found = []
+    for i, r in enumerate(rows):
+        if r["status"] == "ok" and r["source"] == "feed" and r["tables"] == "0":
+            if not trusted_empty(rows[max(0, i - 14):i], datetime.strptime(r["time"], "%Y-%m-%d %H:%M")):
+                found.append(i)
+    return found
 
 
 def check():
@@ -1686,6 +1720,14 @@ def repair_history():
                     changed = True
             if changed:
                 rewrite_csv(path, fields, rows)
+    for path in sorted(DATA_DIR.glob(MONTH_FILES)):  # King's: 0-table readings that skipped the page check
+        with path.open(newline="", encoding="utf-8-sig") as fh:
+            rows = list(csv.DictReader(fh))
+        wrong = unchecked_empties(rows)
+        for i in wrong:
+            rows[i].update(status=UNCHECKED_EMPTY, tables="", players="", games="")
+        if wrong:
+            rewrite_csv(path, FIELDS, rows)
 
 
 def remove_retired_sites():
@@ -2801,6 +2843,20 @@ def self_test():
     first = banco_row_numbers({"cash_text": "Bratislava | PLO 4/5c 2/2€ | <!-- | --> 100€ | 6 | NLHE 1/3€ | <!-- | --> 100€ | 5"})
     assert (first["tables"], first["players"], first["games"]) == (2, 11, "PLO 4/5 €2/2 6/0; NLH €1/3 5/0"), first
     assert first["cash_text"] == "Bratislava: PLO 4/5 €2/2 6 players (buy-in €100), NLH €1/3 5 players (buy-in €100)"
+    page0 = {"time": "2026-10-14 11:00", "status": "ok", "source": "page table", "tables": "0"}
+
+    def feed_check(hm, n):
+        return {"time": f"2026-10-14 {hm}", "status": "ok", "source": "feed", "tables": str(n)}
+    t0 = datetime(2026, 10, 14, 12, 16)
+    assert trusted_empty([page0, feed_check("11:10", 0), feed_check("11:50", 0)], t0)
+    assert not trusted_empty([page0, feed_check("12:00", 1), feed_check("12:10", 1)], t0)  # a table came and went
+    assert not trusted_empty([page0, feed_check("11:10", 0)], datetime(2026, 10, 14, 13, 30))  # page check too old
+    assert not trusted_empty([feed_check("11:50", 0)], t0)  # never checked on the page
+    assert unchecked_empties([page0, feed_check("11:10", 0), feed_check("12:10", 1), feed_check("12:16", 0),
+                              feed_check("12:20", 1)]) == [3]
+    extract = json.loads(banco_event_extract({"status": {"level": {"id": 2}}, "stats": {"totalPlayers": 0},
+                                              "levels": [{"type": 1}, {"type": 2}]}, {"type": 2}))
+    assert extract["level"] == {"type": 2} and extract["levels"] == 2
     assert card_entries('<div class="splide__slide">\r\n <div class="cash-game aligner">\r\n <h4>No games currently</h4>\r\n </div>\r\n</div>') == []
     assert gas_cash_entries("<p>Back to home</p><p>No Cash Game table is open at this time</p>") == []
     assert [is_tracker(h) for h in ("www.googletagmanager.com", "ajax.googleapis.com", "connect.facebook.net",
