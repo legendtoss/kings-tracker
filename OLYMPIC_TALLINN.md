@@ -2,18 +2,18 @@
 
 Reads [OlyBet's live cash games page](https://olybetpoker.com/ee/en/cash-games/) every 30 minutes (their site has bot protection, so the tracker checks gently and simply records it when a check is refused). All times are **Czech time** (Tallinn and Vilnius are one hour ahead). Back to [King's](README.md).
 
-**Last check:** 2026-10-14 07:30 — ✅ OK  
-**Last 24 h:** 34 of 49 checks OK, longest gap 0 h 30 min · **Collecting since:** 2026-10-10 (100 good checks)
+**Last check:** 2026-10-14 08:00 — ✅ OK  
+**Last 24 h:** 34 of 49 checks OK, longest gap 0 h 30 min · **Collecting since:** 2026-10-10 (101 good checks)
 
 **Club:** Olympic Park Casino
 
-## Tables running at 2026-10-14 07:30
+## Tables running at 2026-10-14 08:00
 
 No tables were running.
 
 **Waiting lists:** 0 players · **All games listed:** NLH €1/3 (closed): 0 tables, 0/0 players, 0 waiting PLO/PLO5 €1/3 (closed): 0 tables, 0/0 players, 0 waiting PLO €5/5 (closed): 0 tables, 0/0 players, 0 waiting NLH €5/5 (closed): 0 tables, 0/0 players, 0 waiting NLH €10/10 (closed): 0 tables, 0/0 players, 0 waiting PLO/PLO5 €10/10 (closed): 0 tables, 0/0 players, 0 waiting
 
-**Tournaments on their site at 2026-10-14 01:00:** live 12:00 Olympic Park Casino 14 NLH Championship Final 30,000 €555 12:00 Olympic Park Casino 33 NLH Kings of Tallinn Main Event Day 1/A 30,000 €1,100 12:30 Olympic Park Casino 34 NLH 50,000 €3,000 13:00 Olympic Park Casino 28 NLH Mystery Bounty Final 50,000 €1,100 13:00 Olympic Park Casino 35 NLH DeepStack 30,000 €350 16:00 Olympic Park Casino 36 PLO4/PLO5 DeepStack Mystery Bounty Day 1 30,000 €350 18:00 Olympic Park Casino 33 NLH Kings of Tallinn Main Event Day 1/B 30,000 €1,100 19:00 Olympic Park Casino 37 Mega-Satellite to the €1,100 Kings of Tallinn Main Event 15,000 €150 20:00 Olympic Park Casino 38 PLO4/PLO5 Double Board BOMB POT 25,000 €350 22:00 Olympic Park Casino 39 NLH Satellite to Any €555, 7 x €555 SEATS GTD 15,000 €100
+**Tournaments on their site at 2026-10-14 08:00:** live 12:00 Olympic Park Casino 14 NLH Championship Final 30,000 €555 12:00 Olympic Park Casino 33 NLH Kings of Tallinn Main Event Day 1/A 30,000 €1,100 12:30 Olympic Park Casino 34 NLH 50,000 €3,000 13:00 Olympic Park Casino 28 NLH Mystery Bounty Final 50,000 €1,100 13:00 Olympic Park Casino 35 NLH DeepStack 30,000 €350 16:00 Olympic Park Casino 36 PLO4/PLO5 DeepStack Mystery Bounty Day 1 30,000 €350 18:00 Olympic Park Casino 33 NLH Kings of Tallinn Main Event Day 1/B 30,000 €1,100 19:00 Olympic Park Casino 37 Mega-Satellite to the €1,100 Kings of Tallinn Main Event 15,000 €150 20:00 Olympic Park Casino 38 PLO4/PLO5 Double Board BOMB POT 25,000 €350 22:00 Olympic Park Casino 39 NLH Satellite to Any €555, 7 x €555 SEATS GTD 15,000 €100
 
 ## Festivals and schedule
 
@@ -58,7 +58,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 05:00 | 11 | 8 | 0 | · | · | · | · | 5 |
 | 06:00 | 7 | 7 | 0 | · | · | · | · | 4 |
 | 07:00 | 6 | 8 | 0 | · | · | · | 0 | 4 |
-| 08:00 | 0 | 7 | · | · | · | · | 0 | 1 |
+| 08:00 | 0 | 7 | 0 | · | · | · | 0 | 1 |
 | 09:00 | 0 | 8 | · | · | · | · | 0 | 2 |
 | 10:00 | 0 | 8 | · | · | · | · | 0 | 3 |
 | 11:00 | 0 | 6 | · | · | · | · | 0 | 2 |
@@ -87,7 +87,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 05:00 | 8 | 14 | 8 | · | · | · | · | 10 |
 | 06:00 | 8 | 6 | 0 | · | · | · | · | 4 |
 | 07:00 | 5 | 2 | 0 | · | · | · | 0 | 2 |
-| 08:00 | 0 | 0 | · | · | · | · | 0 | 0 |
+| 08:00 | 0 | 0 | 0 | · | · | · | 0 | 0 |
 | 09:00 | 0 | 0 | · | · | · | · | 0 | 0 |
 | 10:00 | 0 | 0 | · | · | · | · | 0 | 0 |
 | 11:00 | 0 | 0 | · | · | · | · | 0 | 0 |
@@ -116,7 +116,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 05:00 | 0 | 0 | 0 | · | · | · | · | 0 |
 | 06:00 | 0 | 0 | 0 | · | · | · | · | 0 |
 | 07:00 | 0 | 0 | 0 | · | · | · | 0 | 0 |
-| 08:00 | 0 | 0 | · | · | · | · | 0 | 0 |
+| 08:00 | 0 | 0 | 0 | · | · | · | 0 | 0 |
 | 09:00 | 0 | 0 | · | · | · | · | 0 | 0 |
 | 10:00 | 0 | 0 | · | · | · | · | 0 | 0 |
 | 11:00 | 0 | 0 | · | · | · | · | 0 | 0 |
@@ -147,7 +147,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 05:00 | 🟨 60% | 🟥 0% | 🟩 80% | 🟥 20% | 🟥 0% | 🟨 40% | 🟥 0% | 🟥 0% | 5 |
 | 06:00 | 🟨 60% | 🟥 0% | 🟥 0% | 🟥 20% | 🟥 0% | 🟨 40% | 🟥 0% | 🟥 0% | 5 |
 | 07:00 | 🟨 50% | 🟥 0% | 🟥 0% | 🟥 17% | 🟥 0% | 🟥 17% | 🟥 0% | 🟥 0% | 6 |
-| 08:00 | 🟥 20% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 5 |
+| 08:00 | 🟥 17% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 6 |
 | 09:00 | 🟥 20% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 5 |
 | 10:00 | 🟨 40% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 5 |
 | 11:00 | 🟨 33% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 6 |
@@ -170,13 +170,13 @@ Average seated players per check on each kind of day, in total and for NLH and O
 
 | Days | Dates | Checks | Players | NLH | Omaha | vs normal, same hour |
 |:--|:--|--:|--:|--:|--:|--:|
-| 🎪 Kings of Tallinn | 11–14 Oct (4 days) | 100 | 15.2 | 7.0 | 8.0 | · |
+| 🎪 Kings of Tallinn | 11–14 Oct (4 days) | 101 | 15.1 | 6.9 | 8.0 | · |
 
 ## All games seen
 
 | Game | Running in | Most often | Last seen |
 |:--|--:|:--|:--|
-| NLH €1/3 | 58% of checks | Sun around 22:00 | 2026-10-14 03:30 |
+| NLH €1/3 | 57% of checks | Sun around 22:00 | 2026-10-14 03:30 |
 | NLH €5/5 | 15% of checks | Mon around 19:00 | 2026-10-14 01:00 |
 | PLO/PLO5 €1/3 | 48% of checks | Sun around 22:00 | 2026-10-14 05:30 |
 | PLO/PLO 5 €5/5 | 1% of checks | Tue around 19:00 | 2026-10-13 19:00 |
