@@ -4,10 +4,10 @@ Checks King's live cash games and tournaments about every 10 minutes and updates
 
 **Right now:** King's: 1 table, 4 players · [Card Casino Šamorín](CARD_CASINO.md): 1 table, 4 players · [Grand Casino Aš](GRAND_CASINO_AS.md): 0 tables running · [Olympic Park Tallinn](OLYMPIC_TALLINN.md) 🎪 Kings of Tallinn: blocked at 14:30 · [Olympic Vilnius](OLYMPIC_VILNIUS.md): 0 tables, 0 players at 14:30 · [Banco](BANCO.md): 0 tables, 0 players
 
-**Last check:** 2026-10-14 14:30 — ✅ OK (data feed)  
-**Last 24 h:** 148 of 148 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-06 (880 good checks)
+**Last check:** 2026-10-14 14:40 — ✅ OK (data feed)  
+**Last 24 h:** 148 of 148 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-06 (881 good checks)
 
-## Tables running at 2026-10-14 14:30
+## Tables running at 2026-10-14 14:40
 
 ```
 NLH  €1/2     4/8 players
@@ -175,7 +175,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 11:00 | 🟨 37% | 🟥 9% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 9% | 🟥 0% | 🟥 0% | 35 |
 | 12:00 | 🟨 62% | 🟥 8% | 🟥 0% | 🟥 8% | 🟥 0% | 🟥 8% | 🟥 0% | 🟥 0% | 39 |
 | 13:00 | 🟩 75% | 🟥 8% | 🟥 0% | 🟥 17% | 🟥 6% | 🟥 8% | 🟥 0% | 🟥 0% | 36 |
-| 14:00 | 🟨 74% | 🟨 43% | 🟥 0% | 🟨 26% | 🟥 23% | 🟥 9% | 🟥 0% | 🟥 0% | 35 |
+| 14:00 | 🟩 75% | 🟨 42% | 🟥 0% | 🟨 25% | 🟥 22% | 🟥 8% | 🟥 0% | 🟥 0% | 36 |
 | 15:00 | 🟩 79% | 🟨 28% | 🟥 0% | 🟨 41% | 🟨 48% | 🟥 7% | 🟥 0% | 🟥 0% | 29 |
 | 16:00 | 🟩 92% | 🟨 33% | 🟥 0% | 🟨 39% | 🟨 53% | 🟥 8% | 🟥 0% | 🟥 0% | 36 |
 | 17:00 | 🟩 91% | 🟨 29% | 🟥 17% | 🟨 51% | 🟨 63% | 🟥 9% | 🟥 0% | 🟥 0% | 35 |
@@ -194,7 +194,7 @@ Collecting since 2026-10-08. Shown from 2026-10-22: with fewer than two weeks, t
 
 | Game | Running in | Most often | Last seen |
 |:--|--:|:--|:--|
-| NLH €1/2 | 74% of checks | Wed around 13:00 | 2026-10-14 14:30 |
+| NLH €1/2 | 74% of checks | Wed around 13:00 | 2026-10-14 14:40 |
 | NLH €2/4 | 33% of checks | Wed around 02:00 | 2026-10-14 03:20 |
 | NLH €5/10 | 8% of checks | Sat around 23:00 | 2026-10-11 19:30 |
 | PLO €2/2 | 34% of checks | Fri around 22:00 | 2026-10-13 23:20 |
