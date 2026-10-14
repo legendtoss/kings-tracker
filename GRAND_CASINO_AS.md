@@ -2,16 +2,16 @@
 
 Reads [Grand Casino Aš's live cash games](https://www.grandcasinoas.eu/en/poker/poker-live) every 10 minutes and its [current tournaments](https://www.grandcasinoas.eu/en/poker) every 30 minutes. All times are **Czech time** (same as Poland). Back to [King's](README.md).
 
-**Last check:** 2026-10-14 20:50 — ✅ OK  
-**Last 24 h:** 148 of 148 checks OK, longest gap 0 h 20 min · **Collecting since:** 2026-10-10 (696 good checks)
+**Last check:** 2026-10-14 21:00 — ✅ OK  
+**Last 24 h:** 148 of 148 checks OK, longest gap 0 h 20 min · **Collecting since:** 2026-10-10 (697 good checks)
 
-## Cash games at 2026-10-14 20:50
+## Cash games at 2026-10-14 21:00
 
 ```
 PLO/NLH           waiting
 ```
 
-**Tournaments in play at 2026-10-14 20:30:** Kickstarter (NLH, €50, 26 of 33 left, late reg open, level 6, blinds 400/800/800)
+**Tournaments in play at 2026-10-14 21:00:** Kickstarter (NLH, €50, 25 of 39 left, late reg open, level 8, blinds 800/1600/1600)
 
 ## Festivals and schedule
 
@@ -62,7 +62,7 @@ Average number of running tables (Grand Casino Aš shows which games run, not ho
 | 18:00 | 0.0 | 0.0 | 0.0 | · | · | 1.0 | 0.0 | 0.2 |
 | 19:00 | 0.0 | 0.0 | 0.0 | · | · | 2.0 | 0.0 | 0.5 |
 | 20:00 | 0.0 | 0.0 | 0.0 | · | · | 2.5 | 1.0 | 0.7 |
-| 21:00 | 0.0 | 0.0 | · | · | · | 3.0 | 0.8 | 1.0 |
+| 21:00 | 0.0 | 0.0 | 0.0 | · | · | 3.0 | 0.8 | 0.9 |
 | 22:00 | 0.0 | 0.0 | · | · | · | 4.0 | 0.0 | 1.0 |
 | 23:00 | 0.0 | 0.0 | · | · | · | 4.0 | 0.0 | 1.1 |
 
@@ -93,7 +93,7 @@ Average number of running tables (Grand Casino Aš shows which games run, not ho
 | 18:00 | 🟥 10% | 🟥 10% | 🟥 0% | 🟥 0% | 30 |
 | 19:00 | 🟥 23% | 🟥 16% | 🟥 0% | 🟥 6% | 31 |
 | 20:00 | 🟨 39% | 🟥 3% | 🟥 0% | 🟥 19% | 31 |
-| 21:00 | 🟨 25% | 🟥 21% | 🟥 0% | 🟨 25% | 24 |
+| 21:00 | 🟥 24% | 🟥 20% | 🟥 0% | 🟥 24% | 25 |
 | 22:00 | 🟥 24% | 🟥 0% | 🟥 0% | 🟥 24% | 25 |
 | 23:00 | 🟨 28% | 🟥 0% | 🟥 0% | 🟨 28% | 25 |
 
@@ -103,7 +103,7 @@ The most recent ones. The game is read from the tournament's name.
 
 | Tournament | Game | Buy-in | Entries | Seen |
 |:--|:--|--:|--:|:--|
-| Kickstarter | NLH | €50 | 33 | 2026-10-14 19:30 → 10-14 20:30 |
+| Kickstarter | NLH | €50 | 39 | 2026-10-14 19:30 → 10-14 21:00 |
 | Barista Rebel Cup | NLH | €130 | 95 | 2026-10-11 12:30 → 10-11 22:00 |
 | BHD PKO Main Event Final Day | NLH | €230 | 420 | 2026-10-11 12:00 → 10-11 21:30 |
 | BHD PKO Main Event 1C | NLH | €230 | 93 | 2026-10-10 17:30 → 10-11 11:00 |
