@@ -2,22 +2,22 @@
 
 Checks King's live cash games and tournaments about every 10 minutes and updates this page by itself. All times are **Czech time** (same as Poland). Also tracking: [Card Casino Šamorín](CARD_CASINO.md) · [Grand Casino Aš](GRAND_CASINO_AS.md) · [Banco Casino Bratislava](BANCO.md) · [Olympic Park Tallinn](OLYMPIC_TALLINN.md) · [Olympic Casino Vilnius](OLYMPIC_VILNIUS.md).
 
-**Right now:** King's: 4 tables, 31 players · [Card Casino Šamorín](CARD_CASINO.md): 1 table, 5 players · [Grand Casino Aš](GRAND_CASINO_AS.md): 0 tables running, 1 waiting · [Olympic Park Tallinn](OLYMPIC_TALLINN.md) 🎪 Kings of Tallinn: blocked at 23:00 · [Olympic Vilnius](OLYMPIC_VILNIUS.md): 0 tables, 0 players at 23:00 · [Banco](BANCO.md): 1 table, 7 players
+**Right now:** King's: 4 tables, 32 players · [Card Casino Šamorín](CARD_CASINO.md): 1 table, 5 players · [Grand Casino Aš](GRAND_CASINO_AS.md): 0 tables running, 1 waiting · [Olympic Park Tallinn](OLYMPIC_TALLINN.md) 🎪 Kings of Tallinn: blocked at 23:00 · [Olympic Vilnius](OLYMPIC_VILNIUS.md): 0 tables, 0 players at 23:00 · [Banco](BANCO.md): 2 tables, 10 players
 
-**Last check:** 2026-10-14 23:10 — ✅ OK (data feed)  
-**Last 24 h:** 147 of 149 checks OK, longest gap 0 h 20 min · **Collecting since:** 2026-10-06 (931 good checks)
+**Last check:** 2026-10-14 23:20 — ✅ OK (data feed)  
+**Last 24 h:** 147 of 149 checks OK, longest gap 0 h 20 min · **Collecting since:** 2026-10-06 (932 good checks)
 
-## Tables running at 2026-10-14 23:10
+## Tables running at 2026-10-14 23:20
 
 ```
 NLH  €1/2     8/8 players
 NLH  €1/2     8/8 players
 NLH  €1/2     8/8 players
-PLO  €2/2     7/8 players
+PLO  €2/2     8/8 players
 ```
-**NLH:** 24 players at 3 tables · **PLO:** 7 players at 1 table
+**NLH:** 24 players at 3 tables · **PLO:** 8 players at 1 table
 
-**Tournaments in play:** Dutch Poker Masters - Day 1A (NLH, €225, 36 of 83 left, late reg open, level 10, blinds 1500/3000/3000)
+**Tournaments in play:** none
 
 ## Festivals and schedule
 
@@ -65,7 +65,7 @@ Day, hour and average seated players (only day-hour slots seen on at least 2 dif
 
 - **NLH:** Wed 22:00 (24) · Wed 23:00 (24) · Wed 21:00 (18)
 - **PLO5:** Wed 00:00 (9) · Tue 23:00 (9) · Tue 05:00 (7)
-- **PLO:** Wed 22:00 (5) · Wed 23:00 (3) · Tue 23:00 (2)
+- **PLO:** Wed 22:00 (5) · Wed 23:00 (4) · Tue 23:00 (2)
 
 ## Average players by hour
 
@@ -98,7 +98,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 20:00 | 8 | 11 | 17 | · | 47 | 61 | 23 | 26 |
 | 21:00 | 10 | 14 | 18 | · | 42 | 62 | 27 | 27 |
 | 22:00 | 6 | 16 | 24 | 28 | 54 | 71 | 30 | 32 |
-| 23:00 | 8 | 15 | 24 | · | 66 | 78 | 34 | 37 |
+| 23:00 | 8 | 15 | 24 | · | 66 | 78 | 34 | 36 |
 
 ### 5-card Pot-Limit Omaha (PLO5)
 
@@ -127,7 +127,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 20:00 | 6 | 5 | 0 | · | 8 | 8 | 8 | 5 |
 | 21:00 | 0 | 5 | 0 | · | 8 | 8 | 3 | 4 |
 | 22:00 | 0 | 4 | 2 | 5 | 8 | 8 | 0 | 4 |
-| 23:00 | 0 | 9 | 4 | · | 8 | 8 | 1 | 6 |
+| 23:00 | 0 | 9 | 4 | · | 8 | 8 | 1 | 5 |
 
 ### Pot-Limit Omaha (PLO)
 
@@ -156,7 +156,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 20:00 | 0 | 0 | 0 | · | 8 | 12 | 8 | 4 |
 | 21:00 | 0 | 0 | 1 | · | 8 | 8 | 8 | 4 |
 | 22:00 | 7 | 2 | 5 | 0 | 8 | 8 | 8 | 6 |
-| 23:00 | 6 | 2 | 3 | · | 8 | 8 | 8 | 6 |
+| 23:00 | 6 | 2 | 4 | · | 8 | 8 | 8 | 6 |
 
 ## How often each game was running, by hour (all days)
 
@@ -187,7 +187,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 20:00 | 🟩 93% | 🟨 28% | 🟥 7% | 🟨 44% | 🟨 65% | 🟥 7% | 🟥 0% | 🟥 0% | 43 |
 | 21:00 | 🟩 93% | 🟨 26% | 🟥 14% | 🟨 48% | 🟨 43% | 🟥 7% | 🟥 0% | 🟥 0% | 42 |
 | 22:00 | 🟩 95% | 🟨 30% | 🟥 16% | 🟩 77% | 🟨 36% | 🟥 11% | 🟥 0% | 🟥 0% | 44 |
-| 23:00 | 🟩 90% | 🟨 50% | 🟥 18% | 🟩 75% | 🟨 45% | 🟨 25% | 🟥 0% | 🟥 2% | 40 |
+| 23:00 | 🟩 90% | 🟨 49% | 🟥 17% | 🟩 76% | 🟨 44% | 🟥 24% | 🟥 0% | 🟥 2% | 41 |
 
 ## Cash games vs tournaments
 
@@ -197,10 +197,10 @@ Collecting since 2026-10-08. Shown from 2026-10-22: with fewer than two weeks, t
 
 | Game | Running in | Most often | Last seen |
 |:--|--:|:--|:--|
-| NLH €1/2 | 75% of checks | Wed around 13:00 | 2026-10-14 23:10 |
+| NLH €1/2 | 75% of checks | Wed around 13:00 | 2026-10-14 23:20 |
 | NLH €2/4 | 31% of checks | Wed around 02:00 | 2026-10-14 03:20 |
 | NLH €5/10 | 7% of checks | Sat around 23:00 | 2026-10-11 19:30 |
-| PLO €2/2 | 33% of checks | Fri around 22:00 | 2026-10-14 23:10 |
+| PLO €2/2 | 33% of checks | Fri around 22:00 | 2026-10-14 23:20 |
 | PLO5 €5/5 | 32% of checks | Wed around 01:00 | 2026-10-14 03:00 |
 | PLO5 €10/10 | 9% of checks | Fri around 23:00 | 2026-10-10 19:40 |
 | PLO5 €10/25 | 1% of checks | Wed around 06:00 | 2026-10-07 10:04 |
