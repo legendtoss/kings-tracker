@@ -2,24 +2,24 @@
 
 Reads [OlyBet's live cash games page](https://olybetpoker.com/ee/en/cash-games/) every 30 minutes (their site has bot protection, so the tracker checks gently and simply records it when a check is refused). All times are **Czech time** (Tallinn and Vilnius are one hour ahead). Back to [King's](README.md).
 
-**Last check:** 2026-10-16 00:00 — ✅ OK  
-**Last 24 h:** 29 of 50 checks OK, longest gap 0 h 31 min · **Collecting since:** 2026-10-10 (147 good checks)
+**Last check:** 2026-10-16 00:30 — ✅ OK  
+**Last 24 h:** 29 of 50 checks OK, longest gap 0 h 31 min · **Collecting since:** 2026-10-10 (148 good checks)
 
 **Club:** Olympic Park Casino
 
-## Tables running at 2026-10-16 00:00
+## Tables running at 2026-10-16 00:30
 
 ```
 NLH       €1/3     9/9 players
 NLH       €5/5     7/8 players
 PLO       €5/5     8/8 players
-PLO       €5/5     8/8 players
+PLO       €5/5     7/8 players
 PLO/PLO5  €1/3     8/8 players
 PLO/PLO5  €1/3     8/8 players
 ```
-**NLH:** 16 players at 2 tables · **PLO:** 16 players at 2 tables · **PLO/PLO5:** 16 players at 2 tables
+**NLH:** 16 players at 2 tables · **PLO:** 15 players at 2 tables · **PLO/PLO5:** 16 players at 2 tables
 
-**Waiting lists:** 6 players · **All games listed:** NLH €1/3 (opened): 1 table, 9/9 players, 0 waiting PLO/PLO5 €1/3 (opened): 2 tables, 16/16 players, 0 waiting PLO €5/5 (opened): 2 tables, 16/16 players, 1 waiting NLH €5/5 (opened): 1 table, 7/8 players, 0 waiting PLO/PLO5 €25/25 (closed): 0 tables, 0/0 players, 3 waiting NLH €10/10 (closed): 0 tables, 0/0 players, 0 waiting PLO/PLO5 €10/10 (closed): 0 tables, 0/0 players, 2 waiting
+**Waiting lists:** 6 players · **All games listed:** NLH €1/3 (opened): 1 table, 9/9 players, 1 waiting PLO/PLO5 €1/3 (opened): 2 tables, 16/16 players, 0 waiting PLO €5/5 (opened): 2 tables, 15/16 players, 0 waiting NLH €5/5 (opened): 1 table, 7/8 players, 0 waiting PLO/PLO5 €25/25 (closed): 0 tables, 0/0 players, 3 waiting NLH €10/10 (closed): 0 tables, 0/0 players, 0 waiting PLO/PLO5 €10/10 (closed): 0 tables, 0/0 players, 2 waiting
 
 **Tournaments on their site at 2026-10-16 00:00:** live 12:00 Olympic Park Casino 33 NLH Kings of Tallinn Main Event Day 2 30,000 €1,100 12:30 Olympic Park Casino 48 PLO5 Satellite to 50 Sviten Championship 10,000 €50 15:00 Olympic Park Casino 49 NLH Progressive Bounty 25,000 €250 16:30 Olympic Park Casino 50 PL Sviten Championship Day 1 30,000 €555 18:30 Olympic Park Casino 51 NLH Deepstack Progressive Bounty Day 1 50,000 €1,100 19:00 Olympic Park Casino 52 NLH Turbo, 8-handed 25,000 €200 21:00 Olympic Park Casino 53 NLH 30,000 €555 22:30 Olympic Park Casino 54 Satellite to 56 €3000 NLH 15,000 €150
 
@@ -106,7 +106,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 
 | Hour | Mon | Tue | Wed | Thu | Fri | Sat | Sun | All days |
 |:--|--:|--:|--:|--:|--:|--:|--:|--:|
-| 00:00 | 0 | 0 | 0 | 15 | 16 | · | · | 6 |
+| 00:00 | 0 | 0 | 0 | 15 | 16 | · | · | 8 |
 | 01:00 | 0 | 0 | 0 | 16 | · | · | · | 5 |
 | 02:00 | 0 | 0 | 0 | 10 | · | · | · | 3 |
 | 03:00 | 0 | 0 | 0 | 2 | · | · | · | 1 |
@@ -137,7 +137,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 
 | Hour | NLH €1/3 | NLH €5/5 | PLO/PLO5 €1/3 | PLO €5/5 | PLO/PLO5 €5/5 | PLO/PLO5 €5/5/10 | DC €1/3 | NLH/PLO €5/5 | Checks |
 |:--|--:|--:|--:|--:|--:|--:|--:|--:|--:|
-| 00:00 | 🟩 100% | 🟨 60% | 🟩 100% | 🟨 40% | 🟨 40% | 🟥 20% | 🟥 20% | 🟥 0% | 5 |
+| 00:00 | 🟩 100% | 🟨 67% | 🟩 100% | 🟨 50% | 🟨 33% | 🟥 17% | 🟥 17% | 🟥 0% | 6 |
 | 01:00 | 🟩 100% | 🟥 17% | 🟩 100% | 🟨 33% | 🟨 33% | 🟨 33% | 🟥 17% | 🟥 0% | 6 |
 | 02:00 | 🟩 100% | 🟥 0% | 🟩 100% | 🟨 33% | 🟨 50% | 🟨 33% | 🟥 0% | 🟥 17% | 6 |
 | 03:00 | 🟩 100% | 🟥 0% | 🟩 100% | 🟥 17% | 🟨 33% | 🟨 33% | 🟥 0% | 🟨 33% | 6 |
@@ -168,16 +168,16 @@ Average seated players per check on each kind of day, in total and for NLH and O
 
 | Days | Dates | Checks | Players | NLH | Omaha | vs normal, same hour |
 |:--|:--|--:|--:|--:|--:|--:|
-| 🎪 Kings of Tallinn | 11–16 Oct (6 days) | 147 | 17.2 | 7.2 | 9.8 | · |
+| 🎪 Kings of Tallinn | 11–16 Oct (6 days) | 148 | 17.4 | 7.3 | 9.9 | · |
 
 ## All games seen
 
 | Game | Running in | Most often | Last seen |
 |:--|--:|:--|:--|
-| NLH €1/3 | 61% of checks | Sun around 22:00 | 2026-10-16 00:00 |
-| NLH €5/5 | 12% of checks | Mon around 19:00 | 2026-10-16 00:00 |
-| PLO/PLO5 €1/3 | 54% of checks | Sun around 22:00 | 2026-10-16 00:00 |
-| PLO €5/5 | 14% of checks | Wed around 20:00 | 2026-10-16 00:00 |
+| NLH €1/3 | 61% of checks | Sun around 22:00 | 2026-10-16 00:30 |
+| NLH €5/5 | 13% of checks | Mon around 19:00 | 2026-10-16 00:30 |
+| PLO/PLO5 €1/3 | 54% of checks | Sun around 22:00 | 2026-10-16 00:30 |
+| PLO €5/5 | 14% of checks | Wed around 20:00 | 2026-10-16 00:30 |
 | PLO/PLO5 €5/5 | 14% of checks | Sun around 23:00 | 2026-10-13 19:00 |
 | PLO/PLO5 €5/5/10 | 16% of checks | Tue around 05:00 | 2026-10-15 06:00 |
 | PLO/PLO5 €25/25 | 1% of checks | Thu around 06:00 | 2026-10-15 06:30 |
