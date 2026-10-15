@@ -2,19 +2,19 @@
 
 Checks King's live cash games and tournaments about every 10 minutes and updates this page by itself. All times are **Czech time** (same as Poland). Also tracking: [Card Casino Šamorín](CARD_CASINO.md) · [Grand Casino Aš](GRAND_CASINO_AS.md) · [Banco Casino Bratislava](BANCO.md) · [Olympic Park Tallinn](OLYMPIC_TALLINN.md) · [Olympic Casino Vilnius](OLYMPIC_VILNIUS.md).
 
-**Right now:** King's: 1 table, 8 players · [Card Casino Šamorín](CARD_CASINO.md): 0 tables, 0 players · [Grand Casino Aš](GRAND_CASINO_AS.md) 🎪 PLO festival: 0 tables running · [Olympic Park Tallinn](OLYMPIC_TALLINN.md) 🎪 Kings of Tallinn: 0 tables, 0 players (2 waiting) at 11:30 · [Olympic Vilnius](OLYMPIC_VILNIUS.md): blocked at 11:30 · [Banco](BANCO.md): 0 tables, 0 players
+**Right now:** King's: 1 table, 4 players · [Card Casino Šamorín](CARD_CASINO.md): 0 tables, 0 players · [Grand Casino Aš](GRAND_CASINO_AS.md) 🎪 PLO festival: 0 tables running · [Olympic Park Tallinn](OLYMPIC_TALLINN.md) 🎪 Kings of Tallinn: blocked at 12:00 · [Olympic Vilnius](OLYMPIC_VILNIUS.md): 0 tables, 0 players at 12:00 · [Banco](BANCO.md): 0 tables, 0 players
 
-**Last check:** 2026-10-15 11:50 — ✅ OK (data feed)  
-**Last 24 h:** 147 of 149 checks OK, longest gap 0 h 20 min · **Collecting since:** 2026-10-06 (1009 good checks)
+**Last check:** 2026-10-15 12:00 — ✅ OK (data feed)  
+**Last 24 h:** 147 of 149 checks OK, longest gap 0 h 20 min · **Collecting since:** 2026-10-06 (1010 good checks)
 
-## Tables running at 2026-10-15 11:50
+## Tables running at 2026-10-15 12:00
 
 ```
-NLH  €1/2     8/8 players
+NLH  €1/2     4/8 players
 ```
-**NLH:** 8 players at 1 table
+**NLH:** 4 players at 1 table
 
-**Tournaments in play:** none
+**Tournaments in play:** DPM Morning Bounty (25 Bounty) (NLH, €105, €25 bounty, 36 of 36 left, late reg open, level 1, blinds 100/100/100)
 
 ## Festivals and schedule
 
@@ -85,7 +85,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 09:00 | 2 | 1 | 3 | 2 | · | 14 | 6 | 4 |
 | 10:00 | 0 | 2 | 0 | 4 | · | 15 | 8 | 4 |
 | 11:00 | 0 | 2 | 1 | 5 | · | 15 | 10 | 5 |
-| 12:00 | 2 | 2 | 7 | · | · | 21 | 20 | 9 |
+| 12:00 | 2 | 2 | 7 | 4 | · | 21 | 20 | 9 |
 | 13:00 | 5 | 3 | 9 | · | · | 21 | 30 | 12 |
 | 14:00 | 5 | 4 | 8 | · | · | 36 | 41 | 17 |
 | 15:00 | 6 | 5 | 7 | · | 21 | 30 | 35 | 16 |
@@ -114,7 +114,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 09:00 | 0 | 1 | 0 | 0 | · | 0 | 0 | 0 |
 | 10:00 | 0 | 2 | 0 | 0 | · | 0 | 0 | 0 |
 | 11:00 | 0 | 2 | 0 | 0 | · | 0 | 0 | 0 |
-| 12:00 | 0 | 2 | 0 | · | · | 0 | 0 | 1 |
+| 12:00 | 0 | 2 | 0 | 0 | · | 0 | 0 | 0 |
 | 13:00 | 0 | 2 | 0 | · | · | 0 | 1 | 1 |
 | 14:00 | 0 | 3 | 0 | · | · | 1 | 8 | 2 |
 | 15:00 | 0 | 4 | 0 | · | 0 | 6 | 8 | 3 |
@@ -143,7 +143,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 09:00 | 0 | 0 | 0 | 0 | · | 0 | 0 | 0 |
 | 10:00 | 0 | 0 | 0 | 0 | · | 0 | 0 | 0 |
 | 11:00 | 0 | 0 | 0 | 0 | · | 0 | 0 | 0 |
-| 12:00 | 0 | 0 | 0 | · | · | 2 | 0 | 0 |
+| 12:00 | 0 | 0 | 0 | 0 | · | 2 | 0 | 0 |
 | 13:00 | 0 | 0 | 0 | · | · | 8 | 0 | 1 |
 | 14:00 | 0 | 0 | 0 | · | · | 13 | 2 | 3 |
 | 15:00 | 0 | 0 | 0 | · | 0 | 10 | 7 | 3 |
@@ -174,7 +174,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 09:00 | 🟨 50% | 🟥 7% | 🟥 0% | 🟥 0% | 🟥 2% | 🟥 2% | 🟥 5% | 🟥 0% | 42 |
 | 10:00 | 🟨 43% | 🟥 7% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 7% | 🟥 2% | 🟥 0% | 42 |
 | 11:00 | 🟨 46% | 🟥 7% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 7% | 🟥 0% | 🟥 0% | 41 |
-| 12:00 | 🟨 65% | 🟥 8% | 🟥 0% | 🟥 8% | 🟥 0% | 🟥 8% | 🟥 0% | 🟥 0% | 37 |
+| 12:00 | 🟨 66% | 🟥 8% | 🟥 0% | 🟥 8% | 🟥 0% | 🟥 8% | 🟥 0% | 🟥 0% | 38 |
 | 13:00 | 🟩 75% | 🟥 8% | 🟥 0% | 🟥 17% | 🟥 6% | 🟥 8% | 🟥 0% | 🟥 0% | 36 |
 | 14:00 | 🟩 76% | 🟨 41% | 🟥 0% | 🟥 24% | 🟥 22% | 🟥 8% | 🟥 0% | 🟥 0% | 37 |
 | 15:00 | 🟩 83% | 🟥 23% | 🟥 0% | 🟨 34% | 🟨 40% | 🟥 6% | 🟥 0% | 🟥 0% | 35 |
@@ -195,7 +195,7 @@ Collecting since 2026-10-08. Shown from 2026-10-22: with fewer than two weeks, t
 
 | Game | Running in | Most often | Last seen |
 |:--|--:|:--|:--|
-| NLH €1/2 | 75% of checks | Thu around 01:00 | 2026-10-15 11:50 |
+| NLH €1/2 | 75% of checks | Thu around 01:00 | 2026-10-15 12:00 |
 | NLH €2/4 | 28% of checks | Wed around 02:00 | 2026-10-14 03:20 |
 | NLH €5/10 | 7% of checks | Sat around 23:00 | 2026-10-11 19:30 |
 | PLO €2/2 | 34% of checks | Fri around 22:00 | 2026-10-15 04:00 |
@@ -212,6 +212,7 @@ The most recent ones. The game is read from the tournament's name.
 
 | Tournament | Game | Buy-in | Entries | Seen |
 |:--|:--|--:|--:|:--|
+| DPM Morning Bounty (25 Bounty) | NLH | €105 | 36 | 2026-10-15 12:00 |
 | Dutch Poker Masters - Day 1A | NLH | €225 | 86 | 2026-10-14 18:00 → 10-15 03:10 |
 | Satellite to DPM ME - Day 1A | NLH | €40 | 88 | 2026-10-14 15:00 → 10-14 19:00 |
 | King's Big Tuesday | NLH | €100 | 93 | 2026-10-13 18:00 → 10-14 01:30 |
@@ -226,7 +227,6 @@ The most recent ones. The game is read from the tournament's name.
 | GPD Mystery Bounty - Day 1E | NLH | €124 | 371 | 2026-10-10 11:00 → 10-10 20:50 |
 | Flip n Go Satellite (8 handed) to GPD ME - Day 1F | NLH | €35 | 86 | 2026-10-10 16:00 → 10-10 18:10 |
 | RENEMASTERMIX Friday Bounty (25 BOUNTY) | NLH | €100 | 295 | 2026-10-09 21:00 → 10-10 04:10 |
-| GPD Mystery Bounty - Day 1D | NLH | €124 | 209 | 2026-10-09 18:00 → 10-10 03:30 |
 
 ---
 Raw data: the `data` folder, one CSV file per month. To open one in Excel, use Data → From Text/CSV (double-clicking puts everything in one column in Polish Excel). The tracker is `tracker.py`; its schedule is in `.github/workflows/track.yml`.  
