@@ -2,16 +2,16 @@
 
 Checks King's live cash games and tournaments about every 10 minutes and updates this page by itself. All times are **Czech time** (same as Poland). Also tracking: [Card Casino Šamorín](CARD_CASINO.md) · [Grand Casino Aš](GRAND_CASINO_AS.md) · [Banco Casino Bratislava](BANCO.md) · [Olympic Park Tallinn](OLYMPIC_TALLINN.md) · [Olympic Casino Vilnius](OLYMPIC_VILNIUS.md).
 
-**Right now:** King's: 0 tables, 0 players · [Card Casino Šamorín](CARD_CASINO.md): couldn't be read · [Grand Casino Aš](GRAND_CASINO_AS.md) 🎪 PLO festival: 0 tables running · [Olympic Park Tallinn](OLYMPIC_TALLINN.md) 🎪 Kings of Tallinn: blocked at 13:00 · [Olympic Vilnius](OLYMPIC_VILNIUS.md): 0 tables, 0 players at 13:00 · [Banco](BANCO.md): 0 tables, 0 players
+**Right now:** King's: 0 tables, 0 players · [Card Casino Šamorín](CARD_CASINO.md): 0 tables, 0 players · [Grand Casino Aš](GRAND_CASINO_AS.md) 🎪 PLO festival: 0 tables running · [Olympic Park Tallinn](OLYMPIC_TALLINN.md) 🎪 Kings of Tallinn: 0 tables, 0 players (9 waiting) at 13:30 · [Olympic Vilnius](OLYMPIC_VILNIUS.md): 0 tables, 0 players at 13:30 · [Banco](BANCO.md): 0 tables, 0 players
 
-**Last check:** 2026-10-15 13:20 — ✅ OK (data feed)  
-**Last 24 h:** 148 of 148 checks OK, longest gap 0 h 20 min · **Collecting since:** 2026-10-06 (1018 good checks)
+**Last check:** 2026-10-15 13:30 — ✅ OK (data feed)  
+**Last 24 h:** 148 of 148 checks OK, longest gap 0 h 20 min · **Collecting since:** 2026-10-06 (1019 good checks)
 
-## Tables running at 2026-10-15 13:20
+## Tables running at 2026-10-15 13:30
 
 No tables were running.
 
-**Tournaments in play:** DPM Morning Bounty (25 Bounty) (NLH, €105, €25 bounty, 77 of 98 left, late reg open, level 5, blinds 200/500/500)
+**Tournaments in play:** DPM Morning Bounty (25 Bounty) (NLH, €105, €25 bounty, 76 of 103 left, late reg open, level 6, blinds 300/600/600)
 
 ## Festivals and schedule
 
@@ -172,7 +172,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 10:00 | 🟨 43% | 🟥 7% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 7% | 🟥 2% | 🟥 0% | 42 |
 | 11:00 | 🟨 46% | 🟥 7% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 7% | 🟥 0% | 🟥 0% | 41 |
 | 12:00 | 🟨 58% | 🟥 7% | 🟥 0% | 🟥 7% | 🟥 0% | 🟥 7% | 🟥 0% | 🟥 0% | 43 |
-| 13:00 | 🟨 69% | 🟥 8% | 🟥 0% | 🟥 15% | 🟥 5% | 🟥 8% | 🟥 0% | 🟥 0% | 39 |
+| 13:00 | 🟨 68% | 🟥 8% | 🟥 0% | 🟥 15% | 🟥 5% | 🟥 8% | 🟥 0% | 🟥 0% | 40 |
 | 14:00 | 🟩 76% | 🟨 41% | 🟥 0% | 🟥 24% | 🟥 22% | 🟥 8% | 🟥 0% | 🟥 0% | 37 |
 | 15:00 | 🟩 83% | 🟥 23% | 🟥 0% | 🟨 34% | 🟨 40% | 🟥 6% | 🟥 0% | 🟥 0% | 35 |
 | 16:00 | 🟩 79% | 🟨 29% | 🟥 0% | 🟨 33% | 🟨 45% | 🟥 7% | 🟥 0% | 🟥 0% | 42 |
@@ -209,7 +209,7 @@ The most recent ones. The game is read from the tournament's name.
 
 | Tournament | Game | Buy-in | Entries | Seen |
 |:--|:--|--:|--:|:--|
-| DPM Morning Bounty (25 Bounty) | NLH | €105 | 98 | 2026-10-15 12:00 → 10-15 13:20 |
+| DPM Morning Bounty (25 Bounty) | NLH | €105 | 103 | 2026-10-15 12:00 → 10-15 13:30 |
 | Dutch Poker Masters - Day 1A | NLH | €225 | 86 | 2026-10-14 18:00 → 10-15 03:10 |
 | Satellite to DPM ME - Day 1A | NLH | €40 | 88 | 2026-10-14 15:00 → 10-14 19:00 |
 | King's Big Tuesday | NLH | €100 | 93 | 2026-10-13 18:00 → 10-14 01:30 |
