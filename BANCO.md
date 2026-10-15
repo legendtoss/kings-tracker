@@ -2,17 +2,17 @@
 
 Checks [its website](https://bancocasino.sk/ba/en) together with King's, about every 10 minutes. All times are **Czech time** (same as Poland and Slovakia). Back to [King's](README.md).
 
-**Last check:** 2026-10-15 14:30 — ✅ OK  
-**Checks so far:** 313 successful out of 817 (since 2026-10-10)
+**Last check:** 2026-10-15 14:40 — ✅ OK  
+**Checks so far:** 314 successful out of 818 (since 2026-10-10)
 
-## Tables running at 2026-10-15 14:30
+## Tables running at 2026-10-15 14:40
 
 ```
-PLO 4/5  €2/2     4 players
+Dealer's Choice  €2/2     4 players
 ```
-**PLO 4/5:** 4 players at 1 table
+**Dealer's Choice:** 4 players at 1 table
 
-*The whole list (Banco also shows its Košice casino; the numbers above are Bratislava only):* Bratislava: PLO 4/5 €2/2 4 players (buy-in €100)  
+*The whole list (Banco also shows its Košice casino; the numbers above are Bratislava only):* Bratislava: Dealer's Choice €2/2 4 players (buy-in €100)  
 **Tournaments running:** none
 
 **Note:** Since 13 Oct the tracker reads Banco's cash list and its live tournaments straight from where its page gets them; before that, its page's scripts didn't run in the tracker's browser, so those checks show as errors.
@@ -96,32 +96,32 @@ Seated players at each game's tables. 0 = that game wasn't running.
 
 🟩 most of the time · 🟨 sometimes · 🟥 rarely
 
-| Hour | NLH €1/3 | PLO 4/5 €2/2 | Checks |
-|:--|--:|--:|--:|
-| 00:00 | 🟩 92% | 🟨 50% | 12 |
-| 01:00 | 🟨 50% | 🟨 50% | 14 |
-| 02:00 | 🟨 50% | 🟨 50% | 12 |
-| 03:00 | 🟨 54% | 🟨 46% | 13 |
-| 04:00 | 🟨 50% | 🟥 0% | 12 |
-| 05:00 | 🟨 50% | 🟥 0% | 12 |
-| 06:00 | 🟨 46% | 🟥 0% | 13 |
-| 07:00 | 🟨 50% | 🟥 0% | 12 |
-| 08:00 | 🟥 0% | 🟥 0% | 12 |
-| 09:00 | 🟥 0% | 🟥 0% | 12 |
-| 10:00 | 🟥 0% | 🟥 0% | 12 |
-| 11:00 | 🟥 14% | 🟥 14% | 14 |
-| 12:00 | 🟨 35% | 🟨 35% | 20 |
-| 13:00 | 🟨 33% | 🟨 33% | 18 |
-| 14:00 | 🟨 50% | 🟨 44% | 16 |
-| 15:00 | 🟩 75% | 🟩 75% | 12 |
-| 16:00 | 🟨 25% | 🟩 100% | 12 |
-| 17:00 | 🟥 17% | 🟩 100% | 12 |
-| 18:00 | 🟨 50% | 🟩 100% | 12 |
-| 19:00 | 🟥 0% | 🟩 100% | 12 |
-| 20:00 | 🟥 17% | 🟩 83% | 12 |
-| 21:00 | 🟨 46% | 🟨 54% | 13 |
-| 22:00 | 🟨 50% | 🟨 50% | 12 |
-| 23:00 | 🟩 83% | 🟨 50% | 12 |
+| Hour | NLH €1/3 | PLO 4/5 €2/2 | Dealer's Choice €2/2 | Checks |
+|:--|--:|--:|--:|--:|
+| 00:00 | 🟩 92% | 🟨 50% | 🟥 0% | 12 |
+| 01:00 | 🟨 50% | 🟨 50% | 🟥 0% | 14 |
+| 02:00 | 🟨 50% | 🟨 50% | 🟥 0% | 12 |
+| 03:00 | 🟨 54% | 🟨 46% | 🟥 0% | 13 |
+| 04:00 | 🟨 50% | 🟥 0% | 🟥 0% | 12 |
+| 05:00 | 🟨 50% | 🟥 0% | 🟥 0% | 12 |
+| 06:00 | 🟨 46% | 🟥 0% | 🟥 0% | 13 |
+| 07:00 | 🟨 50% | 🟥 0% | 🟥 0% | 12 |
+| 08:00 | 🟥 0% | 🟥 0% | 🟥 0% | 12 |
+| 09:00 | 🟥 0% | 🟥 0% | 🟥 0% | 12 |
+| 10:00 | 🟥 0% | 🟥 0% | 🟥 0% | 12 |
+| 11:00 | 🟥 14% | 🟥 14% | 🟥 0% | 14 |
+| 12:00 | 🟨 35% | 🟨 35% | 🟥 0% | 20 |
+| 13:00 | 🟨 33% | 🟨 33% | 🟥 0% | 18 |
+| 14:00 | 🟨 47% | 🟨 41% | 🟥 6% | 17 |
+| 15:00 | 🟩 75% | 🟩 75% | 🟥 0% | 12 |
+| 16:00 | 🟨 25% | 🟩 100% | 🟥 0% | 12 |
+| 17:00 | 🟥 17% | 🟩 100% | 🟥 0% | 12 |
+| 18:00 | 🟨 50% | 🟩 100% | 🟥 0% | 12 |
+| 19:00 | 🟥 0% | 🟩 100% | 🟥 0% | 12 |
+| 20:00 | 🟥 17% | 🟩 83% | 🟥 0% | 12 |
+| 21:00 | 🟨 46% | 🟨 54% | 🟥 0% | 13 |
+| 22:00 | 🟨 50% | 🟨 50% | 🟥 0% | 12 |
+| 23:00 | 🟩 83% | 🟨 50% | 🟥 0% | 12 |
 
 ## All games seen
 
@@ -129,6 +129,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 |:--|--:|:--|:--|
 | NLH €1/3 | 39% of checks | Tue around 12:00 | 2026-10-15 14:20 |
 | PLO 4/5 €2/2 | 42% of checks | Tue around 12:00 | 2026-10-15 14:30 |
+| Dealer's Choice €2/2 | 0% of checks | Thu around 14:00 | 2026-10-15 14:40 |
 
 ---
 The numbers count Bratislava only (Banco's list also shows Košice, kept in words above). Banco shows no seat counts, so tables show players only.
