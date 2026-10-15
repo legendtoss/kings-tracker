@@ -2,10 +2,10 @@
 
 Checks [its website](https://bancocasino.sk/ba/en) together with King's, about every 10 minutes. All times are **Czech time** (same as Poland and Slovakia). Back to [King's](README.md).
 
-**Last check:** 2026-10-15 03:50 — ✅ OK  
-**Checks so far:** 249 successful out of 753 (since 2026-10-10)
+**Last check:** 2026-10-15 04:00 — ✅ OK  
+**Checks so far:** 250 successful out of 754 (since 2026-10-10)
 
-## Tables running at 2026-10-15 03:50
+## Tables running at 2026-10-15 04:00
 
 ```
 NLH  €1/3     8 players
@@ -42,7 +42,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 01:00 | · | · | 0 | 10 | · | · | · | 5 |
 | 02:00 | · | · | 0 | 12 | · | · | · | 6 |
 | 03:00 | · | · | 0 | 8 | · | · | · | 4 |
-| 04:00 | · | · | 0 | · | · | · | · | 0 |
+| 04:00 | · | · | 0 | 8 | · | · | · | 1 |
 | 05:00 | · | · | 0 | · | · | · | · | 0 |
 | 06:00 | · | · | 0 | · | · | · | · | 0 |
 | 07:00 | · | · | 0 | · | · | · | · | 0 |
@@ -71,7 +71,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 01:00 | · | · | 0 | 6 | · | · | · | 3 |
 | 02:00 | · | · | 0 | 6 | · | · | · | 3 |
 | 03:00 | · | · | 0 | 5 | · | · | · | 2 |
-| 04:00 | · | · | 0 | · | · | · | · | 0 |
+| 04:00 | · | · | 0 | 0 | · | · | · | 0 |
 | 05:00 | · | · | 0 | · | · | · | · | 0 |
 | 06:00 | · | · | 0 | · | · | · | · | 0 |
 | 07:00 | · | · | 0 | · | · | · | · | 0 |
@@ -102,7 +102,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 01:00 | 🟨 50% | 🟨 50% | 14 |
 | 02:00 | 🟨 50% | 🟨 50% | 12 |
 | 03:00 | 🟨 54% | 🟨 46% | 13 |
-| 04:00 | 🟥 0% | 🟥 0% | 6 |
+| 04:00 | 🟥 14% | 🟥 0% | 7 |
 | 05:00 | 🟥 0% | 🟥 0% | 6 |
 | 06:00 | 🟥 0% | 🟥 0% | 7 |
 | 07:00 | 🟥 0% | 🟥 0% | 6 |
@@ -127,7 +127,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 
 | Game | Running in | Most often | Last seen |
 |:--|--:|:--|:--|
-| NLH €1/3 | 39% of checks | Tue around 12:00 | 2026-10-15 03:50 |
+| NLH €1/3 | 39% of checks | Tue around 12:00 | 2026-10-15 04:00 |
 | PLO 4/5 €2/2 | 53% of checks | Tue around 12:00 | 2026-10-15 03:40 |
 
 ---
