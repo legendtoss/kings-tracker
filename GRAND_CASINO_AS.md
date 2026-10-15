@@ -2,16 +2,16 @@
 
 Reads [Grand Casino Aš's live cash games](https://www.grandcasinoas.eu/en/poker/poker-live) every 10 minutes and its [current tournaments](https://www.grandcasinoas.eu/en/poker) every 30 minutes. All times are **Czech time** (same as Poland). Back to [King's](README.md).
 
-**Last check:** 2026-10-15 18:50 — ✅ OK  
-**Last 24 h:** 148 of 148 checks OK, longest gap 0 h 11 min · **Collecting since:** 2026-10-10 (831 good checks)
+**Last check:** 2026-10-15 19:00 — ✅ OK  
+**Last 24 h:** 148 of 148 checks OK, longest gap 0 h 11 min · **Collecting since:** 2026-10-10 (832 good checks)
 
-## Cash games at 2026-10-15 18:50
+## Cash games at 2026-10-15 19:00
 
 ```
 PLO/NLH           waiting
 ```
 
-**Tournaments in play at 2026-10-15 18:30:** PLO5 Satellite to 550er Highroller (PLO5, €110, 5 of 6 left, late reg open, level 2, blinds 100/200)
+**Tournaments in play at 2026-10-15 19:00:** PLO5 Satellite to 550er Highroller (PLO5, €110, 6 of 11 left, late reg open, level 4, blinds 200/400)
 
 ## Festivals and schedule
 
@@ -37,7 +37,7 @@ PLO/NLH           waiting
 
 ## Running cash tables by hour
 
-*Normal days only: 116 checks during festivals, cash-game events or public holidays are compared separately in “Festivals, holidays and normal days” below.*
+*Normal days only: 117 checks during festivals, cash-game events or public holidays are compared separately in “Festivals, holidays and normal days” below.*
 
 Average number of running tables (Grand Casino Aš shows which games run, not how many players).
 
@@ -106,7 +106,7 @@ Average running tables per check on each kind of day, in total and for NLH and O
 | Days | Dates | Checks | Tables | NLH | Omaha | vs normal, same hour |
 |:--|:--|--:|--:|--:|--:|--:|
 | Normal days | 10–14 Oct (5 days) | 715 | 0.4 | 0.3 | 0.0 | -0.0 |
-| 🎪 PLO festival | 15 Oct (1 day) | 116 | 0.1 | 0.1 | 0.0 | -0.2 |
+| 🎪 PLO festival | 15 Oct (1 day) | 117 | 0.1 | 0.1 | 0.0 | -0.2 |
 
 ## Tournaments seen
 
@@ -114,7 +114,7 @@ The most recent ones. The game is read from the tournament's name.
 
 | Tournament | Game | Buy-in | Entries | Seen |
 |:--|:--|--:|--:|:--|
-| PLO5 Satellite to 550er Highroller | PLO5 | €110 | 6 | 2026-10-15 18:00 |
+| PLO5 Satellite to 550er Highroller | PLO5 | €110 | 11 | 2026-10-15 18:00 → 10-15 19:00 |
 | Kickstarter | NLH | €50 | 42 | 2026-10-14 19:30 → 10-15 01:30 |
 | Barista Rebel Cup | NLH | €130 | 95 | 2026-10-11 12:30 → 10-11 22:00 |
 | BHD PKO Main Event Final Day | NLH | €230 | 420 | 2026-10-11 12:00 → 10-11 21:30 |
