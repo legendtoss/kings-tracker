@@ -2,10 +2,10 @@
 
 Checks [its website](https://bancocasino.sk/ba/en) together with King's, about every 10 minutes. All times are **Czech time** (same as Poland and Slovakia). Back to [King's](README.md).
 
-**Last check:** 2026-10-15 20:30 — ✅ OK  
-**Checks so far:** 349 successful out of 853 (since 2026-10-10)
+**Last check:** 2026-10-15 20:40 — ✅ OK  
+**Checks so far:** 350 successful out of 854 (since 2026-10-10)
 
-## Tables running at 2026-10-15 20:30
+## Tables running at 2026-10-15 20:40
 
 ```
 NLH  €1/3     8 players
@@ -59,7 +59,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 17:00 | · | 0 | 1 | 6 | · | · | · | 2 |
 | 18:00 | · | 0 | 5 | 7 | · | · | · | 4 |
 | 19:00 | · | 0 | 0 | 7 | · | · | · | 2 |
-| 20:00 | · | 1 | 0 | 8 | · | · | · | 2 |
+| 20:00 | · | 1 | 0 | 8 | · | · | · | 3 |
 | 21:00 | · | 3 | 0 | · | · | · | · | 2 |
 | 22:00 | · | 5 | 0 | · | · | · | · | 3 |
 | 23:00 | · | 6 | 3 | · | · | · | · | 4 |
@@ -119,7 +119,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 17:00 | 🟨 44% | 🟩 100% | 🟥 0% | 🟥 0% | 18 |
 | 18:00 | 🟨 67% | 🟩 100% | 🟥 0% | 🟥 0% | 18 |
 | 19:00 | 🟨 33% | 🟩 94% | 🟥 6% | 🟥 0% | 18 |
-| 20:00 | 🟨 38% | 🟨 62% | 🟨 25% | 🟥 0% | 16 |
+| 20:00 | 🟨 41% | 🟨 59% | 🟨 29% | 🟥 0% | 17 |
 | 21:00 | 🟨 46% | 🟨 54% | 🟥 0% | 🟥 0% | 13 |
 | 22:00 | 🟨 50% | 🟨 50% | 🟥 0% | 🟥 0% | 12 |
 | 23:00 | 🟩 83% | 🟨 50% | 🟥 0% | 🟥 0% | 12 |
@@ -128,9 +128,9 @@ Seated players at each game's tables. 0 = that game wasn't running.
 
 | Game | Running in | Most often | Last seen |
 |:--|--:|:--|:--|
-| NLH €1/3 | 42% of checks | Tue around 12:00 | 2026-10-15 20:30 |
-| PLO 4/5 €2/2 | 44% of checks | Tue around 12:00 | 2026-10-15 19:40 |
-| PLO €25/50 | 1% of checks | Thu around 20:00 | 2026-10-15 20:30 |
+| NLH €1/3 | 42% of checks | Tue around 12:00 | 2026-10-15 20:40 |
+| PLO 4/5 €2/2 | 43% of checks | Tue around 12:00 | 2026-10-15 19:40 |
+| PLO €25/50 | 2% of checks | Thu around 20:00 | 2026-10-15 20:40 |
 | Dealer's Choice €2/2 | 3% of checks | Thu around 15:00 | 2026-10-15 16:30 |
 
 ---
