@@ -2,19 +2,19 @@
 
 Checks King's live cash games and tournaments about every 10 minutes and updates this page by itself. All times are **Czech time** (same as Poland). Also tracking: [Card Casino Šamorín](CARD_CASINO.md) · [Grand Casino Aš](GRAND_CASINO_AS.md) · [Banco Casino Bratislava](BANCO.md) · [Olympic Park Tallinn](OLYMPIC_TALLINN.md) · [Olympic Casino Vilnius](OLYMPIC_VILNIUS.md).
 
-**Right now:** King's: 1 table, 7 players · [Card Casino Šamorín](CARD_CASINO.md): 0 tables, 0 players · [Grand Casino Aš](GRAND_CASINO_AS.md) 🎪 PLO festival: 0 tables running · [Olympic Park Tallinn](OLYMPIC_TALLINN.md) 🎪 Kings of Tallinn: 1 table, 7 players (12 waiting) at 16:30 · [Olympic Vilnius](OLYMPIC_VILNIUS.md): blocked at 16:30 · [Banco](BANCO.md): 2 tables, 13 players
+**Right now:** King's: 1 table, 5 players · [Card Casino Šamorín](CARD_CASINO.md): couldn't be read · [Grand Casino Aš](GRAND_CASINO_AS.md) 🎪 PLO festival: 0 tables running · [Olympic Park Tallinn](OLYMPIC_TALLINN.md) 🎪 Kings of Tallinn: blocked at 17:01 · [Olympic Vilnius](OLYMPIC_VILNIUS.md): blocked at 17:01 · [Banco](BANCO.md): 2 tables, 14 players
 
-**Last check:** 2026-10-15 16:50 — ✅ OK (data feed)  
-**Last 24 h:** 148 of 148 checks OK, longest gap 0 h 20 min · **Collecting since:** 2026-10-06 (1039 good checks)
+**Last check:** 2026-10-15 17:01 — ✅ OK (data feed)  
+**Last 24 h:** 148 of 148 checks OK, longest gap 0 h 11 min · **Collecting since:** 2026-10-06 (1040 good checks)
 
-## Tables running at 2026-10-15 16:50
+## Tables running at 2026-10-15 17:01
 
 ```
-NLH  €1/2     7/8 players
+NLH  €1/2     5/8 players
 ```
-**NLH:** 7 players at 1 table
+**NLH:** 5 players at 1 table
 
-**Tournaments in play:** DPM Morning Bounty (25 Bounty) (NLH, €105, €25 bounty, 8 of 113 left, level 17, blinds 5000/10000/10000) · Satellite to DPM ME - Day 1B (NLH, €40, 33 of 110 left, level 12, blinds 1000/2000/2000)
+**Tournaments in play:** DPM Morning Bounty (25 Bounty) (NLH, €105, €25 bounty, 8 of 113 left, level 17, blinds 5000/10000/10000) · Satellite to DPM ME - Day 1B (NLH, €40, 24 of 110 left, level 13, blinds 1500/3000/3000) · Dutch Poker Masters - Day 1B (NLH, €225, 23 of 23 left, late reg open, level 1, blinds 100/300/300)
 
 ## Festivals and schedule
 
@@ -90,7 +90,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 14:00 | 5 | 4 | 8 | 0 | · | 36 | 41 | 15 |
 | 15:00 | 6 | 5 | 7 | 3 | 21 | 30 | 35 | 14 |
 | 16:00 | 8 | 10 | 5 | 7 | 32 | 38 | 33 | 17 |
-| 17:00 | 8 | 12 | 4 | · | 38 | 44 | 37 | 22 |
+| 17:00 | 8 | 12 | 4 | 5 | 38 | 44 | 37 | 21 |
 | 18:00 | 7 | 9 | 11 | · | 44 | 46 | 28 | 22 |
 | 19:00 | 8 | 10 | 12 | · | 46 | 50 | 26 | 24 |
 | 20:00 | 8 | 11 | 17 | · | 47 | 61 | 23 | 26 |
@@ -119,7 +119,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 14:00 | 0 | 3 | 0 | 0 | · | 1 | 8 | 2 |
 | 15:00 | 0 | 4 | 0 | 0 | 0 | 6 | 8 | 3 |
 | 16:00 | 1 | 5 | 0 | 0 | 0 | 6 | 8 | 3 |
-| 17:00 | 5 | 5 | 0 | · | 1 | 6 | 8 | 4 |
+| 17:00 | 5 | 5 | 0 | 0 | 1 | 6 | 8 | 4 |
 | 18:00 | 6 | 5 | 0 | · | 3 | 8 | 6 | 4 |
 | 19:00 | 6 | 5 | 0 | · | 8 | 9 | 7 | 6 |
 | 20:00 | 6 | 5 | 0 | · | 8 | 8 | 8 | 5 |
@@ -148,7 +148,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 14:00 | 0 | 0 | 0 | 0 | · | 13 | 2 | 2 |
 | 15:00 | 0 | 0 | 0 | 0 | 0 | 10 | 7 | 2 |
 | 16:00 | 0 | 0 | 0 | 0 | 0 | 7 | 8 | 2 |
-| 17:00 | 0 | 0 | 0 | · | 5 | 8 | 7 | 3 |
+| 17:00 | 0 | 0 | 0 | 0 | 5 | 8 | 7 | 3 |
 | 18:00 | 0 | 0 | 0 | · | 8 | 8 | 8 | 3 |
 | 19:00 | 0 | 0 | 0 | · | 8 | 8 | 8 | 4 |
 | 20:00 | 0 | 0 | 0 | · | 8 | 12 | 8 | 4 |
@@ -179,7 +179,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 14:00 | 🟨 65% | 🟨 35% | 🟥 0% | 🟥 21% | 🟥 19% | 🟥 7% | 🟥 0% | 🟥 0% | 43 |
 | 15:00 | 🟩 80% | 🟥 20% | 🟥 0% | 🟨 29% | 🟨 34% | 🟥 5% | 🟥 0% | 🟥 0% | 41 |
 | 16:00 | 🟩 81% | 🟨 25% | 🟥 0% | 🟨 29% | 🟨 40% | 🟥 6% | 🟥 0% | 🟥 0% | 48 |
-| 17:00 | 🟩 78% | 🟥 24% | 🟥 15% | 🟨 44% | 🟨 54% | 🟥 7% | 🟥 0% | 🟥 0% | 41 |
+| 17:00 | 🟩 79% | 🟥 24% | 🟥 14% | 🟨 43% | 🟨 52% | 🟥 7% | 🟥 0% | 🟥 0% | 42 |
 | 18:00 | 🟩 90% | 🟨 29% | 🟨 29% | 🟨 43% | 🟨 60% | 🟥 7% | 🟥 0% | 🟥 0% | 42 |
 | 19:00 | 🟩 83% | 🟨 33% | 🟥 12% | 🟨 45% | 🟨 67% | 🟥 14% | 🟥 0% | 🟥 0% | 42 |
 | 20:00 | 🟩 93% | 🟨 28% | 🟥 7% | 🟨 44% | 🟨 65% | 🟥 7% | 🟥 0% | 🟥 0% | 43 |
@@ -195,7 +195,7 @@ Collecting since 2026-10-08. Shown from 2026-10-22: with fewer than two weeks, t
 
 | Game | Running in | Most often | Last seen |
 |:--|--:|:--|:--|
-| NLH €1/2 | 74% of checks | Thu around 01:00 | 2026-10-15 16:50 |
+| NLH €1/2 | 74% of checks | Thu around 01:00 | 2026-10-15 17:01 |
 | NLH €2/4 | 28% of checks | Wed around 02:00 | 2026-10-14 03:20 |
 | NLH €5/10 | 6% of checks | Sat around 23:00 | 2026-10-11 19:30 |
 | PLO €2/2 | 33% of checks | Fri around 22:00 | 2026-10-15 04:00 |
@@ -212,8 +212,9 @@ The most recent ones. The game is read from the tournament's name.
 
 | Tournament | Game | Buy-in | Entries | Seen |
 |:--|:--|--:|--:|:--|
-| DPM Morning Bounty (25 Bounty) | NLH | €105 | 113 | 2026-10-15 12:00 → 10-15 16:50 |
-| Satellite to DPM ME - Day 1B | NLH | €40 | 110 | 2026-10-15 14:00 → 10-15 16:50 |
+| DPM Morning Bounty (25 Bounty) | NLH | €105 | 113 | 2026-10-15 12:00 → 10-15 17:01 |
+| Satellite to DPM ME - Day 1B | NLH | €40 | 110 | 2026-10-15 14:00 → 10-15 17:01 |
+| Dutch Poker Masters - Day 1B | NLH | €225 | 23 | 2026-10-15 17:01 |
 | Dutch Poker Masters - Day 1A | NLH | €225 | 86 | 2026-10-14 18:00 → 10-15 03:10 |
 | Satellite to DPM ME - Day 1A | NLH | €40 | 88 | 2026-10-14 15:00 → 10-14 19:00 |
 | King's Big Tuesday | NLH | €100 | 93 | 2026-10-13 18:00 → 10-14 01:30 |
@@ -226,7 +227,6 @@ The most recent ones. The game is read from the tournament's name.
 | GPD Mystery Bounty - Day 1F | NLH | €124 | 311 | 2026-10-10 18:00 → 10-11 03:40 |
 | GPD Pot Limit Omaha | PLO | €125 | 114 | 2026-10-10 15:00 → 10-10 21:00 |
 | GPD Mystery Bounty - Day 1E | NLH | €124 | 371 | 2026-10-10 11:00 → 10-10 20:50 |
-| Flip n Go Satellite (8 handed) to GPD ME - Day 1F | NLH | €35 | 86 | 2026-10-10 16:00 → 10-10 18:10 |
 
 ---
 Raw data: the `data` folder, one CSV file per month. To open one in Excel, use Data → From Text/CSV (double-clicking puts everything in one column in Polish Excel). The tracker is `tracker.py`; its schedule is in `.github/workflows/track.yml`.  
