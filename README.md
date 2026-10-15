@@ -2,23 +2,23 @@
 
 Checks King's live cash games and tournaments about every 10 minutes and updates this page by itself. All times are **Czech time** (same as Poland). Also tracking: [Card Casino Šamorín](CARD_CASINO.md) · [Grand Casino Aš](GRAND_CASINO_AS.md) · [Banco Casino Bratislava](BANCO.md) · [Olympic Park Tallinn](OLYMPIC_TALLINN.md) · [Olympic Casino Vilnius](OLYMPIC_VILNIUS.md).
 
-**Right now:** King's: 5 tables, 33 players · [Card Casino Šamorín](CARD_CASINO.md): 0 tables, 0 players · [Grand Casino Aš](GRAND_CASINO_AS.md) 🎪 PLO festival: 0 tables running, 1 waiting · [Olympic Park Tallinn](OLYMPIC_TALLINN.md) 🎪 Kings of Tallinn: 3 tables, 23 players (14 waiting) at 19:00 · [Olympic Vilnius](OLYMPIC_VILNIUS.md): 0 tables, 0 players (1 waiting) at 19:00 · [Banco](BANCO.md): 2 tables, 10 players
+**Right now:** King's: 5 tables, 34 players · [Card Casino Šamorín](CARD_CASINO.md): 0 tables, 0 players · [Grand Casino Aš](GRAND_CASINO_AS.md) 🎪 PLO festival: 0 tables running, 1 waiting · [Olympic Park Tallinn](OLYMPIC_TALLINN.md) 🎪 Kings of Tallinn: 3 tables, 23 players (14 waiting) at 19:00 · [Olympic Vilnius](OLYMPIC_VILNIUS.md): 0 tables, 0 players (1 waiting) at 19:00 · [Banco](BANCO.md): 2 tables, 10 players
 
-**Last check:** 2026-10-15 19:00 — ✅ OK (data feed)  
-**Last 24 h:** 148 of 148 checks OK, longest gap 0 h 11 min · **Collecting since:** 2026-10-06 (1052 good checks)
+**Last check:** 2026-10-15 19:10 — ✅ OK (data feed)  
+**Last 24 h:** 148 of 148 checks OK, longest gap 0 h 11 min · **Collecting since:** 2026-10-06 (1053 good checks)
 
-## Tables running at 2026-10-15 19:00
+## Tables running at 2026-10-15 19:10
 
 ```
 NLH   €1/2     7/8 players
 NLH   €1/2     8/8 players
-NLH   €1/2     4/8 players
+NLH   €1/2     5/8 players
 NLH   €2/4     8/8 players
 PLO5  €5/5     6/8 players
 ```
-**NLH:** 27 players at 4 tables · **PLO5:** 6 players at 1 table
+**NLH:** 28 players at 4 tables · **PLO5:** 6 players at 1 table
 
-**Tournaments in play:** Dutch Poker Masters - Day 1B (NLH, €225, 93 of 111 left, late reg open, level 4, blinds 300/600/600)
+**Tournaments in play:** Dutch Poker Masters - Day 1B (NLH, €225, 97 of 115 left, late reg open, level 4, blinds 300/600/600)
 
 ## Festivals and schedule
 
@@ -96,7 +96,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 16:00 | 8 | 10 | 5 | 7 | 32 | 38 | 33 | 17 |
 | 17:00 | 8 | 12 | 4 | 7 | 38 | 44 | 37 | 20 |
 | 18:00 | 7 | 9 | 11 | 21 | 44 | 46 | 28 | 22 |
-| 19:00 | 8 | 10 | 12 | 27 | 46 | 50 | 26 | 24 |
+| 19:00 | 8 | 10 | 12 | 28 | 46 | 50 | 26 | 24 |
 | 20:00 | 8 | 11 | 17 | · | 47 | 61 | 23 | 26 |
 | 21:00 | 10 | 14 | 18 | · | 42 | 62 | 27 | 27 |
 | 22:00 | 6 | 16 | 24 | 28 | 54 | 71 | 30 | 32 |
@@ -154,7 +154,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 16:00 | 0 | 0 | 0 | 0 | 0 | 7 | 8 | 2 |
 | 17:00 | 0 | 0 | 0 | 0 | 5 | 8 | 7 | 3 |
 | 18:00 | 0 | 0 | 0 | 0 | 8 | 8 | 8 | 3 |
-| 19:00 | 0 | 0 | 0 | 0 | 8 | 8 | 8 | 4 |
+| 19:00 | 0 | 0 | 0 | 0 | 8 | 8 | 8 | 3 |
 | 20:00 | 0 | 0 | 0 | · | 8 | 12 | 8 | 4 |
 | 21:00 | 0 | 0 | 1 | · | 8 | 8 | 8 | 4 |
 | 22:00 | 7 | 2 | 5 | 0 | 8 | 8 | 8 | 6 |
@@ -185,7 +185,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 16:00 | 🟩 81% | 🟨 25% | 🟥 0% | 🟨 29% | 🟨 40% | 🟥 6% | 🟥 0% | 🟥 0% | 48 |
 | 17:00 | 🟩 81% | 🟥 21% | 🟥 13% | 🟨 38% | 🟨 47% | 🟥 6% | 🟥 0% | 🟥 0% | 47 |
 | 18:00 | 🟩 92% | 🟨 35% | 🟨 25% | 🟨 38% | 🟨 65% | 🟥 6% | 🟥 0% | 🟥 0% | 48 |
-| 19:00 | 🟩 84% | 🟨 35% | 🟥 12% | 🟨 44% | 🟨 67% | 🟥 14% | 🟥 0% | 🟥 0% | 43 |
+| 19:00 | 🟩 84% | 🟨 36% | 🟥 11% | 🟨 43% | 🟨 68% | 🟥 14% | 🟥 0% | 🟥 0% | 44 |
 | 20:00 | 🟩 93% | 🟨 28% | 🟥 7% | 🟨 44% | 🟨 65% | 🟥 7% | 🟥 0% | 🟥 0% | 43 |
 | 21:00 | 🟩 93% | 🟨 26% | 🟥 14% | 🟨 48% | 🟨 43% | 🟥 7% | 🟥 0% | 🟥 0% | 42 |
 | 22:00 | 🟩 95% | 🟨 30% | 🟥 16% | 🟩 77% | 🟨 36% | 🟥 11% | 🟥 0% | 🟥 0% | 44 |
@@ -199,11 +199,11 @@ Collecting since 2026-10-08. Shown from 2026-10-22: with fewer than two weeks, t
 
 | Game | Running in | Most often | Last seen |
 |:--|--:|:--|:--|
-| NLH €1/2 | 74% of checks | Thu around 01:00 | 2026-10-15 19:00 |
-| NLH €2/4 | 28% of checks | Wed around 02:00 | 2026-10-15 19:00 |
+| NLH €1/2 | 74% of checks | Thu around 01:00 | 2026-10-15 19:10 |
+| NLH €2/4 | 28% of checks | Wed around 02:00 | 2026-10-15 19:10 |
 | NLH €5/10 | 6% of checks | Sat around 23:00 | 2026-10-11 19:30 |
 | PLO €2/2 | 32% of checks | Fri around 22:00 | 2026-10-15 04:00 |
-| PLO5 €5/5 | 32% of checks | Wed around 01:00 | 2026-10-15 19:00 |
+| PLO5 €5/5 | 32% of checks | Wed around 01:00 | 2026-10-15 19:10 |
 | PLO5 €10/10 | 8% of checks | Fri around 23:00 | 2026-10-10 19:40 |
 | PLO5 €10/25 | 1% of checks | Wed around 06:00 | 2026-10-07 10:04 |
 | PLO5 €25/25 | 0% of checks | Thu around 05:00 | 2026-10-15 05:40 |
@@ -216,7 +216,7 @@ The most recent ones. The game is read from the tournament's name.
 
 | Tournament | Game | Buy-in | Entries | Seen |
 |:--|:--|--:|--:|:--|
-| Dutch Poker Masters - Day 1B | NLH | €225 | 111 | 2026-10-15 17:01 → 10-15 19:00 |
+| Dutch Poker Masters - Day 1B | NLH | €225 | 115 | 2026-10-15 17:01 → 10-15 19:10 |
 | DPM Morning Bounty (25 Bounty) | NLH | €105 | 113 | 2026-10-15 12:00 → 10-15 18:50 |
 | Satellite to DPM ME - Day 1B | NLH | €40 | 110 | 2026-10-15 14:00 → 10-15 17:50 |
 | Dutch Poker Masters - Day 1A | NLH | €225 | 86 | 2026-10-14 18:00 → 10-15 03:10 |
