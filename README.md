@@ -2,12 +2,12 @@
 
 Checks King's live cash games and tournaments about every 10 minutes and updates this page by itself. All times are **Czech time** (same as Poland). Also tracking: [Card Casino Šamorín](CARD_CASINO.md) · [Grand Casino Aš](GRAND_CASINO_AS.md) · [Banco Casino Bratislava](BANCO.md) · [Olympic Park Tallinn](OLYMPIC_TALLINN.md) · [Olympic Casino Vilnius](OLYMPIC_VILNIUS.md).
 
-**Right now:** King's: 0 tables, 0 players · [Card Casino Šamorín](CARD_CASINO.md): 0 tables, 0 players · [Grand Casino Aš](GRAND_CASINO_AS.md) 🎪 PLO festival: 0 tables running · [Olympic Park Tallinn](OLYMPIC_TALLINN.md) 🎪 Kings of Tallinn: blocked at 07:30 · [Olympic Vilnius](OLYMPIC_VILNIUS.md): 0 tables, 0 players at 07:30 · [Banco](BANCO.md): 1 table, 5 players
+**Right now:** King's: 0 tables, 0 players · [Card Casino Šamorín](CARD_CASINO.md): couldn't be read · [Grand Casino Aš](GRAND_CASINO_AS.md) 🎪 PLO festival: 0 tables running · [Olympic Park Tallinn](OLYMPIC_TALLINN.md) 🎪 Kings of Tallinn: 1 table, 5 players at 08:00 · [Olympic Vilnius](OLYMPIC_VILNIUS.md): blocked at 08:00 · [Banco](BANCO.md): 0 tables, 0 players
 
-**Last check:** 2026-10-15 07:50 — ✅ OK (data feed)  
-**Last 24 h:** 147 of 149 checks OK, longest gap 0 h 20 min · **Collecting since:** 2026-10-06 (985 good checks)
+**Last check:** 2026-10-15 08:00 — ✅ OK (page table, via browser)  
+**Last 24 h:** 147 of 149 checks OK, longest gap 0 h 20 min · **Collecting since:** 2026-10-06 (986 good checks)
 
-## Tables running at 2026-10-15 07:50
+## Tables running at 2026-10-15 08:00
 
 No tables were running.
 
@@ -78,7 +78,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 05:00 | 7 | 4 | 7 | 5 | · | 20 | 23 | 10 |
 | 06:00 | 7 | 3 | 7 | 3 | · | 17 | 14 | 8 |
 | 07:00 | 7 | 3 | 8 | 1 | · | 17 | 12 | 7 |
-| 08:00 | 6 | 2 | 5 | 4 | 5 | 12 | 9 | 6 |
+| 08:00 | 6 | 2 | 5 | 2 | 5 | 12 | 9 | 6 |
 | 09:00 | 2 | 1 | 3 | 4 | · | 14 | 6 | 5 |
 | 10:00 | 0 | 2 | 0 | · | · | 15 | 8 | 4 |
 | 11:00 | 0 | 2 | 1 | · | · | 15 | 10 | 5 |
@@ -167,7 +167,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 05:00 | 🟨 68% | 🟨 32% | 🟥 7% | 🟥 14% | 🟥 18% | 🟥 7% | 🟥 5% | 🟥 0% | 44 |
 | 06:00 | 🟨 61% | 🟨 33% | 🟥 7% | 🟥 13% | 🟥 7% | 🟥 7% | 🟥 7% | 🟥 0% | 46 |
 | 07:00 | 🟨 56% | 🟨 33% | 🟥 7% | 🟥 9% | 🟥 7% | 🟥 7% | 🟥 4% | 🟥 0% | 45 |
-| 08:00 | 🟨 64% | 🟥 21% | 🟥 0% | 🟥 0% | 🟥 8% | 🟥 5% | 🟥 8% | 🟥 0% | 39 |
+| 08:00 | 🟨 62% | 🟥 20% | 🟥 0% | 🟥 0% | 🟥 8% | 🟥 5% | 🟥 8% | 🟥 0% | 40 |
 | 09:00 | 🟨 56% | 🟥 8% | 🟥 0% | 🟥 0% | 🟥 3% | 🟥 3% | 🟥 6% | 🟥 0% | 36 |
 | 10:00 | 🟨 33% | 🟥 8% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 8% | 🟥 3% | 🟥 0% | 36 |
 | 11:00 | 🟨 37% | 🟥 9% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 9% | 🟥 0% | 🟥 0% | 35 |
@@ -195,7 +195,7 @@ Collecting since 2026-10-08. Shown from 2026-10-22: with fewer than two weeks, t
 | NLH €1/2 | 75% of checks | Thu around 01:00 | 2026-10-15 06:20 |
 | NLH €2/4 | 29% of checks | Wed around 02:00 | 2026-10-14 03:20 |
 | NLH €5/10 | 7% of checks | Sat around 23:00 | 2026-10-11 19:30 |
-| PLO €2/2 | 35% of checks | Fri around 22:00 | 2026-10-15 04:00 |
+| PLO €2/2 | 34% of checks | Fri around 22:00 | 2026-10-15 04:00 |
 | PLO5 €5/5 | 34% of checks | Wed around 01:00 | 2026-10-15 05:30 |
 | PLO5 €10/10 | 9% of checks | Fri around 23:00 | 2026-10-10 19:40 |
 | PLO5 €10/25 | 1% of checks | Wed around 06:00 | 2026-10-07 10:04 |
@@ -227,4 +227,4 @@ The most recent ones. The game is read from the tournament's name.
 
 ---
 Raw data: the `data` folder, one CSV file per month. To open one in Excel, use Data → From Text/CSV (double-clicking puts everything in one column in Polish Excel). The tracker is `tracker.py`; its schedule is in `.github/workflows/track.yml`.  
-Festival dates: `calendar.csv` (edit on GitHub). Tournament schedule: `hendonmob.txt` — to refresh it, copy the Hendon Mob upcoming-events page and paste it over that file's contents; every event read so far is kept in `data/schedule/events.csv`. Public holidays: `data/holidays.json`.
+Festival dates: `calendar.csv` (edit on GitHub). Tournament schedule: `hendonmob.txt` — to refresh it, copy the Hendon Mob upcoming-events page and paste it over that file's contents; every event read so far is kept in `data/schedule/events.csv`. Public holidays: `data/holidays.json`. Tracker version: v32.
