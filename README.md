@@ -4,20 +4,20 @@ Checks King's live cash games and tournaments about every 10 minutes and updates
 
 **Right now:** King's: 4 tables, 27 players · [Card Casino Šamorín](CARD_CASINO.md): 0 tables, 0 players · [Grand Casino Aš](GRAND_CASINO_AS.md) 🎪 PLO festival: 0 tables running, 1 waiting · [Olympic Park Tallinn](OLYMPIC_TALLINN.md) 🎪 Kings of Tallinn: blocked at 18:30 · [Olympic Vilnius](OLYMPIC_VILNIUS.md): 0 tables, 0 players (1 waiting) at 18:30 · [Banco](BANCO.md): 2 tables, 13 players
 
-**Last check:** 2026-10-15 18:30 — ✅ OK (data feed)  
-**Last 24 h:** 148 of 148 checks OK, longest gap 0 h 11 min · **Collecting since:** 2026-10-06 (1049 good checks)
+**Last check:** 2026-10-15 18:40 — ✅ OK (data feed, via browser)  
+**Last 24 h:** 148 of 148 checks OK, longest gap 0 h 11 min · **Collecting since:** 2026-10-06 (1050 good checks)
 
-## Tables running at 2026-10-15 18:30
+## Tables running at 2026-10-15 18:40
 
 ```
 NLH   €1/2     8/8 players
 NLH   €1/2     8/8 players
-NLH   €2/4     6/8 players
-PLO5  €5/5     5/8 players
+NLH   €2/4     7/8 players
+PLO5  €5/5     4/8 players
 ```
-**NLH:** 22 players at 3 tables · **PLO5:** 5 players at 1 table
+**NLH:** 23 players at 3 tables · **PLO5:** 4 players at 1 table
 
-**Tournaments in play:** DPM Morning Bounty (25 Bounty) (NLH, €105, €25 bounty, 2 of 113 left, level 23, blinds 25000/50000/50000) · Dutch Poker Masters - Day 1B (NLH, €225, 89 of 100 left, late reg open, level 3, blinds 200/500/500)
+**Tournaments in play:** DPM Morning Bounty (25 Bounty) (NLH, €105, €25 bounty, 2 of 113 left, level 24, blinds 30000/60000/60000) · Dutch Poker Masters - Day 1B (NLH, €225, 94 of 106 left, late reg open, level 4, blinds 300/600/600)
 
 ## Festivals and schedule
 
@@ -183,7 +183,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 15:00 | 🟩 80% | 🟥 20% | 🟥 0% | 🟨 29% | 🟨 34% | 🟥 5% | 🟥 0% | 🟥 0% | 41 |
 | 16:00 | 🟩 81% | 🟨 25% | 🟥 0% | 🟨 29% | 🟨 40% | 🟥 6% | 🟥 0% | 🟥 0% | 48 |
 | 17:00 | 🟩 81% | 🟥 21% | 🟥 13% | 🟨 38% | 🟨 47% | 🟥 6% | 🟥 0% | 🟥 0% | 47 |
-| 18:00 | 🟩 91% | 🟨 33% | 🟨 26% | 🟨 39% | 🟨 63% | 🟥 7% | 🟥 0% | 🟥 0% | 46 |
+| 18:00 | 🟩 91% | 🟨 34% | 🟨 26% | 🟨 38% | 🟨 64% | 🟥 6% | 🟥 0% | 🟥 0% | 47 |
 | 19:00 | 🟩 83% | 🟨 33% | 🟥 12% | 🟨 45% | 🟨 67% | 🟥 14% | 🟥 0% | 🟥 0% | 42 |
 | 20:00 | 🟩 93% | 🟨 28% | 🟥 7% | 🟨 44% | 🟨 65% | 🟥 7% | 🟥 0% | 🟥 0% | 43 |
 | 21:00 | 🟩 93% | 🟨 26% | 🟥 14% | 🟨 48% | 🟨 43% | 🟥 7% | 🟥 0% | 🟥 0% | 42 |
@@ -198,11 +198,11 @@ Collecting since 2026-10-08. Shown from 2026-10-22: with fewer than two weeks, t
 
 | Game | Running in | Most often | Last seen |
 |:--|--:|:--|:--|
-| NLH €1/2 | 74% of checks | Thu around 01:00 | 2026-10-15 18:30 |
-| NLH €2/4 | 28% of checks | Wed around 02:00 | 2026-10-15 18:30 |
+| NLH €1/2 | 74% of checks | Thu around 01:00 | 2026-10-15 18:40 |
+| NLH €2/4 | 28% of checks | Wed around 02:00 | 2026-10-15 18:40 |
 | NLH €5/10 | 6% of checks | Sat around 23:00 | 2026-10-11 19:30 |
 | PLO €2/2 | 32% of checks | Fri around 22:00 | 2026-10-15 04:00 |
-| PLO5 €5/5 | 32% of checks | Wed around 01:00 | 2026-10-15 18:30 |
+| PLO5 €5/5 | 32% of checks | Wed around 01:00 | 2026-10-15 18:40 |
 | PLO5 €10/10 | 8% of checks | Fri around 23:00 | 2026-10-10 19:40 |
 | PLO5 €10/25 | 1% of checks | Wed around 06:00 | 2026-10-07 10:04 |
 | PLO5 €25/25 | 0% of checks | Thu around 05:00 | 2026-10-15 05:40 |
@@ -215,8 +215,8 @@ The most recent ones. The game is read from the tournament's name.
 
 | Tournament | Game | Buy-in | Entries | Seen |
 |:--|:--|--:|--:|:--|
-| DPM Morning Bounty (25 Bounty) | NLH | €105 | 113 | 2026-10-15 12:00 → 10-15 18:30 |
-| Dutch Poker Masters - Day 1B | NLH | €225 | 100 | 2026-10-15 17:01 → 10-15 18:30 |
+| DPM Morning Bounty (25 Bounty) | NLH | €105 | 113 | 2026-10-15 12:00 → 10-15 18:40 |
+| Dutch Poker Masters - Day 1B | NLH | €225 | 106 | 2026-10-15 17:01 → 10-15 18:40 |
 | Satellite to DPM ME - Day 1B | NLH | €40 | 110 | 2026-10-15 14:00 → 10-15 17:50 |
 | Dutch Poker Masters - Day 1A | NLH | €225 | 86 | 2026-10-14 18:00 → 10-15 03:10 |
 | Satellite to DPM ME - Day 1A | NLH | €40 | 88 | 2026-10-14 15:00 → 10-14 19:00 |
