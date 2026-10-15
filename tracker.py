@@ -772,7 +772,8 @@ def banco_tournaments(referer):
 
 def banco_event_line(e, name=None):
     """One running Banco tournament as text, plus its current level. Before the start, Banco's clock
-    counts down in a level 0 that looks like a break, so that one is shown as the start time."""
+    counts down in its first level, which looks like a break (breaks have index 0 too), so that one is
+    shown as the start time."""
     stats, levels = e.get("stats") or {}, e.get("levels") or []
     level_id = as_int(((e.get("status") or {}).get("level") or {}).get("id"))
     current = levels[level_id - 1] if 0 < level_id <= len(levels) else {}
@@ -782,7 +783,7 @@ def banco_event_line(e, name=None):
         text += f": {stats['totalPlayers']}/{stats.get('totalEntries', '?')} players"
     if current.get("type") == 1:
         text += f", level {current.get('index')}, blinds {current.get('smallBlind')}/{current.get('bigBlind')}"
-    elif current.get("index") == 0:
+    elif level_id == 1:  # the countdown before the first level
         start = str(details.get("startDate") or "")[11:16]
         text += f", starts at {start}" if re.fullmatch(r"\d\d:\d\d", start) else ", not started yet"
     elif current:
@@ -791,6 +792,15 @@ def banco_event_line(e, name=None):
     text += f", buy-in €{fee}" if fee else ""
     text += f", €{stats['guaranteedAmount']} GTD" if stats.get("guaranteedAmount") else ""
     return text, current
+
+
+BANCO_BREAK_AS_START = re.compile(r"(\d+)/(\d+) players, starts at \d\d:\d\d")
+
+
+def banco_break_text(text):
+    """v30 showed breaks as 'starts at …'. Where players had already been knocked out it was a break."""
+    return BANCO_BREAK_AS_START.sub(lambda m: f"{m[1]}/{m[2]} players, on a break" if int(m[1]) < int(m[2]) else m[0],
+                                    text or "")
 
 
 def banco_event_extract(e, current):
@@ -1709,6 +1719,9 @@ def repair_history():
     fixes.append((DATA_DIR / "banco", SITE_FIELDS,
                   lambda r: r["status"] == "ok" and not r["cash_text"] and r["time"] < BANCO_DIRECT_SINCE,
                   {"status": "error: the cash list wasn't visible to the tracker yet"}))
+    fixes.append((DATA_DIR / "banco", SITE_FIELDS,  # v30 showed some breaks as the start time
+                  lambda r: banco_break_text(r["tournament_text"]) != r["tournament_text"],
+                  lambda r: {"tournament_text": banco_break_text(r["tournament_text"])}))
     # Banco's first two direct reads (13 Oct 11:40, 11:50) were kept as text only: fill in their numbers
     fixes.append((DATA_DIR / "banco", SITE_FIELDS,
                   lambda r: r["status"] == "ok" and r["tables"] == "" and "<!--" in r["cash_text"]
@@ -2871,12 +2884,16 @@ def self_test():
     ladies = {"dailyDetails": {"fullname": "Ladies Night", "startDate": "2026-10-14T19:00:00"},
               "subscription": {"buyin": {"buyinFee": 35}}, "stats": {"totalPlayers": 0, "guaranteedAmount": 3000},
               "status": {"level": {"id": 1}}, "levels": [{"index": 0, "type": 2}, {"index": 1, "type": 1, "smallBlind": 100,
-                                                                                    "bigBlind": 100}, {"index": 2, "type": 2}]}
+                                                                                    "bigBlind": 100}, {"index": 0, "type": 2}]}
     assert banco_event_line(ladies)[0] == "Ladies Night, starts at 19:00, buy-in €35, €3000 GTD"
     ladies.update(stats={"totalPlayers": 33, "totalEntries": 33, "guaranteedAmount": 3000}, status={"level": {"id": 2}})
     assert banco_event_line(ladies)[0] == "Ladies Night: 33/33 players, level 1, blinds 100/100, buy-in €35, €3000 GTD"
     ladies.update(status={"level": {"id": 3}})
     assert banco_event_line(ladies)[0] == "Ladies Night: 33/33 players, on a break, buy-in €35, €3000 GTD"
+    assert banco_break_text("Ladies Night: 22/96 players, starts at 19:00, buy-in €35") == \
+        "Ladies Night: 22/96 players, on a break, buy-in €35"
+    assert banco_break_text("Ladies Night: 4/4 players, starts at 19:00, buy-in €35") == \
+        "Ladies Night: 4/4 players, starts at 19:00, buy-in €35"
     assert card_entries('<div class="splide__slide">\r\n <div class="cash-game aligner">\r\n <h4>No games currently</h4>\r\n </div>\r\n</div>') == []
     assert gas_cash_entries("<p>Back to home</p><p>No Cash Game table is open at this time</p>") == []
     assert [is_tracker(h) for h in ("www.googletagmanager.com", "ajax.googleapis.com", "connect.facebook.net",
