@@ -2,10 +2,10 @@
 
 Reads [Card Casino's live cash-game list](https://www.cardcasino.sk/en/cashgames/) together with King's, about every 10 minutes. All times are **Czech time** (same as Poland and Slovakia). Back to [King's](README.md).
 
-**Last check:** 2026-10-15 09:00 — ⚠️ error: Card Casino's site didn't answer — details in `debug/cardcasino_page.json`  
-**Last 24 h:** 126 of 149 checks OK, longest gap 0 h 20 min · **Collecting since:** 2026-10-10 (657 good checks)
+**Last check:** 2026-10-15 09:10 — ✅ OK (live list)  
+**Last 24 h:** 127 of 149 checks OK, longest gap 0 h 20 min · **Collecting since:** 2026-10-10 (658 good checks)
 
-## Tables running at 2026-10-15 08:50
+## Tables running at 2026-10-15 09:10
 
 No tables were running.
 
@@ -41,7 +41,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 06:00 | 0 | 0 | 0 | 0 | · | · | · | 0 |
 | 07:00 | 0 | 0 | 0 | 0 | · | · | · | 0 |
 | 08:00 | 0 | 0 | 0 | 0 | · | · | · | 0 |
-| 09:00 | 0 | 0 | 0 | · | · | · | · | 0 |
+| 09:00 | 0 | 0 | 0 | 0 | · | · | · | 0 |
 | 10:00 | 0 | 0 | 0 | · | · | · | · | 0 |
 | 11:00 | 0 | 0 | 0 | · | · | · | · | 0 |
 | 12:00 | 0 | 0 | 0 | · | · | · | · | 0 |
@@ -70,7 +70,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 06:00 | 5 | 0 | 0 | 0 | · | · | · | 1 |
 | 07:00 | 6 | 0 | 0 | 0 | · | · | · | 1 |
 | 08:00 | 5 | 0 | 0 | 0 | · | · | · | 2 |
-| 09:00 | 5 | 0 | 0 | · | · | · | · | 2 |
+| 09:00 | 5 | 0 | 0 | 0 | · | · | · | 2 |
 | 10:00 | 2 | 0 | 0 | · | · | · | · | 0 |
 | 11:00 | 0 | 0 | 0 | · | · | · | · | 0 |
 | 12:00 | 0 | 0 | 0 | · | · | · | · | 0 |
@@ -99,7 +99,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 06:00 | 0 | 0 | 4 | 0 | · | · | · | 1 |
 | 07:00 | 0 | 0 | 4 | 0 | · | · | · | 1 |
 | 08:00 | 0 | 0 | 4 | 0 | · | · | · | 1 |
-| 09:00 | 0 | 0 | 4 | · | · | · | · | 1 |
+| 09:00 | 0 | 0 | 4 | 0 | · | · | · | 1 |
 | 10:00 | 0 | 0 | 4 | · | · | · | · | 2 |
 | 11:00 | 0 | 0 | 4 | · | · | · | · | 2 |
 | 12:00 | 0 | 0 | 4 | · | · | · | · | 1 |
@@ -130,7 +130,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 06:00 | 🟥 0% | 🟥 0% | 🟥 23% | 🟨 32% | 22 |
 | 07:00 | 🟥 0% | 🟥 0% | 🟥 24% | 🟥 24% | 21 |
 | 08:00 | 🟥 0% | 🟥 0% | 🟨 30% | 🟨 30% | 20 |
-| 09:00 | 🟥 0% | 🟥 0% | 🟨 35% | 🟨 29% | 17 |
+| 09:00 | 🟥 0% | 🟥 0% | 🟨 33% | 🟨 28% | 18 |
 | 10:00 | 🟥 0% | 🟥 0% | 🟥 8% | 🟨 42% | 12 |
 | 11:00 | 🟥 0% | 🟥 0% | 🟥 0% | 🟨 38% | 16 |
 | 12:00 | 🟥 0% | 🟥 0% | 🟥 0% | 🟨 35% | 17 |
@@ -152,7 +152,7 @@ Average seated players per check on each kind of day, in total and for NLH and O
 
 | Days | Dates | Checks | Players | NLH | Omaha | vs normal, same hour |
 |:--|:--|--:|--:|--:|--:|--:|
-| Normal days | 12–15 Oct (4 days) | 417 | 4.4 | 1.6 | 1.7 | +0.0 |
+| Normal days | 12–15 Oct (4 days) | 418 | 4.4 | 1.6 | 1.7 | +0.0 |
 | 💵 Cash game days: NLH/PLO/PLO5 from €10/20 | 10–11 Oct (2 days) | 240 | 11.9 | 6.2 | 5.7 | +8.0 |
 
 ## All games seen
