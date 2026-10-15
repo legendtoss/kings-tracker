@@ -45,7 +45,7 @@ from zoneinfo import ZoneInfo
 
 # ---------------------------------------------------------------- settings
 
-VERSION = "v33"
+VERSION = "v34"
 
 PAGE_URL = os.environ.get("KINGS_URL", "https://kings-resort.com/poker/live")
 FEED_URL = os.environ.get("KINGS_FEED_URL", "https://admin.kings-resort.com/zeus/?data=cash_games_by_venue")
@@ -1899,9 +1899,16 @@ def merge_schedule(known, events, since, last_day):
     fresh = {(e["room"], e["date"], e["time"], e["title"]): e for e in events}
     rooms = {e["room"] for e in events}
     for key in list(known):
-        if key[0] in rooms and since <= key[1] <= last_day and key not in fresh:
+        if (key[0] in rooms and since <= key[1] <= last_day and key not in fresh
+                and (key[0], key[1], "", key[3]) not in fresh):  # still listed, just without its time
             del known[key]
     known.update(fresh)
+    # An event of several days that started before the copy was made is listed without its start time
+    # ('Wed 14 - Mon 19 Oct', no 'at 6:00pm'). It's the same event as the row with the time, which stays.
+    # Two rows that both have a time are left alone: e.g. the same satellite at 15:00 and at 19:00.
+    timed = {(k[0], k[1], k[3]) for k in known if k[2]}
+    for key in [k for k in known if not k[2] and (k[0], k[1], k[3]) in timed]:
+        del known[key]
     return known
 
 
@@ -2845,6 +2852,7 @@ def self_test():
                                     "admin.kings-resort.com", "bancocasino.sk")] == [True, False, True, False, False]
     self_test_v32()
     self_test_v33()
+    self_test_v34()
 
 
 def self_test_v32():
@@ -2902,6 +2910,32 @@ def self_test_v33():
     assert ("kings", "2026-10-15", "17:00", "€ 225 No Limit Hold'em - DPM Day 1B") in merged  # before the copy starts
     assert ("kings", "2026-10-18", "18:00", "€ 500 No Limit Hold'em - DPM High Roller") not in merged  # no longer listed
     assert ("kings", "2026-10-17", "15:00", "€ 120 Pot Limit Omaha") in merged
+
+
+def self_test_v34():
+    """Checks for the v34 change: an ongoing event listed again without its start time isn't stored twice."""
+    copy = ("5,347 Events: 16 October - 25 December 2026\n14-Oct-2026\tWednesday\n"
+            "Wed 14 - Mon 19 Oct\tCzech Republic\t€ 225 No Limit Hold'em - DPM Day 1A, King's Resort Live, Rozvadov\n"
+            "16-Oct-2026\tFriday\n"
+            "Fri 16 Oct at 3:00pm\tCzech Republic\t€ 120 No Limit Hold'em - DPM Ladies Event, King's Resort Live, Rozvadov\n"
+            "Fri 16 - Sun 18 Oct\tCzech Republic\t€ 300 + 40 Pot Limit Omaha - Main Event - Day 1A, Grand Casino Asch ( Aš ), Asch\n"
+            "Wed 21 Oct at 3:00pm\tSlovakia\t€ 45 + 5 Satellite to Main Event, Card Casino Šamorín, Šamorín\n"
+            "Wed 21 Oct at 7:00pm\tSlovakia\t€ 45 + 5 Satellite to Main Event, Card Casino Šamorín, Šamorín\n"
+            "Fri 25 Dec at 6:00pm\tSerbia\tRSD 11,000 No Limit Hold'em, Grand Casino Admiral Beograd, Belgrade\n")
+    today = date(2026, 10, 15)
+    assert paste_window(copy, today, "2026-10-15") == ("2026-10-16", "2026-12-25")
+    dpm, ladies = "€ 225 No Limit Hold'em - DPM Day 1A", "€ 120 No Limit Hold'em - DPM Ladies Event"
+    plo, sat = "€ 300 + 40 Pot Limit Omaha - Main Event - Day 1A", "€ 45 + 5 Satellite to Main Event"
+    old = {("kings", "2026-10-14", "18:00", dpm): {}, ("kings", "2026-10-15", "17:00", "€ 225 No Limit Hold'em - DPM Day 1B"): {},
+           ("grandcasinoas", "2026-10-16", "16:00", plo): {}, ("cardcasino", "2026-10-21", "15:00", sat): {},
+           ("cardcasino", "2026-10-21", "19:00", sat): {}, ("kings", "2026-10-16", "", ladies): {}}
+    merged = merge_schedule(old, parse_hendonmob(copy, today), *paste_window(copy, today, "2026-10-15"))
+    assert ("kings", "2026-10-14", "18:00", dpm) in merged and ("kings", "2026-10-14", "", dpm) not in merged
+    assert ("kings", "2026-10-15", "17:00", "€ 225 No Limit Hold'em - DPM Day 1B") in merged  # before the copy starts
+    assert ("grandcasinoas", "2026-10-16", "16:00", plo) in merged and ("grandcasinoas", "2026-10-16", "", plo) not in merged
+    assert ("cardcasino", "2026-10-21", "15:00", sat) in merged and ("cardcasino", "2026-10-21", "19:00", sat) in merged
+    assert ("kings", "2026-10-16", "15:00", ladies) in merged and ("kings", "2026-10-16", "", ladies) not in merged
+    assert len(merged) == 6, sorted(merged)
 
 
 def last_row():
