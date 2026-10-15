@@ -2,16 +2,16 @@
 
 Reads [Grand Casino Aš's live cash games](https://www.grandcasinoas.eu/en/poker/poker-live) every 10 minutes and its [current tournaments](https://www.grandcasinoas.eu/en/poker) every 30 minutes. All times are **Czech time** (same as Poland). Back to [King's](README.md).
 
-**Last check:** 2026-10-15 23:20 — ✅ OK  
-**Last 24 h:** 147 of 147 checks OK, longest gap 0 h 11 min · **Collecting since:** 2026-10-10 (858 good checks)
+**Last check:** 2026-10-15 23:30 — ✅ OK  
+**Last 24 h:** 147 of 147 checks OK, longest gap 0 h 11 min · **Collecting since:** 2026-10-10 (859 good checks)
 
-## Cash games at 2026-10-15 23:20
+## Cash games at 2026-10-15 23:30
 
 ```
 PLO/NLH           waiting
 ```
 
-**Tournaments in play at 2026-10-15 23:00:** none
+**Tournaments in play at 2026-10-15 23:30:** none
 
 ## Festivals and schedule
 
@@ -25,19 +25,12 @@ PLO/NLH           waiting
 | Day | Time (local) | Buy-in | Tournament |
 |:--|:--|--:|:--|
 | Thu 15 Oct | 20:00 | €550 | Pot Limit Omaha - 550er PLO5 Highroller |
-| Fri 16 Oct – Sun 18 Oct | 16:00 | €340 | Pot Limit Omaha - Main Event - Day 1A |
-| Sat 17 Oct | 14:00 | €340 | Pot Limit Omaha - Main Event - Day 1B |
-| Sat 17 Oct | 19:00 | €340 | Pot Limit Omaha - Main Event - Day 1C Fast |
-| Sat 17 Oct | 20:00 | €100 | Pot Limit Omaha - 4-5-6 in the Mix (PLO4/5/6) |
-| Sun 18 Oct | 10:00 | €340 | Pot Limit Omaha - Main Event - Day 1D Turbo |
-| Sun 18 Oct | 16:00 | · | PLO Main Event Day 2 |
-| Sun 18 Oct | 16:00 | €660 | Pot Limit Omaha - Turbo Highroller |
 
 **Public holidays in the next 30 days** where most players come from (Czechia, Bavaria, Saxony): Wed 28 Oct: Independent Czechoslovak State Day (Czechia) · Sat 31 Oct: Reformation Day (Saxony) · Sun 1 Nov: All Saints' Day (Bavaria).
 
 ## Running cash tables by hour
 
-*Normal days only: 143 checks during festivals, cash-game events or public holidays are compared separately in “Festivals, holidays and normal days” below.*
+*Normal days only: 144 checks during festivals, cash-game events or public holidays are compared separately in “Festivals, holidays and normal days” below.*
 
 Average number of running tables (Grand Casino Aš shows which games run, not how many players).
 
@@ -106,7 +99,7 @@ Average running tables per check on each kind of day, in total and for NLH and O
 | Days | Dates | Checks | Tables | NLH | Omaha | vs normal, same hour |
 |:--|:--|--:|--:|--:|--:|--:|
 | Normal days | 10–14 Oct (5 days) | 715 | 0.4 | 0.3 | 0.0 | -0.0 |
-| 🎪 PLO festival | 15 Oct (1 day) | 143 | 0.1 | 0.1 | 0.0 | -0.3 |
+| 🎪 PLO festival | 15 Oct (1 day) | 144 | 0.1 | 0.1 | 0.0 | -0.3 |
 
 ## Tournaments seen
 

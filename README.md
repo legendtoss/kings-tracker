@@ -2,26 +2,25 @@
 
 Checks King's live cash games and tournaments about every 10 minutes and updates this page by itself. All times are **Czech time** (same as Poland). Also tracking: [Card Casino Šamorín](CARD_CASINO.md) · [Grand Casino Aš](GRAND_CASINO_AS.md) · [Banco Casino Bratislava](BANCO.md) · [Olympic Park Tallinn](OLYMPIC_TALLINN.md) · [Olympic Casino Vilnius](OLYMPIC_VILNIUS.md).
 
-**Right now:** King's: 8 tables, 50 players · [Card Casino Šamorín](CARD_CASINO.md): 0 tables, 0 players · [Grand Casino Aš](GRAND_CASINO_AS.md) 🎪 PLO festival: 0 tables running, 1 waiting · [Olympic Park Tallinn](OLYMPIC_TALLINN.md) 🎪 Kings of Tallinn: blocked at 23:00 · [Olympic Vilnius](OLYMPIC_VILNIUS.md): blocked at 23:00 · [Banco](BANCO.md): 2 tables, 14 players
+**Right now:** King's: 7 tables, 53 players · [Card Casino Šamorín](CARD_CASINO.md): 0 tables, 0 players · [Grand Casino Aš](GRAND_CASINO_AS.md) 🎪 PLO festival: 0 tables running, 1 waiting · [Olympic Park Tallinn](OLYMPIC_TALLINN.md) 🎪 Kings of Tallinn: 6 tables, 45 players (5 waiting) at 23:30 · [Olympic Vilnius](OLYMPIC_VILNIUS.md): 0 tables, 0 players (3 waiting) at 23:30 · [Banco](BANCO.md): 2 tables, 14 players
 
-**Last check:** 2026-10-15 23:20 — ✅ OK (data feed)  
-**Last 24 h:** 147 of 147 checks OK, longest gap 0 h 11 min · **Collecting since:** 2026-10-06 (1078 good checks)
+**Last check:** 2026-10-15 23:30 — ✅ OK (data feed)  
+**Last 24 h:** 147 of 147 checks OK, longest gap 0 h 11 min · **Collecting since:** 2026-10-06 (1079 good checks)
 
-## Tables running at 2026-10-15 23:20
+## Tables running at 2026-10-15 23:30
 
 ```
-NLH   €1/2     7/8 players
 NLH   €1/2     7/8 players
 NLH   €1/2     8/8 players
-NLH   €1/2     6/8 players
-NLH   €1/2     6/8 players
-NLH   €2/4     5/8 players
-PLO   €2/2     7/8 players
-PLO5  €5/5     4/8 players
+NLH   €1/2     8/8 players
+NLH   €1/2     7/8 players
+NLH   €1/2     8/8 players
+PLO   €2/2     8/8 players
+PLO5  €5/5     7/8 players
 ```
-**NLH:** 39 players at 6 tables · **PLO:** 7 players at 1 table · **PLO5:** 4 players at 1 table
+**NLH:** 38 players at 5 tables · **PLO:** 8 players at 1 table · **PLO5:** 7 players at 1 table
 
-**Tournaments in play:** Dutch Poker Masters - Day 1B (NLH, €225, 59 of 182 left, level 12, blinds 2500/5000/5000)
+**Tournaments in play:** Dutch Poker Masters - Day 1B (NLH, €225, 52 of 182 left, level 12, blinds 2500/5000/5000)
 
 ## Festivals and schedule
 
@@ -33,10 +32,8 @@ PLO5  €5/5     4/8 players
 
 | Day | Time (local) | Buy-in | Tournament |
 |:--|:--|--:|:--|
-| Sat 17 Oct | 15:00 | €120 | Pot Limit Omaha |
-| Fri 23 Oct | 14:00 | €350 | Pot Limit Omaha - BPC 8-Max One Day |
-| Wed 28 Oct | 16:00 | €1 000 | Pot Limit Omaha - WSOPC Bounty PLO (Ring Event #2) |
-| Thu 29 Oct | 15:00 | €1 500 | WSOPC Big O (Ring Event #3) |
+| Sat 17 Oct | · | · | at 2:00pmFrance€ 120 + 30 No Limit Hold'em - Superstack 150, Pasino Le Havre, Le … |
+| Wed 21 Oct – Thu 22 Oct | · | · | at 12:30pmFrance€ 440 + 60 Pot Limit Omaha - CdF Omaha 500 Day1, Pasino Grand Aix en … |
 
 **Public holidays in the next 30 days** where most players come from (Czechia, Bavaria): Wed 28 Oct: Independent Czechoslovak State Day (Czechia) · Sun 1 Nov: All Saints' Day (Bavaria).
 
@@ -103,7 +100,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 20:00 | 8 | 11 | 17 | 39 | 47 | 61 | 23 | 27 |
 | 21:00 | 10 | 14 | 18 | 45 | 42 | 62 | 27 | 29 |
 | 22:00 | 6 | 16 | 24 | 43 | 54 | 71 | 30 | 33 |
-| 23:00 | 8 | 15 | 24 | 40 | 66 | 78 | 34 | 36 |
+| 23:00 | 8 | 15 | 24 | 39 | 66 | 78 | 34 | 36 |
 
 ### 5-card Pot-Limit Omaha (PLO5)
 
@@ -161,7 +158,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 20:00 | 0 | 0 | 0 | 0 | 8 | 12 | 8 | 4 |
 | 21:00 | 0 | 0 | 1 | 2 | 8 | 8 | 8 | 4 |
 | 22:00 | 7 | 2 | 5 | 7 | 8 | 8 | 8 | 6 |
-| 23:00 | 6 | 2 | 5 | 7 | 8 | 8 | 8 | 6 |
+| 23:00 | 6 | 2 | 5 | 8 | 8 | 8 | 8 | 6 |
 
 ## How often each game was running, by hour (all days)
 
@@ -192,7 +189,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 20:00 | 🟩 94% | 🟨 37% | 🟥 6% | 🟨 39% | 🟨 69% | 🟥 6% | 🟥 0% | 🟥 0% | 49 |
 | 21:00 | 🟩 94% | 🟨 35% | 🟥 12% | 🟨 50% | 🟨 40% | 🟥 6% | 🟥 0% | 🟥 0% | 48 |
 | 22:00 | 🟩 96% | 🟨 38% | 🟥 14% | 🟩 80% | 🟨 32% | 🟥 10% | 🟥 0% | 🟥 0% | 50 |
-| 23:00 | 🟩 91% | 🟨 49% | 🟥 15% | 🟩 79% | 🟨 43% | 🟥 21% | 🟥 0% | 🟥 2% | 47 |
+| 23:00 | 🟩 92% | 🟨 48% | 🟥 15% | 🟩 79% | 🟨 44% | 🟥 21% | 🟥 0% | 🟥 2% | 48 |
 
 ## Cash games vs tournaments
 
@@ -202,11 +199,11 @@ Collecting since 2026-10-08. Shown from 2026-10-22: with fewer than two weeks, t
 
 | Game | Running in | Most often | Last seen |
 |:--|--:|:--|:--|
-| NLH €1/2 | 75% of checks | Thu around 01:00 | 2026-10-15 23:20 |
+| NLH €1/2 | 75% of checks | Thu around 01:00 | 2026-10-15 23:30 |
 | NLH €2/4 | 30% of checks | Wed around 02:00 | 2026-10-15 23:20 |
 | NLH €5/10 | 6% of checks | Sat around 23:00 | 2026-10-11 19:30 |
-| PLO €2/2 | 33% of checks | Fri around 22:00 | 2026-10-15 23:20 |
-| PLO5 €5/5 | 33% of checks | Wed around 01:00 | 2026-10-15 23:20 |
+| PLO €2/2 | 33% of checks | Fri around 22:00 | 2026-10-15 23:30 |
+| PLO5 €5/5 | 33% of checks | Wed around 01:00 | 2026-10-15 23:30 |
 | PLO5 €10/10 | 8% of checks | Fri around 23:00 | 2026-10-10 19:40 |
 | PLO5 €10/25 | 1% of checks | Wed around 06:00 | 2026-10-07 10:04 |
 | PLO5 €25/25 | 0% of checks | Thu around 05:00 | 2026-10-15 05:40 |
@@ -219,7 +216,7 @@ The most recent ones. The game is read from the tournament's name.
 
 | Tournament | Game | Buy-in | Entries | Seen |
 |:--|:--|--:|--:|:--|
-| Dutch Poker Masters - Day 1B | NLH | €225 | 183 | 2026-10-15 17:01 → 10-15 23:20 |
+| Dutch Poker Masters - Day 1B | NLH | €225 | 183 | 2026-10-15 17:01 → 10-15 23:30 |
 | DPM Morning Bounty (25 Bounty) | NLH | €105 | 113 | 2026-10-15 12:00 → 10-15 18:50 |
 | Satellite to DPM ME - Day 1B | NLH | €40 | 110 | 2026-10-15 14:00 → 10-15 17:50 |
 | Dutch Poker Masters - Day 1A | NLH | €225 | 86 | 2026-10-14 18:00 → 10-15 03:10 |
@@ -237,4 +234,4 @@ The most recent ones. The game is read from the tournament's name.
 
 ---
 Raw data: the `data` folder, one CSV file per month. To open one in Excel, use Data → From Text/CSV (double-clicking puts everything in one column in Polish Excel). The tracker is `tracker.py`; its schedule is in `.github/workflows/track.yml`.  
-Festival dates: `calendar.csv` (edit on GitHub). Tournament schedule: `hendonmob.txt` — to refresh it, copy the Hendon Mob upcoming-events page and paste it over that file's contents; every event read so far is kept in `data/schedule/events.csv`. Public holidays: `data/holidays.json`. Tracker version: v33.
+Festival dates: `calendar.csv` (edit on GitHub). Tournament schedule: `hendonmob.txt` — to refresh it, copy the Hendon Mob upcoming-events page and paste it over that file's contents; every event read so far is kept in `data/schedule/events.csv`. Public holidays: `data/holidays.json`. Tracker version: v34.
