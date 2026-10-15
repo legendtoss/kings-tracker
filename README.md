@@ -4,10 +4,10 @@ Checks King's live cash games and tournaments about every 10 minutes and updates
 
 **Right now:** King's: 0 tables, 0 players · [Card Casino Šamorín](CARD_CASINO.md): 0 tables, 0 players · [Grand Casino Aš](GRAND_CASINO_AS.md) 🎪 PLO festival: 0 tables running · [Olympic Park Tallinn](OLYMPIC_TALLINN.md) 🎪 Kings of Tallinn: 3 tables, 16 players at 06:30 · [Olympic Vilnius](OLYMPIC_VILNIUS.md): blocked at 06:30 · [Banco](BANCO.md): 1 table, 8 players
 
-**Last check:** 2026-10-15 06:40 — ✅ OK (data feed)  
-**Last 24 h:** 148 of 150 checks OK, longest gap 0 h 20 min · **Collecting since:** 2026-10-06 (978 good checks)
+**Last check:** 2026-10-15 06:50 — ✅ OK (data feed)  
+**Last 24 h:** 148 of 150 checks OK, longest gap 0 h 20 min · **Collecting since:** 2026-10-06 (979 good checks)
 
-## Tables running at 2026-10-15 06:40
+## Tables running at 2026-10-15 06:50
 
 No tables were running.
 
@@ -76,7 +76,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 03:00 | 19 | 0 | 9 | 14 | · | 39 | 43 | 20 |
 | 04:00 | 9 | 4 | 7 | 8 | · | 26 | 29 | 12 |
 | 05:00 | 7 | 4 | 7 | 5 | · | 20 | 23 | 10 |
-| 06:00 | 7 | 3 | 7 | 4 | · | 17 | 14 | 8 |
+| 06:00 | 7 | 3 | 7 | 3 | · | 17 | 14 | 8 |
 | 07:00 | 7 | 3 | 8 | 3 | · | 17 | 12 | 8 |
 | 08:00 | 6 | 2 | 5 | 4 | 5 | 12 | 9 | 6 |
 | 09:00 | 2 | 1 | 3 | 4 | · | 14 | 6 | 5 |
@@ -165,7 +165,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 03:00 | 🟩 76% | 🟨 32% | 🟥 0% | 🟨 61% | 🟨 46% | 🟥 0% | 🟥 0% | 🟥 0% | 41 |
 | 04:00 | 🟨 66% | 🟨 32% | 🟥 4% | 🟨 28% | 🟨 30% | 🟥 4% | 🟥 0% | 🟥 0% | 47 |
 | 05:00 | 🟨 68% | 🟨 32% | 🟥 7% | 🟥 14% | 🟥 18% | 🟥 7% | 🟥 5% | 🟥 0% | 44 |
-| 06:00 | 🟨 62% | 🟨 33% | 🟥 7% | 🟥 13% | 🟥 7% | 🟥 7% | 🟥 7% | 🟥 0% | 45 |
+| 06:00 | 🟨 61% | 🟨 33% | 🟥 7% | 🟥 13% | 🟥 7% | 🟥 7% | 🟥 7% | 🟥 0% | 46 |
 | 07:00 | 🟨 64% | 🟨 38% | 🟥 8% | 🟥 10% | 🟥 8% | 🟥 8% | 🟥 5% | 🟥 0% | 39 |
 | 08:00 | 🟨 64% | 🟥 21% | 🟥 0% | 🟥 0% | 🟥 8% | 🟥 5% | 🟥 8% | 🟥 0% | 39 |
 | 09:00 | 🟨 56% | 🟥 8% | 🟥 0% | 🟥 0% | 🟥 3% | 🟥 3% | 🟥 6% | 🟥 0% | 36 |
