@@ -848,3 +848,4 @@
 2026-10-15 21:30,Thu,21,ok,0,1,PLO/NLH [WAITING],0,0,[],
 2026-10-15 21:40,Thu,21,ok,0,1,PLO/NLH [WAITING],,,,
 2026-10-15 21:50,Thu,21,ok,0,1,PLO/NLH [WAITING],,,,
+2026-10-15 22:00,Thu,22,ok,0,1,PLO/NLH [WAITING],1,17,"[{""name"":""550er PLO5 Highroller"",""game"":""PLO5"",""status"":""RUNNING"",""left"":17,""entries"":19,""buyin"":550,""prizepool"":10000,""currency"":""EUR"",""level"":5,""blinds"":""1000/3000/3000"",""avg_stack"":223529,""start_stack"":200000,""late_reg_open"":true,""start"":""15.10. 20:00""}]",
