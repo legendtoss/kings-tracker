@@ -2,16 +2,16 @@
 
 Reads [Grand Casino Aš's live cash games](https://www.grandcasinoas.eu/en/poker/poker-live) every 10 minutes and its [current tournaments](https://www.grandcasinoas.eu/en/poker) every 30 minutes. All times are **Czech time** (same as Poland). Back to [King's](README.md).
 
-**Last check:** 2026-10-15 23:50 — ✅ OK  
-**Last 24 h:** 147 of 147 checks OK, longest gap 0 h 11 min · **Collecting since:** 2026-10-10 (861 good checks)
+**Last check:** 2026-10-16 00:00 — ✅ OK  
+**Last 24 h:** 147 of 147 checks OK, longest gap 0 h 11 min · **Collecting since:** 2026-10-10 (862 good checks)
 
-## Cash games at 2026-10-15 23:50
+## Cash games at 2026-10-16 00:00
 
 ```
 PLO/NLH           waiting
 ```
 
-**Tournaments in play at 2026-10-15 23:30:** none
+**Tournaments in play at 2026-10-16 00:00:** 550er PLO5 Highroller (PLO5, €550, 14 of 27 left, level 10, blinds 5000/10000/10000)
 
 ## Festivals and schedule
 
@@ -20,17 +20,13 @@ PLO/NLH           waiting
 - **Coming up:** 🎪 **GRND festival**, 4–15 Nov (festival) — €200 GRND Main Event 11–15 Nov; €350 GRND Highroller 6 Nov; €100 GRND Cup 8–11 Nov
 - **Coming up:** 🎟️ **Isar series**, 25–29 Nov (series) — €150 Isar Main Event 28 Nov · Omaha: €60 NLH/PLO/Crazy Pineapple (26 Nov 14:00); €100 PLO StackAttack (27 Nov 20:00)
 
-**Omaha tournaments in the next 14 days** (from `hendonmob.txt`):
-
-| Day | Time (local) | Buy-in | Tournament |
-|:--|:--|--:|:--|
-| Thu 15 Oct | 20:00 | €550 | Pot Limit Omaha - 550er PLO5 Highroller |
+No Omaha tournaments on the schedule in the next 14 days.
 
 **Public holidays in the next 30 days** where most players come from (Czechia, Bavaria, Saxony): Wed 28 Oct: Independent Czechoslovak State Day (Czechia) · Sat 31 Oct: Reformation Day (Saxony) · Sun 1 Nov: All Saints' Day (Bavaria).
 
 ## Running cash tables by hour
 
-*Normal days only: 146 checks during festivals, cash-game events or public holidays are compared separately in “Festivals, holidays and normal days” below.*
+*Normal days only: 147 checks during festivals, cash-game events or public holidays are compared separately in “Festivals, holidays and normal days” below.*
 
 Average number of running tables (Grand Casino Aš shows which games run, not how many players).
 
@@ -99,7 +95,7 @@ Average running tables per check on each kind of day, in total and for NLH and O
 | Days | Dates | Checks | Tables | NLH | Omaha | vs normal, same hour |
 |:--|:--|--:|--:|--:|--:|--:|
 | Normal days | 10–14 Oct (5 days) | 715 | 0.4 | 0.3 | 0.0 | -0.0 |
-| 🎪 PLO festival | 15 Oct (1 day) | 146 | 0.1 | 0.1 | 0.0 | -0.3 |
+| 🎪 PLO festival | 15–16 Oct (2 days) | 147 | 0.1 | 0.1 | 0.0 | -0.3 |
 
 ## Tournaments seen
 
@@ -107,7 +103,7 @@ The most recent ones. The game is read from the tournament's name.
 
 | Tournament | Game | Buy-in | Entries | Seen |
 |:--|:--|--:|--:|:--|
-| 550er PLO5 Highroller | PLO5 | €550 | 22 | 2026-10-15 20:30 → 10-15 22:30 |
+| 550er PLO5 Highroller | PLO5 | €550 | 27 | 2026-10-15 20:30 → 10-16 00:00 |
 | PLO5 Satellite to 550er Highroller | PLO5 | €110 | 20 | 2026-10-15 18:00 → 10-15 21:00 |
 | Thursday 3K | NLH | €60 | 36 | 2026-10-15 20:00 → 10-15 21:00 |
 | Kickstarter | NLH | €50 | 42 | 2026-10-14 19:30 → 10-15 01:30 |
