@@ -45,7 +45,7 @@ from zoneinfo import ZoneInfo
 
 # ---------------------------------------------------------------- settings
 
-VERSION = "v32"
+VERSION = "v33"
 
 PAGE_URL = os.environ.get("KINGS_URL", "https://kings-resort.com/poker/live")
 FEED_URL = os.environ.get("KINGS_FEED_URL", "https://admin.kings-resort.com/zeus/?data=cash_games_by_venue")
@@ -1872,9 +1872,29 @@ def hm_last_day(text, today):
     return last
 
 
+def hm_first_day(text, today):
+    """The first day a copied Hendon Mob page covers: its earliest one-day event (any venue). Events of
+    several days that started earlier are listed too, so those don't count."""
+    first = None
+    for raw in (text or "").splitlines():
+        m = HM_LINE.match(" ".join(raw.split()))
+        if m and m.group("m1") and not m.group("n2"):
+            d = hm_day(m.group("d1"), int(m.group("n1")), MONTHS.index(m.group("m1").title()) + 1, today)
+            first = min(first, d) if first and d else d or first
+    return first
+
+
+def paste_window(text, today, pasted_on):
+    """The days a copied Hendon Mob page has the final word on: from the day it was pasted - or from the
+    first day it covers, if that's later (a copy made today can start in two days, and the events in
+    between must not count as cancelled) - to the last day it covers."""
+    first, last = hm_first_day(text, today), hm_last_day(text, today) or today
+    return max(pasted_on, first.isoformat()) if first else pasted_on, last.isoformat()
+
+
 def merge_schedule(known, events, since, last_day):
     """Add a fresh copy's events. For the rooms it lists, it has the final word on the days from
-    `since` (when it was pasted) to the last day it covers: anything it no longer lists there was moved
+    `since` to the last day it covers (see paste_window): anything it no longer lists there was moved
     or cancelled and is dropped. Older days are never touched, so the history stays complete."""
     fresh = {(e["room"], e["date"], e["time"], e["title"]): e for e in events}
     rooms = {e["room"] for e in events}
@@ -1911,8 +1931,7 @@ def update_schedule(today):
             state = {"hash": digest, "from": today.isoformat()}
             PASTE_STATE.parent.mkdir(parents=True, exist_ok=True)
             PASTE_STATE.write_text(json.dumps(state), encoding="utf-8")
-        last = hm_last_day(text, today) or today
-        merge_schedule(known, events, state.get("from", today.isoformat()), last.isoformat())
+        merge_schedule(known, events, *paste_window(text, today, state.get("from", today.isoformat())))
     for e in known.values():  # re-read the game of older rows too, in case the reading has improved
         e["kind"] = hm_kind(e["title"])
         e["game"] = "Other" if e["kind"] == "other" else tourney_game(e["title"])
@@ -2825,6 +2844,7 @@ def self_test():
     assert [is_tracker(h) for h in ("www.googletagmanager.com", "ajax.googleapis.com", "connect.facebook.net",
                                     "admin.kings-resort.com", "bancocasino.sk")] == [True, False, True, False, False]
     self_test_v32()
+    self_test_v33()
 
 
 def self_test_v32():
@@ -2862,6 +2882,26 @@ def self_test_v32():
     finally:
         globals().update(fetch_feed=real_fetch, save_sample=real_sample)
         time.sleep = real_sleep
+
+
+def self_test_v33():
+    """Checks for the v33 change: a copy that starts after the day it's pasted keeps the days before it."""
+    copy = ("5,174 Events: 17 October - 26 December 2026\n14-Oct-2026\tWednesday\n"
+            "Wed 14 - Mon 19 Oct\tCzech Republic\t€ 225 No Limit Hold'em - DPM Day 1A, King's Resort Live, Rozvadov\n"
+            "17-Oct-2026\tSaturday\n"
+            "Sat 17 Oct at 3:00pm\tCzech Republic\t€ 120 Pot Limit Omaha, King's Resort Live, Rozvadov\n"
+            "Sat 26 Dec at 4:00pm\tUnited States\t$ 125 No Limit Hold'em, Jamul Casino, Jamul\n")
+    today = date(2026, 10, 15)
+    assert hm_first_day(copy, today) == date(2026, 10, 17), hm_first_day(copy, today)
+    assert paste_window(copy, today, "2026-10-15") == ("2026-10-17", "2026-12-26")
+    assert paste_window(copy, today, "2026-10-20") == ("2026-10-20", "2026-12-26")
+    assert paste_window("no dates here", today, "2026-10-15") == ("2026-10-15", "2026-10-15")
+    old = {("kings", "2026-10-15", "17:00", "€ 225 No Limit Hold'em - DPM Day 1B"): {},
+           ("kings", "2026-10-18", "18:00", "€ 500 No Limit Hold'em - DPM High Roller"): {}}
+    merged = merge_schedule(old, parse_hendonmob(copy, today), *paste_window(copy, today, "2026-10-15"))
+    assert ("kings", "2026-10-15", "17:00", "€ 225 No Limit Hold'em - DPM Day 1B") in merged  # before the copy starts
+    assert ("kings", "2026-10-18", "18:00", "€ 500 No Limit Hold'em - DPM High Roller") not in merged  # no longer listed
+    assert ("kings", "2026-10-17", "15:00", "€ 120 Pot Limit Omaha") in merged
 
 
 def last_row():
