@@ -31,6 +31,7 @@ import os
 import re
 import subprocess
 import sys
+import tempfile
 import time
 import urllib.error
 import urllib.parse
@@ -38,11 +39,13 @@ import urllib.request
 from collections import Counter, defaultdict
 from functools import lru_cache
 from html import unescape
-from datetime import date, datetime, timedelta
+from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
 # ---------------------------------------------------------------- settings
+
+VERSION = "v32"
 
 PAGE_URL = os.environ.get("KINGS_URL", "https://kings-resort.com/poker/live")
 FEED_URL = os.environ.get("KINGS_FEED_URL", "https://admin.kings-resort.com/zeus/?data=cash_games_by_venue")
@@ -238,10 +241,12 @@ LONG_PAUSE = timedelta(hours=2)  # a clock paused longer than this has stopped f
 
 
 def local_time(value):
+    """A time from a feed as Czech time without a zone (times given with a zone are converted first)."""
     try:
-        return datetime.fromisoformat(str(value)).replace(tzinfo=None)
+        t = datetime.fromisoformat(str(value))
     except ValueError:
         return None
+    return t.astimezone(TZ).replace(tzinfo=None) if t.tzinfo else t
 
 
 def paused_since(t):
@@ -447,8 +452,8 @@ def card_entries(fragment):
     """Entries from Card Casino's live list (a small piece of HTML): one per table.
     [] if nothing is running, None if the list doesn't look the way it should."""
     blocks = CARD_BLOCK_RE.findall(fragment or "")
-    if not blocks:
-        return [] if len(strip_tags(fragment)) < 200 else None
+    if not blocks:  # only their own "no games" message means 0 tables - an empty answer is an error, not a zero
+        return [] if re.search(r"\bno (?:cash )?games?\b", strip_tags(fragment), re.I) else None
     if all("no games" in strip_tags(block).lower() for block in blocks):
         return []  # their list says "No games currently"
     entries = [card_entry([strip_tags(c) for c in H4_RE.findall(block)]) for block in blocks]
@@ -829,6 +834,8 @@ def banco_direct(site):
     details = {"source": "direct", "now_playing_html": fragment[:20000], "tournaments": info, "stats": stats}
     if tournaments:  # its own entry, so debug/banco_page.json is saved again when a tournament first shows up
         details["tournament_event"] = info.get("first", "")
+    if not fragment.strip():  # counted as no games; noted, so a saved copy shows whether that ever happens
+        details["empty_answer"] = True
     return cash, tournaments, details
 
 
@@ -871,7 +878,7 @@ def load_playwright():
     try:
         from playwright.sync_api import sync_playwright, TimeoutError as PWTimeout
     except ImportError:
-        subprocess.run([sys.executable, "-m", "pip", "install", "-q", "playwright"], check=True)
+        subprocess.run([sys.executable, "-m", "pip", "install", "-q", "playwright"], check=True, timeout=180)
         from playwright.sync_api import sync_playwright, TimeoutError as PWTimeout
     return sync_playwright, PWTimeout
 
@@ -880,7 +887,7 @@ def open_browser(p):
     try:
         return p.chromium.launch(channel="chrome")  # GitHub's machines already have Chrome
     except Exception:
-        subprocess.run([sys.executable, "-m", "playwright", "install", "--with-deps", "chromium"], check=True)
+        subprocess.run([sys.executable, "-m", "playwright", "install", "--with-deps", "chromium"], check=True, timeout=240)
         return p.chromium.launch()
 
 
@@ -978,55 +985,6 @@ SECTION_HTML_JS = r"""(title) => {
   return box ? box.outerHTML.slice(0, 20000) : null;
 }"""
 
-# Banco's cash-game list lives in a pop-up window ("Cash games") that is hidden until opened.
-# This reads it either way: every table row as a list of cells, plus the plain text and HTML.
-CASH_POPUP_JS = r"""() => {
-  const title = Array.from(document.querySelectorAll('.modal-title, h1, h2, h3, h4, h5'))
-    .find(e => (e.textContent || '').trim().toLowerCase() === 'cash games');
-  if (!title) return null;
-  const box = title.closest('.modal') || title.closest('.modal-content') || title.parentElement.parentElement;
-  const rows = Array.from(box.querySelectorAll('tr'))
-    .map(tr => Array.from(tr.children).map(c => (c.textContent || '').replace(/\s+/g, ' ').trim()).filter(Boolean))
-    .filter(cells => cells.length);
-  const style = getComputedStyle(box);
-  const visible = style.display !== 'none' && style.visibility !== 'hidden' && box.getClientRects().length > 0;
-  const section = document.querySelector('#now-playing');
-  const sectionRows = section ? Array.from(section.querySelectorAll('tr'))
-    .map(tr => Array.from(tr.children).map(c => (c.textContent || '').replace(/\s+/g, ' ').trim()).filter(Boolean))
-    .filter(cells => cells.length) : [];
-  return {rows, visible, text: ((visible ? box.innerText : box.textContent) || '').slice(0, 5000),
-          html: box.outerHTML.slice(0, 20000), section_rows: sectionRows,
-          section_text: section ? (section.innerText || section.textContent || '').slice(0, 5000) : ''};
-}"""
-
-
-OPEN_CASH_POPUP_JS = r"""() => {
-  const modal = document.querySelector('#cash-games-modal');
-  if (modal && getComputedStyle(modal).display !== 'none') return 'already open';
-  const link = document.querySelector('[data-target="#cash-games-modal"], [data-bs-target="#cash-games-modal"], a[href="#cash-games-modal"]');
-  if (link) { link.click(); return 'its link'; }
-  if (modal && window.jQuery && window.jQuery.fn && window.jQuery.fn.modal) { window.jQuery(modal).modal('show'); return 'jQuery'; }
-  if (modal && window.bootstrap && window.bootstrap.Modal) { new window.bootstrap.Modal(modal).show(); return 'Bootstrap'; }
-  return 'could not open it';
-}"""
-
-
-def sites_check(sites=SITES):
-    """Open each Slovak room's page like a visitor and read its live 'Cash games' and 'Poker
-    tournaments' boxes. Returns {folder: (cash text, tournament text, details) or an Exception}."""
-    sync_playwright, PWTimeout = load_playwright()
-    results = {}
-    with sync_playwright() as p:
-        browser = open_browser(p)
-        for site in sites:
-            try:
-                results[site["key"]] = read_site(browser, site, PWTimeout)
-            except Exception as e:  # one site failing doesn't stop the others
-                results[site["key"]] = e
-        browser.close()
-    return results
-
-
 def browser_read(site):
     """Open one site in the browser (the backup route for Card Casino)."""
     sync_playwright, PWTimeout = load_playwright()
@@ -1039,6 +997,8 @@ def browser_read(site):
 
 
 def read_site(browser, site, PWTimeout):
+    """Card Casino's cash games page in the browser: the live list under its 'Cash games' heading.
+    Returns (list text or None, '', details for debugging)."""
     responses = []
 
     def remember(response):
@@ -1046,27 +1006,10 @@ def read_site(browser, site, PWTimeout):
         if response.request.resource_type in ("xhr", "fetch") and len(responses) < 10 and not is_tracker(host):
             responses.append(response)
 
-    seen, sockets, errors = [], [], []
-
-    def note_request(request):  # Banco: every request the page makes, to find where its cash list comes from
-        host = urllib.parse.urlparse(request.url).hostname or ""
-        if request.resource_type not in ("image", "media", "font", "stylesheet") and not is_tracker(host) and len(seen) < 150:
-            seen.append(f"{request.resource_type} {request.method} {request.url[:300]}")
-
-    def note_socket(ws):
-        entry = {"url": ws.url[:300], "frames": []}
-        sockets.append(entry)
-        ws.on("framereceived", lambda payload: len(entry["frames"]) < 5 and entry["frames"].append(str(payload)[:800]))
-
     page = browser.new_page(user_agent=UA, locale="en-US", viewport={"width": 1366, "height": 900})
     try:
         skip_extras(page)
         page.on("response", remember)
-        if site["reader"] == "banco-popup":
-            page.on("request", note_request)
-            page.on("websocket", note_socket)
-            page.on("pageerror", lambda e: len(errors) < 20 and errors.append(str(e)[:400]))
-            page.on("console", lambda m: m.type == "error" and len(errors) < 20 and errors.append(m.text[:400]))
         page.goto(site["url"], wait_until="domcontentloaded", timeout=60_000)
         try:
             page.get_by_text(site["age_button"], exact=True).first.click(timeout=3_000)  # the 18+ notice
@@ -1077,32 +1020,7 @@ def read_site(browser, site, PWTimeout):
         except PWTimeout:
             pass
         page.wait_for_timeout(2_000)
-        popup = section_html = None
-        extra = {}
-        if site["reader"] == "banco-popup":
-            opened = "its button"
-            try:  # open the "Cash games" pop-up, in case its list is only loaded when opened
-                page.get_by_text("Cash Game", exact=True).first.click(timeout=3_000)
-            except Exception:
-                opened = "button not found"
-            page.wait_for_timeout(1_500)
-            popup = page.evaluate(CASH_POPUP_JS)
-            if popup and not popup.get("visible"):  # the button didn't open it: try the page's own ways
-                opened = page.evaluate(OPEN_CASH_POPUP_JS)
-                page.wait_for_timeout(3_000)
-            try:
-                page.wait_for_load_state("networkidle", timeout=8_000)
-            except Exception:
-                pass
-            popup = page.evaluate(CASH_POPUP_JS)
-            html = page.content()
-            extra = {"popup_opened_by": opened, "requests": seen, "websockets": sockets, "page_errors": errors,
-                     "frames": [f.url[:300] for f in page.frames][:20],
-                     "scripts_about_cash": [" ".join(x.split())[:1000] for x in re.findall(r"<script\b[^>]*>(.*?)</script>", html, re.S | re.I)
-                                            if re.search(r"cash|now-?playing|playing|modal", x, re.I)][:15],
-                     "page_gz_base64": base64.b64encode(gzip.compress(html.encode("utf-8"))).decode("ascii")}
-        else:
-            section_html = page.evaluate(SECTION_HTML_JS, "cash games")
+        section_html = page.evaluate(SECTION_HTML_JS, "cash games")
         text = page.inner_text("body")
         bodies = []
         for response in responses:
@@ -1113,34 +1031,12 @@ def read_site(browser, site, PWTimeout):
     finally:
         page.close()
 
-    details = {"page_text_start": text[:6000], "data_requests": bodies}
-    if site["reader"] == "banco-popup":
-        cash = popup_text(popup)
-        clock = page_section(text, "cash game", ("cash games", "poker tournaments"), 1500) or ""  # tournament clock
-        listed = page_section(text, "poker tournaments", ("banco promotions", "jackpot"), 1500) or ""
-        tournaments = " || ".join(part for part in (clock, listed) if part)
-        details["cash_popup"] = popup
-        details.update(extra)
-    else:  # the list sits on the page under a "Cash games" heading
-        cash = page_section(text, "cash games", ("current tournaments",), 3000)
-        if cash is not None:  # drop the fixed "Game limits" link and rake note, keep the live list
-            cash = " | ".join(part for part in cash.split(" | ")
-                              if part.lower() != "game limits" and not part.lower().startswith("rake "))
-        tournaments = ""
-        details["cash_section_html"] = section_html
-    return cash, tournaments, details
-
-
-def popup_text(popup):
-    """The cash-game list as text: table rows separated by ' | ', cells by ' ; '.
-    None if the pop-up wasn't on the page at all."""
-    if not popup:
-        return None
-    rows = [" ; ".join(cells) for cells in popup.get("rows") or popup.get("section_rows") or []]
-    if rows:
-        return " | ".join(rows)
-    lines = [" ".join(ln.split()) for ln in f"{popup.get('text') or ''}\n{popup.get('section_text') or ''}".splitlines()]
-    return " | ".join(ln for ln in lines if ln and ln.lower() not in ("cash games", "close", "×", "x"))
+    details = {"page_text_start": text[:6000], "data_requests": bodies, "cash_section_html": section_html}
+    cash = page_section(text, "cash games", ("current tournaments",), 3000)
+    if cash is not None:  # drop the fixed "Game limits" link and rake note, keep the live list
+        cash = " | ".join(part for part in cash.split(" | ")
+                          if part.lower() != "game limits" and not part.lower().startswith("rake "))
+    return cash, "", details
 
 
 def short_error(e):
@@ -1215,9 +1111,11 @@ def check():
     return "ok", source, entries, (box or "") if source == "page table" else "", problem
 
 
-def check_tournaments(now):
+def check_tournaments(now, were_running=False):
     """(tournaments in play or None, their details, error text). Tournament info is extra: if it
-    can't be read, the cash check still counts and the tournament columns are just left empty."""
+    can't be read, the cash check still counts and the tournament columns are just left empty.
+    were_running: tournaments were in play at the last check - if none are now, the clock feed is read
+    once more, because it occasionally leaves them out for a moment."""
     error = ""
     for attempt in (1, 2):
         try:
@@ -1228,10 +1126,13 @@ def check_tournaments(now):
             error = short_error(e)
             time.sleep(3)
             continue
-        if result is not None:
-            return result[0], result[1], ""
-        error = "the tournament feed had an unexpected format"
-        break
+        if result is None:
+            error = "the tournament feed had an unexpected format"
+            break
+        if attempt == 1 and were_running and not result[0]:
+            time.sleep(5)
+            continue
+        return result[0], result[1], ""
     return None, [], error
 
 
@@ -1279,13 +1180,19 @@ def migrate_old_files():
 
 
 def append_row(now, row):
-    path = DATA_DIR / f"{now:%Y-%m}.csv"
+    append_csv(DATA_DIR, FIELDS, now, row)
+
+
+def open_for_append(path):
+    """A month file opened for adding a row (new files start with the marker Excel needs). A row left
+    half-written by a run that was cut off gets its line ended first, so the new row can't be glued onto it."""
     new_file = not path.exists()
-    with path.open("a", newline="", encoding="utf-8-sig" if new_file else "utf-8") as fh:
-        writer = csv.DictWriter(fh, fieldnames=FIELDS)
-        if new_file:
-            writer.writeheader()
-        writer.writerow(row)
+    if not new_file and path.stat().st_size:
+        with path.open("rb+") as fh:
+            fh.seek(-1, os.SEEK_END)
+            if fh.read(1) != b"\n":
+                fh.write(b"\r\n")
+    return path.open("a", newline="", encoding="utf-8-sig" if new_file else "utf-8"), new_file
 
 
 def save_problem(now, row, problem):
@@ -1316,9 +1223,8 @@ def load_csv_rows(folder):
 
 def append_csv(folder, fields, now, row):
     folder.mkdir(parents=True, exist_ok=True)
-    path = folder / f"{now:%Y-%m}.csv"
-    new_file = not path.exists()
-    with path.open("a", newline="", encoding="utf-8-sig" if new_file else "utf-8") as fh:
+    fh, new_file = open_for_append(folder / f"{now:%Y-%m}.csv")
+    with fh:
         writer = csv.DictWriter(fh, fieldnames=fields, extrasaction="ignore")
         if new_file:
             writer.writeheader()
@@ -1712,8 +1618,10 @@ def repair_history():
         # Card Casino said "No games currently": that's 0 tables, not an error
         (CARD_DIR, CARD_FIELDS, lambda r: r["status"] == "error: couldn't read the cash games list" and "no games" in r["raw"].lower(),
          {"status": "ok", "source": "page table", "tables": 0, "players": 0, "games": "", "raw": ""}),
-        # Grand Casino Aš showed "No Cash Game table is open": 0 tables, not an error
-        (GAS_DIR, GAS_FIELDS, lambda r: r["status"] == "error: the 'Current cash game' table wasn't found",
+        # Grand Casino Aš showed "No Cash Game table is open": 0 tables, not an error - for rows from before the
+        # reader understood that message only (until v32 this also turned every later real error into 0 tables)
+        (GAS_DIR, GAS_FIELDS, lambda r: r["status"] == "error: the 'Current cash game' table wasn't found"
+         and r["time"] < "2026-10-13",
          {"status": "ok", "tables": 0, "waiting": 0, "games": ""}),
     ]
     fixes.append((DATA_DIR / "banco", SITE_FIELDS,
@@ -1772,22 +1680,13 @@ def remove_retired_sites():
 
 
 def record_sites(now):
-    """One check of each Slovak room, each saved to data/<folder>/YYYY-MM.csv.
-    Never raises: these sites can't break the King's tracking."""
-    results, in_browser = {}, []
-    for site in SITES:
-        if site["reader"] == "banco-popup":
-            try:
-                results[site["key"]] = banco_direct(site)
-                continue
-            except Exception as e:
-                print(f"{site['name']}: direct read failed ({short_error(e)}), using the page instead")
-        in_browser.append(site)
-    if in_browser:
+    """Banco's check, saved to data/banco/YYYY-MM.csv. Never raises: it can't break the King's tracking."""
+    results = {}
+    for site in SITES:  # no browser backup: Banco's page scripts don't run in a browser, so it would only lose time
         try:
-            results.update(sites_check(in_browser))
-        except Exception as e:  # e.g. the browser couldn't start
-            results.update({site["key"]: e for site in in_browser})
+            results[site["key"]] = banco_direct(site)
+        except Exception as e:
+            results[site["key"]] = e
     return {site["key"]: record_site(now, site["key"], site["name"], site["url"], site["page"], results.get(site["key"]))
             for site in SITES}
 
@@ -2194,6 +2093,17 @@ def calendar_lines(room, now):
     return out + [""]
 
 
+def schedule_reminder(today):
+    """A nudge on the README when hendonmob.txt hasn't been refreshed for three weeks."""
+    try:
+        pasted = date.fromisoformat(json.loads(PASTE_STATE.read_text(encoding="utf-8"))["from"])
+    except (OSError, ValueError, KeyError, TypeError):
+        return []
+    age = (today - pasted).days
+    return [f"⏰ **`hendonmob.txt` was pasted {age} days ago** — paste a fresh copy of the Hendon Mob page (same filters) "
+            "so the schedule stays complete.", ""] if age >= 21 else []
+
+
 def all_rooms_calendar_lines(now, limit=30):
     today = now.date()
     rows = [c for c in CONTEXT["calendar"] if c["end_d"] >= today]
@@ -2383,13 +2293,31 @@ def health_lines(rows, now, sources, problem_file):
              else f"⚠️ {clean(last['status'], 160)} — details in `{problem_file}`")
     day_ago = (now - timedelta(hours=24)).strftime("%Y-%m-%d %H:%M")
     recent = [r for r in rows if r["time"] >= day_ago]
-    times = [datetime.strptime(r["time"], "%Y-%m-%d %H:%M") for r in recent]
+    times = real_times([r["time"] for r in recent])
     gaps = [b - a for a, b in zip(times, times[1:])] or [timedelta(0)]
     gap_min = int(max(gaps).total_seconds() // 60)
     gap = f"longest gap {gap_min // 60} h {gap_min % 60} min" + (" (GitHub skipped runs)" if gap_min > 60 else "")
     return [f"**Last check:** {last['time']} — {state}  ",
             f"**Last 24 h:** {sum(r['status'] == 'ok' for r in recent)} of {len(recent)} checks OK, {gap} · "
             f"**Collecting since:** {rows[0]['time'][:10]} ({count_text(good, 'good check')})", ""]
+
+
+def real_times(texts):
+    """Czech times as saved ('YYYY-MM-DD HH:MM', in the order recorded) as real moments, so the time between
+    two checks is right across clock changes. When the clocks go back, the hour that happens twice is
+    told apart by the order of the checks. Unreadable times are left out."""
+    out = []
+    for text in texts:
+        try:
+            t = datetime.strptime(text, "%Y-%m-%d %H:%M")
+        except (TypeError, ValueError):
+            continue
+        moment = t.replace(tzinfo=TZ, fold=0).astimezone(timezone.utc)
+        if out and moment <= out[-1]:
+            second = t.replace(tzinfo=TZ, fold=1).astimezone(timezone.utc)
+            moment = second if second > out[-1] else moment
+        out.append(moment)
+    return out
 
 
 def snapshot_lines(latest):
@@ -2576,6 +2504,7 @@ def write_readme(rows, now, overview=""):
             out += ["**Tournaments:** couldn't be read at this check (cash data is unaffected).", ""]
 
     out += calendar_lines("kings", now)
+    out += schedule_reminder(now.date())
     out += all_rooms_calendar_lines(now)
     out += busy_sections(ok, checks, "kings")
     out += day_type_lines("kings", ok)
@@ -2652,7 +2581,7 @@ def write_readme(rows, now, overview=""):
             "The tracker is `tracker.py`; its schedule is in `.github/workflows/track.yml`.  ",
             "Festival dates: `calendar.csv` (edit on GitHub). Tournament schedule: `hendonmob.txt` — to refresh it, "
             "copy the Hendon Mob upcoming-events page and paste it over that file's contents; every event read so far "
-            "is kept in `data/schedule/events.csv`. Public holidays: `data/holidays.json`."]
+            "is kept in `data/schedule/events.csv`. Public holidays: `data/holidays.json`. Tracker version: " + VERSION + "."]
     README.write_text("\n".join(out) + "\n", encoding="utf-8")
 
 
@@ -2778,14 +2707,11 @@ def self_test():
     page = "Cash Game\nCash games\nNLH\t1/2\t8\nPLO\t2/2\t6\nPoker tournaments\nCurrently we do not play any tournaments\nBanco promotions"
     assert page_section(page, "cash games", ("poker tournaments",)) == "NLH | 1/2 | 8 | PLO | 2/2 | 6"
     assert page_section(page, "poker tournaments", ("banco promotions",)) == "Currently we do not play any tournaments"
-    assert popup_text({"rows": [["Game", "Blinds"], ["NLH", "€1/2"]], "text": ""}) == "Game ; Blinds | NLH ; €1/2"
-    assert popup_text({"rows": [], "text": "Cash games\n×\nNo games at the moment"}) == "No games at the moment"
-    assert popup_text(None) is None
     card_html = ('<div class="splide__slide"><div class="cash-game aligner flex-start">\r <h4 class="stretch">NLH</h4>\r'
                  ' <h4 class="number">1/3 €</h4>\r <h4>8/8</h4>\r </div><div class="cash-game aligner flex-start">'
                  '<h4 class="stretch">PLO</h4><h4 class="number">100/100 €</h4><h4>5/8</h4></div></div>')
     assert card_entries(card_html) == ["NLH €1/3 8/8", "PLO €100/100 5/8"], card_entries(card_html)
-    assert card_entries("") == [] and card_entries("<p>No cash games at the moment</p>") == []
+    assert card_entries("") is None and card_entries("  ") is None and card_entries("<p>No cash games at the moment</p>") == []
     assert card_entries('<div class="cash-game"><h4>NLH</h4></div>') is None
     assert card_text_entries("NLH | 1/3 € | 8/8 | PLO | 10/10 € | 8/8") == ["NLH €1/3 8/8", "PLO €10/10 8/8"]
     assert [card_game(g) for g in ("nlh", "PLO", "PLO 5", "PLO4", "NLH/PLO")] == ["NLH", "PLO", "PLO5", "PLO", "NLH/PLO"]
@@ -2898,6 +2824,61 @@ def self_test():
     assert gas_cash_entries("<p>Back to home</p><p>No Cash Game table is open at this time</p>") == []
     assert [is_tracker(h) for h in ("www.googletagmanager.com", "ajax.googleapis.com", "connect.facebook.net",
                                     "admin.kings-resort.com", "bancocasino.sk")] == [True, False, True, False, False]
+    self_test_v32()
+
+
+def self_test_v32():
+    """Checks for the v32 additions (run as part of self_test)."""
+    autumn = real_times(["2026-10-25 02:40", "2026-10-25 02:50", "2026-10-25 02:00", "2026-10-25 02:10"])
+    assert [b - a for a, b in zip(autumn, autumn[1:])] == [timedelta(minutes=10)] * 3, autumn
+    spring = real_times(["2027-03-28 01:50", "2027-03-28 03:00", "bad", None])
+    assert len(spring) == 2 and spring[1] - spring[0] == timedelta(minutes=10), spring
+    at8 = datetime(2026, 10, 15, 8, 0, tzinfo=TZ)
+    assert backup_not_needed({"time": "2026-10-15 07:52"}, at8) and not backup_not_needed({"time": "2026-10-15 07:40"}, at8)
+    assert not backup_not_needed(None, at8) and not backup_not_needed({"time": ""}, at8)
+    assert local_time("2026-10-14T17:00:00Z") == datetime(2026, 10, 14, 19, 0)
+    assert local_time("2026-10-14T18:00:05") == datetime(2026, 10, 14, 18, 0, 5) and local_time(None) is None
+    with tempfile.TemporaryDirectory() as tmp:  # a half-written last row is finished before the next one
+        path = Path(tmp) / "2026-10.csv"
+        path.write_bytes(b"\xef\xbb\xbftime,status\r\n2026-10-15 07:50,ok\r\n2026-10-15 08:0")
+        fh, new_file = open_for_append(path)
+        with fh:
+            csv.DictWriter(fh, fieldnames=["time", "status"]).writerow({"time": "2026-10-15 08:10", "status": "ok"})
+        with path.open(newline="", encoding="utf-8-sig") as fh:
+            got = [r["time"] for r in csv.DictReader(fh)]
+        assert not new_file and got == ["2026-10-15 07:50", "2026-10-15 08:0", "2026-10-15 08:10"], got
+    calls = []
+
+    def fake_feed(url=None):  # the clock feed leaves a running tournament out for a moment
+        calls.append(url)
+        return [] if len(calls) == 1 else [{"fullName": "Daily", "status": "RUNNING", "activePlayers": 30, "totalEntries": 60}]
+    real_fetch, real_sleep, real_sample = globals()["fetch_feed"], time.sleep, globals()["save_sample"]
+    globals().update(fetch_feed=fake_feed, save_sample=lambda *a, **k: None)
+    time.sleep = lambda seconds: None
+    try:
+        assert check_tournaments(at8, were_running=True)[0] == ["Daily 30/60"] and len(calls) == 2
+        calls.clear()
+        assert check_tournaments(at8)[0] == [] and len(calls) == 1
+    finally:
+        globals().update(fetch_feed=real_fetch, save_sample=real_sample)
+        time.sleep = real_sleep
+
+
+def last_row():
+    """The latest King's check on record, or None."""
+    for path in sorted(DATA_DIR.glob(MONTH_FILES), reverse=True):
+        with path.open(newline="", encoding="utf-8-sig") as fh:
+            rows = list(csv.DictReader(fh))
+        if rows:
+            return rows[-1]
+    return None
+
+
+def backup_not_needed(last, now):
+    """GitHub's hourly backup run only checks when the 10-minute timer seems to have stopped: with a check
+    recorded in the last 15 minutes, it would only add a duplicate (and extra visits to the sites)."""
+    times = real_times([(last or {}).get("time")])
+    return bool(times) and now.astimezone(timezone.utc) - times[0] < timedelta(minutes=15)
 
 
 def should_alert(rows):
@@ -2927,15 +2908,24 @@ def main():
         return 1
 
     now = datetime.now(TZ)
+    print(f"Tracker {VERSION}")
     DATA_DIR.mkdir(exist_ok=True)
     migrate_old_files()
+    previous = last_row()
+    if previous and previous.get("time") == f"{now:%Y-%m-%d %H:%M}":
+        print("Another run already checked this minute, so this one stops here (no duplicate rows).")
+        return 0
+    if os.environ.get("GITHUB_EVENT_NAME") == "schedule" and backup_not_needed(previous, now):
+        print("Hourly backup run: the 10-minute timer is working, so there's nothing to do.")
+        return 0
     try:
         setup_context(now)
     except Exception as e:  # the calendar is extra: a problem with it never stops the tracking
         print(f"Festival calendar / schedule / holidays skipped: {short_error(e)}")
 
     status, source, entries, page_text, problem = timed("King's", check)
-    tourneys, tourney_info, tourney_error = timed("King's tournaments", check_tournaments, now)
+    tourneys, tourney_info, tourney_error = timed("King's tournaments", check_tournaments, now,
+                                                  bool(previous and as_int(previous.get("tourneys"))))
     if tourney_error:
         problem = {**(problem or {}), "tournaments": tourney_error}
     row = {"time": f"{now:%Y-%m-%d %H:%M}", "weekday": DAYS[now.weekday()], "hour": now.hour,
@@ -2949,12 +2939,13 @@ def main():
            "tourney_details": json.dumps(tourney_info, ensure_ascii=False, separators=(",", ":")) if tourneys else "",
            "page_text": page_text[:3000]}
     append_row(now, row)
-    save_problem(now, row, problem)
-
-    remove_retired_sites()
-    migrate_card_files()
-    migrate_site_files()
-    repair_history()
+    for label, step in (("saving the problem details", lambda: save_problem(now, row, problem)),
+                        ("old site cleanup", remove_retired_sites), ("Card file update", migrate_card_files),
+                        ("Banco file update", migrate_site_files), ("history repairs", repair_history)):
+        try:
+            step()
+        except Exception as e:  # housekeeping must never stop the checks of the other rooms
+            print(f"::warning::{label} failed: {short_error(e)}")
     card_row = timed("Card Casino", record_card, now)
     gas_row, site_rows = None, {}
     for label, step in (("Grand Casino Aš", lambda: record_gas(now)), ("Olympic", lambda: record_olympic(now)),
