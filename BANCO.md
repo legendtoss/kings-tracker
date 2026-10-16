@@ -2,10 +2,10 @@
 
 Checks [its website](https://bancocasino.sk/ba/en) together with King's, about every 10 minutes. All times are **Czech time** (same as Poland and Slovakia). Back to [King's](README.md).
 
-**Last check:** 2026-10-16 16:10 — ✅ OK  
-**Checks so far:** 467 successful out of 971 (since 2026-10-10)
+**Last check:** 2026-10-16 16:20 — ✅ OK  
+**Checks so far:** 468 successful out of 972 (since 2026-10-10)
 
-## Tables running at 2026-10-16 16:10
+## Tables running at 2026-10-16 16:20
 
 ```
 Dealer's Choice  €2/2     8 players
@@ -143,7 +143,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 13:00 | 🟨 25% | 🟨 25% | 🟥 0% | 🟥 0% | 24 |
 | 14:00 | 🟨 33% | 🟨 46% | 🟥 0% | 🟥 8% | 24 |
 | 15:00 | 🟨 38% | 🟨 38% | 🟥 0% | 🟨 50% | 24 |
-| 16:00 | 🟨 30% | 🟨 70% | 🟥 0% | 🟨 30% | 20 |
+| 16:00 | 🟨 29% | 🟨 67% | 🟥 0% | 🟨 33% | 21 |
 | 17:00 | 🟨 44% | 🟩 100% | 🟥 0% | 🟥 0% | 18 |
 | 18:00 | 🟨 67% | 🟩 100% | 🟥 0% | 🟥 0% | 18 |
 | 19:00 | 🟨 33% | 🟩 94% | 🟥 6% | 🟥 0% | 18 |
@@ -159,7 +159,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | NLH €1/3 | 41% of checks | Tue around 12:00 | 2026-10-16 03:40 |
 | PLO 4/5 €2/2 | 36% of checks | Tue around 12:00 | 2026-10-16 14:50 |
 | PLO €25/50 | 15% of checks | Thu around 20:00 | 2026-10-16 07:30 |
-| Dealer's Choice €2/2 | 4% of checks | Thu around 15:00 | 2026-10-16 16:10 |
+| Dealer's Choice €2/2 | 4% of checks | Thu around 15:00 | 2026-10-16 16:20 |
 
 ---
 The numbers count Bratislava only (Banco's list also shows Košice, kept in words above). Banco shows no seat counts, so tables show players only.
