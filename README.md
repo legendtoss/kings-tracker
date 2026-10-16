@@ -2,23 +2,23 @@
 
 Checks King's live cash games and tournaments about every 10 minutes and updates this page by itself. All times are **Czech time** (same as Poland). Also tracking: [Card Casino Šamorín](CARD_CASINO.md) · [Grand Casino Aš](GRAND_CASINO_AS.md) · [Banco Casino Bratislava](BANCO.md) · [Olympic Park Tallinn](OLYMPIC_TALLINN.md) · [Olympic Casino Vilnius](OLYMPIC_VILNIUS.md).
 
-**Right now:** King's: 5 tables, 33 players · [Card Casino Šamorín](CARD_CASINO.md): 0 tables, 0 players · [Grand Casino Aš](GRAND_CASINO_AS.md) 🎪 PLO festival: 0 tables running, 1 waiting · [Olympic Park Tallinn](OLYMPIC_TALLINN.md) 🎪 Kings of Tallinn: 1 table, 8 players (10 waiting) at 16:00 · [Olympic Vilnius](OLYMPIC_VILNIUS.md): blocked at 16:00 · [Banco](BANCO.md): 1 table, 8 players
+**Right now:** King's: 5 tables, 37 players · [Card Casino Šamorín](CARD_CASINO.md): 0 tables, 0 players · [Grand Casino Aš](GRAND_CASINO_AS.md) 🎪 PLO festival: 0 tables running, 1 waiting · [Olympic Park Tallinn](OLYMPIC_TALLINN.md) 🎪 Kings of Tallinn: 2 tables, 14 players (7 waiting) at 16:30 · [Olympic Vilnius](OLYMPIC_VILNIUS.md): blocked at 16:30 · [Banco](BANCO.md): 1 table, 8 players
 
-**Last check:** 2026-10-16 16:20 — ✅ OK (data feed)  
-**Last 24 h:** 145 of 145 checks OK, longest gap 0 h 11 min · **Collecting since:** 2026-10-06 (1180 good checks)
+**Last check:** 2026-10-16 16:30 — ✅ OK (data feed)  
+**Last 24 h:** 145 of 145 checks OK, longest gap 0 h 11 min · **Collecting since:** 2026-10-06 (1181 good checks)
 
-## Tables running at 2026-10-16 16:20
+## Tables running at 2026-10-16 16:30
 
 ```
 NLH   €1/2     8/8 players
 NLH   €1/2     7/8 players
 NLH   €1/2     8/8 players
-NLH   €1/2     7/8 players
-PLO5  €5/5     3/8 players
+NLH   €1/2     8/8 players
+PLO5  €5/5     6/8 players
 ```
-**NLH:** 30 players at 4 tables · **PLO5:** 3 players at 1 table
+**NLH:** 31 players at 4 tables · **PLO5:** 6 players at 1 table
 
-**Tournaments in play:** DPM Friday Morning Bounty (50 Bounty) (NLH, €120, €50 bounty, 2 of 115 left, level 22, blinds 20000/40000/40000) · DPM - Day 1C (NLH, €225, 164 of 249 left, late reg open, level 6, blinds 500/1000/1000) · Flip n Go Satellite (8 handed) to DPM ME - Day 1D (NLH, €40, 4 of 12 left, late reg open, level 1, blinds 5000/5000/5000)
+**Tournaments in play:** DPM Friday Morning Bounty (50 Bounty) (NLH, €120, €50 bounty, 2 of 115 left, level 22, blinds 20000/40000/40000) · DPM - Day 1C (NLH, €225, 163 of 252 left, late reg open, level 6, blinds 500/1000/1000) · Flip n Go Satellite (8 handed) to DPM ME - Day 1D (NLH, €40, 5 of 21 left, late reg open, level 1, blinds 5000/5000/5000)
 
 ## Festivals and schedule
 
@@ -123,7 +123,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 13:00 | 0 | 2 | 0 | 0 | 0 | 0 | 1 | 1 |
 | 14:00 | 0 | 3 | 0 | 0 | 0 | 1 | 8 | 2 |
 | 15:00 | 0 | 4 | 0 | 0 | 1 | 6 | 8 | 2 |
-| 16:00 | 1 | 5 | 0 | 0 | 1 | 6 | 8 | 3 |
+| 16:00 | 1 | 5 | 0 | 0 | 2 | 6 | 8 | 3 |
 | 17:00 | 5 | 5 | 0 | 0 | 1 | 6 | 8 | 4 |
 | 18:00 | 6 | 5 | 0 | 3 | 3 | 8 | 6 | 4 |
 | 19:00 | 6 | 5 | 0 | 6 | 8 | 9 | 7 | 6 |
@@ -183,7 +183,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 13:00 | 🟨 69% | 🟥 6% | 🟥 0% | 🟥 12% | 🟥 4% | 🟥 6% | 🟥 0% | 🟥 0% | 48 |
 | 14:00 | 🟨 69% | 🟨 31% | 🟥 0% | 🟥 18% | 🟥 16% | 🟥 6% | 🟥 0% | 🟥 0% | 49 |
 | 15:00 | 🟩 83% | 🟥 17% | 🟥 0% | 🟨 26% | 🟨 34% | 🟥 4% | 🟥 0% | 🟥 0% | 47 |
-| 16:00 | 🟩 82% | 🟥 24% | 🟥 0% | 🟨 27% | 🟨 43% | 🟥 6% | 🟥 0% | 🟥 0% | 51 |
+| 16:00 | 🟩 83% | 🟥 23% | 🟥 0% | 🟨 27% | 🟨 44% | 🟥 6% | 🟥 0% | 🟥 0% | 52 |
 | 17:00 | 🟩 81% | 🟥 21% | 🟥 13% | 🟨 38% | 🟨 47% | 🟥 6% | 🟥 0% | 🟥 0% | 47 |
 | 18:00 | 🟩 92% | 🟨 35% | 🟨 25% | 🟨 38% | 🟨 65% | 🟥 6% | 🟥 0% | 🟥 0% | 48 |
 | 19:00 | 🟩 85% | 🟨 42% | 🟥 10% | 🟨 40% | 🟨 71% | 🟥 12% | 🟥 0% | 🟥 0% | 48 |
@@ -200,11 +200,11 @@ Collecting since 2026-10-08. Shown from 2026-10-22: with fewer than two weeks, t
 
 | Game | Running in | Most often | Last seen |
 |:--|--:|:--|:--|
-| NLH €1/2 | 77% of checks | Thu around 01:00 | 2026-10-16 16:20 |
+| NLH €1/2 | 77% of checks | Thu around 01:00 | 2026-10-16 16:30 |
 | NLH €2/4 | 27% of checks | Wed around 02:00 | 2026-10-15 23:20 |
 | NLH €5/10 | 6% of checks | Sat around 23:00 | 2026-10-11 19:30 |
 | PLO €2/2 | 31% of checks | Fri around 22:00 | 2026-10-16 02:20 |
-| PLO5 €5/5 | 33% of checks | Wed around 01:00 | 2026-10-16 16:20 |
+| PLO5 €5/5 | 34% of checks | Wed around 01:00 | 2026-10-16 16:30 |
 | PLO5 €10/10 | 7% of checks | Fri around 23:00 | 2026-10-10 19:40 |
 | PLO5 €10/25 | 1% of checks | Wed around 06:00 | 2026-10-07 10:04 |
 | PLO5 €25/25 | 0% of checks | Thu around 05:00 | 2026-10-15 05:40 |
@@ -217,9 +217,9 @@ The most recent ones. The game is read from the tournament's name.
 
 | Tournament | Game | Buy-in | Entries | Seen |
 |:--|:--|--:|--:|:--|
-| DPM Friday Morning Bounty (50 Bounty) | NLH | €120 | 115 | 2026-10-16 10:00 → 10-16 16:20 |
-| DPM - Day 1C | NLH | €225 | 249 | 2026-10-16 13:20 → 10-16 16:20 |
-| Flip n Go Satellite (8 handed) to DPM ME - Day 1D | NLH | €40 | 12 | 2026-10-16 16:00 |
+| DPM Friday Morning Bounty (50 Bounty) | NLH | €120 | 115 | 2026-10-16 10:00 → 10-16 16:30 |
+| DPM - Day 1C | NLH | €225 | 252 | 2026-10-16 13:20 → 10-16 16:30 |
+| Flip n Go Satellite (8 handed) to DPM ME - Day 1D | NLH | €40 | 21 | 2026-10-16 16:00 |
 | DPM Ladies Event | NLH | €120 | 5 | 2026-10-16 15:00 |
 | DPT - Day 1C | NLH | €225 | 136 | 2026-10-16 12:00 → 10-16 13:10 |
 | Dutch Poker Masters - Day 1B | NLH | €225 | 183 | 2026-10-15 17:01 → 10-16 02:40 |

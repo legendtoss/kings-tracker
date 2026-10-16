@@ -959,3 +959,4 @@
 2026-10-16 16:00,Fri,16,ok,0,1,PLO/NLH [WAITING],1,8,"[{""name"":""PLO Satellite to Main Event"",""game"":""PLO"",""status"":""RUNNING"",""left"":8,""entries"":33,""buyin"":60,""prizepool"":1749,""currency"":""EUR"",""level"":11,""blinds"":""1000/2000"",""avg_stack"":41250,""start_stack"":10000,""late_reg_open"":false,""start"":""16.10. 13:00""}]",
 2026-10-16 16:10,Fri,16,ok,0,1,PLO/NLH [WAITING],,,,
 2026-10-16 16:20,Fri,16,ok,0,1,PLO/NLH [WAITING],,,,
+2026-10-16 16:30,Fri,16,ok,0,1,PLO/NLH [WAITING],1,17,"[{""name"":""PLO Main Event Day 1/A"",""game"":""PLO"",""status"":""RUNNING"",""left"":17,""entries"":17,""buyin"":340,""prizepool"":100000,""currency"":""EUR"",""level"":1,""blinds"":""500/1000/1000"",""avg_stack"":200000,""start_stack"":200000,""late_reg_open"":true,""start"":""16.10. 16:00""}]",
