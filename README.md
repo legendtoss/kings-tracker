@@ -4,10 +4,10 @@ Checks King's live cash games and tournaments about every 10 minutes and updates
 
 **Right now:** King's: 4 tables, 28 players · [Card Casino Šamorín](CARD_CASINO.md): 0 tables, 0 players · [Grand Casino Aš](GRAND_CASINO_AS.md) 🎪 PLO festival: 1 table running, 1 waiting · [Olympic Park Tallinn](OLYMPIC_TALLINN.md) 🎪 Kings of Tallinn: 6 tables, 42 players (5 waiting) at 04:00 · [Olympic Vilnius](OLYMPIC_VILNIUS.md): 0 tables, 0 players (7 waiting) at 04:00 · [Banco](BANCO.md): 1 table, 7 players
 
-**Last check:** 2026-10-16 04:10 — ✅ OK (data feed)  
-**Last 24 h:** 145 of 145 checks OK, longest gap 0 h 11 min · **Collecting since:** 2026-10-06 (1107 good checks)
+**Last check:** 2026-10-16 04:20 — ✅ OK (data feed)  
+**Last 24 h:** 145 of 145 checks OK, longest gap 0 h 11 min · **Collecting since:** 2026-10-06 (1108 good checks)
 
-## Tables running at 2026-10-16 04:10
+## Tables running at 2026-10-16 04:20
 
 ```
 NLH   €1/2     7/8 players
@@ -29,9 +29,11 @@ PLO5  €5/5     5/8 players
 
 | Day | Time (local) | Buy-in | Tournament |
 |:--|:--|--:|:--|
-| Sat 17 Oct | · | · | at 2:00pmFrance€ 120 + 30 No Limit Hold'em - Superstack 150, Pasino Le Havre, Le … |
-| Wed 21 Oct – Thu 22 Oct | · | · | at 12:30pmFrance€ 440 + 60 Pot Limit Omaha - CdF Omaha 500 Day1, Pasino Grand Aix en … |
-| Fri 30 Oct | · | · | at 4:00pmCzech Republic€ 1,500 Pot Limit Omaha - WSOPC Monster Stack PLO (Ring Event #7) |
+| Sat 17 Oct | 15:00 | €120 | Pot Limit Omaha |
+| Fri 23 Oct | 14:00 | €350 | Pot Limit Omaha - BPC 8-Max One Day |
+| Wed 28 Oct | 16:00 | €1 000 | Pot Limit Omaha - WSOPC Bounty PLO (Ring Event #2) |
+| Thu 29 Oct | 15:00 | €1 500 | WSOPC Big O (Ring Event #3) |
+| Fri 30 Oct | 16:00 | €1 500 | Pot Limit Omaha - WSOPC Monster Stack PLO (Ring Event #7) |
 
 **Public holidays in the next 30 days** where most players come from (Czechia, Bavaria): Wed 28 Oct: Independent Czechoslovak State Day (Czechia) · Sun 1 Nov: All Saints' Day (Bavaria).
 
@@ -108,7 +110,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 01:00 | 7 | 5 | 6 | 4 | 2 | 9 | 0 | 5 |
 | 02:00 | 2 | 4 | 6 | 6 | 2 | 5 | 0 | 4 |
 | 03:00 | 0 | 1 | 2 | 5 | 6 | 4 | 0 | 3 |
-| 04:00 | 0 | 5 | 1 | 4 | 4 | 2 | 0 | 2 |
+| 04:00 | 0 | 5 | 1 | 4 | 5 | 2 | 0 | 2 |
 | 05:00 | 0 | 7 | 1 | 2 | · | 0 | 0 | 2 |
 | 06:00 | 0 | 5 | 1 | 0 | · | 0 | 0 | 1 |
 | 07:00 | 0 | 4 | 1 | 0 | · | 0 | 0 | 1 |
@@ -168,7 +170,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 01:00 | 🟩 94% | 🟨 45% | 🟥 8% | 🟨 61% | 🟨 65% | 🟥 12% | 🟥 0% | 🟥 6% | 51 |
 | 02:00 | 🟩 88% | 🟨 49% | 🟥 0% | 🟨 57% | 🟨 59% | 🟥 10% | 🟥 0% | 🟥 4% | 49 |
 | 03:00 | 🟩 79% | 🟨 28% | 🟥 0% | 🟨 53% | 🟨 53% | 🟥 0% | 🟥 0% | 🟥 0% | 47 |
-| 04:00 | 🟨 67% | 🟨 31% | 🟥 4% | 🟨 27% | 🟨 33% | 🟥 4% | 🟥 0% | 🟥 0% | 49 |
+| 04:00 | 🟨 68% | 🟨 30% | 🟥 4% | 🟨 26% | 🟨 34% | 🟥 4% | 🟥 0% | 🟥 0% | 50 |
 | 05:00 | 🟨 68% | 🟨 32% | 🟥 7% | 🟥 14% | 🟥 18% | 🟥 7% | 🟥 5% | 🟥 0% | 44 |
 | 06:00 | 🟨 61% | 🟨 33% | 🟥 7% | 🟥 13% | 🟥 7% | 🟥 7% | 🟥 7% | 🟥 0% | 46 |
 | 07:00 | 🟨 56% | 🟨 33% | 🟥 7% | 🟥 9% | 🟥 7% | 🟥 7% | 🟥 4% | 🟥 0% | 45 |
@@ -197,11 +199,11 @@ Collecting since 2026-10-08. Shown from 2026-10-22: with fewer than two weeks, t
 
 | Game | Running in | Most often | Last seen |
 |:--|--:|:--|:--|
-| NLH €1/2 | 75% of checks | Thu around 01:00 | 2026-10-16 04:10 |
+| NLH €1/2 | 75% of checks | Thu around 01:00 | 2026-10-16 04:20 |
 | NLH €2/4 | 29% of checks | Wed around 02:00 | 2026-10-15 23:20 |
 | NLH €5/10 | 6% of checks | Sat around 23:00 | 2026-10-11 19:30 |
-| PLO €2/2 | 34% of checks | Fri around 22:00 | 2026-10-16 02:20 |
-| PLO5 €5/5 | 34% of checks | Wed around 01:00 | 2026-10-16 04:10 |
+| PLO €2/2 | 33% of checks | Fri around 22:00 | 2026-10-16 02:20 |
+| PLO5 €5/5 | 34% of checks | Wed around 01:00 | 2026-10-16 04:20 |
 | PLO5 €10/10 | 8% of checks | Fri around 23:00 | 2026-10-10 19:40 |
 | PLO5 €10/25 | 1% of checks | Wed around 06:00 | 2026-10-07 10:04 |
 | PLO5 €25/25 | 0% of checks | Thu around 05:00 | 2026-10-15 05:40 |
@@ -232,4 +234,4 @@ The most recent ones. The game is read from the tournament's name.
 
 ---
 Raw data: the `data` folder, one CSV file per month. To open one in Excel, use Data → From Text/CSV (double-clicking puts everything in one column in Polish Excel). The tracker is `tracker.py`; its schedule is in `.github/workflows/track.yml`.  
-Festival dates: `calendar.csv` (edit on GitHub). Tournament schedule: `hendonmob.txt` — to refresh it, copy the Hendon Mob upcoming-events page and paste it over that file's contents; every event read so far is kept in `data/schedule/events.csv`. Public holidays: `data/holidays.json`. Tracker version: v34.
+Festival dates: `calendar.csv` (edit on GitHub). Tournament schedule: `hendonmob.txt` — to refresh it, copy the Hendon Mob upcoming-events page and paste it over that file's contents; every event read so far is kept in `data/schedule/events.csv`. Public holidays: `data/holidays.json`. Tracker version: v35.
