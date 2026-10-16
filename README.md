@@ -2,10 +2,10 @@
 
 Checks King's live cash games and tournaments about every 10 minutes and updates this page by itself. All times are **Czech time** (same as Poland). Also tracking: [Card Casino Šamorín](CARD_CASINO.md) · [Grand Casino Aš](GRAND_CASINO_AS.md) · [Banco Casino Bratislava](BANCO.md) · [Olympic Park Tallinn](OLYMPIC_TALLINN.md) · [Olympic Casino Vilnius](OLYMPIC_VILNIUS.md).
 
-**Right now:** King's: 5 tables, 38 players · [Card Casino Šamorín](CARD_CASINO.md): 0 tables, 0 players · [Grand Casino Aš](GRAND_CASINO_AS.md) 🎪 PLO festival: 0 tables running, 1 waiting · [Olympic Park Tallinn](OLYMPIC_TALLINN.md) 🎪 Kings of Tallinn: blocked at 17:00 · [Olympic Vilnius](OLYMPIC_VILNIUS.md): 0 tables, 0 players (14 waiting) at 17:00 · [Banco](BANCO.md): 1 table, 8 players
+**Right now:** King's: couldn't be read · [Card Casino Šamorín](CARD_CASINO.md): 0 tables, 0 players · [Grand Casino Aš](GRAND_CASINO_AS.md) 🎪 PLO festival: 0 tables running, 1 waiting · [Olympic Park Tallinn](OLYMPIC_TALLINN.md) 🎪 Kings of Tallinn: blocked at 17:00 · [Olympic Vilnius](OLYMPIC_VILNIUS.md): 0 tables, 0 players (14 waiting) at 17:00 · [Banco](BANCO.md): 1 table, 8 players
 
-**Last check:** 2026-10-16 17:00 — ✅ OK (data feed)  
-**Last 24 h:** 145 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-06 (1184 good checks)
+**Last check:** 2026-10-16 17:10 — ⚠️ error: couldn't read the tables on the page — details in `debug/last_problem.json`  
+**Last 24 h:** 144 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-06 (1184 good checks)
 
 ## Tables running at 2026-10-16 17:00
 
@@ -217,8 +217,8 @@ The most recent ones. The game is read from the tournament's name.
 
 | Tournament | Game | Buy-in | Entries | Seen |
 |:--|:--|--:|--:|:--|
-| DPM - Day 1C | NLH | €225 | 258 | 2026-10-16 13:20 → 10-16 17:00 |
-| Flip n Go Satellite (8 handed) to DPM ME - Day 1D | NLH | €40 | 39 | 2026-10-16 16:00 |
+| DPM - Day 1C | NLH | €225 | 267 | 2026-10-16 13:20 → 10-16 17:10 |
+| Flip n Go Satellite (8 handed) to DPM ME - Day 1D | NLH | €40 | 41 | 2026-10-16 16:00 → 10-16 17:10 |
 | DPM Friday Morning Bounty (50 Bounty) | NLH | €120 | 115 | 2026-10-16 10:00 → 10-16 16:30 |
 | DPM Ladies Event | NLH | €120 | 5 | 2026-10-16 15:00 |
 | DPT - Day 1C | NLH | €225 | 136 | 2026-10-16 12:00 → 10-16 13:10 |
