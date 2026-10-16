@@ -2,19 +2,19 @@
 
 Reads [OlyBet's live cash games page](https://olybetpoker.com/lt/en/cash-games/) every 30 minutes (their site has bot protection, so the tracker checks gently and simply records it when a check is refused). All times are **Czech time** (Tallinn and Vilnius are one hour ahead). Back to [King's](README.md).
 
-**Last check:** 2026-10-16 23:00 — ⚠️ error: blocked by the site's bot protection — details in `debug/olympic-vilnius_page.json`  
-**Last 24 h:** 30 of 49 checks OK, longest gap 0 h 30 min · **Collecting since:** 2026-10-10 (176 good checks)
+**Last check:** 2026-10-16 23:30 — ✅ OK  
+**Last 24 h:** 31 of 49 checks OK, longest gap 0 h 30 min · **Collecting since:** 2026-10-10 (177 good checks)
 
 **Club:** Olympic Casino Vilnius, Lietuva
 
-## Tables running at 2026-10-16 22:30
+## Tables running at 2026-10-16 23:30
 
 ```
 Dealer's Choice  €1/2     8/8 players
 ```
 **Dealer's Choice:** 8 players at 1 table
 
-**Waiting lists:** 4 players · **All games listed:** Dealer's Choice €1/2 (opened): 1 table, 8/8 players, 2 waiting NLH €1/2 (waiting to start): 1 table, 0/9 players, 2 waiting
+**Waiting lists:** 5 players · **All games listed:** Dealer's Choice €1/2 (opened): 1 table, 8/8 players, 3 waiting NLH €1/2 (waiting to start): 1 table, 0/9 players, 2 waiting
 
 **Tournaments on their site at 2026-10-16 21:00:** live 19:00 Olympic Casino Vilnius, Lietuva 16 Turbo Deepstack RF 4379 JP, Re-entry 12 levels 25,000 €100
 
@@ -63,13 +63,13 @@ No player data yet.
 | 20:00 | 🟥 20% | 5 |
 | 21:00 | 🟥 14% | 7 |
 | 22:00 | 🟥 20% | 10 |
-| 23:00 | 🟥 0% | 8 |
+| 23:00 | 🟥 11% | 9 |
 
 ## All games seen
 
 | Game | Running in | Most often | Last seen |
 |:--|--:|:--|:--|
-| Dealer's Choice €1/2 | 2% of checks | Fri around 22:00 | 2026-10-16 22:30 |
+| Dealer's Choice €1/2 | 3% of checks | Fri around 22:00 | 2026-10-16 23:30 |
 
 ---
 Raw data: `data/olympic-vilnius` (one CSV file per month).
