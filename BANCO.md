@@ -2,10 +2,10 @@
 
 Checks [its website](https://bancocasino.sk/ba/en) together with King's, about every 10 minutes. All times are **Czech time** (same as Poland and Slovakia). Back to [King's](README.md).
 
-**Last check:** 2026-10-16 17:30 — ✅ OK  
-**Checks so far:** 475 successful out of 979 (since 2026-10-10)
+**Last check:** 2026-10-16 17:40 — ✅ OK  
+**Checks so far:** 476 successful out of 980 (since 2026-10-10)
 
-## Tables running at 2026-10-16 17:30
+## Tables running at 2026-10-16 17:40
 
 ```
 Dealer's Choice  €2/2     8 players
@@ -84,7 +84,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 14:00 | · | 8 | 0 | 1 | 2 | · | · | 3 |
 | 15:00 | · | 8 | 4 | 0 | 0 | · | · | 3 |
 | 16:00 | · | 8 | 8 | 2 | 0 | · | · | 4 |
-| 17:00 | · | 6 | 7 | 7 | 0 | · | · | 6 |
+| 17:00 | · | 6 | 7 | 7 | 0 | · | · | 5 |
 | 18:00 | · | 6 | 7 | 5 | · | · | · | 6 |
 | 19:00 | · | 8 | 7 | 2 | · | · | · | 6 |
 | 20:00 | · | 3 | 7 | 0 | · | · | · | 3 |
@@ -144,7 +144,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 14:00 | 🟨 33% | 🟨 46% | 🟥 0% | 🟥 8% | 24 |
 | 15:00 | 🟨 38% | 🟨 38% | 🟥 0% | 🟨 50% | 24 |
 | 16:00 | 🟨 25% | 🟨 58% | 🟥 0% | 🟨 42% | 24 |
-| 17:00 | 🟨 36% | 🟩 82% | 🟥 0% | 🟥 18% | 22 |
+| 17:00 | 🟨 35% | 🟩 78% | 🟥 0% | 🟥 22% | 23 |
 | 18:00 | 🟨 67% | 🟩 100% | 🟥 0% | 🟥 0% | 18 |
 | 19:00 | 🟨 33% | 🟩 94% | 🟥 6% | 🟥 0% | 18 |
 | 20:00 | 🟨 44% | 🟨 56% | 🟨 33% | 🟥 0% | 18 |
@@ -159,7 +159,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | NLH €1/3 | 40% of checks | Tue around 12:00 | 2026-10-16 03:40 |
 | PLO 4/5 €2/2 | 35% of checks | Tue around 12:00 | 2026-10-16 14:50 |
 | PLO €25/50 | 15% of checks | Thu around 20:00 | 2026-10-16 07:30 |
-| Dealer's Choice €2/2 | 6% of checks | Thu around 15:00 | 2026-10-16 17:30 |
+| Dealer's Choice €2/2 | 6% of checks | Thu around 15:00 | 2026-10-16 17:40 |
 
 ---
 The numbers count Bratislava only (Banco's list also shows Košice, kept in words above). Banco shows no seat counts, so tables show players only.
