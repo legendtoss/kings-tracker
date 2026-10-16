@@ -2,10 +2,10 @@
 
 Checks [its website](https://bancocasino.sk/ba/en) together with King's, about every 10 minutes. All times are **Czech time** (same as Poland and Slovakia). Back to [King's](README.md).
 
-**Last check:** 2026-10-16 05:50 — ✅ OK  
-**Checks so far:** 405 successful out of 909 (since 2026-10-10)
+**Last check:** 2026-10-16 06:00 — ✅ OK  
+**Checks so far:** 406 successful out of 910 (since 2026-10-10)
 
-## Tables running at 2026-10-16 05:50
+## Tables running at 2026-10-16 06:00
 
 ```
 PLO  €25/50   7 players
@@ -44,7 +44,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 03:00 | · | · | 0 | 8 | 5 | · | · | 4 |
 | 04:00 | · | · | 0 | 8 | 0 | · | · | 3 |
 | 05:00 | · | · | 0 | 8 | 0 | · | · | 3 |
-| 06:00 | · | · | 0 | 8 | · | · | · | 4 |
+| 06:00 | · | · | 0 | 8 | 0 | · | · | 3 |
 | 07:00 | · | · | 0 | 6 | · | · | · | 3 |
 | 08:00 | · | · | 0 | 0 | · | · | · | 0 |
 | 09:00 | · | · | 0 | 0 | · | · | · | 0 |
@@ -73,7 +73,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 03:00 | · | · | 0 | 5 | 0 | · | · | 2 |
 | 04:00 | · | · | 0 | 0 | 0 | · | · | 0 |
 | 05:00 | · | · | 0 | 0 | 0 | · | · | 0 |
-| 06:00 | · | · | 0 | 0 | · | · | · | 0 |
+| 06:00 | · | · | 0 | 0 | 0 | · | · | 0 |
 | 07:00 | · | · | 0 | 0 | · | · | · | 0 |
 | 08:00 | · | · | 0 | 0 | · | · | · | 0 |
 | 09:00 | · | · | 0 | 0 | · | · | · | 0 |
@@ -102,7 +102,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 03:00 | · | · | 0 | 0 | 7 | · | · | 2 |
 | 04:00 | · | · | 0 | 0 | 7 | · | · | 2 |
 | 05:00 | · | · | 0 | 0 | 7 | · | · | 2 |
-| 06:00 | · | · | 0 | 0 | · | · | · | 0 |
+| 06:00 | · | · | 0 | 0 | 7 | · | · | 0 |
 | 07:00 | · | · | 0 | 0 | · | · | · | 0 |
 | 08:00 | · | · | 0 | 0 | · | · | · | 0 |
 | 09:00 | · | · | 0 | 0 | · | · | · | 0 |
@@ -133,7 +133,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 03:00 | 🟨 63% | 🟨 32% | 🟨 32% | 🟥 0% | 19 |
 | 04:00 | 🟨 33% | 🟥 0% | 🟨 33% | 🟥 0% | 18 |
 | 05:00 | 🟨 33% | 🟥 0% | 🟨 33% | 🟥 0% | 18 |
-| 06:00 | 🟨 46% | 🟥 0% | 🟥 0% | 🟥 0% | 13 |
+| 06:00 | 🟨 43% | 🟥 0% | 🟥 7% | 🟥 0% | 14 |
 | 07:00 | 🟨 50% | 🟥 0% | 🟥 0% | 🟥 0% | 12 |
 | 08:00 | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 12 |
 | 09:00 | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 12 |
@@ -158,7 +158,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 |:--|--:|:--|:--|
 | NLH €1/3 | 47% of checks | Tue around 12:00 | 2026-10-16 03:40 |
 | PLO 4/5 €2/2 | 40% of checks | Tue around 12:00 | 2026-10-15 22:50 |
-| PLO €25/50 | 15% of checks | Thu around 20:00 | 2026-10-16 05:50 |
+| PLO €25/50 | 15% of checks | Thu around 20:00 | 2026-10-16 06:00 |
 | Dealer's Choice €2/2 | 3% of checks | Thu around 15:00 | 2026-10-15 16:30 |
 
 ---
