@@ -2,12 +2,12 @@
 
 Checks King's live cash games and tournaments about every 10 minutes and updates this page by itself. All times are **Czech time** (same as Poland). Also tracking: [Card Casino Šamorín](CARD_CASINO.md) · [Grand Casino Aš](GRAND_CASINO_AS.md) · [Banco Casino Bratislava](BANCO.md) · [Olympic Park Tallinn](OLYMPIC_TALLINN.md) · [Olympic Casino Vilnius](OLYMPIC_VILNIUS.md).
 
-**Right now:** King's: 1 table, 4 players · [Card Casino Šamorín](CARD_CASINO.md): 0 tables, 0 players · [Grand Casino Aš](GRAND_CASINO_AS.md) 🎪 PLO festival: 0 tables running · [Olympic Park Tallinn](OLYMPIC_TALLINN.md) 🎪 Kings of Tallinn: 3 tables, 20 players (1 waiting) at 08:30 · [Olympic Vilnius](OLYMPIC_VILNIUS.md): 0 tables, 0 players (9 waiting) at 08:30 · [Banco](BANCO.md): 0 tables, 0 players
+**Right now:** King's: 1 table, 4 players · [Card Casino Šamorín](CARD_CASINO.md): 0 tables, 0 players · [Grand Casino Aš](GRAND_CASINO_AS.md) 🎪 PLO festival: 0 tables running · [Olympic Park Tallinn](OLYMPIC_TALLINN.md) 🎪 Kings of Tallinn: 3 tables, 20 players (2 waiting) at 09:00 · [Olympic Vilnius](OLYMPIC_VILNIUS.md): blocked at 09:00 · [Banco](BANCO.md): 0 tables, 0 players
 
-**Last check:** 2026-10-16 08:50 — ✅ OK (data feed)  
-**Last 24 h:** 145 of 145 checks OK, longest gap 0 h 11 min · **Collecting since:** 2026-10-06 (1135 good checks)
+**Last check:** 2026-10-16 09:00 — ✅ OK (data feed)  
+**Last 24 h:** 145 of 145 checks OK, longest gap 0 h 11 min · **Collecting since:** 2026-10-06 (1136 good checks)
 
-## Tables running at 2026-10-16 08:50
+## Tables running at 2026-10-16 09:00
 
 ```
 NLH  €1/2     4/8 players
@@ -83,7 +83,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 06:00 | 7 | 3 | 7 | 3 | 4 | 17 | 14 | 7 |
 | 07:00 | 7 | 3 | 8 | 1 | 5 | 17 | 12 | 7 |
 | 08:00 | 6 | 2 | 5 | 1 | 5 | 12 | 9 | 5 |
-| 09:00 | 2 | 1 | 3 | 2 | · | 14 | 6 | 4 |
+| 09:00 | 2 | 1 | 3 | 2 | 4 | 14 | 6 | 4 |
 | 10:00 | 0 | 2 | 0 | 4 | · | 15 | 8 | 4 |
 | 11:00 | 0 | 2 | 1 | 5 | · | 15 | 10 | 5 |
 | 12:00 | 2 | 2 | 7 | 1 | · | 21 | 20 | 8 |
@@ -112,7 +112,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 06:00 | 0 | 5 | 1 | 0 | 1 | 0 | 0 | 1 |
 | 07:00 | 0 | 4 | 1 | 0 | 0 | 0 | 0 | 1 |
 | 08:00 | 0 | 3 | 1 | 0 | 0 | 0 | 0 | 1 |
-| 09:00 | 0 | 1 | 0 | 0 | · | 0 | 0 | 0 |
+| 09:00 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 10:00 | 0 | 2 | 0 | 0 | · | 0 | 0 | 0 |
 | 11:00 | 0 | 2 | 0 | 0 | · | 0 | 0 | 0 |
 | 12:00 | 0 | 2 | 0 | 0 | · | 0 | 0 | 0 |
@@ -141,7 +141,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 06:00 | 0 | 0 | 0 | 0 | 0 | 6 | 0 | 1 |
 | 07:00 | 0 | 0 | 0 | 0 | 0 | 3 | 0 | 0 |
 | 08:00 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 09:00 | 0 | 0 | 0 | 0 | · | 0 | 0 | 0 |
+| 09:00 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 10:00 | 0 | 0 | 0 | 0 | · | 0 | 0 | 0 |
 | 11:00 | 0 | 0 | 0 | 0 | · | 0 | 0 | 0 |
 | 12:00 | 0 | 0 | 0 | 0 | · | 2 | 0 | 0 |
@@ -172,7 +172,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 06:00 | 🟨 63% | 🟨 29% | 🟥 6% | 🟥 12% | 🟥 10% | 🟥 6% | 🟥 6% | 🟥 0% | 52 |
 | 07:00 | 🟨 61% | 🟨 29% | 🟥 6% | 🟥 8% | 🟥 6% | 🟥 6% | 🟥 4% | 🟥 0% | 51 |
 | 08:00 | 🟨 61% | 🟥 16% | 🟥 0% | 🟥 0% | 🟥 6% | 🟥 4% | 🟥 6% | 🟥 0% | 51 |
-| 09:00 | 🟨 50% | 🟥 7% | 🟥 0% | 🟥 0% | 🟥 2% | 🟥 2% | 🟥 5% | 🟥 0% | 42 |
+| 09:00 | 🟨 51% | 🟥 7% | 🟥 0% | 🟥 0% | 🟥 2% | 🟥 2% | 🟥 5% | 🟥 0% | 43 |
 | 10:00 | 🟨 43% | 🟥 7% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 7% | 🟥 2% | 🟥 0% | 42 |
 | 11:00 | 🟨 46% | 🟥 7% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 7% | 🟥 0% | 🟥 0% | 41 |
 | 12:00 | 🟨 58% | 🟥 7% | 🟥 0% | 🟥 7% | 🟥 0% | 🟥 7% | 🟥 0% | 🟥 0% | 43 |
@@ -196,7 +196,7 @@ Collecting since 2026-10-08. Shown from 2026-10-22: with fewer than two weeks, t
 
 | Game | Running in | Most often | Last seen |
 |:--|--:|:--|:--|
-| NLH €1/2 | 76% of checks | Thu around 01:00 | 2026-10-16 08:50 |
+| NLH €1/2 | 76% of checks | Thu around 01:00 | 2026-10-16 09:00 |
 | NLH €2/4 | 28% of checks | Wed around 02:00 | 2026-10-15 23:20 |
 | NLH €5/10 | 6% of checks | Sat around 23:00 | 2026-10-11 19:30 |
 | PLO €2/2 | 33% of checks | Fri around 22:00 | 2026-10-16 02:20 |
