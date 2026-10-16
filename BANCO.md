@@ -2,19 +2,18 @@
 
 Checks [its website](https://bancocasino.sk/ba/en) together with King's, about every 10 minutes. All times are **Czech time** (same as Poland and Slovakia). Back to [King's](README.md).
 
-**Last check:** 2026-10-16 22:10 — ✅ OK  
-**Checks so far:** 503 successful out of 1007 (since 2026-10-10)
+**Last check:** 2026-10-16 22:20 — ✅ OK  
+**Checks so far:** 504 successful out of 1008 (since 2026-10-10)
 
-## Tables running at 2026-10-16 22:10
+## Tables running at 2026-10-16 22:20
 
 ```
-NLH              €1/3     6 players
-Dealer's Choice  €2/2     4 players
+NLH  €1/3     6 players
 ```
-**NLH:** 6 players at 1 table · **Dealer's Choice:** 4 players at 1 table
+**NLH:** 6 players at 1 table
 
-*The whole list (Banco also shows its Košice casino; the numbers above are Bratislava only):* Bratislava: Dealer's Choice €2/2 4 players (buy-in €100), NLH €1/3 6 players (buy-in €100) Košice: NLH €1/3 8 players (buy-in €100)  
-**Tournaments running:** Friday P.K.O (25€+20€ Bounty): 46/93 players, level 8, blinds 600/1200, buy-in €25, €4000 GTD
+*The whole list (Banco also shows its Košice casino; the numbers above are Bratislava only):* Bratislava: NLH €1/3 6 players (buy-in €100) Košice: NLH €1/3 8 players (buy-in €100)  
+**Tournaments running:** Friday P.K.O (25€+20€ Bounty): 40/93 players, level 8, blinds 600/1200, buy-in €25, €4000 GTD
 
 **Note:** Since 13 Oct the tracker reads Banco's cash list and its live tournaments straight from where its page gets them; before that, its page's scripts didn't run in the tracker's browser, so those checks show as errors.
 
@@ -148,7 +147,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 19:00 | · | 0 | 0 | 0 | 6 | · | · | 2 |
 | 20:00 | · | 0 | 0 | 0 | 8 | · | · | 2 |
 | 21:00 | · | 0 | 0 | 0 | 7 | · | · | 2 |
-| 22:00 | · | 0 | 0 | 0 | 4 | · | · | 0 |
+| 22:00 | · | 0 | 0 | 0 | 3 | · | · | 0 |
 | 23:00 | · | 0 | 0 | 0 | · | · | · | 0 |
 
 ## How often each game was running, by hour (all days)
@@ -179,14 +178,14 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 19:00 | 🟨 25% | 🟨 71% | 🟥 4% | 🟨 25% | 24 |
 | 20:00 | 🟨 33% | 🟨 42% | 🟨 25% | 🟨 25% | 24 |
 | 21:00 | 🟨 72% | 🟨 52% | 🟥 24% | 🟥 24% | 25 |
-| 22:00 | 🟨 70% | 🟨 60% | 🟨 30% | 🟥 10% | 20 |
+| 22:00 | 🟨 71% | 🟨 57% | 🟨 29% | 🟥 10% | 21 |
 | 23:00 | 🟩 89% | 🟨 33% | 🟨 33% | 🟥 0% | 18 |
 
 ## All games seen
 
 | Game | Running in | Most often | Last seen |
 |:--|--:|:--|:--|
-| NLH €1/3 | 39% of checks | Tue around 12:00 | 2026-10-16 22:10 |
+| NLH €1/3 | 39% of checks | Tue around 12:00 | 2026-10-16 22:20 |
 | PLO 4/5 €2/2 | 33% of checks | Tue around 12:00 | 2026-10-16 14:50 |
 | PLO €25/50 | 14% of checks | Thu around 20:00 | 2026-10-16 07:30 |
 | Dealer's Choice €2/2 | 11% of checks | Thu around 15:00 | 2026-10-16 22:10 |
