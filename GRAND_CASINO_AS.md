@@ -2,16 +2,16 @@
 
 Reads [Grand Casino Aš's live cash games](https://www.grandcasinoas.eu/en/poker/poker-live) every 10 minutes and its [current tournaments](https://www.grandcasinoas.eu/en/poker) every 30 minutes. All times are **Czech time** (same as Poland). Back to [King's](README.md).
 
-**Last check:** 2026-10-16 13:50 — ✅ OK  
-**Last 24 h:** 145 of 145 checks OK, longest gap 0 h 11 min · **Collecting since:** 2026-10-10 (945 good checks)
+**Last check:** 2026-10-16 14:00 — ✅ OK  
+**Last 24 h:** 145 of 145 checks OK, longest gap 0 h 11 min · **Collecting since:** 2026-10-10 (946 good checks)
 
-## Cash games at 2026-10-16 13:50
+## Cash games at 2026-10-16 14:00
 
 ```
 PLO/NLH           waiting
 ```
 
-**Tournaments in play at 2026-10-16 13:30:** PLO Satellite to Main Event (PLO, €60, 10 of 12 left, late reg open, level 2, blinds 100/200)
+**Tournaments in play at 2026-10-16 14:00:** PLO Satellite to Main Event (PLO, €60, 17 of 22 left, late reg open, level 4, blinds 200/400)
 
 ## Festivals and schedule
 
@@ -37,7 +37,7 @@ PLO/NLH           waiting
 
 ## Running cash tables by hour
 
-*Normal days only: 230 checks during festivals, cash-game events or public holidays are compared separately in “Festivals, holidays and normal days” below.*
+*Normal days only: 231 checks during festivals, cash-game events or public holidays are compared separately in “Festivals, holidays and normal days” below.*
 
 Average number of running tables (Grand Casino Aš shows which games run, not how many players).
 
@@ -106,7 +106,7 @@ Average running tables per check on each kind of day, in total and for NLH and O
 | Days | Dates | Checks | Tables | NLH | Omaha | vs normal, same hour |
 |:--|:--|--:|--:|--:|--:|--:|
 | Normal days | 10–14 Oct (5 days) | 715 | 0.4 | 0.3 | 0.0 | -0.0 |
-| 🎪 PLO festival | 15–16 Oct (2 days) | 230 | 0.1 | 0.0 | 0.1 | -0.3 |
+| 🎪 PLO festival | 15–16 Oct (2 days) | 231 | 0.1 | 0.0 | 0.1 | -0.3 |
 
 ## Tournaments seen
 
@@ -114,7 +114,7 @@ The most recent ones. The game is read from the tournament's name.
 
 | Tournament | Game | Buy-in | Entries | Seen |
 |:--|:--|--:|--:|:--|
-| PLO Satellite to Main Event | PLO | €60 | 12 | 2026-10-16 13:30 |
+| PLO Satellite to Main Event | PLO | €60 | 22 | 2026-10-16 13:30 → 10-16 14:00 |
 | 550er PLO5 Highroller | PLO5 | €550 | 27 | 2026-10-15 20:30 → 10-16 01:00 |
 | PLO5 Satellite to 550er Highroller | PLO5 | €110 | 20 | 2026-10-15 18:00 → 10-15 21:00 |
 | Thursday 3K | NLH | €60 | 36 | 2026-10-15 20:00 → 10-15 21:00 |
