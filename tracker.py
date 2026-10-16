@@ -45,7 +45,7 @@ from zoneinfo import ZoneInfo
 
 # ---------------------------------------------------------------- settings
 
-VERSION = "v34"
+VERSION = "v35"
 
 PAGE_URL = os.environ.get("KINGS_URL", "https://kings-resort.com/poker/live")
 FEED_URL = os.environ.get("KINGS_FEED_URL", "https://admin.kings-resort.com/zeus/?data=cash_games_by_venue")
@@ -1772,8 +1772,14 @@ def load_rows():
 
 MONTHS = ("Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec")
 _WD, _MON = "(?:Mon|Tue|Wed|Thu|Fri|Sat|Sun)", "(?:" + "|".join(MONTHS) + ")"
-HM_LINE = re.compile(rf"^(?P<d1>{_WD}) (?P<n1>\d{{1,2}})(?: (?P<m1>{_MON}))?(?: - (?P<d2>{_WD}) (?P<n2>\d{{1,2}}) (?P<m2>{_MON}))?"
-                     rf"(?: at (?P<t>\d{{1,2}}:\d{{2}} ?[ap]m))?\s+(?P<rest>\S.*)$", re.I)
+# The day(s) and time that start an event in a copied Hendon Mob page: 'Fri 16 Oct at 4:00pm', 'Wed 14 - Mon 19 Oct',
+# 'Fri 23 Oct - Tue 3 Nov at 2:00pm'. Found anywhere, not only at the start of a line: the GitHub editor can squash a
+# copy together, without line breaks or tabs ('...Rozvadov' + 'Fri 16 Oct at 3:00pm' + 'Czech Republic€ 120 ...').
+HM_START = re.compile(rf"(?P<d1>{_WD}) (?P<n1>\d{{1,2}})(?: (?P<m1>{_MON}))?(?: - (?P<d2>{_WD}) (?P<n2>\d{{1,2}}) (?P<m2>{_MON}))?"
+                      rf"(?: at (?P<t>\d{{1,2}}:\d{{2}} ?[ap]m))?")
+HM_LOGO = re.compile(r"^(?:[A-Z][A-Z0-9]{1,5} ){1,2}(?=[€$£])")  # a series logo's name before the buy-in: 'KOT € 1,100'
+HM_MISREAD = re.compile(r"^at \d{1,2}:\d{2} ?[ap]m")  # a title misread from a squashed copy by v34 and older
+HM_COUNTRIES = ("Czech Republic", "Slovakia", "Estonia", "Lithuania")
 HM_ROOM_RES = [(re.compile(r"\s*".join(re.escape(part) for part in name.replace("(", " ( ").replace(")", " ) ")
                                          .replace(",", " , ").split()), re.I), key) for name, key in HM_ROOMS]
 BUYIN_RE = re.compile(r"^(?:[A-Z]{2,6} )?€\s*(\d[\d,]*(?:\s*\+\s*\d[\d,]*)*)")
@@ -1823,31 +1829,41 @@ def hm_kind(title):
     return "tournament"
 
 
+def hm_starts(text):
+    """Each event in a copied Hendon Mob page: the match of its day(s) and time, and the rest of its text (country,
+    title, venue) up to the next event. Reads a tidy copy (one event per line, tabs between the parts) and a squashed
+    one alike. Only a day with a month counts, so a stray 'Sun 1' inside a title can't split an event."""
+    text = (text or "").replace("’", "'").replace("´", "'")
+    found = [m for m in HM_START.finditer(text) if m.group("m1") or m.group("m2")]
+    return [(m, " ".join(text[m.end():nxt.start() if nxt else len(text)].split()))
+            for m, nxt in zip(found, found[1:] + [None])]
+
+
+def hm_start_day(m, today):
+    """The first day of an event found by hm_starts."""
+    return hm_day(m.group("d1"), int(m.group("n1")), MONTHS.index(m.group("m1") or m.group("m2")) + 1, today)
+
+
 def parse_hendonmob(text, today):
-    """The events at the tracked rooms in a copied Hendon Mob 'upcoming events' page (other lines are ignored)."""
+    """The events at the tracked rooms in a copied Hendon Mob 'upcoming events' page (other events are ignored)."""
     events = []
-    for raw in (text or "").splitlines():
-        line = " ".join(raw.replace("’", "'").replace("´", "'").split())
-        m = HM_LINE.match(line)
-        if not m:
-            continue
-        rest = m.group("rest")
+    for m, rest in hm_starts(text):
         found = next(((regex.search(rest), key) for regex, key in HM_ROOM_RES if regex.search(rest)), None)
         if not found:
             continue
         venue, room = found
         title = rest[:venue.start()].rstrip(" ,")
-        for country in ("Czech Republic", "Slovakia", "Estonia", "Lithuania"):
-            if title.startswith(country + " "):
-                title = title[len(country) + 1:].strip()
+        for country in HM_COUNTRIES:  # a squashed copy has no space after it: 'Czech Republic€ 120 ...'
+            if title.startswith(country):
+                title = title[len(country):].strip()
                 break
-        month = m.group("m1") or m.group("m2")
-        start = hm_day(m.group("d1"), int(m.group("n1")), MONTHS.index(month.title()) + 1, today) if month else None
+        title = HM_LOGO.sub("", title)  # only some copies carry the logo's name, so it's never kept
+        start = hm_start_day(m, today)
         if not title or not start:
             continue
         end = start
         if m.group("n2"):
-            end = hm_day(m.group("d2"), int(m.group("n2")), MONTHS.index(m.group("m2").title()) + 1, today) or start
+            end = hm_day(m.group("d2"), int(m.group("n2")), MONTHS.index(m.group("m2")) + 1, today) or start
             end = end if timedelta(0) <= end - start <= timedelta(days=60) else start
         buy = BUYIN_RE.match(title)
         kind = hm_kind(title)
@@ -1862,26 +1878,14 @@ def parse_hendonmob(text, today):
 
 def hm_last_day(text, today):
     """The last day a copied Hendon Mob page covers (any venue), so events past it are never touched."""
-    last = None
-    for raw in (text or "").splitlines():
-        m = HM_LINE.match(" ".join(raw.split()))
-        month = m and (m.group("m1") or m.group("m2"))
-        if month:
-            d = hm_day(m.group("d1"), int(m.group("n1")), MONTHS.index(month.title()) + 1, today)
-            last = max(last, d) if last and d else d or last
-    return last
+    return max((d for d in (hm_start_day(m, today) for m, _ in hm_starts(text)) if d), default=None)
 
 
 def hm_first_day(text, today):
     """The first day a copied Hendon Mob page covers: its earliest one-day event (any venue). Events of
     several days that started earlier are listed too, so those don't count."""
-    first = None
-    for raw in (text or "").splitlines():
-        m = HM_LINE.match(" ".join(raw.split()))
-        if m and m.group("m1") and not m.group("n2"):
-            d = hm_day(m.group("d1"), int(m.group("n1")), MONTHS.index(m.group("m1").title()) + 1, today)
-            first = min(first, d) if first and d else d or first
-    return first
+    return min((d for d in (hm_start_day(m, today) for m, _ in hm_starts(text) if m.group("m1") and not m.group("n2"))
+                if d), default=None)
 
 
 def paste_window(text, today, pasted_on):
@@ -1912,17 +1916,41 @@ def merge_schedule(known, events, since, last_day):
     return known
 
 
+def tidy_schedule(rows):
+    """Stored schedule rows, keyed for merging. Rows misread from a squashed copy by v34 and older are dropped (the
+    title starts with the time: 'at 12:00pmIreland ...'), and a series logo's name in front of a title comes off,
+    as copies are read that way now."""
+    known = {}
+    for r in rows:
+        if HM_MISREAD.match(r["title"]):
+            continue
+        r = dict(r, title=HM_LOGO.sub("", r["title"]))
+        known[(r["room"], r["date"], r["time"], r["title"])] = r
+    return known
+
+
+def incomplete_rooms(known, events, since, last_day):
+    """Rooms a copy can't be trusted for: in the days it covers it lists fewer than half of the events already known
+    there (at least 10). That's a garbled or cut-short copy rather than half the schedule being cancelled, so it
+    isn't used for those rooms and the README asks for a fresh paste."""
+    def count(pairs, room):
+        return sum(1 for r, d in pairs if r == room and since <= d <= last_day)
+    have, listed = [(k[0], k[1]) for k in known], [(e["room"], e["date"]) for e in events]
+    return sorted(room for room in {e["room"] for e in events}
+                  if count(have, room) >= 10 and count(listed, room) < count(have, room) / 2)
+
+
 def update_schedule(today):
     """Every event read from hendonmob.txt so far, kept in data/schedule/events.csv: replacing hendonmob.txt with a
     fresh copy adds new events and keeps the old ones, so past days can still be compared."""
-    known = {}
+    rows = []
     try:
         with SCHEDULE_FILE.open(newline="", encoding="utf-8-sig") as fh:
-            for r in csv.DictReader(fh):
-                known[(r["room"], r["date"], r["time"], r["title"])] = {k: r.get(k) or "" for k in SCHEDULE_FIELDS}
+            rows = [{k: r.get(k) or "" for k in SCHEDULE_FIELDS} for r in csv.DictReader(fh)]
     except OSError:
         pass
-    saved = {k: dict(v) for k, v in known.items()}
+    saved = {(r["room"], r["date"], r["time"], r["title"]): dict(r) for r in rows}
+    known = tidy_schedule(rows)
     try:
         text = HENDONMOB_FILE.read_text(encoding="utf-8", errors="replace")
     except OSError:
@@ -1933,12 +1961,22 @@ def update_schedule(today):
             state = json.loads(PASTE_STATE.read_text(encoding="utf-8"))
         except (OSError, ValueError):
             state = {}
+        before = dict(state)
         digest = hashlib.sha256(text.encode("utf-8")).hexdigest()[:16]
         if state.get("hash") != digest:  # a new copy: it speaks for the days from today on
             state = {"hash": digest, "from": today.isoformat()}
+        since, last_day = paste_window(text, today, state.get("from", today.isoformat()))
+        skipped = incomplete_rooms(known, events, since, last_day)
+        if skipped:
+            print(f"::warning::hendonmob.txt lists under half of the known events for {', '.join(skipped)}, "
+                  "so it wasn't used for them (a garbled or cut-short copy?)")
+            state["incomplete"] = skipped
+        else:
+            state.pop("incomplete", None)
+        merge_schedule(known, [e for e in events if e["room"] not in skipped], since, last_day)
+        if state != before:
             PASTE_STATE.parent.mkdir(parents=True, exist_ok=True)
             PASTE_STATE.write_text(json.dumps(state), encoding="utf-8")
-        merge_schedule(known, events, *paste_window(text, today, state.get("from", today.isoformat())))
     for e in known.values():  # re-read the game of older rows too, in case the reading has improved
         e["kind"] = hm_kind(e["title"])
         e["game"] = "Other" if e["kind"] == "other" else tourney_game(e["title"])
@@ -2120,14 +2158,23 @@ def calendar_lines(room, now):
 
 
 def schedule_reminder(today):
-    """A nudge on the README when hendonmob.txt hasn't been refreshed for three weeks."""
+    """A nudge on the README when hendonmob.txt hasn't been refreshed for three weeks, or when the last copy looked
+    garbled or cut short for some rooms (then it wasn't used for them)."""
     try:
-        pasted = date.fromisoformat(json.loads(PASTE_STATE.read_text(encoding="utf-8"))["from"])
+        state = json.loads(PASTE_STATE.read_text(encoding="utf-8"))
+        pasted = date.fromisoformat(state["from"])
     except (OSError, ValueError, KeyError, TypeError):
         return []
+    out = []
+    if state.get("incomplete"):
+        names = ", ".join(ROOMS[r][0] if r in ROOMS else r for r in state["incomplete"])
+        out += [f"⚠️ **`hendonmob.txt` looks incomplete for {names}**, so their schedule wasn't changed — paste the "
+                "whole Hendon Mob page again (in the editor: Ctrl+A, then paste).", ""]
     age = (today - pasted).days
-    return [f"⏰ **`hendonmob.txt` was pasted {age} days ago** — paste a fresh copy of the Hendon Mob page (same filters) "
-            "so the schedule stays complete.", ""] if age >= 21 else []
+    if age >= 21:
+        out += [f"⏰ **`hendonmob.txt` was pasted {age} days ago** — paste a fresh copy of the Hendon Mob page (same "
+                "filters) so the schedule stays complete.", ""]
+    return out
 
 
 def all_rooms_calendar_lines(now, limit=30):
@@ -2853,6 +2900,7 @@ def self_test():
     self_test_v32()
     self_test_v33()
     self_test_v34()
+    self_test_v35()
 
 
 def self_test_v32():
@@ -2936,6 +2984,70 @@ def self_test_v34():
     assert ("cardcasino", "2026-10-21", "15:00", sat) in merged and ("cardcasino", "2026-10-21", "19:00", sat) in merged
     assert ("kings", "2026-10-16", "15:00", ladies) in merged and ("kings", "2026-10-16", "", ladies) not in merged
     assert len(merged) == 6, sorted(merged)
+
+
+def self_test_v35():
+    """Checks for the v35 change: a copy squashed together by the editor (no line breaks or tabs) reads like a tidy one."""
+    squashed = ("5,347 Events: 16 October - 25 December 2026\n"
+                "Wed 14 - Sun 18 OctEstonia\xa0€ 1,100 No Limit Hold'em - Kings of Tallinn Main Event Flight 1A (Event #33), "
+                "Olympic Park Casino, TallinnWed 14 - Fri 16 OctFrance€ 210 + 40 No Limit Hold'em - Cup 250 Day1A, Pasino Grand "
+                "Aix en Provence, Aix-en-Provence16-Oct-2026FridayFri 16 OctBelgium€ 80 No Limit Hold'em - PKR4U Big Stack 80, "
+                "PKR4U Poker Room, BrusselsFri 16 Oct at 3:00pmCzech Republic€ 120 No Limit Hold'em - DPM Ladies Event, King's "
+                "Resort Live, Rozvadov Fri 16 Oct at 3:00pmTaiwanNT$ 5,100 + 900 Pot Limit Omaha - Battle Stack PLO, Asia Poker "
+                "Arena - CTP Poker Club, Taipei City\n"
+                "Fri 16 Oct at 4:00pmCzech Republic€ 40 Satellite to DPM ME - Day 1 PRAGUE, King's Casino Prague (Formerly "
+                "Casino Atrium - Hilton Hotel), PragueFri 16 Oct at 4:00pmCzech RepublicFlip n Go Satellite to DPM ME Day 1D, "
+                "King's Resort Live, RozvadovFri 16 - Sun 18 Oct at 4:00pmCzech Republic€ 300 + 40 Pot Limit Omaha - Main Event "
+                "- Day 1A, Grand Casino Asch ( Aš ), AschSat 24 Oct at 6:00pmLithuaniaNo Limit Texas Hold'em, Warm -up, Olympic "
+                "Casino Donelaitis, KaunasFri 6 - Mon 16 Nov at 6:00pmSlovakia€ 150 No Limit Hold'em - Main Event Day 1A (Event "
+                "#1), Banco Casino, BratislavaFri 25 Dec at 6:00pmSerbiaRSD 11,000 No Limit Hold'em, Grand Casino Admiral "
+                "Beograd, Belgrade")
+    tidy = ("5,347 Events: 16 October - 25 December 2026\n14-Oct-2026\tWednesday\n"
+            "Wed 14 - Sun 18 Oct\tEstonia\tKOT € 1,100 No Limit Hold'em - Kings of Tallinn Main Event Flight 1A (Event #33), "
+            "Olympic Park Casino, Tallinn\n"
+            "Wed 14 - Fri 16 Oct\tFrance\t€ 210 + 40 No Limit Hold'em - Cup 250 Day1A, Pasino Grand Aix en Provence, Aix-en-Provence\n"
+            "16-Oct-2026\tFriday\nFri 16 Oct\tBelgium\t€ 80 No Limit Hold'em - PKR4U Big Stack 80, PKR4U Poker Room, Brussels\n"
+            "Fri 16 Oct at 3:00pm\tCzech Republic\t€ 120 No Limit Hold'em - DPM Ladies Event, King's Resort Live, Rozvadov "
+            "Entry restricted\n"
+            "Fri 16 Oct at 3:00pm\tTaiwan\tNT$ 5,100 + 900 Pot Limit Omaha - Battle Stack PLO, Asia Poker Arena - CTP Poker Club, "
+            "Taipei City\n"
+            "Fri 16 Oct at 4:00pm\tCzech Republic\t€ 40 Satellite to DPM ME - Day 1 PRAGUE, King's Casino Prague (Formerly "
+            "Casino Atrium - Hilton Hotel), Prague\n"
+            "Fri 16 Oct at 4:00pm\tCzech Republic\tFlip n Go Satellite to DPM ME Day 1D, King's Resort Live, Rozvadov\n"
+            "Fri 16 - Sun 18 Oct at 4:00pm\tCzech Republic\t€ 300 + 40 Pot Limit Omaha - Main Event - Day 1A, Grand Casino "
+            "Asch ( Aš ), Asch\n"
+            "Sat 24 Oct at 6:00pm\tLithuania\tNo Limit Texas Hold'em, Warm -up, Olympic Casino Donelaitis, Kaunas\n"
+            "Fri 6 - Mon 16 Nov at 6:00pm\tSlovakia\t€ 150 No Limit Hold'em - Main Event Day 1A (Event #1), Banco Casino, "
+            "Bratislava\n"
+            "Fri 25 Dec at 6:00pm\tSerbia\tRSD 11,000 No Limit Hold'em, Grand Casino Admiral Beograd, Belgrade\n")
+    today = date(2026, 10, 16)
+    kot = "€ 1,100 No Limit Hold'em - Kings of Tallinn Main Event Flight 1A (Event #33)"
+    want = [("olympic-tallinn", "2026-10-14", "2026-10-18", "", "tournament", "1100", kot),
+            ("kings", "2026-10-16", "", "15:00", "tournament", "120", "€ 120 No Limit Hold'em - DPM Ladies Event"),
+            ("kings", "2026-10-16", "", "16:00", "satellite", "", "Flip n Go Satellite to DPM ME Day 1D"),
+            ("grandcasinoas", "2026-10-16", "2026-10-18", "16:00", "tournament", "340",
+             "€ 300 + 40 Pot Limit Omaha - Main Event - Day 1A"),
+            ("banco", "2026-11-06", "2026-11-16", "18:00", "tournament", "150",
+             "€ 150 No Limit Hold'em - Main Event Day 1A (Event #1)")]
+    for copy in (squashed, tidy):
+        got = [(e["room"], e["date"], e["end"], e["time"], e["kind"], e["buyin"], e["title"])
+               for e in parse_hendonmob(copy, today)]
+        assert got == want, got
+        assert paste_window(copy, today, "2026-10-15") == ("2026-10-16", "2026-12-25"), paste_window(copy, today, "2026-10-15")
+    assert parse_hendonmob(tidy, today)[1]["restricted"] == "yes"  # a squashed copy has lost that mark
+    junk = {"room": "kings", "date": "2026-10-15", "end": "", "time": "", "kind": "tournament", "game": "NLH", "buyin": "",
+            "title": "at 12:00pmIreland € 620 + 80 No Limit Hold'em - Killarney Main Event Day 1A, Gleneagle Arena, Killarney",
+            "restricted": ""}
+    timed = dict(junk, room="olympic-tallinn", date="2026-10-14", end="2026-10-18", time="12:00", buyin="1100",
+                 title="KOT " + kot)
+    known = tidy_schedule([junk, timed])
+    assert list(known) == [("olympic-tallinn", "2026-10-14", "12:00", kot)], list(known)
+    merge_schedule(known, parse_hendonmob(squashed, today), "2026-10-16", "2026-12-25")
+    assert ("olympic-tallinn", "2026-10-14", "", kot) not in known  # the same event, listed again without its time
+    assert ("grandcasinoas", "2026-10-16", "16:00", want[3][6]) in known
+    many = {("kings", f"2026-10-{d}", "20:00", f"€ 100 No Limit Hold'em - Daily {d}"): {} for d in range(16, 30)}
+    assert incomplete_rooms(many, parse_hendonmob(squashed, today), "2026-10-16", "2026-12-25") == ["kings"]
+    assert incomplete_rooms(dict(list(many.items())[:9]), parse_hendonmob(squashed, today), "2026-10-16", "2026-12-25") == []
 
 
 def last_row():
