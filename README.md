@@ -2,12 +2,12 @@
 
 Checks King's live cash games and tournaments about every 10 minutes and updates this page by itself. All times are **Czech time** (same as Poland). Also tracking: [Card Casino Šamorín](CARD_CASINO.md) · [Grand Casino Aš](GRAND_CASINO_AS.md) · [Banco Casino Bratislava](BANCO.md) · [Olympic Park Tallinn](OLYMPIC_TALLINN.md) · [Olympic Casino Vilnius](OLYMPIC_VILNIUS.md).
 
-**Right now:** King's: 3 tables, 24 players · [Card Casino Šamorín](CARD_CASINO.md): 0 tables, 0 players · [Grand Casino Aš](GRAND_CASINO_AS.md) 🎪 PLO festival: 0 tables running, 1 waiting · [Olympic Park Tallinn](OLYMPIC_TALLINN.md) 🎪 Kings of Tallinn: 1 table, 9 players (8 waiting) at 14:00 · [Olympic Vilnius](OLYMPIC_VILNIUS.md): 0 tables, 0 players (13 waiting) at 14:00 · [Banco](BANCO.md): 1 table, 2 players
+**Right now:** King's: 3 tables, 24 players · [Card Casino Šamorín](CARD_CASINO.md): couldn't be read · [Grand Casino Aš](GRAND_CASINO_AS.md) 🎪 PLO festival: 0 tables running, 1 waiting · [Olympic Park Tallinn](OLYMPIC_TALLINN.md) 🎪 Kings of Tallinn: 1 table, 6 players (4 waiting) at 14:30 · [Olympic Vilnius](OLYMPIC_VILNIUS.md): blocked at 14:30 · [Banco](BANCO.md): 1 table, 2 players
 
-**Last check:** 2026-10-16 14:20 — ✅ OK (data feed)  
-**Last 24 h:** 145 of 145 checks OK, longest gap 0 h 11 min · **Collecting since:** 2026-10-06 (1168 good checks)
+**Last check:** 2026-10-16 14:30 — ✅ OK (data feed)  
+**Last 24 h:** 145 of 145 checks OK, longest gap 0 h 11 min · **Collecting since:** 2026-10-06 (1169 good checks)
 
-## Tables running at 2026-10-16 14:20
+## Tables running at 2026-10-16 14:30
 
 ```
 NLH  €1/2     8/8 players
@@ -16,7 +16,7 @@ NLH  €1/2     8/8 players
 ```
 **NLH:** 24 players at 3 tables
 
-**Tournaments in play:** DPM Friday Morning Bounty (50 Bounty) (NLH, €120, €50 bounty, 14 of 115 left, level 15, blinds 3000/6000/6000) · DPM - Day 1C (NLH, €225, 156 of 181 left, late reg open, level 3, blinds 200/500/500)
+**Tournaments in play:** DPM Friday Morning Bounty (50 Bounty) (NLH, €120, €50 bounty, 13 of 115 left, level 15, blinds 3000/6000/6000) · DPM - Day 1C (NLH, €225, 162 of 190 left, late reg open, level 4, blinds 300/600/600)
 
 ## Festivals and schedule
 
@@ -179,7 +179,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 11:00 | 🟨 53% | 🟥 6% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 6% | 🟥 0% | 🟥 0% | 47 |
 | 12:00 | 🟨 63% | 🟥 6% | 🟥 0% | 🟥 6% | 🟥 0% | 🟥 6% | 🟥 0% | 🟥 0% | 49 |
 | 13:00 | 🟨 69% | 🟥 6% | 🟥 0% | 🟥 12% | 🟥 4% | 🟥 6% | 🟥 0% | 🟥 0% | 48 |
-| 14:00 | 🟨 67% | 🟨 33% | 🟥 0% | 🟥 20% | 🟥 17% | 🟥 7% | 🟥 0% | 🟥 0% | 46 |
+| 14:00 | 🟨 68% | 🟨 32% | 🟥 0% | 🟥 19% | 🟥 17% | 🟥 6% | 🟥 0% | 🟥 0% | 47 |
 | 15:00 | 🟩 80% | 🟥 20% | 🟥 0% | 🟨 29% | 🟨 34% | 🟥 5% | 🟥 0% | 🟥 0% | 41 |
 | 16:00 | 🟩 81% | 🟨 25% | 🟥 0% | 🟨 29% | 🟨 40% | 🟥 6% | 🟥 0% | 🟥 0% | 48 |
 | 17:00 | 🟩 81% | 🟥 21% | 🟥 13% | 🟨 38% | 🟨 47% | 🟥 6% | 🟥 0% | 🟥 0% | 47 |
@@ -198,7 +198,7 @@ Collecting since 2026-10-08. Shown from 2026-10-22: with fewer than two weeks, t
 
 | Game | Running in | Most often | Last seen |
 |:--|--:|:--|:--|
-| NLH €1/2 | 76% of checks | Thu around 01:00 | 2026-10-16 14:20 |
+| NLH €1/2 | 76% of checks | Thu around 01:00 | 2026-10-16 14:30 |
 | NLH €2/4 | 27% of checks | Wed around 02:00 | 2026-10-15 23:20 |
 | NLH €5/10 | 6% of checks | Sat around 23:00 | 2026-10-11 19:30 |
 | PLO €2/2 | 32% of checks | Fri around 22:00 | 2026-10-16 02:20 |
@@ -215,8 +215,8 @@ The most recent ones. The game is read from the tournament's name.
 
 | Tournament | Game | Buy-in | Entries | Seen |
 |:--|:--|--:|--:|:--|
-| DPM Friday Morning Bounty (50 Bounty) | NLH | €120 | 115 | 2026-10-16 10:00 → 10-16 14:20 |
-| DPM - Day 1C | NLH | €225 | 181 | 2026-10-16 13:20 → 10-16 14:20 |
+| DPM Friday Morning Bounty (50 Bounty) | NLH | €120 | 115 | 2026-10-16 10:00 → 10-16 14:30 |
+| DPM - Day 1C | NLH | €225 | 190 | 2026-10-16 13:20 → 10-16 14:30 |
 | DPT - Day 1C | NLH | €225 | 136 | 2026-10-16 12:00 → 10-16 13:10 |
 | Dutch Poker Masters - Day 1B | NLH | €225 | 183 | 2026-10-15 17:01 → 10-16 02:40 |
 | DPM Morning Bounty (25 Bounty) | NLH | €105 | 113 | 2026-10-15 12:00 → 10-15 18:50 |
