@@ -2,10 +2,10 @@
 
 Checks [its website](https://bancocasino.sk/ba/en) together with King's, about every 10 minutes. All times are **Czech time** (same as Poland and Slovakia). Back to [King's](README.md).
 
-**Last check:** 2026-10-16 10:50 — ✅ OK  
-**Checks so far:** 435 successful out of 939 (since 2026-10-10)
+**Last check:** 2026-10-16 11:00 — ✅ OK  
+**Checks so far:** 436 successful out of 940 (since 2026-10-10)
 
-## Tables running at 2026-10-16 10:50
+## Tables running at 2026-10-16 11:00
 
 No tables were running.
 
@@ -46,7 +46,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 08:00 | · | · | 0 | 0 | 0 | · | · | 0 |
 | 09:00 | · | · | 0 | 0 | 0 | · | · | 0 |
 | 10:00 | · | · | 0 | 0 | 0 | · | · | 0 |
-| 11:00 | · | 5 | 0 | 0 | · | · | · | 1 |
+| 11:00 | · | 5 | 0 | 0 | 0 | · | · | 1 |
 | 12:00 | · | 14 | 0 | 0 | · | · | · | 5 |
 | 13:00 | · | 22 | 0 | 0 | · | · | · | 7 |
 | 14:00 | · | 21 | 0 | 1 | · | · | · | 7 |
@@ -75,7 +75,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 08:00 | · | · | 0 | 0 | 0 | · | · | 0 |
 | 09:00 | · | · | 0 | 0 | 0 | · | · | 0 |
 | 10:00 | · | · | 0 | 0 | 0 | · | · | 0 |
-| 11:00 | · | 6 | 0 | 0 | · | · | · | 1 |
+| 11:00 | · | 6 | 0 | 0 | 0 | · | · | 1 |
 | 12:00 | · | 8 | 0 | 0 | · | · | · | 3 |
 | 13:00 | · | 8 | 0 | 0 | · | · | · | 3 |
 | 14:00 | · | 8 | 0 | 1 | · | · | · | 3 |
@@ -104,7 +104,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 08:00 | · | · | 0 | 0 | 0 | · | · | 0 |
 | 09:00 | · | · | 0 | 0 | 0 | · | · | 0 |
 | 10:00 | · | · | 0 | 0 | 0 | · | · | 0 |
-| 11:00 | · | 0 | 0 | 0 | · | · | · | 0 |
+| 11:00 | · | 0 | 0 | 0 | 0 | · | · | 0 |
 | 12:00 | · | 0 | 0 | 0 | · | · | · | 0 |
 | 13:00 | · | 0 | 0 | 0 | · | · | · | 0 |
 | 14:00 | · | 0 | 0 | 0 | · | · | · | 0 |
@@ -135,7 +135,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 08:00 | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 18 |
 | 09:00 | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 18 |
 | 10:00 | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 18 |
-| 11:00 | 🟥 14% | 🟥 14% | 🟥 0% | 🟥 0% | 14 |
+| 11:00 | 🟥 13% | 🟥 13% | 🟥 0% | 🟥 0% | 15 |
 | 12:00 | 🟨 35% | 🟨 35% | 🟥 0% | 🟥 0% | 20 |
 | 13:00 | 🟨 33% | 🟨 33% | 🟥 0% | 🟥 0% | 18 |
 | 14:00 | 🟨 44% | 🟨 39% | 🟥 0% | 🟥 11% | 18 |
