@@ -2,17 +2,14 @@
 
 Checks [its website](https://bancocasino.sk/ba/en) together with King's, about every 10 minutes. All times are **Czech time** (same as Poland and Slovakia). Back to [King's](README.md).
 
-**Last check:** 2026-10-16 07:30 — ✅ OK  
-**Checks so far:** 415 successful out of 919 (since 2026-10-10)
+**Last check:** 2026-10-16 07:40 — ✅ OK  
+**Checks so far:** 416 successful out of 920 (since 2026-10-10)
 
-## Tables running at 2026-10-16 07:30
+## Tables running at 2026-10-16 07:40
 
-```
-PLO  €25/50   2 players
-```
-**PLO:** 2 players at 1 table
+No tables were running.
 
-*The whole list (Banco also shows its Košice casino; the numbers above are Bratislava only):* Bratislava: PLO €25/50 2 players (buy-in €2000)  
+*The whole list (Banco also shows its Košice casino; the numbers above are Bratislava only):* no games listed  
 **Tournaments running:** none
 
 **Note:** Since 13 Oct the tracker reads Banco's cash list and its live tournaments straight from where its page gets them; before that, its page's scripts didn't run in the tracker's browser, so those checks show as errors.
@@ -134,7 +131,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 04:00 | 🟨 33% | 🟥 0% | 🟨 33% | 🟥 0% | 18 |
 | 05:00 | 🟨 33% | 🟥 0% | 🟨 33% | 🟥 0% | 18 |
 | 06:00 | 🟨 32% | 🟥 0% | 🟨 32% | 🟥 0% | 19 |
-| 07:00 | 🟨 38% | 🟥 0% | 🟨 25% | 🟥 0% | 16 |
+| 07:00 | 🟨 35% | 🟥 0% | 🟥 24% | 🟥 0% | 17 |
 | 08:00 | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 12 |
 | 09:00 | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 12 |
 | 10:00 | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 12 |
@@ -157,7 +154,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | Game | Running in | Most often | Last seen |
 |:--|--:|:--|:--|
 | NLH €1/3 | 46% of checks | Tue around 12:00 | 2026-10-16 03:40 |
-| PLO 4/5 €2/2 | 40% of checks | Tue around 12:00 | 2026-10-15 22:50 |
+| PLO 4/5 €2/2 | 39% of checks | Tue around 12:00 | 2026-10-15 22:50 |
 | PLO €25/50 | 17% of checks | Thu around 20:00 | 2026-10-16 07:30 |
 | Dealer's Choice €2/2 | 3% of checks | Thu around 15:00 | 2026-10-15 16:30 |
 
