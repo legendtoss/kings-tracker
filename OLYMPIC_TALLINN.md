@@ -2,8 +2,8 @@
 
 Reads [OlyBet's live cash games page](https://olybetpoker.com/ee/en/cash-games/) every 30 minutes (their site has bot protection, so the tracker checks gently and simply records it when a check is refused). All times are **Czech time** (Tallinn and Vilnius are one hour ahead). Back to [King's](README.md).
 
-**Last check:** 2026-10-16 04:00 — ✅ OK  
-**Last 24 h:** 28 of 49 checks OK, longest gap 0 h 31 min · **Collecting since:** 2026-10-10 (153 good checks)
+**Last check:** 2026-10-16 04:30 — ⚠️ error: blocked by the site's bot protection — details in `debug/olympic-tallinn_page.json`  
+**Last 24 h:** 27 of 49 checks OK, longest gap 0 h 31 min · **Collecting since:** 2026-10-10 (153 good checks)
 
 **Club:** Olympic Park Casino
 
@@ -30,7 +30,13 @@ PLO/PLO5  €5/5/10  7/8 players
 - **Coming up:** 🎪 **The Hendon Mob Championship**, 20–23 Nov (festival) — €350 main event 20–22 Nov · Omaha: €350 Pot Limit Dealer's Choice (21 Nov 13:00); €200 Omaha Jack (22 Nov 21:00); €350 PLO 4/5/6 (23 Nov 14:00)
 - **Coming up:** 🎪 **The Festival**, 24–29 Nov (festival) — €555 main event 25–29 Nov; €200 Cash Game Challenge events 24–27 Nov · Omaha: €200 NLH/PLO Half n Half (24 Nov 20:00); €350 PLO Bomb Pot 4/5/6 (25 Nov 17:00); €200 Big O (25 Nov 20:00); €350 PLO Bomb Pot (26 Nov 15:00); €350 PLO 4/5 (27 Nov 15:00); €1,100 PLO High Roller (27 Nov 17:00); €350 PLO 4/5/6 Bomb Pot (28 Nov 13:00); €100 PLO Flips (29 Nov 12:30)
 
-No Omaha tournaments on the schedule in the next 14 days.
+**Omaha tournaments in the next 14 days** (from `hendonmob.txt`):
+
+| Day | Time (local) | Buy-in | Tournament |
+|:--|:--|--:|:--|
+| Sat 17 Oct | 13:00 | €350 | Pot Limit Omaha - PLO4 HI-LO/PLO5 HI-LO (Event #55) |
+| Sat 17 Oct | 19:00 | €350 | Mixed Games - NLH/PLO4/PLO5 (Event #59) |
+| Sun 18 Oct | 12:00 | €200 | Pot Limit Omaha - PLO4/PLO5/PLO6 Progressive Bounty (Event #62) |
 
 **Public holidays in the next 30 days** where most players come from (Estonia, Finland): Sat 31 Oct: All Saints' Day (Finland).
 
