@@ -2,19 +2,20 @@
 
 Reads [OlyBet's live cash games page](https://olybetpoker.com/lt/cash-games/?club=10) every 30 minutes (their site has bot protection, so the tracker checks gently and simply records it when a check is refused). All times are **Czech time** (Vilnius is one hour ahead). Back to [King's](README.md).
 
-**Last check:** 2026-10-17 23:00 — ⚠️ error: blocked by the site's bot protection — details in `debug/olympic-vilnius_page.json`  
-**Last 24 h:** 27 of 49 checks OK, longest gap 0 h 30 min · **Collecting since:** 2026-10-10 (203 good checks)
+**Last check:** 2026-10-17 23:30 — ✅ OK  
+**Last 24 h:** 28 of 49 checks OK, longest gap 0 h 30 min · **Collecting since:** 2026-10-10 (204 good checks)
 
 **Club:** Olympic Casino Vilnius, Lietuva
 
-## Tables running at 2026-10-17 22:30
+## Tables running at 2026-10-17 23:30
 
 ```
+NLH              €1/2     7/9 players
 Dealer's Choice  €1/2     7/8 players
 ```
-**Dealer's Choice:** 7 players at 1 table
+**NLH:** 7 players at 1 table · **Dealer's Choice:** 7 players at 1 table
 
-**Waiting lists:** 6 players · **All games listed:** Dealer's Choice €1/2 (opened): 1 table, 7/8 players, 0 waiting NLH €1/2 (waiting to start): 1 table, 0/9 players, 6 waiting
+**Waiting lists:** 0 players · **All games listed:** Dealer's Choice €1/2 (opened): 1 table, 7/8 players, 0 waiting NLH €1/2 (opened): 1 table, 7/9 players, 0 waiting
 
 **Tournaments on their site at 2026-10-17 22:00:** live 19:00 Olympic Casino Vilnius, Lietuva 17 NLH Unlimited WILD rebuys 5 levels + addon(10K) 5,000 €25
 
@@ -38,38 +39,39 @@ No player data yet.
 
 🟩 most of the time · 🟨 sometimes · 🟥 rarely
 
-| Hour | Dealer's Choice €1/2 | Checks |
-|:--|--:|--:|
-| 00:00 | 🟥 11% | 9 |
-| 01:00 | 🟥 12% | 8 |
-| 02:00 | 🟥 14% | 7 |
-| 03:00 | 🟥 18% | 11 |
-| 04:00 | 🟥 12% | 8 |
-| 05:00 | 🟥 0% | 9 |
-| 06:00 | 🟥 0% | 9 |
-| 07:00 | 🟥 0% | 7 |
-| 08:00 | 🟥 0% | 9 |
-| 09:00 | 🟥 0% | 9 |
-| 10:00 | 🟥 0% | 11 |
-| 11:00 | 🟥 0% | 8 |
-| 12:00 | 🟥 0% | 11 |
-| 13:00 | 🟥 0% | 10 |
-| 14:00 | 🟥 0% | 7 |
-| 15:00 | 🟥 0% | 8 |
-| 16:00 | 🟥 0% | 5 |
-| 17:00 | 🟥 0% | 7 |
-| 18:00 | 🟥 0% | 7 |
-| 19:00 | 🟥 0% | 7 |
-| 20:00 | 🟥 17% | 6 |
-| 21:00 | 🟨 33% | 9 |
-| 22:00 | 🟨 33% | 12 |
-| 23:00 | 🟥 11% | 9 |
+| Hour | NLH €1/2 | Dealer's Choice €1/2 | Checks |
+|:--|--:|--:|--:|
+| 00:00 | 🟥 0% | 🟥 11% | 9 |
+| 01:00 | 🟥 0% | 🟥 12% | 8 |
+| 02:00 | 🟥 0% | 🟥 14% | 7 |
+| 03:00 | 🟥 0% | 🟥 18% | 11 |
+| 04:00 | 🟥 0% | 🟥 12% | 8 |
+| 05:00 | 🟥 0% | 🟥 0% | 9 |
+| 06:00 | 🟥 0% | 🟥 0% | 9 |
+| 07:00 | 🟥 0% | 🟥 0% | 7 |
+| 08:00 | 🟥 0% | 🟥 0% | 9 |
+| 09:00 | 🟥 0% | 🟥 0% | 9 |
+| 10:00 | 🟥 0% | 🟥 0% | 11 |
+| 11:00 | 🟥 0% | 🟥 0% | 8 |
+| 12:00 | 🟥 0% | 🟥 0% | 11 |
+| 13:00 | 🟥 0% | 🟥 0% | 10 |
+| 14:00 | 🟥 0% | 🟥 0% | 7 |
+| 15:00 | 🟥 0% | 🟥 0% | 8 |
+| 16:00 | 🟥 0% | 🟥 0% | 5 |
+| 17:00 | 🟥 0% | 🟥 0% | 7 |
+| 18:00 | 🟥 0% | 🟥 0% | 7 |
+| 19:00 | 🟥 0% | 🟥 0% | 7 |
+| 20:00 | 🟥 0% | 🟥 17% | 6 |
+| 21:00 | 🟥 0% | 🟨 33% | 9 |
+| 22:00 | 🟥 0% | 🟨 33% | 12 |
+| 23:00 | 🟥 10% | 🟥 20% | 10 |
 
 ## All games seen
 
 | Game | Running in | Most often | Last seen |
 |:--|--:|:--|:--|
-| Dealer's Choice €1/2 | 7% of checks | Fri around 22:00 | 2026-10-17 22:30 |
+| NLH €1/2 | 0% of checks | Sat around 23:00 | 2026-10-17 23:30 |
+| Dealer's Choice €1/2 | 8% of checks | Fri around 22:00 | 2026-10-17 23:30 |
 
 ---
 Raw data: `data/olympic-vilnius` (one CSV file per month).
