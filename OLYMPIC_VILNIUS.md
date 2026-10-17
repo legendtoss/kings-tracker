@@ -2,16 +2,16 @@
 
 Reads [OlyBet's live cash games page](https://olybetpoker.com/lt/en/cash-games/) every 30 minutes (their site has bot protection, so the tracker checks gently and simply records it when a check is refused). All times are **Czech time** (Tallinn and Vilnius are one hour ahead). Back to [King's](README.md).
 
-**Last check:** 2026-10-17 11:00 — ✅ OK  
-**Last 24 h:** 29 of 49 checks OK, longest gap 0 h 30 min · **Collecting since:** 2026-10-10 (190 good checks)
+**Last check:** 2026-10-17 11:30 — ✅ OK  
+**Last 24 h:** 29 of 49 checks OK, longest gap 0 h 30 min · **Collecting since:** 2026-10-10 (191 good checks)
 
 **Club:** Olympic Casino Vilnius, Lietuva
 
-## Tables running at 2026-10-17 11:00
+## Tables running at 2026-10-17 11:30
 
 No tables were running.
 
-**Waiting lists:** 4 players · **All games listed:** Dealer's Choice €1/2 (waiting to start): 1 table, 0/8 players, 3 waiting NLH €1/2 (waiting to start): 1 table, 0/9 players, 1 waiting
+**Waiting lists:** 5 players · **All games listed:** Dealer's Choice €1/2 (waiting to start): 1 table, 0/8 players, 3 waiting NLH €1/2 (waiting to start): 1 table, 0/9 players, 2 waiting
 
 **Tournaments on their site at 2026-10-17 11:00:** live 19:00 Olympic Casino Vilnius, Lietuva 17 NLH Unlimited WILD rebuys 5 levels + addon(10K) 5,000 €25
 
@@ -48,7 +48,7 @@ No player data yet.
 | 08:00 | 🟥 0% | 9 |
 | 09:00 | 🟥 0% | 9 |
 | 10:00 | 🟥 0% | 11 |
-| 11:00 | 🟥 0% | 7 |
+| 11:00 | 🟥 0% | 8 |
 | 12:00 | 🟥 0% | 9 |
 | 13:00 | 🟥 0% | 8 |
 | 14:00 | 🟥 0% | 5 |
