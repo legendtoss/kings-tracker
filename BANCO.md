@@ -2,17 +2,17 @@
 
 Checks [its website](https://bancocasino.sk/ba/en) together with King's, about every 10 minutes. All times are **Czech time** (same as Poland and Slovakia). Back to [King's](README.md).
 
-**Last check:** 2026-10-17 06:20 — ✅ OK  
-**Checks so far:** 552 successful out of 1056 (since 2026-10-10)
+**Last check:** 2026-10-17 06:30 — ✅ OK  
+**Checks so far:** 553 successful out of 1057 (since 2026-10-10)
 
-## Tables running at 2026-10-17 06:20
+## Tables running at 2026-10-17 06:30
 
 ```
-NLH  €1/3     8 players
+NLH  €2/5     6 players
 ```
-**NLH:** 8 players at 1 table
+**NLH:** 6 players at 1 table
 
-*The whole list (Banco also shows its Košice casino; the numbers above are Bratislava only):* Bratislava: NLH €1/3 8 players (buy-in €100)  
+*The whole list (Banco also shows its Košice casino; the numbers above are Bratislava only):* Bratislava: NLH €2/5 6 players (buy-in €200)  
 **Tournaments running:** none
 
 **Note:** Since 13 Oct the tracker reads Banco's cash list and its live tournaments straight from where its page gets them; before that, its page's scripts didn't run in the tracker's browser, so those checks show as errors.
@@ -154,38 +154,39 @@ Seated players at each game's tables. 0 = that game wasn't running.
 
 🟩 most of the time · 🟨 sometimes · 🟥 rarely
 
-| Hour | NLH €1/3 | PLO 4/5 €2/2 | PLO €25/50 | Dealer's Choice €2/2 | Checks |
-|:--|--:|--:|--:|--:|--:|
-| 00:00 | 🟩 96% | 🟨 25% | 🟨 25% | 🟥 0% | 24 |
-| 01:00 | 🟨 73% | 🟨 27% | 🟥 23% | 🟥 0% | 26 |
-| 02:00 | 🟩 75% | 🟨 25% | 🟨 25% | 🟥 0% | 24 |
-| 03:00 | 🟨 72% | 🟥 24% | 🟥 24% | 🟥 0% | 25 |
-| 04:00 | 🟨 50% | 🟥 0% | 🟨 25% | 🟥 0% | 24 |
-| 05:00 | 🟨 50% | 🟥 0% | 🟨 25% | 🟥 0% | 24 |
-| 06:00 | 🟨 41% | 🟥 0% | 🟨 27% | 🟥 0% | 22 |
-| 07:00 | 🟨 33% | 🟥 0% | 🟥 22% | 🟥 0% | 18 |
-| 08:00 | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 18 |
-| 09:00 | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 18 |
-| 10:00 | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 18 |
-| 11:00 | 🟥 10% | 🟥 10% | 🟥 0% | 🟥 0% | 20 |
-| 12:00 | 🟨 27% | 🟨 27% | 🟥 0% | 🟥 0% | 26 |
-| 13:00 | 🟨 25% | 🟨 25% | 🟥 0% | 🟥 0% | 24 |
-| 14:00 | 🟨 33% | 🟨 46% | 🟥 0% | 🟥 8% | 24 |
-| 15:00 | 🟨 38% | 🟨 38% | 🟥 0% | 🟨 50% | 24 |
-| 16:00 | 🟨 25% | 🟨 58% | 🟥 0% | 🟨 42% | 24 |
-| 17:00 | 🟨 33% | 🟩 75% | 🟥 0% | 🟨 25% | 24 |
-| 18:00 | 🟨 50% | 🟩 75% | 🟥 0% | 🟨 25% | 24 |
-| 19:00 | 🟨 25% | 🟨 71% | 🟥 4% | 🟨 25% | 24 |
-| 20:00 | 🟨 33% | 🟨 42% | 🟨 25% | 🟨 25% | 24 |
-| 21:00 | 🟨 72% | 🟨 52% | 🟥 24% | 🟥 24% | 25 |
-| 22:00 | 🟩 75% | 🟨 50% | 🟨 25% | 🟥 8% | 24 |
-| 23:00 | 🟩 92% | 🟨 25% | 🟨 25% | 🟥 0% | 24 |
+| Hour | NLH €1/3 | NLH €2/5 | PLO 4/5 €2/2 | PLO €25/50 | Dealer's Choice €2/2 | Checks |
+|:--|--:|--:|--:|--:|--:|--:|
+| 00:00 | 🟩 96% | 🟥 0% | 🟨 25% | 🟨 25% | 🟥 0% | 24 |
+| 01:00 | 🟨 73% | 🟥 0% | 🟨 27% | 🟥 23% | 🟥 0% | 26 |
+| 02:00 | 🟩 75% | 🟥 0% | 🟨 25% | 🟨 25% | 🟥 0% | 24 |
+| 03:00 | 🟨 72% | 🟥 0% | 🟥 24% | 🟥 24% | 🟥 0% | 25 |
+| 04:00 | 🟨 50% | 🟥 0% | 🟥 0% | 🟨 25% | 🟥 0% | 24 |
+| 05:00 | 🟨 50% | 🟥 0% | 🟥 0% | 🟨 25% | 🟥 0% | 24 |
+| 06:00 | 🟨 39% | 🟥 4% | 🟥 0% | 🟨 26% | 🟥 0% | 23 |
+| 07:00 | 🟨 33% | 🟥 0% | 🟥 0% | 🟥 22% | 🟥 0% | 18 |
+| 08:00 | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 18 |
+| 09:00 | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 18 |
+| 10:00 | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 18 |
+| 11:00 | 🟥 10% | 🟥 0% | 🟥 10% | 🟥 0% | 🟥 0% | 20 |
+| 12:00 | 🟨 27% | 🟥 0% | 🟨 27% | 🟥 0% | 🟥 0% | 26 |
+| 13:00 | 🟨 25% | 🟥 0% | 🟨 25% | 🟥 0% | 🟥 0% | 24 |
+| 14:00 | 🟨 33% | 🟥 0% | 🟨 46% | 🟥 0% | 🟥 8% | 24 |
+| 15:00 | 🟨 38% | 🟥 0% | 🟨 38% | 🟥 0% | 🟨 50% | 24 |
+| 16:00 | 🟨 25% | 🟥 0% | 🟨 58% | 🟥 0% | 🟨 42% | 24 |
+| 17:00 | 🟨 33% | 🟥 0% | 🟩 75% | 🟥 0% | 🟨 25% | 24 |
+| 18:00 | 🟨 50% | 🟥 0% | 🟩 75% | 🟥 0% | 🟨 25% | 24 |
+| 19:00 | 🟨 25% | 🟥 0% | 🟨 71% | 🟥 4% | 🟨 25% | 24 |
+| 20:00 | 🟨 33% | 🟥 0% | 🟨 42% | 🟨 25% | 🟨 25% | 24 |
+| 21:00 | 🟨 72% | 🟥 0% | 🟨 52% | 🟥 24% | 🟥 24% | 25 |
+| 22:00 | 🟩 75% | 🟥 0% | 🟨 50% | 🟨 25% | 🟥 8% | 24 |
+| 23:00 | 🟩 92% | 🟥 0% | 🟨 25% | 🟨 25% | 🟥 0% | 24 |
 
 ## All games seen
 
 | Game | Running in | Most often | Last seen |
 |:--|--:|:--|:--|
 | NLH €1/3 | 45% of checks | Tue around 12:00 | 2026-10-17 06:20 |
+| NLH €2/5 | 0% of checks | Sat around 06:00 | 2026-10-17 06:30 |
 | PLO 4/5 €2/2 | 30% of checks | Tue around 12:00 | 2026-10-16 14:50 |
 | PLO €25/50 | 13% of checks | Thu around 20:00 | 2026-10-16 07:30 |
 | Dealer's Choice €2/2 | 10% of checks | Thu around 15:00 | 2026-10-16 22:10 |
