@@ -1115,3 +1115,4 @@
 2026-10-17 18:00,Sat,18,ok,0,1,PLO/NLH [WAITING],1,71,"[{""name"":""Classic Deepstack"",""game"":""NLH"",""status"":""RUNNING"",""left"":71,""entries"":74,""buyin"":80,""prizepool"":10000,""currency"":""EUR"",""level"":3,""blinds"":""100/300"",""avg_stack"":41690,""start_stack"":40000,""late_reg_open"":true,""start"":""17.10. 17:00""}]",
 2026-10-17 18:10,Sat,18,ok,0,1,PLO/NLH [WAITING],,,,
 2026-10-17 18:20,Sat,18,ok,0,1,PLO/NLH [WAITING],,,,
+2026-10-17 18:30,Sat,18,ok,0,1,PLO/NLH [WAITING],1,37,"[{""name"":""PLO Main Event 1B"",""game"":""PLO"",""status"":""RUNNING"",""left"":37,""entries"":72,""buyin"":340,""prizepool"":100000,""currency"":""EUR"",""level"":8,""blinds"":""2000/5000/5000"",""avg_stack"":389189,""start_stack"":200000,""late_reg_open"":true,""start"":""17.10. 14:00""}]",
