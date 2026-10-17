@@ -2,10 +2,10 @@
 
 Checks [its website](https://bancocasino.sk/ba/en) together with King's, about every 10 minutes. All times are **Czech time** (same as Poland and Slovakia). Back to [King's](README.md).
 
-**Last check:** 2026-10-17 07:20 — ✅ OK  
-**Checks so far:** 558 successful out of 1062 (since 2026-10-10)
+**Last check:** 2026-10-17 07:30 — ✅ OK  
+**Checks so far:** 559 successful out of 1063 (since 2026-10-10)
 
-## Tables running at 2026-10-17 07:20
+## Tables running at 2026-10-17 07:30
 
 ```
 NLH  €2/5     6 players
@@ -45,7 +45,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 04:00 | · | · | 0 | 8 | 0 | 11 | · | 5 |
 | 05:00 | · | · | 0 | 8 | 0 | 8 | · | 4 |
 | 06:00 | · | · | 0 | 8 | 0 | 7 | · | 4 |
-| 07:00 | · | · | 0 | 6 | 0 | 6 | · | 2 |
+| 07:00 | · | · | 0 | 6 | 0 | 6 | · | 3 |
 | 08:00 | · | · | 0 | 0 | 0 | · | · | 0 |
 | 09:00 | · | · | 0 | 0 | 0 | · | · | 0 |
 | 10:00 | · | · | 0 | 0 | 0 | · | · | 0 |
@@ -163,7 +163,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 04:00 | 🟨 50% | 🟥 0% | 🟥 0% | 🟨 25% | 🟥 0% | 24 |
 | 05:00 | 🟨 50% | 🟥 0% | 🟥 0% | 🟨 25% | 🟥 0% | 24 |
 | 06:00 | 🟨 36% | 🟥 12% | 🟥 0% | 🟥 24% | 🟥 0% | 25 |
-| 07:00 | 🟨 29% | 🟥 14% | 🟥 0% | 🟥 19% | 🟥 0% | 21 |
+| 07:00 | 🟨 27% | 🟥 18% | 🟥 0% | 🟥 18% | 🟥 0% | 22 |
 | 08:00 | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 18 |
 | 09:00 | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 18 |
 | 10:00 | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 18 |
@@ -186,7 +186,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | Game | Running in | Most often | Last seen |
 |:--|--:|:--|:--|
 | NLH €1/3 | 44% of checks | Tue around 12:00 | 2026-10-17 06:20 |
-| NLH €2/5 | 1% of checks | Sat around 06:00 | 2026-10-17 07:20 |
+| NLH €2/5 | 1% of checks | Sat around 07:00 | 2026-10-17 07:30 |
 | PLO 4/5 €2/2 | 30% of checks | Tue around 12:00 | 2026-10-16 14:50 |
 | PLO €25/50 | 13% of checks | Thu around 20:00 | 2026-10-16 07:30 |
 | Dealer's Choice €2/2 | 10% of checks | Thu around 15:00 | 2026-10-16 22:10 |
