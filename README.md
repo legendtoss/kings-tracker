@@ -2,12 +2,12 @@
 
 Checks King's live cash games and tournaments about every 10 minutes and updates this page by itself. All times are **Czech time** (same as Poland). Also tracking: [Card Casino Šamorín](CARD_CASINO.md) · [Grand Casino Aš](GRAND_CASINO_AS.md) · [Banco Casino Bratislava](BANCO.md) · [Olympic Park Tallinn](OLYMPIC_TALLINN.md) · [Olympic Casino Vilnius](OLYMPIC_VILNIUS.md).
 
-**Right now:** King's: 9 tables, 68 players · [Card Casino Šamorín](CARD_CASINO.md): 1 table, 8 players · [Grand Casino Aš](GRAND_CASINO_AS.md) 🎪 PLO festival: 0 tables running, 1 waiting · [Olympic Park Tallinn](OLYMPIC_TALLINN.md) 🎪 Kings of Tallinn: blocked at 17:30 · [Olympic Vilnius](OLYMPIC_VILNIUS.md): blocked at 17:30 · [Banco](BANCO.md): 0 tables, 0 players
+**Right now:** King's: 8 tables, 64 players · [Card Casino Šamorín](CARD_CASINO.md): 1 table, 8 players · [Grand Casino Aš](GRAND_CASINO_AS.md) 🎪 PLO festival: 0 tables running, 1 waiting · [Olympic Park Tallinn](OLYMPIC_TALLINN.md) 🎪 Kings of Tallinn: blocked at 18:00 · [Olympic Vilnius](OLYMPIC_VILNIUS.md): blocked at 18:00 · [Banco](BANCO.md): 0 tables, 0 players
 
-**Last check:** 2026-10-17 17:50 — ✅ OK (data feed)  
-**Last 24 h:** 144 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-06 (1331 good checks)
+**Last check:** 2026-10-17 18:00 — ✅ OK (data feed)  
+**Last 24 h:** 144 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-06 (1332 good checks)
 
-## Tables running at 2026-10-17 17:50
+## Tables running at 2026-10-17 18:00
 
 ```
 NLH   €1/2     8/8 players
@@ -16,13 +16,12 @@ NLH   €1/2     8/8 players
 NLH   €1/2     8/8 players
 NLH   €1/2     8/8 players
 NLH   €1/2     8/8 players
-NLH   €5/10    4/8 players
 PLO   €2/2     8/8 players
 PLO5  €5/10    8/8 players
 ```
-**NLH:** 52 players at 7 tables · **PLO:** 8 players at 1 table · **PLO5:** 8 players at 1 table
+**NLH:** 48 players at 6 tables · **PLO:** 8 players at 1 table · **PLO5:** 8 players at 1 table
 
-**Tournaments in play:** DPM - Day 1E (40 minutes) (NLH, €225, 174 of 407 left, late reg open, level 9, blinds 1000/2000/2000) · DPM Pot Limit Omaha (PLO, €120, 26 of 105 left, level 11, blinds 1000/2000/2000) · Flip n Go Satellite (8 handed) to DPM ME - Day 1F (NLH, €40, 2 of 26 left, late reg open, level 1, blinds 5000/5000/5000)
+**Tournaments in play:** DPM - Day 1E (40 minutes) (NLH, €225, 168 of 411 left, late reg open, level 9, blinds 1000/2000/2000) · DPM Pot Limit Omaha (PLO, €120, 23 of 105 left, level 12, blinds 1500/3000/3000) · Flip n Go Satellite (8 handed) to DPM ME - Day 1F (NLH, €40, 4 of 28 left, late reg open, level 1, blinds 5000/5000/5000) · Dutch Poker Masters - Day 1F (NLH, €225, 38 of 38 left, late reg open)
 
 ## Festivals and schedule
 
@@ -190,7 +189,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 15:00 | 🟩 85% | 🟥 19% | 🟥 0% | 🟨 25% | 🟨 40% | 🟥 2% | 🟥 4% | 🟥 0% | 53 |
 | 16:00 | 🟩 85% | 🟥 20% | 🟥 0% | 🟥 23% | 🟨 47% | 🟥 10% | 🟥 5% | 🟥 0% | 60 |
 | 17:00 | 🟩 84% | 🟥 17% | 🟥 17% | 🟨 41% | 🟨 53% | 🟥 10% | 🟥 5% | 🟥 0% | 58 |
-| 18:00 | 🟩 93% | 🟨 31% | 🟥 22% | 🟨 39% | 🟨 69% | 🟥 0% | 🟥 6% | 🟥 0% | 54 |
+| 18:00 | 🟩 93% | 🟨 31% | 🟥 22% | 🟨 40% | 🟨 67% | 🟥 2% | 🟥 5% | 🟥 0% | 55 |
 | 19:00 | 🟩 87% | 🟨 43% | 🟥 9% | 🟨 46% | 🟨 74% | 🟥 0% | 🟥 11% | 🟥 0% | 54 |
 | 20:00 | 🟩 95% | 🟨 44% | 🟥 5% | 🟨 45% | 🟨 73% | 🟥 0% | 🟥 5% | 🟥 0% | 55 |
 | 21:00 | 🟩 94% | 🟨 43% | 🟥 11% | 🟨 56% | 🟨 46% | 🟥 0% | 🟥 6% | 🟥 0% | 54 |
@@ -205,12 +204,12 @@ Collecting since 2026-10-08. Shown from 2026-10-22: with fewer than two weeks, t
 
 | Game | Running in | Most often | Last seen |
 |:--|--:|:--|:--|
-| NLH €1/2 | 79% of checks | Fri around 22:00 | 2026-10-17 17:50 |
+| NLH €1/2 | 79% of checks | Fri around 22:00 | 2026-10-17 18:00 |
 | NLH €2/4 | 28% of checks | Fri around 22:00 | 2026-10-17 15:50 |
 | NLH €5/10 | 5% of checks | Sat around 23:00 | 2026-10-17 17:50 |
-| PLO €2/2 | 36% of checks | Fri around 22:00 | 2026-10-17 17:50 |
+| PLO €2/2 | 36% of checks | Fri around 22:00 | 2026-10-17 18:00 |
 | PLO5 €5/5 | 36% of checks | Fri around 19:00 | 2026-10-17 17:30 |
-| PLO5 €5/10 | 1% of checks | Sat around 16:00 | 2026-10-17 17:50 |
+| PLO5 €5/10 | 1% of checks | Sat around 16:00 | 2026-10-17 18:00 |
 | PLO5 €10/10 | 7% of checks | Fri around 23:00 | 2026-10-16 23:50 |
 | PLO5 €10/25 | 1% of checks | Wed around 06:00 | 2026-10-07 10:04 |
 | PLO5 €25/25 | 0% of checks | Thu around 05:00 | 2026-10-15 05:40 |
@@ -223,9 +222,10 @@ The most recent ones. The game is read from the tournament's name.
 
 | Tournament | Game | Buy-in | Entries | Seen |
 |:--|:--|--:|--:|:--|
-| DPM - Day 1E (40 minutes) | NLH | €225 | 407 | 2026-10-17 11:00 → 10-17 17:50 |
-| DPM Pot Limit Omaha | PLO | €120 | 106 | 2026-10-17 15:00 → 10-17 17:50 |
-| Flip n Go Satellite (8 handed) to DPM ME - Day 1F | NLH | €40 | 26 | 2026-10-17 16:00 → 10-17 17:50 |
+| DPM - Day 1E (40 minutes) | NLH | €225 | 411 | 2026-10-17 11:00 → 10-17 18:00 |
+| DPM Pot Limit Omaha | PLO | €120 | 106 | 2026-10-17 15:00 → 10-17 18:00 |
+| Flip n Go Satellite (8 handed) to DPM ME - Day 1F | NLH | €40 | 28 | 2026-10-17 16:00 → 10-17 18:00 |
+| Dutch Poker Masters - Day 1F | NLH | €225 | 38 | 2026-10-17 18:00 |
 | Dutch Poker Masters - Day 1D | NLH | €225 | 217 | 2026-10-16 18:00 → 10-17 04:00 |
 | DPM Friday Night Turbo | NLH | €130 | 143 | 2026-10-16 21:00 → 10-17 02:40 |
 | DPM - Day 1C | NLH | €225 | 321 | 2026-10-16 13:20 → 10-17 00:50 |
@@ -237,7 +237,6 @@ The most recent ones. The game is read from the tournament's name.
 | DPM Morning Bounty (25 Bounty) | NLH | €105 | 113 | 2026-10-15 12:00 → 10-15 18:50 |
 | Satellite to DPM ME - Day 1B | NLH | €40 | 110 | 2026-10-15 14:00 → 10-15 17:50 |
 | Dutch Poker Masters - Day 1A | NLH | €225 | 86 | 2026-10-14 18:00 → 10-15 03:10 |
-| Satellite to DPM ME - Day 1A | NLH | €40 | 88 | 2026-10-14 15:00 → 10-14 19:00 |
 
 ---
 Raw data: the `data` folder, one CSV file per month. To open one in Excel, use Data → From Text/CSV (double-clicking puts everything in one column in Polish Excel). The tracker is `tracker.py`; its schedule is in `.github/workflows/track.yml`.  
