@@ -2,10 +2,10 @@
 
 Checks [its website](https://bancocasino.sk/ba/en) together with King's, about every 10 minutes. All times are **Czech time** (same as Poland and Slovakia). Back to [King's](README.md).
 
-**Last check:** 2026-10-17 22:20 — ✅ OK  
-**Checks so far:** 648 successful out of 1152 (since 2026-10-10)
+**Last check:** 2026-10-17 22:30 — ✅ OK  
+**Checks so far:** 649 successful out of 1153 (since 2026-10-10)
 
-## Tables running at 2026-10-17 22:20
+## Tables running at 2026-10-17 22:30
 
 ```
 NLH      €1/3     8 players
@@ -14,7 +14,7 @@ PLO 4/5  €2/2     8 players
 **NLH:** 8 players at 1 table · **PLO 4/5:** 8 players at 1 table
 
 *The whole list (Banco also shows its Košice casino; the numbers above are Bratislava only):* Bratislava: NLH €1/3 8 players (buy-in €100), PLO 4/5 €2/2 8 players (buy-in €100) Košice: NLH €1/3 6 players (buy-in €100)  
-**Tournaments running:** Saturday Ladies Special: 28/94 players, level 10, blinds 1000/2000, buy-in €35, €3000 GTD VPT Poker Tournament: 6/51 players, level 22, blinds 40000/80000, buy-in €50
+**Tournaments running:** Saturday Ladies Special: 30/99 players, level 10, blinds 1000/2000, buy-in €35, €3000 GTD VPT Poker Tournament: 6/51 players, level 22, blinds 40000/80000, buy-in €50
 
 **Note:** Since 13 Oct the tracker reads Banco's cash list and its live tournaments straight from where its page gets them; before that, its page's scripts didn't run in the tracker's browser, so those checks show as errors.
 
@@ -61,7 +61,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 19:00 | · | 0 | 0 | 7 | 0 | 6 | · | 3 |
 | 20:00 | · | 1 | 0 | 8 | 0 | 7 | · | 3 |
 | 21:00 | · | 3 | 0 | 7 | 4 | 8 | · | 4 |
-| 22:00 | · | 5 | 0 | 8 | 6 | 7 | · | 5 |
+| 22:00 | · | 5 | 0 | 8 | 6 | 8 | · | 5 |
 | 23:00 | · | 6 | 3 | 7 | 9 | · | · | 6 |
 
 ### PLO 4/5
@@ -90,7 +90,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 19:00 | · | 8 | 7 | 2 | 0 | 0 | · | 3 |
 | 20:00 | · | 3 | 7 | 0 | 0 | 0 | · | 2 |
 | 21:00 | · | 0 | 7 | 5 | 0 | 5 | · | 4 |
-| 22:00 | · | 0 | 7 | 6 | 0 | 7 | · | 4 |
+| 22:00 | · | 0 | 7 | 6 | 0 | 8 | · | 4 |
 | 23:00 | · | 0 | 8 | 0 | 0 | · | · | 2 |
 
 ### Pot-Limit Omaha (PLO)
@@ -150,16 +150,16 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 19:00 | 🟨 40% | 🟥 0% | 🟨 57% | 🟥 3% | 🟥 20% | 30 |
 | 20:00 | 🟨 47% | 🟥 0% | 🟨 33% | 🟥 20% | 🟥 20% | 30 |
 | 21:00 | 🟩 77% | 🟥 0% | 🟨 58% | 🟥 19% | 🟥 19% | 31 |
-| 22:00 | 🟩 78% | 🟥 0% | 🟨 56% | 🟥 22% | 🟥 7% | 27 |
+| 22:00 | 🟩 79% | 🟥 0% | 🟨 57% | 🟥 21% | 🟥 7% | 28 |
 | 23:00 | 🟩 92% | 🟥 0% | 🟨 25% | 🟨 25% | 🟥 0% | 24 |
 
 ## All games seen
 
 | Game | Running in | Most often | Last seen |
 |:--|--:|:--|:--|
-| NLH €1/3 | 42% of checks | Tue around 12:00 | 2026-10-17 22:20 |
+| NLH €1/3 | 42% of checks | Tue around 12:00 | 2026-10-17 22:30 |
 | NLH €2/5 | 1% of checks | Sat around 07:00 | 2026-10-17 07:50 |
-| PLO 4/5 €2/2 | 27% of checks | Tue around 12:00 | 2026-10-17 22:20 |
+| PLO 4/5 €2/2 | 27% of checks | Tue around 12:00 | 2026-10-17 22:30 |
 | PLO €25/50 | 11% of checks | Thu around 20:00 | 2026-10-16 07:30 |
 | Dealer's Choice €2/2 | 9% of checks | Thu around 15:00 | 2026-10-16 22:10 |
 
