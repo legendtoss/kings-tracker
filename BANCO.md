@@ -2,17 +2,14 @@
 
 Checks [its website](https://bancocasino.sk/ba/en) together with King's, about every 10 minutes. All times are **Czech time** (same as Poland and Slovakia). Back to [King's](README.md).
 
-**Last check:** 2026-10-17 07:50 — ✅ OK  
-**Checks so far:** 561 successful out of 1065 (since 2026-10-10)
+**Last check:** 2026-10-17 08:00 — ✅ OK  
+**Checks so far:** 562 successful out of 1066 (since 2026-10-10)
 
-## Tables running at 2026-10-17 07:50
+## Tables running at 2026-10-17 08:00
 
-```
-NLH  €2/5     6 players
-```
-**NLH:** 6 players at 1 table
+No tables were running.
 
-*The whole list (Banco also shows its Košice casino; the numbers above are Bratislava only):* Bratislava: NLH €2/5 6 players (buy-in €200)  
+*The whole list (Banco also shows its Košice casino; the numbers above are Bratislava only):* no games listed  
 **Tournaments running:** none
 
 **Note:** Since 13 Oct the tracker reads Banco's cash list and its live tournaments straight from where its page gets them; before that, its page's scripts didn't run in the tracker's browser, so those checks show as errors.
@@ -46,7 +43,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 05:00 | · | · | 0 | 8 | 0 | 8 | · | 4 |
 | 06:00 | · | · | 0 | 8 | 0 | 7 | · | 4 |
 | 07:00 | · | · | 0 | 6 | 0 | 6 | · | 3 |
-| 08:00 | · | · | 0 | 0 | 0 | · | · | 0 |
+| 08:00 | · | · | 0 | 0 | 0 | 0 | · | 0 |
 | 09:00 | · | · | 0 | 0 | 0 | · | · | 0 |
 | 10:00 | · | · | 0 | 0 | 0 | · | · | 0 |
 | 11:00 | · | 5 | 0 | 0 | 0 | · | · | 0 |
@@ -75,7 +72,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 05:00 | · | · | 0 | 0 | 0 | 0 | · | 0 |
 | 06:00 | · | · | 0 | 0 | 0 | 0 | · | 0 |
 | 07:00 | · | · | 0 | 0 | 0 | 0 | · | 0 |
-| 08:00 | · | · | 0 | 0 | 0 | · | · | 0 |
+| 08:00 | · | · | 0 | 0 | 0 | 0 | · | 0 |
 | 09:00 | · | · | 0 | 0 | 0 | · | · | 0 |
 | 10:00 | · | · | 0 | 0 | 0 | · | · | 0 |
 | 11:00 | · | 6 | 0 | 0 | 0 | · | · | 1 |
@@ -104,7 +101,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 05:00 | · | · | 0 | 0 | 7 | 0 | · | 2 |
 | 06:00 | · | · | 0 | 0 | 6 | 0 | · | 2 |
 | 07:00 | · | · | 0 | 0 | 2 | 0 | · | 0 |
-| 08:00 | · | · | 0 | 0 | 0 | · | · | 0 |
+| 08:00 | · | · | 0 | 0 | 0 | 0 | · | 0 |
 | 09:00 | · | · | 0 | 0 | 0 | · | · | 0 |
 | 10:00 | · | · | 0 | 0 | 0 | · | · | 0 |
 | 11:00 | · | 0 | 0 | 0 | 0 | · | · | 0 |
@@ -135,7 +132,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 05:00 | 🟨 50% | 🟥 0% | 🟥 0% | 🟨 25% | 🟥 0% | 24 |
 | 06:00 | 🟨 36% | 🟥 12% | 🟥 0% | 🟥 24% | 🟥 0% | 25 |
 | 07:00 | 🟨 25% | 🟨 25% | 🟥 0% | 🟥 17% | 🟥 0% | 24 |
-| 08:00 | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 18 |
+| 08:00 | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 19 |
 | 09:00 | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 18 |
 | 10:00 | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 18 |
 | 11:00 | 🟥 10% | 🟥 0% | 🟥 10% | 🟥 0% | 🟥 0% | 20 |
