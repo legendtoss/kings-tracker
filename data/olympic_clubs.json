@@ -6,5 +6,9 @@
  "olympic-vilnius": {
   "url": "https://olybetpoker.com/lt/cash-games/?club=10",
   "name": "Olympic Casino Vilnius, Lietuva"
+ },
+ "olympic-riga": {
+  "url": "https://olybetpoker.com/lv/en/cash-games/?club=17",
+  "name": "Olympic Casino Voodoo"
  }
 }
