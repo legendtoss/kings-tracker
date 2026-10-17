@@ -2,15 +2,15 @@
 
 Checks [its website](https://bancocasino.sk/ba/en) together with King's, about every 10 minutes. All times are **Czech time** (same as Poland and Slovakia). Back to [King's](README.md).
 
-**Last check:** 2026-10-17 13:20 — ✅ OK  
-**Checks so far:** 594 successful out of 1098 (since 2026-10-10)
+**Last check:** 2026-10-17 13:30 — ✅ OK  
+**Checks so far:** 595 successful out of 1099 (since 2026-10-10)
 
-## Tables running at 2026-10-17 13:20
+## Tables running at 2026-10-17 13:30
 
 No tables were running.
 
 *The whole list (Banco also shows its Košice casino; the numbers above are Bratislava only):* no games listed  
-**Tournaments running:** none
+**Tournaments running:** VPT Poker Tournament, starts at 14:00, buy-in €50
 
 **Note:** Since 13 Oct the tracker reads Banco's cash list and its live tournaments straight from where its page gets them; before that, its page's scripts didn't run in the tracker's browser, so those checks show as errors.
 
@@ -137,7 +137,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 10:00 | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 24 |
 | 11:00 | 🟥 8% | 🟥 0% | 🟥 8% | 🟥 0% | 🟥 0% | 26 |
 | 12:00 | 🟥 22% | 🟥 0% | 🟥 22% | 🟥 0% | 🟥 0% | 32 |
-| 13:00 | 🟥 22% | 🟥 0% | 🟥 22% | 🟥 0% | 🟥 0% | 27 |
+| 13:00 | 🟥 21% | 🟥 0% | 🟥 21% | 🟥 0% | 🟥 0% | 28 |
 | 14:00 | 🟨 33% | 🟥 0% | 🟨 46% | 🟥 0% | 🟥 8% | 24 |
 | 15:00 | 🟨 38% | 🟥 0% | 🟨 38% | 🟥 0% | 🟨 50% | 24 |
 | 16:00 | 🟨 25% | 🟥 0% | 🟨 58% | 🟥 0% | 🟨 42% | 24 |
