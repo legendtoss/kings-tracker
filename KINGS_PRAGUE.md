@@ -2,8 +2,17 @@
 
 Prague's tables come in the same King's data feed as Rozvadov's, so they're read at every check (about every 10 minutes) without any extra visits, together with Prague's tournament clocks. All times are **Czech time** (same as Poland). Back to [King's Rozvadov](README.md).
 
-**Last check:** 2026-10-17 20:30 — ⚠️ error: Prague's tables haven't appeared in King's feed yet — details in `debug/kings-prague_feed.json`  
-**Last 24 h:** 0 of 7 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-17 (0 good checks)
+**Last check:** 2026-10-17 20:40 — ✅ OK  
+**Last 24 h:** 1 of 8 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-17 (1 good check)
+
+## Tables running at 2026-10-17 20:40
+
+```
+NLH  €2/4     1/8 players
+```
+**NLH:** 1 players at 1 table
+
+**Tournaments in play:** King's Prague Saturday Monsterstack (NLH, €100, 29 of 54 left, late reg open, level 10, blinds 1500/3000/3000)
 
 ## Festivals and schedule
 
@@ -22,11 +31,81 @@ Needs about two weeks of data: each day-and-hour slot must be seen on at least 2
 
 ## Average players by hour
 
-No player data yet.
+Seated players at each game's tables. 0 = that game wasn't running.
+
+### No-Limit Hold'em (NLH)
+
+| Hour | Mon | Tue | Wed | Thu | Fri | Sat | Sun | All days |
+|:--|--:|--:|--:|--:|--:|--:|--:|--:|
+| 00:00 | · | · | · | · | · | · | · | · |
+| 01:00 | · | · | · | · | · | · | · | · |
+| 02:00 | · | · | · | · | · | · | · | · |
+| 03:00 | · | · | · | · | · | · | · | · |
+| 04:00 | · | · | · | · | · | · | · | · |
+| 05:00 | · | · | · | · | · | · | · | · |
+| 06:00 | · | · | · | · | · | · | · | · |
+| 07:00 | · | · | · | · | · | · | · | · |
+| 08:00 | · | · | · | · | · | · | · | · |
+| 09:00 | · | · | · | · | · | · | · | · |
+| 10:00 | · | · | · | · | · | · | · | · |
+| 11:00 | · | · | · | · | · | · | · | · |
+| 12:00 | · | · | · | · | · | · | · | · |
+| 13:00 | · | · | · | · | · | · | · | · |
+| 14:00 | · | · | · | · | · | · | · | · |
+| 15:00 | · | · | · | · | · | · | · | · |
+| 16:00 | · | · | · | · | · | · | · | · |
+| 17:00 | · | · | · | · | · | · | · | · |
+| 18:00 | · | · | · | · | · | · | · | · |
+| 19:00 | · | · | · | · | · | · | · | · |
+| 20:00 | · | · | · | · | · | 1 | · | 1 |
+| 21:00 | · | · | · | · | · | · | · | · |
+| 22:00 | · | · | · | · | · | · | · | · |
+| 23:00 | · | · | · | · | · | · | · | · |
 
 ## How often each game was running, by hour (all days)
 
-No games seen yet.
+🟩 most of the time · 🟨 sometimes · 🟥 rarely
+
+| Hour | NLH €2/4 | Checks |
+|:--|--:|--:|
+| 00:00 | · | 0 |
+| 01:00 | · | 0 |
+| 02:00 | · | 0 |
+| 03:00 | · | 0 |
+| 04:00 | · | 0 |
+| 05:00 | · | 0 |
+| 06:00 | · | 0 |
+| 07:00 | · | 0 |
+| 08:00 | · | 0 |
+| 09:00 | · | 0 |
+| 10:00 | · | 0 |
+| 11:00 | · | 0 |
+| 12:00 | · | 0 |
+| 13:00 | · | 0 |
+| 14:00 | · | 0 |
+| 15:00 | · | 0 |
+| 16:00 | · | 0 |
+| 17:00 | · | 0 |
+| 18:00 | · | 0 |
+| 19:00 | · | 0 |
+| 20:00 | 🟩 100% | 1 |
+| 21:00 | · | 0 |
+| 22:00 | · | 0 |
+| 23:00 | · | 0 |
+
+## All games seen
+
+| Game | Running in | Most often | Last seen |
+|:--|--:|:--|:--|
+| NLH €2/4 | 100% of checks | Sat around 20:00 | 2026-10-17 20:40 |
+
+## Tournaments seen
+
+The most recent ones. The game is read from the tournament's name.
+
+| Tournament | Game | Buy-in | Entries | Seen |
+|:--|:--|--:|--:|:--|
+| King's Prague Saturday Monsterstack | NLH | €100 | 54 | 2026-10-17 20:40 |
 
 ---
-Raw data: `data/kings-prague` (one CSV file per month). Prague is not in King's feed yet (`data/kings_venues.json`).
+Raw data: `data/kings-prague` (one CSV file per month). Prague is venue 3 in King's feed (`data/kings_venues.json`).

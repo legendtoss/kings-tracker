@@ -1,0 +1,49 @@
+{
+ "saved_on": "2026-10-17",
+ "records": 1,
+ "fields": [
+  "gameProfile",
+  "gameType",
+  "playerCount",
+  "seatCount",
+  "startPlayingTime",
+  "startTime",
+  "status",
+  "table",
+  "venue"
+ ],
+ "sample": [
+  {
+   "status": "STARTED",
+   "startTime": "2026-10-17T20:34:31",
+   "startPlayingTime": null,
+   "seatCount": 8,
+   "playerCount": 1,
+   "gameType": {
+    "id": 10,
+    "name": "No Limit Holdem"
+   },
+   "gameProfile": {
+    "id": 142,
+    "name": "NLH 2-4",
+    "params": {
+     "smallBlind": 2,
+     "bigBlind": 4,
+     "buyInMin": null,
+     "buyInMax": null
+    },
+    "blindsFormatted": "€ 2/4"
+   },
+   "table": {
+    "id": 113,
+    "name": "PKH1",
+    "type": "CASH_GAME",
+    "zone": {
+     "id": 5,
+     "name": "HILTON"
+    }
+   },
+   "venue": 3
+  }
+ ]
+}
