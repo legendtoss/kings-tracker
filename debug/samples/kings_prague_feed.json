@@ -1,5 +1,5 @@
 {
- "saved_on": "2026-10-17",
+ "saved_on": "2026-10-18",
  "records": 1,
  "fields": [
   "gameProfile",
@@ -14,11 +14,11 @@
  ],
  "sample": [
   {
-   "status": "STARTED",
+   "status": "PLAYING",
    "startTime": "2026-10-17T20:34:31",
-   "startPlayingTime": null,
+   "startPlayingTime": "2026-10-17T22:16:45",
    "seatCount": 8,
-   "playerCount": 1,
+   "playerCount": 8,
    "gameType": {
     "id": 10,
     "name": "No Limit Holdem"

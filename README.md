@@ -2,12 +2,12 @@
 
 Checks King's live cash games and tournaments about every 10 minutes and updates this page by itself. All times are **Czech time** (same as Poland). Also tracking: [King's Prague](KINGS_PRAGUE.md) · [Card Casino Šamorín](CARD_CASINO.md) · [Grand Casino Aš](GRAND_CASINO_AS.md) · [Banco Casino Bratislava](BANCO.md) · [Olympic Park Tallinn](OLYMPIC_TALLINN.md) · [Olympic Voodoo Riga](OLYMPIC_RIGA.md) · [Olympic Casino Vilnius](OLYMPIC_VILNIUS.md).
 
-**Right now:** King's: 13 tables, 101 players · [King's Prague](KINGS_PRAGUE.md): 1 table, 8 players · [Card Casino Šamorín](CARD_CASINO.md): 3 tables, 24 players · [Grand Casino Aš](GRAND_CASINO_AS.md) 🎪 PLO festival: 3 tables running, 1 waiting · [Olympic Park Tallinn](OLYMPIC_TALLINN.md) 🎪 Kings of Tallinn: blocked at 23:30 · [Olympic Voodoo Riga](OLYMPIC_RIGA.md): 2 tables, 14 players (7 waiting) at 23:30 · [Olympic Vilnius](OLYMPIC_VILNIUS.md): 2 tables, 14 players at 23:30 · [Banco](BANCO.md): 3 tables, 22 players
+**Right now:** King's: 13 tables, 99 players · [King's Prague](KINGS_PRAGUE.md): 1 table, 8 players · [Card Casino Šamorín](CARD_CASINO.md): 3 tables, 25 players · [Grand Casino Aš](GRAND_CASINO_AS.md) 🎪 PLO festival: 3 tables running, 1 waiting · [Olympic Park Tallinn](OLYMPIC_TALLINN.md) 🎪 Kings of Tallinn: 9 tables, 69 players (12 waiting) at 00:00 · [Olympic Voodoo Riga](OLYMPIC_RIGA.md): 2 tables, 11 players (7 waiting) at 00:00 · [Olympic Vilnius](OLYMPIC_VILNIUS.md): blocked at 00:00 · [Banco](BANCO.md): 3 tables, 22 players
 
-**Last check:** 2026-10-17 23:50 — ✅ OK (data feed)  
-**Last 24 h:** 142 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-06 (1365 good checks)
+**Last check:** 2026-10-18 00:00 — ✅ OK (data feed)  
+**Last 24 h:** 142 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-06 (1366 good checks)
 
-## Tables running at 2026-10-17 23:50
+## Tables running at 2026-10-18 00:00
 
 ```
 NLH   €1/2     8/8 players
@@ -16,17 +16,17 @@ NLH   €1/2     8/8 players
 NLH   €1/2     8/8 players
 NLH   €1/2     8/8 players
 NLH   €1/2     8/8 players
-NLH   €1/2     7/8 players
-NLH   €2/4     8/8 players
-NLH   €2/4     8/8 players
-PLO   €2/2     6/8 players
+NLH   €1/2     6/8 players
+NLH   €2/4     7/8 players
+NLH   €2/4     7/8 players
+PLO   €2/2     7/8 players
 PLO   €2/2     8/8 players
 PLO5  €5/5     8/8 players
 PLO5  €5/10    8/8 players
 ```
-**NLH:** 71 players at 9 tables · **PLO:** 14 players at 2 tables · **PLO5:** 16 players at 2 tables
+**NLH:** 68 players at 9 tables · **PLO:** 15 players at 2 tables · **PLO5:** 16 players at 2 tables
 
-**Tournaments in play:** DPM - Day 1E (40 minutes) (NLH, €225, 48 of 439 left, level 16, blinds 6000/12000/12000) · Dutch Poker Masters - Day 1F (NLH, €225, 125 of 276 left, late reg open, level 10, blinds 1500/3000/3000) · DPM Saturday Night Turbo (NLH, €130, 56 of 166 left, level 10, blinds 1000/1500/1500)
+**Tournaments in play:** DPM - Day 1E (40 minutes) (NLH, €225, 48 of 439 left, level 17, blinds 10000/15000/15000) · Dutch Poker Masters - Day 1F (NLH, €225, 124 of 284 left, late reg open, level 10, blinds 1500/3000/3000) · DPM Saturday Night Turbo (NLH, €130, 56 of 166 left, level 10, blinds 1000/1500/1500)
 
 ## Festivals and schedule
 
@@ -38,14 +38,14 @@ PLO5  €5/10    8/8 players
 
 | Day | Time (local) | Buy-in | Tournament |
 |:--|:--|--:|:--|
-| Sat 17 Oct | 15:00 | €120 | Pot Limit Omaha |
 | Fri 23 Oct | 14:00 | €350 | Pot Limit Omaha - BPC 8-Max One Day |
 | Wed 28 Oct | 16:00 | €1 000 | Pot Limit Omaha - WSOPC Bounty PLO (Ring Event #2) |
 | Thu 29 Oct | 15:00 | €1 500 | WSOPC Big O (Ring Event #3) |
 | Fri 30 Oct | 16:00 | €1 500 | Pot Limit Omaha - WSOPC Monster Stack PLO (Ring Event #7) |
 | Sat 31 Oct – Sun 1 Nov | 16:00 | €5 000 | Pot Limit Omaha - WSOPC High Roller PLO - Day 1 |
+| Sun 1 Nov | 15:00 | · | WSOPC High Roller PLO Final Day |
 
-**Public holidays in the next 30 days** where most players come from (Czechia, Bavaria): Wed 28 Oct: Independent Czechoslovak State Day (Czechia) · Sun 1 Nov: All Saints' Day (Bavaria).
+**Public holidays in the next 30 days** where most players come from (Czechia, Bavaria): Wed 28 Oct: Independent Czechoslovak State Day (Czechia) · Sun 1 Nov: All Saints' Day (Bavaria) · Tue 17 Nov: Struggle for Freedom and Democracy Day and International Students' Day (Czechia).
 
 ## Coming up at all rooms
 
@@ -78,7 +78,7 @@ From `calendar.csv` — open it on GitHub and use the pencil button to add or co
 
 Day, hour and average seated players (only day-hour slots seen on at least 2 different dates).
 
-- **NLH:** Sat 23:00 (73) · Sat 00:00 (72) · Sat 22:00 (70)
+- **NLH:** Sun 00:00 (80) · Sat 23:00 (73) · Sat 00:00 (72)
 - **PLO5:** Sat 23:00 (12) · Sat 22:00 (12) · Sat 21:00 (12)
 - **PLO:** Sat 01:00 (17) · Sat 02:00 (17) · Sat 00:00 (13)
 
@@ -90,7 +90,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 
 | Hour | Mon | Tue | Wed | Thu | Fri | Sat | Sun | All days |
 |:--|--:|--:|--:|--:|--:|--:|--:|--:|
-| 00:00 | 30 | 8 | 14 | 19 | 37 | 72 | 82 | 39 |
+| 00:00 | 30 | 8 | 14 | 19 | 37 | 72 | 80 | 39 |
 | 01:00 | 25 | 6 | 11 | 16 | 28 | 61 | 75 | 32 |
 | 02:00 | 20 | 4 | 11 | 14 | 22 | 50 | 60 | 28 |
 | 03:00 | 19 | 0 | 9 | 14 | 23 | 35 | 43 | 21 |
@@ -119,7 +119,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 
 | Hour | Mon | Tue | Wed | Thu | Fri | Sat | Sun | All days |
 |:--|--:|--:|--:|--:|--:|--:|--:|--:|
-| 00:00 | 8 | 1 | 9 | 3 | 6 | 7 | 5 | 6 |
+| 00:00 | 8 | 1 | 9 | 3 | 6 | 7 | 7 | 6 |
 | 01:00 | 7 | 5 | 6 | 4 | 2 | 9 | 0 | 5 |
 | 02:00 | 2 | 4 | 6 | 6 | 2 | 7 | 0 | 4 |
 | 03:00 | 0 | 1 | 2 | 5 | 6 | 5 | 0 | 3 |
@@ -148,7 +148,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 
 | Hour | Mon | Tue | Wed | Thu | Fri | Sat | Sun | All days |
 |:--|--:|--:|--:|--:|--:|--:|--:|--:|
-| 00:00 | 8 | 4 | 0 | 5 | 8 | 13 | 8 | 7 |
+| 00:00 | 8 | 4 | 0 | 5 | 8 | 13 | 9 | 7 |
 | 01:00 | 8 | 0 | 0 | 5 | 7 | 17 | 11 | 7 |
 | 02:00 | 8 | 0 | 0 | 5 | 2 | 17 | 13 | 7 |
 | 03:00 | 6 | 0 | 0 | 2 | 0 | 12 | 7 | 4 |
@@ -179,7 +179,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 
 | Hour | NLH €1/2 | NLH €2/4 | NLH €5/10 | PLO €2/2 | PLO5 €5/5 | PLO5 €5/10 | PLO5 €10/10 | PLO5 €10/25 | Checks |
 |:--|--:|--:|--:|--:|--:|--:|--:|--:|--:|
-| 00:00 | 🟩 95% | 🟨 44% | 🟥 11% | 🟩 76% | 🟩 75% | 🟥 0% | 🟥 16% | 🟥 0% | 55 |
+| 00:00 | 🟩 95% | 🟨 45% | 🟥 11% | 🟩 77% | 🟩 75% | 🟥 2% | 🟥 16% | 🟥 0% | 56 |
 | 01:00 | 🟩 95% | 🟨 51% | 🟥 7% | 🟨 65% | 🟨 68% | 🟥 0% | 🟥 11% | 🟥 0% | 57 |
 | 02:00 | 🟩 89% | 🟨 55% | 🟥 0% | 🟨 62% | 🟨 64% | 🟥 0% | 🟥 9% | 🟥 0% | 55 |
 | 03:00 | 🟩 81% | 🟨 30% | 🟥 0% | 🟨 58% | 🟨 55% | 🟥 0% | 🟥 0% | 🟥 0% | 53 |
@@ -212,12 +212,12 @@ Collecting since 2026-10-08. Shown from 2026-10-22: with fewer than two weeks, t
 
 | Game | Running in | Most often | Last seen |
 |:--|--:|:--|:--|
-| NLH €1/2 | 80% of checks | Fri around 22:00 | 2026-10-17 23:50 |
-| NLH €2/4 | 29% of checks | Fri around 22:00 | 2026-10-17 23:50 |
+| NLH €1/2 | 80% of checks | Fri around 22:00 | 2026-10-18 00:00 |
+| NLH €2/4 | 29% of checks | Fri around 22:00 | 2026-10-18 00:00 |
 | NLH €5/10 | 5% of checks | Sat around 23:00 | 2026-10-17 20:00 |
-| PLO €2/2 | 38% of checks | Fri around 22:00 | 2026-10-17 23:50 |
-| PLO5 €5/5 | 37% of checks | Sat around 23:00 | 2026-10-17 23:50 |
-| PLO5 €5/10 | 3% of checks | Sat around 16:00 | 2026-10-17 23:50 |
+| PLO €2/2 | 38% of checks | Fri around 22:00 | 2026-10-18 00:00 |
+| PLO5 €5/5 | 37% of checks | Sat around 23:00 | 2026-10-18 00:00 |
+| PLO5 €5/10 | 4% of checks | Sat around 16:00 | 2026-10-18 00:00 |
 | PLO5 €10/10 | 7% of checks | Fri around 23:00 | 2026-10-16 23:50 |
 | PLO5 €10/25 | 1% of checks | Wed around 06:00 | 2026-10-07 10:04 |
 | PLO5 €25/25 | 0% of checks | Thu around 05:00 | 2026-10-15 05:40 |
@@ -230,9 +230,9 @@ The most recent ones. The game is read from the tournament's name.
 
 | Tournament | Game | Buy-in | Entries | Seen |
 |:--|:--|--:|--:|:--|
-| DPM - Day 1E (40 minutes) | NLH | €225 | 439 | 2026-10-17 11:00 → 10-17 23:50 |
-| Dutch Poker Masters - Day 1F | NLH | €225 | 276 | 2026-10-17 18:00 → 10-17 23:50 |
-| DPM Saturday Night Turbo | NLH | €130 | 166 | 2026-10-17 21:00 → 10-17 23:50 |
+| DPM - Day 1E (40 minutes) | NLH | €225 | 439 | 2026-10-17 11:00 → 10-18 00:00 |
+| Dutch Poker Masters - Day 1F | NLH | €225 | 284 | 2026-10-17 18:00 → 10-18 00:00 |
+| DPM Saturday Night Turbo | NLH | €130 | 166 | 2026-10-17 21:00 → 10-18 00:00 |
 | DPM Pot Limit Omaha | PLO | €120 | 106 | 2026-10-17 15:00 → 10-17 21:00 |
 | Flip n Go Satellite (8 handed) to DPM ME - Day 1F | NLH | €40 | 32 | 2026-10-17 16:00 → 10-17 18:10 |
 | Dutch Poker Masters - Day 1D | NLH | €225 | 217 | 2026-10-16 18:00 → 10-17 04:00 |
