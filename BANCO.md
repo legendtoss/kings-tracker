@@ -2,15 +2,15 @@
 
 Checks [its website](https://bancocasino.sk/ba/en) together with King's, about every 10 minutes. All times are **Czech time** (same as Poland and Slovakia). Back to [King's](README.md).
 
-**Last check:** 2026-10-17 17:20 — ✅ OK  
-**Checks so far:** 618 successful out of 1122 (since 2026-10-10)
+**Last check:** 2026-10-17 17:30 — ✅ OK  
+**Checks so far:** 619 successful out of 1123 (since 2026-10-10)
 
-## Tables running at 2026-10-17 17:20
+## Tables running at 2026-10-17 17:30
 
 No tables were running.
 
 *The whole list (Banco also shows its Košice casino; the numbers above are Bratislava only):* no games listed  
-**Tournaments running:** Saturday Ladies Special, starts at 19:00, buy-in €35, €3000 GTD VPT Poker Tournament: 49/51 players, level 9, blinds 1500/3000, buy-in €50
+**Tournaments running:** Saturday Ladies Special, starts at 19:00, buy-in €35, €3000 GTD VPT Poker Tournament: 47/51 players, level 9, blinds 1500/3000, buy-in €50
 
 **Note:** Since 13 Oct the tracker reads Banco's cash list and its live tournaments straight from where its page gets them; before that, its page's scripts didn't run in the tracker's browser, so those checks show as errors.
 
@@ -81,7 +81,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 14:00 | · | 8 | 0 | 1 | 2 | 0 | · | 2 |
 | 15:00 | · | 8 | 4 | 0 | 0 | 0 | · | 2 |
 | 16:00 | · | 8 | 8 | 2 | 0 | 0 | · | 4 |
-| 17:00 | · | 6 | 7 | 7 | 0 | 0 | · | 5 |
+| 17:00 | · | 6 | 7 | 7 | 0 | 0 | · | 4 |
 | 18:00 | · | 6 | 7 | 5 | 0 | · | · | 5 |
 | 19:00 | · | 8 | 7 | 2 | 0 | · | · | 4 |
 | 20:00 | · | 3 | 7 | 0 | 0 | · | · | 3 |
@@ -141,7 +141,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 14:00 | 🟨 27% | 🟥 0% | 🟨 37% | 🟥 0% | 🟥 7% | 30 |
 | 15:00 | 🟨 30% | 🟥 0% | 🟨 30% | 🟥 0% | 🟨 40% | 30 |
 | 16:00 | 🟥 20% | 🟥 0% | 🟨 47% | 🟥 0% | 🟨 33% | 30 |
-| 17:00 | 🟨 30% | 🟥 0% | 🟨 67% | 🟥 0% | 🟥 22% | 27 |
+| 17:00 | 🟨 29% | 🟥 0% | 🟨 64% | 🟥 0% | 🟥 21% | 28 |
 | 18:00 | 🟨 50% | 🟥 0% | 🟩 75% | 🟥 0% | 🟨 25% | 24 |
 | 19:00 | 🟨 25% | 🟥 0% | 🟨 71% | 🟥 4% | 🟨 25% | 24 |
 | 20:00 | 🟨 33% | 🟥 0% | 🟨 42% | 🟨 25% | 🟨 25% | 24 |
