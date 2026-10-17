@@ -2,12 +2,12 @@
 
 Checks King's live cash games and tournaments about every 10 minutes and updates this page by itself. All times are **Czech time** (same as Poland). Also tracking: [Card Casino Šamorín](CARD_CASINO.md) · [Grand Casino Aš](GRAND_CASINO_AS.md) · [Banco Casino Bratislava](BANCO.md) · [Olympic Park Tallinn](OLYMPIC_TALLINN.md) · [Olympic Casino Vilnius](OLYMPIC_VILNIUS.md).
 
-**Right now:** King's: 10 tables, 71 players · [Card Casino Šamorín](CARD_CASINO.md): 1 table, 5 players · [Grand Casino Aš](GRAND_CASINO_AS.md) 🎪 PLO festival: 0 tables running, 1 waiting · [Olympic Park Tallinn](OLYMPIC_TALLINN.md) 🎪 Kings of Tallinn: blocked at 17:30 · [Olympic Vilnius](OLYMPIC_VILNIUS.md): blocked at 17:30 · [Banco](BANCO.md): 0 tables, 0 players
+**Right now:** King's: 9 tables, 68 players · [Card Casino Šamorín](CARD_CASINO.md): 1 table, 7 players · [Grand Casino Aš](GRAND_CASINO_AS.md) 🎪 PLO festival: 0 tables running, 1 waiting · [Olympic Park Tallinn](OLYMPIC_TALLINN.md) 🎪 Kings of Tallinn: blocked at 17:30 · [Olympic Vilnius](OLYMPIC_VILNIUS.md): blocked at 17:30 · [Banco](BANCO.md): 0 tables, 0 players
 
-**Last check:** 2026-10-17 17:30 — ✅ OK (data feed)  
-**Last 24 h:** 144 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-06 (1329 good checks)
+**Last check:** 2026-10-17 17:40 — ✅ OK (data feed)  
+**Last 24 h:** 144 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-06 (1330 good checks)
 
-## Tables running at 2026-10-17 17:30
+## Tables running at 2026-10-17 17:40
 
 ```
 NLH   €1/2     8/8 players
@@ -18,12 +18,11 @@ NLH   €1/2     8/8 players
 NLH   €1/2     8/8 players
 NLH   €5/10    4/8 players
 PLO   €2/2     8/8 players
-PLO5  €5/5     3/8 players
 PLO5  €5/10    8/8 players
 ```
-**NLH:** 52 players at 7 tables · **PLO:** 8 players at 1 table · **PLO5:** 11 players at 2 tables
+**NLH:** 52 players at 7 tables · **PLO:** 8 players at 1 table · **PLO5:** 8 players at 1 table
 
-**Tournaments in play:** DPM - Day 1E (40 minutes) (NLH, €225, 185 of 400 left, late reg open, level 9, blinds 1000/2000/2000) · DPM Pot Limit Omaha (PLO, €120, 31 of 105 left, level 9, blinds 600/1200/1200)
+**Tournaments in play:** DPM - Day 1E (40 minutes) (NLH, €225, 182 of 403 left, late reg open, level 9, blinds 1000/2000/2000) · DPM Pot Limit Omaha (PLO, €120, 28 of 105 left, level 10, blinds 1000/1500/1500)
 
 ## Festivals and schedule
 
@@ -101,7 +100,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 14:00 | 5 | 4 | 8 | 0 | 24 | 34 | 41 | 18 |
 | 15:00 | 6 | 5 | 7 | 3 | 23 | 34 | 35 | 17 |
 | 16:00 | 8 | 10 | 5 | 7 | 31 | 40 | 33 | 21 |
-| 17:00 | 8 | 12 | 4 | 7 | 37 | 46 | 37 | 24 |
+| 17:00 | 8 | 12 | 4 | 7 | 37 | 47 | 37 | 24 |
 | 18:00 | 7 | 9 | 11 | 21 | 41 | 46 | 28 | 24 |
 | 19:00 | 8 | 10 | 12 | 30 | 44 | 50 | 26 | 27 |
 | 20:00 | 8 | 11 | 17 | 39 | 50 | 61 | 23 | 30 |
@@ -190,7 +189,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 14:00 | 🟨 73% | 🟨 27% | 🟥 0% | 🟥 16% | 🟨 25% | 🟥 0% | 🟥 5% | 🟥 0% | 55 |
 | 15:00 | 🟩 85% | 🟥 19% | 🟥 0% | 🟨 25% | 🟨 40% | 🟥 2% | 🟥 4% | 🟥 0% | 53 |
 | 16:00 | 🟩 85% | 🟥 20% | 🟥 0% | 🟥 23% | 🟨 47% | 🟥 10% | 🟥 5% | 🟥 0% | 60 |
-| 17:00 | 🟩 84% | 🟥 18% | 🟥 14% | 🟨 39% | 🟨 55% | 🟥 7% | 🟥 5% | 🟥 0% | 56 |
+| 17:00 | 🟩 84% | 🟥 18% | 🟥 16% | 🟨 40% | 🟨 54% | 🟥 9% | 🟥 5% | 🟥 0% | 57 |
 | 18:00 | 🟩 93% | 🟨 31% | 🟥 22% | 🟨 39% | 🟨 69% | 🟥 0% | 🟥 6% | 🟥 0% | 54 |
 | 19:00 | 🟩 87% | 🟨 43% | 🟥 9% | 🟨 46% | 🟨 74% | 🟥 0% | 🟥 11% | 🟥 0% | 54 |
 | 20:00 | 🟩 95% | 🟨 44% | 🟥 5% | 🟨 45% | 🟨 73% | 🟥 0% | 🟥 5% | 🟥 0% | 55 |
@@ -206,12 +205,12 @@ Collecting since 2026-10-08. Shown from 2026-10-22: with fewer than two weeks, t
 
 | Game | Running in | Most often | Last seen |
 |:--|--:|:--|:--|
-| NLH €1/2 | 79% of checks | Fri around 22:00 | 2026-10-17 17:30 |
+| NLH €1/2 | 79% of checks | Fri around 22:00 | 2026-10-17 17:40 |
 | NLH €2/4 | 28% of checks | Fri around 22:00 | 2026-10-17 15:50 |
-| NLH €5/10 | 5% of checks | Sat around 23:00 | 2026-10-17 17:30 |
-| PLO €2/2 | 36% of checks | Fri around 22:00 | 2026-10-17 17:30 |
+| NLH €5/10 | 5% of checks | Sat around 23:00 | 2026-10-17 17:40 |
+| PLO €2/2 | 36% of checks | Fri around 22:00 | 2026-10-17 17:40 |
 | PLO5 €5/5 | 36% of checks | Fri around 19:00 | 2026-10-17 17:30 |
-| PLO5 €5/10 | 1% of checks | Sat around 16:00 | 2026-10-17 17:30 |
+| PLO5 €5/10 | 1% of checks | Sat around 16:00 | 2026-10-17 17:40 |
 | PLO5 €10/10 | 7% of checks | Fri around 23:00 | 2026-10-16 23:50 |
 | PLO5 €10/25 | 1% of checks | Wed around 06:00 | 2026-10-07 10:04 |
 | PLO5 €25/25 | 0% of checks | Thu around 05:00 | 2026-10-15 05:40 |
@@ -224,8 +223,8 @@ The most recent ones. The game is read from the tournament's name.
 
 | Tournament | Game | Buy-in | Entries | Seen |
 |:--|:--|--:|--:|:--|
-| DPM - Day 1E (40 minutes) | NLH | €225 | 400 | 2026-10-17 11:00 → 10-17 17:30 |
-| DPM Pot Limit Omaha | PLO | €120 | 106 | 2026-10-17 15:00 → 10-17 17:30 |
+| DPM - Day 1E (40 minutes) | NLH | €225 | 403 | 2026-10-17 11:00 → 10-17 17:40 |
+| DPM Pot Limit Omaha | PLO | €120 | 106 | 2026-10-17 15:00 → 10-17 17:40 |
 | Flip n Go Satellite (8 handed) to DPM ME - Day 1F | NLH | €40 | 23 | 2026-10-17 16:00 → 10-17 17:00 |
 | Dutch Poker Masters - Day 1D | NLH | €225 | 217 | 2026-10-16 18:00 → 10-17 04:00 |
 | DPM Friday Night Turbo | NLH | €130 | 143 | 2026-10-16 21:00 → 10-17 02:40 |
