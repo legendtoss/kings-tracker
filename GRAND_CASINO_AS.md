@@ -2,16 +2,16 @@
 
 Reads [Grand Casino Aš's live cash games](https://www.grandcasinoas.eu/en/poker/poker-live) every 10 minutes and its [current tournaments](https://www.grandcasinoas.eu/en/poker) every 30 minutes. All times are **Czech time** (same as Poland). Back to [King's](README.md).
 
-**Last check:** 2026-10-17 14:20 — ✅ OK  
-**Last 24 h:** 145 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-10 (1092 good checks)
+**Last check:** 2026-10-17 14:30 — ✅ OK  
+**Last 24 h:** 145 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-10 (1093 good checks)
 
-## Cash games at 2026-10-17 14:20
+## Cash games at 2026-10-17 14:30
 
 ```
 PLO/NLH           waiting
 ```
 
-**Tournaments in play at 2026-10-17 14:00:** PLO Super Satellite to Main Event (PLO, €70, 18 of 38 left, level 7, blinds 400/800) · Noon Turbo (NLH, €50, 26 of 30 left, late reg open, level 4, blinds 150/300)
+**Tournaments in play at 2026-10-17 14:30:** PLO Super Satellite to Main Event (PLO, €70, 13 of 38 left, level 9, blinds 600/1200) · PLO Main Event 1B (PLO, €340, 13 of 13 left, late reg open, level 1, blinds 500/1000/1000)
 
 ## Festivals and schedule
 
@@ -36,7 +36,7 @@ PLO/NLH           waiting
 
 ## Running cash tables by hour
 
-*Normal days only: 377 checks during festivals, cash-game events or public holidays are compared separately in “Festivals, holidays and normal days” below.*
+*Normal days only: 378 checks during festivals, cash-game events or public holidays are compared separately in “Festivals, holidays and normal days” below.*
 
 Average number of running tables (Grand Casino Aš shows which games run, not how many players).
 
@@ -105,7 +105,7 @@ Average running tables per check on each kind of day, in total and for NLH and O
 | Days | Dates | Checks | Tables | NLH | Omaha | vs normal, same hour |
 |:--|:--|--:|--:|--:|--:|--:|
 | Normal days | 10–14 Oct (5 days) | 715 | 0.4 | 0.3 | 0.0 | -0.0 |
-| 🎪 PLO festival | 15–17 Oct (3 days) | 377 | 0.4 | 0.2 | 0.0 | +0.0 |
+| 🎪 PLO festival | 15–17 Oct (3 days) | 378 | 0.4 | 0.2 | 0.0 | +0.0 |
 
 ## Tournaments seen
 
@@ -113,7 +113,8 @@ The most recent ones. The game is read from the tournament's name.
 
 | Tournament | Game | Buy-in | Entries | Seen |
 |:--|:--|--:|--:|:--|
-| PLO Super Satellite to Main Event | PLO | €70 | 38 | 2026-10-17 12:30 → 10-17 14:00 |
+| PLO Super Satellite to Main Event | PLO | €70 | 38 | 2026-10-17 12:30 → 10-17 14:30 |
+| PLO Main Event 1B | PLO | €340 | 13 | 2026-10-17 14:30 |
 | Noon Turbo | NLH | €50 | 30 | 2026-10-17 13:00 → 10-17 14:00 |
 | Classic Friday | NLH | €70 | 87 | 2026-10-16 18:30 → 10-17 03:00 |
 | PLO Main Event 1A | PLO | €340 | 55 | 2026-10-16 21:30 → 10-17 02:00 |
@@ -127,7 +128,6 @@ The most recent ones. The game is read from the tournament's name.
 | BHD PKO Main Event Final Day | NLH | €230 | 420 | 2026-10-11 12:00 → 10-11 21:30 |
 | BHD PKO Main Event 1C | NLH | €230 | 93 | 2026-10-10 17:30 → 10-11 11:00 |
 | Saturday Quattro Bounty | NLH | €150 | 151 | 2026-10-10 20:30 → 10-11 05:00 |
-| Saturday Freezeout | NLH | €120 | 63 | 2026-10-10 14:30 → 10-10 22:00 |
 
 ---
 Raw data: `data/grandcasinoas` (one CSV file per month).
