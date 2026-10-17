@@ -2,18 +2,21 @@
 
 Reads [OlyBet's live cash games page](https://olybetpoker.com/lt/cash-games/?club=10) every 30 minutes (their site has bot protection, so the tracker checks gently and simply records it when a check is refused). All times are **Czech time** (Vilnius is one hour ahead). Back to [King's](README.md).
 
-**Last check:** 2026-10-17 20:30 — ⚠️ error: blocked by the site's bot protection — details in `debug/olympic-vilnius_page.json`  
-**Last 24 h:** 26 of 49 checks OK, longest gap 0 h 30 min · **Collecting since:** 2026-10-10 (199 good checks)
+**Last check:** 2026-10-17 21:00 — ✅ OK  
+**Last 24 h:** 27 of 49 checks OK, longest gap 0 h 30 min · **Collecting since:** 2026-10-10 (200 good checks)
 
 **Club:** Olympic Casino Vilnius, Lietuva
 
-## Tables running at 2026-10-17 20:00
+## Tables running at 2026-10-17 21:00
 
-No tables were running.
+```
+Dealer's Choice  €1/2     6/8 players
+```
+**Dealer's Choice:** 6 players at 1 table
 
-**Waiting lists:** 11 players · **All games listed:** Dealer's Choice €1/2 (waiting to start): 1 table, 0/8 players, 9 waiting NLH €1/2 (waiting to start): 1 table, 0/9 players, 2 waiting
+**Waiting lists:** 3 players · **All games listed:** Dealer's Choice €1/2 (opened): 1 table, 6/8 players, 0 waiting NLH €1/2 (waiting to start): 1 table, 0/9 players, 3 waiting
 
-**Tournaments on their site at 2026-10-17 15:00:** live 19:00 Olympic Casino Vilnius, Lietuva 17 NLH Unlimited WILD rebuys 5 levels + addon(10K) 5,000 €25
+**Tournaments on their site at 2026-10-17 21:00:** live 19:00 Olympic Casino Vilnius, Lietuva 17 NLH Unlimited WILD rebuys 5 levels + addon(10K) 5,000 €25
 
 ## Festivals and schedule
 
@@ -58,7 +61,7 @@ No player data yet.
 | 18:00 | 🟥 0% | 7 |
 | 19:00 | 🟥 0% | 7 |
 | 20:00 | 🟥 17% | 6 |
-| 21:00 | 🟥 14% | 7 |
+| 21:00 | 🟨 25% | 8 |
 | 22:00 | 🟥 20% | 10 |
 | 23:00 | 🟥 11% | 9 |
 
@@ -66,7 +69,7 @@ No player data yet.
 
 | Game | Running in | Most often | Last seen |
 |:--|--:|:--|:--|
-| Dealer's Choice €1/2 | 6% of checks | Fri around 22:00 | 2026-10-17 04:00 |
+| Dealer's Choice €1/2 | 6% of checks | Fri around 22:00 | 2026-10-17 21:00 |
 
 ---
 Raw data: `data/olympic-vilnius` (one CSV file per month).
