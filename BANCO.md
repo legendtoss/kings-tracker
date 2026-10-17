@@ -2,10 +2,10 @@
 
 Checks [its website](https://bancocasino.sk/ba/en) together with King's, about every 10 minutes. All times are **Czech time** (same as Poland and Slovakia). Back to [King's](README.md).
 
-**Last check:** 2026-10-17 20:10 — ✅ OK  
-**Checks so far:** 635 successful out of 1139 (since 2026-10-10)
+**Last check:** 2026-10-17 20:20 — ✅ OK  
+**Checks so far:** 636 successful out of 1140 (since 2026-10-10)
 
-## Tables running at 2026-10-17 20:10
+## Tables running at 2026-10-17 20:20
 
 ```
 NLH  €1/3     7 players
@@ -13,7 +13,7 @@ NLH  €1/3     7 players
 **NLH:** 7 players at 1 table
 
 *The whole list (Banco also shows its Košice casino; the numbers above are Bratislava only):* Bratislava: NLH €1/3 7 players (buy-in €100) Košice: NLH €1/3 6 players (buy-in €100)  
-**Tournaments running:** Saturday Ladies Special: 43/57 players, level 4, blinds 200/400, buy-in €35, €3000 GTD VPT Poker Tournament: 14/51 players, level 16, blinds 8000/16000, buy-in €50
+**Tournaments running:** Saturday Ladies Special: 48/63 players, level 4, blinds 200/400, buy-in €35, €3000 GTD VPT Poker Tournament: 13/51 players, level 17, blinds 10000/20000, buy-in €50
 
 **Note:** Since 13 Oct the tracker reads Banco's cash list and its live tournaments straight from where its page gets them; before that, its page's scripts didn't run in the tracker's browser, so those checks show as errors.
 
@@ -147,7 +147,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 17:00 | 🟨 27% | 🟥 0% | 🟨 60% | 🟥 0% | 🟥 20% | 30 |
 | 18:00 | 🟨 50% | 🟥 0% | 🟨 60% | 🟥 0% | 🟥 20% | 30 |
 | 19:00 | 🟨 40% | 🟥 0% | 🟨 57% | 🟥 3% | 🟥 20% | 30 |
-| 20:00 | 🟨 38% | 🟥 0% | 🟨 38% | 🟥 23% | 🟥 23% | 26 |
+| 20:00 | 🟨 41% | 🟥 0% | 🟨 37% | 🟥 22% | 🟥 22% | 27 |
 | 21:00 | 🟨 72% | 🟥 0% | 🟨 52% | 🟥 24% | 🟥 24% | 25 |
 | 22:00 | 🟩 75% | 🟥 0% | 🟨 50% | 🟨 25% | 🟥 8% | 24 |
 | 23:00 | 🟩 92% | 🟥 0% | 🟨 25% | 🟨 25% | 🟥 0% | 24 |
@@ -156,7 +156,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 
 | Game | Running in | Most often | Last seen |
 |:--|--:|:--|:--|
-| NLH €1/3 | 41% of checks | Tue around 12:00 | 2026-10-17 20:10 |
+| NLH €1/3 | 41% of checks | Tue around 12:00 | 2026-10-17 20:20 |
 | NLH €2/5 | 1% of checks | Sat around 07:00 | 2026-10-17 07:50 |
 | PLO 4/5 €2/2 | 26% of checks | Tue around 12:00 | 2026-10-16 14:50 |
 | PLO €25/50 | 11% of checks | Thu around 20:00 | 2026-10-16 07:30 |
