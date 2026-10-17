@@ -2,15 +2,15 @@
 
 Checks [its website](https://bancocasino.sk/ba/en) together with King's, about every 10 minutes. All times are **Czech time** (same as Poland and Slovakia). Back to [King's](README.md).
 
-**Last check:** 2026-10-17 17:10 — ✅ OK  
-**Checks so far:** 617 successful out of 1121 (since 2026-10-10)
+**Last check:** 2026-10-17 17:20 — ✅ OK  
+**Checks so far:** 618 successful out of 1122 (since 2026-10-10)
 
-## Tables running at 2026-10-17 17:10
+## Tables running at 2026-10-17 17:20
 
 No tables were running.
 
 *The whole list (Banco also shows its Košice casino; the numbers above are Bratislava only):* no games listed  
-**Tournaments running:** Saturday Ladies Special, starts at 19:00, buy-in €35, €3000 GTD VPT Poker Tournament: 50/51 players, level 8, blinds 1000/2000, buy-in €50
+**Tournaments running:** Saturday Ladies Special, starts at 19:00, buy-in €35, €3000 GTD VPT Poker Tournament: 49/51 players, level 9, blinds 1500/3000, buy-in €50
 
 **Note:** Since 13 Oct the tracker reads Banco's cash list and its live tournaments straight from where its page gets them; before that, its page's scripts didn't run in the tracker's browser, so those checks show as errors.
 
@@ -141,7 +141,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 14:00 | 🟨 27% | 🟥 0% | 🟨 37% | 🟥 0% | 🟥 7% | 30 |
 | 15:00 | 🟨 30% | 🟥 0% | 🟨 30% | 🟥 0% | 🟨 40% | 30 |
 | 16:00 | 🟥 20% | 🟥 0% | 🟨 47% | 🟥 0% | 🟨 33% | 30 |
-| 17:00 | 🟨 31% | 🟥 0% | 🟨 69% | 🟥 0% | 🟥 23% | 26 |
+| 17:00 | 🟨 30% | 🟥 0% | 🟨 67% | 🟥 0% | 🟥 22% | 27 |
 | 18:00 | 🟨 50% | 🟥 0% | 🟩 75% | 🟥 0% | 🟨 25% | 24 |
 | 19:00 | 🟨 25% | 🟥 0% | 🟨 71% | 🟥 4% | 🟨 25% | 24 |
 | 20:00 | 🟨 33% | 🟥 0% | 🟨 42% | 🟨 25% | 🟨 25% | 24 |
@@ -156,7 +156,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | NLH €1/3 | 40% of checks | Tue around 12:00 | 2026-10-17 06:20 |
 | NLH €2/5 | 1% of checks | Sat around 07:00 | 2026-10-17 07:50 |
 | PLO 4/5 €2/2 | 27% of checks | Tue around 12:00 | 2026-10-16 14:50 |
-| PLO €25/50 | 12% of checks | Thu around 20:00 | 2026-10-16 07:30 |
+| PLO €25/50 | 11% of checks | Thu around 20:00 | 2026-10-16 07:30 |
 | Dealer's Choice €2/2 | 9% of checks | Thu around 15:00 | 2026-10-16 22:10 |
 
 ---
