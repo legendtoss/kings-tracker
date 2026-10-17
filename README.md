@@ -2,10 +2,10 @@
 
 Checks King's live cash games and tournaments about every 10 minutes and updates this page by itself. All times are **Czech time** (same as Poland). Also tracking: [Card Casino Šamorín](CARD_CASINO.md) · [Grand Casino Aš](GRAND_CASINO_AS.md) · [Banco Casino Bratislava](BANCO.md) · [Olympic Park Tallinn](OLYMPIC_TALLINN.md) · [Olympic Casino Vilnius](OLYMPIC_VILNIUS.md).
 
-**Right now:** King's: 3 tables, 23 players · [Card Casino Šamorín](CARD_CASINO.md): 0 tables, 0 players · [Grand Casino Aš](GRAND_CASINO_AS.md) 🎪 PLO festival: 1 table running, 1 waiting · [Olympic Park Tallinn](OLYMPIC_TALLINN.md) 🎪 Kings of Tallinn: blocked at 05:30 · [Olympic Vilnius](OLYMPIC_VILNIUS.md): 0 tables, 0 players (2 waiting) at 05:30 · [Banco](BANCO.md): 1 table, 8 players
+**Right now:** King's: couldn't be read · [Card Casino Šamorín](CARD_CASINO.md): couldn't be read · [Grand Casino Aš](GRAND_CASINO_AS.md) 🎪 PLO festival: 1 table running, 1 waiting · [Olympic Park Tallinn](OLYMPIC_TALLINN.md) 🎪 Kings of Tallinn: blocked at 05:30 · [Olympic Vilnius](OLYMPIC_VILNIUS.md): 0 tables, 0 players (2 waiting) at 05:30 · [Banco](BANCO.md): 1 table, 8 players
 
-**Last check:** 2026-10-17 05:40 — ✅ OK (data feed)  
-**Last 24 h:** 144 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-06 (1259 good checks)
+**Last check:** 2026-10-17 05:50 — ⚠️ error: couldn't read the tables on the page — details in `debug/last_problem.json`  
+**Last 24 h:** 143 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-06 (1259 good checks)
 
 ## Tables running at 2026-10-17 05:40
 
