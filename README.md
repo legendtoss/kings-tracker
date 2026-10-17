@@ -2,10 +2,10 @@
 
 Checks King's live cash games and tournaments about every 10 minutes and updates this page by itself. All times are **Czech time** (same as Poland). Also tracking: [King's Prague](KINGS_PRAGUE.md) · [Card Casino Šamorín](CARD_CASINO.md) · [Grand Casino Aš](GRAND_CASINO_AS.md) · [Banco Casino Bratislava](BANCO.md) · [Olympic Park Tallinn](OLYMPIC_TALLINN.md) · [Olympic Voodoo Riga](OLYMPIC_RIGA.md) · [Olympic Casino Vilnius](OLYMPIC_VILNIUS.md).
 
-**Right now:** King's: 13 tables, 100 players · [King's Prague](KINGS_PRAGUE.md): 1 table, 2 players · [Card Casino Šamorín](CARD_CASINO.md): 2 tables, 16 players · [Grand Casino Aš](GRAND_CASINO_AS.md) 🎪 PLO festival: 2 tables running, 1 waiting · [Olympic Park Tallinn](OLYMPIC_TALLINN.md) 🎪 Kings of Tallinn: blocked at 21:30 · [Olympic Voodoo Riga](OLYMPIC_RIGA.md): 1 table, 9 players (11 waiting) at 21:30 · [Olympic Vilnius](OLYMPIC_VILNIUS.md): 1 table, 6 players (3 waiting) at 21:30 · [Banco](BANCO.md): 2 tables, 14 players
+**Right now:** King's: couldn't be read · [King's Prague](KINGS_PRAGUE.md): 1 table, 2 players · [Card Casino Šamorín](CARD_CASINO.md): 2 tables, 17 players · [Grand Casino Aš](GRAND_CASINO_AS.md) 🎪 PLO festival: 3 tables running, 1 waiting · [Olympic Park Tallinn](OLYMPIC_TALLINN.md) 🎪 Kings of Tallinn: 8 tables, 61 players at 22:00 · [Olympic Voodoo Riga](OLYMPIC_RIGA.md): 1 table, 9 players (10 waiting) at 22:00 · [Olympic Vilnius](OLYMPIC_VILNIUS.md): 1 table, 6 players (3 waiting) at 22:00 · [Banco](BANCO.md): 2 tables, 14 players
 
-**Last check:** 2026-10-17 21:50 — ✅ OK (data feed)  
-**Last 24 h:** 143 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-06 (1354 good checks)
+**Last check:** 2026-10-17 22:00 — ⚠️ error: couldn't read the tables on the page — details in `debug/last_problem.json`  
+**Last 24 h:** 142 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-06 (1354 good checks)
 
 ## Tables running at 2026-10-17 21:50
 
@@ -230,9 +230,9 @@ The most recent ones. The game is read from the tournament's name.
 
 | Tournament | Game | Buy-in | Entries | Seen |
 |:--|:--|--:|--:|:--|
-| DPM - Day 1E (40 minutes) | NLH | €225 | 439 | 2026-10-17 11:00 → 10-17 21:50 |
-| Dutch Poker Masters - Day 1F | NLH | €225 | 227 | 2026-10-17 18:00 → 10-17 21:50 |
-| DPM Saturday Night Turbo | NLH | €130 | 130 | 2026-10-17 21:00 |
+| DPM - Day 1E (40 minutes) | NLH | €225 | 439 | 2026-10-17 11:00 → 10-17 22:00 |
+| Dutch Poker Masters - Day 1F | NLH | €225 | 235 | 2026-10-17 18:00 → 10-17 22:00 |
+| DPM Saturday Night Turbo | NLH | €130 | 139 | 2026-10-17 21:00 → 10-17 22:00 |
 | DPM Pot Limit Omaha | PLO | €120 | 106 | 2026-10-17 15:00 → 10-17 21:00 |
 | Flip n Go Satellite (8 handed) to DPM ME - Day 1F | NLH | €40 | 32 | 2026-10-17 16:00 → 10-17 18:10 |
 | Dutch Poker Masters - Day 1D | NLH | €225 | 217 | 2026-10-16 18:00 → 10-17 04:00 |
