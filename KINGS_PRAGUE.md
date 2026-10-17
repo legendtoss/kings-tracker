@@ -2,17 +2,17 @@
 
 Prague's tables come in the same King's data feed as Rozvadov's, so they're read at every check (about every 10 minutes) without any extra visits, together with Prague's tournament clocks. All times are **Czech time** (same as Poland). Back to [King's Rozvadov](README.md).
 
-**Last check:** 2026-10-17 21:30 — ✅ OK  
-**Last 24 h:** 6 of 13 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-17 (6 good checks)
+**Last check:** 2026-10-17 21:40 — ✅ OK  
+**Last 24 h:** 7 of 14 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-17 (7 good checks)
 
-## Tables running at 2026-10-17 21:30
+## Tables running at 2026-10-17 21:40
 
 ```
 NLH  €2/4     2/8 players
 ```
 **NLH:** 2 players at 1 table
 
-**Tournaments in play:** King's Prague Saturday Monsterstack (NLH, €100, 29 of 61 left, late reg open, level 12, blinds 2500/5000/5000)
+**Tournaments in play:** King's Prague Saturday Monsterstack (NLH, €100, 27 of 62 left, late reg open, level 12, blinds 2500/5000/5000)
 
 ## Festivals and schedule
 
@@ -89,7 +89,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 18:00 | · | 0 |
 | 19:00 | · | 0 |
 | 20:00 | 🟩 100% | 2 |
-| 21:00 | 🟩 100% | 4 |
+| 21:00 | 🟩 100% | 5 |
 | 22:00 | · | 0 |
 | 23:00 | · | 0 |
 
@@ -97,7 +97,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 
 | Game | Running in | Most often | Last seen |
 |:--|--:|:--|:--|
-| NLH €2/4 | 100% of checks | Sat around 21:00 | 2026-10-17 21:30 |
+| NLH €2/4 | 100% of checks | Sat around 21:00 | 2026-10-17 21:40 |
 
 ## Tournaments seen
 
@@ -105,7 +105,7 @@ The most recent ones. The game is read from the tournament's name.
 
 | Tournament | Game | Buy-in | Entries | Seen |
 |:--|:--|--:|--:|:--|
-| King's Prague Saturday Monsterstack | NLH | €100 | 61 | 2026-10-17 20:40 → 10-17 21:30 |
+| King's Prague Saturday Monsterstack | NLH | €100 | 62 | 2026-10-17 20:40 → 10-17 21:40 |
 
 ---
 Raw data: `data/kings-prague` (one CSV file per month). Prague is venue 3 in King's feed (`data/kings_venues.json`).
