@@ -2,17 +2,14 @@
 
 Checks [its website](https://bancocasino.sk/ba/en) together with King's, about every 10 minutes. All times are **Czech time** (same as Poland and Slovakia). Back to [King's](README.md).
 
-**Last check:** 2026-10-18 09:10 — ✅ OK  
-**Checks so far:** 713 successful out of 1217 (since 2026-10-10)
+**Last check:** 2026-10-18 09:20 — ✅ OK  
+**Checks so far:** 714 successful out of 1218 (since 2026-10-10)
 
-## Tables running at 2026-10-18 09:10
+## Tables running at 2026-10-18 09:20
 
-```
-NLH  €1/3     5 players
-```
-**NLH:** 5 players at 1 table
+No tables were running.
 
-*The whole list (Banco also shows its Košice casino; the numbers above are Bratislava only):* Bratislava: NLH €1/3 5 players (buy-in €100)  
+*The whole list (Banco also shows its Košice casino; the numbers above are Bratislava only):* no games listed  
 **Tournaments running:** none
 
 **Note:** Since 13 Oct the tracker reads Banco's cash list and its live tournaments straight from where its page gets them; before that, its page's scripts didn't run in the tracker's browser, so those checks show as errors.
@@ -47,7 +44,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 06:00 | · | · | 0 | 8 | 0 | 7 | 8 | 4 |
 | 07:00 | · | · | 0 | 6 | 0 | 6 | 8 | 4 |
 | 08:00 | · | · | 0 | 0 | 0 | 0 | 8 | 2 |
-| 09:00 | · | · | 0 | 0 | 0 | 0 | 5 | 0 |
+| 09:00 | · | · | 0 | 0 | 0 | 0 | 3 | 0 |
 | 10:00 | · | · | 0 | 0 | 0 | 0 | · | 0 |
 | 11:00 | · | 5 | 0 | 0 | 0 | 0 | · | 0 |
 | 12:00 | · | 14 | 0 | 0 | 0 | 0 | · | 3 |
@@ -107,7 +104,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 06:00 | 🟨 48% | 🟥 10% | 🟥 0% | 🟥 19% | 🟥 0% | 31 |
 | 07:00 | 🟨 40% | 🟥 20% | 🟥 0% | 🟥 13% | 🟥 0% | 30 |
 | 08:00 | 🟥 20% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 30 |
-| 09:00 | 🟥 8% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 26 |
+| 09:00 | 🟥 7% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 27 |
 | 10:00 | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 24 |
 | 11:00 | 🟥 8% | 🟥 0% | 🟥 8% | 🟥 0% | 🟥 0% | 26 |
 | 12:00 | 🟥 22% | 🟥 0% | 🟥 22% | 🟥 0% | 🟥 0% | 32 |
