@@ -6,10 +6,10 @@ Checks King's live cash games and tournaments about every 10 minutes and updates
 
 **🎯 Omaha right now:** King's Rozvadov: PLO5 €5/5 (8 players)
 
-**Last check:** 2026-10-18 18:30 — ✅ OK (data feed)  
-**Last 24 h:** 143 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-06 (1477 good checks)
+**Last check:** 2026-10-18 18:40 — ✅ OK (data feed)  
+**Last 24 h:** 143 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-06 (1478 good checks)
 
-## Tables running at 2026-10-18 18:30
+## Tables running at 2026-10-18 18:40
 
 ```
 NLH   €1/2     8/8 players
@@ -22,7 +22,7 @@ PLO5  €5/5     8/8 players
 ```
 **NLH:** 48 players at 6 tables · **PLO5:** 8 players at 1 table
 
-**Tournaments in play:** Dutch Poker Masters - Day 2 (NLH, €225, 151 of 1978 left, level 18, blinds 10000/20000/20000) · DPM High Roller (NLH, €500, 43 of 45 left, late reg open, level 2, blinds 500/1000/1000)
+**Tournaments in play:** Dutch Poker Masters - Day 2 (NLH, €225, 141 of 1978 left, level 18, blinds 10000/20000/20000) · DPM High Roller (NLH, €500, 48 of 51 left, late reg open, level 2, blinds 500/1000/1000)
 
 ## Festivals and schedule
 
@@ -119,7 +119,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 15:00 | 6 | 5 | 7 | 3 | 23 | 34 | 41 | 20 |
 | 16:00 | 8 | 10 | 5 | 7 | 31 | 40 | 42 | 24 |
 | 17:00 | 8 | 12 | 4 | 7 | 37 | 47 | 40 | 26 |
-| 18:00 | 7 | 9 | 11 | 21 | 41 | 49 | 34 | 28 |
+| 18:00 | 7 | 9 | 11 | 21 | 41 | 49 | 35 | 28 |
 | 19:00 | 8 | 10 | 12 | 30 | 44 | 54 | 26 | 30 |
 | 20:00 | 8 | 11 | 17 | 39 | 50 | 64 | 23 | 34 |
 | 21:00 | 10 | 14 | 18 | 45 | 55 | 66 | 27 | 37 |
@@ -208,7 +208,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 15:00 | 🟩 86% | 🟨 27% | 🟥 0% | 🟨 32% | 🟨 36% | 🟥 2% | 🟥 3% | 🟥 0% | 59 |
 | 16:00 | 🟩 86% | 🟨 27% | 🟥 0% | 🟨 30% | 🟨 47% | 🟥 9% | 🟥 5% | 🟥 0% | 66 |
 | 17:00 | 🟩 86% | 🟥 16% | 🟥 16% | 🟨 47% | 🟨 58% | 🟥 9% | 🟥 5% | 🟥 0% | 64 |
-| 18:00 | 🟩 94% | 🟨 33% | 🟥 19% | 🟨 42% | 🟨 64% | 🟥 9% | 🟥 5% | 🟥 0% | 64 |
+| 18:00 | 🟩 94% | 🟨 32% | 🟥 18% | 🟨 42% | 🟨 65% | 🟥 9% | 🟥 5% | 🟥 0% | 65 |
 | 19:00 | 🟩 88% | 🟨 47% | 🟥 14% | 🟨 51% | 🟨 71% | 🟥 8% | 🟥 10% | 🟥 0% | 59 |
 | 20:00 | 🟩 95% | 🟨 49% | 🟥 7% | 🟨 51% | 🟩 75% | 🟥 10% | 🟥 5% | 🟥 0% | 61 |
 | 21:00 | 🟩 95% | 🟨 48% | 🟥 10% | 🟨 60% | 🟨 52% | 🟥 10% | 🟥 5% | 🟥 0% | 60 |
@@ -223,11 +223,11 @@ Collecting since 2026-10-08. Shown from 2026-10-22: with fewer than two weeks, t
 
 | Game | Running in | Most often | Last seen |
 |:--|--:|:--|:--|
-| NLH €1/2 | 81% of checks | Fri around 22:00 | 2026-10-18 18:30 |
+| NLH €1/2 | 81% of checks | Fri around 22:00 | 2026-10-18 18:40 |
 | NLH €2/4 | 29% of checks | Fri around 22:00 | 2026-10-18 16:50 |
 | NLH €5/10 | 5% of checks | Sat around 23:00 | 2026-10-17 20:00 |
 | PLO €2/2 | 42% of checks | Fri around 22:00 | 2026-10-18 17:50 |
-| PLO5 €5/5 | 37% of checks | Sat around 23:00 | 2026-10-18 18:30 |
+| PLO5 €5/5 | 37% of checks | Sat around 23:00 | 2026-10-18 18:40 |
 | PLO5 €5/10 | 4% of checks | Sat around 16:00 | 2026-10-18 02:10 |
 | PLO5 €10/10 | 6% of checks | Fri around 23:00 | 2026-10-16 23:50 |
 | PLO5 €10/25 | 1% of checks | Wed around 06:00 | 2026-10-07 10:04 |
@@ -241,8 +241,8 @@ The most recent ones. The game is read from the tournament's name.
 
 | Tournament | Game | Buy-in | Entries | Seen |
 |:--|:--|--:|--:|:--|
-| Dutch Poker Masters - Day 2 | NLH | €225 | 1978 | 2026-10-18 17:20 → 10-18 18:30 |
-| DPM High Roller | NLH | €500 | 45 | 2026-10-18 18:00 |
+| Dutch Poker Masters - Day 2 | NLH | €225 | 1978 | 2026-10-18 17:20 → 10-18 18:40 |
+| DPM High Roller | NLH | €500 | 51 | 2026-10-18 18:00 |
 | DPM - Day 1G TURBO | NLH | €225 | 290 | 2026-10-18 11:00 → 10-18 16:50 |
 | Dutch Poker Masters - Day 1 Flip and Go Pineapple | Pineapple | €225 | 115 | 2026-10-18 14:00 → 10-18 16:50 |
 | Dutch Poker Masters - Day 1F | NLH | €225 | 284 | 2026-10-17 18:00 → 10-18 04:20 |
@@ -261,14 +261,14 @@ The most recent ones. The game is read from the tournament's name.
 
 | Room | Last check | OK in the last 24 h | Most common problem |
 |:--|:--|--:|:--|
-| King's Rozvadov | ✅ 10-18 18:30 | 143 of 145 | couldn't read the tables on the page |
-| [King's Prague](KINGS_PRAGUE.md) | ✅ 10-18 18:30 | 139 of 139 | · |
-| [Grand Casino Aš](GRAND_CASINO_AS.md) | ✅ 10-18 18:30 | 145 of 145 | · |
-| [Card Casino Šamorín](CARD_CASINO.md) | ✅ 10-18 18:30 | 123 of 145 | Card Casino's site didn't answer |
-| [Banco Casino Bratislava](BANCO.md) | ✅ 10-18 18:30 | 145 of 145 | · |
-| [Olympic Park Tallinn](OLYMPIC_TALLINN.md) | ⚠️ 10-18 18:30 | 29 of 49 | blocked by the site's bot protection |
+| King's Rozvadov | ✅ 10-18 18:40 | 143 of 145 | couldn't read the tables on the page |
+| [King's Prague](KINGS_PRAGUE.md) | ✅ 10-18 18:40 | 140 of 140 | · |
+| [Grand Casino Aš](GRAND_CASINO_AS.md) | ✅ 10-18 18:40 | 145 of 145 | · |
+| [Card Casino Šamorín](CARD_CASINO.md) | ✅ 10-18 18:40 | 123 of 145 | Card Casino's site didn't answer |
+| [Banco Casino Bratislava](BANCO.md) | ✅ 10-18 18:40 | 145 of 145 | · |
+| [Olympic Park Tallinn](OLYMPIC_TALLINN.md) | ⚠️ 10-18 18:30 | 29 of 48 | blocked by the site's bot protection |
 | [Olympic Voodoo Riga](OLYMPIC_RIGA.md) | ✅ 10-18 18:30 | 34 of 47 | blocked by the site's bot protection |
-| [Olympic Casino Vilnius](OLYMPIC_VILNIUS.md) | ⚠️ 10-18 18:30 | 29 of 49 | blocked by the site's bot protection |
+| [Olympic Casino Vilnius](OLYMPIC_VILNIUS.md) | ⚠️ 10-18 18:30 | 29 of 48 | blocked by the site's bot protection |
 
 ---
 Raw data: the `data` folder, one CSV file per month. To open one in Excel, use Data → From Text/CSV (double-clicking puts everything in one column in Polish Excel). The tracker is `tracker.py`; its schedule is in `.github/workflows/track.yml`.  
