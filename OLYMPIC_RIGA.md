@@ -2,18 +2,18 @@
 
 Reads [OlyBet's live cash games page](https://olybetpoker.com/lv/en/cash-games/?club=17) every 30 minutes (their site has bot protection, so the tracker checks gently and simply records it when a check is refused). All times are **Czech time** (Riga is one hour ahead). Back to [King's](README.md).
 
-**Last check:** 2026-10-18 12:30 — ⚠️ error: blocked by the site's bot protection — details in `debug/olympic-riga_page.json`  
-**Last 24 h:** 26 of 35 checks OK, longest gap 0 h 30 min · **Collecting since:** 2026-10-17 (26 good checks)
+**Last check:** 2026-10-18 13:00 — ✅ OK  
+**Last 24 h:** 27 of 36 checks OK, longest gap 0 h 30 min · **Collecting since:** 2026-10-17 (27 good checks)
 
 **Club:** Olympic Casino Voodoo
 
-## Tables running at 2026-10-18 12:00
+## Tables running at 2026-10-18 13:00
 
 No tables were running.
 
 **Waiting lists:** 3 players · **All games listed:** NLH €1/3 (closed): 0 tables, 0/0 players, 0 waiting NLH €5/10 (closed): 0 tables, 0/0 players, 0 waiting NLH €5/10 (closed): 0 tables, 0/0 players, 0 waiting PLO4/PLO5 DC €2/2 (closed): 0 tables, 0/0 players, 0 waiting PLO4/PLO5 DC €5/5 (closed): 0 tables, 0/0 players, 0 waiting SUNDAY CASH GAME NLH €1/1 (closed): 0 tables, 0/0 players, 3 waiting
 
-**Tournaments on their site at 2026-10-18 12:00:** live 18:00 Olympic Casino Voodoo SUNDAY CASH GAME 50 €50 19:15 Olympic Casino Voodoo 18 NLH SUNDAY TURBO 20,000 €60
+**Tournaments on their site at 2026-10-18 13:00:** live 18:00 Olympic Casino Voodoo SUNDAY CASH GAME 50 €50 19:15 Olympic Casino Voodoo 18 NLH SUNDAY TURBO 20,000 €60
 
 ## Festivals and schedule
 
@@ -46,7 +46,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 10:00 | · | · | · | · | · | · | 0 | 0 |
 | 11:00 | · | · | · | · | · | · | 0 | 0 |
 | 12:00 | · | · | · | · | · | · | 0 | 0 |
-| 13:00 | · | · | · | · | · | · | · | · |
+| 13:00 | · | · | · | · | · | · | 0 | 0 |
 | 14:00 | · | · | · | · | · | · | · | · |
 | 15:00 | · | · | · | · | · | · | · | · |
 | 16:00 | · | · | · | · | · | · | · | · |
@@ -77,7 +77,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 10:00 | 🟥 0% | 🟥 0% | 2 |
 | 11:00 | 🟥 0% | 🟥 0% | 2 |
 | 12:00 | 🟥 0% | 🟥 0% | 1 |
-| 13:00 | · | · | 0 |
+| 13:00 | 🟥 0% | 🟥 0% | 1 |
 | 14:00 | · | · | 0 |
 | 15:00 | · | · | 0 |
 | 16:00 | · | · | 0 |
@@ -93,8 +93,8 @@ Seated players at each game's tables. 0 = that game wasn't running.
 
 | Game | Running in | Most often | Last seen |
 |:--|--:|:--|:--|
-| NLH €5/5 | 50% of checks | Sat around 21:00 | 2026-10-18 04:00 |
-| NLH €5/10 | 12% of checks | Sun around 04:00 | 2026-10-18 06:00 |
+| NLH €5/5 | 48% of checks | Sat around 21:00 | 2026-10-18 04:00 |
+| NLH €5/10 | 11% of checks | Sun around 04:00 | 2026-10-18 06:00 |
 
 ---
 Raw data: `data/olympic-riga` (one CSV file per month).
