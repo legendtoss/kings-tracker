@@ -1,17 +1,21 @@
 {
- "saved_at": "2026-10-17T19:30:29+02:00",
- "status": "error: Prague's tables haven't appeared in King's feed yet",
+ "saved_at": "2026-10-18T19:00:39+02:00",
+ "status": "error: King's feed came back empty and that couldn't be confirmed, so it wasn't counted as 0 tables",
  "url": "https://admin.kings-resort.com/zeus/?data=cash_games_by_venue",
- "venues_in_feed": {
-  "1": 11
- },
+ "venues_in_feed": {},
  "venues_seen": {
   "1": {
+   "checks": 140,
    "first": "2026-10-17 19:30",
-   "checks": 1,
-   "most_tables": 11,
-   "last": "2026-10-17 19:30"
+   "last": "2026-10-18 18:50",
+   "most_tables": 13
+  },
+  "3": {
+   "checks": 29,
+   "first": "2026-10-17 20:40",
+   "last": "2026-10-18 01:20",
+   "most_tables": 1
   }
  },
- "feed_trusted": true
+ "feed_trusted": false
 }

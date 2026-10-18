@@ -2,12 +2,12 @@
 
 Checks King's live cash games and tournaments about every 10 minutes and updates this page by itself. All times are **Czech time** (same as Poland). Also tracking: [King's Prague](KINGS_PRAGUE.md) · [Card Casino Šamorín](CARD_CASINO.md) · [Grand Casino Aš](GRAND_CASINO_AS.md) · [Banco Casino Bratislava](BANCO.md) · [Olympic Park Tallinn](OLYMPIC_TALLINN.md) · [Olympic Voodoo Riga](OLYMPIC_RIGA.md) · [Olympic Casino Vilnius](OLYMPIC_VILNIUS.md).
 
-**Right now:** King's: 7 tables, 54 players · [King's Prague](KINGS_PRAGUE.md): 0 tables, 0 players · [Card Casino Šamorín](CARD_CASINO.md): 0 tables, 0 players · [Grand Casino Aš](GRAND_CASINO_AS.md) 🎪 PLO festival: 0 tables running, 1 waiting · [Olympic Park Tallinn](OLYMPIC_TALLINN.md) 🎪 Kings of Tallinn: blocked at 18:30 · [Olympic Voodoo Riga](OLYMPIC_RIGA.md): 1 table, 9 players (1 waiting) at 18:30 · [Olympic Vilnius](OLYMPIC_VILNIUS.md): blocked at 18:30 · [Banco](BANCO.md): 1 table, 7 players
+**Right now:** King's: couldn't be read · [King's Prague](KINGS_PRAGUE.md): couldn't be read · [Card Casino Šamorín](CARD_CASINO.md): 1 table, 6 players · [Grand Casino Aš](GRAND_CASINO_AS.md) 🎪 PLO festival: 0 tables running, 1 waiting · [Olympic Park Tallinn](OLYMPIC_TALLINN.md) 🎪 Kings of Tallinn: 1 table, 6 players (7 waiting) at 19:00 · [Olympic Voodoo Riga](OLYMPIC_RIGA.md): 1 table, 7 players (6 waiting) at 19:00 · [Olympic Vilnius](OLYMPIC_VILNIUS.md): 0 tables, 0 players (3 waiting) at 19:00 · [Banco](BANCO.md): 1 table, 7 players
 
-**🎯 Omaha right now:** King's Rozvadov: PLO5 €5/5 (8 players)
+**🎯 Omaha right now:** King's Rozvadov: PLO5 €5/5 (8 players) · [Olympic Park Tallinn](OLYMPIC_TALLINN.md): PLO/PLO5 €1/3 (6 players) at 19:00
 
-**Last check:** 2026-10-18 18:50 — ✅ OK (data feed)  
-**Last 24 h:** 143 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-06 (1479 good checks)
+**Last check:** 2026-10-18 19:00 — ⚠️ error: couldn't read the tables on the page — details in `debug/last_problem.json`  
+**Last 24 h:** 142 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-06 (1479 good checks)
 
 ## Tables running at 2026-10-18 18:50
 
@@ -81,7 +81,7 @@ Average Omaha tables running per check on each **evening, 18:00–02:00** (after
 | [Grand Casino Aš](GRAND_CASINO_AS.md) | 0.0 | 0.0 | 0.0 | 0.0 | 0.0 | 0.4 | 0.1 | 03:00 (0.3 tables) | 9 |
 | [Card Casino Šamorín](CARD_CASINO.md) | 0.9 (7) | 0.0 (0) | 0.0 (0) | 0.0 (0) | 0.0 (0) | 1.0 (7) | 0.9 (7) | 22:00 (4 players) | 9 |
 | [Banco Casino Bratislava](BANCO.md) | · | 0.3 (2) | 1.0 (7) | 1.2 (8) | 0.0 (0) | 0.6 (4) | 0.0 (0) | 22:00 (5 players) | 6 |
-| [Olympic Park Tallinn](OLYMPIC_TALLINN.md) | 1.8 (13) | 2.4 (19) | 3.1 (24) | 3.2 (25) | 4.8 (35) | 4.0 (30) | 1.8 (14) | 01:00 (32 players) | 8 |
+| [Olympic Park Tallinn](OLYMPIC_TALLINN.md) | 1.8 (13) | 2.4 (19) | 3.1 (24) | 3.2 (25) | 4.8 (35) | 4.0 (30) | 1.7 (13) | 01:00 (32 players) | 8 |
 | [Olympic Voodoo Riga](OLYMPIC_RIGA.md) | · | · | · | · | · | 0.0 (0) | 0.0 (0) | · | 2 |
 | [Olympic Casino Vilnius](OLYMPIC_VILNIUS.md) | 0.0 (0) | 0.0 (0) | 0.0 (0) | 0.0 (0) | 0.0 (0) | 0.0 (0) | 0.0 (0) | · | 8 |
 
@@ -241,8 +241,8 @@ The most recent ones. The game is read from the tournament's name.
 
 | Tournament | Game | Buy-in | Entries | Seen |
 |:--|:--|--:|--:|:--|
-| Dutch Poker Masters - Day 2 | NLH | €225 | 1978 | 2026-10-18 17:20 → 10-18 18:50 |
-| DPM High Roller | NLH | €500 | 54 | 2026-10-18 18:00 |
+| Dutch Poker Masters - Day 2 | NLH | €225 | 1978 | 2026-10-18 17:20 → 10-18 19:00 |
+| DPM High Roller | NLH | €500 | 66 | 2026-10-18 18:00 → 10-18 19:00 |
 | DPM - Day 1G TURBO | NLH | €225 | 290 | 2026-10-18 11:00 → 10-18 16:50 |
 | Dutch Poker Masters - Day 1 Flip and Go Pineapple | Pineapple | €225 | 115 | 2026-10-18 14:00 → 10-18 16:50 |
 | Dutch Poker Masters - Day 1F | NLH | €225 | 284 | 2026-10-17 18:00 → 10-18 04:20 |
@@ -261,14 +261,14 @@ The most recent ones. The game is read from the tournament's name.
 
 | Room | Last check | OK in the last 24 h | Most common problem |
 |:--|:--|--:|:--|
-| King's Rozvadov | ✅ 10-18 18:50 | 143 of 145 | couldn't read the tables on the page |
-| [King's Prague](KINGS_PRAGUE.md) | ✅ 10-18 18:50 | 141 of 141 | · |
-| [Grand Casino Aš](GRAND_CASINO_AS.md) | ✅ 10-18 18:50 | 145 of 145 | · |
-| [Card Casino Šamorín](CARD_CASINO.md) | ✅ 10-18 18:50 | 123 of 145 | Card Casino's site didn't answer |
-| [Banco Casino Bratislava](BANCO.md) | ✅ 10-18 18:50 | 145 of 145 | · |
-| [Olympic Park Tallinn](OLYMPIC_TALLINN.md) | ⚠️ 10-18 18:30 | 29 of 48 | blocked by the site's bot protection |
-| [Olympic Voodoo Riga](OLYMPIC_RIGA.md) | ✅ 10-18 18:30 | 34 of 47 | blocked by the site's bot protection |
-| [Olympic Casino Vilnius](OLYMPIC_VILNIUS.md) | ⚠️ 10-18 18:30 | 29 of 48 | blocked by the site's bot protection |
+| King's Rozvadov | ⚠️ 10-18 19:00 | 142 of 145 | couldn't read the tables on the page |
+| [King's Prague](KINGS_PRAGUE.md) | ⚠️ 10-18 19:00 | 141 of 142 | King's feed came back empty and that couldn't be confirmed, so it wasn |
+| [Grand Casino Aš](GRAND_CASINO_AS.md) | ✅ 10-18 19:00 | 145 of 145 | · |
+| [Card Casino Šamorín](CARD_CASINO.md) | ✅ 10-18 19:00 | 123 of 145 | Card Casino's site didn't answer |
+| [Banco Casino Bratislava](BANCO.md) | ✅ 10-18 19:00 | 145 of 145 | · |
+| [Olympic Park Tallinn](OLYMPIC_TALLINN.md) | ✅ 10-18 19:00 | 30 of 49 | blocked by the site's bot protection |
+| [Olympic Voodoo Riga](OLYMPIC_RIGA.md) | ✅ 10-18 19:00 | 35 of 48 | blocked by the site's bot protection |
+| [Olympic Casino Vilnius](OLYMPIC_VILNIUS.md) | ✅ 10-18 19:00 | 30 of 49 | blocked by the site's bot protection |
 
 ---
 Raw data: the `data` folder, one CSV file per month. To open one in Excel, use Data → From Text/CSV (double-clicking puts everything in one column in Polish Excel). The tracker is `tracker.py`; its schedule is in `.github/workflows/track.yml`.  
