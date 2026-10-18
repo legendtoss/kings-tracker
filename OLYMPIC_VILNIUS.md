@@ -2,18 +2,18 @@
 
 Reads [OlyBet's live cash games page](https://olybetpoker.com/lt/cash-games/?club=10) every 30 minutes (their site has bot protection, so the tracker checks gently and simply records it when a check is refused). All times are **Czech time** (Vilnius is one hour ahead). Back to [King's](README.md).
 
-**Last check:** 2026-10-18 23:30 — ✅ OK  
-**Last 24 h:** 28 of 49 checks OK, longest gap 0 h 30 min · **Collecting since:** 2026-10-10 (231 good checks)
+**Last check:** 2026-10-19 00:00 — ✅ OK  
+**Last 24 h:** 28 of 49 checks OK, longest gap 0 h 30 min · **Collecting since:** 2026-10-10 (232 good checks)
 
 **Club:** Olympic Casino Vilnius, Lietuva
 
-## Tables running at 2026-10-18 23:30
+## Tables running at 2026-10-19 00:00
 
 No tables were running.
 
 **Waiting lists:** 3 players · **All games listed:** Dealer's Choice €1/2 (waiting to start): 1 table, 0/8 players, 2 waiting NLH €1/2 (waiting to start): 1 table, 0/9 players, 1 waiting
 
-**Tournaments on their site at 2026-10-18 19:00:** live 18:00 Olympic Casino Vilnius, Lietuva 18 Dealer's Choice, PLO/PLO5/NLH/NLCP, re-entry 8 levels 20,000 €50
+**Tournaments on their site at 2026-10-19 00:00:** live 19:00 Olympic Casino Vilnius, Lietuva 19 Texas Royal Flush JP tournament, Re-entry 10 levels 20,000 €80
 
 ## Festivals and schedule
 
@@ -21,7 +21,7 @@ No tables were running.
 
 No Omaha tournaments on the schedule in the next 14 days.
 
-**Public holidays in the next 30 days** where most players come from (Lithuania, Latvia, Poland): Sun 1 Nov: All Saints' Day (Lithuania, Poland) · Mon 2 Nov: All Souls' Day (Lithuania) · Wed 11 Nov: National Independence Day (Poland).
+**Public holidays in the next 30 days** where most players come from (Lithuania, Latvia, Poland): Sun 1 Nov: All Saints' Day (Lithuania, Poland) · Mon 2 Nov: All Souls' Day (Lithuania) · Wed 11 Nov: National Independence Day (Poland) · Wed 18 Nov: Republic of Latvia Proclamation Day (Latvia).
 
 ## Busiest times so far
 
@@ -37,7 +37,7 @@ No player data yet.
 
 | Hour | NLH €1/2 | Dealer's Choice €1/2 | Checks |
 |:--|--:|--:|--:|
-| 00:00 | 🟥 10% | 🟥 20% | 10 |
+| 00:00 | 🟥 9% | 🟥 18% | 11 |
 | 01:00 | 🟥 20% | 🟨 30% | 10 |
 | 02:00 | 🟥 12% | 🟨 25% | 8 |
 | 03:00 | 🟥 8% | 🟨 25% | 12 |
@@ -67,7 +67,7 @@ No player data yet.
 | Game | Running in | Most often | Last seen |
 |:--|--:|:--|:--|
 | NLH €1/2 | 3% of checks | Sun around 01:00 | 2026-10-18 04:00 |
-| Dealer's Choice €1/2 | 10% of checks | Fri around 22:00 | 2026-10-18 04:00 |
+| Dealer's Choice €1/2 | 9% of checks | Fri around 22:00 | 2026-10-18 04:00 |
 
 ---
 Raw data: `data/olympic-vilnius` (one CSV file per month).

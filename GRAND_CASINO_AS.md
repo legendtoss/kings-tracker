@@ -2,18 +2,17 @@
 
 Reads [Grand Casino Aš's live cash games](https://www.grandcasinoas.eu/en/poker/poker-live) every 10 minutes and its [current tournaments](https://www.grandcasinoas.eu/en/poker) every 30 minutes. All times are **Czech time** (same as Poland). Back to [King's](README.md).
 
-**Last check:** 2026-10-18 23:50 — ✅ OK  
-**Last 24 h:** 145 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-10 (1293 good checks)
+**Last check:** 2026-10-19 00:00 — ✅ OK  
+**Last 24 h:** 145 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-10 (1294 good checks)
 
-## Cash games at 2026-10-18 23:50
+## Cash games at 2026-10-19 00:00
 
 No cash games listed.
 
-**Tournaments in play at 2026-10-18 23:30:** PLO Main Event Final Day (PLO, €340, 3 of 208 left, level 27, blinds 250000/500000/500000) · PLO Turbo Highroller (PLO, €660, 3 of 30 left, level 18, blinds 30000/60000/60000)
+**Tournaments in play at 2026-10-19 00:00:** PLO Main Event Final Day (PLO, €340, 3 of 208 left, level 28, blinds 300000/600000/600000) · PLO Turbo Highroller (PLO, €660, 2 of 30 left, level 19, blinds 40000/80000/80000)
 
 ## Festivals and schedule
 
-- **Now:** 🎪 **PLO festival**, 15–18 Oct (festival) — Omaha: €550 PLO5 High Roller (15 Oct 20:00); €340 PLO Main Event (16–18 Oct); €100 PLO 4-5-6 mix (17 Oct 20:00); €660 PLO Turbo High Roller (18 Oct 16:00)
 - **Coming up:** 🎟️ **KaKo Cup**, 28–31 Oct (series) — €140 KaKo Cup 31 Oct; €300 KaKo Highroller 30 Oct · Omaha: €80 PLO (30 Oct 18:00)
 - **Coming up:** 🎪 **GRND festival**, 4–15 Nov (festival) — €200 GRND Main Event 11–15 Nov; €350 GRND Highroller 6 Nov; €100 GRND Cup 8–11 Nov
 - **Coming up:** 🎟️ **Isar series**, 25–29 Nov (series) — €150 Isar Main Event 28 Nov · Omaha: €60 NLH/PLO/Crazy Pineapple (26 Nov 14:00); €100 PLO StackAttack (27 Nov 20:00)
@@ -22,12 +21,9 @@ No cash games listed.
 
 | Day | Time (local) | Buy-in | Tournament |
 |:--|:--|--:|:--|
-| Sun 18 Oct | 10:00 | €340 | Pot Limit Omaha - Main Event - Day 1D Turbo |
-| Sun 18 Oct | 16:00 | · | PLO Main Event Day 2 |
-| Sun 18 Oct | 16:00 | €660 | Pot Limit Omaha - Turbo Highroller |
 | Fri 30 Oct | 18:00 | €80 | Pot Limit Omaha |
 
-**Public holidays in the next 30 days** where most players come from (Czechia, Bavaria, Saxony): Wed 28 Oct: Independent Czechoslovak State Day (Czechia) · Sat 31 Oct: Reformation Day (Saxony) · Sun 1 Nov: All Saints' Day (Bavaria) · Tue 17 Nov: Struggle for Freedom and Democracy Day and International Students' Day (Czechia).
+**Public holidays in the next 30 days** where most players come from (Czechia, Bavaria, Saxony): Wed 28 Oct: Independent Czechoslovak State Day (Czechia) · Sat 31 Oct: Reformation Day (Saxony) · Sun 1 Nov: All Saints' Day (Bavaria) · Tue 17 Nov: Struggle for Freedom and Democracy Day and International Students' Day (Czechia) · Wed 18 Nov: Repentance and Prayer Day (Saxony).
 
 ## Running cash tables by hour
 
@@ -68,7 +64,7 @@ Average number of running tables (Grand Casino Aš shows which games run, not ho
 
 | Hour | NLH €1/2 | PLO €2/2 | PLO 5Card €2/2 | DC €2/2 | Checks |
 |:--|--:|--:|--:|--:|--:|
-| 00:00 | 🟥 24% | 🟥 0% | 🟥 0% | 🟥 24% | 25 |
+| 00:00 | 🟥 23% | 🟥 0% | 🟥 0% | 🟥 23% | 26 |
 | 01:00 | 🟥 24% | 🟥 0% | 🟥 0% | 🟥 24% | 25 |
 | 02:00 | 🟨 25% | 🟥 0% | 🟥 0% | 🟨 25% | 24 |
 | 03:00 | 🟨 31% | 🟥 0% | 🟥 15% | 🟥 23% | 26 |
@@ -99,7 +95,7 @@ Average running tables per check on each kind of day, in total and for NLH and O
 
 | Days | Dates | Checks | Tables | NLH | Omaha | vs normal, same hour |
 |:--|:--|--:|--:|--:|--:|--:|
-| Normal days | 10–14 Oct (5 days) | 715 | 0.4 | 0.3 | 0.0 | -0.0 |
+| Normal days | 10–19 Oct (6 days) | 716 | 0.4 | 0.3 | 0.0 | -0.0 |
 | 🎪 PLO festival | 15–18 Oct (4 days) | 578 | 0.5 | 0.3 | 0.1 | +0.2 |
 
 ## Tournaments seen
@@ -108,8 +104,8 @@ The most recent ones. The game is read from the tournament's name.
 
 | Tournament | Game | Buy-in | Entries | Seen |
 |:--|:--|--:|--:|:--|
-| PLO Main Event Final Day | PLO | €340 | 208 | 2026-10-18 16:00 → 10-18 23:30 |
-| PLO Turbo Highroller | PLO | €660 | 30 | 2026-10-18 16:00 → 10-18 23:30 |
+| PLO Main Event Final Day | PLO | €340 | 208 | 2026-10-18 16:00 → 10-19 00:00 |
+| PLO Turbo Highroller | PLO | €660 | 30 | 2026-10-18 16:00 → 10-19 00:00 |
 | PLO Satellite to Highroller | PLO | €110 | 20 | 2026-10-18 13:00 → 10-18 16:00 |
 | PLO Main Event 1D | PLO | €340 | 41 | 2026-10-18 10:00 → 10-18 15:30 |
 | Classic Deepstack | NLH | €80 | 143 | 2026-10-17 18:00 → 10-18 03:00 |
