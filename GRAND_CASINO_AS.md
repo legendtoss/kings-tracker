@@ -2,16 +2,16 @@
 
 Reads [Grand Casino Aš's live cash games](https://www.grandcasinoas.eu/en/poker/poker-live) every 10 minutes and its [current tournaments](https://www.grandcasinoas.eu/en/poker) every 30 minutes. All times are **Czech time** (same as Poland). Back to [King's](README.md).
 
-**Last check:** 2026-10-18 22:20 — ✅ OK  
-**Last 24 h:** 145 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-10 (1284 good checks)
+**Last check:** 2026-10-18 22:30 — ✅ OK  
+**Last 24 h:** 145 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-10 (1285 good checks)
 
-## Cash games at 2026-10-18 22:20
+## Cash games at 2026-10-18 22:30
 
 ```
 PLO/NLH           waiting
 ```
 
-**Tournaments in play at 2026-10-18 22:00:** PLO Main Event Final Day (PLO, €340, 7 of 208 left, level 25, blinds 150000/300000/300000) · PLO Turbo Highroller (PLO, €660, 6 of 30 left, level 14, blinds 10000/25000/25000)
+**Tournaments in play at 2026-10-18 22:30:** PLO Main Event Final Day (PLO, €340, 6 of 208 left, level 26, blinds 200000/400000/400000) · PLO Turbo Highroller (PLO, €660, 4 of 30 left, on a break)
 
 ## Festivals and schedule
 
@@ -33,7 +33,7 @@ PLO/NLH           waiting
 
 ## Running cash tables by hour
 
-*Normal days only: 569 checks during festivals, cash-game events or public holidays are compared separately in “Festivals, holidays and normal days” below.*
+*Normal days only: 570 checks during festivals, cash-game events or public holidays are compared separately in “Festivals, holidays and normal days” below.*
 
 Average number of running tables (Grand Casino Aš shows which games run, not how many players).
 
@@ -102,7 +102,7 @@ Average running tables per check on each kind of day, in total and for NLH and O
 | Days | Dates | Checks | Tables | NLH | Omaha | vs normal, same hour |
 |:--|:--|--:|--:|--:|--:|--:|
 | Normal days | 10–14 Oct (5 days) | 715 | 0.4 | 0.3 | 0.0 | -0.0 |
-| 🎪 PLO festival | 15–18 Oct (4 days) | 569 | 0.6 | 0.3 | 0.1 | +0.2 |
+| 🎪 PLO festival | 15–18 Oct (4 days) | 570 | 0.6 | 0.3 | 0.1 | +0.2 |
 
 ## Tournaments seen
 
@@ -110,8 +110,8 @@ The most recent ones. The game is read from the tournament's name.
 
 | Tournament | Game | Buy-in | Entries | Seen |
 |:--|:--|--:|--:|:--|
-| PLO Main Event Final Day | PLO | €340 | 208 | 2026-10-18 16:00 → 10-18 22:00 |
-| PLO Turbo Highroller | PLO | €660 | 30 | 2026-10-18 16:00 → 10-18 22:00 |
+| PLO Main Event Final Day | PLO | €340 | 208 | 2026-10-18 16:00 → 10-18 22:30 |
+| PLO Turbo Highroller | PLO | €660 | 30 | 2026-10-18 16:00 → 10-18 22:30 |
 | PLO Satellite to Highroller | PLO | €110 | 20 | 2026-10-18 13:00 → 10-18 16:00 |
 | PLO Main Event 1D | PLO | €340 | 41 | 2026-10-18 10:00 → 10-18 15:30 |
 | Classic Deepstack | NLH | €80 | 143 | 2026-10-17 18:00 → 10-18 03:00 |
