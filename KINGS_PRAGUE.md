@@ -2,14 +2,14 @@
 
 Prague's tables come in the same King's data feed as Rozvadov's, so they're read at every check (about every 10 minutes) without any extra visits, together with Prague's tournament clocks. All times are **Czech time** (same as Poland). Back to [King's Rozvadov](README.md).
 
-**Last check:** 2026-10-18 23:30 — ✅ OK  
-**Last 24 h:** 144 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-17 (168 good checks)
+**Last check:** 2026-10-18 23:40 — ✅ OK  
+**Last 24 h:** 144 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-17 (169 good checks)
 
-## Tables running at 2026-10-18 23:30
+## Tables running at 2026-10-18 23:40
 
 No tables were running.
 
-**Tournaments in play:** King's Prague Sunday Knockout (Bounty 25 ) (NLH, €55, €25 bounty, 9 of 67 left, level 17, blinds 6000/12000/12000)
+**Tournaments in play:** King's Prague Sunday Knockout (Bounty 25 ) (NLH, €55, €25 bounty, 8 of 67 left, level 17, blinds 6000/12000/12000)
 
 ## Festivals and schedule
 
@@ -57,7 +57,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 20:00 | · | · | · | · | · | 0 | 0 | 0 |
 | 21:00 | · | · | · | · | · | 2 | 0 | 1 |
 | 22:00 | · | · | · | · | · | 4 | 0 | 2 |
-| 23:00 | · | · | · | · | · | 8 | 0 | 5 |
+| 23:00 | · | · | · | · | · | 8 | 0 | 4 |
 
 ## How often each game was running, by hour (all days)
 
@@ -88,7 +88,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 20:00 | 🟥 17% | 12 |
 | 21:00 | 🟨 50% | 12 |
 | 22:00 | 🟨 50% | 12 |
-| 23:00 | 🟨 60% | 10 |
+| 23:00 | 🟨 55% | 11 |
 
 ## All games seen
 
@@ -102,7 +102,7 @@ The most recent ones. The game is read from the tournament's name.
 
 | Tournament | Game | Buy-in | Entries | Seen |
 |:--|:--|--:|--:|:--|
-| King's Prague Sunday Knockout (Bounty 25 ) | NLH | €55 | 67 | 2026-10-18 17:10 → 10-18 23:30 |
+| King's Prague Sunday Knockout (Bounty 25 ) | NLH | €55 | 67 | 2026-10-18 17:10 → 10-18 23:40 |
 | King's Prague Saturday Monsterstack | NLH | €100 | 67 | 2026-10-17 20:40 → 10-18 05:10 |
 
 ---
