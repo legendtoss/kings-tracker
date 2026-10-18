@@ -2,14 +2,14 @@
 
 Prague's tables come in the same King's data feed as Rozvadov's, so they're read at every check (about every 10 minutes) without any extra visits, together with Prague's tournament clocks. All times are **Czech time** (same as Poland). Back to [King's Rozvadov](README.md).
 
-**Last check:** 2026-10-18 20:10 — ✅ OK  
-**Last 24 h:** 144 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-17 (148 good checks)
+**Last check:** 2026-10-18 20:20 — ✅ OK  
+**Last 24 h:** 144 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-17 (149 good checks)
 
-## Tables running at 2026-10-18 20:10
+## Tables running at 2026-10-18 20:20
 
 No tables were running.
 
-**Tournaments in play:** King's Prague Sunday Knockout (Bounty 25 ) (NLH, €55, €25 bounty, 31 of 56 left, late reg open, level 8, blinds 800/1600/1600)
+**Tournaments in play:** King's Prague Sunday Knockout (Bounty 25 ) (NLH, €55, €25 bounty, 31 of 59 left, late reg open, level 9, blinds 1000/2000/2000)
 
 ## Festivals and schedule
 
@@ -85,7 +85,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 17:00 | 🟥 0% | 6 |
 | 18:00 | 🟥 0% | 6 |
 | 19:00 | 🟥 0% | 8 |
-| 20:00 | 🟨 25% | 8 |
+| 20:00 | 🟥 22% | 9 |
 | 21:00 | 🟩 100% | 6 |
 | 22:00 | 🟩 100% | 6 |
 | 23:00 | 🟩 100% | 6 |
@@ -94,7 +94,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 
 | Game | Running in | Most often | Last seen |
 |:--|--:|:--|:--|
-| NLH €2/4 | 20% of checks | Sat around 21:00 | 2026-10-18 01:20 |
+| NLH €2/4 | 19% of checks | Sat around 21:00 | 2026-10-18 01:20 |
 
 ## Tournaments seen
 
@@ -102,7 +102,7 @@ The most recent ones. The game is read from the tournament's name.
 
 | Tournament | Game | Buy-in | Entries | Seen |
 |:--|:--|--:|--:|:--|
-| King's Prague Sunday Knockout (Bounty 25 ) | NLH | €55 | 56 | 2026-10-18 17:10 → 10-18 20:10 |
+| King's Prague Sunday Knockout (Bounty 25 ) | NLH | €55 | 59 | 2026-10-18 17:10 → 10-18 20:20 |
 | King's Prague Saturday Monsterstack | NLH | €100 | 67 | 2026-10-17 20:40 → 10-18 05:10 |
 
 ---
