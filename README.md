@@ -6,10 +6,10 @@ Checks King's live cash games and tournaments about every 10 minutes and updates
 
 **🎯 Omaha right now:** King's Rozvadov: PLO €2/2 (8 players) · [Olympic Park Tallinn](OLYMPIC_TALLINN.md): PLO/PLO5 €1/3 ×2, PLO/PLO5 €5/5 (19 players) at 06:30
 
-**Last check:** 2026-10-18 06:40 — ✅ OK (data feed)  
-**Last 24 h:** 143 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-06 (1406 good checks)
+**Last check:** 2026-10-18 06:50 — ✅ OK (data feed)  
+**Last 24 h:** 143 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-06 (1407 good checks)
 
-## Tables running at 2026-10-18 06:40
+## Tables running at 2026-10-18 06:50
 
 ```
 NLH  €1/2     7/8 players
@@ -132,7 +132,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 03:00 | 6 | 0 | 0 | 2 | 0 | 12 | 11 | 6 |
 | 04:00 | 4 | 0 | 0 | 0 | 0 | 9 | 4 | 3 |
 | 05:00 | 0 | 0 | 0 | 0 | 0 | 6 | 3 | 2 |
-| 06:00 | 0 | 0 | 0 | 0 | 0 | 6 | 3 | 2 |
+| 06:00 | 0 | 0 | 0 | 0 | 0 | 6 | 4 | 2 |
 | 07:00 | 0 | 0 | 0 | 0 | 0 | 5 | 0 | 1 |
 | 08:00 | 0 | 0 | 0 | 0 | 0 | 4 | 0 | 1 |
 | 09:00 | 0 | 0 | 0 | 0 | 0 | 4 | 0 | 1 |
@@ -192,7 +192,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 03:00 | 🟩 83% | 🟨 32% | 🟥 0% | 🟨 63% | 🟨 59% | 🟥 0% | 🟥 0% | 🟥 0% | 59 |
 | 04:00 | 🟩 75% | 🟥 23% | 🟥 3% | 🟨 38% | 🟨 40% | 🟥 0% | 🟥 3% | 🟥 0% | 65 |
 | 05:00 | 🟩 77% | 🟥 23% | 🟥 5% | 🟨 28% | 🟨 33% | 🟥 0% | 🟥 5% | 🟥 3% | 61 |
-| 06:00 | 🟨 70% | 🟥 24% | 🟥 5% | 🟨 27% | 🟥 11% | 🟥 0% | 🟥 5% | 🟥 5% | 63 |
+| 06:00 | 🟨 70% | 🟥 23% | 🟥 5% | 🟨 28% | 🟥 11% | 🟥 0% | 🟥 5% | 🟥 5% | 64 |
 | 07:00 | 🟨 65% | 🟨 26% | 🟥 5% | 🟥 18% | 🟥 5% | 🟥 0% | 🟥 5% | 🟥 4% | 57 |
 | 08:00 | 🟨 65% | 🟥 14% | 🟥 0% | 🟥 11% | 🟥 5% | 🟥 0% | 🟥 4% | 🟥 5% | 57 |
 | 09:00 | 🟨 61% | 🟥 6% | 🟥 0% | 🟥 11% | 🟥 2% | 🟥 0% | 🟥 2% | 🟥 4% | 54 |
@@ -219,10 +219,10 @@ Collecting since 2026-10-08. Shown from 2026-10-22: with fewer than two weeks, t
 
 | Game | Running in | Most often | Last seen |
 |:--|--:|:--|:--|
-| NLH €1/2 | 80% of checks | Fri around 22:00 | 2026-10-18 06:40 |
+| NLH €1/2 | 80% of checks | Fri around 22:00 | 2026-10-18 06:50 |
 | NLH €2/4 | 30% of checks | Fri around 22:00 | 2026-10-18 03:20 |
 | NLH €5/10 | 5% of checks | Sat around 23:00 | 2026-10-17 20:00 |
-| PLO €2/2 | 39% of checks | Fri around 22:00 | 2026-10-18 06:40 |
+| PLO €2/2 | 40% of checks | Fri around 22:00 | 2026-10-18 06:50 |
 | PLO5 €5/5 | 38% of checks | Sat around 23:00 | 2026-10-18 06:10 |
 | PLO5 €5/10 | 4% of checks | Sat around 16:00 | 2026-10-18 02:10 |
 | PLO5 €10/10 | 7% of checks | Fri around 23:00 | 2026-10-16 23:50 |
@@ -257,11 +257,11 @@ The most recent ones. The game is read from the tournament's name.
 
 | Room | Last check | OK in the last 24 h | Most common problem |
 |:--|:--|--:|:--|
-| King's Rozvadov | ✅ 10-18 06:40 | 143 of 145 | couldn't read the tables on the page |
-| [King's Prague](KINGS_PRAGUE.md) | ✅ 10-18 06:40 | 68 of 68 | · |
-| [Grand Casino Aš](GRAND_CASINO_AS.md) | ✅ 10-18 06:40 | 145 of 145 | · |
-| [Card Casino Šamorín](CARD_CASINO.md) | ✅ 10-18 06:40 | 121 of 145 | Card Casino's site didn't answer |
-| [Banco Casino Bratislava](BANCO.md) | ✅ 10-18 06:40 | 145 of 145 | · |
+| King's Rozvadov | ✅ 10-18 06:50 | 143 of 145 | couldn't read the tables on the page |
+| [King's Prague](KINGS_PRAGUE.md) | ✅ 10-18 06:50 | 69 of 69 | · |
+| [Grand Casino Aš](GRAND_CASINO_AS.md) | ✅ 10-18 06:50 | 145 of 145 | · |
+| [Card Casino Šamorín](CARD_CASINO.md) | ✅ 10-18 06:50 | 121 of 145 | Card Casino's site didn't answer |
+| [Banco Casino Bratislava](BANCO.md) | ✅ 10-18 06:50 | 145 of 145 | · |
 | [Olympic Park Tallinn](OLYMPIC_TALLINN.md) | ✅ 10-18 06:30 | 28 of 48 | blocked by the site's bot protection |
 | [Olympic Voodoo Riga](OLYMPIC_RIGA.md) | ✅ 10-18 06:30 | 17 of 23 | blocked by the site's bot protection |
 | [Olympic Casino Vilnius](OLYMPIC_VILNIUS.md) | ✅ 10-18 06:30 | 27 of 48 | blocked by the site's bot protection |
