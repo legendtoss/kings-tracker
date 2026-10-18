@@ -2,12 +2,12 @@
 
 Reads [OlyBet's live cash games page](https://olybetpoker.com/ee/en/cash-games/?club=6) every 30 minutes (their site has bot protection, so the tracker checks gently and simply records it when a check is refused). All times are **Czech time** (Tallinn is one hour ahead). Back to [King's](README.md).
 
-**Last check:** 2026-10-18 10:00 — ✅ OK  
-**Last 24 h:** 29 of 49 checks OK, longest gap 0 h 30 min · **Collecting since:** 2026-10-10 (216 good checks)
+**Last check:** 2026-10-18 10:30 — ✅ OK  
+**Last 24 h:** 30 of 49 checks OK, longest gap 0 h 30 min · **Collecting since:** 2026-10-10 (217 good checks)
 
 **Club:** Olympic Park Casino
 
-## Tables running at 2026-10-18 10:00
+## Tables running at 2026-10-18 10:30
 
 ```
 NLH  €1/3     9/9 players
@@ -40,7 +40,7 @@ NLH  €1/3     9/9 players
 
 Day, hour and average seated players (only day-hour slots seen on at least 2 different dates).
 
-- **NLH:** Sun 07:00 (6) · Sun 09:00 (3) · Sun 10:00 (3)
+- **NLH:** Sun 07:00 (6) · Sun 10:00 (4) · Sun 09:00 (3)
 - **PLO/PLO5:** Sun 07:00 (9) · Sun 09:00 (2)
 
 ## Average players by hour
@@ -61,7 +61,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 07:00 | 6 | 8 | 0 | · | · | 15 | 6 | 7 |
 | 08:00 | 0 | 7 | 0 | 0 | 12 | · | 0 | 3 |
 | 09:00 | 0 | 8 | 0 | 0 | 12 | 0 | 3 | 3 |
-| 10:00 | 0 | 8 | 0 | · | 6 | 0 | 3 | 4 |
+| 10:00 | 0 | 8 | 0 | · | 6 | 0 | 4 | 4 |
 | 11:00 | 0 | 6 | · | 0 | 7 | 0 | 0 | 2 |
 | 12:00 | 0 | 7 | 0 | 0 | 8 | 0 | 0 | 2 |
 | 13:00 | 0 | 9 | 0 | 0 | · | 0 | · | 2 |
@@ -150,7 +150,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 07:00 | 🟨 70% | 🟥 0% | 🟥 0% | 🟥 10% | 🟨 30% | 🟥 10% | 🟨 40% | 🟨 30% | 10 |
 | 08:00 | 🟨 27% | 🟥 18% | 🟥 0% | 🟥 0% | 🟨 36% | 🟥 0% | 🟥 0% | 🟥 0% | 11 |
 | 09:00 | 🟨 30% | 🟥 10% | 🟥 0% | 🟥 0% | 🟥 20% | 🟥 0% | 🟥 0% | 🟥 10% | 10 |
-| 10:00 | 🟨 50% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 20% | 🟥 0% | 🟥 0% | 🟥 10% | 10 |
+| 10:00 | 🟨 55% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 18% | 🟥 0% | 🟥 0% | 🟥 9% | 11 |
 | 11:00 | 🟨 36% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 9% | 🟥 0% | 🟥 0% | 🟥 9% | 11 |
 | 12:00 | 🟨 30% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 10 |
 | 13:00 | 🟥 17% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 6 |
@@ -171,13 +171,13 @@ Average seated players per check on each kind of day, in total and for NLH and O
 
 | Days | Dates | Checks | Players | NLH | Omaha | vs normal, same hour |
 |:--|:--|--:|--:|--:|--:|--:|
-| 🎪 Kings of Tallinn | 11–18 Oct (8 days) | 216 | 22.9 | 9.8 | 12.9 | · |
+| 🎪 Kings of Tallinn | 11–18 Oct (8 days) | 217 | 22.8 | 9.8 | 12.8 | · |
 
 ## All games seen
 
 | Game | Running in | Most often | Last seen |
 |:--|--:|:--|:--|
-| NLH €1/3 | 69% of checks | Sun around 22:00 | 2026-10-18 10:00 |
+| NLH €1/3 | 69% of checks | Sun around 22:00 | 2026-10-18 10:30 |
 | NLH €5/5 | 14% of checks | Mon around 19:00 | 2026-10-18 06:30 |
 | NLH €5/10 | 4% of checks | Sun around 01:00 | 2026-10-18 04:00 |
 | NLH €5/5/10 | 5% of checks | Sat around 01:00 | 2026-10-17 07:00 |
