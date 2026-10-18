@@ -2,28 +2,28 @@
 
 Checks King's live cash games and tournaments about every 10 minutes and updates this page by itself. All times are **Czech time** (same as Poland). Also tracking: [King's Prague](KINGS_PRAGUE.md) · [Card Casino Šamorín](CARD_CASINO.md) · [Grand Casino Aš](GRAND_CASINO_AS.md) · [Banco Casino Bratislava](BANCO.md) · [Olympic Park Tallinn](OLYMPIC_TALLINN.md) · [Olympic Voodoo Riga](OLYMPIC_RIGA.md) · [Olympic Casino Vilnius](OLYMPIC_VILNIUS.md).
 
-**Right now:** King's: 8 tables, 59 players · [King's Prague](KINGS_PRAGUE.md): 0 tables, 0 players · [Card Casino Šamorín](CARD_CASINO.md): 0 tables, 0 players · [Grand Casino Aš](GRAND_CASINO_AS.md) 🎪 PLO festival: 0 tables running, 1 waiting · [Olympic Park Tallinn](OLYMPIC_TALLINN.md) 🎪 Kings of Tallinn: 1 table, 4 players (3 waiting) at 15:00 · [Olympic Voodoo Riga](OLYMPIC_RIGA.md): 0 tables, 0 players (5 waiting) at 15:00 · [Olympic Vilnius](OLYMPIC_VILNIUS.md): blocked at 15:00 · [Banco](BANCO.md): 0 tables, 0 players
+**Right now:** King's: 8 tables, 64 players · [King's Prague](KINGS_PRAGUE.md): 0 tables, 0 players · [Card Casino Šamorín](CARD_CASINO.md): 0 tables, 0 players · [Grand Casino Aš](GRAND_CASINO_AS.md) 🎪 PLO festival: 0 tables running, 1 waiting · [Olympic Park Tallinn](OLYMPIC_TALLINN.md) 🎪 Kings of Tallinn: 1 table, 4 players (3 waiting) at 15:00 · [Olympic Voodoo Riga](OLYMPIC_RIGA.md): 0 tables, 0 players (5 waiting) at 15:00 · [Olympic Vilnius](OLYMPIC_VILNIUS.md): blocked at 15:00 · [Banco](BANCO.md): 0 tables, 0 players
 
-**🎯 Omaha right now:** King's Rozvadov: PLO €2/2 ×2 (12 players) · [Olympic Park Tallinn](OLYMPIC_TALLINN.md): PLO/PLO5 €1/3 (4 players) at 15:00
+**🎯 Omaha right now:** King's Rozvadov: PLO €2/2 ×2 (16 players) · [Olympic Park Tallinn](OLYMPIC_TALLINN.md): PLO/PLO5 €1/3 (4 players) at 15:00
 
-**Last check:** 2026-10-18 15:10 — ✅ OK (data feed)  
-**Last 24 h:** 143 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-06 (1457 good checks)
+**Last check:** 2026-10-18 15:20 — ✅ OK (data feed)  
+**Last 24 h:** 143 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-06 (1458 good checks)
 
-## Tables running at 2026-10-18 15:10
+## Tables running at 2026-10-18 15:20
 
 ```
 NLH  €1/2     8/8 players
-NLH  €1/2     7/8 players
+NLH  €1/2     8/8 players
 NLH  €1/2     8/8 players
 NLH  €1/2     8/8 players
 NLH  €1/2     8/8 players
 NLH  €2/4     8/8 players
-PLO  €2/2     5/8 players
-PLO  €2/2     7/8 players
+PLO  €2/2     8/8 players
+PLO  €2/2     8/8 players
 ```
-**NLH:** 47 players at 6 tables · **PLO:** 12 players at 2 tables
+**NLH:** 48 players at 6 tables · **PLO:** 16 players at 2 tables
 
-**Tournaments in play:** DPM - Day 1G TURBO (NLH, €225, 77 of 290 left, level 15, blinds 5000/10000/10000) · Dutch Poker Masters - Day 1 Flip and Go Pineapple (Pineapple, €225, 11 of 71 left, late reg open, level 1, blinds 50000/50000/50000)
+**Tournaments in play:** DPM - Day 1G TURBO (NLH, €225, 70 of 290 left, level 16, blinds 6000/12000/12000) · Dutch Poker Masters - Day 1 Flip and Go Pineapple (Pineapple, €225, 5 of 75 left, late reg open, level 1, blinds 50000/50000/50000)
 
 ## Festivals and schedule
 
@@ -117,7 +117,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 12:00 | 2 | 2 | 7 | 1 | 14 | 19 | 18 | 10 |
 | 13:00 | 5 | 3 | 9 | 0 | 20 | 26 | 24 | 14 |
 | 14:00 | 5 | 4 | 8 | 0 | 24 | 34 | 36 | 19 |
-| 15:00 | 6 | 5 | 7 | 3 | 23 | 34 | 38 | 18 |
+| 15:00 | 6 | 5 | 7 | 3 | 23 | 34 | 39 | 19 |
 | 16:00 | 8 | 10 | 5 | 7 | 31 | 40 | 33 | 21 |
 | 17:00 | 8 | 12 | 4 | 7 | 37 | 47 | 37 | 24 |
 | 18:00 | 7 | 9 | 11 | 21 | 41 | 49 | 28 | 27 |
@@ -146,7 +146,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 12:00 | 0 | 0 | 0 | 0 | 0 | 1 | 4 | 1 |
 | 13:00 | 0 | 0 | 0 | 0 | 0 | 4 | 8 | 2 |
 | 14:00 | 0 | 0 | 0 | 0 | 0 | 7 | 8 | 3 |
-| 15:00 | 0 | 0 | 0 | 0 | 0 | 6 | 8 | 2 |
+| 15:00 | 0 | 0 | 0 | 0 | 0 | 6 | 9 | 3 |
 | 16:00 | 0 | 0 | 0 | 0 | 0 | 4 | 8 | 2 |
 | 17:00 | 0 | 0 | 0 | 0 | 3 | 7 | 7 | 3 |
 | 18:00 | 0 | 0 | 0 | 0 | 5 | 8 | 8 | 3 |
@@ -175,7 +175,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 12:00 | 0 | 2 | 0 | 0 | 0 | 4 | 0 | 1 |
 | 13:00 | 0 | 2 | 0 | 0 | 0 | 4 | 1 | 1 |
 | 14:00 | 0 | 3 | 0 | 0 | 0 | 4 | 5 | 2 |
-| 15:00 | 0 | 4 | 0 | 0 | 1 | 7 | 6 | 3 |
+| 15:00 | 0 | 4 | 0 | 0 | 1 | 7 | 5 | 3 |
 | 16:00 | 1 | 5 | 0 | 0 | 3 | 8 | 8 | 4 |
 | 17:00 | 5 | 5 | 0 | 0 | 4 | 8 | 8 | 5 |
 | 18:00 | 6 | 5 | 0 | 3 | 5 | 8 | 6 | 5 |
@@ -206,7 +206,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 12:00 | 🟨 70% | 🟥 5% | 🟥 0% | 🟥 15% | 🟥 10% | 🟥 0% | 🟥 5% | 🟥 0% | 61 |
 | 13:00 | 🟩 75% | 🟥 5% | 🟥 0% | 🟥 20% | 🟥 13% | 🟥 0% | 🟥 5% | 🟥 0% | 60 |
 | 14:00 | 🟩 75% | 🟨 25% | 🟥 0% | 🟨 25% | 🟨 28% | 🟥 0% | 🟥 5% | 🟥 0% | 61 |
-| 15:00 | 🟩 85% | 🟥 22% | 🟥 0% | 🟨 27% | 🟨 38% | 🟥 2% | 🟥 4% | 🟥 0% | 55 |
+| 15:00 | 🟩 86% | 🟥 23% | 🟥 0% | 🟨 29% | 🟨 38% | 🟥 2% | 🟥 4% | 🟥 0% | 56 |
 | 16:00 | 🟩 85% | 🟥 20% | 🟥 0% | 🟥 23% | 🟨 47% | 🟥 10% | 🟥 5% | 🟥 0% | 60 |
 | 17:00 | 🟩 84% | 🟥 17% | 🟥 17% | 🟨 41% | 🟨 53% | 🟥 10% | 🟥 5% | 🟥 0% | 58 |
 | 18:00 | 🟩 93% | 🟨 35% | 🟥 20% | 🟨 45% | 🟨 62% | 🟥 10% | 🟥 5% | 🟥 0% | 60 |
@@ -224,10 +224,10 @@ Collecting since 2026-10-08. Shown from 2026-10-22: with fewer than two weeks, t
 
 | Game | Running in | Most often | Last seen |
 |:--|--:|:--|:--|
-| NLH €1/2 | 81% of checks | Fri around 22:00 | 2026-10-18 15:10 |
-| NLH €2/4 | 29% of checks | Fri around 22:00 | 2026-10-18 15:10 |
+| NLH €1/2 | 81% of checks | Fri around 22:00 | 2026-10-18 15:20 |
+| NLH €2/4 | 29% of checks | Fri around 22:00 | 2026-10-18 15:20 |
 | NLH €5/10 | 5% of checks | Sat around 23:00 | 2026-10-17 20:00 |
-| PLO €2/2 | 42% of checks | Fri around 22:00 | 2026-10-18 15:10 |
+| PLO €2/2 | 42% of checks | Fri around 22:00 | 2026-10-18 15:20 |
 | PLO5 €5/5 | 37% of checks | Sat around 23:00 | 2026-10-18 14:40 |
 | PLO5 €5/10 | 4% of checks | Sat around 16:00 | 2026-10-18 02:10 |
 | PLO5 €10/10 | 6% of checks | Fri around 23:00 | 2026-10-16 23:50 |
@@ -242,8 +242,8 @@ The most recent ones. The game is read from the tournament's name.
 
 | Tournament | Game | Buy-in | Entries | Seen |
 |:--|:--|--:|--:|:--|
-| DPM - Day 1G TURBO | NLH | €225 | 290 | 2026-10-18 11:00 → 10-18 15:10 |
-| Dutch Poker Masters - Day 1 Flip and Go Pineapple | Pineapple | €225 | 71 | 2026-10-18 14:00 → 10-18 15:10 |
+| DPM - Day 1G TURBO | NLH | €225 | 290 | 2026-10-18 11:00 → 10-18 15:20 |
+| Dutch Poker Masters - Day 1 Flip and Go Pineapple | Pineapple | €225 | 75 | 2026-10-18 14:00 → 10-18 15:20 |
 | Dutch Poker Masters - Day 1F | NLH | €225 | 284 | 2026-10-17 18:00 → 10-18 04:20 |
 | DPM Saturday Night Turbo | NLH | €130 | 166 | 2026-10-17 21:00 → 10-18 04:00 |
 | DPM - Day 1E (40 minutes) | NLH | €225 | 439 | 2026-10-17 11:00 → 10-18 00:40 |
@@ -262,11 +262,11 @@ The most recent ones. The game is read from the tournament's name.
 
 | Room | Last check | OK in the last 24 h | Most common problem |
 |:--|:--|--:|:--|
-| King's Rozvadov | ✅ 10-18 15:10 | 143 of 145 | couldn't read the tables on the page |
-| [King's Prague](KINGS_PRAGUE.md) | ✅ 10-18 15:10 | 119 of 119 | · |
-| [Grand Casino Aš](GRAND_CASINO_AS.md) | ✅ 10-18 15:10 | 145 of 145 | · |
-| [Card Casino Šamorín](CARD_CASINO.md) | ✅ 10-18 15:10 | 124 of 145 | Card Casino's site didn't answer |
-| [Banco Casino Bratislava](BANCO.md) | ✅ 10-18 15:10 | 145 of 145 | · |
+| King's Rozvadov | ✅ 10-18 15:20 | 143 of 145 | couldn't read the tables on the page |
+| [King's Prague](KINGS_PRAGUE.md) | ✅ 10-18 15:20 | 120 of 120 | · |
+| [Grand Casino Aš](GRAND_CASINO_AS.md) | ✅ 10-18 15:20 | 145 of 145 | · |
+| [Card Casino Šamorín](CARD_CASINO.md) | ✅ 10-18 15:20 | 124 of 145 | Card Casino's site didn't answer |
+| [Banco Casino Bratislava](BANCO.md) | ✅ 10-18 15:20 | 145 of 145 | · |
 | [Olympic Park Tallinn](OLYMPIC_TALLINN.md) | ✅ 10-18 15:00 | 28 of 48 | blocked by the site's bot protection |
 | [Olympic Voodoo Riga](OLYMPIC_RIGA.md) | ✅ 10-18 15:00 | 30 of 40 | blocked by the site's bot protection |
 | [Olympic Casino Vilnius](OLYMPIC_VILNIUS.md) | ⚠️ 10-18 15:00 | 26 of 48 | blocked by the site's bot protection |
