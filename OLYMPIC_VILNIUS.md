@@ -2,12 +2,12 @@
 
 Reads [OlyBet's live cash games page](https://olybetpoker.com/lt/cash-games/?club=10) every 30 minutes (their site has bot protection, so the tracker checks gently and simply records it when a check is refused). All times are **Czech time** (Vilnius is one hour ahead). Back to [King's](README.md).
 
-**Last check:** 2026-10-18 02:30 — ✅ OK  
-**Last 24 h:** 29 of 49 checks OK, longest gap 0 h 30 min · **Collecting since:** 2026-10-10 (208 good checks)
+**Last check:** 2026-10-18 03:00 — ✅ OK  
+**Last 24 h:** 29 of 49 checks OK, longest gap 0 h 30 min · **Collecting since:** 2026-10-10 (209 good checks)
 
 **Club:** Olympic Casino Vilnius, Lietuva
 
-## Tables running at 2026-10-18 02:30
+## Tables running at 2026-10-18 03:00
 
 ```
 NLH              €1/2     4/9 players
@@ -33,7 +33,36 @@ Needs about two weeks of data: each day-and-hour slot must be seen on at least 2
 
 ## Average players by hour
 
-No player data yet.
+Seated players at each game's tables. 0 = that game wasn't running.
+
+### Dealer's Choice
+
+| Hour | Mon | Tue | Wed | Thu | Fri | Sat | Sun | All days |
+|:--|--:|--:|--:|--:|--:|--:|--:|--:|
+| 00:00 | 0 | 0 | 0 | 0 | 0 | 8 | 8 | 2 |
+| 01:00 | 0 | 0 | 0 | 0 | 0 | 8 | 7 | 2 |
+| 02:00 | 0 | 0 | · | 0 | 0 | 8 | 4 | 2 |
+| 03:00 | 0 | 0 | 0 | 0 | 0 | 8 | 4 | 2 |
+| 04:00 | · | 0 | 0 | 0 | 0 | 4 | · | 1 |
+| 05:00 | 0 | 0 | 0 | 0 | 0 | 0 | · | 0 |
+| 06:00 | 0 | 0 | 0 | 0 | 0 | · | 0 | 0 |
+| 07:00 | 0 | 0 | 0 | 0 | · | 0 | 0 | 0 |
+| 08:00 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 09:00 | 0 | 0 | 0 | 0 | 0 | · | 0 | 0 |
+| 10:00 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 11:00 | · | 0 | · | · | 0 | 0 | 0 | 0 |
+| 12:00 | 0 | 0 | 0 | 0 | 0 | 0 | · | 0 |
+| 13:00 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 14:00 | · | 0 | 0 | · | 0 | 0 | 0 | 0 |
+| 15:00 | 0 | 0 | 0 | 0 | · | 0 | 0 | 0 |
+| 16:00 | 0 | 0 | 0 | · | · | · | · | 0 |
+| 17:00 | 0 | 0 | 0 | 0 | 0 | · | · | 0 |
+| 18:00 | 0 | 0 | 0 | 0 | 0 | · | · | 0 |
+| 19:00 | 0 | 0 | · | 0 | 0 | · | · | 0 |
+| 20:00 | · | 0 | 0 | 0 | 8 | 0 | · | 1 |
+| 21:00 | 0 | 0 | 0 | 0 | 8 | 6 | 0 | 2 |
+| 22:00 | 0 | 0 | 0 | 0 | 8 | 6 | 0 | 2 |
+| 23:00 | 0 | 0 | 0 | 0 | 8 | 7 | 0 | 2 |
 
 ## How often each game was running, by hour (all days)
 
@@ -44,7 +73,7 @@ No player data yet.
 | 00:00 | 🟥 10% | 🟥 20% | 10 |
 | 01:00 | 🟥 20% | 🟨 30% | 10 |
 | 02:00 | 🟥 12% | 🟨 25% | 8 |
-| 03:00 | 🟥 0% | 🟥 18% | 11 |
+| 03:00 | 🟥 8% | 🟨 25% | 12 |
 | 04:00 | 🟥 0% | 🟥 12% | 8 |
 | 05:00 | 🟥 0% | 🟥 0% | 9 |
 | 06:00 | 🟥 0% | 🟥 0% | 9 |
@@ -70,8 +99,8 @@ No player data yet.
 
 | Game | Running in | Most often | Last seen |
 |:--|--:|:--|:--|
-| NLH €1/2 | 2% of checks | Sun around 01:00 | 2026-10-18 02:30 |
-| Dealer's Choice €1/2 | 10% of checks | Fri around 22:00 | 2026-10-18 02:30 |
+| NLH €1/2 | 3% of checks | Sun around 01:00 | 2026-10-18 03:00 |
+| Dealer's Choice €1/2 | 10% of checks | Fri around 22:00 | 2026-10-18 03:00 |
 
 ---
 Raw data: `data/olympic-vilnius` (one CSV file per month).
