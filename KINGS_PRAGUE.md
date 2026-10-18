@@ -2,14 +2,14 @@
 
 Prague's tables come in the same King's data feed as Rozvadov's, so they're read at every check (about every 10 minutes) without any extra visits, together with Prague's tournament clocks. All times are **Czech time** (same as Poland). Back to [King's Rozvadov](README.md).
 
-**Last check:** 2026-10-18 05:10 — ✅ OK  
-**Last 24 h:** 59 of 59 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-17 (59 good checks)
+**Last check:** 2026-10-18 05:20 — ✅ OK  
+**Last 24 h:** 60 of 60 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-17 (60 good checks)
 
-## Tables running at 2026-10-18 05:10
+## Tables running at 2026-10-18 05:20
 
 No tables were running.
 
-**Tournaments in play:** King's Prague Saturday Monsterstack (NLH, €100, 2 of 67 left, level 26, blinds 100000/150000/150000)
+**Tournaments in play:** none
 
 ## Festivals and schedule
 
@@ -70,7 +70,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 02:00 | 🟥 0% | 6 |
 | 03:00 | 🟥 0% | 6 |
 | 04:00 | 🟥 0% | 6 |
-| 05:00 | 🟥 0% | 2 |
+| 05:00 | 🟥 0% | 3 |
 | 06:00 | · | 0 |
 | 07:00 | · | 0 |
 | 08:00 | · | 0 |
@@ -94,7 +94,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 
 | Game | Running in | Most often | Last seen |
 |:--|--:|:--|:--|
-| NLH €2/4 | 49% of checks | Sat around 21:00 | 2026-10-18 01:20 |
+| NLH €2/4 | 48% of checks | Sat around 21:00 | 2026-10-18 01:20 |
 
 ## Tournaments seen
 
