@@ -2,12 +2,12 @@
 
 Reads [OlyBet's live cash games page](https://olybetpoker.com/lv/en/cash-games/?club=17) every 30 minutes (their site has bot protection, so the tracker checks gently and simply records it when a check is refused). All times are **Czech time** (Riga is one hour ahead). Back to [King's](README.md).
 
-**Last check:** 2026-10-19 00:00 — ✅ OK  
-**Last 24 h:** 30 of 49 checks OK, longest gap 0 h 30 min · **Collecting since:** 2026-10-17 (37 good checks)
+**Last check:** 2026-10-19 00:30 — ✅ OK  
+**Last 24 h:** 30 of 49 checks OK, longest gap 0 h 30 min · **Collecting since:** 2026-10-17 (38 good checks)
 
 **Club:** Olympic Casino Voodoo
 
-## Tables running at 2026-10-19 00:00
+## Tables running at 2026-10-19 00:30
 
 No tables were running.
 
@@ -33,7 +33,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 
 | Hour | Mon | Tue | Wed | Thu | Fri | Sat | Sun | All days |
 |:--|--:|--:|--:|--:|--:|--:|--:|--:|
-| 00:00 | 0 | · | · | · | · | · | 11 | 7 |
+| 00:00 | 0 | · | · | · | · | · | 11 | 6 |
 | 01:00 | · | · | · | · | · | · | 13 | 13 |
 | 02:00 | · | · | · | · | · | · | 9 | 9 |
 | 03:00 | · | · | · | · | · | · | 9 | 9 |
@@ -64,7 +64,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 
 | Hour | NLH €5/5 | NLH €5/10 | SUNDAY CASH GAME NLH €1/1 | Checks |
 |:--|--:|--:|--:|--:|
-| 00:00 | 🟨 67% | 🟥 0% | 🟥 0% | 3 |
+| 00:00 | 🟨 50% | 🟥 0% | 🟥 0% | 4 |
 | 01:00 | 🟩 100% | 🟥 0% | 🟥 0% | 1 |
 | 02:00 | 🟩 100% | 🟥 0% | 🟥 0% | 1 |
 | 03:00 | 🟩 100% | 🟥 0% | 🟥 0% | 1 |
@@ -93,7 +93,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 
 | Game | Running in | Most often | Last seen |
 |:--|--:|:--|:--|
-| NLH €5/5 | 35% of checks | Sat around 21:00 | 2026-10-18 04:00 |
+| NLH €5/5 | 34% of checks | Sat around 21:00 | 2026-10-18 04:00 |
 | NLH €5/10 | 8% of checks | Sun around 04:00 | 2026-10-18 06:00 |
 | SUNDAY CASH GAME NLH €1/1 | 5% of checks | Sun around 18:00 | 2026-10-18 19:00 |
 
