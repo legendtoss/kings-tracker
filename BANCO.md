@@ -2,10 +2,10 @@
 
 Checks [its website](https://bancocasino.sk/ba/en) together with King's, about every 10 minutes. All times are **Czech time** (same as Poland and Slovakia). Back to [King's](README.md).
 
-**Last check:** 2026-10-18 03:20 — ✅ OK  
-**Checks so far:** 678 successful out of 1182 (since 2026-10-10)
+**Last check:** 2026-10-18 03:30 — ✅ OK  
+**Checks so far:** 679 successful out of 1183 (since 2026-10-10)
 
-## Tables running at 2026-10-18 03:20
+## Tables running at 2026-10-18 03:30
 
 ```
 NLH      €1/3     8 players
@@ -100,7 +100,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 00:00 | · | · | 0 | 0 | 7 | 0 | 0 | 1 |
 | 01:00 | · | · | 0 | 0 | 7 | 0 | 0 | 1 |
 | 02:00 | · | · | 0 | 0 | 7 | 0 | 0 | 1 |
-| 03:00 | · | · | 0 | 0 | 7 | 0 | 0 | 2 |
+| 03:00 | · | · | 0 | 0 | 7 | 0 | 0 | 1 |
 | 04:00 | · | · | 0 | 0 | 7 | 0 | · | 2 |
 | 05:00 | · | · | 0 | 0 | 7 | 0 | · | 2 |
 | 06:00 | · | · | 0 | 0 | 6 | 0 | · | 2 |
@@ -131,7 +131,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 00:00 | 🟩 97% | 🟥 0% | 🟨 40% | 🟥 20% | 🟥 0% | 30 |
 | 01:00 | 🟩 78% | 🟥 0% | 🟨 41% | 🟥 19% | 🟥 0% | 32 |
 | 02:00 | 🟩 80% | 🟥 0% | 🟨 40% | 🟥 20% | 🟥 0% | 30 |
-| 03:00 | 🟩 75% | 🟥 0% | 🟨 32% | 🟥 21% | 🟥 0% | 28 |
+| 03:00 | 🟩 76% | 🟥 0% | 🟨 34% | 🟥 21% | 🟥 0% | 29 |
 | 04:00 | 🟨 50% | 🟥 0% | 🟥 0% | 🟨 25% | 🟥 0% | 24 |
 | 05:00 | 🟨 50% | 🟥 0% | 🟥 0% | 🟨 25% | 🟥 0% | 24 |
 | 06:00 | 🟨 36% | 🟥 12% | 🟥 0% | 🟥 24% | 🟥 0% | 25 |
@@ -157,9 +157,9 @@ Seated players at each game's tables. 0 = that game wasn't running.
 
 | Game | Running in | Most often | Last seen |
 |:--|--:|:--|:--|
-| NLH €1/3 | 44% of checks | Tue around 12:00 | 2026-10-18 03:20 |
+| NLH €1/3 | 44% of checks | Tue around 12:00 | 2026-10-18 03:30 |
 | NLH €2/5 | 1% of checks | Sat around 07:00 | 2026-10-17 07:50 |
-| PLO 4/5 €2/2 | 30% of checks | Tue around 12:00 | 2026-10-18 03:20 |
+| PLO 4/5 €2/2 | 30% of checks | Tue around 12:00 | 2026-10-18 03:30 |
 | PLO €25/50 | 10% of checks | Thu around 20:00 | 2026-10-16 07:30 |
 | Dealer's Choice €2/2 | 8% of checks | Thu around 15:00 | 2026-10-16 22:10 |
 
