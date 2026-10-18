@@ -2,14 +2,14 @@
 
 Prague's tables come in the same King's data feed as Rozvadov's, so they're read at every check (about every 10 minutes) without any extra visits, together with Prague's tournament clocks. All times are **Czech time** (same as Poland). Back to [King's Rozvadov](README.md).
 
-**Last check:** 2026-10-18 19:00 — ⚠️ error: King's feed came back empty and that couldn't be confirmed, so it wasn't counted as 0 tables — details in `debug/kings-prague_feed.json`  
-**Last 24 h:** 141 of 142 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-17 (141 good checks)
+**Last check:** 2026-10-18 19:10 — ✅ OK  
+**Last 24 h:** 142 of 143 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-17 (142 good checks)
 
-## Tables running at 2026-10-18 18:50
+## Tables running at 2026-10-18 19:10
 
 No tables were running.
 
-**Tournaments in play:** King's Prague Sunday Knockout (Bounty 25 ) (NLH, €55, €25 bounty, 27 of 36 left, late reg open, level 5, blinds 400/800/800)
+**Tournaments in play:** King's Prague Sunday Knockout (Bounty 25 ) (NLH, €55, €25 bounty, 29 of 38 left, late reg open, level 5, blinds 400/800/800)
 
 ## Festivals and schedule
 
@@ -53,7 +53,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 16:00 | · | · | · | · | · | · | 0 | 0 |
 | 17:00 | · | · | · | · | · | · | 0 | 0 |
 | 18:00 | · | · | · | · | · | · | 0 | 0 |
-| 19:00 | · | · | · | · | · | 0 | · | 0 |
+| 19:00 | · | · | · | · | · | 0 | 0 | 0 |
 | 20:00 | · | · | · | · | · | 0 | · | 0 |
 | 21:00 | · | · | · | · | · | 2 | · | 2 |
 | 22:00 | · | · | · | · | · | 4 | · | 4 |
@@ -84,7 +84,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 16:00 | 🟥 0% | 6 |
 | 17:00 | 🟥 0% | 6 |
 | 18:00 | 🟥 0% | 6 |
-| 19:00 | 🟥 0% | 3 |
+| 19:00 | 🟥 0% | 4 |
 | 20:00 | 🟨 33% | 6 |
 | 21:00 | 🟩 100% | 6 |
 | 22:00 | 🟩 100% | 6 |
@@ -94,7 +94,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 
 | Game | Running in | Most often | Last seen |
 |:--|--:|:--|:--|
-| NLH €2/4 | 21% of checks | Sat around 21:00 | 2026-10-18 01:20 |
+| NLH €2/4 | 20% of checks | Sat around 21:00 | 2026-10-18 01:20 |
 
 ## Tournaments seen
 
@@ -102,7 +102,7 @@ The most recent ones. The game is read from the tournament's name.
 
 | Tournament | Game | Buy-in | Entries | Seen |
 |:--|:--|--:|--:|:--|
-| King's Prague Sunday Knockout (Bounty 25 ) | NLH | €55 | 37 | 2026-10-18 17:10 → 10-18 19:00 |
+| King's Prague Sunday Knockout (Bounty 25 ) | NLH | €55 | 38 | 2026-10-18 17:10 → 10-18 19:10 |
 | King's Prague Saturday Monsterstack | NLH | €100 | 67 | 2026-10-17 20:40 → 10-18 05:10 |
 
 ---
