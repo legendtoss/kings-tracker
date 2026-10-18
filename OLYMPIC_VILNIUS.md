@@ -2,20 +2,16 @@
 
 Reads [OlyBet's live cash games page](https://olybetpoker.com/lt/cash-games/?club=10) every 30 minutes (their site has bot protection, so the tracker checks gently and simply records it when a check is refused). All times are **Czech time** (Vilnius is one hour ahead). Back to [King's](README.md).
 
-**Last check:** 2026-10-18 05:00 — ⚠️ error: blocked by the site's bot protection — details in `debug/olympic-vilnius_page.json`  
-**Last 24 h:** 26 of 49 checks OK, longest gap 0 h 30 min · **Collecting since:** 2026-10-10 (210 good checks)
+**Last check:** 2026-10-18 05:30 — ✅ OK  
+**Last 24 h:** 27 of 49 checks OK, longest gap 0 h 30 min · **Collecting since:** 2026-10-10 (211 good checks)
 
 **Club:** Olympic Casino Vilnius, Lietuva
 
-## Tables running at 2026-10-18 04:00
+## Tables running at 2026-10-18 05:30
 
-```
-NLH              €1/2     4/9 players
-Dealer's Choice  €1/2     4/8 players
-```
-**NLH:** 4 players at 1 table · **Dealer's Choice:** 4 players at 1 table
+No tables were running.
 
-**Waiting lists:** 0 players · **All games listed:** Dealer's Choice €1/2 (opened): 1 table, 4/8 players, 0 waiting NLH €1/2 (opened): 1 table, 4/9 players, 0 waiting
+**Waiting lists:** 0 players · **All games listed:** Dealer's Choice €1/2 (waiting to start): 1 table, 0/8 players, 0 waiting NLH €1/2 (waiting to start): 1 table, 0/9 players, 0 waiting
 
 **Tournaments on their site at 2026-10-18 04:00:** live 18:00 Olympic Casino Vilnius, Lietuva 18 Dealer's Choice, PLO/PLO5/NLH/NLCP, re-entry 8 levels 20,000 €50
 
@@ -44,7 +40,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 02:00 | 0 | 0 | · | 0 | 0 | 8 | 4 | 2 |
 | 03:00 | 0 | 0 | 0 | 0 | 0 | 8 | 4 | 2 |
 | 04:00 | · | 0 | 0 | 0 | 0 | 4 | 4 | 1 |
-| 05:00 | 0 | 0 | 0 | 0 | 0 | 0 | · | 0 |
+| 05:00 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 06:00 | 0 | 0 | 0 | 0 | 0 | · | 0 | 0 |
 | 07:00 | 0 | 0 | 0 | 0 | · | 0 | 0 | 0 |
 | 08:00 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
@@ -75,7 +71,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 02:00 | 🟥 12% | 🟨 25% | 8 |
 | 03:00 | 🟥 8% | 🟨 25% | 12 |
 | 04:00 | 🟥 11% | 🟥 22% | 9 |
-| 05:00 | 🟥 0% | 🟥 0% | 9 |
+| 05:00 | 🟥 0% | 🟥 0% | 10 |
 | 06:00 | 🟥 0% | 🟥 0% | 9 |
 | 07:00 | 🟥 0% | 🟥 0% | 7 |
 | 08:00 | 🟥 0% | 🟥 0% | 9 |
