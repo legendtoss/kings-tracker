@@ -2,16 +2,16 @@
 
 Reads [OlyBet's live cash games page](https://olybetpoker.com/lv/en/cash-games/?club=17) every 30 minutes (their site has bot protection, so the tracker checks gently and simply records it when a check is refused). All times are **Czech time** (Riga is one hour ahead). Back to [King's](README.md).
 
-**Last check:** 2026-10-19 01:00 — ✅ OK  
-**Last 24 h:** 30 of 49 checks OK, longest gap 0 h 30 min · **Collecting since:** 2026-10-17 (39 good checks)
+**Last check:** 2026-10-19 01:30 — ✅ OK  
+**Last 24 h:** 30 of 49 checks OK, longest gap 0 h 30 min · **Collecting since:** 2026-10-17 (40 good checks)
 
 **Club:** Olympic Casino Voodoo
 
-## Tables running at 2026-10-19 01:00
+## Tables running at 2026-10-19 01:30
 
 No tables were running.
 
-**Waiting lists:** 1 players · **All games listed:** NLH €1/3 (closed): 0 tables, 0/0 players, 1 waiting NLH €5/5 (closed): 0 tables, 0/0 players, 0 waiting NLH €5/10 (closed): 0 tables, 0/0 players, 0 waiting PLO4/PLO5 DC €2/2 (closed): 0 tables, 0/0 players, 0 waiting PLO4/PLO5 DC €5/5 (closed): 0 tables, 0/0 players, 0 waiting SUNDAY CASH GAME NLH €1/1 (closed): 0 tables, 0/0 players, 0 waiting
+**Waiting lists:** 0 players · **All games listed:** NLH €1/3 (closed): 0 tables, 0/0 players, 0 waiting NLH €5/5 (closed): 0 tables, 0/0 players, 0 waiting NLH €5/10 (closed): 0 tables, 0/0 players, 0 waiting PLO4/PLO5 DC €2/2 (closed): 0 tables, 0/0 players, 0 waiting PLO4/PLO5 DC €5/5 (closed): 0 tables, 0/0 players, 0 waiting SUNDAY CASH GAME NLH €1/1 (closed): 0 tables, 0/0 players, 0 waiting
 
 **Tournaments on their site at 2026-10-19 01:00:** live 19:15 Olympic Casino Voodoo 19 NLH. Soft Start Monday 10,000 €25
 
@@ -34,7 +34,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | Hour | Mon | Tue | Wed | Thu | Fri | Sat | Sun | All days |
 |:--|--:|--:|--:|--:|--:|--:|--:|--:|
 | 00:00 | 0 | · | · | · | · | · | 11 | 6 |
-| 01:00 | 0 | · | · | · | · | · | 13 | 6 |
+| 01:00 | 0 | · | · | · | · | · | 13 | 4 |
 | 02:00 | · | · | · | · | · | · | 9 | 9 |
 | 03:00 | · | · | · | · | · | · | 9 | 9 |
 | 04:00 | · | · | · | · | · | · | 7 | 7 |
@@ -65,7 +65,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | Hour | NLH €5/5 | NLH €5/10 | SUNDAY CASH GAME NLH €1/1 | Checks |
 |:--|--:|--:|--:|--:|
 | 00:00 | 🟨 50% | 🟥 0% | 🟥 0% | 4 |
-| 01:00 | 🟨 50% | 🟥 0% | 🟥 0% | 2 |
+| 01:00 | 🟨 33% | 🟥 0% | 🟥 0% | 3 |
 | 02:00 | 🟩 100% | 🟥 0% | 🟥 0% | 1 |
 | 03:00 | 🟩 100% | 🟥 0% | 🟥 0% | 1 |
 | 04:00 | 🟨 50% | 🟨 50% | 🟥 0% | 2 |
@@ -93,7 +93,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 
 | Game | Running in | Most often | Last seen |
 |:--|--:|:--|:--|
-| NLH €5/5 | 33% of checks | Sat around 21:00 | 2026-10-18 04:00 |
+| NLH €5/5 | 32% of checks | Sat around 21:00 | 2026-10-18 04:00 |
 | NLH €5/10 | 8% of checks | Sun around 04:00 | 2026-10-18 06:00 |
 | SUNDAY CASH GAME NLH €1/1 | 5% of checks | Sun around 18:00 | 2026-10-18 19:00 |
 
