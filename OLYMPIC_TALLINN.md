@@ -2,16 +2,19 @@
 
 Reads [OlyBet's live cash games page](https://olybetpoker.com/ee/en/cash-games/?club=6) every 30 minutes (their site has bot protection, so the tracker checks gently and simply records it when a check is refused). All times are **Czech time** (Tallinn is one hour ahead). Back to [King's](README.md).
 
-**Last check:** 2026-10-18 14:30 — ⚠️ error: blocked by the site's bot protection — details in `debug/olympic-tallinn_page.json`  
-**Last 24 h:** 29 of 49 checks OK, longest gap 0 h 30 min · **Collecting since:** 2026-10-10 (223 good checks)
+**Last check:** 2026-10-18 15:00 — ✅ OK  
+**Last 24 h:** 29 of 49 checks OK, longest gap 0 h 30 min · **Collecting since:** 2026-10-10 (224 good checks)
 
 **Club:** Olympic Park Casino
 
-## Tables running at 2026-10-18 13:30
+## Tables running at 2026-10-18 15:00
 
-No tables were running.
+```
+PLO/PLO5  €1/3     4/8 players
+```
+**PLO/PLO5:** 4 players at 1 table
 
-**Waiting lists:** 0 players · **All games listed:** NLH €1/3 (closed): 0 tables, 0/0 players, 0 waiting PLO/PLO5 €1/3 (closed): 0 tables, 0/0 players, 0 waiting NLH €5/5 (closed): 0 tables, 0/0 players, 0 waiting PLO/PLO5 €5/5 (closed): 0 tables, 0/0 players, 0 waiting NLH €5/10 (closed): 0 tables, 0/0 players, 0 waiting PLO/PLO5 €10/10 (closed): 0 tables, 0/0 players, 0 waiting
+**Waiting lists:** 3 players · **All games listed:** NLH €1/3 (closed): 0 tables, 0/0 players, 1 waiting PLO/PLO5 €1/3 (opened): 1 table, 4/8 players, 0 waiting NLH €5/5 (closed): 0 tables, 0/0 players, 1 waiting PLO/PLO5 €5/5 (closed): 0 tables, 0/0 players, 1 waiting NLH €5/10 (closed): 0 tables, 0/0 players, 0 waiting PLO/PLO5 €10/10 (closed): 0 tables, 0/0 players, 0 waiting
 
 **Tournaments on their site at 2026-10-18 13:00:** live 12:00 Olympic Park Casino 33 NLH Kings of Tallinn Main Event Final 30,000 €1,100 12:00 Olympic Park Casino 57 NLH Final 50,000 €3,000 12:00 Olympic Park Casino 63 PLO4/PLO5/PLO6 Progressive Bounty 20,000 €200 12:00 Olympic Park Casino 64 Open face Chinese Pineapple 35,000 €200 14:00 Olympic Park Casino 65 NLH DeepstackTurbo 30,000 €350
 
@@ -38,7 +41,7 @@ No tables were running.
 Day, hour and average seated players (only day-hour slots seen on at least 2 different dates).
 
 - **NLH:** Sun 07:00 (6) · Sun 10:00 (4) · Sun 09:00 (3)
-- **PLO/PLO5:** Sun 07:00 (9) · Sun 09:00 (2)
+- **PLO/PLO5:** Sun 07:00 (9) · Sun 09:00 (2) · Sun 15:00 (1)
 
 ## Average players by hour
 
@@ -63,7 +66,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 12:00 | 0 | 7 | 0 | 0 | 8 | 0 | 0 | 2 |
 | 13:00 | 0 | 9 | 0 | 0 | · | 0 | 0 | 1 |
 | 14:00 | 0 | 8 | 0 | 0 | 8 | 0 | 0 | 3 |
-| 15:00 | 0 | 4 | 7 | 0 | · | 0 | 0 | 2 |
+| 15:00 | 0 | 4 | 7 | 0 | · | 0 | 0 | 1 |
 | 16:00 | 0 | 0 | 8 | 7 | 8 | · | · | 5 |
 | 17:00 | 0 | · | 9 | · | 9 | · | · | 6 |
 | 18:00 | 1 | · | 9 | 9 | 9 | · | · | 6 |
@@ -92,7 +95,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 12:00 | 0 | 0 | 0 | 0 | 0 | 6 | 0 | 1 |
 | 13:00 | 0 | 0 | 0 | 0 | · | 6 | 0 | 2 |
 | 14:00 | 0 | 0 | 0 | 6 | 0 | 8 | 0 | 2 |
-| 15:00 | 0 | 0 | 0 | 0 | · | 8 | 0 | 1 |
+| 15:00 | 0 | 0 | 0 | 0 | · | 8 | 1 | 1 |
 | 16:00 | 0 | 0 | 6 | 0 | 0 | · | · | 2 |
 | 17:00 | 0 | · | 8 | · | 0 | · | · | 3 |
 | 18:00 | 6 | · | 8 | 0 | 7 | · | · | 5 |
@@ -152,7 +155,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 12:00 | 🟨 25% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 12 |
 | 13:00 | 🟥 12% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 8 |
 | 14:00 | 🟨 33% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 11% | 🟥 0% | 🟥 0% | 🟥 0% | 9 |
-| 15:00 | 🟥 22% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 9 |
+| 15:00 | 🟥 20% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 10% | 🟥 0% | 🟥 0% | 🟥 0% | 10 |
 | 16:00 | 🟨 62% | 🟥 0% | 🟥 0% | 🟥 0% | 🟨 25% | 🟥 12% | 🟥 0% | 🟥 0% | 8 |
 | 17:00 | 🟨 67% | 🟥 0% | 🟥 0% | 🟥 0% | 🟨 33% | 🟨 33% | 🟥 0% | 🟥 0% | 3 |
 | 18:00 | 🟨 60% | 🟥 20% | 🟥 0% | 🟥 0% | 🟩 80% | 🟨 60% | 🟥 0% | 🟥 0% | 5 |
@@ -168,7 +171,7 @@ Average seated players per check on each kind of day, in total and for NLH and O
 
 | Days | Dates | Checks | Players | NLH | Omaha | vs normal, same hour |
 |:--|:--|--:|--:|--:|--:|--:|
-| 🎪 Kings of Tallinn | 11–18 Oct (8 days) | 223 | 22.2 | 9.6 | 12.5 | · |
+| 🎪 Kings of Tallinn | 11–18 Oct (8 days) | 224 | 22.1 | 9.5 | 12.4 | · |
 
 ## All games seen
 
@@ -180,7 +183,7 @@ Average seated players per check on each kind of day, in total and for NLH and O
 | NLH €5/5/10 | 5% of checks | Sat around 01:00 | 2026-10-17 07:00 |
 | NLH €10/10 | 0% of checks | Sat around 00:00 | 2026-10-17 00:00 |
 | NLH €5/10/25 | 0% of checks | Sat around 07:00 | 2026-10-17 07:30 |
-| PLO/PLO5 €1/3 | 57% of checks | Sun around 22:00 | 2026-10-18 09:00 |
+| PLO/PLO5 €1/3 | 58% of checks | Sun around 22:00 | 2026-10-18 15:00 |
 | PLO €5/5 | 21% of checks | Wed around 20:00 | 2026-10-17 07:00 |
 | PLO/PLO5 €5/5 | 17% of checks | Sun around 23:00 | 2026-10-18 07:30 |
 | PLO/PLO5 €5/5/10 | 15% of checks | Tue around 05:00 | 2026-10-17 11:00 |
