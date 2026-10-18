@@ -2,28 +2,27 @@
 
 Reads [OlyBet's live cash games page](https://olybetpoker.com/ee/en/cash-games/?club=6) every 30 minutes (their site has bot protection, so the tracker checks gently and simply records it when a check is refused). All times are **Czech time** (Tallinn is one hour ahead). Back to [King's](README.md).
 
-**Last check:** 2026-10-18 03:30 — ✅ OK  
-**Last 24 h:** 28 of 49 checks OK, longest gap 0 h 30 min · **Collecting since:** 2026-10-10 (206 good checks)
+**Last check:** 2026-10-18 04:00 — ✅ OK  
+**Last 24 h:** 28 of 49 checks OK, longest gap 0 h 30 min · **Collecting since:** 2026-10-10 (207 good checks)
 
 **Club:** Olympic Park Casino
 
-## Tables running at 2026-10-18 03:30
+## Tables running at 2026-10-18 04:00
 
 ```
 NLH       €1/3     8/9 players
-NLH       €1/3     7/9 players
-NLH       €1/3     7/9 players
-NLH       €5/10    7/8 players
-PLO/PLO5  €1/3     6/8 players
+NLH       €1/3     8/9 players
+NLH       €5/10    4/8 players
+PLO/PLO5  €1/3     7/8 players
 PLO/PLO5  €1/3     6/8 players
 PLO/PLO5  €5/5     8/8 players
-PLO/PLO5  €5/5     8/8 players
+PLO/PLO5  €5/5     7/8 players
 ```
-**NLH:** 29 players at 4 tables · **PLO/PLO5:** 28 players at 4 tables
+**NLH:** 20 players at 3 tables · **PLO/PLO5:** 28 players at 4 tables
 
-**Waiting lists:** 1 players · **All games listed:** NLH €1/3 (opened): 3 tables, 22/27 players, 0 waiting PLO/PLO5 €1/3 (opened): 2 tables, 12/16 players, 1 waiting NLH €5/5 (closed): 0 tables, 0/0 players, 0 waiting PLO/PLO5 €5/5 (opened): 2 tables, 16/16 players, 0 waiting NLH €5/10 (opened): 1 table, 7/8 players, 0 waiting PLO/PLO5 €10/10 (closed): 0 tables, 0/0 players, 0 waiting
+**Waiting lists:** 2 players · **All games listed:** NLH €1/3 (opened): 2 tables, 16/18 players, 0 waiting PLO/PLO5 €1/3 (opened): 2 tables, 13/16 players, 0 waiting NLH €5/5 (closed): 0 tables, 0/0 players, 0 waiting PLO/PLO5 €5/5 (opened): 2 tables, 15/16 players, 2 waiting NLH €5/10 (opened): 1 table, 4/8 players, 0 waiting PLO/PLO5 €10/10 (closed): 0 tables, 0/0 players, 0 waiting
 
-**Tournaments on their site at 2026-10-18 03:00:** live 12:00 Olympic Park Casino 33 NLH Kings of Tallinn Main Event Final 30,000 €1,100 12:00 Olympic Park Casino 57 NLH Final 50,000 €3,000 12:00 Olympic Park Casino 63 PLO4/PLO5/PLO6 Progressive Bounty 20,000 €200 12:00 Olympic Park Casino 64 Open face Chinese Pineapple 35,000 €200 14:00 Olympic Park Casino 65 NLH DeepstackTurbo 30,000 €350
+**Tournaments on their site at 2026-10-18 04:00:** live 12:00 Olympic Park Casino 33 NLH Kings of Tallinn Main Event Final 30,000 €1,100 12:00 Olympic Park Casino 57 NLH Final 50,000 €3,000 12:00 Olympic Park Casino 63 PLO4/PLO5/PLO6 Progressive Bounty 20,000 €200 12:00 Olympic Park Casino 64 Open face Chinese Pineapple 35,000 €200 14:00 Olympic Park Casino 65 NLH DeepstackTurbo 30,000 €350
 
 ## Festivals and schedule
 
@@ -59,7 +58,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 01:00 | 18 | 9 | 19 | 12 | · | 33 | 34 | 22 |
 | 02:00 | 18 | 4 | 17 | 9 | 14 | 33 | 35 | 16 |
 | 03:00 | 15 | 7 | 6 | 9 | 17 | 25 | 30 | 17 |
-| 04:00 | 12 | 8 | 0 | 9 | 16 | 24 | · | 12 |
+| 04:00 | 12 | 8 | 0 | 9 | 16 | 24 | 20 | 13 |
 | 05:00 | 11 | 8 | 0 | 9 | · | 20 | · | 8 |
 | 06:00 | 7 | 7 | 0 | 8 | · | 15 | · | 8 |
 | 07:00 | 6 | 8 | 0 | · | · | 15 | 0 | 6 |
@@ -88,7 +87,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 01:00 | 24 | 24 | 24 | 16 | · | 22 | 34 | 24 |
 | 02:00 | 22 | 32 | 23 | 20 | 13 | 23 | 31 | 23 |
 | 03:00 | 18 | 23 | 15 | 24 | 16 | 16 | 29 | 20 |
-| 04:00 | 12 | 15 | 14 | 22 | 18 | 12 | · | 15 |
+| 04:00 | 12 | 15 | 14 | 22 | 18 | 12 | 28 | 16 |
 | 05:00 | 8 | 14 | 8 | 14 | · | 14 | · | 11 |
 | 06:00 | 8 | 6 | 0 | 11 | · | 15 | · | 8 |
 | 07:00 | 5 | 2 | 0 | · | · | 15 | 0 | 5 |
@@ -117,7 +116,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 01:00 | 0 | 0 | 0 | 16 | · | 22 | 0 | 8 |
 | 02:00 | 0 | 0 | 0 | 10 | 14 | 24 | 0 | 7 |
 | 03:00 | 0 | 0 | 0 | 2 | 11 | 17 | 0 | 5 |
-| 04:00 | 0 | 0 | 0 | 0 | 8 | 16 | · | 4 |
+| 04:00 | 0 | 0 | 0 | 0 | 8 | 16 | 0 | 4 |
 | 05:00 | 0 | 0 | 0 | 0 | · | 8 | · | 1 |
 | 06:00 | 0 | 0 | 0 | 0 | · | 7 | · | 2 |
 | 07:00 | 0 | 0 | 0 | · | · | 4 | 0 | 1 |
@@ -142,32 +141,32 @@ Seated players at each game's tables. 0 = that game wasn't running.
 
 🟩 most of the time · 🟨 sometimes · 🟥 rarely
 
-| Hour | NLH €1/3 | NLH €5/5 | NLH €5/5/10 | PLO/PLO5 €1/3 | PLO €5/5 | PLO/PLO5 €5/5 | PLO/PLO5 €5/5/10 | PLO/PLO5 €10/10 | Checks |
+| Hour | NLH €1/3 | NLH €5/5 | NLH €5/10 | NLH €5/5/10 | PLO/PLO5 €1/3 | PLO €5/5 | PLO/PLO5 €5/5 | PLO/PLO5 €5/5/10 | Checks |
 |:--|--:|--:|--:|--:|--:|--:|--:|--:|--:|
-| 00:00 | 🟩 100% | 🟨 50% | 🟥 0% | 🟩 100% | 🟨 50% | 🟨 38% | 🟥 12% | 🟥 0% | 8 |
-| 01:00 | 🟩 100% | 🟥 10% | 🟥 20% | 🟩 100% | 🟨 40% | 🟨 40% | 🟥 20% | 🟥 0% | 10 |
-| 02:00 | 🟩 100% | 🟥 20% | 🟥 10% | 🟩 100% | 🟨 50% | 🟨 40% | 🟥 20% | 🟥 0% | 10 |
-| 03:00 | 🟩 100% | 🟥 17% | 🟥 17% | 🟩 100% | 🟨 42% | 🟨 33% | 🟨 25% | 🟥 0% | 12 |
-| 04:00 | 🟩 90% | 🟥 10% | 🟥 20% | 🟩 100% | 🟨 30% | 🟥 10% | 🟨 40% | 🟥 0% | 10 |
-| 05:00 | 🟨 71% | 🟥 0% | 🟥 14% | 🟩 86% | 🟥 14% | 🟥 14% | 🟨 57% | 🟥 0% | 7 |
-| 06:00 | 🟩 78% | 🟥 0% | 🟥 22% | 🟨 44% | 🟥 22% | 🟥 11% | 🟨 56% | 🟥 0% | 9 |
-| 07:00 | 🟨 62% | 🟥 0% | 🟥 12% | 🟥 12% | 🟥 12% | 🟨 25% | 🟨 38% | 🟥 0% | 8 |
-| 08:00 | 🟨 27% | 🟥 18% | 🟥 0% | 🟨 36% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 11 |
-| 09:00 | 🟥 22% | 🟥 11% | 🟥 0% | 🟥 11% | 🟥 0% | 🟥 0% | 🟥 11% | 🟥 0% | 9 |
-| 10:00 | 🟨 44% | 🟥 0% | 🟥 0% | 🟥 22% | 🟥 0% | 🟥 0% | 🟥 11% | 🟥 0% | 9 |
-| 11:00 | 🟨 36% | 🟥 0% | 🟥 0% | 🟥 9% | 🟥 0% | 🟥 0% | 🟥 9% | 🟥 9% | 11 |
-| 12:00 | 🟨 30% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 20% | 10 |
-| 13:00 | 🟥 17% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 🟨 33% | 6 |
-| 14:00 | 🟨 33% | 🟥 0% | 🟥 0% | 🟥 11% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 11% | 9 |
-| 15:00 | 🟥 22% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 11% | 9 |
-| 16:00 | 🟨 62% | 🟥 0% | 🟥 0% | 🟨 25% | 🟥 12% | 🟥 0% | 🟥 0% | 🟥 0% | 8 |
-| 17:00 | 🟨 67% | 🟥 0% | 🟥 0% | 🟨 33% | 🟨 33% | 🟥 0% | 🟥 0% | 🟥 0% | 3 |
-| 18:00 | 🟨 60% | 🟥 20% | 🟥 0% | 🟩 80% | 🟨 60% | 🟥 0% | 🟥 0% | 🟥 0% | 5 |
-| 19:00 | 🟨 60% | 🟨 40% | 🟥 0% | 🟩 100% | 🟨 40% | 🟥 20% | 🟥 0% | 🟥 0% | 5 |
-| 20:00 | 🟩 100% | 🟥 0% | 🟥 0% | 🟩 100% | 🟨 44% | 🟥 22% | 🟥 22% | 🟥 0% | 9 |
-| 21:00 | 🟩 100% | 🟨 25% | 🟥 0% | 🟩 100% | 🟨 25% | 🟨 25% | 🟨 25% | 🟥 0% | 8 |
-| 22:00 | 🟩 100% | 🟨 33% | 🟥 0% | 🟩 100% | 🟨 50% | 🟥 17% | 🟥 8% | 🟥 0% | 12 |
-| 23:00 | 🟩 100% | 🟨 62% | 🟥 0% | 🟩 100% | 🟨 25% | 🟨 50% | 🟨 25% | 🟥 0% | 8 |
+| 00:00 | 🟩 100% | 🟨 50% | 🟥 12% | 🟥 0% | 🟩 100% | 🟨 50% | 🟨 38% | 🟥 12% | 8 |
+| 01:00 | 🟩 100% | 🟥 10% | 🟥 20% | 🟥 20% | 🟩 100% | 🟨 40% | 🟨 40% | 🟥 20% | 10 |
+| 02:00 | 🟩 100% | 🟥 20% | 🟥 10% | 🟥 10% | 🟩 100% | 🟨 50% | 🟨 40% | 🟥 20% | 10 |
+| 03:00 | 🟩 100% | 🟥 17% | 🟥 17% | 🟥 17% | 🟩 100% | 🟨 42% | 🟨 33% | 🟨 25% | 12 |
+| 04:00 | 🟩 91% | 🟥 9% | 🟥 9% | 🟥 18% | 🟩 100% | 🟨 27% | 🟥 18% | 🟨 36% | 11 |
+| 05:00 | 🟨 71% | 🟥 0% | 🟥 0% | 🟥 14% | 🟩 86% | 🟥 14% | 🟥 14% | 🟨 57% | 7 |
+| 06:00 | 🟩 78% | 🟥 0% | 🟥 0% | 🟥 22% | 🟨 44% | 🟥 22% | 🟥 11% | 🟨 56% | 9 |
+| 07:00 | 🟨 62% | 🟥 0% | 🟥 0% | 🟥 12% | 🟥 12% | 🟥 12% | 🟨 25% | 🟨 38% | 8 |
+| 08:00 | 🟨 27% | 🟥 18% | 🟥 0% | 🟥 0% | 🟨 36% | 🟥 0% | 🟥 0% | 🟥 0% | 11 |
+| 09:00 | 🟥 22% | 🟥 11% | 🟥 0% | 🟥 0% | 🟥 11% | 🟥 0% | 🟥 0% | 🟥 11% | 9 |
+| 10:00 | 🟨 44% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 22% | 🟥 0% | 🟥 0% | 🟥 11% | 9 |
+| 11:00 | 🟨 36% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 9% | 🟥 0% | 🟥 0% | 🟥 9% | 11 |
+| 12:00 | 🟨 30% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 10 |
+| 13:00 | 🟥 17% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 6 |
+| 14:00 | 🟨 33% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 11% | 🟥 0% | 🟥 0% | 🟥 0% | 9 |
+| 15:00 | 🟥 22% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 9 |
+| 16:00 | 🟨 62% | 🟥 0% | 🟥 0% | 🟥 0% | 🟨 25% | 🟥 12% | 🟥 0% | 🟥 0% | 8 |
+| 17:00 | 🟨 67% | 🟥 0% | 🟥 0% | 🟥 0% | 🟨 33% | 🟨 33% | 🟥 0% | 🟥 0% | 3 |
+| 18:00 | 🟨 60% | 🟥 20% | 🟥 0% | 🟥 0% | 🟩 80% | 🟨 60% | 🟥 0% | 🟥 0% | 5 |
+| 19:00 | 🟨 60% | 🟨 40% | 🟥 0% | 🟥 0% | 🟩 100% | 🟨 40% | 🟥 20% | 🟥 0% | 5 |
+| 20:00 | 🟩 100% | 🟥 0% | 🟥 0% | 🟥 0% | 🟩 100% | 🟨 44% | 🟥 22% | 🟥 22% | 9 |
+| 21:00 | 🟩 100% | 🟨 25% | 🟥 0% | 🟥 0% | 🟩 100% | 🟨 25% | 🟨 25% | 🟨 25% | 8 |
+| 22:00 | 🟩 100% | 🟨 33% | 🟥 8% | 🟥 0% | 🟩 100% | 🟨 50% | 🟥 17% | 🟥 8% | 12 |
+| 23:00 | 🟩 100% | 🟨 62% | 🟥 0% | 🟥 0% | 🟩 100% | 🟨 25% | 🟨 50% | 🟨 25% | 8 |
 
 ## Festivals, holidays and normal days
 
@@ -175,22 +174,22 @@ Average seated players per check on each kind of day, in total and for NLH and O
 
 | Days | Dates | Checks | Players | NLH | Omaha | vs normal, same hour |
 |:--|:--|--:|--:|--:|--:|--:|
-| 🎪 Kings of Tallinn | 11–18 Oct (8 days) | 206 | 22.6 | 9.8 | 12.6 | · |
+| 🎪 Kings of Tallinn | 11–18 Oct (8 days) | 207 | 22.7 | 9.9 | 12.7 | · |
 
 ## All games seen
 
 | Game | Running in | Most often | Last seen |
 |:--|--:|:--|:--|
-| NLH €1/3 | 67% of checks | Sun around 22:00 | 2026-10-18 03:30 |
+| NLH €1/3 | 67% of checks | Sun around 22:00 | 2026-10-18 04:00 |
 | NLH €5/5 | 13% of checks | Mon around 19:00 | 2026-10-16 09:00 |
-| NLH €5/10 | 3% of checks | Sun around 01:00 | 2026-10-18 03:30 |
+| NLH €5/10 | 4% of checks | Sun around 01:00 | 2026-10-18 04:00 |
 | NLH €5/5/10 | 5% of checks | Sat around 01:00 | 2026-10-17 07:00 |
 | NLH €10/10 | 0% of checks | Sat around 00:00 | 2026-10-17 00:00 |
 | NLH €5/10/25 | 0% of checks | Sat around 07:00 | 2026-10-17 07:30 |
-| PLO/PLO5 €1/3 | 58% of checks | Sun around 22:00 | 2026-10-18 03:30 |
+| PLO/PLO5 €1/3 | 58% of checks | Sun around 22:00 | 2026-10-18 04:00 |
 | PLO €5/5 | 22% of checks | Wed around 20:00 | 2026-10-17 07:00 |
-| PLO/PLO5 €5/5 | 15% of checks | Sun around 23:00 | 2026-10-18 03:30 |
-| PLO/PLO5 €5/5/10 | 17% of checks | Tue around 05:00 | 2026-10-17 11:00 |
+| PLO/PLO5 €5/5 | 15% of checks | Sun around 23:00 | 2026-10-18 04:00 |
+| PLO/PLO5 €5/5/10 | 16% of checks | Tue around 05:00 | 2026-10-17 11:00 |
 | PLO/PLO5 €10/10 | 3% of checks | Sat around 12:00 | 2026-10-17 15:00 |
 | PLO/PLO5 €25/25 | 0% of checks | Thu around 06:00 | 2026-10-15 06:30 |
 | DC €1/3 | 1% of checks | Mon around 23:00 | 2026-10-13 01:00 |
