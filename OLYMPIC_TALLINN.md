@@ -2,21 +2,18 @@
 
 Reads [OlyBet's live cash games page](https://olybetpoker.com/ee/en/cash-games/?club=6) every 30 minutes (their site has bot protection, so the tracker checks gently and simply records it when a check is refused). All times are **Czech time** (Tallinn is one hour ahead). Back to [King's](README.md).
 
-**Last check:** 2026-10-18 10:30 — ✅ OK  
-**Last 24 h:** 30 of 49 checks OK, longest gap 0 h 30 min · **Collecting since:** 2026-10-10 (217 good checks)
+**Last check:** 2026-10-18 11:00 — ✅ OK  
+**Last 24 h:** 30 of 49 checks OK, longest gap 0 h 30 min · **Collecting since:** 2026-10-10 (218 good checks)
 
 **Club:** Olympic Park Casino
 
-## Tables running at 2026-10-18 10:30
+## Tables running at 2026-10-18 11:00
 
-```
-NLH  €1/3     9/9 players
-```
-**NLH:** 9 players at 1 table
+No tables were running.
 
-**Waiting lists:** 0 players · **All games listed:** NLH €1/3 (opened): 1 table, 9/9 players, 0 waiting PLO/PLO5 €1/3 (closed): 0 tables, 0/0 players, 0 waiting NLH €5/5 (closed): 0 tables, 0/0 players, 0 waiting PLO/PLO5 €5/5 (closed): 0 tables, 0/0 players, 0 waiting NLH €5/10 (closed): 0 tables, 0/0 players, 0 waiting PLO/PLO5 €10/10 (closed): 0 tables, 0/0 players, 0 waiting
+**Waiting lists:** 0 players · **All games listed:** NLH €1/3 (closed): 0 tables, 0/0 players, 0 waiting PLO/PLO5 €1/3 (closed): 0 tables, 0/0 players, 0 waiting NLH €5/5 (closed): 0 tables, 0/0 players, 0 waiting PLO/PLO5 €5/5 (closed): 0 tables, 0/0 players, 0 waiting NLH €5/10 (closed): 0 tables, 0/0 players, 0 waiting PLO/PLO5 €10/10 (closed): 0 tables, 0/0 players, 0 waiting
 
-**Tournaments on their site at 2026-10-18 10:00:** live 12:00 Olympic Park Casino 33 NLH Kings of Tallinn Main Event Final 30,000 €1,100 12:00 Olympic Park Casino 57 NLH Final 50,000 €3,000 12:00 Olympic Park Casino 63 PLO4/PLO5/PLO6 Progressive Bounty 20,000 €200 12:00 Olympic Park Casino 64 Open face Chinese Pineapple 35,000 €200 14:00 Olympic Park Casino 65 NLH DeepstackTurbo 30,000 €350
+**Tournaments on their site at 2026-10-18 11:00:** live 12:00 Olympic Park Casino 33 NLH Kings of Tallinn Main Event Final 30,000 €1,100 12:00 Olympic Park Casino 57 NLH Final 50,000 €3,000 12:00 Olympic Park Casino 63 PLO4/PLO5/PLO6 Progressive Bounty 20,000 €200 12:00 Olympic Park Casino 64 Open face Chinese Pineapple 35,000 €200 14:00 Olympic Park Casino 65 NLH DeepstackTurbo 30,000 €350
 
 ## Festivals and schedule
 
@@ -151,7 +148,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 08:00 | 🟨 27% | 🟥 18% | 🟥 0% | 🟥 0% | 🟨 36% | 🟥 0% | 🟥 0% | 🟥 0% | 11 |
 | 09:00 | 🟨 30% | 🟥 10% | 🟥 0% | 🟥 0% | 🟥 20% | 🟥 0% | 🟥 0% | 🟥 10% | 10 |
 | 10:00 | 🟨 55% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 18% | 🟥 0% | 🟥 0% | 🟥 9% | 11 |
-| 11:00 | 🟨 36% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 9% | 🟥 0% | 🟥 0% | 🟥 9% | 11 |
+| 11:00 | 🟨 33% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 8% | 🟥 0% | 🟥 0% | 🟥 8% | 12 |
 | 12:00 | 🟨 30% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 10 |
 | 13:00 | 🟥 17% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 6 |
 | 14:00 | 🟨 33% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 11% | 🟥 0% | 🟥 0% | 🟥 0% | 9 |
@@ -171,13 +168,13 @@ Average seated players per check on each kind of day, in total and for NLH and O
 
 | Days | Dates | Checks | Players | NLH | Omaha | vs normal, same hour |
 |:--|:--|--:|--:|--:|--:|--:|
-| 🎪 Kings of Tallinn | 11–18 Oct (8 days) | 217 | 22.8 | 9.8 | 12.8 | · |
+| 🎪 Kings of Tallinn | 11–18 Oct (8 days) | 218 | 22.7 | 9.8 | 12.7 | · |
 
 ## All games seen
 
 | Game | Running in | Most often | Last seen |
 |:--|--:|:--|:--|
-| NLH €1/3 | 69% of checks | Sun around 22:00 | 2026-10-18 10:30 |
+| NLH €1/3 | 68% of checks | Sun around 22:00 | 2026-10-18 10:30 |
 | NLH €5/5 | 14% of checks | Mon around 19:00 | 2026-10-18 06:30 |
 | NLH €5/10 | 4% of checks | Sun around 01:00 | 2026-10-18 04:00 |
 | NLH €5/5/10 | 5% of checks | Sat around 01:00 | 2026-10-17 07:00 |
