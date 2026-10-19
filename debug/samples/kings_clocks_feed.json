@@ -1,6 +1,6 @@
 {
- "saved_on": "2026-10-19",
- "records": 5,
+ "saved_on": "2026-10-20",
+ "records": 3,
  "fields": [
   "activePause",
   "activePlayers",
@@ -48,498 +48,92 @@
  ],
  "sample": [
   {
-   "referenceTime": "2026-10-19T00:00:30.027",
-   "name": "Dutch Poker Masters  - Day 2",
-   "fullName": "Dutch Poker Masters  - Day 2",
-   "tournamentName": "Dutch Poker Masters ",
-   "notes": "All players ITM",
+   "referenceTime": "2026-10-20T00:00:15.465",
+   "name": "BPC €1Million - Day 1A Speed",
+   "fullName": "BPC €1Million - Day 1A Speed",
+   "tournamentName": "BPC €1Million",
+   "notes": "15% ITM MC 600€ • played till 10%",
    "color": "#b71c1c",
-   "background": "kings_cards_with_chips.jpg",
+   "background": "kings_cards_1.jpg",
    "status": "RUNNING",
    "isPaused": false,
    "currency": "EUR",
-   "effectivePrizePool": 500000,
+   "effectivePrizePool": 1000000,
    "guaranteeInEffect": true,
    "overlay": null,
-   "reEntryMaxCount": 0,
+   "reEntryMaxCount": 2,
    "startingStack": 50000,
    "openRegistration": false,
-   "lateRegistrationUntilLevel": null,
-   "expectedLastLevel": 29,
-   "start": "2026-10-18T17:17:02",
+   "lateRegistrationUntilLevel": 10,
+   "expectedLastLevel": 17,
+   "start": "2026-10-19T18:15:33",
    "pausedSeconds": 0,
    "pausedMillis": 0,
    "flightGameTimeDelta": 0,
-   "stickerText": "♠♥♦♣ 10x KINGS MILLION EUROPEAN POKER PACKAGES (3500€) included in prizepool ♠♥♦♣ All players have been credited 450 € to their casino wallet ♠♥♦♣ We are playing down to 24 players or untill the end of level 29 ♠♥♦♣ ",
-   "totalEntries": 1978,
-   "activePlayers": 32,
-   "averageStack": 3090625,
-   "nextBreakStart": "2026-10-19T00:20:02.832",
+   "stickerText": "♠♥♦♣ 10x KINGS MILLION EUROPEAN POKER PACKAGES (3500€) included in prizepool ♠♥♦♣\n\n15% of players ITM (min. cash 600€) ♠♥♦♣\n\nDay 1 is played down to the last 10% of the field ♠♥♦♣\n\nThe tournament is played as a multi-stack format – if you play multiple flights, only your biggest stack advances to Day 2 ♠♥♦♣\n\nChipleader of the flight will receive a bonus King's Million European Poker Championship 2027 Super Main Event ticket (1.150€) ♦♣♠♥",
+   "totalEntries": 75,
+   "activePlayers": 22,
+   "averageStack": 170455,
+   "nextBreakStart": "2026-10-20T00:50:32.998",
    "nextBreakSeconds": 900,
-   "entryValue": 225,
+   "entryValue": 295,
    "serviceFee": 0,
    "bountyValue": null,
-   "payoutPositions": [
-    {
-     "from": 1,
-     "to": 1,
-     "amount": 56000,
-     "label": "3500 package"
-    },
-    {
-     "from": 2,
-     "to": 2,
-     "amount": 34500,
-     "label": "3500 package"
-    },
-    {
-     "from": 3,
-     "to": 3,
-     "amount": 24500,
-     "label": "3500 package"
-    },
-    {
-     "from": 4,
-     "to": 4,
-     "amount": 18000,
-     "label": "3500 package"
-    },
-    {
-     "from": 5,
-     "to": 5,
-     "amount": 13600,
-     "label": "3500 package"
-    },
-    {
-     "from": 6,
-     "to": 6,
-     "amount": 10200,
-     "label": "3500 package"
-    },
-    {
-     "from": 7,
-     "to": 7,
-     "amount": 7600,
-     "label": "3500 package"
-    },
-    {
-     "from": 8,
-     "to": 8,
-     "amount": 5650,
-     "label": "3500 package"
-    },
-    {
-     "from": 9,
-     "to": 9,
-     "amount": 4165,
-     "label": "3500 package"
-    },
-    {
-     "from": 10,
-     "to": 10,
-     "amount": 3025,
-     "label": "3500 package"
-    },
-    {
-     "from": 11,
-     "to": 11,
-     "amount": 3025,
-     "label": null
-    },
-    {
-     "from": 12,
-     "to": 15,
-     "amount": 2225,
-     "label": null
-    },
-    {
-     "from": 16,
-     "to": 20,
-     "amount": 1605,
-     "label": null
-    },
-    {
-     "from": 21,
-     "to": 27,
-     "amount": 1130,
-     "label": null
-    },
-    {
-     "from": 28,
-     "to": 32,
-     "amount": 765,
-     "label": null
-    }
-   ],
+   "payoutPositions": null,
    "currentLevel": {
-    "start": "2026-10-18T23:40:02.832",
-    "gameEnd": "2026-10-19T00:20:02.832",
-    "levelEnd": "2026-10-19T00:35:02.832",
-    "sb": 50000,
-    "bb": 100000,
-    "number": 25,
-    "gameSeconds": 2400,
-    "breakSeconds": 900,
-    "limits": null,
-    "ante": 100000
-   },
-   "nextLevels": [
-    {
-     "sb": 60000,
-     "bb": 120000,
-     "number": 26,
-     "gameSeconds": 2400,
-     "breakSeconds": 0,
-     "limits": null,
-     "ante": 120000
-    },
-    {
-     "sb": 100000,
-     "bb": 150000,
-     "number": 27,
-     "gameSeconds": 2400,
-     "breakSeconds": 900,
-     "limits": null,
-     "ante": 150000
-    }
-   ],
-   "softPauseEnd": null,
-   "activePause": null,
-   "plannedEnd": null,
-   "winningStructureType": "STANDARD",
-   "levelCount": 29,
-   "reEntryCountLimit": 0,
-   "subName": "All players ITM",
-   "availableTickets": {
-    "buyIn": 225,
-    "serviceFee": 0,
-    "addon": null,
-    "rebuy": null,
-    "addOnLimit": null,
-    "reBuyLimit": null
-   },
-   "tournament_id": 13765
-  },
-  {
-   "referenceTime": "2026-10-18T23:59:50.172",
-   "name": "DPM High Roller",
-   "fullName": "DPM High Roller",
-   "tournamentName": "DPM High Roller",
-   "notes": null,
-   "color": "#4a148c",
-   "background": null,
-   "status": "RUNNING",
-   "isPaused": false,
-   "currency": "EUR",
-   "effectivePrizePool": 53125,
-   "guaranteeInEffect": false,
-   "overlay": null,
-   "reEntryMaxCount": null,
-   "startingStack": 100000,
-   "openRegistration": false,
-   "lateRegistrationUntilLevel": 8,
-   "expectedLastLevel": null,
-   "start": "2026-10-18T18:00:32",
-   "pausedSeconds": 277,
-   "pausedMillis": 277927,
-   "flightGameTimeDelta": -277927,
-   "stickerText": null,
-   "totalEntries": 125,
-   "activePlayers": 25,
-   "averageStack": 500000,
-   "nextBreakStart": "2026-10-19T01:55:10.915",
-   "nextBreakSeconds": 900,
-   "entryValue": 500,
-   "serviceFee": 0,
-   "bountyValue": null,
-   "payoutPositions": [
-    {
-     "from": 1,
-     "to": 1,
-     "amount": 13466,
-     "label": null
-    },
-    {
-     "from": 2,
-     "to": 2,
-     "amount": 8797,
-     "label": null
-    },
-    {
-     "from": 3,
-     "to": 3,
-     "amount": 5952,
-     "label": null
-    },
-    {
-     "from": 4,
-     "to": 4,
-     "amount": 4176,
-     "label": null
-    },
-    {
-     "from": 5,
-     "to": 5,
-     "amount": 3042,
-     "label": null
-    },
-    {
-     "from": 6,
-     "to": 6,
-     "amount": 2304,
-     "label": null
-    },
-    {
-     "from": 7,
-     "to": 7,
-     "amount": 1818,
-     "label": null
-    },
-    {
-     "from": 8,
-     "to": 8,
-     "amount": 1496,
-     "label": null
-    },
-    {
-     "from": 9,
-     "to": 9,
-     "amount": 1288,
-     "label": null
-    },
-    {
-     "from": 10,
-     "to": 11,
-     "amount": 1160,
-     "label": null
-    },
-    {
-     "from": 12,
-     "to": 13,
-     "amount": 1098,
-     "label": null
-    },
-    {
-     "from": 14,
-     "to": 19,
-     "amount": 1045,
-     "label": null
-    }
-   ],
-   "currentLevel": {
-    "start": "2026-10-18T23:50:10.915",
-    "gameEnd": "2026-10-19T00:15:10.915",
-    "levelEnd": "2026-10-19T00:15:10.915",
-    "sb": 10000,
-    "bb": 20000,
-    "number": 13,
-    "gameSeconds": 1500,
+    "start": "2026-10-19T23:50:32.998",
+    "gameEnd": "2026-10-20T00:20:32.998",
+    "levelEnd": "2026-10-20T00:20:32.998",
+    "sb": 2000,
+    "bb": 4000,
+    "number": 11,
+    "gameSeconds": 1800,
     "breakSeconds": 0,
     "limits": null,
-    "ante": 20000
+    "ante": 4000
    },
    "nextLevels": [
     {
-     "sb": 15000,
-     "bb": 30000,
-     "number": 14,
-     "gameSeconds": 1500,
-     "breakSeconds": 0,
+     "sb": 2500,
+     "bb": 5000,
+     "number": 12,
+     "gameSeconds": 1800,
+     "breakSeconds": 900,
      "limits": null,
-     "ante": 30000
+     "ante": 5000
     },
     {
-     "sb": 20000,
-     "bb": 40000,
-     "number": 15,
-     "gameSeconds": 1500,
+     "sb": 3000,
+     "bb": 6000,
+     "number": 13,
+     "gameSeconds": 1800,
      "breakSeconds": 0,
      "limits": null,
-     "ante": 40000
+     "ante": 6000
     }
    ],
    "softPauseEnd": null,
    "activePause": null,
    "plannedEnd": null,
    "winningStructureType": "STANDARD",
-   "levelCount": null,
-   "reEntryCountLimit": null,
+   "levelCount": 17,
+   "reEntryCountLimit": 2,
+   "subName": "15% ITM MC 600€ • played till 10%",
    "availableTickets": {
-    "buyIn": 500,
+    "buyIn": 295,
     "serviceFee": 0,
     "addon": null,
     "rebuy": null,
     "addOnLimit": null,
     "reBuyLimit": null
    },
-   "tournament_id": 13777
+   "tournament_id": 13829
   },
   {
-   "referenceTime": "2026-10-19T00:00:15.249",
-   "name": "Dutch Poker Masters  - Final Day",
-   "fullName": "Dutch Poker Masters  - Final Day",
-   "tournamentName": "Dutch Poker Masters ",
-   "notes": "",
-   "color": "#4a148c",
-   "background": "chips_with_cards.jpg",
-   "status": "READY_FOR_PUBLICATION",
-   "isPaused": false,
-   "currency": "EUR",
-   "effectivePrizePool": 500000,
-   "guaranteeInEffect": true,
-   "overlay": null,
-   "reEntryMaxCount": 0,
-   "startingStack": 50000,
-   "openRegistration": false,
-   "lateRegistrationUntilLevel": null,
-   "expectedLastLevel": null,
-   "start": "2026-10-19T14:00:00",
-   "pausedSeconds": null,
-   "pausedMillis": null,
-   "flightGameTimeDelta": null,
-   "stickerText": "♠♥♦♣ 10x KINGS MILLION EUROPEAN POKER PACKAGES (3500€) included in prizepool ♠♥♦♣",
-   "totalEntries": 0,
-   "activePlayers": 0,
-   "averageStack": 0,
-   "nextBreakStart": null,
-   "nextBreakSeconds": null,
-   "entryValue": 225,
-   "serviceFee": 0,
-   "bountyValue": null,
-   "payoutPositions": [
-    {
-     "from": 1,
-     "to": 1,
-     "amount": 56000,
-     "label": "3500 package"
-    },
-    {
-     "from": 2,
-     "to": 2,
-     "amount": 34500,
-     "label": "3500 package"
-    },
-    {
-     "from": 3,
-     "to": 3,
-     "amount": 24500,
-     "label": "3500 package"
-    },
-    {
-     "from": 4,
-     "to": 4,
-     "amount": 18000,
-     "label": "3500 package"
-    },
-    {
-     "from": 5,
-     "to": 5,
-     "amount": 13600,
-     "label": "3500 package"
-    },
-    {
-     "from": 6,
-     "to": 6,
-     "amount": 10200,
-     "label": "3500 package"
-    },
-    {
-     "from": 7,
-     "to": 7,
-     "amount": 7600,
-     "label": "3500 package"
-    },
-    {
-     "from": 8,
-     "to": 8,
-     "amount": 5650,
-     "label": "3500 package"
-    },
-    {
-     "from": 9,
-     "to": 9,
-     "amount": 4165,
-     "label": "3500 package"
-    },
-    {
-     "from": 10,
-     "to": 10,
-     "amount": 3025,
-     "label": "3500 package"
-    },
-    {
-     "from": 11,
-     "to": 11,
-     "amount": 3025,
-     "label": null
-    },
-    {
-     "from": 12,
-     "to": 15,
-     "amount": 2225,
-     "label": null
-    },
-    {
-     "from": 16,
-     "to": 20,
-     "amount": 1605,
-     "label": null
-    },
-    {
-     "from": 21,
-     "to": 27,
-     "amount": 1130,
-     "label": null
-    },
-    {
-     "from": 28,
-     "to": 32,
-     "amount": 765,
-     "label": null
-    }
-   ],
-   "currentLevel": null,
-   "nextLevels": [
-    {
-     "sb": 150000,
-     "bb": 300000,
-     "number": 30,
-     "gameSeconds": 3000,
-     "breakSeconds": 0,
-     "limits": null,
-     "ante": 300000
-    },
-    {
-     "sb": 200000,
-     "bb": 400000,
-     "number": 31,
-     "gameSeconds": 3000,
-     "breakSeconds": 0,
-     "limits": null,
-     "ante": 400000
-    }
-   ],
-   "softPauseEnd": null,
-   "activePause": null,
-   "plannedEnd": null,
-   "winningStructureType": "STANDARD",
-   "levelCount": null,
-   "reEntryCountLimit": 0,
-   "availableTickets": {
-    "buyIn": 225,
-    "serviceFee": 0,
-    "addon": null,
-    "rebuy": null,
-    "addOnLimit": null,
-    "reBuyLimit": null
-   },
-   "tournament_id": 13766
-  },
-  {
-   "referenceTime": "2026-10-19T00:00:15.347",
-   "name": "Satellite to BPC ME - Day 1A",
-   "fullName": "Satellite to BPC ME - Day 1A",
-   "tournamentName": "Satellite to BPC ME - Day 1A",
+   "referenceTime": "2026-10-20T00:00:20.545",
+   "name": "Satellite to BPC ME - Day 1B",
+   "fullName": "Satellite to BPC ME - Day 1B",
+   "tournamentName": "Satellite to BPC ME - Day 1B",
    "notes": null,
    "color": "#f57f17",
    "background": null,
@@ -554,7 +148,7 @@
    "openRegistration": true,
    "lateRegistrationUntilLevel": 8,
    "expectedLastLevel": null,
-   "start": "2026-10-19T15:00:00",
+   "start": "2026-10-20T15:00:00",
    "pausedSeconds": null,
    "pausedMillis": null,
    "flightGameTimeDelta": null,
@@ -603,12 +197,12 @@
     "addOnLimit": null,
     "reBuyLimit": null
    },
-   "tournament_id": 13842
+   "tournament_id": 13843
   },
   {
-   "referenceTime": "2026-10-19T00:00:15.467",
-   "name": "Balkan Poker Circuit €1Million  - Day 1A Speed",
-   "fullName": "Balkan Poker Circuit €1Million  - Day 1A Speed",
+   "referenceTime": "2026-10-20T00:00:20.623",
+   "name": "Balkan Poker Circuit €1Million  - Day 1B SPEED",
+   "fullName": "Balkan Poker Circuit €1Million  - Day 1B SPEED",
    "tournamentName": "Balkan Poker Circuit €1Million ",
    "notes": "15% ITM MC 600€ • played till 10%",
    "color": "#b71c1c",
@@ -624,11 +218,11 @@
    "openRegistration": true,
    "lateRegistrationUntilLevel": 10,
    "expectedLastLevel": 17,
-   "start": "2026-10-19T18:00:00",
+   "start": "2026-10-20T18:00:00",
    "pausedSeconds": null,
    "pausedMillis": null,
    "flightGameTimeDelta": null,
-   "stickerText": null,
+   "stickerText": "♠♥♦♣ 10x KINGS MILLION EUROPEAN POKER PACKAGES (3500€) included in prizepool ♠♥♦♣\n\n15% (12) of players ITM (min. cash 600€) ♠♥♦♣\n\nDay 1A is played down to the last 10% (8) of the field ♠♥♦♣\n\nThe tournament is played as a multi-stack format – if you play multiple flights, only your biggest stack advances to Day 2 ♠♥♦♣\n\nChipleader of the flight will receive a bonus King's Million European Poker Championship 2027 Super Main Event ticket (1.150€) ♦♣♠♥",
    "totalEntries": 0,
    "activePlayers": 0,
    "averageStack": 0,
@@ -674,7 +268,7 @@
     "addOnLimit": null,
     "reBuyLimit": null
    },
-   "tournament_id": 13829
+   "tournament_id": 13830
   }
  ]
 }
