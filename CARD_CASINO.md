@@ -2,10 +2,10 @@
 
 Reads [Card Casino's live cash-game list](https://www.cardcasino.sk/en/cashgames/) together with King's, about every 10 minutes. All times are **Czech time** (same as Poland and Slovakia). Back to [King's](README.md).
 
-**Last check:** 2026-10-19 22:00 — ✅ OK (live list)  
-**Last 24 h:** 124 of 145 checks OK, longest gap 0 h 14 min · **Collecting since:** 2026-10-10 (1213 good checks)
+**Last check:** 2026-10-19 22:10 — ✅ OK (live list)  
+**Last 24 h:** 125 of 145 checks OK, longest gap 0 h 14 min · **Collecting since:** 2026-10-10 (1214 good checks)
 
-## Tables running at 2026-10-19 22:00
+## Tables running at 2026-10-19 22:10
 
 ```
 NLH  €1/2     6/8 players
@@ -28,8 +28,8 @@ No Omaha tournaments on the schedule in the next 14 days.
 
 Day, hour and average seated players (only day-hour slots seen on at least 2 different dates).
 
-- **NLH:** Mon 00:00 (12) · Mon 22:00 (11) · Mon 01:00 (10)
-- **PLO:** Mon 22:00 (8) · Mon 21:00 (7) · Mon 20:00 (6)
+- **NLH:** Mon 00:00 (12) · Mon 22:00 (10) · Mon 01:00 (10)
+- **PLO:** Mon 22:00 (7) · Mon 21:00 (7) · Mon 20:00 (6)
 
 ## Average players by hour
 
@@ -61,7 +61,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 19:00 | 1 | 2 | 0 | 0 | 7 | 14 | 8 | 5 |
 | 20:00 | 6 | 6 | 7 | 0 | 22 | 22 | 14 | 11 |
 | 21:00 | 8 | 6 | 5 | 2 | 24 | 16 | 14 | 10 |
-| 22:00 | 11 | 0 | 5 | 2 | 21 | 21 | 15 | 11 |
+| 22:00 | 10 | 0 | 5 | 2 | 21 | 21 | 15 | 10 |
 | 23:00 | 8 | 0 | 5 | 0 | 20 | 24 | 12 | 9 |
 
 ### Pot-Limit Omaha (PLO)
@@ -90,7 +90,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 19:00 | 3 | 0 | 0 | 0 | 0 | 0 | 0 | 1 |
 | 20:00 | 6 | 0 | 0 | 0 | 0 | 0 | 0 | 1 |
 | 21:00 | 7 | 0 | 0 | 0 | 0 | 0 | 0 | 1 |
-| 22:00 | 8 | 0 | 0 | 0 | 0 | 0 | 0 | 2 |
+| 22:00 | 7 | 0 | 0 | 0 | 0 | 0 | 0 | 2 |
 | 23:00 | 8 | 0 | 0 | 0 | 0 | 0 | 0 | 1 |
 
 ### DCH
@@ -150,7 +150,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 19:00 | 🟨 39% | 🟥 7% | 🟥 7% | 🟥 10% | 🟥 0% | 41 |
 | 20:00 | 🟨 72% | 🟥 10% | 🟥 10% | 🟥 10% | 🟥 0% | 40 |
 | 21:00 | 🟩 87% | 🟥 9% | 🟥 13% | 🟥 9% | 🟥 0% | 45 |
-| 22:00 | 🟨 66% | 🟥 17% | 🟥 3% | 🟥 17% | 🟥 11% | 35 |
+| 22:00 | 🟨 67% | 🟥 17% | 🟥 6% | 🟥 17% | 🟥 11% | 36 |
 | 23:00 | 🟨 55% | 🟥 13% | 🟥 0% | 🟥 13% | 🟥 16% | 38 |
 
 ## Festivals, holidays and normal days
@@ -159,16 +159,16 @@ Average seated players per check on each kind of day, in total and for NLH and O
 
 | Days | Dates | Checks | Players | NLH | Omaha | vs normal, same hour |
 |:--|:--|--:|--:|--:|--:|--:|
-| Normal days | 12–19 Oct (8 days) | 973 | 4.2 | 3.0 | 0.8 | +0.0 |
+| Normal days | 12–19 Oct (8 days) | 974 | 4.2 | 3.0 | 0.8 | -0.0 |
 | 💵 Cash game days: NLH/PLO/PLO5 from €10/20 | 10–11 Oct (2 days) | 240 | 11.9 | 6.2 | 5.7 | +7.9 |
 
 ## All games seen
 
 | Game | Running in | Most often | Last seen |
 |:--|--:|:--|:--|
-| NLH €1/2 | 17% of checks | Wed around 21:00 | 2026-10-19 22:00 |
+| NLH €1/2 | 17% of checks | Wed around 21:00 | 2026-10-19 22:10 |
 | NLH €1/3 | 15% of checks | Sat around 06:00 | 2026-10-13 00:30 |
-| PLO €5/5 | 1% of checks | Mon around 21:00 | 2026-10-19 22:00 |
+| PLO €5/5 | 1% of checks | Mon around 21:00 | 2026-10-19 22:10 |
 | PLO €10/10 | 19% of checks | Sat around 19:00 | 2026-10-13 04:30 |
 | PLO €100/100 | 4% of checks | Sat around 14:00 | 2026-10-10 20:40 |
 | PLO €100/200 | 3% of checks | Sat around 21:00 | 2026-10-11 05:10 |
