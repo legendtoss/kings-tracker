@@ -2,17 +2,14 @@
 
 Checks [its website](https://bancocasino.sk/ba/en) together with King's, about every 10 minutes. All times are **Czech time** (same as Poland and Slovakia). Back to [King's](README.md).
 
-**Last check:** 2026-10-19 07:50 — ✅ OK  
-**Checks so far:** 849 successful out of 1353 (since 2026-10-10)
+**Last check:** 2026-10-19 08:00 — ✅ OK  
+**Checks so far:** 850 successful out of 1354 (since 2026-10-10)
 
-## Tables running at 2026-10-19 07:50
+## Tables running at 2026-10-19 08:00
 
-```
-NLH  €1/3     3 players
-```
-**NLH:** 3 players at 1 table
+No tables were running.
 
-*The whole list (Banco also shows its Košice casino; the numbers above are Bratislava only):* Bratislava: NLH €1/3 3 players (buy-in €100)  
+*The whole list (Banco also shows its Košice casino; the numbers above are Bratislava only):* no games listed  
 **Tournaments running:** none
 
 **Note:** Since 13 Oct the tracker reads Banco's cash list and its live tournaments straight from where its page gets them; before that, its page's scripts didn't run in the tracker's browser, so those checks show as errors.
@@ -46,7 +43,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 05:00 | 6 | · | 0 | 8 | 0 | 8 | 8 | 5 |
 | 06:00 | 6 | · | 0 | 8 | 0 | 7 | 8 | 5 |
 | 07:00 | 4 | · | 0 | 6 | 0 | 6 | 8 | 4 |
-| 08:00 | · | · | 0 | 0 | 0 | 0 | 8 | 2 |
+| 08:00 | 0 | · | 0 | 0 | 0 | 0 | 8 | 1 |
 | 09:00 | · | · | 0 | 0 | 0 | 0 | 2 | 0 |
 | 10:00 | · | · | 0 | 0 | 0 | 0 | 0 | 0 |
 | 11:00 | · | 5 | 0 | 0 | 0 | 0 | 0 | 0 |
@@ -75,7 +72,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 05:00 | 0 | · | 0 | 0 | 0 | 0 | 1 | 0 |
 | 06:00 | 0 | · | 0 | 0 | 0 | 0 | 0 | 0 |
 | 07:00 | 0 | · | 0 | 0 | 0 | 0 | 0 | 0 |
-| 08:00 | · | · | 0 | 0 | 0 | 0 | 0 | 0 |
+| 08:00 | 0 | · | 0 | 0 | 0 | 0 | 0 | 0 |
 | 09:00 | · | · | 0 | 0 | 0 | 0 | 0 | 0 |
 | 10:00 | · | · | 0 | 0 | 0 | 0 | 0 | 0 |
 | 11:00 | · | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
@@ -106,7 +103,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 05:00 | 🟨 67% | 🟥 0% | 🟥 6% | 🟥 17% | 🟥 0% | 36 |
 | 06:00 | 🟨 57% | 🟥 8% | 🟥 0% | 🟥 16% | 🟥 0% | 37 |
 | 07:00 | 🟨 50% | 🟥 17% | 🟥 0% | 🟥 11% | 🟥 0% | 36 |
-| 08:00 | 🟥 20% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 30 |
+| 08:00 | 🟥 19% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 31 |
 | 09:00 | 🟥 7% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 30 |
 | 10:00 | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 30 |
 | 11:00 | 🟥 6% | 🟥 0% | 🟥 6% | 🟥 0% | 🟥 0% | 32 |
