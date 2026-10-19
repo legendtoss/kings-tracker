@@ -2,21 +2,21 @@
 
 Checks King's live cash games and tournaments about every 10 minutes and updates this page by itself. All times are **Czech time** (same as Poland). Also tracking: [King's Prague](KINGS_PRAGUE.md) · [Card Casino Šamorín](CARD_CASINO.md) · [Grand Casino Aš](GRAND_CASINO_AS.md) · [Banco Casino Bratislava](BANCO.md) · [Olympic Park Tallinn](OLYMPIC_TALLINN.md) · [Olympic Voodoo Riga](OLYMPIC_RIGA.md) · [Olympic Casino Vilnius](OLYMPIC_VILNIUS.md).
 
-**Right now:** King's: 1 table, 8 players · [King's Prague](KINGS_PRAGUE.md): 0 tables, 0 players · [Card Casino Šamorín](CARD_CASINO.md): 0 tables, 0 players · [Grand Casino Aš](GRAND_CASINO_AS.md): 0 tables running · [Olympic Park Tallinn](OLYMPIC_TALLINN.md): couldn't be read at 13:30 · [Olympic Voodoo Riga](OLYMPIC_RIGA.md): 0 tables, 0 players at 13:30 · [Olympic Vilnius](OLYMPIC_VILNIUS.md): 0 tables, 0 players (3 waiting) at 13:30 · [Banco](BANCO.md): 0 tables, 0 players
+**Right now:** King's: 1 table, 8 players · [King's Prague](KINGS_PRAGUE.md): 0 tables, 0 players · [Card Casino Šamorín](CARD_CASINO.md): 0 tables, 0 players · [Grand Casino Aš](GRAND_CASINO_AS.md): 0 tables running · [Olympic Park Tallinn](OLYMPIC_TALLINN.md): blocked at 14:00 · [Olympic Voodoo Riga](OLYMPIC_RIGA.md): blocked at 14:00 · [Olympic Vilnius](OLYMPIC_VILNIUS.md): 0 tables, 0 players (3 waiting) at 14:00 · [Banco](BANCO.md): 0 tables, 0 players
 
 **🎯 Omaha right now:** no Omaha tables running at any room
 
-**Last check:** 2026-10-19 13:50 — ✅ OK (data feed)  
-**Last 24 h:** 117 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-06 (1565 good checks)
+**Last check:** 2026-10-19 14:00 — ✅ OK (data feed)  
+**Last 24 h:** 117 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-06 (1566 good checks)
 
-## Tables running at 2026-10-19 13:50
+## Tables running at 2026-10-19 14:00
 
 ```
 NLH  €1/2     8/8 players
 ```
 **NLH:** 8 players at 1 table
 
-**Tournaments in play:** none
+**Tournaments in play:** Dutch Poker Masters - Final Day (NLH, €225, 24 of 1978 left)
 
 ## Festivals and schedule
 
@@ -196,7 +196,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 11:00 | 🟨 63% | 🟥 5% | 🟥 0% | 🟥 17% | 🟥 3% | 🟥 0% | 🟥 5% | 🟥 0% | 59 |
 | 12:00 | 🟨 70% | 🟥 5% | 🟥 0% | 🟥 15% | 🟥 10% | 🟥 0% | 🟥 5% | 🟥 0% | 61 |
 | 13:00 | 🟩 77% | 🟥 5% | 🟥 0% | 🟥 18% | 🟥 12% | 🟥 0% | 🟥 5% | 🟥 0% | 65 |
-| 14:00 | 🟩 75% | 🟨 25% | 🟥 0% | 🟨 25% | 🟨 28% | 🟥 0% | 🟥 5% | 🟥 0% | 61 |
+| 14:00 | 🟩 76% | 🟥 24% | 🟥 0% | 🟥 24% | 🟨 27% | 🟥 0% | 🟥 5% | 🟥 0% | 62 |
 | 15:00 | 🟩 86% | 🟨 27% | 🟥 0% | 🟨 32% | 🟨 36% | 🟥 2% | 🟥 3% | 🟥 0% | 59 |
 | 16:00 | 🟩 86% | 🟨 27% | 🟥 0% | 🟨 30% | 🟨 47% | 🟥 9% | 🟥 5% | 🟥 0% | 66 |
 | 17:00 | 🟩 86% | 🟥 16% | 🟥 16% | 🟨 47% | 🟨 58% | 🟥 9% | 🟥 5% | 🟥 0% | 64 |
@@ -215,7 +215,7 @@ Collecting since 2026-10-08. Shown from 2026-10-22: with fewer than two weeks, t
 
 | Game | Running in | Most often | Last seen |
 |:--|--:|:--|:--|
-| NLH €1/2 | 82% of checks | Fri around 22:00 | 2026-10-19 13:50 |
+| NLH €1/2 | 82% of checks | Fri around 22:00 | 2026-10-19 14:00 |
 | NLH €2/4 | 28% of checks | Fri around 22:00 | 2026-10-18 21:40 |
 | NLH €5/10 | 5% of checks | Sat around 23:00 | 2026-10-17 20:00 |
 | PLO €2/2 | 42% of checks | Fri around 22:00 | 2026-10-19 00:50 |
@@ -233,6 +233,7 @@ The most recent ones. The game is read from the tournament's name.
 
 | Tournament | Game | Buy-in | Entries | Seen |
 |:--|:--|--:|--:|:--|
+| Dutch Poker Masters - Final Day | NLH | €225 | 1978 | 2026-10-19 14:00 |
 | DPM High Roller | NLH | €500 | 125 | 2026-10-18 18:00 → 10-19 03:50 |
 | Dutch Poker Masters - Day 2 | NLH | €225 | 1978 | 2026-10-18 17:20 → 10-19 02:20 |
 | DPM - Day 1G TURBO | NLH | €225 | 290 | 2026-10-18 11:00 → 10-18 16:50 |
@@ -247,20 +248,19 @@ The most recent ones. The game is read from the tournament's name.
 | DPM - Day 1C | NLH | €225 | 321 | 2026-10-16 13:20 → 10-17 00:50 |
 | Flip n Go Satellite (8 handed) to DPM ME - Day 1D | NLH | €40 | 53 | 2026-10-16 16:00 → 10-16 18:00 |
 | DPM Friday Morning Bounty (50 Bounty) | NLH | €120 | 115 | 2026-10-16 10:00 → 10-16 16:30 |
-| DPM Ladies Event | NLH | €120 | 5 | 2026-10-16 15:00 |
 
 ## Tracker health (all rooms)
 
 | Room | Last check | OK in the last 24 h | Most common problem |
 |:--|:--|--:|:--|
-| King's Rozvadov | ✅ 10-19 13:50 | 117 of 145 | couldn't read the tables on the page |
-| [King's Prague](KINGS_PRAGUE.md) | ✅ 10-19 13:50 | 117 of 145 | King's feed came back empty and that couldn't be confirmed, so it wasn |
-| [Grand Casino Aš](GRAND_CASINO_AS.md) | ✅ 10-19 13:50 | 145 of 145 | · |
-| [Card Casino Šamorín](CARD_CASINO.md) | ✅ 10-19 13:50 | 125 of 145 | Card Casino's site didn't answer |
-| [Banco Casino Bratislava](BANCO.md) | ✅ 10-19 13:50 | 145 of 145 | · |
-| [Olympic Park Tallinn](OLYMPIC_TALLINN.md) | ⚠️ 10-19 13:30 | 4 of 48 | couldn't read the cash games table (page saved for a closer look) |
-| [Olympic Voodoo Riga](OLYMPIC_RIGA.md) | ✅ 10-19 13:30 | 30 of 48 | blocked by the site's bot protection |
-| [Olympic Casino Vilnius](OLYMPIC_VILNIUS.md) | ✅ 10-19 13:30 | 30 of 48 | blocked by the site's bot protection |
+| King's Rozvadov | ✅ 10-19 14:00 | 117 of 145 | couldn't read the tables on the page |
+| [King's Prague](KINGS_PRAGUE.md) | ✅ 10-19 14:00 | 117 of 145 | King's feed came back empty and that couldn't be confirmed, so it wasn |
+| [Grand Casino Aš](GRAND_CASINO_AS.md) | ✅ 10-19 14:00 | 145 of 145 | · |
+| [Card Casino Šamorín](CARD_CASINO.md) | ✅ 10-19 14:00 | 125 of 145 | Card Casino's site didn't answer |
+| [Banco Casino Bratislava](BANCO.md) | ✅ 10-19 14:00 | 145 of 145 | · |
+| [Olympic Park Tallinn](OLYMPIC_TALLINN.md) | ⚠️ 10-19 14:00 | 4 of 49 | couldn't read the cash games table (page saved for a closer look) |
+| [Olympic Voodoo Riga](OLYMPIC_RIGA.md) | ⚠️ 10-19 14:00 | 30 of 49 | blocked by the site's bot protection |
+| [Olympic Casino Vilnius](OLYMPIC_VILNIUS.md) | ✅ 10-19 14:00 | 31 of 49 | blocked by the site's bot protection |
 
 ---
 Raw data: the `data` folder, one CSV file per month. To open one in Excel, use Data → From Text/CSV (double-clicking puts everything in one column in Polish Excel). The tracker is `tracker.py`; its schedule is in `.github/workflows/track.yml`.  
