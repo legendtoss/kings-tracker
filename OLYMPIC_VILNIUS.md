@@ -2,12 +2,12 @@
 
 Reads [OlyBet's live cash games page](https://olybetpoker.com/lt/cash-games/?club=10) every 30 minutes (their site has bot protection, so the tracker checks gently and simply records it when a check is refused). All times are **Czech time** (Vilnius is one hour ahead). Back to [King's](README.md).
 
-**Last check:** 2026-10-19 23:00 — ⚠️ error: blocked by the site's bot protection — details in `debug/olympic-vilnius_page.json`  
-**Last 24 h:** 36 of 49 checks OK, longest gap 0 h 30 min · **Collecting since:** 2026-10-10 (266 good checks)
+**Last check:** 2026-10-19 23:30 — ✅ OK  
+**Last 24 h:** 37 of 49 checks OK, longest gap 0 h 30 min · **Collecting since:** 2026-10-10 (267 good checks)
 
 **Club:** Olympic Casino Vilnius, Lietuva
 
-## Tables running at 2026-10-19 22:30
+## Tables running at 2026-10-19 23:30
 
 No tables were running.
 
@@ -60,7 +60,7 @@ No player data yet.
 | 20:00 | 🟥 0% | 🟥 12% | 8 |
 | 21:00 | 🟥 0% | 🟨 30% | 10 |
 | 22:00 | 🟥 0% | 🟨 31% | 13 |
-| 23:00 | 🟥 9% | 🟥 18% | 11 |
+| 23:00 | 🟥 8% | 🟥 17% | 12 |
 
 ## All games seen
 
