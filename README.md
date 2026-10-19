@@ -2,14 +2,14 @@
 
 Checks King's live cash games and tournaments about every 10 minutes and updates this page by itself. All times are **Czech time** (same as Poland). Also tracking: [King's Prague](KINGS_PRAGUE.md) · [Card Casino Šamorín](CARD_CASINO.md) · [Grand Casino Aš](GRAND_CASINO_AS.md) · [Banco Casino Bratislava](BANCO.md) · [Olympic Park Tallinn](OLYMPIC_TALLINN.md) · [Olympic Voodoo Riga](OLYMPIC_RIGA.md) · [Olympic Casino Vilnius](OLYMPIC_VILNIUS.md).
 
-**Right now:** King's: 3 tables, 24 players · [King's Prague](KINGS_PRAGUE.md): 0 tables, 0 players · [Card Casino Šamorín](CARD_CASINO.md) 🎪 Main Event week: 2 tables, 13 players · [Grand Casino Aš](GRAND_CASINO_AS.md): 0 tables running · [Olympic Park Tallinn](OLYMPIC_TALLINN.md): blocked at 00:00 · [Olympic Voodoo Riga](OLYMPIC_RIGA.md): blocked at 00:00 · [Olympic Vilnius](OLYMPIC_VILNIUS.md): 0 tables, 0 players (3 waiting) at 00:00 · [Banco](BANCO.md): 1 table, 8 players
+**Right now:** King's: 3 tables, 24 players · [King's Prague](KINGS_PRAGUE.md): 0 tables, 0 players · [Card Casino Šamorín](CARD_CASINO.md) 🎪 Main Event week: 2 tables, 12 players · [Grand Casino Aš](GRAND_CASINO_AS.md): 0 tables running · [Olympic Park Tallinn](OLYMPIC_TALLINN.md): couldn't be read at 00:30 · [Olympic Voodoo Riga](OLYMPIC_RIGA.md): 0 tables, 0 players (1 waiting) at 00:30 · [Olympic Vilnius](OLYMPIC_VILNIUS.md): 0 tables, 0 players (3 waiting) at 00:30 · [Banco](BANCO.md): 1 table, 8 players
 
 **🎯 Omaha right now:** King's Rozvadov: PLO €2/2 (8 players) · [Card Casino Šamorín](CARD_CASINO.md): PLO €5/5 (7 players)
 
-**Last check:** 2026-10-20 00:20 — ✅ OK (data feed)  
-**Last 24 h:** 114 of 145 checks OK, longest gap 0 h 14 min · **Collecting since:** 2026-10-06 (1624 good checks)
+**Last check:** 2026-10-20 00:30 — ✅ OK (data feed)  
+**Last 24 h:** 114 of 145 checks OK, longest gap 0 h 14 min · **Collecting since:** 2026-10-06 (1625 good checks)
 
-## Tables running at 2026-10-20 00:20
+## Tables running at 2026-10-20 00:30
 
 ```
 NLH  €1/2     8/8 players
@@ -18,7 +18,7 @@ PLO  €2/2     8/8 players
 ```
 **NLH:** 16 players at 2 tables · **PLO:** 8 players at 1 table
 
-**Tournaments in play:** BPC 1Million - Day 1A Speed (NLH, €295, 20 of 75 left, level 11, blinds 2000/4000/4000)
+**Tournaments in play:** BPC 1Million - Day 1A Speed (NLH, €295, 19 of 75 left, level 12, blinds 2500/5000/5000)
 
 ## Festivals and schedule
 
@@ -75,7 +75,7 @@ Average Omaha tables running per check on each **evening, 18:00–02:00** (after
 | [Card Casino Šamorín](CARD_CASINO.md) | 0.8 (6) | 0.0 (0) | 0.0 (0) | 0.0 (0) | 0.0 (0) | 1.0 (7) | 0.5 (4) | 22:00 (4 players) | 11 |
 | [Banco Casino Bratislava](BANCO.md) | 0.0 (0) | 0.3 (2) | 1.0 (7) | 1.2 (8) | 0.0 (0) | 0.6 (4) | 0.0 (0) | 17:00 (4 players) | 8 |
 | [Olympic Park Tallinn](OLYMPIC_TALLINN.md) | 1.8 (13) | 2.4 (19) | 3.1 (24) | 3.2 (25) | 4.8 (35) | 4.0 (30) | 1.5 (12) | 01:00 (32 players) | 8 |
-| [Olympic Voodoo Riga](OLYMPIC_RIGA.md) | 0.0 (0) | · | · | · | · | 0.0 (0) | 0.0 (0) | · | 3 |
+| [Olympic Voodoo Riga](OLYMPIC_RIGA.md) | 0.0 (0) | · | · | · | · | 0.0 (0) | 0.0 (0) | · | 4 |
 | [Olympic Casino Vilnius](OLYMPIC_VILNIUS.md) | 0.0 (0) | 0.0 (0) | 0.0 (0) | 0.0 (0) | 0.0 (0) | 0.0 (0) | 0.0 (0) | · | 10 |
 
 ## Busiest times so far
@@ -94,7 +94,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 
 | Hour | Mon | Tue | Wed | Thu | Fri | Sat | Sun | All days |
 |:--|--:|--:|--:|--:|--:|--:|--:|--:|
-| 00:00 | 33 | 11 | 14 | 19 | 37 | 72 | 75 | 40 |
+| 00:00 | 33 | 12 | 14 | 19 | 37 | 72 | 75 | 40 |
 | 01:00 | 27 | 6 | 11 | 16 | 28 | 61 | 70 | 35 |
 | 02:00 | 22 | 4 | 11 | 14 | 22 | 50 | 56 | 29 |
 | 03:00 | 20 | 0 | 9 | 14 | 23 | 35 | 42 | 23 |
@@ -123,7 +123,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 
 | Hour | Mon | Tue | Wed | Thu | Fri | Sat | Sun | All days |
 |:--|--:|--:|--:|--:|--:|--:|--:|--:|
-| 00:00 | 7 | 4 | 0 | 5 | 8 | 13 | 12 | 7 |
+| 00:00 | 7 | 5 | 0 | 5 | 8 | 13 | 12 | 7 |
 | 01:00 | 4 | 0 | 0 | 5 | 7 | 17 | 16 | 8 |
 | 02:00 | 4 | 0 | 0 | 5 | 2 | 17 | 15 | 7 |
 | 03:00 | 3 | 0 | 0 | 2 | 0 | 12 | 11 | 5 |
@@ -183,7 +183,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 
 | Hour | NLH €1/2 | NLH €2/4 | NLH €5/10 | PLO €2/2 | PLO5 €5/5 | PLO5 €5/10 | PLO5 €10/10 | PLO5 €10/25 | Checks |
 |:--|--:|--:|--:|--:|--:|--:|--:|--:|--:|
-| 00:00 | 🟩 96% | 🟨 43% | 🟥 9% | 🟩 80% | 🟨 70% | 🟥 9% | 🟥 13% | 🟥 0% | 70 |
+| 00:00 | 🟩 96% | 🟨 42% | 🟥 8% | 🟩 80% | 🟨 69% | 🟥 8% | 🟥 13% | 🟥 0% | 71 |
 | 01:00 | 🟩 96% | 🟨 51% | 🟥 6% | 🟨 62% | 🟨 65% | 🟥 9% | 🟥 9% | 🟥 0% | 69 |
 | 02:00 | 🟩 91% | 🟨 54% | 🟥 0% | 🟨 60% | 🟨 67% | 🟥 3% | 🟥 7% | 🟥 0% | 67 |
 | 03:00 | 🟩 85% | 🟨 29% | 🟥 0% | 🟨 57% | 🟨 63% | 🟥 0% | 🟥 0% | 🟥 0% | 65 |
@@ -216,10 +216,10 @@ Collecting since 2026-10-08. Shown from 2026-10-22: with fewer than two weeks, t
 
 | Game | Running in | Most often | Last seen |
 |:--|--:|:--|:--|
-| NLH €1/2 | 83% of checks | Fri around 22:00 | 2026-10-20 00:20 |
+| NLH €1/2 | 83% of checks | Fri around 22:00 | 2026-10-20 00:30 |
 | NLH €2/4 | 27% of checks | Fri around 22:00 | 2026-10-18 21:40 |
 | NLH €5/10 | 5% of checks | Sat around 23:00 | 2026-10-17 20:00 |
-| PLO €2/2 | 41% of checks | Fri around 22:00 | 2026-10-20 00:20 |
+| PLO €2/2 | 41% of checks | Fri around 22:00 | 2026-10-20 00:30 |
 | PLO5 €5/5 | 40% of checks | Sat around 23:00 | 2026-10-19 23:00 |
 | PLO5 €5/10 | 4% of checks | Sat around 16:00 | 2026-10-18 02:10 |
 | PLO5 €10/10 | 6% of checks | Fri around 23:00 | 2026-10-16 23:50 |
@@ -234,7 +234,7 @@ The most recent ones. The game is read from the tournament's name.
 
 | Tournament | Game | Buy-in | Entries | Seen |
 |:--|:--|--:|--:|:--|
-| BPC 1Million - Day 1A Speed | NLH | €295 | 75 | 2026-10-19 18:20 → 10-20 00:20 |
+| BPC 1Million - Day 1A Speed | NLH | €295 | 75 | 2026-10-19 18:20 → 10-20 00:30 |
 | Dutch Poker Masters - Final Day | NLH | €225 | 1978 | 2026-10-19 14:00 → 10-19 22:00 |
 | Satellite to BPC ME - Day 1A | NLH | €40 | 88 | 2026-10-19 15:00 → 10-19 19:20 |
 | DPM High Roller | NLH | €500 | 125 | 2026-10-18 18:00 → 10-19 03:50 |
@@ -254,14 +254,14 @@ The most recent ones. The game is read from the tournament's name.
 
 | Room | Last check | OK in the last 24 h | Most common problem |
 |:--|:--|--:|:--|
-| King's Rozvadov | ✅ 10-20 00:20 | 114 of 145 | couldn't read the tables on the page |
-| [King's Prague](KINGS_PRAGUE.md) | ✅ 10-20 00:20 | 114 of 145 | King's feed came back empty and that couldn't be confirmed, so it wasn |
-| [Grand Casino Aš](GRAND_CASINO_AS.md) | ✅ 10-20 00:20 | 145 of 145 | · |
-| [Card Casino Šamorín](CARD_CASINO.md) | ✅ 10-20 00:20 | 127 of 145 | Card Casino's site didn't answer |
-| [Banco Casino Bratislava](BANCO.md) | ✅ 10-20 00:20 | 145 of 145 | · |
-| [Olympic Park Tallinn](OLYMPIC_TALLINN.md) | ⚠️ 10-20 00:00 | 0 of 48 | couldn't read the cash games table (page saved for a closer look) |
-| [Olympic Voodoo Riga](OLYMPIC_RIGA.md) | ⚠️ 10-20 00:00 | 34 of 48 | blocked by the site's bot protection |
-| [Olympic Casino Vilnius](OLYMPIC_VILNIUS.md) | ✅ 10-20 00:00 | 36 of 48 | blocked by the site's bot protection |
+| King's Rozvadov | ✅ 10-20 00:30 | 114 of 145 | couldn't read the tables on the page |
+| [King's Prague](KINGS_PRAGUE.md) | ✅ 10-20 00:30 | 114 of 145 | King's feed came back empty and that couldn't be confirmed, so it wasn |
+| [Grand Casino Aš](GRAND_CASINO_AS.md) | ✅ 10-20 00:30 | 145 of 145 | · |
+| [Card Casino Šamorín](CARD_CASINO.md) | ✅ 10-20 00:30 | 127 of 145 | Card Casino's site didn't answer |
+| [Banco Casino Bratislava](BANCO.md) | ✅ 10-20 00:30 | 145 of 145 | · |
+| [Olympic Park Tallinn](OLYMPIC_TALLINN.md) | ⚠️ 10-20 00:30 | 0 of 49 | couldn't read the cash games table (page saved for a closer look) |
+| [Olympic Voodoo Riga](OLYMPIC_RIGA.md) | ✅ 10-20 00:30 | 35 of 49 | blocked by the site's bot protection |
+| [Olympic Casino Vilnius](OLYMPIC_VILNIUS.md) | ✅ 10-20 00:30 | 37 of 49 | blocked by the site's bot protection |
 
 ---
 Raw data: the `data` folder, one CSV file per month. To open one in Excel, use Data → From Text/CSV (double-clicking puts everything in one column in Polish Excel). The tracker is `tracker.py`; its schedule is in `.github/workflows/track.yml`.  
