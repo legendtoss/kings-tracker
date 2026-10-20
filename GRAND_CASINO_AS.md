@@ -2,10 +2,10 @@
 
 Reads [Grand Casino Aš's live cash games](https://www.grandcasinoas.eu/en/poker/poker-live) every 10 minutes and its [current tournaments](https://www.grandcasinoas.eu/en/poker) every 30 minutes. All times are **Czech time** (same as Poland). Back to [King's](README.md).
 
-**Last check:** 2026-10-20 21:30 — ✅ OK  
-**Last 24 h:** 145 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-10 (1567 good checks)
+**Last check:** 2026-10-20 21:40 — ✅ OK  
+**Last 24 h:** 145 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-10 (1568 good checks)
 
-## Cash games at 2026-10-20 21:30
+## Cash games at 2026-10-20 21:40
 
 No cash games listed.
 
@@ -54,7 +54,7 @@ Average number of running tables (Grand Casino Aš shows which games run, not ho
 | 18:00 | 0.0 | 0.0 | 0.0 | · | · | 1.0 | 0.0 | 0.1 |
 | 19:00 | 0.0 | 0.0 | 0.0 | · | · | 2.0 | 0.0 | 0.3 |
 | 20:00 | 0.0 | 0.0 | 0.0 | · | · | 2.5 | 1.0 | 0.5 |
-| 21:00 | 0.0 | 0.0 | 0.0 | · | · | 3.0 | 0.8 | 0.6 |
+| 21:00 | 0.0 | 0.0 | 0.0 | · | · | 3.0 | 0.8 | 0.5 |
 | 22:00 | 0.0 | 0.0 | 0.0 | · | · | 4.0 | 0.0 | 0.6 |
 | 23:00 | 0.0 | 0.0 | 0.0 | · | · | 4.0 | 0.0 | 0.8 |
 
@@ -85,7 +85,7 @@ Average number of running tables (Grand Casino Aš shows which games run, not ho
 | 18:00 | 🟥 7% | 🟥 7% | 🟥 0% | 🟥 0% | 42 |
 | 19:00 | 🟥 16% | 🟥 12% | 🟥 0% | 🟥 5% | 43 |
 | 20:00 | 🟨 28% | 🟥 2% | 🟥 0% | 🟥 14% | 43 |
-| 21:00 | 🟥 15% | 🟥 12% | 🟥 0% | 🟥 15% | 41 |
+| 21:00 | 🟥 14% | 🟥 12% | 🟥 0% | 🟥 14% | 42 |
 | 22:00 | 🟥 16% | 🟥 0% | 🟥 0% | 🟥 16% | 37 |
 | 23:00 | 🟥 19% | 🟥 0% | 🟥 0% | 🟥 19% | 37 |
 
@@ -95,7 +95,7 @@ Average running tables per check on each kind of day, in total and for NLH and O
 
 | Days | Dates | Checks | Tables | NLH | Omaha | vs normal, same hour |
 |:--|:--|--:|--:|--:|--:|--:|
-| Normal days | 10–20 Oct (7 days) | 989 | 0.3 | 0.2 | 0.0 | -0.0 |
+| Normal days | 10–20 Oct (7 days) | 990 | 0.3 | 0.2 | 0.0 | -0.0 |
 | 🎪 PLO festival | 15–18 Oct (4 days) | 578 | 0.5 | 0.3 | 0.1 | +0.3 |
 
 ## Tournaments seen
