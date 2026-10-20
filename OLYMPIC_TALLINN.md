@@ -2,18 +2,18 @@
 
 Reads [OlyBet's live cash games page](https://olybetpoker.com/ee/en/cash-games/?club=6) every 30 minutes (their site has bot protection, so the tracker checks gently and simply records it when a check is refused). All times are **Czech time** (Tallinn is one hour ahead). Back to [King's](README.md).
 
-**Last check:** 2026-10-20 19:30 — ✅ OK  
-**Last 24 h:** 17 of 49 checks OK, longest gap 0 h 30 min · **Collecting since:** 2026-10-10 (244 good checks)
+**Last check:** 2026-10-20 20:00 — ✅ OK  
+**Last 24 h:** 18 of 49 checks OK, longest gap 0 h 30 min · **Collecting since:** 2026-10-10 (245 good checks)
 
 **Club:** Olympic Park Casino
 
-## Tables running at 2026-10-20 19:30
+## Tables running at 2026-10-20 20:00
 
 No tables were running.
 
 **Waiting lists:** 6 players · **All games listed:** NLH €1/3 (closed): 0 tables, 0/0 players, 5 waiting PLO/PLO5 €1/3 (closed): 0 tables, 0/0 players, 1 waiting PLO €5/5 (closed): 0 tables, 0/0 players, 0 waiting NLH €5/5 (closed): 0 tables, 0/0 players, 0 waiting
 
-**Tournaments on their site at 2026-10-20 16:00:** live 19:15 Olympic Park Casino NLH Royal Flush RF JackPot € 15,000 €40
+**Tournaments on their site at 2026-10-20 20:00:** live 19:15 Olympic Park Casino NLH Royal Flush RF JackPot 3337€ 15,000 €40
 
 ## Festivals and schedule
 
@@ -35,8 +35,8 @@ No tables were running.
 
 Day, hour and average seated players (only day-hour slots seen on at least 2 different dates).
 
-- **NLH:** Sun 22:00 (11) · Sun 07:00 (6) · Sun 10:00 (4)
-- **PLO/PLO5:** Sun 07:00 (9) · Sun 22:00 (8) · Tue 19:00 (8)
+- **NLH:** Sun 22:00 (11) · Sun 07:00 (6) · Tue 20:00 (5)
+- **PLO/PLO5:** Tue 20:00 (10) · Sun 07:00 (9) · Sun 22:00 (8)
 
 ## Average players by hour
 
@@ -66,7 +66,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 17:00 | 0 | · | 9 | · | 9 | · | · | 6 |
 | 18:00 | 1 | 0 | 9 | 9 | 9 | · | · | 5 |
 | 19:00 | 6 | 0 | · | 9 | 18 | · | 0 | 6 |
-| 20:00 | · | 7 | 9 | 18 | 18 | 18 | 9 | 13 |
+| 20:00 | · | 5 | 9 | 18 | 18 | 18 | 9 | 11 |
 | 21:00 | 18 | 9 | 18 | · | 27 | 27 | 15 | 18 |
 | 22:00 | 15 | 19 | 18 | 20 | 34 | 29 | 11 | 20 |
 | 23:00 | 14 | 22 | 20 | 14 | · | · | 18 | 18 |
@@ -95,7 +95,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 17:00 | 0 | · | 8 | · | 0 | · | · | 3 |
 | 18:00 | 6 | 0 | 8 | 0 | 7 | · | · | 4 |
 | 19:00 | 8 | 8 | · | 6 | 8 | · | 6 | 7 |
-| 20:00 | · | 16 | 8 | 16 | 13 | 22 | 8 | 14 |
+| 20:00 | · | 10 | 8 | 16 | 13 | 22 | 8 | 13 |
 | 21:00 | 11 | 16 | 8 | · | 16 | 24 | 8 | 14 |
 | 22:00 | 8 | 16 | 8 | 16 | 20 | 32 | 8 | 13 |
 | 23:00 | 22 | 19 | 16 | 16 | · | · | 16 | 18 |
@@ -155,7 +155,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 17:00 | 🟨 67% | 🟥 0% | 🟥 0% | 🟥 0% | 🟨 33% | 🟨 33% | 🟥 0% | 🟥 0% | 3 |
 | 18:00 | 🟨 50% | 🟥 17% | 🟥 0% | 🟥 0% | 🟨 67% | 🟨 50% | 🟥 0% | 🟥 0% | 6 |
 | 19:00 | 🟨 43% | 🟨 29% | 🟥 0% | 🟥 0% | 🟩 86% | 🟨 29% | 🟥 14% | 🟥 0% | 7 |
-| 20:00 | 🟩 100% | 🟥 0% | 🟥 0% | 🟥 0% | 🟩 100% | 🟨 44% | 🟥 22% | 🟥 22% | 9 |
+| 20:00 | 🟩 90% | 🟥 0% | 🟥 0% | 🟥 0% | 🟩 90% | 🟨 40% | 🟥 20% | 🟥 20% | 10 |
 | 21:00 | 🟩 100% | 🟨 25% | 🟥 0% | 🟥 0% | 🟩 100% | 🟨 25% | 🟨 25% | 🟨 25% | 8 |
 | 22:00 | 🟩 92% | 🟨 31% | 🟥 8% | 🟥 0% | 🟩 92% | 🟨 46% | 🟥 15% | 🟥 8% | 13 |
 | 23:00 | 🟩 100% | 🟨 62% | 🟥 0% | 🟥 0% | 🟩 100% | 🟨 25% | 🟨 50% | 🟨 25% | 8 |
@@ -166,8 +166,8 @@ Average seated players per check on each kind of day, in total and for NLH and O
 
 | Days | Dates | Checks | Players | NLH | Omaha | vs normal, same hour |
 |:--|:--|--:|--:|--:|--:|--:|
-| Normal days | 20 Oct (1 day) | 17 | 0.0 | 0.0 | 0.0 | +0.0 |
-| 🎪 Kings of Tallinn | 11–18 Oct (8 days) | 227 | 21.9 | 9.4 | 12.3 | +5.7 |
+| Normal days | 20 Oct (1 day) | 18 | 0.0 | 0.0 | 0.0 | +0.0 |
+| 🎪 Kings of Tallinn | 11–18 Oct (8 days) | 227 | 21.9 | 9.4 | 12.3 | +7.9 |
 
 ## All games seen
 
@@ -176,10 +176,10 @@ Average seated players per check on each kind of day, in total and for NLH and O
 | NLH €1/3 | 61% of checks | Sun around 22:00 | 2026-10-18 10:30 |
 | NLH €5/5 | 12% of checks | Mon around 19:00 | 2026-10-18 06:30 |
 | NLH €5/10 | 3% of checks | Sun around 01:00 | 2026-10-18 04:00 |
-| NLH €5/5/10 | 5% of checks | Sat around 01:00 | 2026-10-17 07:00 |
+| NLH €5/5/10 | 4% of checks | Sat around 01:00 | 2026-10-17 07:00 |
 | NLH €10/10 | 0% of checks | Sat around 00:00 | 2026-10-17 00:00 |
 | NLH €5/10/25 | 0% of checks | Sat around 07:00 | 2026-10-17 07:30 |
-| PLO/PLO5 €1/3 | 54% of checks | Sun around 22:00 | 2026-10-18 19:00 |
+| PLO/PLO5 €1/3 | 53% of checks | Sun around 22:00 | 2026-10-18 19:00 |
 | PLO €5/5 | 19% of checks | Wed around 20:00 | 2026-10-17 07:00 |
 | PLO/PLO5 €5/5 | 16% of checks | Sun around 23:00 | 2026-10-18 07:30 |
 | PLO/PLO5 €5/5/10 | 14% of checks | Tue around 05:00 | 2026-10-17 11:00 |
