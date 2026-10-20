@@ -1,5 +1,5 @@
 {
- "saved_on": "2026-10-20",
+ "saved_on": "2026-10-21",
  "records": 3,
  "fields": [
   "activePause",
@@ -48,10 +48,10 @@
  ],
  "sample": [
   {
-   "referenceTime": "2026-10-20T00:00:15.465",
-   "name": "BPC €1Million - Day 1A Speed",
-   "fullName": "BPC €1Million - Day 1A Speed",
-   "tournamentName": "BPC €1Million",
+   "referenceTime": "2026-10-21T00:00:18.228",
+   "name": "Balkan Poker Circuit €1Million  - Day 1B SPEED",
+   "fullName": "Balkan Poker Circuit €1Million  - Day 1B SPEED",
+   "tournamentName": "Balkan Poker Circuit €1Million ",
    "notes": "15% ITM MC 600€ • played till 10%",
    "color": "#b71c1c",
    "background": "kings_cards_1.jpg",
@@ -63,36 +63,45 @@
    "overlay": null,
    "reEntryMaxCount": 2,
    "startingStack": 50000,
-   "openRegistration": false,
+   "openRegistration": true,
    "lateRegistrationUntilLevel": 10,
    "expectedLastLevel": 17,
-   "start": "2026-10-19T18:15:33",
-   "pausedSeconds": 0,
-   "pausedMillis": 0,
-   "flightGameTimeDelta": 0,
-   "stickerText": "♠♥♦♣ 10x KINGS MILLION EUROPEAN POKER PACKAGES (3500€) included in prizepool ♠♥♦♣\n\n15% of players ITM (min. cash 600€) ♠♥♦♣\n\nDay 1 is played down to the last 10% of the field ♠♥♦♣\n\nThe tournament is played as a multi-stack format – if you play multiple flights, only your biggest stack advances to Day 2 ♠♥♦♣\n\nChipleader of the flight will receive a bonus King's Million European Poker Championship 2027 Super Main Event ticket (1.150€) ♦♣♠♥",
-   "totalEntries": 75,
-   "activePlayers": 22,
-   "averageStack": 170455,
-   "nextBreakStart": "2026-10-20T00:50:32.998",
+   "start": "2026-10-20T18:16:04",
+   "pausedSeconds": 1863,
+   "pausedMillis": 1863105,
+   "flightGameTimeDelta": -1863105,
+   "stickerText": "♠♥♦♣ 10x KINGS MILLION EUROPEAN POKER PACKAGES (3500€) included in prizepool ♠♥♦♣\n\n15% (12) of players ITM (min. cash 600€) ♠♥♦♣\n\nDay 1A is played down to the last 10% (8) of the field ♠♥♦♣\n\nThe tournament is played as a multi-stack format – if you play multiple flights, only your biggest stack advances to Day 2 ♠♥♦♣\n\nChipleader of the flight will receive a bonus King's Million European Poker Championship 2027 Super Main Event ticket (1.150€) ♦♣♠♥",
+   "totalEntries": 50,
+   "activePlayers": 21,
+   "averageStack": 119048,
+   "nextBreakStart": "2026-10-21T01:12:34.524",
    "nextBreakSeconds": 900,
    "entryValue": 295,
    "serviceFee": 0,
    "bountyValue": null,
    "payoutPositions": null,
    "currentLevel": {
-    "start": "2026-10-19T23:50:32.998",
-    "gameEnd": "2026-10-20T00:20:32.998",
-    "levelEnd": "2026-10-20T00:20:32.998",
-    "sb": 2000,
-    "bb": 4000,
-    "number": 11,
+    "start": "2026-10-20T23:42:34.524",
+    "gameEnd": "2026-10-21T00:12:34.524",
+    "levelEnd": "2026-10-21T00:12:34.524",
+    "sb": 1500,
+    "bb": 3000,
+    "number": 10,
     "gameSeconds": 1800,
     "breakSeconds": 0,
     "limits": null,
-    "ante": 4000
+    "ante": 3000
    },
    "nextLevels": [
+    {
+     "sb": 2000,
+     "bb": 4000,
+     "number": 11,
+     "gameSeconds": 1800,
+     "breakSeconds": 0,
+     "limits": null,
+     "ante": 4000
+    },
     {
      "sb": 2500,
      "bb": 5000,
@@ -101,15 +110,6 @@
      "breakSeconds": 900,
      "limits": null,
      "ante": 5000
-    },
-    {
-     "sb": 3000,
-     "bb": 6000,
-     "number": 13,
-     "gameSeconds": 1800,
-     "breakSeconds": 0,
-     "limits": null,
-     "ante": 6000
     }
    ],
    "softPauseEnd": null,
@@ -127,13 +127,13 @@
     "addOnLimit": null,
     "reBuyLimit": null
    },
-   "tournament_id": 13829
+   "tournament_id": 13830
   },
   {
-   "referenceTime": "2026-10-20T00:00:20.545",
-   "name": "Satellite to BPC ME - Day 1B",
-   "fullName": "Satellite to BPC ME - Day 1B",
-   "tournamentName": "Satellite to BPC ME - Day 1B",
+   "referenceTime": "2026-10-21T00:00:28.596",
+   "name": "Satellite to BPC ME - Day 1C",
+   "fullName": "Satellite to BPC ME - Day 1C",
+   "tournamentName": "Satellite to BPC ME - Day 1C",
    "notes": null,
    "color": "#f57f17",
    "background": null,
@@ -148,7 +148,7 @@
    "openRegistration": true,
    "lateRegistrationUntilLevel": 8,
    "expectedLastLevel": null,
-   "start": "2026-10-20T15:00:00",
+   "start": "2026-10-21T15:00:00",
    "pausedSeconds": null,
    "pausedMillis": null,
    "flightGameTimeDelta": null,
@@ -197,12 +197,12 @@
     "addOnLimit": null,
     "reBuyLimit": null
    },
-   "tournament_id": 13843
+   "tournament_id": 13844
   },
   {
-   "referenceTime": "2026-10-20T00:00:20.623",
-   "name": "Balkan Poker Circuit €1Million  - Day 1B SPEED",
-   "fullName": "Balkan Poker Circuit €1Million  - Day 1B SPEED",
+   "referenceTime": "2026-10-21T00:00:28.674",
+   "name": "Balkan Poker Circuit €1Million  - Day 1C SPEED",
+   "fullName": "Balkan Poker Circuit €1Million  - Day 1C SPEED",
    "tournamentName": "Balkan Poker Circuit €1Million ",
    "notes": "15% ITM MC 600€ • played till 10%",
    "color": "#b71c1c",
@@ -218,7 +218,7 @@
    "openRegistration": true,
    "lateRegistrationUntilLevel": 10,
    "expectedLastLevel": 17,
-   "start": "2026-10-20T18:00:00",
+   "start": "2026-10-21T18:00:00",
    "pausedSeconds": null,
    "pausedMillis": null,
    "flightGameTimeDelta": null,
@@ -268,7 +268,7 @@
     "addOnLimit": null,
     "reBuyLimit": null
    },
-   "tournament_id": 13830
+   "tournament_id": 13831
   }
  ]
 }
