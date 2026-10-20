@@ -2,10 +2,10 @@
 
 Prague's tables come in the same King's data feed as Rozvadov's, so they're read at every check (about every 10 minutes) without any extra visits, together with Prague's tournament clocks. All times are **Czech time** (same as Poland). Back to [King's Rozvadov](README.md).
 
-**Last check:** 2026-10-20 20:30 — ✅ OK  
-**Last 24 h:** 112 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-17 (377 good checks)
+**Last check:** 2026-10-20 20:40 — ✅ OK  
+**Last 24 h:** 112 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-17 (378 good checks)
 
-## Tables running at 2026-10-20 20:30
+## Tables running at 2026-10-20 20:40
 
 No tables were running.
 
@@ -56,7 +56,7 @@ No player data yet.
 | 17:00 | 🟥 0% | 16 |
 | 18:00 | 🟥 0% | 18 |
 | 19:00 | 🟥 0% | 20 |
-| 20:00 | 🟥 9% | 22 |
+| 20:00 | 🟥 9% | 23 |
 | 21:00 | 🟨 33% | 18 |
 | 22:00 | 🟨 35% | 17 |
 | 23:00 | 🟨 38% | 16 |
@@ -73,7 +73,7 @@ The most recent ones. The game is read from the tournament's name.
 
 | Tournament | Game | Buy-in | Entries | Seen |
 |:--|:--|--:|--:|:--|
-| King's Prague Beginner's Mystery Bounty | NLH | €30 | 33 | 2026-10-20 18:20 → 10-20 20:30 |
+| King's Prague Beginner's Mystery Bounty | NLH | €30 | 33 | 2026-10-20 18:20 → 10-20 20:40 |
 | King's Prague Beginner's Monday | NLH | €60 | 111 | 2026-10-19 18:00 → 10-20 03:10 |
 | King's Prague Sunday Knockout (Bounty 25 ) | NLH | €55 | 67 | 2026-10-18 17:10 → 10-19 00:50 |
 | King's Prague Saturday Monsterstack | NLH | €100 | 67 | 2026-10-17 20:40 → 10-18 05:10 |

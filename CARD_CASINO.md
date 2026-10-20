@@ -2,10 +2,10 @@
 
 Reads [Card Casino's live cash-game list](https://www.cardcasino.sk/en/cashgames/) together with King's, about every 10 minutes. All times are **Czech time** (same as Poland and Slovakia). Back to [King's](README.md).
 
-**Last check:** 2026-10-20 20:30 — ⚠️ error: Card Casino's site didn't answer — details in `debug/cardcasino_page.json`  
-**Last 24 h:** 125 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-10 (1328 good checks)
+**Last check:** 2026-10-20 20:40 — ✅ OK (live list)  
+**Last 24 h:** 125 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-10 (1329 good checks)
 
-## Tables running at 2026-10-20 20:20
+## Tables running at 2026-10-20 20:40
 
 ```
 NLH  €1/2     8/8 players
@@ -23,7 +23,7 @@ No Omaha tournaments on the schedule in the next 14 days.
 
 ## Busiest times so far
 
-*Normal days only: 345 checks during festivals, cash-game events or public holidays are compared separately in “Festivals, holidays and normal days” below.*
+*Normal days only: 346 checks during festivals, cash-game events or public holidays are compared separately in “Festivals, holidays and normal days” below.*
 
 Day, hour and average seated players (only day-hour slots seen on at least 2 different dates).
 
@@ -160,13 +160,13 @@ Average seated players per check on each kind of day, in total and for NLH and O
 |:--|:--|--:|--:|--:|--:|--:|
 | Normal days | 12–19 Oct (8 days) | 983 | 4.3 | 3.0 | 0.9 | -0.0 |
 | 💵 Cash game days: NLH/PLO/PLO5 from €10/20 | 10–11 Oct (2 days) | 240 | 11.9 | 6.2 | 5.7 | +7.9 |
-| 🎪 Main Event week | 20 Oct (1 day) | 105 | 1.7 | 0.7 | 1.0 | -1.5 |
+| 🎪 Main Event week | 20 Oct (1 day) | 106 | 1.8 | 0.7 | 1.0 | -1.5 |
 
 ## All games seen
 
 | Game | Running in | Most often | Last seen |
 |:--|--:|:--|:--|
-| NLH €1/2 | 17% of checks | Wed around 21:00 | 2026-10-20 20:20 |
+| NLH €1/2 | 17% of checks | Tue around 20:00 | 2026-10-20 20:40 |
 | NLH €1/3 | 13% of checks | Sat around 06:00 | 2026-10-13 00:30 |
 | PLO €5/5 | 3% of checks | Mon around 21:00 | 2026-10-20 02:50 |
 | PLO €10/10 | 17% of checks | Sat around 19:00 | 2026-10-13 04:30 |
