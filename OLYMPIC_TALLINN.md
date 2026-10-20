@@ -2,12 +2,12 @@
 
 Reads [OlyBet's live cash games page](https://olybetpoker.com/ee/en/cash-games/?club=6) every 30 minutes (their site has bot protection, so the tracker checks gently and simply records it when a check is refused). All times are **Czech time** (Tallinn is one hour ahead). Back to [King's](README.md).
 
-**Last check:** 2026-10-20 11:00 — ✅ OK  
-**Last 24 h:** 5 of 49 checks OK, longest gap 0 h 30 min · **Collecting since:** 2026-10-10 (232 good checks)
+**Last check:** 2026-10-20 11:30 — ✅ OK  
+**Last 24 h:** 6 of 49 checks OK, longest gap 0 h 30 min · **Collecting since:** 2026-10-10 (233 good checks)
 
 **Club:** Olympic Park Casino
 
-## Tables running at 2026-10-20 11:00
+## Tables running at 2026-10-20 11:30
 
 No tables were running.
 
@@ -57,7 +57,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 08:00 | 0 | 7 | 0 | 0 | 12 | · | 0 | 3 |
 | 09:00 | 0 | 3 | 0 | 0 | 12 | 0 | 3 | 2 |
 | 10:00 | 0 | 4 | 0 | · | 6 | 0 | 4 | 4 |
-| 11:00 | 0 | 4 | · | 0 | 7 | 0 | 0 | 2 |
+| 11:00 | 0 | 3 | · | 0 | 7 | 0 | 0 | 2 |
 | 12:00 | 0 | 7 | 0 | 0 | 8 | 0 | 0 | 2 |
 | 13:00 | 0 | 9 | 0 | 0 | · | 0 | 0 | 1 |
 | 14:00 | 0 | 8 | 0 | 0 | 8 | 0 | 0 | 3 |
@@ -146,7 +146,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 08:00 | 🟨 27% | 🟥 18% | 🟥 0% | 🟥 0% | 🟨 36% | 🟥 0% | 🟥 0% | 🟥 0% | 11 |
 | 09:00 | 🟨 25% | 🟥 8% | 🟥 0% | 🟥 0% | 🟥 17% | 🟥 0% | 🟥 0% | 🟥 8% | 12 |
 | 10:00 | 🟨 46% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 15% | 🟥 0% | 🟥 0% | 🟥 8% | 13 |
-| 11:00 | 🟨 29% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 7% | 🟥 0% | 🟥 0% | 🟥 7% | 14 |
+| 11:00 | 🟨 27% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 7% | 🟥 0% | 🟥 0% | 🟥 7% | 15 |
 | 12:00 | 🟨 25% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 12 |
 | 13:00 | 🟥 12% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 8 |
 | 14:00 | 🟨 33% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 11% | 🟥 0% | 🟥 0% | 🟥 0% | 9 |
@@ -166,7 +166,7 @@ Average seated players per check on each kind of day, in total and for NLH and O
 
 | Days | Dates | Checks | Players | NLH | Omaha | vs normal, same hour |
 |:--|:--|--:|--:|--:|--:|--:|
-| Normal days | 20 Oct (1 day) | 5 | 0.0 | 0.0 | 0.0 | +0.0 |
+| Normal days | 20 Oct (1 day) | 6 | 0.0 | 0.0 | 0.0 | +0.0 |
 | 🎪 Kings of Tallinn | 11–18 Oct (8 days) | 227 | 21.9 | 9.4 | 12.3 | +4.6 |
 
 ## All games seen
