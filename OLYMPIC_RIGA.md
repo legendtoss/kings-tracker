@@ -2,12 +2,12 @@
 
 Reads [OlyBet's live cash games page](https://olybetpoker.com/lv/en/cash-games/?club=17) every 30 minutes (their site has bot protection, so the tracker checks gently and simply records it when a check is refused). All times are **Czech time** (Riga is one hour ahead). Back to [King's](README.md).
 
-**Last check:** 2026-10-20 21:00 — ✅ OK  
-**Last 24 h:** 38 of 49 checks OK, longest gap 0 h 30 min · **Collecting since:** 2026-10-17 (105 good checks)
+**Last check:** 2026-10-20 21:30 — ✅ OK  
+**Last 24 h:** 39 of 49 checks OK, longest gap 0 h 30 min · **Collecting since:** 2026-10-17 (106 good checks)
 
 **Club:** Olympic Casino Voodoo
 
-## Tables running at 2026-10-20 21:00
+## Tables running at 2026-10-20 21:30
 
 No tables were running.
 
@@ -54,7 +54,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 18:00 | 0 | 0 | · | · | · | · | 0 | 0 |
 | 19:00 | 0 | 0 | · | · | · | · | 0 | 0 |
 | 20:00 | 0 | 0 | · | · | · | 9 | · | 3 |
-| 21:00 | · | 0 | · | · | · | 9 | · | 6 |
+| 21:00 | · | 0 | · | · | · | 9 | · | 4 |
 | 22:00 | 0 | · | · | · | · | 12 | · | 6 |
 | 23:00 | 0 | · | · | · | · | 14 | 0 | 6 |
 
@@ -85,7 +85,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 18:00 | 🟥 0% | 🟥 0% | 🟨 25% | 4 |
 | 19:00 | 🟥 0% | 🟥 0% | 🟨 25% | 4 |
 | 20:00 | 🟨 33% | 🟥 0% | 🟥 0% | 3 |
-| 21:00 | 🟨 67% | 🟥 0% | 🟥 0% | 3 |
+| 21:00 | 🟨 50% | 🟥 0% | 🟥 0% | 4 |
 | 22:00 | 🟨 50% | 🟥 0% | 🟥 0% | 4 |
 | 23:00 | 🟨 40% | 🟥 0% | 🟥 0% | 5 |
 
