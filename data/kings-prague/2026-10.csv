@@ -425,3 +425,4 @@
 2026-10-20 18:00,Tue,18,ok,0,0,,0,0,,
 2026-10-20 18:10,Tue,18,ok,0,0,,0,0,,
 2026-10-20 18:20,Tue,18,ok,0,0,,1,17,King's Prague Beginner's Mystery Bounty 17/17,"[{""name"":""King's Prague Beginner's Mystery Bounty"",""game"":""NLH"",""status"":""RUNNING"",""left"":17,""entries"":17,""buyin"":30,""fee"":0,""bounty"":20,""prizepool"":5000,""currency"":""EUR"",""level"":1,""blinds"":""100/200/200"",""avg_stack"":40000,""start_stack"":40000,""late_reg_open"":true,""late_reg_until_level"":10,""start"":""2026-10-20T18:05""}]"
+2026-10-20 18:30,Tue,18,ok,0,0,,1,20,King's Prague Beginner's Mystery Bounty 20/20,"[{""name"":""King's Prague Beginner's Mystery Bounty"",""game"":""NLH"",""status"":""RUNNING"",""left"":20,""entries"":20,""buyin"":30,""fee"":0,""bounty"":20,""prizepool"":5000,""currency"":""EUR"",""level"":2,""blinds"":""100/300/300"",""avg_stack"":40000,""start_stack"":40000,""late_reg_open"":true,""late_reg_until_level"":10,""start"":""2026-10-20T18:05""}]"
