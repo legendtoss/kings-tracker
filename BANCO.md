@@ -2,17 +2,17 @@
 
 Checks [its website](https://bancocasino.sk/ba/en) together with King's, about every 10 minutes. All times are **Czech time** (same as Poland and Slovakia). Back to [King's](README.md).
 
-**Last check:** 2026-10-21 00:20 — ✅ OK  
-**Checks so far:** 1092 successful out of 1596 (since 2026-10-10)
+**Last check:** 2026-10-21 00:30 — ✅ OK  
+**Checks so far:** 1093 successful out of 1597 (since 2026-10-10)
 
-## Tables running at 2026-10-21 00:20
+## Tables running at 2026-10-21 00:30
 
 ```
 NLH  €1/3     8 players
 ```
 **NLH:** 8 players at 1 table
 
-*The whole list (Banco also shows its Košice casino; the numbers above are Bratislava only):* Bratislava: NLH €1/3 8 players (buy-in €100) Košice: NLH €1/2 6 players (buy-in €50)  
+*The whole list (Banco also shows its Košice casino; the numbers above are Bratislava only):* Bratislava: NLH €1/3 8 players (buy-in €100) Košice: NLH €1/2 7 players (buy-in €50)  
 **Tournaments running:** none
 
 **Note:** Since 13 Oct the tracker reads Banco's cash list and its live tournaments straight from where its page gets them; before that, its page's scripts didn't run in the tracker's browser, so those checks show as errors.
@@ -101,7 +101,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 
 | Hour | NLH €1/3 | NLH €2/5 | PLO 4/5 €2/2 | PLO €25/50 | Dealer's Choice €2/2 | Checks |
 |:--|--:|--:|--:|--:|--:|--:|
-| 00:00 | 🟩 98% | 🟥 0% | 🟨 27% | 🟥 13% | 🟥 0% | 45 |
+| 00:00 | 🟩 98% | 🟥 0% | 🟨 26% | 🟥 13% | 🟥 0% | 46 |
 | 01:00 | 🟩 84% | 🟥 0% | 🟨 30% | 🟥 14% | 🟥 0% | 44 |
 | 02:00 | 🟩 86% | 🟥 0% | 🟨 29% | 🟥 14% | 🟥 0% | 42 |
 | 03:00 | 🟩 84% | 🟥 0% | 🟨 28% | 🟥 14% | 🟥 0% | 43 |
@@ -130,10 +130,10 @@ Seated players at each game's tables. 0 = that game wasn't running.
 
 | Game | Running in | Most often | Last seen |
 |:--|--:|:--|:--|
-| NLH €1/3 | 48% of checks | Tue around 22:00 | 2026-10-21 00:20 |
+| NLH €1/3 | 48% of checks | Tue around 22:00 | 2026-10-21 00:30 |
 | NLH €2/5 | 1% of checks | Sat around 07:00 | 2026-10-17 07:50 |
 | PLO 4/5 €2/2 | 25% of checks | Tue around 17:00 | 2026-10-20 23:40 |
-| PLO €25/50 | 7% of checks | Thu around 20:00 | 2026-10-16 07:30 |
+| PLO €25/50 | 6% of checks | Thu around 20:00 | 2026-10-16 07:30 |
 | Dealer's Choice €2/2 | 5% of checks | Thu around 15:00 | 2026-10-16 22:10 |
 
 ---
