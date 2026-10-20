@@ -2,10 +2,10 @@
 
 Checks [its website](https://bancocasino.sk/ba/en) together with King's, about every 10 minutes. All times are **Czech time** (same as Poland and Slovakia). Back to [King's](README.md).
 
-**Last check:** 2026-10-20 10:20 — ✅ OK  
-**Checks so far:** 1008 successful out of 1512 (since 2026-10-10)
+**Last check:** 2026-10-20 10:30 — ✅ OK  
+**Checks so far:** 1009 successful out of 1513 (since 2026-10-10)
 
-## Tables running at 2026-10-20 10:20
+## Tables running at 2026-10-20 10:30
 
 No tables were running.
 
@@ -105,7 +105,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 07:00 | 🟨 43% | 🟥 14% | 🟥 0% | 🟥 10% | 🟥 0% | 42 |
 | 08:00 | 🟥 14% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 42 |
 | 09:00 | 🟥 5% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 42 |
-| 10:00 | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 39 |
+| 10:00 | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 40 |
 | 11:00 | 🟥 5% | 🟥 0% | 🟥 5% | 🟥 0% | 🟥 0% | 38 |
 | 12:00 | 🟥 16% | 🟥 0% | 🟥 16% | 🟥 0% | 🟥 0% | 44 |
 | 13:00 | 🟥 14% | 🟥 0% | 🟥 14% | 🟥 0% | 🟥 0% | 42 |
@@ -126,7 +126,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 |:--|--:|:--|:--|
 | NLH €1/3 | 50% of checks | Tue around 12:00 | 2026-10-20 06:30 |
 | NLH €2/5 | 1% of checks | Sat around 07:00 | 2026-10-17 07:50 |
-| PLO 4/5 €2/2 | 23% of checks | Tue around 12:00 | 2026-10-19 17:51 |
+| PLO 4/5 €2/2 | 22% of checks | Tue around 12:00 | 2026-10-19 17:51 |
 | PLO €25/50 | 7% of checks | Thu around 20:00 | 2026-10-16 07:30 |
 | Dealer's Choice €2/2 | 6% of checks | Thu around 15:00 | 2026-10-16 22:10 |
 
