@@ -2,10 +2,10 @@
 
 Checks [its website](https://bancocasino.sk/ba/en) together with King's, about every 10 minutes. All times are **Czech time** (same as Poland and Slovakia). Back to [King's](README.md).
 
-**Last check:** 2026-10-21 22:20 — ✅ OK  
-**Checks so far:** 1223 successful out of 1727 (since 2026-10-10)
+**Last check:** 2026-10-21 22:30 — ✅ OK  
+**Checks so far:** 1224 successful out of 1728 (since 2026-10-10)
 
-## Tables running at 2026-10-21 22:20
+## Tables running at 2026-10-21 22:30
 
 ```
 NLH  €1/3     8 players
@@ -13,7 +13,7 @@ NLH  €1/3     8 players
 **NLH:** 8 players at 1 table
 
 *The whole list (Banco also shows its Košice casino; the numbers above are Bratislava only):* Bratislava: NLH €1/3 8 players (buy-in €100)  
-**Tournaments running:** Ladies Night: 34/104 players, level 10, blinds 1000/2000, buy-in €35, €3000 GTD
+**Tournaments running:** Ladies Night: 34/107 players, level 10, blinds 1000/2000, buy-in €35, €3000 GTD
 
 **Note:** Since 13 Oct the tracker reads Banco's cash list and its live tournaments straight from where its page gets them; before that, its page's scripts didn't run in the tracker's browser, so those checks show as errors.
 
@@ -63,7 +63,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 19:00 | 3 | 0 | 0 | 7 | 0 | 6 | 8 | 3 |
 | 20:00 | 4 | 0 | 0 | 8 | 0 | 7 | 9 | 3 |
 | 21:00 | 7 | 3 | 0 | 7 | 4 | 8 | 15 | 5 |
-| 22:00 | 8 | 7 | 1 | 8 | 6 | 8 | 13 | 7 |
+| 22:00 | 8 | 7 | 2 | 8 | 6 | 8 | 13 | 7 |
 | 23:00 | 8 | 7 | 3 | 7 | 9 | 12 | 11 | 8 |
 
 ### PLO 4/5
@@ -92,7 +92,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 19:00 | 0 | 8 | 5 | 2 | 0 | 0 | 0 | 3 |
 | 20:00 | 0 | 5 | 6 | 0 | 0 | 0 | 0 | 2 |
 | 21:00 | 0 | 4 | 6 | 5 | 0 | 5 | 0 | 4 |
-| 22:00 | 0 | 2 | 6 | 6 | 0 | 8 | 0 | 3 |
+| 22:00 | 0 | 2 | 5 | 6 | 0 | 8 | 0 | 3 |
 | 23:00 | 0 | 1 | 8 | 0 | 0 | 7 | 0 | 2 |
 
 ## How often each game was running, by hour (all days)
@@ -123,14 +123,14 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 19:00 | 🟨 46% | 🟥 0% | 🟨 54% | 🟥 2% | 🟥 11% | 54 |
 | 20:00 | 🟨 48% | 🟥 0% | 🟨 41% | 🟥 11% | 🟥 11% | 54 |
 | 21:00 | 🟨 71% | 🟥 0% | 🟨 55% | 🟥 11% | 🟥 11% | 55 |
-| 22:00 | 🟩 84% | 🟥 0% | 🟨 51% | 🟥 12% | 🟥 4% | 51 |
+| 22:00 | 🟩 85% | 🟥 0% | 🟨 50% | 🟥 12% | 🟥 4% | 52 |
 | 23:00 | 🟩 96% | 🟥 0% | 🟨 35% | 🟥 12% | 🟥 0% | 48 |
 
 ## All games seen
 
 | Game | Running in | Most often | Last seen |
 |:--|--:|:--|:--|
-| NLH €1/3 | 46% of checks | Tue around 22:00 | 2026-10-21 22:20 |
+| NLH €1/3 | 46% of checks | Tue around 22:00 | 2026-10-21 22:30 |
 | NLH €2/5 | 1% of checks | Sat around 07:00 | 2026-10-17 07:50 |
 | PLO 4/5 €2/2 | 24% of checks | Wed around 21:00 | 2026-10-21 22:10 |
 | PLO €25/50 | 6% of checks | Thu around 20:00 | 2026-10-16 07:30 |
