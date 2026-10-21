@@ -2,10 +2,10 @@
 
 Checks [its website](https://bancocasino.sk/ba/en) together with King's, about every 10 minutes. All times are **Czech time** (same as Poland and Slovakia). Back to [King's](README.md).
 
-**Last check:** 2026-10-21 22:30 — ✅ OK  
-**Checks so far:** 1224 successful out of 1728 (since 2026-10-10)
+**Last check:** 2026-10-21 22:40 — ✅ OK  
+**Checks so far:** 1225 successful out of 1729 (since 2026-10-10)
 
-## Tables running at 2026-10-21 22:30
+## Tables running at 2026-10-21 22:40
 
 ```
 NLH  €1/3     8 players
@@ -13,7 +13,7 @@ NLH  €1/3     8 players
 **NLH:** 8 players at 1 table
 
 *The whole list (Banco also shows its Košice casino; the numbers above are Bratislava only):* Bratislava: NLH €1/3 8 players (buy-in €100)  
-**Tournaments running:** Ladies Night: 34/107 players, level 10, blinds 1000/2000, buy-in €35, €3000 GTD
+**Tournaments running:** Ladies Night: 32/110 players, on a break, buy-in €35, €3000 GTD
 
 **Note:** Since 13 Oct the tracker reads Banco's cash list and its live tournaments straight from where its page gets them; before that, its page's scripts didn't run in the tracker's browser, so those checks show as errors.
 
@@ -123,14 +123,14 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 19:00 | 🟨 46% | 🟥 0% | 🟨 54% | 🟥 2% | 🟥 11% | 54 |
 | 20:00 | 🟨 48% | 🟥 0% | 🟨 41% | 🟥 11% | 🟥 11% | 54 |
 | 21:00 | 🟨 71% | 🟥 0% | 🟨 55% | 🟥 11% | 🟥 11% | 55 |
-| 22:00 | 🟩 85% | 🟥 0% | 🟨 50% | 🟥 12% | 🟥 4% | 52 |
+| 22:00 | 🟩 85% | 🟥 0% | 🟨 49% | 🟥 11% | 🟥 4% | 53 |
 | 23:00 | 🟩 96% | 🟥 0% | 🟨 35% | 🟥 12% | 🟥 0% | 48 |
 
 ## All games seen
 
 | Game | Running in | Most often | Last seen |
 |:--|--:|:--|:--|
-| NLH €1/3 | 46% of checks | Tue around 22:00 | 2026-10-21 22:30 |
+| NLH €1/3 | 46% of checks | Tue around 22:00 | 2026-10-21 22:40 |
 | NLH €2/5 | 1% of checks | Sat around 07:00 | 2026-10-17 07:50 |
 | PLO 4/5 €2/2 | 24% of checks | Wed around 21:00 | 2026-10-21 22:10 |
 | PLO €25/50 | 6% of checks | Thu around 20:00 | 2026-10-16 07:30 |
