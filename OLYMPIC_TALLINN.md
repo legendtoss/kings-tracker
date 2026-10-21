@@ -2,12 +2,12 @@
 
 Reads [OlyBet's live cash games page](https://olybetpoker.com/ee/en/cash-games/?club=6) every 30 minutes (their site has bot protection, so the tracker checks gently and simply records it when a check is refused). All times are **Czech time** (Tallinn is one hour ahead). Back to [King's](README.md).
 
-**Last check:** 2026-10-21 10:30 — ⚠️ error: blocked by the site's bot protection — details in `debug/olympic-tallinn_page.json`  
-**Last 24 h:** 37 of 49 checks OK, longest gap 0 h 30 min · **Collecting since:** 2026-10-10 (267 good checks)
+**Last check:** 2026-10-21 11:00 — ✅ OK  
+**Last 24 h:** 37 of 49 checks OK, longest gap 0 h 30 min · **Collecting since:** 2026-10-10 (268 good checks)
 
 **Club:** Olympic Park Casino
 
-## Tables running at 2026-10-21 10:00
+## Tables running at 2026-10-21 11:00
 
 No tables were running.
 
@@ -54,7 +54,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 08:00 | · | · | 4 | · | · | · | · | 4 |
 | 09:00 | · | 0 | 2 | · | · | · | · | 1 |
 | 10:00 | · | 0 | 0 | · | · | · | · | 0 |
-| 11:00 | · | 0 | · | · | · | · | · | 0 |
+| 11:00 | · | 0 | 0 | · | · | · | · | 0 |
 | 12:00 | · | 0 | · | · | · | · | · | 0 |
 | 13:00 | · | 0 | · | · | · | · | · | 0 |
 | 14:00 | · | 0 | · | · | · | · | · | 0 |
@@ -85,7 +85,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 08:00 | 🟩 100% | 2 |
 | 09:00 | 🟨 25% | 4 |
 | 10:00 | 🟥 0% | 3 |
-| 11:00 | 🟥 0% | 2 |
+| 11:00 | 🟥 0% | 3 |
 | 12:00 | 🟥 0% | 2 |
 | 13:00 | 🟥 0% | 1 |
 | 14:00 | 🟥 0% | 2 |
@@ -105,7 +105,7 @@ Average seated players per check on each kind of day, in total and for NLH and O
 
 | Days | Dates | Checks | Players | NLH | Omaha | vs normal, same hour |
 |:--|:--|--:|--:|--:|--:|--:|
-| Normal days | 20–21 Oct (2 days) | 40 | 2.1 | 2.1 | 0.0 | +0.0 |
+| Normal days | 20–21 Oct (2 days) | 41 | 2.0 | 2.0 | 0.0 | +0.0 |
 | 🎪 Kings of Tallinn | 11–18 Oct (8 days) | 227 | 21.9 | 9.4 | 12.3 | +19.5 |
 
 ## All games seen
