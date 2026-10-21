@@ -2,16 +2,16 @@
 
 Reads [Grand Casino Aš's live cash games](https://www.grandcasinoas.eu/en/poker/poker-live) every 10 minutes and its [current tournaments](https://www.grandcasinoas.eu/en/poker) every 30 minutes. All times are **Czech time** (same as Poland). Back to [King's](README.md).
 
-**Last check:** 2026-10-21 21:20 — ✅ OK  
-**Last 24 h:** 144 of 144 checks OK, longest gap 0 h 20 min · **Collecting since:** 2026-10-10 (1709 good checks)
+**Last check:** 2026-10-21 21:30 — ✅ OK  
+**Last 24 h:** 144 of 144 checks OK, longest gap 0 h 20 min · **Collecting since:** 2026-10-10 (1710 good checks)
 
-## Cash games at 2026-10-21 21:20
+## Cash games at 2026-10-21 21:30
 
 ```
 PLO/NLH           waiting
 ```
 
-**Tournaments in play at 2026-10-21 21:00:** Kickstarter (NLH, €50, 40 of 65 left, late reg open, level 8, blinds 800/1600/1600)
+**Tournaments in play at 2026-10-21 21:30:** Kickstarter (NLH, €50, 41 of 69 left, level 9, blinds 1000/2000/2000)
 
 ## Festivals and schedule
 
@@ -87,7 +87,7 @@ Average number of running tables (Grand Casino Aš shows which games run, not ho
 | 18:00 | 🟥 6% | 🟥 6% | 🟥 0% | 🟥 0% | 48 |
 | 19:00 | 🟥 14% | 🟥 10% | 🟥 0% | 🟥 4% | 49 |
 | 20:00 | 🟥 24% | 🟥 2% | 🟥 0% | 🟥 12% | 49 |
-| 21:00 | 🟥 13% | 🟥 11% | 🟥 0% | 🟥 13% | 46 |
+| 21:00 | 🟥 13% | 🟥 11% | 🟥 0% | 🟥 13% | 47 |
 | 22:00 | 🟥 14% | 🟥 0% | 🟥 0% | 🟥 14% | 43 |
 | 23:00 | 🟥 16% | 🟥 0% | 🟥 0% | 🟥 16% | 43 |
 
@@ -97,7 +97,7 @@ Average running tables per check on each kind of day, in total and for NLH and O
 
 | Days | Dates | Checks | Tables | NLH | Omaha | vs normal, same hour |
 |:--|:--|--:|--:|--:|--:|--:|
-| Normal days | 10–21 Oct (8 days) | 1131 | 0.2 | 0.2 | 0.0 | -0.0 |
+| Normal days | 10–21 Oct (8 days) | 1132 | 0.2 | 0.2 | 0.0 | -0.0 |
 | 🎪 PLO festival | 15–18 Oct (4 days) | 578 | 0.5 | 0.3 | 0.1 | +0.3 |
 
 ## Tournaments seen
@@ -106,7 +106,7 @@ The most recent ones. The game is read from the tournament's name.
 
 | Tournament | Game | Buy-in | Entries | Seen |
 |:--|:--|--:|--:|:--|
-| Kickstarter | NLH | €50 | 65 | 2026-10-14 19:30 → 10-21 21:00 |
+| Kickstarter | NLH | €50 | 69 | 2026-10-14 19:30 → 10-21 21:30 |
 | PLO Main Event Final Day | PLO | €340 | 208 | 2026-10-18 16:00 → 10-19 01:00 |
 | PLO Turbo Highroller | PLO | €660 | 30 | 2026-10-18 16:00 → 10-19 00:00 |
 | PLO Satellite to Highroller | PLO | €110 | 20 | 2026-10-18 13:00 → 10-18 16:00 |
