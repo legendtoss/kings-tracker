@@ -2,17 +2,17 @@
 
 Prague's tables come in the same King's data feed as Rozvadov's, so they're read at every check (about every 10 minutes) without any extra visits, together with Prague's tournament clocks. All times are **Czech time** (same as Poland). Back to [King's Rozvadov](README.md).
 
-**Last check:** 2026-10-22 00:20 — ✅ OK  
-**Last 24 h:** 106 of 144 checks OK, longest gap 0 h 20 min · **Collecting since:** 2026-10-17 (505 good checks)
+**Last check:** 2026-10-22 00:30 — ✅ OK  
+**Last 24 h:** 106 of 144 checks OK, longest gap 0 h 20 min · **Collecting since:** 2026-10-17 (506 good checks)
 
-## Tables running at 2026-10-22 00:20
+## Tables running at 2026-10-22 00:30
 
 ```
 NLH  €2/4     2/8 players
 ```
 **NLH:** 2 players at 1 table
 
-**Tournaments in play:** Satellite to King's Prague Mystery Thursday (NLH, €20, 9 of 73 left, level 16, blinds 3000/6000/6000)
+**Tournaments in play:** none
 
 ## Festivals and schedule
 
@@ -39,7 +39,7 @@ No player data yet.
 
 | Hour | NLH €2/4 | PLO €2/2 | Checks |
 |:--|--:|--:|--:|
-| 00:00 | 🟨 33% | 🟥 0% | 27 |
+| 00:00 | 🟨 36% | 🟥 0% | 28 |
 | 01:00 | 🟥 12% | 🟥 0% | 24 |
 | 02:00 | 🟥 0% | 🟥 0% | 24 |
 | 03:00 | 🟥 0% | 🟥 0% | 23 |
@@ -68,7 +68,7 @@ No player data yet.
 
 | Game | Running in | Most often | Last seen |
 |:--|--:|:--|:--|
-| NLH €2/4 | 8% of checks | Sat around 21:00 | 2026-10-22 00:20 |
+| NLH €2/4 | 8% of checks | Sat around 21:00 | 2026-10-22 00:30 |
 | PLO €2/2 | 1% of checks | Tue around 21:00 | 2026-10-21 23:40 |
 
 ## Tournaments seen
