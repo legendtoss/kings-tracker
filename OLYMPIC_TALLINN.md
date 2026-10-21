@@ -2,8 +2,8 @@
 
 Reads [OlyBet's live cash games page](https://olybetpoker.com/ee/en/cash-games/?club=6) every 30 minutes (their site has bot protection, so the tracker checks gently and simply records it when a check is refused). All times are **Czech time** (Tallinn is one hour ahead). Back to [King's](README.md).
 
-**Last check:** 2026-10-21 15:30 — ⚠️ error: couldn't read the cash games table (page saved for a closer look) — details in `debug/olympic-tallinn_page.json`  
-**Last 24 h:** 34 of 49 checks OK, longest gap 0 h 30 min · **Collecting since:** 2026-10-10 (273 good checks)
+**Last check:** 2026-10-21 16:00 — ⚠️ error: couldn't read the cash games table (page saved for a closer look) — details in `debug/olympic-tallinn_page.json`  
+**Last 24 h:** 33 of 49 checks OK, longest gap 0 h 30 min · **Collecting since:** 2026-10-10 (273 good checks)
 
 **Club:** Olympic Park Casino
 
@@ -13,7 +13,7 @@ No tables were running.
 
 **Waiting lists:** 6 players · **All games listed:** NLH €1/3 (closed): 0 tables, 0/0 players, 3 waiting PLO/PLO5 €1/3 (closed): 0 tables, 0/0 players, 2 waiting PLO €5/5 (closed): 0 tables, 0/0 players, 0 waiting NLH €5/5 (closed): 0 tables, 0/0 players, 1 waiting
 
-**Tournaments on their site at 2026-10-21 15:00:** live 19:15 Olympic Park Casino Five Stars Monthly Special 6-Max 30,000 €100 21:00 Olympic Park Casino Unl Rebuys Satellite to WinTV Series - Epicbet Live Mystery Bounty - 10 Tickets GTD 10,000 €10 21:00 Olympic Park Casino Unl Rebuys Satellite to WinTV Series - Epicbet Live Mystery Bounty - 10 Tickets GTD 10,000 €10
+**Tournaments on their site at 2026-10-21 16:00:** live 19:15 Olympic Park Casino Five Stars Monthly Special 6-Max 30,000 €100 21:00 Olympic Park Casino Unl Rebuys Satellite to WinTV Series - Epicbet Live Mystery Bounty - 10 Tickets GTD 10,000 €10 21:00 Olympic Park Casino Unl Rebuys Satellite to WinTV Series - Epicbet Live Mystery Bounty - 10 Tickets GTD 10,000 €10
 
 ## Festivals and schedule
 
