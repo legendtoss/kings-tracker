@@ -2,12 +2,12 @@
 
 Reads [OlyBet's live cash games page](https://olybetpoker.com/ee/en/cash-games/?club=6) every 30 minutes (their site has bot protection, so the tracker checks gently and simply records it when a check is refused). All times are **Czech time** (Tallinn is one hour ahead). Back to [King's](README.md).
 
-**Last check:** 2026-10-21 01:30 — ✅ OK  
-**Last 24 h:** 27 of 49 checks OK, longest gap 0 h 30 min · **Collecting since:** 2026-10-10 (254 good checks)
+**Last check:** 2026-10-21 02:00 — ✅ OK  
+**Last 24 h:** 28 of 49 checks OK, longest gap 0 h 30 min · **Collecting since:** 2026-10-10 (255 good checks)
 
 **Club:** Olympic Park Casino
 
-## Tables running at 2026-10-21 01:30
+## Tables running at 2026-10-21 02:00
 
 ```
 NLH  €1/3     6/9 players
@@ -16,7 +16,7 @@ NLH  €1/3     6/9 players
 
 **Waiting lists:** 1 players · **All games listed:** NLH €1/3 (opened): 1 table, 6/9 players, 0 waiting PLO/PLO5 €1/3 (closed): 0 tables, 0/0 players, 1 waiting PLO €5/5 (closed): 0 tables, 0/0 players, 0 waiting NLH €5/5 (closed): 0 tables, 0/0 players, 0 waiting
 
-**Tournaments on their site at 2026-10-21 01:00:** live 19:15 Olympic Park Casino Five Stars Monthly Special 6-Max 30,000 €100 21:00 Olympic Park Casino Unl Rebuys Satellite to WinTV Series - Epicbet Live Mystery Bounty - 10 Tickets GTD 10,000 €10 21:00 Olympic Park Casino Unl Rebuys Satellite to WinTV Series - Epicbet Live Mystery Bounty - 10 Tickets GTD 10,000 €10
+**Tournaments on their site at 2026-10-21 02:00:** live 19:15 Olympic Park Casino Five Stars Monthly Special 6-Max 30,000 €100 21:00 Olympic Park Casino Unl Rebuys Satellite to WinTV Series - Epicbet Live Mystery Bounty - 10 Tickets GTD 10,000 €10 21:00 Olympic Park Casino Unl Rebuys Satellite to WinTV Series - Epicbet Live Mystery Bounty - 10 Tickets GTD 10,000 €10
 
 ## Festivals and schedule
 
@@ -48,7 +48,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 |:--|--:|--:|--:|--:|--:|--:|--:|--:|
 | 00:00 | · | · | 6 | · | · | · | · | 6 |
 | 01:00 | · | · | 6 | · | · | · | · | 6 |
-| 02:00 | · | · | · | · | · | · | · | · |
+| 02:00 | · | · | 6 | · | · | · | · | 6 |
 | 03:00 | · | · | · | · | · | · | · | · |
 | 04:00 | · | · | · | · | · | · | · | · |
 | 05:00 | · | · | · | · | · | · | · | · |
@@ -79,7 +79,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 |:--|--:|--:|
 | 00:00 | 🟩 100% | 1 |
 | 01:00 | 🟩 100% | 2 |
-| 02:00 | · | 0 |
+| 02:00 | 🟩 100% | 1 |
 | 03:00 | · | 0 |
 | 04:00 | · | 0 |
 | 05:00 | · | 0 |
@@ -108,20 +108,20 @@ Average seated players per check on each kind of day, in total and for NLH and O
 
 | Days | Dates | Checks | Players | NLH | Omaha | vs normal, same hour |
 |:--|:--|--:|--:|--:|--:|--:|
-| Normal days | 20–21 Oct (2 days) | 27 | 1.3 | 1.3 | 0.0 | +0.0 |
-| 🎪 Kings of Tallinn | 11–18 Oct (8 days) | 227 | 21.9 | 9.4 | 12.3 | +18.0 |
+| Normal days | 20–21 Oct (2 days) | 28 | 1.5 | 1.5 | 0.0 | +0.0 |
+| 🎪 Kings of Tallinn | 11–18 Oct (8 days) | 227 | 21.9 | 9.4 | 12.3 | +19.4 |
 
 ## All games seen
 
 | Game | Running in | Most often | Last seen |
 |:--|--:|:--|:--|
-| NLH €1/3 | 61% of checks | Wed around 01:00 | 2026-10-21 01:30 |
+| NLH €1/3 | 61% of checks | Wed around 01:00 | 2026-10-21 02:00 |
 | NLH €5/5 | 12% of checks | Mon around 19:00 | 2026-10-18 06:30 |
 | NLH €5/10 | 3% of checks | Sun around 01:00 | 2026-10-18 04:00 |
 | NLH €5/5/10 | 4% of checks | Sat around 01:00 | 2026-10-17 07:00 |
 | NLH €10/10 | 0% of checks | Sat around 00:00 | 2026-10-17 00:00 |
 | NLH €5/10/25 | 0% of checks | Sat around 07:00 | 2026-10-17 07:30 |
-| PLO/PLO5 €1/3 | 52% of checks | Sun around 22:00 | 2026-10-18 19:00 |
+| PLO/PLO5 €1/3 | 51% of checks | Sun around 22:00 | 2026-10-18 19:00 |
 | PLO €5/5 | 18% of checks | Wed around 20:00 | 2026-10-17 07:00 |
 | PLO/PLO5 €5/5 | 15% of checks | Sun around 23:00 | 2026-10-18 07:30 |
 | PLO/PLO5 €5/5/10 | 13% of checks | Tue around 05:00 | 2026-10-17 11:00 |
