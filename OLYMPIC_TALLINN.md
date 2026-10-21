@@ -2,16 +2,16 @@
 
 Reads [OlyBet's live cash games page](https://olybetpoker.com/ee/en/cash-games/?club=6) every 30 minutes (their site has bot protection, so the tracker checks gently and simply records it when a check is refused). All times are **Czech time** (Tallinn is one hour ahead). Back to [King's](README.md).
 
-**Last check:** 2026-10-21 13:00 — ✅ OK  
-**Last 24 h:** 37 of 49 checks OK, longest gap 0 h 30 min · **Collecting since:** 2026-10-10 (272 good checks)
+**Last check:** 2026-10-21 13:30 — ✅ OK  
+**Last 24 h:** 38 of 49 checks OK, longest gap 0 h 30 min · **Collecting since:** 2026-10-10 (273 good checks)
 
 **Club:** Olympic Park Casino
 
-## Tables running at 2026-10-21 13:00
+## Tables running at 2026-10-21 13:30
 
 No tables were running.
 
-**Waiting lists:** 4 players · **All games listed:** NLH €1/3 (closed): 0 tables, 0/0 players, 2 waiting PLO/PLO5 €1/3 (closed): 0 tables, 0/0 players, 1 waiting PLO €5/5 (closed): 0 tables, 0/0 players, 0 waiting NLH €5/5 (closed): 0 tables, 0/0 players, 1 waiting
+**Waiting lists:** 6 players · **All games listed:** NLH €1/3 (closed): 0 tables, 0/0 players, 3 waiting PLO/PLO5 €1/3 (closed): 0 tables, 0/0 players, 2 waiting PLO €5/5 (closed): 0 tables, 0/0 players, 0 waiting NLH €5/5 (closed): 0 tables, 0/0 players, 1 waiting
 
 **Tournaments on their site at 2026-10-21 03:00:** live 19:15 Olympic Park Casino Five Stars Monthly Special 6-Max 30,000 €100 21:00 Olympic Park Casino Unl Rebuys Satellite to WinTV Series - Epicbet Live Mystery Bounty - 10 Tickets GTD 10,000 €10 21:00 Olympic Park Casino Unl Rebuys Satellite to WinTV Series - Epicbet Live Mystery Bounty - 10 Tickets GTD 10,000 €10
 
@@ -87,7 +87,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 10:00 | 🟥 0% | 3 |
 | 11:00 | 🟥 0% | 4 |
 | 12:00 | 🟥 0% | 4 |
-| 13:00 | 🟥 0% | 2 |
+| 13:00 | 🟥 0% | 3 |
 | 14:00 | 🟥 0% | 2 |
 | 15:00 | 🟥 0% | 2 |
 | 16:00 | 🟥 0% | 2 |
@@ -105,7 +105,7 @@ Average seated players per check on each kind of day, in total and for NLH and O
 
 | Days | Dates | Checks | Players | NLH | Omaha | vs normal, same hour |
 |:--|:--|--:|--:|--:|--:|--:|
-| Normal days | 20–21 Oct (2 days) | 45 | 1.9 | 1.9 | 0.0 | +0.0 |
+| Normal days | 20–21 Oct (2 days) | 46 | 1.8 | 1.8 | 0.0 | +0.0 |
 | 🎪 Kings of Tallinn | 11–18 Oct (8 days) | 227 | 21.9 | 9.4 | 12.3 | +19.5 |
 
 ## All games seen
