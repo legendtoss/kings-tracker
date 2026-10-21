@@ -2,12 +2,12 @@
 
 Reads [OlyBet's live cash games page](https://olybetpoker.com/ee/en/cash-games/?club=6) every 30 minutes (their site has bot protection, so the tracker checks gently and simply records it when a check is refused). All times are **Czech time** (Tallinn is one hour ahead). Back to [King's](README.md).
 
-**Last check:** 2026-10-21 03:30 — ✅ OK  
-**Last 24 h:** 31 of 49 checks OK, longest gap 0 h 30 min · **Collecting since:** 2026-10-10 (258 good checks)
+**Last check:** 2026-10-21 04:00 — ✅ OK  
+**Last 24 h:** 32 of 49 checks OK, longest gap 0 h 30 min · **Collecting since:** 2026-10-10 (259 good checks)
 
 **Club:** Olympic Park Casino
 
-## Tables running at 2026-10-21 03:30
+## Tables running at 2026-10-21 04:00
 
 ```
 NLH  €1/3     4/9 players
@@ -50,7 +50,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 01:00 | · | · | 6 | · | · | · | · | 6 |
 | 02:00 | · | · | 6 | · | · | · | · | 6 |
 | 03:00 | · | · | 4 | · | · | · | · | 4 |
-| 04:00 | · | · | · | · | · | · | · | · |
+| 04:00 | · | · | 4 | · | · | · | · | 4 |
 | 05:00 | · | · | · | · | · | · | · | · |
 | 06:00 | · | · | · | · | · | · | · | · |
 | 07:00 | · | · | · | · | · | · | · | · |
@@ -81,7 +81,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 01:00 | 🟩 100% | 2 |
 | 02:00 | 🟩 100% | 2 |
 | 03:00 | 🟩 100% | 2 |
-| 04:00 | · | 0 |
+| 04:00 | 🟩 100% | 1 |
 | 05:00 | · | 0 |
 | 06:00 | · | 0 |
 | 07:00 | · | 0 |
@@ -108,14 +108,14 @@ Average seated players per check on each kind of day, in total and for NLH and O
 
 | Days | Dates | Checks | Players | NLH | Omaha | vs normal, same hour |
 |:--|:--|--:|--:|--:|--:|--:|
-| Normal days | 20–21 Oct (2 days) | 31 | 1.8 | 1.8 | 0.0 | +0.0 |
-| 🎪 Kings of Tallinn | 11–18 Oct (8 days) | 227 | 21.9 | 9.4 | 12.3 | +20.8 |
+| Normal days | 20–21 Oct (2 days) | 32 | 1.9 | 1.9 | 0.0 | +0.0 |
+| 🎪 Kings of Tallinn | 11–18 Oct (8 days) | 227 | 21.9 | 9.4 | 12.3 | +21.4 |
 
 ## All games seen
 
 | Game | Running in | Most often | Last seen |
 |:--|--:|:--|:--|
-| NLH €1/3 | 62% of checks | Wed around 01:00 | 2026-10-21 03:30 |
+| NLH €1/3 | 62% of checks | Wed around 01:00 | 2026-10-21 04:00 |
 | NLH €5/5 | 12% of checks | Mon around 19:00 | 2026-10-18 06:30 |
 | NLH €5/10 | 3% of checks | Sun around 01:00 | 2026-10-18 04:00 |
 | NLH €5/5/10 | 4% of checks | Sat around 01:00 | 2026-10-17 07:00 |
