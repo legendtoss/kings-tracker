@@ -6,10 +6,10 @@ Checks King's live cash games and tournaments about every 10 minutes and updates
 
 **🎯 Omaha right now:** no Omaha tables running at any room
 
-**Last check:** 2026-10-21 04:00 — ✅ OK (data feed)  
-**Last 24 h:** 116 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-06 (1760 good checks)
+**Last check:** 2026-10-21 04:10 — ✅ OK (data feed)  
+**Last 24 h:** 116 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-06 (1761 good checks)
 
-## Tables running at 2026-10-21 04:00
+## Tables running at 2026-10-21 04:10
 
 ```
 NLH  €1/2     5/8 players
@@ -185,7 +185,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 01:00 | 🟩 96% | 🟨 43% | 🟥 5% | 🟨 68% | 🟨 63% | 🟥 7% | 🟥 7% | 🟥 0% | 81 |
 | 02:00 | 🟩 92% | 🟨 46% | 🟥 0% | 🟨 61% | 🟨 65% | 🟥 3% | 🟥 6% | 🟥 0% | 79 |
 | 03:00 | 🟩 87% | 🟨 25% | 🟥 0% | 🟨 49% | 🟨 58% | 🟥 0% | 🟥 0% | 🟥 0% | 76 |
-| 04:00 | 🟩 79% | 🟥 19% | 🟥 3% | 🟨 32% | 🟨 41% | 🟥 0% | 🟥 3% | 🟥 0% | 78 |
+| 04:00 | 🟩 80% | 🟥 19% | 🟥 3% | 🟨 32% | 🟨 41% | 🟥 0% | 🟥 3% | 🟥 0% | 79 |
 | 05:00 | 🟩 81% | 🟥 19% | 🟥 4% | 🟥 24% | 🟨 29% | 🟥 0% | 🟥 4% | 🟥 3% | 72 |
 | 06:00 | 🟩 75% | 🟥 20% | 🟥 4% | 🟥 24% | 🟥 9% | 🟥 0% | 🟥 4% | 🟥 4% | 76 |
 | 07:00 | 🟨 73% | 🟥 20% | 🟥 4% | 🟥 21% | 🟥 4% | 🟥 0% | 🟥 4% | 🟥 3% | 75 |
@@ -214,7 +214,7 @@ Collecting since 2026-10-08. Shown from 2026-10-22: with fewer than two weeks, t
 
 | Game | Running in | Most often | Last seen |
 |:--|--:|:--|:--|
-| NLH €1/2 | 84% of checks | Fri around 22:00 | 2026-10-21 04:00 |
+| NLH €1/2 | 84% of checks | Fri around 22:00 | 2026-10-21 04:10 |
 | NLH €2/4 | 25% of checks | Fri around 22:00 | 2026-10-18 21:40 |
 | NLH €5/10 | 4% of checks | Sat around 23:00 | 2026-10-17 20:00 |
 | NLH €10/25 | 0% of checks | Tue around 13:00 | 2026-10-20 13:30 |
@@ -233,7 +233,7 @@ The most recent ones. The game is read from the tournament's name.
 
 | Tournament | Game | Buy-in | Entries | Seen |
 |:--|:--|--:|--:|:--|
-| Balkan Poker Circuit 1Million - Day 1B SPEED | NLH | €295 | 53 | 2026-10-20 18:20 → 10-21 04:00 |
+| Balkan Poker Circuit 1Million - Day 1B SPEED | NLH | €295 | 53 | 2026-10-20 18:20 → 10-21 04:10 |
 | Satellite to BPC ME - Day 1B | NLH | €40 | 85 | 2026-10-20 15:00 → 10-20 18:50 |
 | BPC 1Million - Day 1A Speed | NLH | €295 | 75 | 2026-10-19 18:20 → 10-20 03:30 |
 | Dutch Poker Masters - Final Day | NLH | €225 | 1978 | 2026-10-19 14:00 → 10-19 22:00 |
@@ -253,14 +253,14 @@ The most recent ones. The game is read from the tournament's name.
 
 | Room | Last check | OK in the last 24 h | Most common problem |
 |:--|:--|--:|:--|
-| King's Rozvadov | ✅ 10-21 04:00 | 116 of 145 | couldn't read the tables on the page |
-| [King's Prague](KINGS_PRAGUE.md) | ✅ 10-21 04:00 | 116 of 145 | King's feed came back empty and that couldn't be confirmed, so it wasn |
-| [Grand Casino Aš](GRAND_CASINO_AS.md) | ✅ 10-21 04:00 | 145 of 145 | · |
-| [Card Casino Šamorín](CARD_CASINO.md) | ✅ 10-21 04:00 | 120 of 145 | Card Casino's site didn't answer |
-| [Banco Casino Bratislava](BANCO.md) | ✅ 10-21 04:00 | 145 of 145 | · |
-| [Olympic Park Tallinn](OLYMPIC_TALLINN.md) | ✅ 10-21 04:00 | 32 of 49 | blocked by the site's bot protection |
-| [Olympic Voodoo Riga](OLYMPIC_RIGA.md) | ✅ 10-21 04:00 | 39 of 49 | blocked by the site's bot protection |
-| [Olympic Casino Vilnius](OLYMPIC_VILNIUS.md) | ✅ 10-21 04:00 | 39 of 49 | blocked by the site's bot protection |
+| King's Rozvadov | ✅ 10-21 04:10 | 116 of 145 | couldn't read the tables on the page |
+| [King's Prague](KINGS_PRAGUE.md) | ✅ 10-21 04:10 | 116 of 145 | King's feed came back empty and that couldn't be confirmed, so it wasn |
+| [Grand Casino Aš](GRAND_CASINO_AS.md) | ✅ 10-21 04:10 | 145 of 145 | · |
+| [Card Casino Šamorín](CARD_CASINO.md) | ✅ 10-21 04:10 | 120 of 145 | Card Casino's site didn't answer |
+| [Banco Casino Bratislava](BANCO.md) | ✅ 10-21 04:10 | 145 of 145 | · |
+| [Olympic Park Tallinn](OLYMPIC_TALLINN.md) | ✅ 10-21 04:00 | 32 of 48 | blocked by the site's bot protection |
+| [Olympic Voodoo Riga](OLYMPIC_RIGA.md) | ✅ 10-21 04:00 | 38 of 48 | blocked by the site's bot protection |
+| [Olympic Casino Vilnius](OLYMPIC_VILNIUS.md) | ✅ 10-21 04:00 | 38 of 48 | blocked by the site's bot protection |
 
 ---
 Raw data: the `data` folder, one CSV file per month. To open one in Excel, use Data → From Text/CSV (double-clicking puts everything in one column in Polish Excel). The tracker is `tracker.py`; its schedule is in `.github/workflows/track.yml`.  
