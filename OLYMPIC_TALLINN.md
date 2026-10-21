@@ -2,12 +2,12 @@
 
 Reads [OlyBet's live cash games page](https://olybetpoker.com/ee/en/cash-games/?club=6) every 30 minutes (their site has bot protection, so the tracker checks gently and simply records it when a check is refused). All times are **Czech time** (Tallinn is one hour ahead). Back to [King's](README.md).
 
-**Last check:** 2026-10-21 12:00 — ✅ OK  
-**Last 24 h:** 37 of 49 checks OK, longest gap 0 h 30 min · **Collecting since:** 2026-10-10 (270 good checks)
+**Last check:** 2026-10-21 12:30 — ✅ OK  
+**Last 24 h:** 37 of 49 checks OK, longest gap 0 h 30 min · **Collecting since:** 2026-10-10 (271 good checks)
 
 **Club:** Olympic Park Casino
 
-## Tables running at 2026-10-21 12:00
+## Tables running at 2026-10-21 12:30
 
 No tables were running.
 
@@ -86,7 +86,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 09:00 | 🟨 25% | 4 |
 | 10:00 | 🟥 0% | 3 |
 | 11:00 | 🟥 0% | 4 |
-| 12:00 | 🟥 0% | 3 |
+| 12:00 | 🟥 0% | 4 |
 | 13:00 | 🟥 0% | 1 |
 | 14:00 | 🟥 0% | 2 |
 | 15:00 | 🟥 0% | 2 |
@@ -105,7 +105,7 @@ Average seated players per check on each kind of day, in total and for NLH and O
 
 | Days | Dates | Checks | Players | NLH | Omaha | vs normal, same hour |
 |:--|:--|--:|--:|--:|--:|--:|
-| Normal days | 20–21 Oct (2 days) | 43 | 2.0 | 2.0 | 0.0 | +0.0 |
+| Normal days | 20–21 Oct (2 days) | 44 | 1.9 | 1.9 | 0.0 | +0.0 |
 | 🎪 Kings of Tallinn | 11–18 Oct (8 days) | 227 | 21.9 | 9.4 | 12.3 | +19.5 |
 
 ## All games seen
@@ -118,7 +118,7 @@ Average seated players per check on each kind of day, in total and for NLH and O
 | NLH €5/5/10 | 4% of checks | Sat around 01:00 | 2026-10-17 07:00 |
 | NLH €10/10 | 0% of checks | Sat around 00:00 | 2026-10-17 00:00 |
 | NLH €5/10/25 | 0% of checks | Sat around 07:00 | 2026-10-17 07:30 |
-| PLO/PLO5 €1/3 | 49% of checks | Sun around 22:00 | 2026-10-18 19:00 |
+| PLO/PLO5 €1/3 | 48% of checks | Sun around 22:00 | 2026-10-18 19:00 |
 | PLO €5/5 | 17% of checks | Wed around 20:00 | 2026-10-17 07:00 |
 | PLO/PLO5 €5/5 | 14% of checks | Sun around 23:00 | 2026-10-18 07:30 |
 | PLO/PLO5 €5/5/10 | 13% of checks | Tue around 05:00 | 2026-10-17 11:00 |
