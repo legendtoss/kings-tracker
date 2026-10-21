@@ -2,19 +2,19 @@
 
 Checks King's live cash games and tournaments about every 10 minutes and updates this page by itself. All times are **Czech time** (same as Poland). Also tracking: [King's Prague](KINGS_PRAGUE.md) · [Card Casino Šamorín](CARD_CASINO.md) · [Grand Casino Aš](GRAND_CASINO_AS.md) · [Banco Casino Bratislava](BANCO.md) · [Olympic Park Tallinn](OLYMPIC_TALLINN.md) · [Olympic Voodoo Riga](OLYMPIC_RIGA.md) · [Olympic Casino Vilnius](OLYMPIC_VILNIUS.md).
 
-**Right now:** King's: 1 table, 5 players · [King's Prague](KINGS_PRAGUE.md): 0 tables, 0 players · [Card Casino Šamorín](CARD_CASINO.md) 🎪 Main Event week: 0 tables, 0 players · [Grand Casino Aš](GRAND_CASINO_AS.md): 0 tables running · [Olympic Park Tallinn](OLYMPIC_TALLINN.md): blocked at 04:30 · [Olympic Voodoo Riga](OLYMPIC_RIGA.md): 0 tables, 0 players at 04:30 · [Olympic Vilnius](OLYMPIC_VILNIUS.md): 0 tables, 0 players at 04:30 · [Banco](BANCO.md): 0 tables, 0 players
+**Right now:** King's: 1 table, 6 players · [King's Prague](KINGS_PRAGUE.md): 0 tables, 0 players · [Card Casino Šamorín](CARD_CASINO.md) 🎪 Main Event week: 0 tables, 0 players · [Grand Casino Aš](GRAND_CASINO_AS.md): 0 tables running · [Olympic Park Tallinn](OLYMPIC_TALLINN.md): blocked at 04:30 · [Olympic Voodoo Riga](OLYMPIC_RIGA.md): 0 tables, 0 players at 04:30 · [Olympic Vilnius](OLYMPIC_VILNIUS.md): 0 tables, 0 players at 04:30 · [Banco](BANCO.md): 0 tables, 0 players
 
 **🎯 Omaha right now:** no Omaha tables running at any room
 
-**Last check:** 2026-10-21 04:40 — ✅ OK (data feed)  
-**Last 24 h:** 116 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-06 (1764 good checks)
+**Last check:** 2026-10-21 04:50 — ✅ OK (data feed)  
+**Last 24 h:** 116 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-06 (1765 good checks)
 
-## Tables running at 2026-10-21 04:40
+## Tables running at 2026-10-21 04:50
 
 ```
-NLH  €1/2     5/8 players
+NLH  €1/2     6/8 players
 ```
-**NLH:** 5 players at 1 table
+**NLH:** 6 players at 1 table
 
 **Tournaments in play:** none
 
@@ -96,7 +96,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 01:00 | 27 | 11 | 11 | 16 | 28 | 61 | 70 | 31 |
 | 02:00 | 22 | 7 | 10 | 14 | 22 | 50 | 56 | 26 |
 | 03:00 | 20 | 3 | 8 | 14 | 23 | 35 | 42 | 21 |
-| 04:00 | 12 | 5 | 6 | 8 | 21 | 24 | 32 | 15 |
+| 04:00 | 12 | 5 | 6 | 8 | 21 | 24 | 32 | 14 |
 | 05:00 | 8 | 5 | 7 | 5 | 10 | 18 | 24 | 11 |
 | 06:00 | 7 | 4 | 7 | 3 | 4 | 16 | 14 | 8 |
 | 07:00 | 7 | 3 | 8 | 1 | 5 | 14 | 12 | 8 |
@@ -185,7 +185,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 01:00 | 🟩 96% | 🟨 43% | 🟥 5% | 🟨 68% | 🟨 63% | 🟥 7% | 🟥 7% | 🟥 0% | 81 |
 | 02:00 | 🟩 92% | 🟨 46% | 🟥 0% | 🟨 61% | 🟨 65% | 🟥 3% | 🟥 6% | 🟥 0% | 79 |
 | 03:00 | 🟩 87% | 🟨 25% | 🟥 0% | 🟨 49% | 🟨 58% | 🟥 0% | 🟥 0% | 🟥 0% | 76 |
-| 04:00 | 🟩 80% | 🟥 18% | 🟥 2% | 🟨 30% | 🟨 39% | 🟥 0% | 🟥 2% | 🟥 0% | 82 |
+| 04:00 | 🟩 81% | 🟥 18% | 🟥 2% | 🟨 30% | 🟨 39% | 🟥 0% | 🟥 2% | 🟥 0% | 83 |
 | 05:00 | 🟩 81% | 🟥 19% | 🟥 4% | 🟥 24% | 🟨 29% | 🟥 0% | 🟥 4% | 🟥 3% | 72 |
 | 06:00 | 🟩 75% | 🟥 20% | 🟥 4% | 🟥 24% | 🟥 9% | 🟥 0% | 🟥 4% | 🟥 4% | 76 |
 | 07:00 | 🟨 73% | 🟥 20% | 🟥 4% | 🟥 21% | 🟥 4% | 🟥 0% | 🟥 4% | 🟥 3% | 75 |
@@ -214,7 +214,7 @@ Collecting since 2026-10-08. Shown from 2026-10-22: with fewer than two weeks, t
 
 | Game | Running in | Most often | Last seen |
 |:--|--:|:--|:--|
-| NLH €1/2 | 84% of checks | Fri around 22:00 | 2026-10-21 04:40 |
+| NLH €1/2 | 84% of checks | Fri around 22:00 | 2026-10-21 04:50 |
 | NLH €2/4 | 25% of checks | Fri around 22:00 | 2026-10-18 21:40 |
 | NLH €5/10 | 4% of checks | Sat around 23:00 | 2026-10-17 20:00 |
 | NLH €10/25 | 0% of checks | Tue around 13:00 | 2026-10-20 13:30 |
@@ -253,11 +253,11 @@ The most recent ones. The game is read from the tournament's name.
 
 | Room | Last check | OK in the last 24 h | Most common problem |
 |:--|:--|--:|:--|
-| King's Rozvadov | ✅ 10-21 04:40 | 116 of 145 | couldn't read the tables on the page |
-| [King's Prague](KINGS_PRAGUE.md) | ✅ 10-21 04:40 | 116 of 145 | King's feed came back empty and that couldn't be confirmed, so it wasn |
-| [Grand Casino Aš](GRAND_CASINO_AS.md) | ✅ 10-21 04:40 | 145 of 145 | · |
-| [Card Casino Šamorín](CARD_CASINO.md) | ✅ 10-21 04:40 | 120 of 145 | Card Casino's site didn't answer |
-| [Banco Casino Bratislava](BANCO.md) | ✅ 10-21 04:40 | 145 of 145 | · |
+| King's Rozvadov | ✅ 10-21 04:50 | 116 of 145 | couldn't read the tables on the page |
+| [King's Prague](KINGS_PRAGUE.md) | ✅ 10-21 04:50 | 116 of 145 | King's feed came back empty and that couldn't be confirmed, so it wasn |
+| [Grand Casino Aš](GRAND_CASINO_AS.md) | ✅ 10-21 04:50 | 145 of 145 | · |
+| [Card Casino Šamorín](CARD_CASINO.md) | ✅ 10-21 04:50 | 121 of 145 | Card Casino's site didn't answer |
+| [Banco Casino Bratislava](BANCO.md) | ✅ 10-21 04:50 | 145 of 145 | · |
 | [Olympic Park Tallinn](OLYMPIC_TALLINN.md) | ⚠️ 10-21 04:30 | 32 of 48 | blocked by the site's bot protection |
 | [Olympic Voodoo Riga](OLYMPIC_RIGA.md) | ✅ 10-21 04:30 | 39 of 48 | blocked by the site's bot protection |
 | [Olympic Casino Vilnius](OLYMPIC_VILNIUS.md) | ✅ 10-21 04:30 | 39 of 48 | blocked by the site's bot protection |
