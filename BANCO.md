@@ -2,17 +2,14 @@
 
 Checks [its website](https://bancocasino.sk/ba/en) together with King's, about every 10 minutes. All times are **Czech time** (same as Poland and Slovakia). Back to [King's](README.md).
 
-**Last check:** 2026-10-21 04:10 — ✅ OK  
-**Checks so far:** 1115 successful out of 1619 (since 2026-10-10)
+**Last check:** 2026-10-21 04:20 — ✅ OK  
+**Checks so far:** 1116 successful out of 1620 (since 2026-10-10)
 
-## Tables running at 2026-10-21 04:10
+## Tables running at 2026-10-21 04:20
 
-```
-NLH  €1/3     5 players
-```
-**NLH:** 5 players at 1 table
+No tables were running.
 
-*The whole list (Banco also shows its Košice casino; the numbers above are Bratislava only):* Bratislava: NLH €1/3 5 players (buy-in €100)  
+*The whole list (Banco also shows its Košice casino; the numbers above are Bratislava only):* no games listed  
 **Tournaments running:** none
 
 **Note:** Since 13 Oct the tracker reads Banco's cash list and its live tournaments straight from where its page gets them; before that, its page's scripts didn't run in the tracker's browser, so those checks show as errors.
@@ -45,7 +42,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 01:00 | 7 | 13 | 4 | 10 | 6 | 14 | 7 | 8 |
 | 02:00 | 7 | 13 | 4 | 12 | 6 | 13 | 7 | 8 |
 | 03:00 | 7 | 8 | 4 | 8 | 5 | 14 | 8 | 7 |
-| 04:00 | 8 | 4 | 1 | 8 | 0 | 11 | 8 | 6 |
+| 04:00 | 8 | 4 | 1 | 8 | 0 | 11 | 8 | 5 |
 | 05:00 | 6 | 3 | 0 | 8 | 0 | 8 | 8 | 5 |
 | 06:00 | 6 | 2 | 0 | 8 | 0 | 7 | 8 | 4 |
 | 07:00 | 4 | 0 | 0 | 6 | 0 | 6 | 8 | 3 |
@@ -105,7 +102,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 01:00 | 🟩 86% | 🟥 0% | 🟨 26% | 🟥 12% | 🟥 0% | 50 |
 | 02:00 | 🟩 88% | 🟥 0% | 🟨 25% | 🟥 12% | 🟥 0% | 48 |
 | 03:00 | 🟩 86% | 🟥 0% | 🟥 24% | 🟥 12% | 🟥 0% | 49 |
-| 04:00 | 🟨 73% | 🟥 0% | 🟥 14% | 🟥 14% | 🟥 0% | 44 |
+| 04:00 | 🟨 71% | 🟥 0% | 🟥 13% | 🟥 13% | 🟥 0% | 45 |
 | 05:00 | 🟨 71% | 🟥 0% | 🟥 5% | 🟥 14% | 🟥 0% | 42 |
 | 06:00 | 🟨 58% | 🟥 7% | 🟥 0% | 🟥 14% | 🟥 0% | 43 |
 | 07:00 | 🟨 43% | 🟥 14% | 🟥 0% | 🟥 10% | 🟥 0% | 42 |
