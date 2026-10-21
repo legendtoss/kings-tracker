@@ -2,10 +2,10 @@
 
 Reads [Grand Casino Aš's live cash games](https://www.grandcasinoas.eu/en/poker/poker-live) every 10 minutes and its [current tournaments](https://www.grandcasinoas.eu/en/poker) every 30 minutes. All times are **Czech time** (same as Poland). Back to [King's](README.md).
 
-**Last check:** 2026-10-21 02:10 — ✅ OK  
-**Last 24 h:** 145 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-10 (1595 good checks)
+**Last check:** 2026-10-21 02:20 — ✅ OK  
+**Last 24 h:** 145 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-10 (1596 good checks)
 
-## Cash games at 2026-10-21 02:10
+## Cash games at 2026-10-21 02:20
 
 No cash games listed.
 
@@ -35,7 +35,7 @@ Average number of running tables (Grand Casino Aš shows which games run, not ho
 |:--|--:|--:|--:|--:|--:|--:|--:|--:|
 | 00:00 | 0.0 | 0.0 | 0.0 | · | · | · | 4.2 | 0.6 |
 | 01:00 | 0.0 | 0.0 | 0.0 | · | · | · | 4.7 | 0.7 |
-| 02:00 | 0.0 | 0.0 | 0.0 | · | · | · | 3.5 | 0.6 |
+| 02:00 | 0.0 | 0.0 | 0.0 | · | · | · | 3.5 | 0.5 |
 | 03:00 | 0.0 | 0.0 | 0.0 | · | · | 2.0 | 3.7 | 0.7 |
 | 04:00 | 0.0 | 0.0 | 0.0 | · | · | 2.0 | 3.0 | 0.7 |
 | 05:00 | 0.0 | 0.0 | 0.0 | · | · | 1.5 | 0.3 | 0.3 |
@@ -66,7 +66,7 @@ Average number of running tables (Grand Casino Aš shows which games run, not ho
 |:--|--:|--:|--:|--:|--:|
 | 00:00 | 🟥 14% | 🟥 0% | 🟥 0% | 🟥 14% | 43 |
 | 01:00 | 🟥 14% | 🟥 0% | 🟥 0% | 🟥 14% | 43 |
-| 02:00 | 🟥 16% | 🟥 0% | 🟥 0% | 🟥 16% | 38 |
+| 02:00 | 🟥 15% | 🟥 0% | 🟥 0% | 🟥 15% | 39 |
 | 03:00 | 🟥 21% | 🟥 0% | 🟥 11% | 🟥 16% | 38 |
 | 04:00 | 🟨 27% | 🟥 0% | 🟥 9% | 🟥 9% | 44 |
 | 05:00 | 🟥 19% | 🟥 0% | 🟥 0% | 🟥 0% | 42 |
@@ -95,7 +95,7 @@ Average running tables per check on each kind of day, in total and for NLH and O
 
 | Days | Dates | Checks | Tables | NLH | Omaha | vs normal, same hour |
 |:--|:--|--:|--:|--:|--:|--:|
-| Normal days | 10–21 Oct (8 days) | 1017 | 0.3 | 0.2 | 0.0 | -0.0 |
+| Normal days | 10–21 Oct (8 days) | 1018 | 0.3 | 0.2 | 0.0 | -0.0 |
 | 🎪 PLO festival | 15–18 Oct (4 days) | 578 | 0.5 | 0.3 | 0.1 | +0.3 |
 
 ## Tournaments seen
