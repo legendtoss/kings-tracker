@@ -494,3 +494,4 @@
 2026-10-21 05:30,Wed,5,ok,0,0,,0,0,,
 2026-10-21 05:40,Wed,5,ok,0,0,,0,0,,
 2026-10-21 05:50,Wed,5,ok,0,0,,0,0,,
+2026-10-21 06:00,Wed,6,"error: King's feed came back empty and that couldn't be confirmed, so it wasn't counted as 0 tables",,,,0,0,,

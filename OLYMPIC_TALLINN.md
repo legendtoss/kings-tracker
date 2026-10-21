@@ -2,12 +2,12 @@
 
 Reads [OlyBet's live cash games page](https://olybetpoker.com/ee/en/cash-games/?club=6) every 30 minutes (their site has bot protection, so the tracker checks gently and simply records it when a check is refused). All times are **Czech time** (Tallinn is one hour ahead). Back to [King's](README.md).
 
-**Last check:** 2026-10-21 05:30 — ⚠️ error: blocked by the site's bot protection — details in `debug/olympic-tallinn_page.json`  
-**Last 24 h:** 32 of 49 checks OK, longest gap 0 h 30 min · **Collecting since:** 2026-10-10 (259 good checks)
+**Last check:** 2026-10-21 06:00 — ✅ OK  
+**Last 24 h:** 33 of 49 checks OK, longest gap 0 h 30 min · **Collecting since:** 2026-10-10 (260 good checks)
 
 **Club:** Olympic Park Casino
 
-## Tables running at 2026-10-21 04:00
+## Tables running at 2026-10-21 06:00
 
 ```
 NLH  €1/3     4/9 players
@@ -52,7 +52,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 03:00 | · | · | 4 | · | · | · | · | 4 |
 | 04:00 | · | · | 4 | · | · | · | · | 4 |
 | 05:00 | · | · | · | · | · | · | · | · |
-| 06:00 | · | · | · | · | · | · | · | · |
+| 06:00 | · | · | 4 | · | · | · | · | 4 |
 | 07:00 | · | · | · | · | · | · | · | · |
 | 08:00 | · | · | · | · | · | · | · | · |
 | 09:00 | · | 0 | · | · | · | · | · | 0 |
@@ -83,7 +83,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 03:00 | 🟩 100% | 2 |
 | 04:00 | 🟩 100% | 1 |
 | 05:00 | · | 0 |
-| 06:00 | · | 0 |
+| 06:00 | 🟩 100% | 1 |
 | 07:00 | · | 0 |
 | 08:00 | · | 0 |
 | 09:00 | 🟥 0% | 2 |
@@ -108,20 +108,20 @@ Average seated players per check on each kind of day, in total and for NLH and O
 
 | Days | Dates | Checks | Players | NLH | Omaha | vs normal, same hour |
 |:--|:--|--:|--:|--:|--:|--:|
-| Normal days | 20–21 Oct (2 days) | 32 | 1.9 | 1.9 | 0.0 | +0.0 |
-| 🎪 Kings of Tallinn | 11–18 Oct (8 days) | 227 | 21.9 | 9.4 | 12.3 | +21.4 |
+| Normal days | 20–21 Oct (2 days) | 33 | 1.9 | 1.9 | 0.0 | +0.0 |
+| 🎪 Kings of Tallinn | 11–18 Oct (8 days) | 227 | 21.9 | 9.4 | 12.3 | +21.1 |
 
 ## All games seen
 
 | Game | Running in | Most often | Last seen |
 |:--|--:|:--|:--|
-| NLH €1/3 | 62% of checks | Wed around 01:00 | 2026-10-21 04:00 |
+| NLH €1/3 | 62% of checks | Wed around 01:00 | 2026-10-21 06:00 |
 | NLH €5/5 | 12% of checks | Mon around 19:00 | 2026-10-18 06:30 |
 | NLH €5/10 | 3% of checks | Sun around 01:00 | 2026-10-18 04:00 |
 | NLH €5/5/10 | 4% of checks | Sat around 01:00 | 2026-10-17 07:00 |
 | NLH €10/10 | 0% of checks | Sat around 00:00 | 2026-10-17 00:00 |
 | NLH €5/10/25 | 0% of checks | Sat around 07:00 | 2026-10-17 07:30 |
-| PLO/PLO5 €1/3 | 51% of checks | Sun around 22:00 | 2026-10-18 19:00 |
+| PLO/PLO5 €1/3 | 50% of checks | Sun around 22:00 | 2026-10-18 19:00 |
 | PLO €5/5 | 18% of checks | Wed around 20:00 | 2026-10-17 07:00 |
 | PLO/PLO5 €5/5 | 15% of checks | Sun around 23:00 | 2026-10-18 07:30 |
 | PLO/PLO5 €5/5/10 | 13% of checks | Tue around 05:00 | 2026-10-17 11:00 |
