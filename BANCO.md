@@ -2,14 +2,14 @@
 
 Checks [its website](https://bancocasino.sk/ba/en) together with King's, about every 10 minutes. All times are **Czech time** (same as Poland and Slovakia). Back to [King's](README.md).
 
-**Last check:** 2026-10-23 01:40 — ✅ OK  
-**Checks so far:** 1387 successful out of 1891 (since 2026-10-10)
+**Last check:** 2026-10-23 01:50 — ✅ OK  
+**Checks so far:** 1388 successful out of 1892 (since 2026-10-10)
 
-## Tables running at 2026-10-23 01:40
+## Tables running at 2026-10-23 01:50
 
 No tables were running.
 
-*The whole list (Banco also shows its Košice casino; the numbers above are Bratislava only):* Košice: NLH €1/3 4 players (buy-in €100), NLH €1/3 6 players (buy-in €100)  
+*The whole list (Banco also shows its Košice casino; the numbers above are Bratislava only):* Košice: NLH €1/3 9 players (buy-in €100)  
 **Tournaments running:** none
 
 **Note:** Since 13 Oct the tracker reads Banco's cash list and its live tournaments straight from where its page gets them; before that, its page's scripts didn't run in the tracker's browser, so those checks show as errors.
@@ -25,7 +25,7 @@ No Omaha tournaments on the schedule in the next 14 days.
 
 ## Busiest times so far
 
-*Normal days only: 11 checks during festivals, cash-game events or public holidays are compared separately in “Festivals, holidays and normal days” below.*
+*Normal days only: 12 checks during festivals, cash-game events or public holidays are compared separately in “Festivals, holidays and normal days” below.*
 
 Day, hour and average seated players (only day-hour slots seen on at least 2 different dates).
 
@@ -132,7 +132,7 @@ Average seated players per check on each kind of day, in total and for NLH and O
 | Days | Dates | Checks | Players | NLH | Omaha | vs normal, same hour |
 |:--|:--|--:|--:|--:|--:|--:|
 | Normal days | 13–22 Oct (10 days) | 1376 | 5.8 | 3.6 | 1.9 | +0.0 |
-| 📅 Public holidays | 23 Oct (1 day) | 11 | 0.0 | 0.0 | 0.0 | -11.1 |
+| 📅 Public holidays | 23 Oct (1 day) | 12 | 0.0 | 0.0 | 0.0 | -11.0 |
 
 ## All games seen
 
