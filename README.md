@@ -2,27 +2,27 @@
 
 Checks King's live cash games and tournaments about every 10 minutes and updates this page by itself. All times are **Czech time** (same as Poland). Also tracking: [King's Prague](KINGS_PRAGUE.md) · [Card Casino Šamorín](CARD_CASINO.md) · [Grand Casino Aš](GRAND_CASINO_AS.md) · [Banco Casino Bratislava](BANCO.md) · [Olympic Park Tallinn](OLYMPIC_TALLINN.md) · [Olympic Voodoo Riga](OLYMPIC_RIGA.md) · [Olympic Casino Vilnius](OLYMPIC_VILNIUS.md).
 
-**Right now:** King's: 7 tables, 53 players · [King's Prague](KINGS_PRAGUE.md): 0 tables, 0 players · [Card Casino Šamorín](CARD_CASINO.md) 🎪 Main Event week: 0 tables, 0 players · [Grand Casino Aš](GRAND_CASINO_AS.md): 0 tables running · [Olympic Park Tallinn](OLYMPIC_TALLINN.md): couldn't be read at 17:00 · [Olympic Voodoo Riga](OLYMPIC_RIGA.md): couldn't be read at 17:00 · [Olympic Vilnius](OLYMPIC_VILNIUS.md): couldn't be read at 17:00 · [Banco](BANCO.md): 1 table, 7 players
+**Right now:** King's: 7 tables, 54 players · [King's Prague](KINGS_PRAGUE.md): 0 tables, 0 players · [Card Casino Šamorín](CARD_CASINO.md) 🎪 Main Event week: 0 tables, 0 players · [Grand Casino Aš](GRAND_CASINO_AS.md): 0 tables running · [Olympic Park Tallinn](OLYMPIC_TALLINN.md): couldn't be read at 17:00 · [Olympic Voodoo Riga](OLYMPIC_RIGA.md): couldn't be read at 17:00 · [Olympic Vilnius](OLYMPIC_VILNIUS.md): couldn't be read at 17:00 · [Banco](BANCO.md): 1 table, 7 players
 
-**🎯 Omaha right now:** King's Rozvadov: PLO €2/2 ×2, PLO5 €5/5 (22 players) · [Banco Casino Bratislava](BANCO.md): PLO 4/5 €2/2 (7 players)
+**🎯 Omaha right now:** King's Rozvadov: PLO €2/2 ×2, PLO5 €5/5 (23 players) · [Banco Casino Bratislava](BANCO.md): PLO 4/5 €2/2 (7 players)
 
-**Last check:** 2026-10-22 17:10 — ✅ OK (data feed)  
-**Last 24 h:** 144 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-06 (1943 good checks)
+**Last check:** 2026-10-22 17:20 — ✅ OK (data feed)  
+**Last 24 h:** 144 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-06 (1944 good checks)
 
-## Tables running at 2026-10-22 17:10
+## Tables running at 2026-10-22 17:20
 
 ```
 NLH   €1/2     8/8 players
 NLH   €1/2     8/8 players
-NLH   €1/2     8/8 players
-NLH   €2/4     7/8 players
+NLH   €1/2     7/8 players
+NLH   €2/4     8/8 players
 PLO   €2/2     8/8 players
 PLO   €2/2     7/8 players
-PLO5  €5/5     7/8 players
+PLO5  €5/5     8/8 players
 ```
-**NLH:** 31 players at 4 tables · **PLO:** 15 players at 2 tables · **PLO5:** 7 players at 1 table
+**NLH:** 31 players at 4 tables · **PLO:** 15 players at 2 tables · **PLO5:** 8 players at 1 table
 
-**Tournaments in play:** BPC Morning NLH Turbo Knockout (Bounty 25 ) (NLH, €100, €25 bounty, 12 of 126 left, level 18, blinds 6000/12000/12000) · Satellite to BPC ME - Day 1D (NLH, €40, 61 of 161 left, late reg open, level 8, blinds 400/800/800)
+**Tournaments in play:** BPC Morning NLH Turbo Knockout (Bounty 25 ) (NLH, €100, €25 bounty, 10 of 126 left, level 18, blinds 6000/12000/12000) · Satellite to BPC ME - Day 1D (NLH, €40, 62 of 166 left, level 9, blinds 500/1000/1000)
 
 ## Festivals and schedule
 
@@ -115,7 +115,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 14:00 | 8 | 6 | 9 | 6 | 24 | 34 | 36 | 17 |
 | 15:00 | 10 | 6 | 10 | 11 | 23 | 34 | 41 | 18 |
 | 16:00 | 11 | 9 | 9 | 16 | 31 | 40 | 42 | 22 |
-| 17:00 | 11 | 10 | 10 | 13 | 37 | 47 | 40 | 24 |
+| 17:00 | 11 | 10 | 10 | 15 | 37 | 47 | 40 | 24 |
 | 18:00 | 13 | 9 | 15 | 21 | 41 | 49 | 36 | 26 |
 | 19:00 | 15 | 9 | 17 | 30 | 44 | 54 | 37 | 28 |
 | 20:00 | 16 | 13 | 19 | 39 | 50 | 64 | 37 | 32 |
@@ -144,7 +144,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 14:00 | 0 | 0 | 0 | 4 | 0 | 7 | 8 | 3 |
 | 15:00 | 0 | 1 | 0 | 4 | 0 | 6 | 11 | 3 |
 | 16:00 | 1 | 3 | 0 | 4 | 0 | 4 | 11 | 3 |
-| 17:00 | 0 | 3 | 1 | 4 | 3 | 7 | 10 | 4 |
+| 17:00 | 0 | 3 | 1 | 5 | 3 | 7 | 10 | 4 |
 | 18:00 | 0 | 3 | 3 | 0 | 5 | 8 | 4 | 3 |
 | 19:00 | 0 | 3 | 3 | 0 | 8 | 10 | 4 | 4 |
 | 20:00 | 0 | 3 | 3 | 0 | 8 | 12 | 7 | 5 |
@@ -204,7 +204,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 14:00 | 🟩 82% | 🟥 18% | 🟥 0% | 🟨 25% | 🟥 20% | 🟥 0% | 🟥 4% | 🟥 0% | 84 |
 | 15:00 | 🟩 90% | 🟥 23% | 🟥 0% | 🟨 34% | 🟨 35% | 🟥 1% | 🟥 2% | 🟥 0% | 83 |
 | 16:00 | 🟩 90% | 🟨 26% | 🟥 0% | 🟨 38% | 🟨 48% | 🟥 7% | 🟥 3% | 🟥 0% | 89 |
-| 17:00 | 🟩 89% | 🟥 15% | 🟥 12% | 🟨 50% | 🟨 67% | 🟥 7% | 🟥 4% | 🟥 0% | 82 |
+| 17:00 | 🟩 89% | 🟥 16% | 🟥 12% | 🟨 51% | 🟨 67% | 🟥 7% | 🟥 4% | 🟥 0% | 83 |
 | 18:00 | 🟩 95% | 🟨 30% | 🟥 14% | 🟨 46% | 🟨 73% | 🟥 7% | 🟥 4% | 🟥 0% | 84 |
 | 19:00 | 🟩 91% | 🟨 41% | 🟥 10% | 🟨 51% | 🟩 79% | 🟥 6% | 🟥 7% | 🟥 0% | 82 |
 | 20:00 | 🟩 96% | 🟨 42% | 🟥 5% | 🟨 56% | 🟩 79% | 🟥 7% | 🟥 4% | 🟥 0% | 85 |
@@ -220,12 +220,12 @@ Collecting since 2026-10-08. Shown from 2026-10-22: with fewer than two weeks, t
 
 | Game | Running in | Most often | Last seen |
 |:--|--:|:--|:--|
-| NLH €1/2 | 86% of checks | Thu around 01:00 | 2026-10-22 17:10 |
-| NLH €2/4 | 25% of checks | Fri around 22:00 | 2026-10-22 17:10 |
+| NLH €1/2 | 86% of checks | Thu around 01:00 | 2026-10-22 17:20 |
+| NLH €2/4 | 26% of checks | Fri around 22:00 | 2026-10-22 17:20 |
 | NLH €5/10 | 4% of checks | Sat around 23:00 | 2026-10-17 20:00 |
 | NLH €10/25 | 0% of checks | Tue around 13:00 | 2026-10-20 13:30 |
-| PLO €2/2 | 43% of checks | Fri around 22:00 | 2026-10-22 17:10 |
-| PLO5 €5/5 | 40% of checks | Wed around 01:00 | 2026-10-22 17:10 |
+| PLO €2/2 | 43% of checks | Fri around 22:00 | 2026-10-22 17:20 |
+| PLO5 €5/5 | 40% of checks | Wed around 01:00 | 2026-10-22 17:20 |
 | PLO5 €5/10 | 3% of checks | Sat around 16:00 | 2026-10-18 02:10 |
 | PLO5 €10/10 | 5% of checks | Fri around 23:00 | 2026-10-16 23:50 |
 | PLO5 €10/25 | 1% of checks | Wed around 06:00 | 2026-10-07 10:04 |
@@ -239,8 +239,8 @@ The most recent ones. The game is read from the tournament's name.
 
 | Tournament | Game | Buy-in | Entries | Seen |
 |:--|:--|--:|--:|:--|
-| BPC Morning NLH Turbo Knockout (Bounty 25 ) | NLH | €100 | 126 | 2026-10-22 12:00 → 10-22 17:10 |
-| Satellite to BPC ME - Day 1D | NLH | €40 | 161 | 2026-10-22 15:00 → 10-22 17:10 |
+| BPC Morning NLH Turbo Knockout (Bounty 25 ) | NLH | €100 | 126 | 2026-10-22 12:00 → 10-22 17:20 |
+| Satellite to BPC ME - Day 1D | NLH | €40 | 166 | 2026-10-22 15:00 → 10-22 17:20 |
 | BPC 1Million - Day 1C SPEED | NLH | €295 | 77 | 2026-10-21 18:30 → 10-22 03:20 |
 | Satellite to BPC ME - Day 1C | NLH | €40 | 122 | 2026-10-21 15:00 → 10-21 19:00 |
 | Balkan Poker Circuit 1Million - Day 1B SPEED | NLH | €295 | 53 | 2026-10-20 18:20 → 10-21 04:10 |
@@ -259,11 +259,11 @@ The most recent ones. The game is read from the tournament's name.
 
 | Room | Last check | OK in the last 24 h | Most common problem |
 |:--|:--|--:|:--|
-| King's Rozvadov | ✅ 10-22 17:10 | 144 of 145 | couldn't read the tables on the page |
-| [King's Prague](KINGS_PRAGUE.md) | ✅ 10-22 17:10 | 144 of 145 | King's feed came back empty and that couldn't be confirmed, so it wasn |
-| [Grand Casino Aš](GRAND_CASINO_AS.md) | ✅ 10-22 17:10 | 145 of 145 | · |
-| [Card Casino Šamorín](CARD_CASINO.md) | ✅ 10-22 17:10 | 130 of 145 | Card Casino's site didn't answer |
-| [Banco Casino Bratislava](BANCO.md) | ✅ 10-22 17:10 | 145 of 145 | · |
+| King's Rozvadov | ✅ 10-22 17:20 | 144 of 145 | couldn't read the tables on the page |
+| [King's Prague](KINGS_PRAGUE.md) | ✅ 10-22 17:20 | 144 of 145 | King's feed came back empty and that couldn't be confirmed, so it wasn |
+| [Grand Casino Aš](GRAND_CASINO_AS.md) | ✅ 10-22 17:20 | 145 of 145 | · |
+| [Card Casino Šamorín](CARD_CASINO.md) | ✅ 10-22 17:20 | 130 of 145 | Card Casino's site didn't answer |
+| [Banco Casino Bratislava](BANCO.md) | ✅ 10-22 17:20 | 145 of 145 | · |
 | [Olympic Park Tallinn](OLYMPIC_TALLINN.md) | ⚠️ 10-22 17:00 | 0 of 48 | couldn't read the cash games table (page saved for a closer look) |
 | [Olympic Voodoo Riga](OLYMPIC_RIGA.md) | ⚠️ 10-22 17:00 | 0 of 48 | couldn't read the cash games table (page saved for a closer look) |
 | [Olympic Casino Vilnius](OLYMPIC_VILNIUS.md) | ⚠️ 10-22 17:00 | 0 of 48 | couldn't read the cash games table (page saved for a closer look) |
