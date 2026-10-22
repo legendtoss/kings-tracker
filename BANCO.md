@@ -2,10 +2,10 @@
 
 Checks [its website](https://bancocasino.sk/ba/en) together with King's, about every 10 minutes. All times are **Czech time** (same as Poland and Slovakia). Back to [King's](README.md).
 
-**Last check:** 2026-10-22 07:20 — ✅ OK  
-**Checks so far:** 1277 successful out of 1781 (since 2026-10-10)
+**Last check:** 2026-10-22 07:30 — ✅ OK  
+**Checks so far:** 1278 successful out of 1782 (since 2026-10-10)
 
-## Tables running at 2026-10-22 07:20
+## Tables running at 2026-10-22 07:30
 
 ```
 NLH  €2/5     3 players
@@ -48,7 +48,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 04:00 | 8 | 4 | 1 | 6 | 0 | 11 | 8 | 5 |
 | 05:00 | 6 | 3 | 0 | 6 | 0 | 8 | 8 | 4 |
 | 06:00 | 6 | 2 | 0 | 6 | 0 | 7 | 8 | 4 |
-| 07:00 | 4 | 0 | 0 | 5 | 0 | 6 | 8 | 3 |
+| 07:00 | 4 | 0 | 0 | 4 | 0 | 6 | 8 | 3 |
 | 08:00 | 0 | 0 | 0 | 0 | 0 | 0 | 8 | 1 |
 | 09:00 | 0 | 0 | 0 | 0 | 0 | 0 | 2 | 0 |
 | 10:00 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
@@ -108,7 +108,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 04:00 | 🟨 59% | 🟥 11% | 🟥 11% | 🟥 11% | 🟥 0% | 54 |
 | 05:00 | 🟨 56% | 🟥 11% | 🟥 4% | 🟥 11% | 🟥 0% | 54 |
 | 06:00 | 🟨 45% | 🟥 16% | 🟥 0% | 🟥 11% | 🟥 0% | 55 |
-| 07:00 | 🟨 35% | 🟥 18% | 🟥 0% | 🟥 8% | 🟥 0% | 51 |
+| 07:00 | 🟨 35% | 🟥 19% | 🟥 0% | 🟥 8% | 🟥 0% | 52 |
 | 08:00 | 🟥 12% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 48 |
 | 09:00 | 🟥 4% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 48 |
 | 10:00 | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 48 |
@@ -131,7 +131,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | Game | Running in | Most often | Last seen |
 |:--|--:|:--|:--|
 | NLH €1/3 | 46% of checks | Thu around 01:00 | 2026-10-22 03:10 |
-| NLH €2/5 | 3% of checks | Sat around 07:00 | 2026-10-22 07:20 |
+| NLH €2/5 | 3% of checks | Sat around 07:00 | 2026-10-22 07:30 |
 | PLO 4/5 €2/2 | 23% of checks | Wed around 21:00 | 2026-10-21 22:10 |
 | PLO €25/50 | 6% of checks | Thu around 20:00 | 2026-10-16 07:30 |
 | Dealer's Choice €2/2 | 4% of checks | Thu around 15:00 | 2026-10-16 22:10 |
