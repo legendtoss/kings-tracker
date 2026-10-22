@@ -2,16 +2,16 @@
 
 Reads [Grand Casino Aš's live cash games](https://www.grandcasinoas.eu/en/poker/poker-live) every 10 minutes and its [current tournaments](https://www.grandcasinoas.eu/en/poker) every 30 minutes. All times are **Czech time** (same as Poland). Back to [King's](README.md).
 
-**Last check:** 2026-10-22 18:50 — ✅ OK  
-**Last 24 h:** 145 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-10 (1838 good checks)
+**Last check:** 2026-10-22 19:00 — ✅ OK  
+**Last 24 h:** 145 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-10 (1839 good checks)
 
-## Cash games at 2026-10-22 18:50
+## Cash games at 2026-10-22 19:00
 
 ```
 PLO/NLH           waiting
 ```
 
-**Tournaments in play at 2026-10-22 18:30:** none
+**Tournaments in play at 2026-10-22 19:00:** Thursday 3K (NLH, €60, 20 of 20 left, on a break, late reg open)
 
 ## Festivals and schedule
 
@@ -54,7 +54,7 @@ Average number of running tables (Grand Casino Aš shows which games run, not ho
 | 16:00 | 0.0 | 0.0 | 0.0 | 0.0 | · | 0.0 | 0.0 | 0.0 |
 | 17:00 | 0.0 | 0.0 | 0.0 | 0.0 | · | 0.0 | 0.0 | 0.0 |
 | 18:00 | 0.0 | 0.0 | 0.0 | 0.0 | · | 1.0 | 0.0 | 0.1 |
-| 19:00 | 0.0 | 0.0 | 0.0 | · | · | 2.0 | 0.0 | 0.3 |
+| 19:00 | 0.0 | 0.0 | 0.0 | 0.0 | · | 2.0 | 0.0 | 0.3 |
 | 20:00 | 0.0 | 0.0 | 0.0 | · | · | 2.5 | 1.0 | 0.4 |
 | 21:00 | 0.0 | 0.0 | 0.0 | · | · | 3.0 | 0.8 | 0.5 |
 | 22:00 | 0.0 | 0.0 | 0.0 | · | · | 4.0 | 0.0 | 0.5 |
@@ -85,7 +85,7 @@ Average number of running tables (Grand Casino Aš shows which games run, not ho
 | 16:00 | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 55 |
 | 17:00 | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 54 |
 | 18:00 | 🟥 6% | 🟥 6% | 🟥 0% | 🟥 0% | 54 |
-| 19:00 | 🟥 14% | 🟥 10% | 🟥 0% | 🟥 4% | 49 |
+| 19:00 | 🟥 14% | 🟥 10% | 🟥 0% | 🟥 4% | 50 |
 | 20:00 | 🟥 24% | 🟥 2% | 🟥 0% | 🟥 12% | 49 |
 | 21:00 | 🟥 12% | 🟥 10% | 🟥 0% | 🟥 12% | 49 |
 | 22:00 | 🟥 12% | 🟥 0% | 🟥 0% | 🟥 12% | 49 |
@@ -97,7 +97,7 @@ Average running tables per check on each kind of day, in total and for NLH and O
 
 | Days | Dates | Checks | Tables | NLH | Omaha | vs normal, same hour |
 |:--|:--|--:|--:|--:|--:|--:|
-| Normal days | 10–22 Oct (9 days) | 1260 | 0.2 | 0.1 | 0.0 | +0.0 |
+| Normal days | 10–22 Oct (9 days) | 1261 | 0.2 | 0.1 | 0.0 | +0.0 |
 | 🎪 PLO festival | 15–18 Oct (4 days) | 578 | 0.5 | 0.3 | 0.1 | +0.3 |
 
 ## Tournaments seen
@@ -106,6 +106,7 @@ The most recent ones. The game is read from the tournament's name.
 
 | Tournament | Game | Buy-in | Entries | Seen |
 |:--|:--|--:|--:|:--|
+| Thursday 3K | NLH | €60 | 36 | 2026-10-15 20:00 → 10-22 19:00 |
 | Kickstarter | NLH | €50 | 69 | 2026-10-14 19:30 → 10-22 02:30 |
 | PLO Main Event Final Day | PLO | €340 | 208 | 2026-10-18 16:00 → 10-19 01:00 |
 | PLO Turbo Highroller | PLO | €660 | 30 | 2026-10-18 16:00 → 10-19 00:00 |
@@ -120,7 +121,6 @@ The most recent ones. The game is read from the tournament's name.
 | PLO Main Event 1A | PLO | €340 | 55 | 2026-10-16 21:30 → 10-17 02:00 |
 | PLO Main Event Day 1/A | PLO | €340 | 51 | 2026-10-16 16:30 → 10-16 21:00 |
 | PLO Satellite to Main Event | PLO | €60 | 33 | 2026-10-16 13:30 → 10-16 17:00 |
-| 550er PLO5 Highroller | PLO5 | €550 | 27 | 2026-10-15 20:30 → 10-16 01:00 |
 
 ---
 Raw data: `data/grandcasinoas` (one CSV file per month).
