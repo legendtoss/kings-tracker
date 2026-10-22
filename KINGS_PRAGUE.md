@@ -2,14 +2,14 @@
 
 Prague's tables come in the same King's data feed as Rozvadov's, so they're read at every check (about every 10 minutes) without any extra visits, together with Prague's tournament clocks. All times are **Czech time** (same as Poland). Back to [King's Rozvadov](README.md).
 
-**Last check:** 2026-10-22 19:00 — ✅ OK  
-**Last 24 h:** 144 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-17 (616 good checks)
+**Last check:** 2026-10-22 19:10 — ✅ OK  
+**Last 24 h:** 144 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-17 (617 good checks)
 
-## Tables running at 2026-10-22 19:00
+## Tables running at 2026-10-22 19:10
 
 No tables were running.
 
-**Tournaments in play:** Satellite to King's Prague Mystery Thursday (NLH, €30, 17 of 54 left, level 11, blinds 800/1600/1600)
+**Tournaments in play:** Satellite to King's Prague Mystery Thursday (NLH, €30, 17 of 54 left, level 12, blinds 1000/2000/2000) · King's Prague Mystery Bounty Thursday (NLH, €100, €50 bounty, 9 of 9 left, late reg open)
 
 ## Festivals and schedule
 
@@ -55,7 +55,7 @@ No player data yet.
 | 16:00 | 🟥 0% | 🟥 0% | 29 |
 | 17:00 | 🟥 0% | 🟥 0% | 28 |
 | 18:00 | 🟥 0% | 🟥 0% | 30 |
-| 19:00 | 🟥 0% | 🟥 0% | 27 |
+| 19:00 | 🟥 0% | 🟥 0% | 28 |
 | 20:00 | 🟥 7% | 🟥 0% | 30 |
 | 21:00 | 🟥 20% | 🟥 7% | 30 |
 | 22:00 | 🟨 34% | 🟥 0% | 29 |
@@ -74,7 +74,8 @@ The most recent ones. The game is read from the tournament's name.
 
 | Tournament | Game | Buy-in | Entries | Seen |
 |:--|:--|--:|--:|:--|
-| Satellite to King's Prague Mystery Thursday | NLH | €30 | 73 | 2026-10-21 18:30 → 10-22 19:00 |
+| Satellite to King's Prague Mystery Thursday | NLH | €30 | 73 | 2026-10-21 18:30 → 10-22 19:10 |
+| King's Prague Mystery Bounty Thursday | NLH | €100 | 9 | 2026-10-22 19:10 |
 | King's Prague Beginner's Mystery Bounty | NLH | €30 | 57 | 2026-10-20 18:20 → 10-21 02:20 |
 | King's Prague Beginner's Monday | NLH | €60 | 111 | 2026-10-19 18:00 → 10-20 03:10 |
 | King's Prague Sunday Knockout (Bounty 25 ) | NLH | €55 | 67 | 2026-10-18 17:10 → 10-19 00:50 |
