@@ -2,12 +2,15 @@
 
 Prague's tables come in the same King's data feed as Rozvadov's, so they're read at every check (about every 10 minutes) without any extra visits, together with Prague's tournament clocks. All times are **Czech time** (same as Poland). Back to [King's Rozvadov](README.md).
 
-**Last check:** 2026-10-22 22:20 — ✅ OK  
-**Last 24 h:** 144 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-17 (636 good checks)
+**Last check:** 2026-10-22 22:30 — ✅ OK  
+**Last 24 h:** 144 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-17 (637 good checks)
 
-## Tables running at 2026-10-22 22:20
+## Tables running at 2026-10-22 22:30
 
-No tables were running.
+```
+NLH  €2/4     5/8 players
+```
+**NLH:** 5 players at 1 table
 
 **Tournaments in play:** King's Prague Mystery Bounty Thursday (NLH, €100, €50 bounty, 31 of 50 left, late reg open, level 6, blinds 400/800/800)
 
@@ -58,14 +61,14 @@ No player data yet.
 | 19:00 | 🟥 0% | 🟥 0% | 32 |
 | 20:00 | 🟥 6% | 🟥 0% | 36 |
 | 21:00 | 🟨 31% | 🟥 6% | 36 |
-| 22:00 | 🟨 38% | 🟥 0% | 32 |
+| 22:00 | 🟨 39% | 🟥 0% | 33 |
 | 23:00 | 🟨 36% | 🟥 7% | 28 |
 
 ## All games seen
 
 | Game | Running in | Most often | Last seen |
 |:--|--:|:--|:--|
-| NLH €2/4 | 9% of checks | Sat around 21:00 | 2026-10-22 22:10 |
+| NLH €2/4 | 9% of checks | Sat around 21:00 | 2026-10-22 22:30 |
 | PLO €2/2 | 1% of checks | Tue around 21:00 | 2026-10-21 23:40 |
 
 ## Tournaments seen
@@ -74,7 +77,7 @@ The most recent ones. The game is read from the tournament's name.
 
 | Tournament | Game | Buy-in | Entries | Seen |
 |:--|:--|--:|--:|:--|
-| King's Prague Mystery Bounty Thursday | NLH | €100 | 50 | 2026-10-22 19:10 → 10-22 22:20 |
+| King's Prague Mystery Bounty Thursday | NLH | €100 | 50 | 2026-10-22 19:10 → 10-22 22:30 |
 | Satellite to King's Prague Mystery Thursday | NLH | €30 | 73 | 2026-10-21 18:30 → 10-22 19:50 |
 | King's Prague Beginner's Mystery Bounty | NLH | €30 | 57 | 2026-10-20 18:20 → 10-21 02:20 |
 | King's Prague Beginner's Monday | NLH | €60 | 111 | 2026-10-19 18:00 → 10-20 03:10 |
