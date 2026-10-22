@@ -2,14 +2,14 @@
 
 Checks [its website](https://bancocasino.sk/ba/en) together with King's, about every 10 minutes. All times are **Czech time** (same as Poland and Slovakia). Back to [King's](README.md).
 
-**Last check:** 2026-10-22 23:50 — ✅ OK  
-**Checks so far:** 1376 successful out of 1880 (since 2026-10-10)
+**Last check:** 2026-10-23 00:00 — ✅ OK  
+**Checks so far:** 1377 successful out of 1881 (since 2026-10-10)
 
-## Tables running at 2026-10-22 23:50
+## Tables running at 2026-10-23 00:00
 
 No tables were running.
 
-*The whole list (Banco also shows its Košice casino; the numbers above are Bratislava only):* Košice: NLH €1/3 7 players (buy-in €100), NLH €1/3 7 players (buy-in €100)  
+*The whole list (Banco also shows its Košice casino; the numbers above are Bratislava only):* Košice: NLH €1/3 7 players (buy-in €100), NLH €1/3 6 players (buy-in €100)  
 **Tournaments running:** none
 
 **Note:** Since 13 Oct the tracker reads Banco's cash list and its live tournaments straight from where its page gets them; before that, its page's scripts didn't run in the tracker's browser, so those checks show as errors.
@@ -24,6 +24,8 @@ No Omaha tournaments on the schedule in the next 14 days.
 **Public holidays in the next 30 days** where most players come from (Slovakia, Austria, Hungary): Fri 23 Oct: National Day (Hungary) · Mon 26 Oct: National Day (Austria) · Sun 1 Nov: All Saints' Day (Slovakia, Austria, Hungary).
 
 ## Busiest times so far
+
+*Normal days only: 1 check during festivals, cash-game events or public holidays are compared separately in “Festivals, holidays and normal days” below.*
 
 Day, hour and average seated players (only day-hour slots seen on at least 2 different dates).
 
@@ -122,6 +124,15 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 21:00 | 🟨 74% | 🟥 0% | 🟨 59% | 🟥 10% | 🟥 10% | 61 |
 | 22:00 | 🟩 87% | 🟥 0% | 🟨 48% | 🟥 10% | 🟥 3% | 60 |
 | 23:00 | 🟩 87% | 🟥 0% | 🟨 28% | 🟥 10% | 🟥 0% | 60 |
+
+## Festivals, holidays and normal days
+
+Average seated players per check on each kind of day, in total and for NLH and Omaha games. “vs normal” compares every check with normal days at the same hour, so days that happened to be checked mostly in the evening don't look busier just because evenings are. Festival dates: `calendar.csv`; public holidays: those of the countries most players come from (Slovakia, Austria, Hungary).
+
+| Days | Dates | Checks | Players | NLH | Omaha | vs normal, same hour |
+|:--|:--|--:|--:|--:|--:|--:|
+| Normal days | 13–22 Oct (10 days) | 1376 | 5.8 | 3.6 | 1.9 | +0.0 |
+| 📅 Public holidays | 23 Oct (1 day) | 1 | 0.0 | 0.0 | 0.0 | -11.4 |
 
 ## All games seen
 
