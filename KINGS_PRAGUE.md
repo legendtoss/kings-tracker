@@ -2,17 +2,17 @@
 
 Prague's tables come in the same King's data feed as Rozvadov's, so they're read at every check (about every 10 minutes) without any extra visits, together with Prague's tournament clocks. All times are **Czech time** (same as Poland). Back to [King's Rozvadov](README.md).
 
-**Last check:** 2026-10-23 00:10 — ✅ OK  
-**Last 24 h:** 144 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-17 (647 good checks)
+**Last check:** 2026-10-23 00:20 — ✅ OK  
+**Last 24 h:** 144 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-17 (648 good checks)
 
-## Tables running at 2026-10-23 00:10
+## Tables running at 2026-10-23 00:20
 
 ```
 NLH  €2/4     8/8 players
 ```
 **NLH:** 8 players at 1 table
 
-**Tournaments in play:** King's Prague Mystery Bounty Thursday (NLH, €100, €50 bounty, 25 of 54 left, late reg open, level 10, blinds 1000/2000/2000)
+**Tournaments in play:** King's Prague Mystery Bounty Thursday (NLH, €100, €50 bounty, 24 of 54 left, late reg open, level 10, blinds 1000/2000/2000)
 
 ## Festivals and schedule
 
@@ -37,7 +37,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 
 | Hour | Mon | Tue | Wed | Thu | Fri | Sat | Sun | All days |
 |:--|--:|--:|--:|--:|--:|--:|--:|--:|
-| 00:00 | 0 | 0 | 0 | 2 | 8 | · | 8 | 2 |
+| 00:00 | 0 | 0 | 0 | 2 | 8 | · | 8 | 3 |
 | 01:00 | 0 | 0 | 0 | 4 | · | · | 4 | 2 |
 | 02:00 | 0 | 0 | 0 | 0 | · | · | 0 | 0 |
 | 03:00 | 0 | 0 | 0 | 0 | · | · | 0 | 0 |
@@ -68,7 +68,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 
 | Hour | NLH €2/4 | PLO €2/2 | Checks |
 |:--|--:|--:|--:|
-| 00:00 | 🟨 44% | 🟥 0% | 32 |
+| 00:00 | 🟨 45% | 🟥 0% | 33 |
 | 01:00 | 🟨 30% | 🟥 0% | 30 |
 | 02:00 | 🟥 0% | 🟥 0% | 30 |
 | 03:00 | 🟥 0% | 🟥 0% | 29 |
@@ -97,7 +97,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 
 | Game | Running in | Most often | Last seen |
 |:--|--:|:--|:--|
-| NLH €2/4 | 10% of checks | Sat around 21:00 | 2026-10-23 00:10 |
+| NLH €2/4 | 10% of checks | Sat around 21:00 | 2026-10-23 00:20 |
 | PLO €2/2 | 1% of checks | Tue around 21:00 | 2026-10-21 23:40 |
 
 ## Tournaments seen
@@ -106,7 +106,7 @@ The most recent ones. The game is read from the tournament's name.
 
 | Tournament | Game | Buy-in | Entries | Seen |
 |:--|:--|--:|--:|:--|
-| King's Prague Mystery Bounty Thursday | NLH | €100 | 54 | 2026-10-22 19:10 → 10-23 00:10 |
+| King's Prague Mystery Bounty Thursday | NLH | €100 | 54 | 2026-10-22 19:10 → 10-23 00:20 |
 | Satellite to King's Prague Mystery Thursday | NLH | €30 | 73 | 2026-10-21 18:30 → 10-22 19:50 |
 | King's Prague Beginner's Mystery Bounty | NLH | €30 | 57 | 2026-10-20 18:20 → 10-21 02:20 |
 | King's Prague Beginner's Monday | NLH | €60 | 111 | 2026-10-19 18:00 → 10-20 03:10 |
