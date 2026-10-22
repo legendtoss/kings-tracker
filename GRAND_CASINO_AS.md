@@ -2,14 +2,14 @@
 
 Reads [Grand Casino Aš's live cash games](https://www.grandcasinoas.eu/en/poker/poker-live) every 10 minutes and its [current tournaments](https://www.grandcasinoas.eu/en/poker) every 30 minutes. All times are **Czech time** (same as Poland). Back to [King's](README.md).
 
-**Last check:** 2026-10-22 03:50 — ✅ OK  
-**Last 24 h:** 144 of 144 checks OK, longest gap 0 h 20 min · **Collecting since:** 2026-10-10 (1748 good checks)
+**Last check:** 2026-10-22 04:00 — ✅ OK  
+**Last 24 h:** 144 of 144 checks OK, longest gap 0 h 20 min · **Collecting since:** 2026-10-10 (1749 good checks)
 
-## Cash games at 2026-10-22 03:50
+## Cash games at 2026-10-22 04:00
 
 No cash games listed.
 
-**Tournaments in play at 2026-10-22 03:30:** none
+**Tournaments in play at 2026-10-22 04:00:** none
 
 ## Festivals and schedule
 
@@ -37,7 +37,7 @@ Average number of running tables (Grand Casino Aš shows which games run, not ho
 | 01:00 | 0.0 | 0.0 | 0.0 | 0.0 | · | · | 4.7 | 0.6 |
 | 02:00 | 0.0 | 0.0 | 0.0 | 0.0 | · | · | 3.5 | 0.4 |
 | 03:00 | 0.0 | 0.0 | 0.0 | 0.0 | · | 2.0 | 3.7 | 0.5 |
-| 04:00 | 0.0 | 0.0 | 0.0 | · | · | 2.0 | 3.0 | 0.6 |
+| 04:00 | 0.0 | 0.0 | 0.0 | 0.0 | · | 2.0 | 3.0 | 0.6 |
 | 05:00 | 0.0 | 0.0 | 0.0 | · | · | 1.5 | 0.3 | 0.2 |
 | 06:00 | 0.0 | 0.0 | 0.0 | · | · | 0.8 | 0.0 | 0.1 |
 | 07:00 | 0.0 | 0.0 | 0.0 | · | · | 0.0 | 0.0 | 0.0 |
@@ -68,7 +68,7 @@ Average number of running tables (Grand Casino Aš shows which games run, not ho
 | 01:00 | 🟥 12% | 🟥 0% | 🟥 0% | 🟥 12% | 49 |
 | 02:00 | 🟥 12% | 🟥 0% | 🟥 0% | 🟥 12% | 48 |
 | 03:00 | 🟥 16% | 🟥 0% | 🟥 8% | 🟥 12% | 50 |
-| 04:00 | 🟥 24% | 🟥 0% | 🟥 8% | 🟥 8% | 50 |
+| 04:00 | 🟥 24% | 🟥 0% | 🟥 8% | 🟥 8% | 51 |
 | 05:00 | 🟥 17% | 🟥 0% | 🟥 0% | 🟥 0% | 48 |
 | 06:00 | 🟥 10% | 🟥 0% | 🟥 0% | 🟥 0% | 49 |
 | 07:00 | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 49 |
@@ -95,7 +95,7 @@ Average running tables per check on each kind of day, in total and for NLH and O
 
 | Days | Dates | Checks | Tables | NLH | Omaha | vs normal, same hour |
 |:--|:--|--:|--:|--:|--:|--:|
-| Normal days | 10–22 Oct (9 days) | 1170 | 0.2 | 0.2 | 0.0 | +0.0 |
+| Normal days | 10–22 Oct (9 days) | 1171 | 0.2 | 0.2 | 0.0 | +0.0 |
 | 🎪 PLO festival | 15–18 Oct (4 days) | 578 | 0.5 | 0.3 | 0.1 | +0.3 |
 
 ## Tournaments seen
