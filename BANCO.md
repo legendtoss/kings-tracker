@@ -2,10 +2,10 @@
 
 Checks [its website](https://bancocasino.sk/ba/en) together with King's, about every 10 minutes. All times are **Czech time** (same as Poland and Slovakia). Back to [King's](README.md).
 
-**Last check:** 2026-10-22 04:00 — ✅ OK  
-**Checks so far:** 1257 successful out of 1761 (since 2026-10-10)
+**Last check:** 2026-10-22 04:10 — ✅ OK  
+**Checks so far:** 1258 successful out of 1762 (since 2026-10-10)
 
-## Tables running at 2026-10-22 04:00
+## Tables running at 2026-10-22 04:10
 
 ```
 NLH  €2/5     5 players
@@ -45,7 +45,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 01:00 | 7 | 13 | 4 | 11 | 6 | 14 | 7 | 8 |
 | 02:00 | 7 | 13 | 4 | 11 | 6 | 13 | 7 | 9 |
 | 03:00 | 7 | 8 | 4 | 7 | 5 | 14 | 8 | 7 |
-| 04:00 | 8 | 4 | 1 | 8 | 0 | 11 | 8 | 5 |
+| 04:00 | 8 | 4 | 1 | 7 | 0 | 11 | 8 | 5 |
 | 05:00 | 6 | 3 | 0 | 8 | 0 | 8 | 8 | 4 |
 | 06:00 | 6 | 2 | 0 | 8 | 0 | 7 | 8 | 4 |
 | 07:00 | 4 | 0 | 0 | 6 | 0 | 6 | 8 | 3 |
@@ -105,7 +105,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 01:00 | 🟩 88% | 🟥 0% | 🟥 23% | 🟥 11% | 🟥 0% | 56 |
 | 02:00 | 🟩 89% | 🟥 0% | 🟥 22% | 🟥 11% | 🟥 0% | 54 |
 | 03:00 | 🟩 80% | 🟥 7% | 🟥 22% | 🟥 11% | 🟥 0% | 55 |
-| 04:00 | 🟨 65% | 🟥 2% | 🟥 12% | 🟥 12% | 🟥 0% | 49 |
+| 04:00 | 🟨 64% | 🟥 4% | 🟥 12% | 🟥 12% | 🟥 0% | 50 |
 | 05:00 | 🟨 62% | 🟥 0% | 🟥 4% | 🟥 12% | 🟥 0% | 48 |
 | 06:00 | 🟨 51% | 🟥 6% | 🟥 0% | 🟥 12% | 🟥 0% | 49 |
 | 07:00 | 🟨 38% | 🟥 12% | 🟥 0% | 🟥 8% | 🟥 0% | 48 |
@@ -131,7 +131,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | Game | Running in | Most often | Last seen |
 |:--|--:|:--|:--|
 | NLH €1/3 | 47% of checks | Thu around 01:00 | 2026-10-22 03:10 |
-| NLH €2/5 | 1% of checks | Sat around 07:00 | 2026-10-22 04:00 |
+| NLH €2/5 | 1% of checks | Sat around 07:00 | 2026-10-22 04:10 |
 | PLO 4/5 €2/2 | 23% of checks | Wed around 21:00 | 2026-10-21 22:10 |
 | PLO €25/50 | 6% of checks | Thu around 20:00 | 2026-10-16 07:30 |
 | Dealer's Choice €2/2 | 4% of checks | Thu around 15:00 | 2026-10-16 22:10 |
