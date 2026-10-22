@@ -2,10 +2,10 @@
 
 Checks [its website](https://bancocasino.sk/ba/en) together with King's, about every 10 minutes. All times are **Czech time** (same as Poland and Slovakia). Back to [King's](README.md).
 
-**Last check:** 2026-10-22 21:00 — ✅ OK  
-**Checks so far:** 1359 successful out of 1863 (since 2026-10-10)
+**Last check:** 2026-10-22 21:10 — ✅ OK  
+**Checks so far:** 1360 successful out of 1864 (since 2026-10-10)
 
-## Tables running at 2026-10-22 21:00
+## Tables running at 2026-10-22 21:10
 
 ```
 NLH      €1/3     5 players
@@ -63,7 +63,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 18:00 | 4 | 0 | 6 | 4 | 0 | 2 | 4 | 3 |
 | 19:00 | 3 | 0 | 0 | 5 | 0 | 6 | 8 | 3 |
 | 20:00 | 4 | 0 | 0 | 6 | 0 | 7 | 9 | 3 |
-| 21:00 | 7 | 3 | 0 | 7 | 4 | 8 | 15 | 5 |
+| 21:00 | 7 | 3 | 0 | 6 | 4 | 8 | 15 | 5 |
 | 22:00 | 8 | 7 | 3 | 8 | 6 | 8 | 13 | 7 |
 | 23:00 | 8 | 7 | 6 | 7 | 9 | 12 | 11 | 8 |
 
@@ -123,7 +123,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 18:00 | 🟨 55% | 🟥 0% | 🟨 52% | 🟥 0% | 🟥 10% | 60 |
 | 19:00 | 🟨 50% | 🟥 0% | 🟨 58% | 🟥 2% | 🟥 10% | 60 |
 | 20:00 | 🟨 53% | 🟥 0% | 🟨 47% | 🟥 10% | 🟥 10% | 60 |
-| 21:00 | 🟨 71% | 🟥 0% | 🟨 55% | 🟥 11% | 🟥 11% | 56 |
+| 21:00 | 🟨 72% | 🟥 0% | 🟨 56% | 🟥 11% | 🟥 11% | 57 |
 | 22:00 | 🟩 85% | 🟥 0% | 🟨 48% | 🟥 11% | 🟥 4% | 54 |
 | 23:00 | 🟩 96% | 🟥 0% | 🟨 31% | 🟥 11% | 🟥 0% | 54 |
 
@@ -131,9 +131,9 @@ Seated players at each game's tables. 0 = that game wasn't running.
 
 | Game | Running in | Most often | Last seen |
 |:--|--:|:--|:--|
-| NLH €1/3 | 44% of checks | Thu around 01:00 | 2026-10-22 21:00 |
+| NLH €1/3 | 44% of checks | Thu around 01:00 | 2026-10-22 21:10 |
 | NLH €2/5 | 3% of checks | Sat around 07:00 | 2026-10-22 07:40 |
-| PLO 4/5 €2/2 | 24% of checks | Wed around 21:00 | 2026-10-22 21:00 |
+| PLO 4/5 €2/2 | 24% of checks | Wed around 21:00 | 2026-10-22 21:10 |
 | PLO €25/50 | 5% of checks | Thu around 20:00 | 2026-10-16 07:30 |
 | Dealer's Choice €2/2 | 4% of checks | Thu around 15:00 | 2026-10-16 22:10 |
 
