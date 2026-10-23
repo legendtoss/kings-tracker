@@ -2,10 +2,10 @@
 
 Checks [its website](https://bancocasino.sk/ba/en) together with King's, about every 10 minutes. All times are **Czech time** (same as Poland and Slovakia). Back to [King's](README.md).
 
-**Last check:** 2026-10-23 15:20 — ✅ OK  
-**Checks so far:** 1469 successful out of 1973 (since 2026-10-10)
+**Last check:** 2026-10-23 15:30 — ✅ OK  
+**Checks so far:** 1470 successful out of 1974 (since 2026-10-10)
 
-## Tables running at 2026-10-23 15:20
+## Tables running at 2026-10-23 15:30
 
 No tables were running.
 
@@ -25,7 +25,7 @@ No Omaha tournaments on the schedule in the next 14 days.
 
 ## Busiest times so far
 
-*Normal days only: 93 checks during festivals, cash-game events or public holidays are compared separately in “Festivals, holidays and normal days” below.*
+*Normal days only: 94 checks during festivals, cash-game events or public holidays are compared separately in “Festivals, holidays and normal days” below.*
 
 Day, hour and average seated players (only day-hour slots seen on at least 2 different dates).
 
@@ -132,13 +132,13 @@ Average seated players per check on each kind of day, in total and for NLH and O
 | Days | Dates | Checks | Players | NLH | Omaha | vs normal, same hour |
 |:--|:--|--:|--:|--:|--:|--:|
 | Normal days | 13–22 Oct (10 days) | 1376 | 5.8 | 3.6 | 1.9 | +0.0 |
-| 📅 Public holidays | 23 Oct (1 day) | 93 | 0.0 | 0.0 | 0.0 | -4.7 |
+| 📅 Public holidays | 23 Oct (1 day) | 94 | 0.0 | 0.0 | 0.0 | -4.7 |
 
 ## All games seen
 
 | Game | Running in | Most often | Last seen |
 |:--|--:|:--|:--|
-| NLH €1/3 | 42% of checks | Thu around 01:00 | 2026-10-22 22:50 |
+| NLH €1/3 | 41% of checks | Thu around 01:00 | 2026-10-22 22:50 |
 | NLH €2/5 | 2% of checks | Sat around 07:00 | 2026-10-22 07:40 |
 | PLO 4/5 €2/2 | 23% of checks | Wed around 21:00 | 2026-10-22 22:20 |
 | PLO €25/50 | 5% of checks | Thu around 20:00 | 2026-10-16 07:30 |
