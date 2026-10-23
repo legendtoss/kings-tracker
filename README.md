@@ -2,24 +2,24 @@
 
 Checks King's live cash games and tournaments about every 10 minutes and updates this page by itself. All times are **Czech time** (same as Poland). Also tracking: [King's Prague](KINGS_PRAGUE.md) · [Card Casino Šamorín](CARD_CASINO.md) · [Grand Casino Aš](GRAND_CASINO_AS.md) · [Banco Casino Bratislava](BANCO.md) · [Olympic Park Tallinn](OLYMPIC_TALLINN.md) · [Olympic Voodoo Riga](OLYMPIC_RIGA.md) · [Olympic Casino Vilnius](OLYMPIC_VILNIUS.md).
 
-**Right now:** King's: 4 tables, 29 players · [King's Prague](KINGS_PRAGUE.md): 0 tables, 0 players · [Card Casino Šamorín](CARD_CASINO.md) 🎪 Main Event week: 4 tables, 28 players · [Grand Casino Aš](GRAND_CASINO_AS.md): 0 tables running · [Olympic Park Tallinn](OLYMPIC_TALLINN.md): couldn't be read at 03:00 · [Olympic Voodoo Riga](OLYMPIC_RIGA.md): couldn't be read at 03:00 · [Olympic Vilnius](OLYMPIC_VILNIUS.md): couldn't be read at 03:00 · [Banco](BANCO.md) 📅 public holiday: 0 tables, 0 players
+**Right now:** King's: 4 tables, 28 players · [King's Prague](KINGS_PRAGUE.md): 0 tables, 0 players · [Card Casino Šamorín](CARD_CASINO.md) 🎪 Main Event week: 4 tables, 24 players · [Grand Casino Aš](GRAND_CASINO_AS.md): 0 tables running · [Olympic Park Tallinn](OLYMPIC_TALLINN.md): couldn't be read at 03:00 · [Olympic Voodoo Riga](OLYMPIC_RIGA.md): couldn't be read at 03:00 · [Olympic Vilnius](OLYMPIC_VILNIUS.md): couldn't be read at 03:00 · [Banco](BANCO.md) 📅 public holiday: 0 tables, 0 players
 
-**🎯 Omaha right now:** [Card Casino Šamorín](CARD_CASINO.md): PLO €2/2 (7 players)
+**🎯 Omaha right now:** [Card Casino Šamorín](CARD_CASINO.md): PLO €2/2 (6 players)
 
-**Last check:** 2026-10-23 03:10 — ✅ OK (data feed)  
-**Last 24 h:** 144 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-06 (2003 good checks)
+**Last check:** 2026-10-23 03:20 — ✅ OK (data feed)  
+**Last 24 h:** 144 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-06 (2004 good checks)
 
-## Tables running at 2026-10-23 03:10
+## Tables running at 2026-10-23 03:20
 
 ```
+NLH  €1/2     6/8 players
+NLH  €1/2     7/8 players
 NLH  €1/2     8/8 players
-NLH  €1/2     7/8 players
-NLH  €1/2     7/8 players
 NLH  €2/4     7/8 players
 ```
-**NLH:** 29 players at 4 tables
+**NLH:** 28 players at 4 tables
 
-**Tournaments in play:** BPC 1Million - Day 1D SPEED (NLH, €295, 21 of 207 left, level 16, blinds 6000/12000/12000)
+**Tournaments in play:** none
 
 ## Festivals and schedule
 
@@ -187,7 +187,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 00:00 | 🟩 97% | 🟨 46% | 🟥 7% | 🟩 85% | 🟨 74% | 🟥 7% | 🟥 10% | 🟥 0% | 91 |
 | 01:00 | 🟩 97% | 🟨 51% | 🟥 4% | 🟨 72% | 🟨 66% | 🟥 6% | 🟥 6% | 🟥 0% | 93 |
 | 02:00 | 🟩 93% | 🟨 46% | 🟥 0% | 🟨 55% | 🟨 63% | 🟥 2% | 🟥 5% | 🟥 0% | 91 |
-| 03:00 | 🟩 88% | 🟨 25% | 🟥 0% | 🟨 44% | 🟨 54% | 🟥 0% | 🟥 0% | 🟥 0% | 84 |
+| 03:00 | 🟩 88% | 🟨 26% | 🟥 0% | 🟨 44% | 🟨 53% | 🟥 0% | 🟥 0% | 🟥 0% | 85 |
 | 04:00 | 🟩 82% | 🟥 17% | 🟥 2% | 🟨 28% | 🟨 36% | 🟥 0% | 🟥 2% | 🟥 0% | 89 |
 | 05:00 | 🟩 83% | 🟥 17% | 🟥 4% | 🟥 20% | 🟨 25% | 🟥 0% | 🟥 4% | 🟥 2% | 84 |
 | 06:00 | 🟩 77% | 🟥 18% | 🟥 4% | 🟥 22% | 🟥 9% | 🟥 0% | 🟥 4% | 🟥 4% | 82 |
@@ -215,7 +215,7 @@ Cash players grouped by how many players were still in tournaments at the time. 
 
 | Tournament players in action | Checks | Avg cash players | vs usual for that hour |
 |:--|--:|--:|--:|
-| none | 667 | 10 | -4 |
+| none | 668 | 10 | -4 |
 | 1–49 | 508 | 27 | -13 |
 | 50–149 | 382 | 44 | +9 |
 | 150 or more | 298 | 59 | +23 |
@@ -226,7 +226,7 @@ NLH and PLO cash players depending on which tournament games were running. The g
 
 | Tournaments in play | Checks | NLH cash players | vs usual | PLO cash players | vs usual |
 |:--|--:|--:|--:|--:|--:|
-| none | 667 | 8 | -3 | 2 | -1 |
+| none | 668 | 8 | -3 | 2 | -1 |
 | only NLH tournaments | 1086 | 28 | +0 | 10 | +0 |
 | a PLO tournament | 73 | 48 | +23 | 16 | +7 |
 | other tournament games | 29 | 41 | +24 | 13 | +8 |
@@ -235,8 +235,8 @@ NLH and PLO cash players depending on which tournament games were running. The g
 
 | Game | Running in | Most often | Last seen |
 |:--|--:|:--|:--|
-| NLH €1/2 | 86% of checks | Thu around 01:00 | 2026-10-23 03:10 |
-| NLH €2/4 | 28% of checks | Thu around 22:00 | 2026-10-23 03:10 |
+| NLH €1/2 | 86% of checks | Thu around 01:00 | 2026-10-23 03:20 |
+| NLH €2/4 | 28% of checks | Thu around 22:00 | 2026-10-23 03:20 |
 | NLH €5/10 | 4% of checks | Sat around 23:00 | 2026-10-22 21:50 |
 | NLH €10/25 | 0% of checks | Tue around 13:00 | 2026-10-20 13:30 |
 | PLO €2/2 | 44% of checks | Fri around 22:00 | 2026-10-23 02:10 |
@@ -274,11 +274,11 @@ The most recent ones. The game is read from the tournament's name.
 
 | Room | Last check | OK in the last 24 h | Most common problem |
 |:--|:--|--:|:--|
-| King's Rozvadov | ✅ 10-23 03:10 | 144 of 145 | couldn't read the tables on the page |
-| [King's Prague](KINGS_PRAGUE.md) | ✅ 10-23 03:10 | 144 of 145 | King's feed came back empty and that couldn't be confirmed, so it wasn |
-| [Grand Casino Aš](GRAND_CASINO_AS.md) | ✅ 10-23 03:10 | 145 of 145 | · |
-| [Card Casino Šamorín](CARD_CASINO.md) | ✅ 10-23 03:10 | 133 of 145 | Card Casino's site didn't answer |
-| [Banco Casino Bratislava](BANCO.md) | ✅ 10-23 03:10 | 145 of 145 | · |
+| King's Rozvadov | ✅ 10-23 03:20 | 144 of 145 | couldn't read the tables on the page |
+| [King's Prague](KINGS_PRAGUE.md) | ✅ 10-23 03:20 | 144 of 145 | King's feed came back empty and that couldn't be confirmed, so it wasn |
+| [Grand Casino Aš](GRAND_CASINO_AS.md) | ✅ 10-23 03:20 | 145 of 145 | · |
+| [Card Casino Šamorín](CARD_CASINO.md) | ✅ 10-23 03:20 | 133 of 145 | Card Casino's site didn't answer |
+| [Banco Casino Bratislava](BANCO.md) | ✅ 10-23 03:20 | 145 of 145 | · |
 | [Olympic Park Tallinn](OLYMPIC_TALLINN.md) | ⚠️ 10-23 03:00 | 0 of 48 | couldn't read the cash games table (page saved for a closer look) |
 | [Olympic Voodoo Riga](OLYMPIC_RIGA.md) | ⚠️ 10-23 03:00 | 0 of 48 | couldn't read the cash games table (page saved for a closer look) |
 | [Olympic Casino Vilnius](OLYMPIC_VILNIUS.md) | ⚠️ 10-23 03:00 | 0 of 48 | couldn't read the cash games table (page saved for a closer look) |
