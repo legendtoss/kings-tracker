@@ -2,12 +2,12 @@
 
 Checks King's live cash games and tournaments about every 10 minutes and updates this page by itself. All times are **Czech time** (same as Poland). Also tracking: [King's Prague](KINGS_PRAGUE.md) · [Card Casino Šamorín](CARD_CASINO.md) · [Grand Casino Aš](GRAND_CASINO_AS.md) · [Banco Casino Bratislava](BANCO.md) · [Olympic Park Tallinn](OLYMPIC_TALLINN.md) · [Olympic Voodoo Riga](OLYMPIC_RIGA.md) · [Olympic Casino Vilnius](OLYMPIC_VILNIUS.md).
 
-**Right now:** King's: 16 tables, 118 players · [King's Prague](KINGS_PRAGUE.md): 0 tables, 0 players · [Card Casino Šamorín](CARD_CASINO.md) 🎪 Main Event week: 2 tables, 16 players · [Grand Casino Aš](GRAND_CASINO_AS.md): 0 tables running, 1 waiting · [Olympic Park Tallinn](OLYMPIC_TALLINN.md): couldn't be read at 20:00 · [Olympic Voodoo Riga](OLYMPIC_RIGA.md): couldn't be read at 20:00 · [Olympic Vilnius](OLYMPIC_VILNIUS.md): couldn't be read at 20:00 · [Banco](BANCO.md) 📅 public holiday: 2 tables, 13 players
+**Right now:** King's: couldn't be read · [King's Prague](KINGS_PRAGUE.md): couldn't be read · [Card Casino Šamorín](CARD_CASINO.md) 🎪 Main Event week: 2 tables, 16 players · [Grand Casino Aš](GRAND_CASINO_AS.md): 0 tables running, 1 waiting · [Olympic Park Tallinn](OLYMPIC_TALLINN.md): couldn't be read at 20:00 · [Olympic Voodoo Riga](OLYMPIC_RIGA.md): couldn't be read at 20:00 · [Olympic Vilnius](OLYMPIC_VILNIUS.md): couldn't be read at 20:00 · [Banco](BANCO.md) 📅 public holiday: 2 tables, 13 players
 
 **🎯 Omaha right now:** King's Rozvadov: PLO €2/2 ×3, PLO5 €5/5 ×2 (38 players) · [Banco Casino Bratislava](BANCO.md): PLO 4/5 €2/2 (7 players)
 
-**Last check:** 2026-10-23 20:10 — ✅ OK (data feed)  
-**Last 24 h:** 140 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-06 (2100 good checks)
+**Last check:** 2026-10-23 20:20 — ⚠️ error: couldn't read the tables on the page — details in `debug/last_problem.json`  
+**Last 24 h:** 139 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-06 (2100 good checks)
 
 ## Tables running at 2026-10-23 20:10
 
@@ -266,9 +266,9 @@ The most recent ones. The game is read from the tournament's name.
 
 | Tournament | Game | Buy-in | Entries | Seen |
 |:--|:--|--:|--:|:--|
-| BPC 1Million - Day 1E | NLH | €295 | 393 | 2026-10-23 11:00 → 10-23 20:10 |
-| BPC Pot Limit Omaha 8-max ONEDAY | PLO | €350 | 71 | 2026-10-23 14:00 → 10-23 20:10 |
-| BPC 1Million - Day 1F SPEED | NLH | €295 | 151 | 2026-10-23 18:00 → 10-23 20:10 |
+| BPC 1Million - Day 1E | NLH | €295 | 393 | 2026-10-23 11:00 → 10-23 20:20 |
+| BPC Pot Limit Omaha 8-max ONEDAY | PLO | €350 | 71 | 2026-10-23 14:00 → 10-23 20:20 |
+| BPC 1Million - Day 1F SPEED | NLH | €295 | 152 | 2026-10-23 18:00 → 10-23 20:20 |
 | Flip n Go Satellite (9 handed) to Balkan Poker Circuit | NLH | €40 | 54 | 2026-10-23 17:00 → 10-23 18:50 |
 | BPC 1Million - Day 1D SPEED | NLH | €295 | 207 | 2026-10-22 18:00 → 10-23 03:10 |
 | Satellite to BPC ME - Day 1D | NLH | €40 | 166 | 2026-10-22 15:00 → 10-22 19:10 |
@@ -286,11 +286,11 @@ The most recent ones. The game is read from the tournament's name.
 
 | Room | Last check | OK in the last 24 h | Most common problem |
 |:--|:--|--:|:--|
-| King's Rozvadov | ✅ 10-23 20:10 | 140 of 145 | couldn't read the tables on the page |
-| [King's Prague](KINGS_PRAGUE.md) | ✅ 10-23 20:10 | 140 of 145 | King's feed came back empty and that couldn't be confirmed, so it wasn |
-| [Grand Casino Aš](GRAND_CASINO_AS.md) | ✅ 10-23 20:10 | 145 of 145 | · |
-| [Card Casino Šamorín](CARD_CASINO.md) | ✅ 10-23 20:10 | 134 of 145 | Card Casino's site didn't answer |
-| [Banco Casino Bratislava](BANCO.md) | ✅ 10-23 20:10 | 145 of 145 | · |
+| King's Rozvadov | ⚠️ 10-23 20:20 | 139 of 145 | couldn't read the tables on the page |
+| [King's Prague](KINGS_PRAGUE.md) | ⚠️ 10-23 20:20 | 139 of 145 | King's feed came back empty and that couldn't be confirmed, so it wasn |
+| [Grand Casino Aš](GRAND_CASINO_AS.md) | ✅ 10-23 20:20 | 145 of 145 | · |
+| [Card Casino Šamorín](CARD_CASINO.md) | ✅ 10-23 20:20 | 134 of 145 | Card Casino's site didn't answer |
+| [Banco Casino Bratislava](BANCO.md) | ✅ 10-23 20:20 | 145 of 145 | · |
 | [Olympic Park Tallinn](OLYMPIC_TALLINN.md) | ⚠️ 10-23 20:00 | 0 of 48 | couldn't read the cash games table (page saved for a closer look) |
 | [Olympic Voodoo Riga](OLYMPIC_RIGA.md) | ⚠️ 10-23 20:00 | 0 of 48 | couldn't read the cash games table (page saved for a closer look) |
 | [Olympic Casino Vilnius](OLYMPIC_VILNIUS.md) | ⚠️ 10-23 20:00 | 0 of 48 | couldn't read the cash games table (page saved for a closer look) |
