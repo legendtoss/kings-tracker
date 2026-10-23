@@ -2,10 +2,10 @@
 
 Prague's tables come in the same King's data feed as Rozvadov's, so they're read at every check (about every 10 minutes) without any extra visits, together with Prague's tournament clocks. All times are **Czech time** (same as Poland). Back to [King's Rozvadov](README.md).
 
-**Last check:** 2026-10-24 01:10 — ✅ OK  
-**Last 24 h:** 139 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-17 (791 good checks)
+**Last check:** 2026-10-24 01:20 — ✅ OK  
+**Last 24 h:** 139 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-17 (792 good checks)
 
-## Tables running at 2026-10-24 01:10
+## Tables running at 2026-10-24 01:20
 
 ```
 NLH  €2/4     6/8 players
@@ -13,7 +13,7 @@ NLH  €2/4     6/8 players
 ```
 **NLH:** 12 players at 2 tables
 
-**Tournaments in play:** BPC 1Million - Day 1 PRAGUE (NLH, €295, 26 of 79 left, level 11, blinds 2000/4000/4000)
+**Tournaments in play:** BPC 1Million - Day 1 PRAGUE (NLH, €295, 25 of 79 left, level 12, blinds 2500/5000/5000)
 
 ## Festivals and schedule
 
@@ -69,7 +69,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | Hour | NLH €2/4 | PLO €2/2 | Checks |
 |:--|--:|--:|--:|
 | 00:00 | 🟨 57% | 🟥 0% | 42 |
-| 01:00 | 🟨 45% | 🟥 0% | 38 |
+| 01:00 | 🟨 46% | 🟥 0% | 39 |
 | 02:00 | 🟥 3% | 🟥 0% | 36 |
 | 03:00 | 🟥 0% | 🟥 0% | 34 |
 | 04:00 | 🟥 0% | 🟥 0% | 35 |
@@ -97,7 +97,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 
 | Game | Running in | Most often | Last seen |
 |:--|--:|:--|:--|
-| NLH €2/4 | 13% of checks | Sat around 21:00 | 2026-10-24 01:10 |
+| NLH €2/4 | 13% of checks | Sat around 21:00 | 2026-10-24 01:20 |
 | PLO €2/2 | 1% of checks | Tue around 21:00 | 2026-10-21 23:40 |
 
 ## Tournaments seen
@@ -106,7 +106,7 @@ The most recent ones. The game is read from the tournament's name.
 
 | Tournament | Game | Buy-in | Entries | Seen |
 |:--|:--|--:|--:|:--|
-| BPC 1Million - Day 1 PRAGUE | NLH | €295 | 79 | 2026-10-23 19:10 → 10-24 01:10 |
+| BPC 1Million - Day 1 PRAGUE | NLH | €295 | 79 | 2026-10-23 19:10 → 10-24 01:20 |
 | Satellite to BPC ME - Day 1 PRAGUE | NLH | €40 | 90 | 2026-10-23 16:10 → 10-23 20:00 |
 | King's Prague Mystery Bounty Thursday | NLH | €100 | 57 | 2026-10-22 19:10 → 10-23 04:50 |
 | Satellite to King's Prague Mystery Thursday | NLH | €30 | 73 | 2026-10-21 18:30 → 10-22 19:50 |
