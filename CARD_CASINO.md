@@ -2,10 +2,10 @@
 
 Reads [Card Casino's live cash-game list](https://www.cardcasino.sk/en/cashgames/) together with King's, about every 10 minutes. All times are **Czech time** (same as Poland and Slovakia). Back to [King's](README.md).
 
-**Last check:** 2026-10-23 15:00 — ✅ OK (live list)  
-**Last 24 h:** 134 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-10 (1687 good checks)
+**Last check:** 2026-10-23 15:10 — ✅ OK (live list)  
+**Last 24 h:** 134 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-10 (1688 good checks)
 
-## Tables running at 2026-10-23 15:00
+## Tables running at 2026-10-23 15:10
 
 No tables were running.
 
@@ -20,7 +20,7 @@ No Omaha tournaments on the schedule in the next 14 days.
 
 ## Busiest times so far
 
-*Normal days only: 704 checks during festivals, cash-game events or public holidays are compared separately in “Festivals, holidays and normal days” below.*
+*Normal days only: 705 checks during festivals, cash-game events or public holidays are compared separately in “Festivals, holidays and normal days” below.*
 
 Day, hour and average seated players (only day-hour slots seen on at least 2 different dates).
 
@@ -157,7 +157,7 @@ Average seated players per check on each kind of day, in total and for NLH and O
 |:--|:--|--:|--:|--:|--:|--:|
 | Normal days | 12–19 Oct (8 days) | 983 | 4.3 | 3.0 | 0.9 | -0.0 |
 | 💵 Cash game days: NLH/PLO/PLO5 from €10/20 | 10–11 Oct (2 days) | 240 | 11.9 | 6.2 | 5.7 | +7.9 |
-| 🎪 Main Event week | 20–23 Oct (4 days) | 464 | 5.2 | 4.4 | 0.8 | +1.1 |
+| 🎪 Main Event week | 20–23 Oct (4 days) | 465 | 5.2 | 4.4 | 0.8 | +1.1 |
 
 ## All games seen
 
