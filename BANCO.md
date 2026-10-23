@@ -2,14 +2,14 @@
 
 Checks [its website](https://bancocasino.sk/ba/en) together with King's, about every 10 minutes. All times are **Czech time** (same as Poland and Slovakia). Back to [King's](README.md).
 
-**Last check:** 2026-10-23 04:10 — ✅ OK  
-**Checks so far:** 1402 successful out of 1906 (since 2026-10-10)
+**Last check:** 2026-10-23 04:20 — ✅ OK  
+**Checks so far:** 1403 successful out of 1907 (since 2026-10-10)
 
-## Tables running at 2026-10-23 04:10
+## Tables running at 2026-10-23 04:20
 
 No tables were running.
 
-*The whole list (Banco also shows its Košice casino; the numbers above are Bratislava only):* Košice: NLH €1/3 6 players (buy-in €100)  
+*The whole list (Banco also shows its Košice casino; the numbers above are Bratislava only):* Košice: NLH €1/3 5 players (buy-in €100)  
 **Tournaments running:** none
 
 **Note:** Since 13 Oct the tracker reads Banco's cash list and its live tournaments straight from where its page gets them; before that, its page's scripts didn't run in the tracker's browser, so those checks show as errors.
@@ -25,7 +25,7 @@ No Omaha tournaments on the schedule in the next 14 days.
 
 ## Busiest times so far
 
-*Normal days only: 26 checks during festivals, cash-game events or public holidays are compared separately in “Festivals, holidays and normal days” below.*
+*Normal days only: 27 checks during festivals, cash-game events or public holidays are compared separately in “Festivals, holidays and normal days” below.*
 
 Day, hour and average seated players (only day-hour slots seen on at least 2 different dates).
 
@@ -132,13 +132,13 @@ Average seated players per check on each kind of day, in total and for NLH and O
 | Days | Dates | Checks | Players | NLH | Omaha | vs normal, same hour |
 |:--|:--|--:|--:|--:|--:|--:|
 | Normal days | 13–22 Oct (10 days) | 1376 | 5.8 | 3.6 | 1.9 | +0.0 |
-| 📅 Public holidays | 23 Oct (1 day) | 26 | 0.0 | 0.0 | 0.0 | -10.1 |
+| 📅 Public holidays | 23 Oct (1 day) | 27 | 0.0 | 0.0 | 0.0 | -10.0 |
 
 ## All games seen
 
 | Game | Running in | Most often | Last seen |
 |:--|--:|:--|:--|
-| NLH €1/3 | 44% of checks | Thu around 01:00 | 2026-10-22 22:50 |
+| NLH €1/3 | 43% of checks | Thu around 01:00 | 2026-10-22 22:50 |
 | NLH €2/5 | 3% of checks | Sat around 07:00 | 2026-10-22 07:40 |
 | PLO 4/5 €2/2 | 24% of checks | Wed around 21:00 | 2026-10-22 22:20 |
 | PLO €25/50 | 5% of checks | Thu around 20:00 | 2026-10-16 07:30 |
