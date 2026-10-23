@@ -1,5 +1,5 @@
 {
- "saved_at": "2026-10-22T00:00:46+02:00",
+ "saved_at": "2026-10-23T02:40:19+02:00",
  "status": "error: Card Casino's site didn't answer",
  "url": "https://www.cardcasino.sk/ajax/cashgames.php?lang=EN",
  "feed": "URLError: urlopen error timed out"
