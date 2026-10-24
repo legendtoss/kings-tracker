@@ -2,15 +2,15 @@
 
 Checks [its website](https://bancocasino.sk/ba/en) together with King's, about every 10 minutes. All times are **Czech time** (same as Poland and Slovakia). Back to [King's](README.md).
 
-**Last check:** 2026-10-24 04:40 — ✅ OK  
-**Checks so far:** 1549 successful out of 2053 (since 2026-10-10)
+**Last check:** 2026-10-24 04:50 — ✅ OK  
+**Checks so far:** 1550 successful out of 2054 (since 2026-10-10)
 
-## Tables running at 2026-10-24 04:40
+## Tables running at 2026-10-24 04:50
 
 No tables were running.
 
 *The whole list (Banco also shows its Košice casino; the numbers above are Bratislava only):* no games listed  
-**Tournaments running:** Super Friday: 9/188 players, level 23, blinds 40000/80000, buy-in €55, €10000 GTD
+**Tournaments running:** Super Friday: 8/188 players, level 24, blinds 50000/100000, buy-in €55, €10000 GTD
 
 **Note:** Since 13 Oct the tracker reads Banco's cash list and its live tournaments straight from where its page gets them; before that, its page's scripts didn't run in the tracker's browser, so those checks show as errors.
 
@@ -104,7 +104,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 01:00 | 🟩 79% | 🟥 10% | 🟥 21% | 🟥 10% | 🟥 0% | 62 |
 | 02:00 | 🟩 80% | 🟥 10% | 🟥 20% | 🟥 10% | 🟥 0% | 60 |
 | 03:00 | 🟨 72% | 🟥 13% | 🟥 23% | 🟥 10% | 🟥 0% | 61 |
-| 04:00 | 🟨 54% | 🟥 10% | 🟥 15% | 🟥 10% | 🟥 0% | 59 |
+| 04:00 | 🟨 53% | 🟥 10% | 🟥 15% | 🟥 10% | 🟥 0% | 60 |
 | 05:00 | 🟨 56% | 🟥 11% | 🟥 4% | 🟥 11% | 🟥 0% | 54 |
 | 06:00 | 🟨 45% | 🟥 16% | 🟥 0% | 🟥 11% | 🟥 0% | 55 |
 | 07:00 | 🟨 33% | 🟥 20% | 🟥 0% | 🟥 7% | 🟥 0% | 54 |
@@ -131,7 +131,7 @@ Average seated players per check on each kind of day, in total and for NLH and O
 
 | Days | Dates | Checks | Players | NLH | Omaha | vs normal, same hour |
 |:--|:--|--:|--:|--:|--:|--:|
-| Normal days | 13–24 Oct (11 days) | 1405 | 5.8 | 3.7 | 1.9 | +0.0 |
+| Normal days | 13–24 Oct (11 days) | 1406 | 5.8 | 3.7 | 1.9 | +0.0 |
 | 📅 Public holidays | 23 Oct (1 day) | 144 | 3.1 | 1.3 | 1.7 | -2.6 |
 
 ## All games seen
