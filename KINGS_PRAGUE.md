@@ -2,17 +2,17 @@
 
 Prague's tables come in the same King's data feed as Rozvadov's, so they're read at every check (about every 10 minutes) without any extra visits, together with Prague's tournament clocks. All times are **Czech time** (same as Poland). Back to [King's Rozvadov](README.md).
 
-**Last check:** 2026-10-24 23:40 — ✅ OK  
-**Last 24 h:** 142 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-17 (923 good checks)
+**Last check:** 2026-10-24 23:50 — ✅ OK  
+**Last 24 h:** 142 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-17 (924 good checks)
 
-## Tables running at 2026-10-24 23:40
+## Tables running at 2026-10-24 23:50
 
 ```
 NLH  €2/4     7/8 players
 ```
 **NLH:** 7 players at 1 table
 
-**Tournaments in play:** King's Prague Saturday Monsterstack (NLH, €100, 17 of 80 left, level 15, blinds 5000/10000/10000)
+**Tournaments in play:** King's Prague Saturday Monsterstack (NLH, €100, 17 of 80 left, level 16, blinds 6000/12000/12000)
 
 ## Festivals and schedule
 
@@ -92,13 +92,13 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 20:00 | 🟥 21% | 🟥 0% | 47 |
 | 21:00 | 🟨 48% | 🟥 4% | 48 |
 | 22:00 | 🟨 55% | 🟥 0% | 47 |
-| 23:00 | 🟨 60% | 🟥 4% | 45 |
+| 23:00 | 🟨 61% | 🟥 4% | 46 |
 
 ## All games seen
 
 | Game | Running in | Most often | Last seen |
 |:--|--:|:--|:--|
-| NLH €2/4 | 16% of checks | Sat around 21:00 | 2026-10-24 23:40 |
+| NLH €2/4 | 16% of checks | Sat around 21:00 | 2026-10-24 23:50 |
 | PLO €2/2 | 1% of checks | Sat around 19:00 | 2026-10-24 19:50 |
 
 ## Tournaments seen
@@ -107,7 +107,7 @@ The most recent ones. The game is read from the tournament's name.
 
 | Tournament | Game | Buy-in | Entries | Seen |
 |:--|:--|--:|--:|:--|
-| King's Prague Saturday Monsterstack | NLH | €100 | 80 | 2026-10-17 20:40 → 10-24 23:40 |
+| King's Prague Saturday Monsterstack | NLH | €100 | 80 | 2026-10-17 20:40 → 10-24 23:50 |
 | BPC 1Million - Day 1 PRAGUE | NLH | €295 | 79 | 2026-10-23 19:10 → 10-24 03:40 |
 | Satellite to BPC ME - Day 1 PRAGUE | NLH | €40 | 90 | 2026-10-23 16:10 → 10-23 20:00 |
 | King's Prague Mystery Bounty Thursday | NLH | €100 | 57 | 2026-10-22 19:10 → 10-23 04:50 |
