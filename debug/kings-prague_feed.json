@@ -1,20 +1,20 @@
 {
- "saved_at": "2026-10-23T18:20:20+02:00",
+ "saved_at": "2026-10-24T18:30:28+02:00",
  "status": "error: King's feed came back empty and that couldn't be confirmed, so it wasn't counted as 0 tables",
  "url": "https://admin.kings-resort.com/zeus/?data=cash_games_by_venue",
  "venues_in_feed": {},
  "venues_seen": {
   "1": {
-   "checks": 750,
+   "checks": 891,
    "first": "2026-10-17 19:30",
-   "last": "2026-10-23 18:10",
-   "most_tables": 13
+   "last": "2026-10-24 18:20",
+   "most_tables": 19
   },
   "3": {
-   "checks": 82,
+   "checks": 126,
    "first": "2026-10-17 20:40",
-   "last": "2026-10-23 02:00",
-   "most_tables": 1
+   "last": "2026-10-24 04:10",
+   "most_tables": 2
   }
  },
  "feed_trusted": false
