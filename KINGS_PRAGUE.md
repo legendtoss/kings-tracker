@@ -2,17 +2,17 @@
 
 Prague's tables come in the same King's data feed as Rozvadov's, so they're read at every check (about every 10 minutes) without any extra visits, together with Prague's tournament clocks. All times are **Czech time** (same as Poland). Back to [King's Rozvadov](README.md).
 
-**Last check:** 2026-10-24 19:50 — ✅ OK  
-**Last 24 h:** 141 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-17 (900 good checks)
+**Last check:** 2026-10-24 20:00 — ✅ OK  
+**Last 24 h:** 141 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-17 (901 good checks)
 
-## Tables running at 2026-10-24 19:50
+## Tables running at 2026-10-24 20:00
 
 ```
-PLO  €2/2     4/8 players
+NLH  €2/4     4/8 players
 ```
-**PLO:** 4 players at 1 table
+**NLH:** 4 players at 1 table
 
-**Tournaments in play:** King's Prague Saturday Monsterstack (NLH, €100, 40 of 69 left, late reg open, level 8, blinds 1000/2000/2000)
+**Tournaments in play:** King's Prague Saturday Monsterstack (NLH, €100, 40 of 69 left, late reg open, level 9, blinds 1000/2500/2500)
 
 ## Festivals and schedule
 
@@ -26,7 +26,9 @@ No Omaha tournaments on the schedule in the next 14 days.
 
 ## Busiest times so far
 
-Needs about two weeks of data: each day-and-hour slot must be seen on at least 2 dates.
+Day, hour and average seated players (only day-hour slots seen on at least 2 different dates).
+
+- **NLH:** Sat 20:00 (1)
 
 ## Average players by hour
 
@@ -56,7 +58,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 17:00 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 18:00 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 19:00 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 20:00 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 20:00 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 0 |
 | 21:00 | 0 | 0 | 0 | 6 | 6 | 2 | 0 | 2 |
 | 22:00 | 0 | 0 | 2 | 6 | 6 | 4 | 0 | 3 |
 | 23:00 | 0 | 0 | 1 | 8 | 10 | 8 | 0 | 4 |
@@ -87,7 +89,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 17:00 | 🟥 0% | 🟥 0% | 40 |
 | 18:00 | 🟥 0% | 🟥 0% | 40 |
 | 19:00 | 🟥 0% | 🟥 7% | 44 |
-| 20:00 | 🟥 10% | 🟥 0% | 41 |
+| 20:00 | 🟥 12% | 🟥 0% | 42 |
 | 21:00 | 🟨 40% | 🟥 5% | 42 |
 | 22:00 | 🟨 49% | 🟥 0% | 41 |
 | 23:00 | 🟨 55% | 🟥 5% | 40 |
@@ -96,7 +98,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 
 | Game | Running in | Most often | Last seen |
 |:--|--:|:--|:--|
-| NLH €2/4 | 14% of checks | Sat around 21:00 | 2026-10-24 04:10 |
+| NLH €2/4 | 14% of checks | Sat around 21:00 | 2026-10-24 20:00 |
 | PLO €2/2 | 1% of checks | Sat around 19:00 | 2026-10-24 19:50 |
 
 ## Tournaments seen
@@ -105,7 +107,7 @@ The most recent ones. The game is read from the tournament's name.
 
 | Tournament | Game | Buy-in | Entries | Seen |
 |:--|:--|--:|--:|:--|
-| King's Prague Saturday Monsterstack | NLH | €100 | 69 | 2026-10-17 20:40 → 10-24 19:50 |
+| King's Prague Saturday Monsterstack | NLH | €100 | 69 | 2026-10-17 20:40 → 10-24 20:00 |
 | BPC 1Million - Day 1 PRAGUE | NLH | €295 | 79 | 2026-10-23 19:10 → 10-24 03:40 |
 | Satellite to BPC ME - Day 1 PRAGUE | NLH | €40 | 90 | 2026-10-23 16:10 → 10-23 20:00 |
 | King's Prague Mystery Bounty Thursday | NLH | €100 | 57 | 2026-10-22 19:10 → 10-23 04:50 |
