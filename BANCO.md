@@ -2,10 +2,10 @@
 
 Checks [its website](https://bancocasino.sk/ba/en) together with King's, about every 10 minutes. All times are **Czech time** (same as Poland and Slovakia). Back to [King's](README.md).
 
-**Last check:** 2026-10-24 13:20 — ✅ OK  
-**Checks so far:** 1600 successful out of 2105 (since 2026-10-10)
+**Last check:** 2026-10-24 13:30 — ✅ OK  
+**Checks so far:** 1601 successful out of 2106 (since 2026-10-10)
 
-## Tables running at 2026-10-24 13:20
+## Tables running at 2026-10-24 13:30
 
 No tables were running.
 
@@ -113,7 +113,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 10:00 | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 60 |
 | 11:00 | 🟥 3% | 🟥 0% | 🟥 3% | 🟥 0% | 🟥 0% | 62 |
 | 12:00 | 🟥 10% | 🟥 0% | 🟥 10% | 🟥 0% | 🟥 0% | 67 |
-| 13:00 | 🟥 10% | 🟥 0% | 🟥 10% | 🟥 0% | 🟥 0% | 63 |
+| 13:00 | 🟥 9% | 🟥 0% | 🟥 9% | 🟥 0% | 🟥 0% | 64 |
 | 14:00 | 🟥 13% | 🟥 0% | 🟥 18% | 🟥 0% | 🟥 3% | 60 |
 | 15:00 | 🟥 15% | 🟥 0% | 🟥 15% | 🟥 0% | 🟥 20% | 60 |
 | 16:00 | 🟥 15% | 🟥 0% | 🟨 47% | 🟥 0% | 🟥 17% | 60 |
@@ -131,7 +131,7 @@ Average seated players per check on each kind of day, in total and for NLH and O
 
 | Days | Dates | Checks | Players | NLH | Omaha | vs normal, same hour |
 |:--|:--|--:|--:|--:|--:|--:|
-| Normal days | 13–24 Oct (11 days) | 1456 | 5.6 | 3.5 | 1.8 | +0.0 |
+| Normal days | 13–24 Oct (11 days) | 1457 | 5.6 | 3.5 | 1.8 | +0.0 |
 | 📅 Public holidays | 23 Oct (1 day) | 144 | 3.1 | 1.3 | 1.7 | -2.5 |
 
 ## All games seen
@@ -142,7 +142,7 @@ Average seated players per check on each kind of day, in total and for NLH and O
 | NLH €2/5 | 5% of checks | Sat around 07:00 | 2026-10-24 03:30 |
 | PLO 4/5 €2/2 | 23% of checks | Wed around 21:00 | 2026-10-24 04:20 |
 | PLO €25/50 | 4% of checks | Thu around 20:00 | 2026-10-16 07:30 |
-| Dealer's Choice €2/2 | 4% of checks | Thu around 15:00 | 2026-10-16 22:10 |
+| Dealer's Choice €2/2 | 3% of checks | Thu around 15:00 | 2026-10-16 22:10 |
 
 ---
 The numbers count Bratislava only (Banco's list also shows Košice, kept in words above). Banco shows no seat counts, so tables show players only.
