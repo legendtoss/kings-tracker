@@ -2,18 +2,15 @@
 
 Checks [its website](https://bancocasino.sk/ba/en) together with King's, about every 10 minutes. All times are **Czech time** (same as Poland and Slovakia). Back to [King's](README.md).
 
-**Last check:** 2026-10-24 04:20 — ✅ OK  
-**Checks so far:** 1547 successful out of 2051 (since 2026-10-10)
+**Last check:** 2026-10-24 04:30 — ✅ OK  
+**Checks so far:** 1548 successful out of 2052 (since 2026-10-10)
 
-## Tables running at 2026-10-24 04:20
+## Tables running at 2026-10-24 04:30
 
-```
-PLO 4/5  €2/2     4 players
-```
-**PLO 4/5:** 4 players at 1 table
+No tables were running.
 
-*The whole list (Banco also shows its Košice casino; the numbers above are Bratislava only):* Bratislava: PLO 4/5 €2/2 4 players (buy-in €100)  
-**Tournaments running:** Super Friday: 12/188 players, level 22, blinds 30000/60000, buy-in €55, €10000 GTD
+*The whole list (Banco also shows its Košice casino; the numbers above are Bratislava only):* no games listed  
+**Tournaments running:** Super Friday: 10/188 players, level 23, blinds 40000/80000, buy-in €55, €10000 GTD
 
 **Note:** Since 13 Oct the tracker reads Banco's cash list and its live tournaments straight from where its page gets them; before that, its page's scripts didn't run in the tracker's browser, so those checks show as errors.
 
@@ -107,7 +104,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 01:00 | 🟩 79% | 🟥 10% | 🟥 21% | 🟥 10% | 🟥 0% | 62 |
 | 02:00 | 🟩 80% | 🟥 10% | 🟥 20% | 🟥 10% | 🟥 0% | 60 |
 | 03:00 | 🟨 72% | 🟥 13% | 🟥 23% | 🟥 10% | 🟥 0% | 61 |
-| 04:00 | 🟨 56% | 🟥 11% | 🟥 16% | 🟥 11% | 🟥 0% | 57 |
+| 04:00 | 🟨 55% | 🟥 10% | 🟥 16% | 🟥 10% | 🟥 0% | 58 |
 | 05:00 | 🟨 56% | 🟥 11% | 🟥 4% | 🟥 11% | 🟥 0% | 54 |
 | 06:00 | 🟨 45% | 🟥 16% | 🟥 0% | 🟥 11% | 🟥 0% | 55 |
 | 07:00 | 🟨 33% | 🟥 20% | 🟥 0% | 🟥 7% | 🟥 0% | 54 |
@@ -134,7 +131,7 @@ Average seated players per check on each kind of day, in total and for NLH and O
 
 | Days | Dates | Checks | Players | NLH | Omaha | vs normal, same hour |
 |:--|:--|--:|--:|--:|--:|--:|
-| Normal days | 13–24 Oct (11 days) | 1403 | 5.8 | 3.7 | 1.9 | +0.0 |
+| Normal days | 13–24 Oct (11 days) | 1404 | 5.8 | 3.7 | 1.9 | +0.0 |
 | 📅 Public holidays | 23 Oct (1 day) | 144 | 3.1 | 1.3 | 1.7 | -2.6 |
 
 ## All games seen
