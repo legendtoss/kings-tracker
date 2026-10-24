@@ -2,8 +2,8 @@
 
 Checks [its website](https://bancocasino.sk/ba/en) together with King's, about every 10 minutes. All times are **Czech time** (same as Poland and Slovakia). Back to [King's](README.md).
 
-**Last check:** 2026-10-24 07:00 — ✅ OK  
-**Checks so far:** 1563 successful out of 2067 (since 2026-10-10)
+**Last check:** 2026-10-24 07:10 — ⚠️ error: TimeoutError: The read operation timed out  
+**Checks so far:** 1563 successful out of 2068 (since 2026-10-10)
 
 ## Tables running at 2026-10-24 07:00
 
