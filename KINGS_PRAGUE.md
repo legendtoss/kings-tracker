@@ -2,10 +2,10 @@
 
 Prague's tables come in the same King's data feed as Rozvadov's, so they're read at every check (about every 10 minutes) without any extra visits, together with Prague's tournament clocks. All times are **Czech time** (same as Poland). Back to [King's Rozvadov](README.md).
 
-**Last check:** 2026-10-24 05:10 — ✅ OK  
-**Last 24 h:** 141 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-17 (815 good checks)
+**Last check:** 2026-10-24 05:20 — ✅ OK  
+**Last 24 h:** 141 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-17 (816 good checks)
 
-## Tables running at 2026-10-24 05:10
+## Tables running at 2026-10-24 05:20
 
 No tables were running.
 
@@ -69,7 +69,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 02:00 | 🟥 17% | 🟥 0% | 42 |
 | 03:00 | 🟥 12% | 🟥 0% | 40 |
 | 04:00 | 🟥 5% | 🟥 0% | 41 |
-| 05:00 | 🟥 0% | 🟥 0% | 37 |
+| 05:00 | 🟥 0% | 🟥 0% | 38 |
 | 06:00 | 🟥 0% | 🟥 0% | 30 |
 | 07:00 | 🟥 0% | 🟥 0% | 29 |
 | 08:00 | 🟥 0% | 🟥 0% | 27 |
