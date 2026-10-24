@@ -2,18 +2,18 @@
 
 Prague's tables come in the same King's data feed as Rozvadov's, so they're read at every check (about every 10 minutes) without any extra visits, together with Prague's tournament clocks. All times are **Czech time** (same as Poland). Back to [King's Rozvadov](README.md).
 
-**Last check:** 2026-10-24 01:50 — ✅ OK  
-**Last 24 h:** 139 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-17 (795 good checks)
+**Last check:** 2026-10-24 02:00 — ✅ OK  
+**Last 24 h:** 139 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-17 (796 good checks)
 
-## Tables running at 2026-10-24 01:50
+## Tables running at 2026-10-24 02:00
 
 ```
-NLH  €2/4     6/8 players
-NLH  €2/4     6/8 players
+NLH  €2/4     7/8 players
+NLH  €2/4     5/8 players
 ```
 **NLH:** 12 players at 2 tables
 
-**Tournaments in play:** BPC 1Million - Day 1 PRAGUE (NLH, €295, 20 of 79 left, level 13, blinds 3000/6000/6000)
+**Tournaments in play:** BPC 1Million - Day 1 PRAGUE (NLH, €295, 18 of 79 left, level 13, blinds 3000/6000/6000)
 
 ## Festivals and schedule
 
@@ -39,7 +39,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 |:--|--:|--:|--:|--:|--:|--:|--:|--:|
 | 00:00 | 0 | 0 | 0 | 2 | 8 | 13 | 8 | 4 |
 | 01:00 | 0 | 0 | 0 | 4 | 6 | 12 | 4 | 4 |
-| 02:00 | 0 | 0 | 0 | 0 | 1 | · | 0 | 0 |
+| 02:00 | 0 | 0 | 0 | 0 | 1 | 12 | 0 | 0 |
 | 03:00 | 0 | 0 | 0 | 0 | 0 | · | 0 | 0 |
 | 04:00 | 0 | 0 | 0 | 0 | 0 | · | 0 | 0 |
 | 05:00 | 0 | 0 | 0 | 0 | 0 | · | 0 | 0 |
@@ -70,7 +70,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 |:--|--:|--:|--:|
 | 00:00 | 🟨 57% | 🟥 0% | 42 |
 | 01:00 | 🟨 50% | 🟥 0% | 42 |
-| 02:00 | 🟥 3% | 🟥 0% | 36 |
+| 02:00 | 🟥 5% | 🟥 0% | 37 |
 | 03:00 | 🟥 0% | 🟥 0% | 34 |
 | 04:00 | 🟥 0% | 🟥 0% | 35 |
 | 05:00 | 🟥 0% | 🟥 0% | 35 |
@@ -97,7 +97,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 
 | Game | Running in | Most often | Last seen |
 |:--|--:|:--|:--|
-| NLH €2/4 | 14% of checks | Sat around 21:00 | 2026-10-24 01:50 |
+| NLH €2/4 | 14% of checks | Sat around 21:00 | 2026-10-24 02:00 |
 | PLO €2/2 | 1% of checks | Tue around 21:00 | 2026-10-21 23:40 |
 
 ## Tournaments seen
@@ -106,7 +106,7 @@ The most recent ones. The game is read from the tournament's name.
 
 | Tournament | Game | Buy-in | Entries | Seen |
 |:--|:--|--:|--:|:--|
-| BPC 1Million - Day 1 PRAGUE | NLH | €295 | 79 | 2026-10-23 19:10 → 10-24 01:50 |
+| BPC 1Million - Day 1 PRAGUE | NLH | €295 | 79 | 2026-10-23 19:10 → 10-24 02:00 |
 | Satellite to BPC ME - Day 1 PRAGUE | NLH | €40 | 90 | 2026-10-23 16:10 → 10-23 20:00 |
 | King's Prague Mystery Bounty Thursday | NLH | €100 | 57 | 2026-10-22 19:10 → 10-23 04:50 |
 | Satellite to King's Prague Mystery Thursday | NLH | €30 | 73 | 2026-10-21 18:30 → 10-22 19:50 |
