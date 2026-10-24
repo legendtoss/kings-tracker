@@ -2,10 +2,10 @@
 
 Reads [Grand Casino Aš's live cash games](https://www.grandcasinoas.eu/en/poker/poker-live) every 10 minutes and its [current tournaments](https://www.grandcasinoas.eu/en/poker) every 30 minutes. All times are **Czech time** (same as Poland). Back to [King's](README.md).
 
-**Last check:** 2026-10-24 22:40 — ✅ OK  
-**Last 24 h:** 145 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-10 (2149 good checks)
+**Last check:** 2026-10-24 22:50 — ✅ OK  
+**Last 24 h:** 145 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-10 (2150 good checks)
 
-## Cash games at 2026-10-24 22:40
+## Cash games at 2026-10-24 22:50
 
 ```
 NLH      €1/2     running
@@ -59,7 +59,7 @@ Average number of running tables (Grand Casino Aš shows which games run, not ho
 | 19:00 | 0.0 | 0.0 | 0.0 | 0.0 | 0.0 | 1.1 | 0.0 | 0.2 |
 | 20:00 | 0.0 | 0.0 | 0.0 | 0.0 | 0.0 | 1.5 | 1.0 | 0.4 |
 | 21:00 | 0.0 | 0.0 | 0.0 | 0.0 | 0.0 | 2.3 | 0.8 | 0.5 |
-| 22:00 | 0.0 | 0.0 | 0.0 | 0.0 | 0.5 | 3.1 | 0.0 | 0.6 |
+| 22:00 | 0.0 | 0.0 | 0.0 | 0.0 | 0.5 | 3.0 | 0.0 | 0.6 |
 | 23:00 | 0.0 | 0.0 | 0.0 | 0.0 | 1.0 | 4.0 | 0.0 | 0.6 |
 
 ## How often each game was running, by hour (all days)
@@ -90,7 +90,7 @@ Average number of running tables (Grand Casino Aš shows which games run, not ho
 | 19:00 | 🟥 10% | 🟥 7% | 🟥 0% | 🟥 3% | 67 |
 | 20:00 | 🟥 22% | 🟥 1% | 🟥 0% | 🟥 9% | 67 |
 | 21:00 | 🟥 18% | 🟥 7% | 🟥 0% | 🟥 9% | 67 |
-| 22:00 | 🟥 21% | 🟥 0% | 🟥 0% | 🟥 9% | 66 |
+| 22:00 | 🟥 22% | 🟥 0% | 🟥 0% | 🟥 9% | 67 |
 | 23:00 | 🟥 21% | 🟥 0% | 🟥 0% | 🟥 11% | 61 |
 
 ## Festivals, holidays and normal days
@@ -99,7 +99,7 @@ Average running tables per check on each kind of day, in total and for NLH and O
 
 | Days | Dates | Checks | Tables | NLH | Omaha | vs normal, same hour |
 |:--|:--|--:|--:|--:|--:|--:|
-| Normal days | 10–24 Oct (11 days) | 1571 | 0.2 | 0.2 | 0.0 | +0.0 |
+| Normal days | 10–24 Oct (11 days) | 1572 | 0.2 | 0.2 | 0.0 | +0.0 |
 | 🎪 PLO festival | 15–18 Oct (4 days) | 578 | 0.5 | 0.3 | 0.1 | +0.3 |
 
 ## Tournaments seen
