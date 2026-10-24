@@ -2,14 +2,14 @@
 
 Prague's tables come in the same King's data feed as Rozvadov's, so they're read at every check (about every 10 minutes) without any extra visits, together with Prague's tournament clocks. All times are **Czech time** (same as Poland). Back to [King's Rozvadov](README.md).
 
-**Last check:** 2026-10-24 15:00 — ✅ OK  
-**Last 24 h:** 142 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-17 (873 good checks)
+**Last check:** 2026-10-24 15:10 — ✅ OK  
+**Last 24 h:** 142 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-17 (874 good checks)
 
-## Tables running at 2026-10-24 15:00
+## Tables running at 2026-10-24 15:10
 
 No tables were running.
 
-**Tournaments in play:** none
+**Tournaments in play:** King's Prague Saturday Monsterstack (NLH, €100, 9 of 9 left, late reg open)
 
 ## Festivals and schedule
 
@@ -79,7 +79,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 12:00 | 🟥 0% | 🟥 0% | 28 |
 | 13:00 | 🟥 0% | 🟥 0% | 38 |
 | 14:00 | 🟥 0% | 🟥 0% | 41 |
-| 15:00 | 🟥 0% | 🟥 0% | 37 |
+| 15:00 | 🟥 0% | 🟥 0% | 38 |
 | 16:00 | 🟥 0% | 🟥 0% | 35 |
 | 17:00 | 🟥 0% | 🟥 0% | 34 |
 | 18:00 | 🟥 0% | 🟥 0% | 35 |
@@ -102,6 +102,7 @@ The most recent ones. The game is read from the tournament's name.
 
 | Tournament | Game | Buy-in | Entries | Seen |
 |:--|:--|--:|--:|:--|
+| King's Prague Saturday Monsterstack | NLH | €100 | 67 | 2026-10-17 20:40 → 10-24 15:10 |
 | BPC 1Million - Day 1 PRAGUE | NLH | €295 | 79 | 2026-10-23 19:10 → 10-24 03:40 |
 | Satellite to BPC ME - Day 1 PRAGUE | NLH | €40 | 90 | 2026-10-23 16:10 → 10-23 20:00 |
 | King's Prague Mystery Bounty Thursday | NLH | €100 | 57 | 2026-10-22 19:10 → 10-23 04:50 |
@@ -109,7 +110,6 @@ The most recent ones. The game is read from the tournament's name.
 | King's Prague Beginner's Mystery Bounty | NLH | €30 | 57 | 2026-10-20 18:20 → 10-21 02:20 |
 | King's Prague Beginner's Monday | NLH | €60 | 111 | 2026-10-19 18:00 → 10-20 03:10 |
 | King's Prague Sunday Knockout (Bounty 25 ) | NLH | €55 | 67 | 2026-10-18 17:10 → 10-19 00:50 |
-| King's Prague Saturday Monsterstack | NLH | €100 | 67 | 2026-10-17 20:40 → 10-18 05:10 |
 
 ---
 Raw data: `data/kings-prague` (one CSV file per month). Prague is venue 3 in King's feed (`data/kings_venues.json`).
