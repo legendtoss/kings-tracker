@@ -2,14 +2,17 @@
 
 Checks [its website](https://bancocasino.sk/ba/en) together with King's, about every 10 minutes. All times are **Czech time** (same as Poland and Slovakia). Back to [King's](README.md).
 
-**Last check:** 2026-10-24 16:00 — ✅ OK  
-**Checks so far:** 1616 successful out of 2121 (since 2026-10-10)
+**Last check:** 2026-10-24 16:10 — ✅ OK  
+**Checks so far:** 1617 successful out of 2122 (since 2026-10-10)
 
-## Tables running at 2026-10-24 16:00
+## Tables running at 2026-10-24 16:10
 
-No tables were running.
+```
+NLH  €1/3     3 players
+```
+**NLH:** 3 players at 1 table
 
-*The whole list (Banco also shows its Košice casino; the numbers above are Bratislava only):* no games listed  
+*The whole list (Banco also shows its Košice casino; the numbers above are Bratislava only):* Bratislava: NLH €1/3 3 players (buy-in €100)  
 **Tournaments running:** none
 
 **Note:** Since 13 Oct the tracker reads Banco's cash list and its live tournaments straight from where its page gets them; before that, its page's scripts didn't run in the tracker's browser, so those checks show as errors.
@@ -116,7 +119,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 13:00 | 🟥 9% | 🟥 0% | 🟥 9% | 🟥 0% | 🟥 0% | 66 |
 | 14:00 | 🟥 12% | 🟥 0% | 🟥 17% | 🟥 0% | 🟥 3% | 66 |
 | 15:00 | 🟥 14% | 🟥 0% | 🟥 14% | 🟥 0% | 🟥 18% | 66 |
-| 16:00 | 🟥 15% | 🟥 0% | 🟨 46% | 🟥 0% | 🟥 16% | 61 |
+| 16:00 | 🟥 16% | 🟥 0% | 🟨 45% | 🟥 0% | 🟥 16% | 62 |
 | 17:00 | 🟨 30% | 🟥 0% | 🟨 60% | 🟥 0% | 🟥 10% | 60 |
 | 18:00 | 🟨 55% | 🟥 0% | 🟨 52% | 🟥 0% | 🟥 10% | 60 |
 | 19:00 | 🟨 50% | 🟥 0% | 🟨 58% | 🟥 2% | 🟥 10% | 60 |
@@ -131,14 +134,14 @@ Average seated players per check on each kind of day, in total and for NLH and O
 
 | Days | Dates | Checks | Players | NLH | Omaha | vs normal, same hour |
 |:--|:--|--:|--:|--:|--:|--:|
-| Normal days | 13–24 Oct (11 days) | 1472 | 5.5 | 3.5 | 1.8 | +0.0 |
+| Normal days | 13–24 Oct (11 days) | 1473 | 5.5 | 3.5 | 1.8 | +0.0 |
 | 📅 Public holidays | 23 Oct (1 day) | 144 | 3.1 | 1.3 | 1.7 | -2.5 |
 
 ## All games seen
 
 | Game | Running in | Most often | Last seen |
 |:--|--:|:--|:--|
-| NLH €1/3 | 38% of checks | Thu around 01:00 | 2026-10-23 19:20 |
+| NLH €1/3 | 38% of checks | Thu around 01:00 | 2026-10-24 16:10 |
 | NLH €2/5 | 5% of checks | Sat around 07:00 | 2026-10-24 03:30 |
 | PLO 4/5 €2/2 | 23% of checks | Wed around 21:00 | 2026-10-24 04:20 |
 | PLO €25/50 | 4% of checks | Thu around 20:00 | 2026-10-16 07:30 |

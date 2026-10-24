@@ -2,12 +2,12 @@
 
 Checks King's live cash games and tournaments about every 10 minutes and updates this page by itself. All times are **Czech time** (same as Poland). Also tracking: [King's Prague](KINGS_PRAGUE.md) · [Card Casino Šamorín](CARD_CASINO.md) · [Grand Casino Aš](GRAND_CASINO_AS.md) · [Banco Casino Bratislava](BANCO.md) · [Olympic Park Tallinn](OLYMPIC_TALLINN.md) · [Olympic Voodoo Riga](OLYMPIC_RIGA.md) · [Olympic Casino Vilnius](OLYMPIC_VILNIUS.md).
 
-**Right now:** King's: 12 tables, 85 players · [King's Prague](KINGS_PRAGUE.md): 0 tables, 0 players · [Card Casino Šamorín](CARD_CASINO.md) 🎪 Main Event week: 0 tables, 0 players · [Grand Casino Aš](GRAND_CASINO_AS.md): 0 tables running, 1 waiting · [Olympic Park Tallinn](OLYMPIC_TALLINN.md): blocked at 16:00 · [Olympic Voodoo Riga](OLYMPIC_RIGA.md): blocked at 16:00 · [Olympic Vilnius](OLYMPIC_VILNIUS.md): blocked at 16:00 · [Banco](BANCO.md): 0 tables, 0 players
+**Right now:** King's: couldn't be read · [King's Prague](KINGS_PRAGUE.md): couldn't be read · [Card Casino Šamorín](CARD_CASINO.md) 🎪 Main Event week: 0 tables, 0 players · [Grand Casino Aš](GRAND_CASINO_AS.md): 0 tables running, 1 waiting · [Olympic Park Tallinn](OLYMPIC_TALLINN.md): blocked at 16:00 · [Olympic Voodoo Riga](OLYMPIC_RIGA.md): blocked at 16:00 · [Olympic Vilnius](OLYMPIC_VILNIUS.md): blocked at 16:00 · [Banco](BANCO.md): 1 table, 3 players
 
 **🎯 Omaha right now:** King's Rozvadov: PLO €2/2 ×3, PLO5 €5/5 ×2 (34 players)
 
-**Last check:** 2026-10-24 16:00 — ✅ OK (data feed)  
-**Last 24 h:** 142 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-06 (2217 good checks)
+**Last check:** 2026-10-24 16:10 — ⚠️ error: couldn't read the tables on the page — details in `debug/last_problem.json`  
+**Last 24 h:** 141 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-06 (2217 good checks)
 
 ## Tables running at 2026-10-24 16:00
 
@@ -261,7 +261,7 @@ The most recent ones. The game is read from the tournament's name.
 
 | Tournament | Game | Buy-in | Entries | Seen |
 |:--|:--|--:|--:|:--|
-| BPC 1Million - Day 1G | NLH | €295 | 547 | 2026-10-24 11:00 → 10-24 16:00 |
+| BPC 1Million - Day 1G | NLH | €295 | 555 | 2026-10-24 11:00 → 10-24 16:10 |
 | BPC 1Million - Day 1F SPEED | NLH | €295 | 270 | 2026-10-23 18:00 → 10-24 03:30 |
 | BPC NLH Turbo Bounty (50 Bounty) | NLH | €100 | 189 | 2026-10-23 21:00 → 10-24 02:30 |
 | BPC 1Million - Day 1E | NLH | €295 | 393 | 2026-10-23 11:00 → 10-23 23:40 |
@@ -281,14 +281,14 @@ The most recent ones. The game is read from the tournament's name.
 
 | Room | Last check | OK in the last 24 h | Most common problem |
 |:--|:--|--:|:--|
-| King's Rozvadov | ✅ 10-24 16:00 | 142 of 145 | couldn't read the tables on the page |
-| [King's Prague](KINGS_PRAGUE.md) | ✅ 10-24 16:00 | 142 of 145 | King's feed came back empty and that couldn't be confirmed, so it wasn |
-| [Grand Casino Aš](GRAND_CASINO_AS.md) | ✅ 10-24 16:00 | 145 of 145 | · |
-| [Card Casino Šamorín](CARD_CASINO.md) | ✅ 10-24 16:00 | 130 of 145 | Card Casino's site didn't answer |
-| [Banco Casino Bratislava](BANCO.md) | ✅ 10-24 16:00 | 144 of 145 | TimeoutError: The read operation timed out |
-| [Olympic Park Tallinn](OLYMPIC_TALLINN.md) | ⚠️ 10-24 16:00 | 0 of 49 | couldn't read the cash games table (page saved for a closer look) |
-| [Olympic Voodoo Riga](OLYMPIC_RIGA.md) | ⚠️ 10-24 16:00 | 0 of 49 | couldn't read the cash games table (page saved for a closer look) |
-| [Olympic Casino Vilnius](OLYMPIC_VILNIUS.md) | ⚠️ 10-24 16:00 | 0 of 49 | couldn't read the cash games table (page saved for a closer look) |
+| King's Rozvadov | ⚠️ 10-24 16:10 | 141 of 145 | couldn't read the tables on the page |
+| [King's Prague](KINGS_PRAGUE.md) | ⚠️ 10-24 16:10 | 141 of 145 | King's feed came back empty and that couldn't be confirmed, so it wasn |
+| [Grand Casino Aš](GRAND_CASINO_AS.md) | ✅ 10-24 16:10 | 145 of 145 | · |
+| [Card Casino Šamorín](CARD_CASINO.md) | ✅ 10-24 16:10 | 130 of 145 | Card Casino's site didn't answer |
+| [Banco Casino Bratislava](BANCO.md) | ✅ 10-24 16:10 | 144 of 145 | TimeoutError: The read operation timed out |
+| [Olympic Park Tallinn](OLYMPIC_TALLINN.md) | ⚠️ 10-24 16:00 | 0 of 48 | couldn't read the cash games table (page saved for a closer look) |
+| [Olympic Voodoo Riga](OLYMPIC_RIGA.md) | ⚠️ 10-24 16:00 | 0 of 48 | couldn't read the cash games table (page saved for a closer look) |
+| [Olympic Casino Vilnius](OLYMPIC_VILNIUS.md) | ⚠️ 10-24 16:00 | 0 of 48 | couldn't read the cash games table (page saved for a closer look) |
 
 ---
 Raw data: the `data` folder, one CSV file per month. To open one in Excel, use Data → From Text/CSV (double-clicking puts everything in one column in Polish Excel). The tracker is `tracker.py`; its schedule is in `.github/workflows/track.yml`.  
