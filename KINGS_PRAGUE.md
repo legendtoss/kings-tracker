@@ -2,15 +2,15 @@
 
 Prague's tables come in the same King's data feed as Rozvadov's, so they're read at every check (about every 10 minutes) without any extra visits, together with Prague's tournament clocks. All times are **Czech time** (same as Poland). Back to [King's Rozvadov](README.md).
 
-**Last check:** 2026-10-24 23:20 — ✅ OK  
-**Last 24 h:** 142 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-17 (921 good checks)
+**Last check:** 2026-10-24 23:30 — ✅ OK  
+**Last 24 h:** 142 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-17 (922 good checks)
 
-## Tables running at 2026-10-24 23:20
+## Tables running at 2026-10-24 23:30
 
 ```
-NLH  €2/4     8/8 players
+NLH  €2/4     7/8 players
 ```
-**NLH:** 8 players at 1 table
+**NLH:** 7 players at 1 table
 
 **Tournaments in play:** King's Prague Saturday Monsterstack (NLH, €100, 18 of 80 left, level 15, blinds 5000/10000/10000)
 
@@ -92,13 +92,13 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 20:00 | 🟥 21% | 🟥 0% | 47 |
 | 21:00 | 🟨 48% | 🟥 4% | 48 |
 | 22:00 | 🟨 55% | 🟥 0% | 47 |
-| 23:00 | 🟨 58% | 🟥 5% | 43 |
+| 23:00 | 🟨 59% | 🟥 5% | 44 |
 
 ## All games seen
 
 | Game | Running in | Most often | Last seen |
 |:--|--:|:--|:--|
-| NLH €2/4 | 16% of checks | Sat around 21:00 | 2026-10-24 23:20 |
+| NLH €2/4 | 16% of checks | Sat around 21:00 | 2026-10-24 23:30 |
 | PLO €2/2 | 1% of checks | Sat around 19:00 | 2026-10-24 19:50 |
 
 ## Tournaments seen
@@ -107,7 +107,7 @@ The most recent ones. The game is read from the tournament's name.
 
 | Tournament | Game | Buy-in | Entries | Seen |
 |:--|:--|--:|--:|:--|
-| King's Prague Saturday Monsterstack | NLH | €100 | 80 | 2026-10-17 20:40 → 10-24 23:20 |
+| King's Prague Saturday Monsterstack | NLH | €100 | 80 | 2026-10-17 20:40 → 10-24 23:30 |
 | BPC 1Million - Day 1 PRAGUE | NLH | €295 | 79 | 2026-10-23 19:10 → 10-24 03:40 |
 | Satellite to BPC ME - Day 1 PRAGUE | NLH | €40 | 90 | 2026-10-23 16:10 → 10-23 20:00 |
 | King's Prague Mystery Bounty Thursday | NLH | €100 | 57 | 2026-10-22 19:10 → 10-23 04:50 |
