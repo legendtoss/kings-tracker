@@ -2,16 +2,16 @@
 
 Reads [Grand Casino Aš's live cash games](https://www.grandcasinoas.eu/en/poker/poker-live) every 10 minutes and its [current tournaments](https://www.grandcasinoas.eu/en/poker) every 30 minutes. All times are **Czech time** (same as Poland). Back to [King's](README.md).
 
-**Last check:** 2026-10-24 16:50 — ✅ OK  
-**Last 24 h:** 145 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-10 (2114 good checks)
+**Last check:** 2026-10-24 17:00 — ✅ OK  
+**Last 24 h:** 145 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-10 (2115 good checks)
 
-## Cash games at 2026-10-24 16:50
+## Cash games at 2026-10-24 17:00
 
 ```
 PLO/NLH           waiting
 ```
 
-**Tournaments in play at 2026-10-24 16:30:** Noon Turbo (NLH, €50, 16 of 57 left, level 12, blinds 2000/4000/4000)
+**Tournaments in play at 2026-10-24 17:00:** Noon Turbo (NLH, €50, 10 of 57 left, level 14, blinds 4000/8000/8000) · Megastack Turbo (NLH, €70, 34 of 34 left, on a break, late reg open)
 
 ## Festivals and schedule
 
@@ -83,7 +83,7 @@ Average number of running tables (Grand Casino Aš shows which games run, not ho
 | 14:00 | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 67 |
 | 15:00 | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 66 |
 | 16:00 | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 67 |
-| 17:00 | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 60 |
+| 17:00 | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 61 |
 | 18:00 | 🟥 5% | 🟥 5% | 🟥 0% | 🟥 0% | 60 |
 | 19:00 | 🟥 11% | 🟥 8% | 🟥 0% | 🟥 3% | 61 |
 | 20:00 | 🟥 20% | 🟥 2% | 🟥 0% | 🟥 10% | 61 |
@@ -97,7 +97,7 @@ Average running tables per check on each kind of day, in total and for NLH and O
 
 | Days | Dates | Checks | Tables | NLH | Omaha | vs normal, same hour |
 |:--|:--|--:|--:|--:|--:|--:|
-| Normal days | 10–24 Oct (11 days) | 1536 | 0.2 | 0.1 | 0.0 | +0.0 |
+| Normal days | 10–24 Oct (11 days) | 1537 | 0.2 | 0.1 | 0.0 | +0.0 |
 | 🎪 PLO festival | 15–18 Oct (4 days) | 578 | 0.5 | 0.3 | 0.1 | +0.3 |
 
 ## Tournaments seen
@@ -106,7 +106,8 @@ The most recent ones. The game is read from the tournament's name.
 
 | Tournament | Game | Buy-in | Entries | Seen |
 |:--|:--|--:|--:|:--|
-| Noon Turbo | NLH | €50 | 57 | 2026-10-17 13:00 → 10-24 16:30 |
+| Noon Turbo | NLH | €50 | 57 | 2026-10-17 13:00 → 10-24 17:00 |
+| Megastack Turbo | NLH | €70 | 34 | 2026-10-24 17:00 |
 | Classic Friday | NLH | €70 | 126 | 2026-10-16 18:30 → 10-24 03:00 |
 | Thursday 3K | NLH | €60 | 64 | 2026-10-15 20:00 → 10-23 02:30 |
 | Kickstarter | NLH | €50 | 69 | 2026-10-14 19:30 → 10-22 02:30 |
@@ -120,7 +121,6 @@ The most recent ones. The game is read from the tournament's name.
 | PLO Super Satellite to Main Event | PLO | €70 | 38 | 2026-10-17 12:30 → 10-17 15:30 |
 | PLO Main Event 1A | PLO | €340 | 55 | 2026-10-16 21:30 → 10-17 02:00 |
 | PLO Main Event Day 1/A | PLO | €340 | 51 | 2026-10-16 16:30 → 10-16 21:00 |
-| PLO Satellite to Main Event | PLO | €60 | 33 | 2026-10-16 13:30 → 10-16 17:00 |
 
 ---
 Raw data: `data/grandcasinoas` (one CSV file per month).
