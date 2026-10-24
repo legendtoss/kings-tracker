@@ -2,19 +2,19 @@
 
 Checks [its website](https://bancocasino.sk/ba/en) together with King's, about every 10 minutes. All times are **Czech time** (same as Poland and Slovakia). Back to [King's](README.md).
 
-**Last check:** 2026-10-24 23:50 — ✅ OK  
-**Checks so far:** 1663 successful out of 2168 (since 2026-10-10)
+**Last check:** 2026-10-25 00:00 — ✅ OK  
+**Checks so far:** 1664 successful out of 2169 (since 2026-10-10)
 
-## Tables running at 2026-10-24 23:50
+## Tables running at 2026-10-25 00:00
 
 ```
 NLH  €1/3     6 players
-NLH  €1/3     6 players
+NLH  €1/3     5 players
 ```
-**NLH:** 12 players at 2 tables
+**NLH:** 11 players at 2 tables
 
-*The whole list (Banco also shows its Košice casino; the numbers above are Bratislava only):* Bratislava: NLH €1/3 6 players (buy-in €100), NLH €1/3 6 players (buy-in €100) Košice: NLH €1/3 8 players (buy-in €100)  
-**Tournaments running:** Saturday Monsterstack: 59/127 players, level 11, blinds 3000/6000, buy-in €115, €20000 GTD
+*The whole list (Banco also shows its Košice casino; the numbers above are Bratislava only):* Bratislava: NLH €1/3 6 players (buy-in €100), NLH €1/3 5 players (buy-in €100) Košice: NLH €1/3 8 players (buy-in €100)  
+**Tournaments running:** Saturday Monsterstack: 58/132 players, level 11, blinds 3000/6000, buy-in €115, €20000 GTD
 
 **Note:** Since 13 Oct the tracker reads Banco's cash list and its live tournaments straight from where its page gets them; before that, its page's scripts didn't run in the tracker's browser, so those checks show as errors.
 
@@ -33,7 +33,7 @@ No Omaha tournaments on the schedule in the next 14 days.
 
 Day, hour and average seated players (only day-hour slots seen on at least 2 different dates).
 
-- **NLH:** Sat 23:00 (12) · Tue 13:00 (11) · Sat 01:00 (11)
+- **NLH:** Sun 00:00 (15) · Sat 23:00 (12) · Tue 13:00 (11)
 - **PLO 4/5:** Tue 19:00 (8) · Tue 18:00 (7) · Thu 17:00 (7)
 
 ## Average players by hour
@@ -44,7 +44,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 
 | Hour | Mon | Tue | Wed | Thu | Fri | Sat | Sun | All days |
 |:--|--:|--:|--:|--:|--:|--:|--:|--:|
-| 00:00 | 9 | 9 | 6 | 8 | 7 | 11 | 16 | 9 |
+| 00:00 | 9 | 9 | 6 | 8 | 7 | 11 | 15 | 9 |
 | 01:00 | 7 | 13 | 4 | 11 | 6 | 11 | 7 | 8 |
 | 02:00 | 7 | 13 | 4 | 11 | 6 | 11 | 7 | 8 |
 | 03:00 | 7 | 8 | 4 | 7 | 5 | 9 | 8 | 7 |
@@ -73,7 +73,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 
 | Hour | Mon | Tue | Wed | Thu | Fri | Sat | Sun | All days |
 |:--|--:|--:|--:|--:|--:|--:|--:|--:|
-| 00:00 | 0 | 0 | 0 | 4 | 0 | 0 | 6 | 1 |
+| 00:00 | 0 | 0 | 0 | 4 | 0 | 0 | 5 | 1 |
 | 01:00 | 0 | 0 | 0 | 3 | 0 | 0 | 6 | 1 |
 | 02:00 | 0 | 0 | 0 | 3 | 0 | 0 | 6 | 1 |
 | 03:00 | 0 | 0 | 0 | 2 | 0 | 1 | 6 | 1 |
@@ -104,7 +104,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 
 | Hour | NLH €1/3 | NLH €2/5 | PLO 4/5 €2/2 | PLO €25/50 | Dealer's Choice €2/2 | Checks |
 |:--|--:|--:|--:|--:|--:|--:|
-| 00:00 | 🟩 88% | 🟥 10% | 🟥 20% | 🟥 10% | 🟥 0% | 60 |
+| 00:00 | 🟩 89% | 🟥 10% | 🟥 20% | 🟥 10% | 🟥 0% | 61 |
 | 01:00 | 🟩 79% | 🟥 10% | 🟥 21% | 🟥 10% | 🟥 0% | 62 |
 | 02:00 | 🟩 80% | 🟥 10% | 🟥 20% | 🟥 10% | 🟥 0% | 60 |
 | 03:00 | 🟨 72% | 🟥 13% | 🟥 23% | 🟥 10% | 🟥 0% | 61 |
@@ -135,14 +135,14 @@ Average seated players per check on each kind of day, in total and for NLH and O
 
 | Days | Dates | Checks | Players | NLH | Omaha | vs normal, same hour |
 |:--|:--|--:|--:|--:|--:|--:|
-| Normal days | 13–24 Oct (11 days) | 1519 | 5.6 | 3.6 | 1.8 | -0.0 |
+| Normal days | 13–25 Oct (12 days) | 1520 | 5.6 | 3.6 | 1.8 | -0.0 |
 | 📅 Public holidays | 23 Oct (1 day) | 144 | 3.1 | 1.3 | 1.7 | -2.5 |
 
 ## All games seen
 
 | Game | Running in | Most often | Last seen |
 |:--|--:|:--|:--|
-| NLH €1/3 | 39% of checks | Thu around 01:00 | 2026-10-24 23:50 |
+| NLH €1/3 | 39% of checks | Thu around 01:00 | 2026-10-25 00:00 |
 | NLH €2/5 | 5% of checks | Sat around 07:00 | 2026-10-24 03:30 |
 | PLO 4/5 €2/2 | 23% of checks | Wed around 21:00 | 2026-10-24 19:40 |
 | PLO €25/50 | 4% of checks | Thu around 20:00 | 2026-10-16 07:30 |

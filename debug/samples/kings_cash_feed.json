@@ -1,5 +1,5 @@
 {
- "saved_on": "2026-10-24",
+ "saved_on": "2026-10-25",
  "records": 18,
  "fields": [
   "gameProfile",
@@ -15,8 +15,8 @@
  "sample": [
   {
    "status": "PLAYING",
-   "startTime": "2026-10-23T23:09:36",
-   "startPlayingTime": "2026-10-23T23:09:39",
+   "startTime": "2026-10-24T23:29:29",
+   "startPlayingTime": "2026-10-24T23:34:31",
    "seatCount": 8,
    "playerCount": 8,
    "gameType": {
@@ -35,8 +35,8 @@
     "blindsFormatted": "€ 5/10"
    },
    "table": {
-    "id": 36,
-    "name": "PK50",
+    "id": 40,
+    "name": "PK54",
     "type": "CASH_GAME",
     "zone": {
      "id": 8,
@@ -47,10 +47,42 @@
   },
   {
    "status": "PLAYING",
-   "startTime": "2026-10-23T21:39:37",
-   "startPlayingTime": "2026-10-23T22:37:23",
+   "startTime": "2026-10-24T21:37:40",
+   "startPlayingTime": "2026-10-24T21:37:46",
    "seatCount": 8,
-   "playerCount": 6,
+   "playerCount": 8,
+   "gameType": {
+    "id": 10,
+    "name": "No Limit Holdem"
+   },
+   "gameProfile": {
+    "id": 5,
+    "name": "NLH 5-10",
+    "params": {
+     "smallBlind": 5,
+     "bigBlind": 10,
+     "buyInMin": null,
+     "buyInMax": null
+    },
+    "blindsFormatted": "€ 5/10"
+   },
+   "table": {
+    "id": 34,
+    "name": "PK48",
+    "type": "CASH_GAME",
+    "zone": {
+     "id": 8,
+     "name": "FABERGE"
+    }
+   },
+   "venue": 1
+  },
+  {
+   "status": "PLAYING",
+   "startTime": "2026-10-24T19:38:14",
+   "startPlayingTime": "2026-10-24T19:45:49",
+   "seatCount": 8,
+   "playerCount": 8,
    "gameType": {
     "id": 9,
     "name": "Omaha Poker"
@@ -67,8 +99,8 @@
     "blindsFormatted": "€ 5/5"
    },
    "table": {
-    "id": 33,
-    "name": "PK47",
+    "id": 27,
+    "name": "PK41",
     "type": "CASH_GAME",
     "zone": {
      "id": 8,
@@ -79,8 +111,8 @@
   },
   {
    "status": "PLAYING",
-   "startTime": "2026-10-23T17:44:21",
-   "startPlayingTime": "2026-10-23T18:08:37",
+   "startTime": "2026-10-24T15:02:44",
+   "startPlayingTime": "2026-10-24T15:14:46",
    "seatCount": 8,
    "playerCount": 8,
    "gameType": {
@@ -111,8 +143,8 @@
   },
   {
    "status": "PLAYING",
-   "startTime": "2026-10-23T16:06:14",
-   "startPlayingTime": "2026-10-23T16:15:47",
+   "startTime": "2026-10-24T20:02:07",
+   "startPlayingTime": "2026-10-24T20:05:14",
    "seatCount": 8,
    "playerCount": 7,
    "gameType": {
@@ -131,40 +163,8 @@
     "blindsFormatted": "€ 5/5"
    },
    "table": {
-    "id": 32,
-    "name": "PK46",
-    "type": "CASH_GAME",
-    "zone": {
-     "id": 8,
-     "name": "FABERGE"
-    }
-   },
-   "venue": 1
-  },
-  {
-   "status": "PLAYING",
-   "startTime": "2026-10-23T17:29:19",
-   "startPlayingTime": "2026-10-23T17:39:39",
-   "seatCount": 8,
-   "playerCount": 7,
-   "gameType": {
-    "id": 9,
-    "name": "Omaha Poker"
-   },
-   "gameProfile": {
-    "id": 2,
-    "name": "PLO 2-2",
-    "params": {
-     "smallBlind": 2,
-     "bigBlind": 2,
-     "buyInMin": null,
-     "buyInMax": null
-    },
-    "blindsFormatted": "€ 2/2"
-   },
-   "table": {
-    "id": 30,
-    "name": "PK44",
+    "id": 33,
+    "name": "PK47",
     "type": "CASH_GAME",
     "zone": {
      "id": 8,

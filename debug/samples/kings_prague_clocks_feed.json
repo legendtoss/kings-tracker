@@ -1,5 +1,5 @@
 {
- "saved_on": "2026-10-24",
+ "saved_on": "2026-10-25",
  "records": 2,
  "fields": [
   "activePause",
@@ -48,96 +48,14 @@
  ],
  "sample": [
   {
-   "referenceTime": "2026-10-24T00:00:20.827",
-   "name": "BPC €1Million - Day 1 PRAGUE",
-   "fullName": "BPC €1Million - Day 1 PRAGUE",
-   "tournamentName": "BPC €1Million",
-   "notes": "15% ITM MC 600€ • played till 10%",
-   "color": "#4a148c",
-   "background": "chips_with_cards.jpg",
-   "status": "RUNNING",
-   "isPaused": false,
-   "currency": "EUR",
-   "effectivePrizePool": 1000000,
-   "guaranteeInEffect": true,
-   "overlay": null,
-   "reEntryMaxCount": 2,
-   "startingStack": 50000,
-   "openRegistration": true,
-   "lateRegistrationUntilLevel": 10,
-   "expectedLastLevel": 18,
-   "start": "2026-10-23T19:17:00",
-   "pausedSeconds": 0,
-   "pausedMillis": 0,
-   "flightGameTimeDelta": 0,
-   "stickerText": "♠♥♦♣ 10x KINGS MILLION EUROPEAN POKER PACKAGES (3500€) included in prizepool ♠♥♦♣\n\n15% of players ITM (min. cash 600€) ♠♥♦♣\n\nDay 1 is played down to the last 10% of the field ♠♥♦♣\n\nThe tournament is played as a multi-stack format – if you play multiple flights, only your biggest stack advances to Day 2 ♠♥♦♣\n\nChipleader of the flight will receive a bonus King's Million European Poker Championship 2027 Super Main Event ticket (1.150€) ♦♣♠♥",
-   "totalEntries": 74,
-   "activePlayers": 36,
-   "averageStack": 102778,
-   "nextBreakStart": "2026-10-24T01:32:00.438",
-   "nextBreakSeconds": 900,
-   "entryValue": 295,
-   "serviceFee": 0,
-   "bountyValue": null,
-   "payoutPositions": null,
-   "currentLevel": {
-    "start": "2026-10-23T23:52:00.438",
-    "gameEnd": "2026-10-24T00:22:00.438",
-    "levelEnd": "2026-10-24T00:22:00.438",
-    "sb": 1000,
-    "bb": 2000,
-    "number": 9,
-    "gameSeconds": 1800,
-    "breakSeconds": 0,
-    "limits": null,
-    "ante": 2000
-   },
-   "nextLevels": [
-    {
-     "sb": 1500,
-     "bb": 3000,
-     "number": 10,
-     "gameSeconds": 1800,
-     "breakSeconds": 0,
-     "limits": null,
-     "ante": 3000
-    },
-    {
-     "sb": 2000,
-     "bb": 4000,
-     "number": 11,
-     "gameSeconds": 1200,
-     "breakSeconds": 0,
-     "limits": null,
-     "ante": 4000
-    }
-   ],
-   "softPauseEnd": null,
-   "activePause": null,
-   "plannedEnd": null,
-   "winningStructureType": "STANDARD",
-   "levelCount": 18,
-   "reEntryCountLimit": 2,
-   "subName": "15% ITM MC 600€ • played till 10%",
-   "availableTickets": {
-    "buyIn": 295,
-    "serviceFee": 0,
-    "addon": null,
-    "rebuy": null,
-    "addOnLimit": null,
-    "reBuyLimit": null
-   },
-   "tournament_id": 14198
-  },
-  {
-   "referenceTime": "2026-10-24T00:00:13.818",
+   "referenceTime": "2026-10-25T00:00:21.989",
    "name": "King's Prague Saturday Monsterstack ",
    "fullName": "King's Prague Saturday Monsterstack ",
    "tournamentName": "King's Prague Saturday Monsterstack ",
    "notes": "(1x KOK Highroller tkt incl.)",
    "color": "#33691e",
    "background": "chips_all_in_kings.jpg",
-   "status": "READY_FOR_PUBLICATION",
+   "status": "RUNNING",
    "isPaused": false,
    "currency": "EUR",
    "effectivePrizePool": 8000,
@@ -145,42 +63,114 @@
    "overlay": null,
    "reEntryMaxCount": null,
    "startingStack": 100000,
-   "openRegistration": true,
+   "openRegistration": false,
    "lateRegistrationUntilLevel": 12,
    "expectedLastLevel": null,
-   "start": "2026-10-24T15:00:00",
-   "pausedSeconds": null,
-   "pausedMillis": null,
-   "flightGameTimeDelta": null,
-   "stickerText": null,
-   "totalEntries": 0,
-   "activePlayers": 0,
-   "averageStack": 0,
-   "nextBreakStart": null,
-   "nextBreakSeconds": null,
+   "start": "2026-10-24T15:11:06",
+   "pausedSeconds": 0,
+   "pausedMillis": 0,
+   "flightGameTimeDelta": 0,
+   "stickerText": " ♣♠️♦♥️ 1x KoK Prague Highroller ticket incl. 500€ - 9.1.2027 - 50.000€ GTD ♣♠️♦♥️ 🍀GOOD LUCK🍀♣♠️♦♥️ 🍀 HODNĚ ŠTĚSTÍ 🍀♣♠️♦",
+   "totalEntries": 80,
+   "activePlayers": 17,
+   "averageStack": 470588,
+   "nextBreakStart": "2026-10-25T01:11:06.005",
+   "nextBreakSeconds": 900,
    "entryValue": 100,
    "serviceFee": 0,
    "bountyValue": null,
-   "payoutPositions": null,
-   "currentLevel": null,
-   "nextLevels": [
+   "payoutPositions": [
     {
-     "sb": 200,
-     "bb": 400,
-     "number": 1,
-     "gameSeconds": 1800,
-     "breakSeconds": 0,
-     "limits": "",
-     "ante": 400
+     "from": 1,
+     "to": 1,
+     "amount": 1710,
+     "label": "Ticket"
     },
     {
-     "sb": 200,
-     "bb": 500,
-     "number": 2,
+     "from": 2,
+     "to": 2,
+     "amount": 1216,
+     "label": null
+    },
+    {
+     "from": 3,
+     "to": 3,
+     "amount": 796,
+     "label": null
+    },
+    {
+     "from": 4,
+     "to": 4,
+     "amount": 613,
+     "label": null
+    },
+    {
+     "from": 5,
+     "to": 5,
+     "amount": 485,
+     "label": null
+    },
+    {
+     "from": 6,
+     "to": 6,
+     "amount": 379,
+     "label": null
+    },
+    {
+     "from": 7,
+     "to": 7,
+     "amount": 299,
+     "label": null
+    },
+    {
+     "from": 8,
+     "to": 8,
+     "amount": 233,
+     "label": null
+    },
+    {
+     "from": 9,
+     "to": 9,
+     "amount": 177,
+     "label": null
+    },
+    {
+     "from": 10,
+     "to": 11,
+     "amount": 156,
+     "label": null
+    }
+   ],
+   "currentLevel": {
+    "start": "2026-10-24T23:41:06.005",
+    "gameEnd": "2026-10-25T00:11:06.005",
+    "levelEnd": "2026-10-25T00:11:06.005",
+    "sb": 6000,
+    "bb": 12000,
+    "number": 16,
+    "gameSeconds": 1800,
+    "breakSeconds": 0,
+    "limits": "",
+    "ante": 12000
+   },
+   "nextLevels": [
+    {
+     "sb": 8000,
+     "bb": 16000,
+     "number": 17,
      "gameSeconds": 1800,
      "breakSeconds": 0,
      "limits": "",
-     "ante": 500
+     "ante": 16000
+    },
+    {
+     "sb": 10000,
+     "bb": 20000,
+     "number": 18,
+     "gameSeconds": 1800,
+     "breakSeconds": 900,
+     "limits": "",
+     "ante": 20000
     }
    ],
    "softPauseEnd": null,
@@ -199,6 +189,77 @@
     "reBuyLimit": null
    },
    "tournament_id": 14199
+  },
+  {
+   "referenceTime": "2026-10-25T00:00:08.819",
+   "name": "King's Prague Sunday Knockout (Bounty 25€)",
+   "fullName": "King's Prague Sunday Knockout (Bounty 25€)",
+   "tournamentName": "King's Prague Sunday Knockout (Bounty 25€)",
+   "notes": "(1x KOK Highroller tkt incl.)",
+   "color": "#33691e",
+   "background": "chips_all_in_kings.jpg",
+   "status": "READY_FOR_PUBLICATION",
+   "isPaused": false,
+   "currency": "EUR",
+   "effectivePrizePool": 6000,
+   "guaranteeInEffect": true,
+   "overlay": null,
+   "reEntryMaxCount": null,
+   "startingStack": 40000,
+   "openRegistration": true,
+   "lateRegistrationUntilLevel": 10,
+   "expectedLastLevel": null,
+   "start": "2026-10-25T17:00:00",
+   "pausedSeconds": null,
+   "pausedMillis": null,
+   "flightGameTimeDelta": null,
+   "stickerText": null,
+   "totalEntries": 0,
+   "activePlayers": 0,
+   "averageStack": 0,
+   "nextBreakStart": null,
+   "nextBreakSeconds": null,
+   "entryValue": 55,
+   "serviceFee": 0,
+   "bountyValue": 25,
+   "payoutPositions": null,
+   "currentLevel": null,
+   "nextLevels": [
+    {
+     "sb": 100,
+     "bb": 200,
+     "number": 1,
+     "gameSeconds": 1200,
+     "breakSeconds": 0,
+     "limits": "",
+     "ante": 200
+    },
+    {
+     "sb": 100,
+     "bb": 300,
+     "number": 2,
+     "gameSeconds": 1200,
+     "breakSeconds": 0,
+     "limits": "",
+     "ante": 300
+    }
+   ],
+   "softPauseEnd": null,
+   "activePause": null,
+   "plannedEnd": null,
+   "winningStructureType": "STANDARD",
+   "levelCount": null,
+   "reEntryCountLimit": null,
+   "subName": "(1x KOK Highroller tkt incl.)",
+   "availableTickets": {
+    "buyIn": 55,
+    "serviceFee": 0,
+    "addon": null,
+    "rebuy": null,
+    "addOnLimit": null,
+    "reBuyLimit": null
+   },
+   "tournament_id": 14200
   }
  ]
 }
