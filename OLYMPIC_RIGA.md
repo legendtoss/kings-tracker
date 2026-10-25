@@ -2,7 +2,7 @@
 
 Reads [OlyBet's live cash games page](https://olybetpoker.com/lv/en/cash-games/?club=17) every 30 minutes (their site has bot protection, so the tracker checks gently and simply records it when a check is refused). All times are **Czech time** (Riga is one hour ahead). Back to [King's](README.md).
 
-**Last check:** 2026-10-26 00:00 — ⚠️ error: blocked by the site's bot protection — details in `debug/olympic-riga_page.json`  
+**Last check:** 2026-10-26 00:30 — ⚠️ error: blocked by the site's bot protection — details in `debug/olympic-riga_page.json`  
 **Last 24 h:** 0 of 51 checks OK, longest gap 0 h 30 min · **Collecting since:** 2026-10-17 (127 good checks)
 
 **Club:** Olympic Casino Voodoo
