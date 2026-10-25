@@ -2,12 +2,12 @@
 
 Checks King's live cash games and tournaments about every 10 minutes and updates this page by itself. All times are **Czech time** (same as Poland). Also tracking: [King's Prague](KINGS_PRAGUE.md) · [Card Casino Šamorín](CARD_CASINO.md) · [Grand Casino Aš](GRAND_CASINO_AS.md) · [Banco Casino Bratislava](BANCO.md) · [Olympic Park Tallinn](OLYMPIC_TALLINN.md) · [Olympic Voodoo Riga](OLYMPIC_RIGA.md) · [Olympic Casino Vilnius](OLYMPIC_VILNIUS.md).
 
-**Right now:** King's: 8 tables, 60 players · [King's Prague](KINGS_PRAGUE.md): 1 table, 7 players · [Card Casino Šamorín](CARD_CASINO.md) 🎪 Main Event week: 3 tables, 16 players · [Grand Casino Aš](GRAND_CASINO_AS.md): 0 tables running · [Olympic Park Tallinn](OLYMPIC_TALLINN.md): blocked at 20:00 · [Olympic Voodoo Riga](OLYMPIC_RIGA.md): blocked at 20:00 · [Olympic Vilnius](OLYMPIC_VILNIUS.md): blocked at 20:00 · [Banco](BANCO.md): 2 tables, 14 players
+**Right now:** King's: couldn't be read · [King's Prague](KINGS_PRAGUE.md): 1 table, 8 players · [Card Casino Šamorín](CARD_CASINO.md) 🎪 Main Event week: 3 tables, 19 players · [Grand Casino Aš](GRAND_CASINO_AS.md): 0 tables running · [Olympic Park Tallinn](OLYMPIC_TALLINN.md): blocked at 20:00 · [Olympic Voodoo Riga](OLYMPIC_RIGA.md): blocked at 20:00 · [Olympic Vilnius](OLYMPIC_VILNIUS.md): blocked at 20:00 · [Banco](BANCO.md): 2 tables, 13 players
 
 **🎯 Omaha right now:** King's Rozvadov: PLO €2/2 ×2 (15 players) · [Card Casino Šamorín](CARD_CASINO.md): PLO €2/2 (4 players)
 
-**Last check:** 2026-10-25 20:10 — ✅ OK (data feed)  
-**Last 24 h:** 150 of 152 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-06 (2389 good checks)
+**Last check:** 2026-10-25 20:20 — ⚠️ error: couldn't read the tables on the page — details in `debug/last_problem.json`  
+**Last 24 h:** 149 of 152 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-06 (2389 good checks)
 
 ## Tables running at 2026-10-25 20:10
 
@@ -258,8 +258,8 @@ The most recent ones. The game is read from the tournament's name.
 
 | Tournament | Game | Buy-in | Entries | Seen |
 |:--|:--|--:|--:|:--|
-| BPC 1Million - Day 2 | NLH | €295 | 2817 | 2026-10-25 17:20 → 10-25 20:10 |
-| BPC High Roller | NLH | €600 | 140 | 2026-10-25 18:00 → 10-25 20:10 |
+| BPC 1Million - Day 2 | NLH | €295 | 2817 | 2026-10-25 17:20 → 10-25 20:20 |
+| BPC High Roller | NLH | €600 | 146 | 2026-10-25 18:00 → 10-25 20:20 |
 | BPC 1M - DAY 1I TURBO | NLH | €295 | 404 | 2026-10-25 11:00 → 10-25 16:50 |
 | BPC 1Million - Day 1 Flip and Go Pineapple | Pineapple | €295 | 139 | 2026-10-25 14:00 → 10-25 16:50 |
 | BPC 1Million - Day 1H SPEED | NLH | €295 | 470 | 2026-10-24 18:00 → 10-25 03:50 |
@@ -278,11 +278,11 @@ The most recent ones. The game is read from the tournament's name.
 
 | Room | Last check | OK in the last 24 h | Most common problem |
 |:--|:--|--:|:--|
-| King's Rozvadov | ✅ 10-25 20:10 | 150 of 152 | couldn't read the tables on the page |
-| [King's Prague](KINGS_PRAGUE.md) | ✅ 10-25 20:10 | 150 of 152 | King's feed came back empty and that couldn't be confirmed, so it wasn |
-| [Grand Casino Aš](GRAND_CASINO_AS.md) | ✅ 10-25 20:10 | 152 of 152 | · |
-| [Card Casino Šamorín](CARD_CASINO.md) | ✅ 10-25 20:10 | 136 of 152 | Card Casino's site didn't answer |
-| [Banco Casino Bratislava](BANCO.md) | ✅ 10-25 20:10 | 152 of 152 | · |
+| King's Rozvadov | ⚠️ 10-25 20:20 | 149 of 152 | couldn't read the tables on the page |
+| [King's Prague](KINGS_PRAGUE.md) | ✅ 10-25 20:20 | 150 of 152 | King's feed came back empty and that couldn't be confirmed, so it wasn |
+| [Grand Casino Aš](GRAND_CASINO_AS.md) | ✅ 10-25 20:20 | 152 of 152 | · |
+| [Card Casino Šamorín](CARD_CASINO.md) | ✅ 10-25 20:20 | 136 of 152 | Card Casino's site didn't answer |
+| [Banco Casino Bratislava](BANCO.md) | ✅ 10-25 20:20 | 152 of 152 | · |
 | [Olympic Park Tallinn](OLYMPIC_TALLINN.md) | ⚠️ 10-25 20:00 | 0 of 50 | blocked by the site's bot protection |
 | [Olympic Voodoo Riga](OLYMPIC_RIGA.md) | ⚠️ 10-25 20:00 | 0 of 50 | blocked by the site's bot protection |
 | [Olympic Casino Vilnius](OLYMPIC_VILNIUS.md) | ⚠️ 10-25 20:00 | 0 of 50 | blocked by the site's bot protection |
