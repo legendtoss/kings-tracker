@@ -1,5 +1,5 @@
 {
- "saved_on": "2026-10-25",
+ "saved_on": "2026-10-26",
  "records": 1,
  "fields": [
   "gameProfile",
@@ -15,28 +15,28 @@
  "sample": [
   {
    "status": "PLAYING",
-   "startTime": "2026-10-24T19:56:32",
-   "startPlayingTime": "2026-10-24T20:04:44",
+   "startTime": "2026-10-25T22:45:50",
+   "startPlayingTime": "2026-10-25T22:45:52",
    "seatCount": 8,
    "playerCount": 8,
    "gameType": {
-    "id": 10,
-    "name": "No Limit Holdem"
+    "id": 9,
+    "name": "Omaha Poker"
    },
    "gameProfile": {
-    "id": 142,
-    "name": "NLH 2-4",
+    "id": 2,
+    "name": "PLO 2-2",
     "params": {
      "smallBlind": 2,
-     "bigBlind": 4,
+     "bigBlind": 2,
      "buyInMin": null,
      "buyInMax": null
     },
-    "blindsFormatted": "€ 2/4"
+    "blindsFormatted": "€ 2/2"
    },
    "table": {
-    "id": 113,
-    "name": "PKH1",
+    "id": 118,
+    "name": "PKH2",
     "type": "CASH_GAME",
     "zone": {
      "id": 5,

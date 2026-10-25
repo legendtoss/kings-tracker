@@ -1,6 +1,6 @@
 {
- "saved_on": "2026-10-25",
- "records": 6,
+ "saved_on": "2026-10-26",
+ "records": 4,
  "fields": [
   "activePause",
   "activePlayers",
@@ -48,311 +48,14 @@
  ],
  "sample": [
   {
-   "referenceTime": "2026-10-25T00:00:42.750",
-   "name": "BPC €1Million - Day 1G",
-   "fullName": "BPC €1Million - Day 1G",
-   "tournamentName": "BPC €1Million",
-   "notes": "15% ITM MC 600€ • played till 10%",
-   "color": "#006064",
-   "background": "kings_cards_star.jpg",
-   "status": "RUNNING",
-   "isPaused": false,
-   "currency": "EUR",
-   "effectivePrizePool": 1000000,
-   "guaranteeInEffect": true,
-   "overlay": null,
-   "reEntryMaxCount": 2,
-   "startingStack": 50000,
-   "openRegistration": false,
-   "lateRegistrationUntilLevel": 10,
-   "expectedLastLevel": 18,
-   "start": "2026-10-24T11:00:12",
-   "pausedSeconds": 2447,
-   "pausedMillis": 2447506,
-   "flightGameTimeDelta": -2447506,
-   "stickerText": "♠♥♦♣ 10x KINGS MILLION EUROPEAN POKER PACKAGES (3500€) included in prizepool ♠♥♦♣\n\n98 players ITM (min. cash 600€) ♠♥♦♣\n\nDay 1 is played down to the last 65 players ♠♥♦♣\n\nThe tournament is played as a multi-stack format – if you play multiple flights, only your biggest stack advances to Day 2 ♠♥♦♣\n\nChipleader of the flight will receive a bonus King's Million European Poker Championship 2027 Super Main Event ticket (1.150€) ♦♣♠♥",
-   "totalEntries": 649,
-   "activePlayers": 84,
-   "averageStack": 386310,
-   "nextBreakStart": "2026-10-25T18:30:59.150",
-   "nextBreakSeconds": null,
-   "entryValue": 295,
-   "serviceFee": 0,
-   "bountyValue": null,
-   "payoutPositions": null,
-   "currentLevel": {
-    "start": "2026-10-24T23:30:59.150",
-    "gameEnd": "2026-10-25T00:10:59.150",
-    "levelEnd": "2026-10-25T00:10:59.150",
-    "sb": 6000,
-    "bb": 12000,
-    "number": 16,
-    "gameSeconds": 2400,
-    "breakSeconds": 0,
-    "limits": null,
-    "ante": 12000
-   },
-   "nextLevels": [
-    {
-     "sb": 10000,
-     "bb": 15000,
-     "number": 17,
-     "gameSeconds": 2400,
-     "breakSeconds": 0,
-     "limits": null,
-     "ante": 15000
-    },
-    {
-     "sb": 10000,
-     "bb": 20000,
-     "number": 18,
-     "gameSeconds": 2400,
-     "breakSeconds": 0,
-     "limits": null,
-     "ante": 20000
-    }
-   ],
-   "softPauseEnd": null,
-   "activePause": null,
-   "plannedEnd": null,
-   "winningStructureType": "STANDARD",
-   "levelCount": 18,
-   "reEntryCountLimit": 2,
-   "subName": "15% ITM MC 600€ • played till 10%",
-   "availableTickets": {
-    "buyIn": 295,
-    "serviceFee": 0,
-    "addon": null,
-    "rebuy": null,
-    "addOnLimit": null,
-    "reBuyLimit": null
-   },
-   "tournament_id": 13836
-  },
-  {
-   "referenceTime": "2026-10-25T00:00:42.686",
-   "name": "BPC €1Million - Day 1H SPEED",
-   "fullName": "BPC €1Million - Day 1H SPEED",
-   "tournamentName": "BPC €1Million",
-   "notes": "15% ITM MC 600€ • played till 10%",
-   "color": "#4a148c",
-   "background": "kings_cards_with_chips.jpg",
-   "status": "RUNNING",
-   "isPaused": false,
-   "currency": "EUR",
-   "effectivePrizePool": 1000000,
-   "guaranteeInEffect": true,
-   "overlay": null,
-   "reEntryMaxCount": 2,
-   "startingStack": 50000,
-   "openRegistration": false,
-   "lateRegistrationUntilLevel": 10,
-   "expectedLastLevel": 15,
-   "start": "2026-10-24T18:01:03",
-   "pausedSeconds": 0,
-   "pausedMillis": 0,
-   "flightGameTimeDelta": 0,
-   "stickerText": "♠♥♦♣ 10x KINGS MILLION EUROPEAN POKER PACKAGES (3500€) included in prizepool ♠♥♦♣\n\n15% of players ITM (min. cash 600€) (71 players)♠♥♦♣\n\nDay 1 is played down to the last 10% of the field (47 players) ♠♥♦♣\n\nThe tournament is played as a multi-stack format – if you play multiple flights, only your biggest stack advances to Day 2 ♠♥♦♣\n\nChipleader of the flight will receive a bonus King's Million European Poker Championship 2027 Super Main Event ticket (1.150€) ♦♣♠♥",
-   "totalEntries": 470,
-   "activePlayers": 178,
-   "averageStack": 132022,
-   "nextBreakStart": "2026-10-25T00:56:03.205",
-   "nextBreakSeconds": 900,
-   "entryValue": 295,
-   "serviceFee": 0,
-   "bountyValue": null,
-   "payoutPositions": null,
-   "currentLevel": {
-    "start": "2026-10-24T23:56:03.205",
-    "gameEnd": "2026-10-25T00:26:03.205",
-    "levelEnd": "2026-10-25T00:26:03.205",
-    "sb": 2000,
-    "bb": 4000,
-    "number": 11,
-    "gameSeconds": 1800,
-    "breakSeconds": 0,
-    "limits": null,
-    "ante": 4000
-   },
-   "nextLevels": [
-    {
-     "sb": 2500,
-     "bb": 5000,
-     "number": 12,
-     "gameSeconds": 1800,
-     "breakSeconds": 900,
-     "limits": null,
-     "ante": 5000
-    },
-    {
-     "sb": 3000,
-     "bb": 6000,
-     "number": 13,
-     "gameSeconds": 1800,
-     "breakSeconds": 0,
-     "limits": null,
-     "ante": 6000
-    }
-   ],
-   "softPauseEnd": null,
-   "activePause": null,
-   "plannedEnd": null,
-   "winningStructureType": "STANDARD",
-   "levelCount": 15,
-   "reEntryCountLimit": 2,
-   "subName": "15% ITM MC 600€ • played till 10%",
-   "availableTickets": {
-    "buyIn": 295,
-    "serviceFee": 0,
-    "addon": null,
-    "rebuy": null,
-    "addOnLimit": null,
-    "reBuyLimit": null
-   },
-   "tournament_id": 13837
-  },
-  {
-   "referenceTime": "2026-10-25T00:00:37.676",
-   "name": "BPC €1Million - DAY 1I TURBO",
-   "fullName": "BPC €1Million - DAY 1I TURBO",
-   "tournamentName": "BPC €1Million",
-   "notes": "15% ITM MC 600€ • played till 10%",
-   "color": "#4a148c",
-   "background": "chips_kings_cards.jpg",
-   "status": "READY_FOR_PUBLICATION",
-   "isPaused": false,
-   "currency": "EUR",
-   "effectivePrizePool": 1000000,
-   "guaranteeInEffect": true,
-   "overlay": null,
-   "reEntryMaxCount": 2,
-   "startingStack": 50000,
-   "openRegistration": true,
-   "lateRegistrationUntilLevel": 10,
-   "expectedLastLevel": 15,
-   "start": "2026-10-25T11:00:00",
-   "pausedSeconds": null,
-   "pausedMillis": null,
-   "flightGameTimeDelta": null,
-   "stickerText": "♠♥♦♣ 10x KINGS MILLION EUROPEAN POKER PACKAGES (3500€) included in prizepool ♠♥♦♣\n\n15% of players ITM (min. cash 600€) ♠♥♦♣\n\nDay 1 is played down to the last 10% of the field ♠♥♦♣\n\nThe tournament is played as a multi-stack format – if you play multiple flights, only your biggest stack advances to Day 2 ♠♥♦♣",
-   "totalEntries": 0,
-   "activePlayers": 0,
-   "averageStack": 0,
-   "nextBreakStart": null,
-   "nextBreakSeconds": null,
-   "entryValue": 295,
-   "serviceFee": 0,
-   "bountyValue": null,
-   "payoutPositions": null,
-   "currentLevel": null,
-   "nextLevels": [
-    {
-     "sb": 100,
-     "bb": 300,
-     "number": 1,
-     "gameSeconds": 900,
-     "breakSeconds": 0,
-     "limits": null,
-     "ante": 300
-    },
-    {
-     "sb": 200,
-     "bb": 400,
-     "number": 2,
-     "gameSeconds": 900,
-     "breakSeconds": 0,
-     "limits": null,
-     "ante": 400
-    }
-   ],
-   "softPauseEnd": null,
-   "activePause": null,
-   "plannedEnd": null,
-   "winningStructureType": "STANDARD",
-   "levelCount": 15,
-   "reEntryCountLimit": 2,
-   "subName": "15% ITM MC 600€ • played till 10%",
-   "availableTickets": {
-    "buyIn": 295,
-    "serviceFee": 0,
-    "addon": null,
-    "rebuy": null,
-    "addOnLimit": null,
-    "reBuyLimit": null
-   },
-   "tournament_id": 13838
-  },
-  {
-   "referenceTime": "2026-10-25T00:00:37.752",
-   "name": "BPC €1Million -  Day 1 Flip and Go Pineapple",
-   "fullName": "BPC €1Million -  Day 1 Flip and Go Pineapple",
-   "tournamentName": "BPC €1Million",
-   "notes": "10 players play 1 hand and the winner advances to Day 2 with 600€ MC",
-   "color": "#4a148c",
-   "background": "chips_kings_cards.jpg",
-   "status": "READY_FOR_PUBLICATION",
-   "isPaused": false,
-   "currency": "EUR",
-   "effectivePrizePool": 1000000,
-   "guaranteeInEffect": true,
-   "overlay": null,
-   "reEntryMaxCount": null,
-   "startingStack": 50000,
-   "openRegistration": true,
-   "lateRegistrationUntilLevel": 1,
-   "expectedLastLevel": 1,
-   "start": "2026-10-25T14:00:00",
-   "pausedSeconds": null,
-   "pausedMillis": null,
-   "flightGameTimeDelta": null,
-   "stickerText": "♠♥♦♣ 10x KINGS MILLION EUROPEAN POKER PACKAGES (3500€) included in prizepool ♠♥♦♣",
-   "totalEntries": 0,
-   "activePlayers": 0,
-   "averageStack": 0,
-   "nextBreakStart": null,
-   "nextBreakSeconds": null,
-   "entryValue": 295,
-   "serviceFee": 0,
-   "bountyValue": null,
-   "payoutPositions": null,
-   "currentLevel": null,
-   "nextLevels": [
-    {
-     "sb": 50000,
-     "bb": 50000,
-     "number": 1,
-     "gameSeconds": 7200,
-     "breakSeconds": 300,
-     "limits": null,
-     "ante": 50000
-    }
-   ],
-   "softPauseEnd": null,
-   "activePause": null,
-   "plannedEnd": null,
-   "winningStructureType": "STANDARD",
-   "levelCount": 1,
-   "reEntryCountLimit": null,
-   "subName": "10 players play 1 hand and the winner advances to Day 2 with 600€ MC",
-   "availableTickets": {
-    "buyIn": 295,
-    "serviceFee": 0,
-    "addon": null,
-    "rebuy": null,
-    "addOnLimit": null,
-    "reBuyLimit": null
-   },
-   "tournament_id": 13839
-  },
-  {
-   "referenceTime": "2026-10-25T00:00:37.825",
+   "referenceTime": "2026-10-25T23:59:49.273",
    "name": "BPC €1Million - Day 2",
    "fullName": "BPC €1Million - Day 2",
    "tournamentName": "BPC €1Million",
    "notes": "All players ITM",
    "color": "#b71c1c",
    "background": "kings_cards_with_chips.jpg",
-   "status": "READY_FOR_PUBLICATION",
+   "status": "RUNNING",
    "isPaused": false,
    "currency": "EUR",
    "effectivePrizePool": 1000000,
@@ -362,47 +65,161 @@
    "startingStack": 50000,
    "openRegistration": false,
    "lateRegistrationUntilLevel": null,
-   "expectedLastLevel": 27,
-   "start": "2026-10-25T17:00:00",
-   "pausedSeconds": null,
-   "pausedMillis": null,
-   "flightGameTimeDelta": null,
-   "stickerText": "♠♥♦♣ 10x KINGS MILLION EUROPEAN POKER PACKAGES (3500€) included in prizepool ♠♥♦♣",
-   "totalEntries": 0,
-   "activePlayers": 0,
-   "averageStack": 0,
-   "nextBreakStart": null,
-   "nextBreakSeconds": null,
+   "expectedLastLevel": 29,
+   "start": "2026-10-25T17:23:36",
+   "pausedSeconds": 47,
+   "pausedMillis": 47577,
+   "flightGameTimeDelta": -47577,
+   "stickerText": "♠♥♦♣ 10x KINGS MILLION EUROPEAN POKER PACKAGES (3500€) included in prizepool ♠♥♦♣\nAll players in Day 2 are ITM and already received min. cash (600€) on their casino wallet ♠♥♦♣\n\nDay 2 is played down to the last 24 players or end of level 29 ♠♥♦♣\n",
+   "totalEntries": 2817,
+   "activePlayers": 64,
+   "averageStack": 2200781,
+   "nextBreakStart": "2026-10-26T00:07:24.054",
+   "nextBreakSeconds": 900,
    "entryValue": 295,
    "serviceFee": 0,
    "bountyValue": null,
-   "payoutPositions": null,
-   "currentLevel": null,
-   "nextLevels": [
+   "payoutPositions": [
     {
-     "sb": 6000,
-     "bb": 12000,
-     "number": 16,
-     "gameSeconds": 1380,
-     "breakSeconds": null,
-     "limits": null,
-     "ante": 12000
+     "from": 1,
+     "to": 1,
+     "amount": 121000,
+     "label": "3500€ package"
     },
     {
-     "sb": 10000,
-     "bb": 15000,
-     "number": 17,
+     "from": 2,
+     "to": 2,
+     "amount": 74000,
+     "label": "3500€ package"
+    },
+    {
+     "from": 3,
+     "to": 3,
+     "amount": 52500,
+     "label": "3500€ package"
+    },
+    {
+     "from": 4,
+     "to": 4,
+     "amount": 38500,
+     "label": "3500€ package"
+    },
+    {
+     "from": 5,
+     "to": 5,
+     "amount": 29000,
+     "label": "3500€ package"
+    },
+    {
+     "from": 6,
+     "to": 6,
+     "amount": 21500,
+     "label": "3500€ package"
+    },
+    {
+     "from": 7,
+     "to": 7,
+     "amount": 16000,
+     "label": "3500€ package"
+    },
+    {
+     "from": 8,
+     "to": 8,
+     "amount": 11900,
+     "label": "3500€ package"
+    },
+    {
+     "from": 9,
+     "to": 9,
+     "amount": 8785,
+     "label": "3500€ package"
+    },
+    {
+     "from": 10,
+     "to": 10,
+     "amount": 6450,
+     "label": "3500€ package"
+    },
+    {
+     "from": 11,
+     "to": 11,
+     "amount": 6450,
+     "label": null
+    },
+    {
+     "from": 12,
+     "to": 15,
+     "amount": 4775,
+     "label": null
+    },
+    {
+     "from": 16,
+     "to": 20,
+     "amount": 3500,
+     "label": null
+    },
+    {
+     "from": 21,
+     "to": 27,
+     "amount": 2525,
+     "label": null
+    },
+    {
+     "from": 28,
+     "to": 35,
+     "amount": 1790,
+     "label": null
+    },
+    {
+     "from": 36,
+     "to": 53,
+     "amount": 1225,
+     "label": null
+    },
+    {
+     "from": 54,
+     "to": 64,
+     "amount": 790,
+     "label": null
+    }
+   ],
+   "currentLevel": {
+    "start": "2026-10-25T23:27:24.054",
+    "gameEnd": "2026-10-26T00:07:24.054",
+    "levelEnd": "2026-10-26T00:22:24.054",
+    "sb": 40000,
+    "bb": 80000,
+    "number": 24,
+    "gameSeconds": 2400,
+    "breakSeconds": 900,
+    "limits": null,
+    "ante": 80000
+   },
+   "nextLevels": [
+    {
+     "sb": 50000,
+     "bb": 100000,
+     "number": 25,
      "gameSeconds": 2400,
-     "breakSeconds": null,
+     "breakSeconds": 0,
      "limits": null,
-     "ante": 15000
+     "ante": 100000
+    },
+    {
+     "sb": 60000,
+     "bb": 120000,
+     "number": 26,
+     "gameSeconds": 2400,
+     "breakSeconds": 0,
+     "limits": null,
+     "ante": 120000
     }
    ],
    "softPauseEnd": null,
    "activePause": null,
    "plannedEnd": null,
    "winningStructureType": "STANDARD",
-   "levelCount": 27,
+   "levelCount": 29,
    "reEntryCountLimit": 0,
    "subName": "All players ITM",
    "availableTickets": {
@@ -414,6 +231,415 @@
     "reBuyLimit": null
    },
    "tournament_id": 13840
+  },
+  {
+   "referenceTime": "2026-10-25T23:59:49.380",
+   "name": "BPC High Roller",
+   "fullName": "BPC High Roller",
+   "tournamentName": "BPC High Roller",
+   "notes": null,
+   "color": "#1a237e",
+   "background": null,
+   "status": "RUNNING",
+   "isPaused": false,
+   "currency": "EUR",
+   "effectivePrizePool": 100980,
+   "guaranteeInEffect": false,
+   "overlay": null,
+   "reEntryMaxCount": null,
+   "startingStack": 100000,
+   "openRegistration": false,
+   "lateRegistrationUntilLevel": 8,
+   "expectedLastLevel": null,
+   "start": "2026-10-25T18:00:14",
+   "pausedSeconds": 129,
+   "pausedMillis": 129954,
+   "flightGameTimeDelta": -129954,
+   "stickerText": null,
+   "totalEntries": 198,
+   "activePlayers": 41,
+   "averageStack": 482927,
+   "nextBreakStart": "2026-10-26T00:07:24.267",
+   "nextBreakSeconds": 900,
+   "entryValue": 600,
+   "serviceFee": 0,
+   "bountyValue": null,
+   "payoutPositions": [
+    {
+     "from": 1,
+     "to": 1,
+     "amount": 23524,
+     "label": null
+    },
+    {
+     "from": 2,
+     "to": 2,
+     "amount": 15438,
+     "label": null
+    },
+    {
+     "from": 3,
+     "to": 3,
+     "amount": 10433,
+     "label": null
+    },
+    {
+     "from": 4,
+     "to": 4,
+     "amount": 7267,
+     "label": null
+    },
+    {
+     "from": 5,
+     "to": 5,
+     "amount": 5222,
+     "label": null
+    },
+    {
+     "from": 6,
+     "to": 6,
+     "amount": 3874,
+     "label": null
+    },
+    {
+     "from": 7,
+     "to": 7,
+     "amount": 2971,
+     "label": null
+    },
+    {
+     "from": 8,
+     "to": 8,
+     "amount": 2359,
+     "label": null
+    },
+    {
+     "from": 9,
+     "to": 9,
+     "amount": 1940,
+     "label": null
+    },
+    {
+     "from": 10,
+     "to": 11,
+     "amount": 1655,
+     "label": null
+    },
+    {
+     "from": 12,
+     "to": 13,
+     "amount": 1467,
+     "label": null
+    },
+    {
+     "from": 14,
+     "to": 17,
+     "amount": 1353,
+     "label": null
+    },
+    {
+     "from": 18,
+     "to": 23,
+     "amount": 1281,
+     "label": null
+    },
+    {
+     "from": 24,
+     "to": 30,
+     "amount": 1230,
+     "label": null
+    }
+   ],
+   "currentLevel": {
+    "start": "2026-10-25T23:42:24.267",
+    "gameEnd": "2026-10-26T00:07:24.267",
+    "levelEnd": "2026-10-26T00:22:24.267",
+    "sb": 10000,
+    "bb": 15000,
+    "number": 13,
+    "gameSeconds": 1500,
+    "breakSeconds": 900,
+    "limits": null,
+    "ante": 15000
+   },
+   "nextLevels": [
+    {
+     "sb": 10000,
+     "bb": 20000,
+     "number": 14,
+     "gameSeconds": 1500,
+     "breakSeconds": 0,
+     "limits": null,
+     "ante": 20000
+    },
+    {
+     "sb": 10000,
+     "bb": 25000,
+     "number": 15,
+     "gameSeconds": 1500,
+     "breakSeconds": 0,
+     "limits": null,
+     "ante": 25000
+    }
+   ],
+   "softPauseEnd": null,
+   "activePause": null,
+   "plannedEnd": null,
+   "winningStructureType": "STANDARD",
+   "levelCount": null,
+   "reEntryCountLimit": null,
+   "availableTickets": {
+    "buyIn": 600,
+    "serviceFee": 0,
+    "addon": null,
+    "rebuy": null,
+    "addOnLimit": null,
+    "reBuyLimit": null
+   },
+   "tournament_id": 13848
+  },
+  {
+   "referenceTime": "2026-10-26T00:00:09.442",
+   "name": "BPC €1Million - Final Day",
+   "fullName": "BPC €1Million - Final Day",
+   "tournamentName": "BPC €1Million",
+   "notes": "",
+   "color": "#4a148c",
+   "background": "chips_with_cards.jpg",
+   "status": "READY_FOR_PUBLICATION",
+   "isPaused": false,
+   "currency": "EUR",
+   "effectivePrizePool": 1000000,
+   "guaranteeInEffect": true,
+   "overlay": null,
+   "reEntryMaxCount": 0,
+   "startingStack": 50000,
+   "openRegistration": false,
+   "lateRegistrationUntilLevel": null,
+   "expectedLastLevel": null,
+   "start": "2026-10-26T14:00:00",
+   "pausedSeconds": null,
+   "pausedMillis": null,
+   "flightGameTimeDelta": null,
+   "stickerText": "♠♥♦♣ 10x KINGS MILLION EUROPEAN POKER PACKAGES (3500€) included in prizepool ♠♥♦♣",
+   "totalEntries": 0,
+   "activePlayers": 0,
+   "averageStack": 0,
+   "nextBreakStart": null,
+   "nextBreakSeconds": null,
+   "entryValue": 295,
+   "serviceFee": 0,
+   "bountyValue": null,
+   "payoutPositions": [
+    {
+     "from": 1,
+     "to": 1,
+     "amount": 121000,
+     "label": "3500€ package"
+    },
+    {
+     "from": 2,
+     "to": 2,
+     "amount": 74000,
+     "label": "3500€ package"
+    },
+    {
+     "from": 3,
+     "to": 3,
+     "amount": 52500,
+     "label": "3500€ package"
+    },
+    {
+     "from": 4,
+     "to": 4,
+     "amount": 38500,
+     "label": "3500€ package"
+    },
+    {
+     "from": 5,
+     "to": 5,
+     "amount": 29000,
+     "label": "3500€ package"
+    },
+    {
+     "from": 6,
+     "to": 6,
+     "amount": 21500,
+     "label": "3500€ package"
+    },
+    {
+     "from": 7,
+     "to": 7,
+     "amount": 16000,
+     "label": "3500€ package"
+    },
+    {
+     "from": 8,
+     "to": 8,
+     "amount": 11900,
+     "label": "3500€ package"
+    },
+    {
+     "from": 9,
+     "to": 9,
+     "amount": 8785,
+     "label": "3500€ package"
+    },
+    {
+     "from": 10,
+     "to": 10,
+     "amount": 6450,
+     "label": "3500€ package"
+    },
+    {
+     "from": 11,
+     "to": 11,
+     "amount": 6450,
+     "label": null
+    },
+    {
+     "from": 12,
+     "to": 15,
+     "amount": 4775,
+     "label": null
+    },
+    {
+     "from": 16,
+     "to": 20,
+     "amount": 3500,
+     "label": null
+    },
+    {
+     "from": 21,
+     "to": 27,
+     "amount": 2525,
+     "label": null
+    },
+    {
+     "from": 28,
+     "to": 35,
+     "amount": 1790,
+     "label": null
+    },
+    {
+     "from": 36,
+     "to": 53,
+     "amount": 1225,
+     "label": null
+    },
+    {
+     "from": 54,
+     "to": 64,
+     "amount": 790,
+     "label": null
+    }
+   ],
+   "currentLevel": null,
+   "nextLevels": [
+    {
+     "sb": 150000,
+     "bb": 300000,
+     "number": 30,
+     "gameSeconds": 3600,
+     "breakSeconds": 0,
+     "limits": null,
+     "ante": 300000
+    },
+    {
+     "sb": 200000,
+     "bb": 400000,
+     "number": 31,
+     "gameSeconds": 3600,
+     "breakSeconds": 0,
+     "limits": null,
+     "ante": 400000
+    }
+   ],
+   "softPauseEnd": null,
+   "activePause": null,
+   "plannedEnd": null,
+   "winningStructureType": "STANDARD",
+   "levelCount": null,
+   "reEntryCountLimit": 0,
+   "availableTickets": {
+    "buyIn": 295,
+    "serviceFee": 0,
+    "addon": null,
+    "rebuy": null,
+    "addOnLimit": null,
+    "reBuyLimit": null
+   },
+   "tournament_id": 13841
+  },
+  {
+   "referenceTime": "2026-10-26T00:00:09.558",
+   "name": "BPC Monday Knockout (Bounty 50€) ",
+   "fullName": "BPC Monday Knockout (Bounty 50€) ",
+   "tournamentName": "BPC Monday Knockout (Bounty 50€) ",
+   "notes": null,
+   "color": "#880e4f",
+   "background": null,
+   "status": "READY_FOR_PUBLICATION",
+   "isPaused": false,
+   "currency": "EUR",
+   "effectivePrizePool": 10000,
+   "guaranteeInEffect": true,
+   "overlay": null,
+   "reEntryMaxCount": null,
+   "startingStack": 20000,
+   "openRegistration": true,
+   "lateRegistrationUntilLevel": 8,
+   "expectedLastLevel": null,
+   "start": "2026-10-26T18:00:00",
+   "pausedSeconds": null,
+   "pausedMillis": null,
+   "flightGameTimeDelta": null,
+   "stickerText": null,
+   "totalEntries": 0,
+   "activePlayers": 0,
+   "averageStack": 0,
+   "nextBreakStart": null,
+   "nextBreakSeconds": null,
+   "entryValue": 100,
+   "serviceFee": 0,
+   "bountyValue": 50,
+   "payoutPositions": null,
+   "currentLevel": null,
+   "nextLevels": [
+    {
+     "sb": 100,
+     "bb": 200,
+     "number": 1,
+     "gameSeconds": 1200,
+     "breakSeconds": 0,
+     "limits": null,
+     "ante": 200
+    },
+    {
+     "sb": 100,
+     "bb": 300,
+     "number": 2,
+     "gameSeconds": 1200,
+     "breakSeconds": 0,
+     "limits": null,
+     "ante": 300
+    }
+   ],
+   "softPauseEnd": null,
+   "activePause": null,
+   "plannedEnd": null,
+   "winningStructureType": "STANDARD",
+   "levelCount": null,
+   "reEntryCountLimit": null,
+   "availableTickets": {
+    "buyIn": 100,
+    "serviceFee": 0,
+    "addon": null,
+    "rebuy": null,
+    "addOnLimit": null,
+    "reBuyLimit": null
+   },
+   "tournament_id": 14282
   }
  ]
 }

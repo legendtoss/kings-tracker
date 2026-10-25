@@ -1,6 +1,6 @@
 {
- "saved_on": "2026-10-25",
- "records": 2,
+ "saved_on": "2026-10-26",
+ "records": 1,
  "fields": [
   "activePause",
   "activePlayers",
@@ -48,153 +48,10 @@
  ],
  "sample": [
   {
-   "referenceTime": "2026-10-25T00:00:21.989",
-   "name": "King's Prague Saturday Monsterstack ",
-   "fullName": "King's Prague Saturday Monsterstack ",
-   "tournamentName": "King's Prague Saturday Monsterstack ",
-   "notes": "(1x KOK Highroller tkt incl.)",
-   "color": "#33691e",
-   "background": "chips_all_in_kings.jpg",
-   "status": "RUNNING",
-   "isPaused": false,
-   "currency": "EUR",
-   "effectivePrizePool": 8000,
-   "guaranteeInEffect": true,
-   "overlay": null,
-   "reEntryMaxCount": null,
-   "startingStack": 100000,
-   "openRegistration": false,
-   "lateRegistrationUntilLevel": 12,
-   "expectedLastLevel": null,
-   "start": "2026-10-24T15:11:06",
-   "pausedSeconds": 0,
-   "pausedMillis": 0,
-   "flightGameTimeDelta": 0,
-   "stickerText": " ♣♠️♦♥️ 1x KoK Prague Highroller ticket incl. 500€ - 9.1.2027 - 50.000€ GTD ♣♠️♦♥️ 🍀GOOD LUCK🍀♣♠️♦♥️ 🍀 HODNĚ ŠTĚSTÍ 🍀♣♠️♦",
-   "totalEntries": 80,
-   "activePlayers": 17,
-   "averageStack": 470588,
-   "nextBreakStart": "2026-10-25T01:11:06.005",
-   "nextBreakSeconds": 900,
-   "entryValue": 100,
-   "serviceFee": 0,
-   "bountyValue": null,
-   "payoutPositions": [
-    {
-     "from": 1,
-     "to": 1,
-     "amount": 1710,
-     "label": "Ticket"
-    },
-    {
-     "from": 2,
-     "to": 2,
-     "amount": 1216,
-     "label": null
-    },
-    {
-     "from": 3,
-     "to": 3,
-     "amount": 796,
-     "label": null
-    },
-    {
-     "from": 4,
-     "to": 4,
-     "amount": 613,
-     "label": null
-    },
-    {
-     "from": 5,
-     "to": 5,
-     "amount": 485,
-     "label": null
-    },
-    {
-     "from": 6,
-     "to": 6,
-     "amount": 379,
-     "label": null
-    },
-    {
-     "from": 7,
-     "to": 7,
-     "amount": 299,
-     "label": null
-    },
-    {
-     "from": 8,
-     "to": 8,
-     "amount": 233,
-     "label": null
-    },
-    {
-     "from": 9,
-     "to": 9,
-     "amount": 177,
-     "label": null
-    },
-    {
-     "from": 10,
-     "to": 11,
-     "amount": 156,
-     "label": null
-    }
-   ],
-   "currentLevel": {
-    "start": "2026-10-24T23:41:06.005",
-    "gameEnd": "2026-10-25T00:11:06.005",
-    "levelEnd": "2026-10-25T00:11:06.005",
-    "sb": 6000,
-    "bb": 12000,
-    "number": 16,
-    "gameSeconds": 1800,
-    "breakSeconds": 0,
-    "limits": "",
-    "ante": 12000
-   },
-   "nextLevels": [
-    {
-     "sb": 8000,
-     "bb": 16000,
-     "number": 17,
-     "gameSeconds": 1800,
-     "breakSeconds": 0,
-     "limits": "",
-     "ante": 16000
-    },
-    {
-     "sb": 10000,
-     "bb": 20000,
-     "number": 18,
-     "gameSeconds": 1800,
-     "breakSeconds": 900,
-     "limits": "",
-     "ante": 20000
-    }
-   ],
-   "softPauseEnd": null,
-   "activePause": null,
-   "plannedEnd": null,
-   "winningStructureType": "STANDARD",
-   "levelCount": null,
-   "reEntryCountLimit": null,
-   "subName": "(1x KOK Highroller tkt incl.)",
-   "availableTickets": {
-    "buyIn": 100,
-    "serviceFee": 0,
-    "addon": null,
-    "rebuy": null,
-    "addOnLimit": null,
-    "reBuyLimit": null
-   },
-   "tournament_id": 14199
-  },
-  {
-   "referenceTime": "2026-10-25T00:00:08.819",
-   "name": "King's Prague Sunday Knockout (Bounty 25€)",
-   "fullName": "King's Prague Sunday Knockout (Bounty 25€)",
-   "tournamentName": "King's Prague Sunday Knockout (Bounty 25€)",
+   "referenceTime": "2026-10-26T00:00:13.433",
+   "name": "King's Prague Beginner's Monday",
+   "fullName": "King's Prague Beginner's Monday",
+   "tournamentName": "King's Prague Beginner's Monday",
    "notes": "(1x KOK Highroller tkt incl.)",
    "color": "#33691e",
    "background": "chips_all_in_kings.jpg",
@@ -209,7 +66,7 @@
    "openRegistration": true,
    "lateRegistrationUntilLevel": 10,
    "expectedLastLevel": null,
-   "start": "2026-10-25T17:00:00",
+   "start": "2026-10-26T18:00:00",
    "pausedSeconds": null,
    "pausedMillis": null,
    "flightGameTimeDelta": null,
@@ -219,29 +76,29 @@
    "averageStack": 0,
    "nextBreakStart": null,
    "nextBreakSeconds": null,
-   "entryValue": 55,
+   "entryValue": 60,
    "serviceFee": 0,
-   "bountyValue": 25,
+   "bountyValue": null,
    "payoutPositions": null,
    "currentLevel": null,
    "nextLevels": [
     {
      "sb": 100,
-     "bb": 200,
+     "bb": 100,
      "number": 1,
      "gameSeconds": 1200,
      "breakSeconds": 0,
      "limits": "",
-     "ante": 200
+     "ante": 100
     },
     {
      "sb": 100,
-     "bb": 300,
+     "bb": 200,
      "number": 2,
      "gameSeconds": 1200,
      "breakSeconds": 0,
      "limits": "",
-     "ante": 300
+     "ante": 200
     }
    ],
    "softPauseEnd": null,
@@ -252,14 +109,14 @@
    "reEntryCountLimit": null,
    "subName": "(1x KOK Highroller tkt incl.)",
    "availableTickets": {
-    "buyIn": 55,
+    "buyIn": 60,
     "serviceFee": 0,
     "addon": null,
     "rebuy": null,
     "addOnLimit": null,
     "reBuyLimit": null
    },
-   "tournament_id": 14200
+   "tournament_id": 14201
   }
  ]
 }
