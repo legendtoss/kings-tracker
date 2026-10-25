@@ -2310,3 +2310,4 @@
 2026-10-25 22:10,Sun,22,ok,2,16,Dealer's Choice €2/2 8/0; NLH €1/3 8/0,"Bratislava: Dealer's Choice €2/2 8 players (buy-in €100), NLH €1/3 8 players (buy-in €100)","Saturday Monsterstack: 58/132 players, level 11, blinds 3000/6000, buy-in €115, €20000 GTD"
 2026-10-25 22:20,Sun,22,ok,2,16,Dealer's Choice €2/2 8/0; NLH €1/3 8/0,"Bratislava: Dealer's Choice €2/2 8 players (buy-in €100), NLH €1/3 8 players (buy-in €100)","Saturday Monsterstack: 58/132 players, level 11, blinds 3000/6000, buy-in €115, €20000 GTD"
 2026-10-25 22:30,Sun,22,ok,2,16,Dealer's Choice €2/2 8/0; NLH €1/3 8/0,"Bratislava: Dealer's Choice €2/2 8 players (buy-in €100), NLH €1/3 8 players (buy-in €100)","Saturday Monsterstack: 58/132 players, level 11, blinds 3000/6000, buy-in €115, €20000 GTD"
+2026-10-25 22:40,Sun,22,error: URLError: urlopen error Errno 104 Connection reset by peer,,,,,
