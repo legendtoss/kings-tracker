@@ -2,10 +2,10 @@
 
 Prague's tables come in the same King's data feed as Rozvadov's, so they're read at every check (about every 10 minutes) without any extra visits, together with Prague's tournament clocks. All times are **Czech time** (same as Poland). Back to [King's Rozvadov](README.md).
 
-**Last check:** 2026-10-25 22:10 — ✅ OK  
-**Last 24 h:** 150 of 152 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-17 (1063 good checks)
+**Last check:** 2026-10-25 22:20 — ✅ OK  
+**Last 24 h:** 150 of 152 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-17 (1064 good checks)
 
-## Tables running at 2026-10-25 22:10
+## Tables running at 2026-10-25 22:20
 
 ```
 NLH  €2/4     8/8 players
@@ -61,7 +61,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 19:00 | 0 | 0 | 0 | 0 | 0 | 0 | 2 | 0 |
 | 20:00 | 0 | 0 | 0 | 0 | 0 | 3 | 3 | 1 |
 | 21:00 | 0 | 0 | 0 | 6 | 6 | 5 | 4 | 3 |
-| 22:00 | 0 | 0 | 2 | 6 | 6 | 6 | 2 | 4 |
+| 22:00 | 0 | 0 | 2 | 6 | 6 | 6 | 3 | 4 |
 | 23:00 | 0 | 0 | 1 | 8 | 10 | 8 | 0 | 4 |
 
 ## How often each game was running, by hour (all days)
@@ -92,14 +92,14 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 19:00 | 🟥 12% | 🟥 6% | 50 |
 | 20:00 | 🟨 28% | 🟥 0% | 53 |
 | 21:00 | 🟨 54% | 🟥 4% | 54 |
-| 22:00 | 🟨 57% | 🟥 0% | 49 |
+| 22:00 | 🟨 58% | 🟥 0% | 50 |
 | 23:00 | 🟨 61% | 🟥 4% | 46 |
 
 ## All games seen
 
 | Game | Running in | Most often | Last seen |
 |:--|--:|:--|:--|
-| NLH €2/4 | 18% of checks | Sat around 21:00 | 2026-10-25 22:10 |
+| NLH €2/4 | 18% of checks | Sat around 21:00 | 2026-10-25 22:20 |
 | PLO €2/2 | 1% of checks | Sat around 19:00 | 2026-10-24 19:50 |
 
 ## Tournaments seen
@@ -108,7 +108,7 @@ The most recent ones. The game is read from the tournament's name.
 
 | Tournament | Game | Buy-in | Entries | Seen |
 |:--|:--|--:|--:|:--|
-| King's Prague Sunday Knockout (Bounty 25 ) | NLH | €55 | 74 | 2026-10-18 17:10 → 10-25 22:10 |
+| King's Prague Sunday Knockout (Bounty 25 ) | NLH | €55 | 74 | 2026-10-18 17:10 → 10-25 22:20 |
 | King's Prague Saturday Monsterstack | NLH | €100 | 80 | 2026-10-17 20:40 → 10-25 03:30 |
 | BPC 1Million - Day 1 PRAGUE | NLH | €295 | 79 | 2026-10-23 19:10 → 10-24 03:40 |
 | Satellite to BPC ME - Day 1 PRAGUE | NLH | €40 | 90 | 2026-10-23 16:10 → 10-23 20:00 |
