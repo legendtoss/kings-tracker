@@ -2,10 +2,10 @@
 
 Checks [its website](https://bancocasino.sk/ba/en) together with King's, about every 10 minutes. All times are **Czech time** (same as Poland and Slovakia). Back to [King's](README.md).
 
-**Last check:** 2026-10-25 11:00 — ✅ OK  
-**Checks so far:** 1737 successful out of 2242 (since 2026-10-10)
+**Last check:** 2026-10-25 11:10 — ✅ OK  
+**Checks so far:** 1738 successful out of 2243 (since 2026-10-10)
 
-## Tables running at 2026-10-25 11:00
+## Tables running at 2026-10-25 11:10
 
 No tables were running.
 
@@ -111,7 +111,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 08:00 | 🟥 9% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 66 |
 | 09:00 | 🟥 3% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 66 |
 | 10:00 | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 66 |
-| 11:00 | 🟥 3% | 🟥 0% | 🟥 3% | 🟥 0% | 🟥 0% | 63 |
+| 11:00 | 🟥 3% | 🟥 0% | 🟥 3% | 🟥 0% | 🟥 0% | 64 |
 | 12:00 | 🟥 10% | 🟥 0% | 🟥 10% | 🟥 0% | 🟥 0% | 67 |
 | 13:00 | 🟥 9% | 🟥 0% | 🟥 9% | 🟥 0% | 🟥 0% | 66 |
 | 14:00 | 🟥 12% | 🟥 0% | 🟥 17% | 🟥 0% | 🟥 3% | 66 |
@@ -131,7 +131,7 @@ Average seated players per check on each kind of day, in total and for NLH and O
 
 | Days | Dates | Checks | Players | NLH | Omaha | vs normal, same hour |
 |:--|:--|--:|--:|--:|--:|--:|
-| Normal days | 13–25 Oct (12 days) | 1593 | 5.8 | 3.8 | 1.7 | -0.0 |
+| Normal days | 13–25 Oct (12 days) | 1594 | 5.8 | 3.8 | 1.7 | -0.0 |
 | 📅 Public holidays | 23 Oct (1 day) | 144 | 3.1 | 1.3 | 1.7 | -2.6 |
 
 ## All games seen
