@@ -1,5 +1,5 @@
 {
- "saved_on": "2026-10-26",
+ "saved_on": "2026-10-27",
  "records": 1,
  "fields": [
   "gameProfile",
@@ -15,10 +15,10 @@
  "sample": [
   {
    "status": "PLAYING",
-   "startTime": "2026-10-25T22:45:50",
-   "startPlayingTime": "2026-10-25T22:45:52",
+   "startTime": "2026-10-27T00:02:30",
+   "startPlayingTime": "2026-10-27T00:03:05",
    "seatCount": 8,
-   "playerCount": 8,
+   "playerCount": 2,
    "gameType": {
     "id": 9,
     "name": "Omaha Poker"
@@ -35,8 +35,8 @@
     "blindsFormatted": "€ 2/2"
    },
    "table": {
-    "id": 118,
-    "name": "PKH2",
+    "id": 113,
+    "name": "PKH1",
     "type": "CASH_GAME",
     "zone": {
      "id": 5,
