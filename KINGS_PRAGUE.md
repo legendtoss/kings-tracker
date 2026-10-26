@@ -2,15 +2,15 @@
 
 Prague's tables come in the same King's data feed as Rozvadov's, so they're read at every check (about every 10 minutes) without any extra visits, together with Prague's tournament clocks. All times are **Czech time** (same as Poland). Back to [King's Rozvadov](README.md).
 
-**Last check:** 2026-10-26 02:00 — ✅ OK  
-**Last 24 h:** 150 of 152 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-17 (1086 good checks)
+**Last check:** 2026-10-26 02:10 — ✅ OK  
+**Last 24 h:** 149 of 151 checks OK, longest gap 0 h 20 min · **Collecting since:** 2026-10-17 (1087 good checks)
 
-## Tables running at 2026-10-26 02:00
+## Tables running at 2026-10-26 02:10
 
 ```
-PLO  €2/2     6/8 players
+PLO5  €5/5     5/8 players
 ```
-**PLO:** 6 players at 1 table
+**PLO5:** 5 players at 1 table
 
 **Tournaments in play:** King's Prague Sunday Knockout (Bounty 25 ) (NLH, €55, €25 bounty, 2 of 74 left, level 23, blinds 30000/60000/60000)
 
@@ -67,32 +67,32 @@ Seated players at each game's tables. 0 = that game wasn't running.
 
 🟩 most of the time · 🟨 sometimes · 🟥 rarely
 
-| Hour | NLH €2/4 | PLO €2/2 | Checks |
-|:--|--:|--:|--:|
-| 00:00 | 🟨 56% | 🟥 11% | 54 |
-| 01:00 | 🟨 50% | 🟥 11% | 54 |
-| 02:00 | 🟨 30% | 🟥 2% | 56 |
-| 03:00 | 🟥 11% | 🟥 0% | 46 |
-| 04:00 | 🟥 4% | 🟥 0% | 47 |
-| 05:00 | 🟥 0% | 🟥 0% | 47 |
-| 06:00 | 🟥 0% | 🟥 0% | 42 |
-| 07:00 | 🟥 0% | 🟥 0% | 41 |
-| 08:00 | 🟥 0% | 🟥 0% | 39 |
-| 09:00 | 🟥 0% | 🟥 0% | 30 |
-| 10:00 | 🟥 0% | 🟥 0% | 29 |
-| 11:00 | 🟥 0% | 🟥 0% | 30 |
-| 12:00 | 🟥 0% | 🟥 0% | 34 |
-| 13:00 | 🟥 0% | 🟥 0% | 44 |
-| 14:00 | 🟥 0% | 🟥 0% | 47 |
-| 15:00 | 🟥 0% | 🟥 0% | 47 |
-| 16:00 | 🟥 0% | 🟥 0% | 46 |
-| 17:00 | 🟥 0% | 🟥 0% | 45 |
-| 18:00 | 🟥 13% | 🟥 0% | 46 |
-| 19:00 | 🟥 12% | 🟥 6% | 50 |
-| 20:00 | 🟨 28% | 🟥 0% | 53 |
-| 21:00 | 🟨 54% | 🟥 4% | 54 |
-| 22:00 | 🟨 60% | 🟥 2% | 53 |
-| 23:00 | 🟨 56% | 🟥 13% | 52 |
+| Hour | NLH €2/4 | PLO €2/2 | PLO5 €5/5 | Checks |
+|:--|--:|--:|--:|--:|
+| 00:00 | 🟨 56% | 🟥 11% | 🟥 0% | 54 |
+| 01:00 | 🟨 50% | 🟥 11% | 🟥 0% | 54 |
+| 02:00 | 🟨 30% | 🟥 2% | 🟥 2% | 57 |
+| 03:00 | 🟥 11% | 🟥 0% | 🟥 0% | 46 |
+| 04:00 | 🟥 4% | 🟥 0% | 🟥 0% | 47 |
+| 05:00 | 🟥 0% | 🟥 0% | 🟥 0% | 47 |
+| 06:00 | 🟥 0% | 🟥 0% | 🟥 0% | 42 |
+| 07:00 | 🟥 0% | 🟥 0% | 🟥 0% | 41 |
+| 08:00 | 🟥 0% | 🟥 0% | 🟥 0% | 39 |
+| 09:00 | 🟥 0% | 🟥 0% | 🟥 0% | 30 |
+| 10:00 | 🟥 0% | 🟥 0% | 🟥 0% | 29 |
+| 11:00 | 🟥 0% | 🟥 0% | 🟥 0% | 30 |
+| 12:00 | 🟥 0% | 🟥 0% | 🟥 0% | 34 |
+| 13:00 | 🟥 0% | 🟥 0% | 🟥 0% | 44 |
+| 14:00 | 🟥 0% | 🟥 0% | 🟥 0% | 47 |
+| 15:00 | 🟥 0% | 🟥 0% | 🟥 0% | 47 |
+| 16:00 | 🟥 0% | 🟥 0% | 🟥 0% | 46 |
+| 17:00 | 🟥 0% | 🟥 0% | 🟥 0% | 45 |
+| 18:00 | 🟥 13% | 🟥 0% | 🟥 0% | 46 |
+| 19:00 | 🟥 12% | 🟥 6% | 🟥 0% | 50 |
+| 20:00 | 🟨 28% | 🟥 0% | 🟥 0% | 53 |
+| 21:00 | 🟨 54% | 🟥 4% | 🟥 0% | 54 |
+| 22:00 | 🟨 60% | 🟥 2% | 🟥 0% | 53 |
+| 23:00 | 🟨 56% | 🟥 13% | 🟥 0% | 52 |
 
 ## All games seen
 
@@ -100,6 +100,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 |:--|--:|:--|:--|
 | NLH €2/4 | 18% of checks | Sat around 21:00 | 2026-10-25 23:00 |
 | PLO €2/2 | 2% of checks | Mon around 00:00 | 2026-10-26 02:00 |
+| PLO5 €5/5 | 0% of checks | Mon around 02:00 | 2026-10-26 02:10 |
 
 ## Tournaments seen
 
@@ -107,7 +108,7 @@ The most recent ones. The game is read from the tournament's name.
 
 | Tournament | Game | Buy-in | Entries | Seen |
 |:--|:--|--:|--:|:--|
-| King's Prague Sunday Knockout (Bounty 25 ) | NLH | €55 | 74 | 2026-10-18 17:10 → 10-26 02:00 |
+| King's Prague Sunday Knockout (Bounty 25 ) | NLH | €55 | 74 | 2026-10-18 17:10 → 10-26 02:10 |
 | King's Prague Saturday Monsterstack | NLH | €100 | 80 | 2026-10-17 20:40 → 10-25 03:30 |
 | BPC 1Million - Day 1 PRAGUE | NLH | €295 | 79 | 2026-10-23 19:10 → 10-24 03:40 |
 | Satellite to BPC ME - Day 1 PRAGUE | NLH | €40 | 90 | 2026-10-23 16:10 → 10-23 20:00 |
