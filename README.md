@@ -6,10 +6,10 @@ Checks King's live cash games and tournaments about every 10 minutes and updates
 
 **🎯 Omaha right now:** [Card Casino Šamorín](CARD_CASINO.md): PLO €5/5 (4 players)
 
-**Last check:** 2026-10-27 11:10 — ✅ OK (page table, via browser)  
-**Last 24 h:** 107 of 145 checks OK, longest gap 0 h 11 min · **Collecting since:** 2026-10-06 (2583 good checks)
+**Last check:** 2026-10-27 11:20 — ✅ OK (data feed)  
+**Last 24 h:** 107 of 145 checks OK, longest gap 0 h 11 min · **Collecting since:** 2026-10-06 (2584 good checks)
 
-## Tables running at 2026-10-27 11:10
+## Tables running at 2026-10-27 11:20
 
 No tables were running.
 
@@ -99,7 +99,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 08:00 | 4 | 2 | 5 | 3 | 6 | 9 | 12 | 6 |
 | 09:00 | 2 | 1 | 3 | 3 | 5 | 10 | 11 | 6 |
 | 10:00 | 4 | 2 | 0 | 5 | 6 | 14 | 12 | 8 |
-| 11:00 | 4 | 2 | 1 | 6 | 11 | 13 | 13 | 8 |
+| 11:00 | 4 | 1 | 1 | 6 | 11 | 13 | 13 | 8 |
 | 12:00 | 8 | 2 | 5 | 4 | 16 | 17 | 22 | 12 |
 | 13:00 | 7 | 3 | 8 | 4 | 21 | 25 | 30 | 15 |
 | 14:00 | 9 | 6 | 9 | 6 | 24 | 34 | 43 | 20 |
@@ -188,7 +188,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 08:00 | 🟩 75% | 🟥 8% | 🟥 0% | 🟥 18% | 🟥 3% | 🟥 0% | 🟥 2% | 🟥 3% | 102 |
 | 09:00 | 🟨 71% | 🟥 3% | 🟥 0% | 🟥 19% | 🟥 1% | 🟥 0% | 🟥 1% | 🟥 2% | 90 |
 | 10:00 | 🟨 73% | 🟥 3% | 🟥 0% | 🟥 19% | 🟥 0% | 🟥 0% | 🟥 3% | 🟥 1% | 89 |
-| 11:00 | 🟨 74% | 🟥 4% | 🟥 0% | 🟨 31% | 🟥 2% | 🟥 0% | 🟥 3% | 🟥 0% | 90 |
+| 11:00 | 🟨 74% | 🟥 4% | 🟥 0% | 🟨 31% | 🟥 2% | 🟥 0% | 🟥 3% | 🟥 0% | 91 |
 | 12:00 | 🟩 81% | 🟥 17% | 🟥 0% | 🟨 34% | 🟥 7% | 🟥 0% | 🟥 3% | 🟥 0% | 95 |
 | 13:00 | 🟩 85% | 🟥 16% | 🟥 0% | 🟨 39% | 🟥 19% | 🟥 0% | 🟥 3% | 🟥 0% | 104 |
 | 14:00 | 🟩 86% | 🟨 25% | 🟥 0% | 🟨 42% | 🟨 27% | 🟥 0% | 🟥 3% | 🟥 0% | 108 |
@@ -208,7 +208,7 @@ Cash players grouped by how many players were still in tournaments at the time. 
 
 | Tournament players in action | Checks | Avg cash players | vs usual for that hour |
 |:--|--:|--:|--:|
-| none | 858 | 11 | -4 |
+| none | 859 | 11 | -4 |
 | 1–49 | 592 | 27 | -18 |
 | 50–149 | 482 | 49 | +7 |
 | 150 or more | 503 | 68 | +26 |
@@ -219,7 +219,7 @@ NLH and PLO cash players depending on which tournament games were running. The g
 
 | Tournaments in play | Checks | NLH cash players | vs usual | PLO cash players | vs usual |
 |:--|--:|--:|--:|--:|--:|
-| none | 858 | 9 | -3 | 2 | -2 |
+| none | 859 | 9 | -3 | 2 | -2 |
 | only NLH tournaments | 1407 | 30 | +0 | 14 | +0 |
 | a PLO tournament | 124 | 49 | +19 | 20 | +8 |
 | other tournament games | 46 | 50 | +27 | 20 | +12 |
@@ -267,11 +267,11 @@ The most recent ones. The game is read from the tournament's name.
 
 | Room | Last check | OK in the last 24 h | Most common problem |
 |:--|:--|--:|:--|
-| King's Rozvadov | ✅ 10-27 11:10 | 107 of 145 | couldn't read the tables on the page |
-| [King's Prague](KINGS_PRAGUE.md) | ✅ 10-27 11:10 | 109 of 145 | King's feed came back empty and that couldn't be confirmed, so it wasn |
-| [Grand Casino Aš](GRAND_CASINO_AS.md) | ✅ 10-27 11:10 | 145 of 145 | · |
-| [Card Casino Šamorín](CARD_CASINO.md) | ✅ 10-27 11:10 | 126 of 145 | Card Casino's site didn't answer |
-| [Banco Casino Bratislava](BANCO.md) | ✅ 10-27 11:10 | 145 of 145 | · |
+| King's Rozvadov | ✅ 10-27 11:20 | 107 of 145 | couldn't read the tables on the page |
+| [King's Prague](KINGS_PRAGUE.md) | ✅ 10-27 11:20 | 109 of 145 | King's feed came back empty and that couldn't be confirmed, so it wasn |
+| [Grand Casino Aš](GRAND_CASINO_AS.md) | ✅ 10-27 11:20 | 145 of 145 | · |
+| [Card Casino Šamorín](CARD_CASINO.md) | ✅ 10-27 11:20 | 126 of 145 | Card Casino's site didn't answer |
+| [Banco Casino Bratislava](BANCO.md) | ✅ 10-27 11:20 | 145 of 145 | · |
 | [Olympic Park Tallinn](OLYMPIC_TALLINN.md) | ⚠️ 10-27 11:00 | 0 of 48 | couldn't read the cash games table (page saved for a closer look) |
 | [Olympic Voodoo Riga](OLYMPIC_RIGA.md) | ⚠️ 10-27 11:00 | 0 of 48 | couldn't read the cash games table (page saved for a closer look) |
 | [Olympic Casino Vilnius](OLYMPIC_VILNIUS.md) | ⚠️ 10-27 11:00 | 0 of 48 | couldn't read the cash games table (page saved for a closer look) |
