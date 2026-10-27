@@ -2,10 +2,10 @@
 
 Prague's tables come in the same King's data feed as Rozvadov's, so they're read at every check (about every 10 minutes) without any extra visits, together with Prague's tournament clocks. All times are **Czech time** (same as Poland). Back to [King's Rozvadov](README.md).
 
-**Last check:** 2026-10-27 01:00 — ✅ OK  
-**Last 24 h:** 142 of 145 checks OK, longest gap 0 h 11 min · **Collecting since:** 2026-10-17 (1221 good checks)
+**Last check:** 2026-10-27 01:10 — ✅ OK  
+**Last 24 h:** 142 of 145 checks OK, longest gap 0 h 11 min · **Collecting since:** 2026-10-17 (1222 good checks)
 
-## Tables running at 2026-10-27 01:00
+## Tables running at 2026-10-27 01:10
 
 ```
 PLO  €2/2     2/8 players
@@ -70,7 +70,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | Hour | NLH €2/4 | PLO €2/2 | PLO5 €5/5 | Checks |
 |:--|--:|--:|--:|--:|
 | 00:00 | 🟨 50% | 🟥 18% | 🟥 0% | 60 |
-| 01:00 | 🟨 49% | 🟥 13% | 🟥 0% | 55 |
+| 01:00 | 🟨 48% | 🟥 14% | 🟥 0% | 56 |
 | 02:00 | 🟨 28% | 🟥 2% | 🟥 3% | 61 |
 | 03:00 | 🟥 10% | 🟥 0% | 🟥 0% | 51 |
 | 04:00 | 🟥 4% | 🟥 0% | 🟥 0% | 53 |
@@ -99,7 +99,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | Game | Running in | Most often | Last seen |
 |:--|--:|:--|:--|
 | NLH €2/4 | 17% of checks | Sat around 21:00 | 2026-10-26 22:10 |
-| PLO €2/2 | 3% of checks | Mon around 00:00 | 2026-10-27 01:00 |
+| PLO €2/2 | 3% of checks | Mon around 00:00 | 2026-10-27 01:10 |
 | PLO5 €5/5 | 0% of checks | Mon around 02:00 | 2026-10-26 02:20 |
 
 ## Tournaments seen
@@ -108,7 +108,7 @@ The most recent ones. The game is read from the tournament's name.
 
 | Tournament | Game | Buy-in | Entries | Seen |
 |:--|:--|--:|--:|:--|
-| King's Prague Beginner's Monday | NLH | €60 | 111 | 2026-10-19 18:00 → 10-27 01:00 |
+| King's Prague Beginner's Monday | NLH | €60 | 111 | 2026-10-19 18:00 → 10-27 01:10 |
 | King's Prague Sunday Knockout (Bounty 25 ) | NLH | €55 | 74 | 2026-10-18 17:10 → 10-26 02:10 |
 | King's Prague Saturday Monsterstack | NLH | €100 | 80 | 2026-10-17 20:40 → 10-25 03:30 |
 | BPC 1Million - Day 1 PRAGUE | NLH | €295 | 79 | 2026-10-23 19:10 → 10-24 03:40 |
