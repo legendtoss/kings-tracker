@@ -2,22 +2,23 @@
 
 Checks King's live cash games and tournaments about every 10 minutes and updates this page by itself. All times are **Czech time** (same as Poland). Also tracking: [King's Prague](KINGS_PRAGUE.md) · [Card Casino Šamorín](CARD_CASINO.md) · [Grand Casino Aš](GRAND_CASINO_AS.md) · [Banco Casino Bratislava](BANCO.md) · [Olympic Park Tallinn](OLYMPIC_TALLINN.md) · [Olympic Voodoo Riga](OLYMPIC_RIGA.md) · [Olympic Casino Vilnius](OLYMPIC_VILNIUS.md).
 
-**Right now:** King's: 2 tables, 14 players · [King's Prague](KINGS_PRAGUE.md): 1 table, 2 players · [Card Casino Šamorín](CARD_CASINO.md): 1 table, 7 players · [Grand Casino Aš](GRAND_CASINO_AS.md): 0 tables running · [Olympic Park Tallinn](OLYMPIC_TALLINN.md) 🎪 Mixed games festival: couldn't be read at 21:30 · [Olympic Voodoo Riga](OLYMPIC_RIGA.md): blocked at 21:30 · [Olympic Vilnius](OLYMPIC_VILNIUS.md): couldn't be read at 21:30 · [Banco](BANCO.md): 2 tables, 14 players
+**Right now:** King's: 3 tables, 22 players · [King's Prague](KINGS_PRAGUE.md): 1 table, 2 players · [Card Casino Šamorín](CARD_CASINO.md): 1 table, 7 players · [Grand Casino Aš](GRAND_CASINO_AS.md): 0 tables running · [Olympic Park Tallinn](OLYMPIC_TALLINN.md) 🎪 Mixed games festival: couldn't be read at 21:30 · [Olympic Voodoo Riga](OLYMPIC_RIGA.md): blocked at 21:30 · [Olympic Vilnius](OLYMPIC_VILNIUS.md): couldn't be read at 21:30 · [Banco](BANCO.md): 2 tables, 14 players
 
-**🎯 Omaha right now:** King's Rozvadov: PLO €2/2 (7 players) · [Banco Casino Bratislava](BANCO.md): PLO 4/5 €2/2 (6 players)
+**🎯 Omaha right now:** King's Rozvadov: PLO €2/2, PLO5 €5/5 (14 players) · [Banco Casino Bratislava](BANCO.md): PLO 4/5 €2/2 (6 players)
 
-**Last check:** 2026-10-27 21:40 — ✅ OK (data feed)  
-**Last 24 h:** 110 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-06 (2646 good checks)
+**Last check:** 2026-10-27 21:50 — ✅ OK (data feed)  
+**Last 24 h:** 110 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-06 (2647 good checks)
 
-## Tables running at 2026-10-27 21:40
+## Tables running at 2026-10-27 21:50
 
 ```
-NLH  €1/2     7/8 players
-PLO  €2/2     7/8 players
+NLH   €1/2     8/8 players
+PLO   €2/2     6/8 players
+PLO5  €5/5     8/8 players
 ```
-**NLH:** 7 players at 1 table · **PLO:** 7 players at 1 table
+**NLH:** 8 players at 1 table · **PLO:** 6 players at 1 table · **PLO5:** 8 players at 1 table
 
-**Tournaments in play:** King's Big Tuesday (NLH, €100, 40 of 92 left, level 10, blinds 1000/1500/1500)
+**Tournaments in play:** King's Big Tuesday (NLH, €100, 38 of 92 left, level 10, blinds 1000/1500/1500)
 
 ## Festivals and schedule
 
@@ -171,7 +172,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 18:00 | 5 | 5 | 3 | 6 | 8 | 10 | 5 | 6 |
 | 19:00 | 5 | 4 | 3 | 8 | 10 | 12 | 5 | 7 |
 | 20:00 | 5 | 3 | 2 | 11 | 10 | 14 | 6 | 7 |
-| 21:00 | 2 | 2 | 3 | 8 | 11 | 15 | 4 | 6 |
+| 21:00 | 2 | 3 | 3 | 8 | 11 | 15 | 4 | 6 |
 | 22:00 | 1 | 5 | 4 | 5 | 10 | 15 | 3 | 6 |
 | 23:00 | 1 | 8 | 4 | 8 | 12 | 15 | 7 | 8 |
 
@@ -202,7 +203,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 18:00 | 🟩 97% | 🟨 40% | 🟥 10% | 🟨 62% | 🟨 68% | 🟥 5% | 🟥 3% | 🟥 0% | 117 |
 | 19:00 | 🟩 94% | 🟨 44% | 🟥 11% | 🟨 66% | 🟨 70% | 🟥 4% | 🟥 5% | 🟥 0% | 118 |
 | 20:00 | 🟩 97% | 🟨 49% | 🟥 8% | 🟨 69% | 🟨 71% | 🟥 5% | 🟥 3% | 🟥 0% | 118 |
-| 21:00 | 🟩 97% | 🟨 52% | 🟥 13% | 🟩 75% | 🟨 56% | 🟥 5% | 🟥 3% | 🟥 0% | 119 |
+| 21:00 | 🟩 98% | 🟨 52% | 🟥 12% | 🟩 75% | 🟨 57% | 🟥 5% | 🟥 2% | 🟥 0% | 120 |
 | 22:00 | 🟩 98% | 🟨 48% | 🟥 17% | 🟩 87% | 🟨 60% | 🟥 4% | 🟥 4% | 🟥 0% | 113 |
 | 23:00 | 🟩 96% | 🟨 50% | 🟥 17% | 🟩 90% | 🟨 65% | 🟥 5% | 🟥 14% | 🟥 0% | 114 |
 
@@ -213,8 +214,8 @@ Cash players grouped by how many players were still in tournaments at the time. 
 | Tournament players in action | Checks | Avg cash players | vs usual for that hour |
 |:--|--:|--:|--:|
 | none | 898 | 11 | -5 |
-| 1–49 | 615 | 26 | -18 |
-| 50–149 | 482 | 49 | +7 |
+| 1–49 | 616 | 26 | -18 |
+| 50–149 | 482 | 49 | +8 |
 | 150 or more | 503 | 68 | +28 |
 
 ### Cash games by tournament type
@@ -224,7 +225,7 @@ NLH and PLO cash players depending on which tournament games were running. The g
 | Tournaments in play | Checks | NLH cash players | vs usual | PLO cash players | vs usual |
 |:--|--:|--:|--:|--:|--:|
 | none | 898 | 9 | -3 | 2 | -2 |
-| only NLH tournaments | 1430 | 30 | +0 | 13 | +0 |
+| only NLH tournaments | 1431 | 30 | +0 | 13 | +0 |
 | a PLO tournament | 124 | 49 | +20 | 20 | +8 |
 | other tournament games | 46 | 50 | +28 | 20 | +12 |
 
@@ -232,12 +233,12 @@ NLH and PLO cash players depending on which tournament games were running. The g
 
 | Game | Running in | Most often | Last seen |
 |:--|--:|:--|:--|
-| NLH €1/2 | 88% of checks | Sun around 02:00 | 2026-10-27 21:40 |
+| NLH €1/2 | 88% of checks | Sun around 02:00 | 2026-10-27 21:50 |
 | NLH €2/4 | 28% of checks | Sat around 02:00 | 2026-10-26 13:10 |
 | NLH €5/10 | 7% of checks | Sat around 23:00 | 2026-10-25 06:10 |
 | NLH €10/25 | 0% of checks | Tue around 13:00 | 2026-10-20 13:30 |
-| PLO €2/2 | 50% of checks | Sun around 02:00 | 2026-10-27 21:40 |
-| PLO5 €5/5 | 42% of checks | Sat around 23:00 | 2026-10-27 03:00 |
+| PLO €2/2 | 51% of checks | Sun around 02:00 | 2026-10-27 21:50 |
+| PLO5 €5/5 | 42% of checks | Sat around 23:00 | 2026-10-27 21:50 |
 | PLO5 €5/10 | 2% of checks | Sat around 16:00 | 2026-10-18 02:10 |
 | PLO5 €10/10 | 4% of checks | Fri around 23:00 | 2026-10-16 23:50 |
 | PLO5 €10/25 | 0% of checks | Wed around 06:00 | 2026-10-07 10:04 |
@@ -251,7 +252,7 @@ The most recent ones. The game is read from the tournament's name.
 
 | Tournament | Game | Buy-in | Entries | Seen |
 |:--|:--|--:|--:|:--|
-| King's Big Tuesday | NLH | €100 | 93 | 2026-10-13 18:00 → 10-27 21:40 |
+| King's Big Tuesday | NLH | €100 | 93 | 2026-10-13 18:00 → 10-27 21:50 |
 | BPC Monday Knockout (Bounty 50 ) | NLH | €100 | 133 | 2026-10-26 18:00 → 10-27 02:10 |
 | BPC 1Million - Final Day | NLH | €295 | 2817 | 2026-10-26 14:00 → 10-26 23:30 |
 | BPC High Roller | NLH | €600 | 198 | 2026-10-25 18:00 → 10-26 06:50 |
@@ -271,11 +272,11 @@ The most recent ones. The game is read from the tournament's name.
 
 | Room | Last check | OK in the last 24 h | Most common problem |
 |:--|:--|--:|:--|
-| King's Rozvadov | ✅ 10-27 21:40 | 110 of 145 | couldn't read the tables on the page |
-| [King's Prague](KINGS_PRAGUE.md) | ✅ 10-27 21:40 | 111 of 145 | King's feed came back empty and that couldn't be confirmed, so it wasn |
-| [Grand Casino Aš](GRAND_CASINO_AS.md) | ✅ 10-27 21:40 | 145 of 145 | · |
-| [Card Casino Šamorín](CARD_CASINO.md) | ✅ 10-27 21:40 | 117 of 145 | Card Casino's site didn't answer |
-| [Banco Casino Bratislava](BANCO.md) | ✅ 10-27 21:40 | 144 of 145 | URLError: urlopen error Errno 104 Connection reset by peer |
+| King's Rozvadov | ✅ 10-27 21:50 | 110 of 145 | couldn't read the tables on the page |
+| [King's Prague](KINGS_PRAGUE.md) | ✅ 10-27 21:50 | 111 of 145 | King's feed came back empty and that couldn't be confirmed, so it wasn |
+| [Grand Casino Aš](GRAND_CASINO_AS.md) | ✅ 10-27 21:50 | 145 of 145 | · |
+| [Card Casino Šamorín](CARD_CASINO.md) | ✅ 10-27 21:50 | 117 of 145 | Card Casino's site didn't answer |
+| [Banco Casino Bratislava](BANCO.md) | ✅ 10-27 21:50 | 144 of 145 | URLError: urlopen error Errno 104 Connection reset by peer |
 | [Olympic Park Tallinn](OLYMPIC_TALLINN.md) | ⚠️ 10-27 21:30 | 0 of 48 | couldn't read the cash games table (page saved for a closer look) |
 | [Olympic Voodoo Riga](OLYMPIC_RIGA.md) | ⚠️ 10-27 21:30 | 0 of 48 | blocked by the site's bot protection |
 | [Olympic Casino Vilnius](OLYMPIC_VILNIUS.md) | ⚠️ 10-27 21:30 | 0 of 48 | couldn't read the cash games table (page saved for a closer look) |
