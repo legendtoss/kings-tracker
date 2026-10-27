@@ -2,18 +2,18 @@
 
 Reads [Grand Casino Aš's live cash games](https://www.grandcasinoas.eu/en/poker/poker-live) every 10 minutes and its [current tournaments](https://www.grandcasinoas.eu/en/poker) every 30 minutes. All times are **Czech time** (same as Poland). Back to [King's](README.md).
 
-**Last check:** 2026-10-27 23:50 — ✅ OK  
-**Last 24 h:** 145 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-10 (2595 good checks)
+**Last check:** 2026-10-28 00:00 — ✅ OK  
+**Last 24 h:** 145 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-10 (2596 good checks)
 
-## Cash games at 2026-10-27 23:50
+## Cash games at 2026-10-28 00:00
 
 No cash games listed.
 
-**Tournaments in play at 2026-10-25 01:30:** Megastack Turbo (NLH, €70, 3 of 155 left, on a break)
+**Tournaments in play at 2026-10-28 00:00:** none
 
 ## Festivals and schedule
 
-- **Coming up:** 🎟️ **KaKo Cup**, 28–31 Oct (series) — €140 KaKo Cup 31 Oct; €300 KaKo Highroller 30 Oct · Omaha: €80 PLO (30 Oct 18:00)
+- **Now:** 🎟️ **KaKo Cup**, 28–31 Oct (series) — €140 KaKo Cup 31 Oct; €300 KaKo Highroller 30 Oct · Omaha: €80 PLO (30 Oct 18:00)
 - **Coming up:** 🎪 **GRND festival**, 4–15 Nov (festival) — €200 GRND Main Event 11–15 Nov; €350 GRND Highroller 6 Nov; €100 GRND Cup 8–11 Nov
 - **Coming up:** 🎟️ **Isar series**, 25–29 Nov (series) — €150 Isar Main Event 28 Nov · Omaha: €60 NLH/PLO/Crazy Pineapple (26 Nov 14:00); €100 PLO StackAttack (27 Nov 20:00)
 
@@ -27,7 +27,7 @@ No cash games listed.
 
 ## Running cash tables by hour
 
-*Normal days only: 578 checks during festivals, cash-game events or public holidays are compared separately in “Festivals, holidays and normal days” below.*
+*Normal days only: 579 checks during festivals, cash-game events or public holidays are compared separately in “Festivals, holidays and normal days” below.*
 
 Average number of running tables (Grand Casino Aš shows which games run, not how many players).
 
@@ -97,6 +97,7 @@ Average running tables per check on each kind of day, in total and for NLH and O
 |:--|:--|--:|--:|--:|--:|--:|
 | Normal days | 10–27 Oct (14 days) | 2017 | 0.2 | 0.1 | 0.0 | +0.0 |
 | 🎪 PLO festival | 15–18 Oct (4 days) | 578 | 0.5 | 0.3 | 0.1 | +0.4 |
+| 📅 Public holidays | 28 Oct (1 day) | 1 | 0.0 | 0.0 | 0.0 | -0.5 |
 
 ## Tournaments seen
 
