@@ -6,10 +6,10 @@ Checks King's live cash games and tournaments about every 10 minutes and updates
 
 **🎯 Omaha right now:** no Omaha tables running at any room
 
-**Last check:** 2026-10-27 13:10 — ✅ OK (data feed)  
-**Last 24 h:** 107 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-06 (2595 good checks)
+**Last check:** 2026-10-27 13:20 — ✅ OK (data feed)  
+**Last 24 h:** 107 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-06 (2596 good checks)
 
-## Tables running at 2026-10-27 13:10
+## Tables running at 2026-10-27 13:20
 
 No tables were running.
 
@@ -101,7 +101,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 10:00 | 4 | 2 | 0 | 5 | 6 | 14 | 12 | 8 |
 | 11:00 | 4 | 1 | 1 | 6 | 11 | 13 | 13 | 8 |
 | 12:00 | 8 | 1 | 5 | 4 | 16 | 17 | 22 | 11 |
-| 13:00 | 7 | 3 | 8 | 4 | 21 | 25 | 30 | 15 |
+| 13:00 | 7 | 2 | 8 | 4 | 21 | 25 | 30 | 15 |
 | 14:00 | 9 | 6 | 9 | 6 | 24 | 34 | 43 | 20 |
 | 15:00 | 13 | 6 | 10 | 11 | 26 | 38 | 49 | 23 |
 | 16:00 | 13 | 9 | 9 | 16 | 31 | 44 | 50 | 26 |
@@ -159,7 +159,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 10:00 | 0 | 2 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 11:00 | 0 | 1 | 0 | 0 | 0 | 1 | 0 | 0 |
 | 12:00 | 0 | 1 | 0 | 0 | 0 | 2 | 0 | 1 |
-| 13:00 | 0 | 2 | 0 | 0 | 0 | 5 | 3 | 1 |
+| 13:00 | 0 | 1 | 0 | 0 | 0 | 5 | 3 | 1 |
 | 14:00 | 0 | 2 | 0 | 0 | 0 | 5 | 7 | 2 |
 | 15:00 | 0 | 2 | 2 | 1 | 1 | 9 | 7 | 3 |
 | 16:00 | 1 | 3 | 3 | 2 | 4 | 10 | 7 | 4 |
@@ -190,7 +190,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 10:00 | 🟨 73% | 🟥 3% | 🟥 0% | 🟥 19% | 🟥 0% | 🟥 0% | 🟥 3% | 🟥 1% | 89 |
 | 11:00 | 🟨 71% | 🟥 4% | 🟥 0% | 🟨 30% | 🟥 2% | 🟥 0% | 🟥 3% | 🟥 0% | 94 |
 | 12:00 | 🟩 76% | 🟥 16% | 🟥 0% | 🟨 32% | 🟥 7% | 🟥 0% | 🟥 3% | 🟥 0% | 101 |
-| 13:00 | 🟩 83% | 🟥 16% | 🟥 0% | 🟨 39% | 🟥 19% | 🟥 0% | 🟥 3% | 🟥 0% | 106 |
+| 13:00 | 🟩 82% | 🟥 16% | 🟥 0% | 🟨 38% | 🟥 19% | 🟥 0% | 🟥 3% | 🟥 0% | 107 |
 | 14:00 | 🟩 86% | 🟨 25% | 🟥 0% | 🟨 42% | 🟨 27% | 🟥 0% | 🟥 3% | 🟥 0% | 108 |
 | 15:00 | 🟩 92% | 🟨 34% | 🟥 2% | 🟨 48% | 🟨 38% | 🟥 1% | 🟥 2% | 🟥 0% | 106 |
 | 16:00 | 🟩 92% | 🟨 36% | 🟥 0% | 🟨 50% | 🟨 53% | 🟥 5% | 🟥 3% | 🟥 0% | 111 |
@@ -208,7 +208,7 @@ Cash players grouped by how many players were still in tournaments at the time. 
 
 | Tournament players in action | Checks | Avg cash players | vs usual for that hour |
 |:--|--:|--:|--:|
-| none | 870 | 11 | -5 |
+| none | 871 | 11 | -5 |
 | 1–49 | 592 | 27 | -18 |
 | 50–149 | 482 | 49 | +7 |
 | 150 or more | 503 | 68 | +27 |
@@ -219,10 +219,10 @@ NLH and PLO cash players depending on which tournament games were running. The g
 
 | Tournaments in play | Checks | NLH cash players | vs usual | PLO cash players | vs usual |
 |:--|--:|--:|--:|--:|--:|
-| none | 870 | 9 | -3 | 2 | -2 |
+| none | 871 | 9 | -3 | 2 | -2 |
 | only NLH tournaments | 1407 | 30 | +0 | 14 | +0 |
 | a PLO tournament | 124 | 49 | +19 | 20 | +8 |
-| other tournament games | 46 | 50 | +27 | 20 | +12 |
+| other tournament games | 46 | 50 | +28 | 20 | +12 |
 
 ## All games seen
 
@@ -267,11 +267,11 @@ The most recent ones. The game is read from the tournament's name.
 
 | Room | Last check | OK in the last 24 h | Most common problem |
 |:--|:--|--:|:--|
-| King's Rozvadov | ✅ 10-27 13:10 | 107 of 145 | couldn't read the tables on the page |
-| [King's Prague](KINGS_PRAGUE.md) | ✅ 10-27 13:10 | 109 of 145 | King's feed came back empty and that couldn't be confirmed, so it wasn |
-| [Grand Casino Aš](GRAND_CASINO_AS.md) | ✅ 10-27 13:10 | 145 of 145 | · |
-| [Card Casino Šamorín](CARD_CASINO.md) | ✅ 10-27 13:10 | 123 of 145 | Card Casino's site didn't answer |
-| [Banco Casino Bratislava](BANCO.md) | ✅ 10-27 13:10 | 145 of 145 | · |
+| King's Rozvadov | ✅ 10-27 13:20 | 107 of 145 | couldn't read the tables on the page |
+| [King's Prague](KINGS_PRAGUE.md) | ✅ 10-27 13:20 | 109 of 145 | King's feed came back empty and that couldn't be confirmed, so it wasn |
+| [Grand Casino Aš](GRAND_CASINO_AS.md) | ✅ 10-27 13:20 | 145 of 145 | · |
+| [Card Casino Šamorín](CARD_CASINO.md) | ✅ 10-27 13:20 | 123 of 145 | Card Casino's site didn't answer |
+| [Banco Casino Bratislava](BANCO.md) | ✅ 10-27 13:20 | 145 of 145 | · |
 | [Olympic Park Tallinn](OLYMPIC_TALLINN.md) | ⚠️ 10-27 13:00 | 0 of 48 | couldn't read the cash games table (page saved for a closer look) |
 | [Olympic Voodoo Riga](OLYMPIC_RIGA.md) | ⚠️ 10-27 13:00 | 0 of 48 | couldn't read the cash games table (page saved for a closer look) |
 | [Olympic Casino Vilnius](OLYMPIC_VILNIUS.md) | ⚠️ 10-27 13:00 | 0 of 48 | couldn't read the cash games table (page saved for a closer look) |
