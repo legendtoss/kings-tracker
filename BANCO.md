@@ -2,10 +2,10 @@
 
 Checks [its website](https://bancocasino.sk/ba/en) together with King's, about every 10 minutes. All times are **Czech time** (same as Poland and Slovakia). Back to [King's](README.md).
 
-**Last check:** 2026-10-27 16:30 — ✅ OK  
-**Checks so far:** 2057 successful out of 2563 (since 2026-10-10)
+**Last check:** 2026-10-27 16:40 — ✅ OK  
+**Checks so far:** 2058 successful out of 2564 (since 2026-10-10)
 
-## Tables running at 2026-10-27 16:30
+## Tables running at 2026-10-27 16:40
 
 ```
 NLH      €1/3     3 players
@@ -120,7 +120,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 13:00 | 🟥 8% | 🟥 0% | 🟥 8% | 🟥 0% | 🟥 0% | 78 |
 | 14:00 | 🟥 10% | 🟥 0% | 🟥 21% | 🟥 0% | 🟥 3% | 78 |
 | 15:00 | 🟥 12% | 🟥 0% | 🟥 19% | 🟥 0% | 🟥 15% | 78 |
-| 16:00 | 🟥 20% | 🟥 0% | 🟨 42% | 🟥 0% | 🟥 17% | 76 |
+| 16:00 | 🟥 21% | 🟥 0% | 🟨 43% | 🟥 0% | 🟥 17% | 77 |
 | 17:00 | 🟨 29% | 🟥 0% | 🟨 51% | 🟥 0% | 🟥 19% | 72 |
 | 18:00 | 🟨 46% | 🟥 0% | 🟨 51% | 🟥 0% | 🟥 17% | 72 |
 | 19:00 | 🟨 43% | 🟥 0% | 🟨 56% | 🟥 1% | 🟥 17% | 72 |
@@ -135,16 +135,16 @@ Average seated players per check on each kind of day, in total and for NLH and O
 
 | Days | Dates | Checks | Players | NLH | Omaha | vs normal, same hour |
 |:--|:--|--:|--:|--:|--:|--:|
-| Normal days | 13–27 Oct (13 days) | 1769 | 5.6 | 3.7 | 1.6 | +0.0 |
+| Normal days | 13–27 Oct (13 days) | 1770 | 5.6 | 3.7 | 1.6 | +0.0 |
 | 📅 Public holidays | 23–26 Oct (2 days) | 288 | 4.8 | 2.7 | 1.9 | -0.8 |
 
 ## All games seen
 
 | Game | Running in | Most often | Last seen |
 |:--|--:|:--|:--|
-| NLH €1/3 | 39% of checks | Sun around 02:00 | 2026-10-27 16:30 |
+| NLH €1/3 | 39% of checks | Sun around 02:00 | 2026-10-27 16:40 |
 | NLH €2/5 | 5% of checks | Sat around 07:00 | 2026-10-26 06:20 |
-| PLO 4/5 €2/2 | 22% of checks | Tue around 16:00 | 2026-10-27 16:30 |
+| PLO 4/5 €2/2 | 22% of checks | Tue around 16:00 | 2026-10-27 16:40 |
 | PLO €25/50 | 3% of checks | Thu around 20:00 | 2026-10-16 07:30 |
 | Dealer's Choice €2/2 | 5% of checks | Thu around 15:00 | 2026-10-26 01:40 |
 
