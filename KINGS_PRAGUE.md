@@ -2,14 +2,14 @@
 
 Prague's tables come in the same King's data feed as Rozvadov's, so they're read at every check (about every 10 minutes) without any extra visits, together with Prague's tournament clocks. All times are **Czech time** (same as Poland). Back to [King's Rozvadov](README.md).
 
-**Last check:** 2026-10-27 18:00 — ✅ OK  
-**Last 24 h:** 110 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-17 (1289 good checks)
+**Last check:** 2026-10-27 18:10 — ✅ OK  
+**Last 24 h:** 110 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-17 (1290 good checks)
 
-## Tables running at 2026-10-27 18:00
+## Tables running at 2026-10-27 18:10
 
 No tables were running.
 
-**Tournaments in play:** none
+**Tournaments in play:** King's Prague Beginner's Mystery Bounty (NLH, €30, €20 bounty, 13 of 13 left, late reg open)
 
 ## Festivals and schedule
 
@@ -84,7 +84,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 15:00 | 🟥 0% | 🟥 0% | 🟥 0% | 59 |
 | 16:00 | 🟥 0% | 🟥 0% | 🟥 0% | 57 |
 | 17:00 | 🟥 0% | 🟥 0% | 🟥 0% | 57 |
-| 18:00 | 🟥 12% | 🟥 0% | 🟥 0% | 52 |
+| 18:00 | 🟥 11% | 🟥 0% | 🟥 0% | 53 |
 | 19:00 | 🟥 11% | 🟥 5% | 🟥 0% | 56 |
 | 20:00 | 🟨 32% | 🟥 0% | 🟥 0% | 59 |
 | 21:00 | 🟨 57% | 🟥 3% | 🟥 0% | 60 |
@@ -105,6 +105,7 @@ The most recent ones. The game is read from the tournament's name.
 
 | Tournament | Game | Buy-in | Entries | Seen |
 |:--|:--|--:|--:|:--|
+| King's Prague Beginner's Mystery Bounty | NLH | €30 | 57 | 2026-10-20 18:20 → 10-27 18:10 |
 | King's Prague Beginner's Monday | NLH | €60 | 111 | 2026-10-19 18:00 → 10-27 02:40 |
 | King's Prague Sunday Knockout (Bounty 25 ) | NLH | €55 | 74 | 2026-10-18 17:10 → 10-26 02:10 |
 | King's Prague Saturday Monsterstack | NLH | €100 | 80 | 2026-10-17 20:40 → 10-25 03:30 |
@@ -112,7 +113,6 @@ The most recent ones. The game is read from the tournament's name.
 | Satellite to BPC ME - Day 1 PRAGUE | NLH | €40 | 90 | 2026-10-23 16:10 → 10-23 20:00 |
 | King's Prague Mystery Bounty Thursday | NLH | €100 | 57 | 2026-10-22 19:10 → 10-23 04:50 |
 | Satellite to King's Prague Mystery Thursday | NLH | €30 | 73 | 2026-10-21 18:30 → 10-22 19:50 |
-| King's Prague Beginner's Mystery Bounty | NLH | €30 | 57 | 2026-10-20 18:20 → 10-21 02:20 |
 
 ---
 Raw data: `data/kings-prague` (one CSV file per month). Prague is venue 3 in King's feed (`data/kings_venues.json`).
