@@ -2,14 +2,14 @@
 
 Prague's tables come in the same King's data feed as Rozvadov's, so they're read at every check (about every 10 minutes) without any extra visits, together with Prague's tournament clocks. All times are **Czech time** (same as Poland). Back to [King's Rozvadov](README.md).
 
-**Last check:** 2026-10-29 00:10 — ✅ OK  
-**Last 24 h:** 145 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-17 (1470 good checks)
+**Last check:** 2026-10-29 00:20 — ✅ OK  
+**Last 24 h:** 145 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-17 (1471 good checks)
 
-## Tables running at 2026-10-29 00:10
+## Tables running at 2026-10-29 00:20
 
 No tables were running.
 
-**Tournaments in play:** Satellite to King's Prague Mystery Thursday (NLH, €20, 10 of 59 left, level 17, blinds 4000/8000/8000)
+**Tournaments in play:** none
 
 ## Festivals and schedule
 
@@ -37,7 +37,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 
 | Hour | Mon | Tue | Wed | Thu | Fri | Sat | Sun | All days |
 |:--|--:|--:|--:|--:|--:|--:|--:|--:|
-| 00:00 | 0 | 0 | 0 | 2 | 8 | 13 | 8 | 4 |
+| 00:00 | 0 | 0 | 0 | 1 | 8 | 13 | 8 | 4 |
 | 01:00 | 0 | 0 | 0 | 4 | 6 | 12 | 5 | 3 |
 | 02:00 | 0 | 0 | 0 | 0 | 1 | 12 | 2 | 2 |
 | 03:00 | 0 | 0 | 0 | 0 | 0 | 4 | 0 | 0 |
@@ -68,7 +68,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 
 | Hour | NLH €2/4 | PLO €2/2 | PLO5 €5/5 | Checks |
 |:--|--:|--:|--:|--:|
-| 00:00 | 🟨 48% | 🟥 18% | 🟥 0% | 62 |
+| 00:00 | 🟨 48% | 🟥 17% | 🟥 0% | 63 |
 | 01:00 | 🟨 45% | 🟥 17% | 🟥 0% | 60 |
 | 02:00 | 🟨 25% | 🟥 1% | 🟥 3% | 67 |
 | 03:00 | 🟥 9% | 🟥 0% | 🟥 0% | 57 |
@@ -99,7 +99,7 @@ Average seated players per check on each kind of day, in total and for NLH and O
 
 | Days | Dates | Checks | Players | NLH | Omaha | vs normal, same hour |
 |:--|:--|--:|--:|--:|--:|--:|
-| Normal days | 17–29 Oct (12 days) | 1326 | 1.1 | 1.0 | 0.1 | +0.0 |
+| Normal days | 17–29 Oct (12 days) | 1327 | 1.1 | 1.0 | 0.1 | +0.0 |
 | 📅 Public holidays | 28 Oct (1 day) | 144 | 0.0 | 0.0 | 0.0 | -1.0 |
 
 ## All games seen
