@@ -2,10 +2,10 @@
 
 Checks [its website](https://bancocasino.sk/ba/en) together with King's, about every 10 minutes. All times are **Czech time** (same as Poland and Slovakia). Back to [King's](README.md).
 
-**Last check:** 2026-10-28 17:30 — ✅ OK  
-**Checks so far:** 2206 successful out of 2713 (since 2026-10-10)
+**Last check:** 2026-10-28 17:40 — ✅ OK  
+**Checks so far:** 2207 successful out of 2714 (since 2026-10-10)
 
-## Tables running at 2026-10-28 17:30
+## Tables running at 2026-10-28 17:40
 
 ```
 PLO 4/5  €2/2     7 players
@@ -120,7 +120,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 14:00 | 🟥 10% | 🟥 0% | 🟥 19% | 🟥 0% | 🟥 2% | 84 |
 | 15:00 | 🟥 11% | 🟥 0% | 🟥 18% | 🟥 0% | 🟥 14% | 84 |
 | 16:00 | 🟥 20% | 🟥 0% | 🟨 48% | 🟥 0% | 🟥 15% | 84 |
-| 17:00 | 🟨 32% | 🟥 0% | 🟨 57% | 🟥 0% | 🟥 17% | 81 |
+| 17:00 | 🟨 32% | 🟥 0% | 🟨 57% | 🟥 0% | 🟥 17% | 82 |
 | 18:00 | 🟨 50% | 🟥 0% | 🟨 55% | 🟥 0% | 🟥 15% | 78 |
 | 19:00 | 🟨 47% | 🟥 0% | 🟨 59% | 🟥 1% | 🟥 15% | 78 |
 | 20:00 | 🟨 63% | 🟥 0% | 🟨 44% | 🟥 8% | 🟥 15% | 78 |
@@ -134,7 +134,7 @@ Average seated players per check on each kind of day, in total and for NLH and O
 
 | Days | Dates | Checks | Players | NLH | Omaha | vs normal, same hour |
 |:--|:--|--:|--:|--:|--:|--:|
-| Normal days | 13–28 Oct (14 days) | 1918 | 5.6 | 3.6 | 1.6 | +0.0 |
+| Normal days | 13–28 Oct (14 days) | 1919 | 5.6 | 3.6 | 1.6 | +0.0 |
 | 📅 Public holidays | 23–26 Oct (2 days) | 288 | 4.8 | 2.7 | 1.9 | -0.8 |
 
 ## All games seen
@@ -143,7 +143,7 @@ Average seated players per check on each kind of day, in total and for NLH and O
 |:--|--:|:--|:--|
 | NLH €1/3 | 39% of checks | Sun around 02:00 | 2026-10-28 03:10 |
 | NLH €2/5 | 5% of checks | Sat around 07:00 | 2026-10-26 06:20 |
-| PLO 4/5 €2/2 | 23% of checks | Tue around 18:00 | 2026-10-28 17:30 |
+| PLO 4/5 €2/2 | 23% of checks | Tue around 18:00 | 2026-10-28 17:40 |
 | PLO €25/50 | 3% of checks | Thu around 20:00 | 2026-10-16 07:30 |
 | Dealer's Choice €2/2 | 5% of checks | Thu around 15:00 | 2026-10-26 01:40 |
 
