@@ -2,17 +2,14 @@
 
 Checks [its website](https://bancocasino.sk/ba/en) together with King's, about every 10 minutes. All times are **Czech time** (same as Poland and Slovakia). Back to [King's](README.md).
 
-**Last check:** 2026-10-28 03:50 — ✅ OK  
-**Checks so far:** 2124 successful out of 2631 (since 2026-10-10)
+**Last check:** 2026-10-28 04:00 — ✅ OK  
+**Checks so far:** 2125 successful out of 2632 (since 2026-10-10)
 
-## Tables running at 2026-10-28 03:50
+## Tables running at 2026-10-28 04:00
 
-```
-PLO 4/5  €2/2     4 players
-```
-**PLO 4/5:** 4 players at 1 table
+No tables were running.
 
-*The whole list (Banco also shows its Košice casino; the numbers above are Bratislava only):* Bratislava: PLO 4/5 €2/2 4 players (buy-in €100)  
+*The whole list (Banco also shows its Košice casino; the numbers above are Bratislava only):* no games listed  
 **Tournaments running:** none
 
 **Note:** Since 13 Oct the tracker reads Banco's cash list and its live tournaments straight from where its page gets them; before that, its page's scripts didn't run in the tracker's browser, so those checks show as errors.
@@ -107,7 +104,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 01:00 | 🟩 84% | 🟥 8% | 🟥 16% | 🟥 8% | 🟥 0% | 80 |
 | 02:00 | 🟩 85% | 🟥 7% | 🟥 14% | 🟥 7% | 🟥 0% | 85 |
 | 03:00 | 🟨 66% | 🟥 10% | 🟥 23% | 🟥 8% | 🟥 0% | 79 |
-| 04:00 | 🟨 53% | 🟥 8% | 🟥 12% | 🟥 8% | 🟥 0% | 72 |
+| 04:00 | 🟨 52% | 🟥 8% | 🟥 12% | 🟥 8% | 🟥 0% | 73 |
 | 05:00 | 🟨 50% | 🟥 8% | 🟥 3% | 🟥 8% | 🟥 0% | 72 |
 | 06:00 | 🟨 42% | 🟥 12% | 🟥 0% | 🟥 8% | 🟥 0% | 73 |
 | 07:00 | 🟨 28% | 🟥 15% | 🟥 0% | 🟥 6% | 🟥 0% | 71 |
@@ -134,7 +131,7 @@ Average seated players per check on each kind of day, in total and for NLH and O
 
 | Days | Dates | Checks | Players | NLH | Omaha | vs normal, same hour |
 |:--|:--|--:|--:|--:|--:|--:|
-| Normal days | 13–28 Oct (14 days) | 1836 | 5.8 | 3.8 | 1.7 | +0.0 |
+| Normal days | 13–28 Oct (14 days) | 1837 | 5.8 | 3.8 | 1.7 | +0.0 |
 | 📅 Public holidays | 23–26 Oct (2 days) | 288 | 4.8 | 2.7 | 1.9 | -0.9 |
 
 ## All games seen
