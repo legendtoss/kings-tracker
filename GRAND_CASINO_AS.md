@@ -2,16 +2,16 @@
 
 Reads [Grand Casino Aš's live cash games](https://www.grandcasinoas.eu/en/poker/poker-live) every 10 minutes and its [current tournaments](https://www.grandcasinoas.eu/en/poker) every 30 minutes. All times are **Czech time** (same as Poland). Back to [King's](README.md).
 
-**Last check:** 2026-10-29 00:20 — ✅ OK  
-**Last 24 h:** 145 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-10 (2742 good checks)
+**Last check:** 2026-10-29 00:30 — ✅ OK  
+**Last 24 h:** 145 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-10 (2743 good checks)
 
-## Cash games at 2026-10-29 00:20
+## Cash games at 2026-10-29 00:30
 
 ```
 PLO/NLH           waiting
 ```
 
-**Tournaments in play at 2026-10-29 00:00:** KaKo Cup Opener (NLH, €70, 24 of 102 left, on a break)
+**Tournaments in play at 2026-10-29 00:30:** KaKo Cup Opener (NLH, €70, 21 of 102 left, level 20, blinds 15000/30000/30000)
 
 ## Festivals and schedule
 
@@ -66,7 +66,7 @@ Average number of running tables (Grand Casino Aš shows which games run, not ho
 
 | Hour | NLH €1/2 | PLO €2/2 | PLO 5Card €2/2 | DC €2/2 | Checks |
 |:--|--:|--:|--:|--:|--:|
-| 00:00 | 🟥 22% | 🟥 0% | 🟥 0% | 🟥 7% | 82 |
+| 00:00 | 🟥 22% | 🟥 0% | 🟥 0% | 🟥 7% | 83 |
 | 01:00 | 🟥 23% | 🟥 0% | 🟥 0% | 🟥 8% | 79 |
 | 02:00 | 🟥 21% | 🟥 0% | 🟥 0% | 🟥 7% | 85 |
 | 03:00 | 🟥 10% | 🟥 0% | 🟥 5% | 🟥 8% | 80 |
@@ -97,7 +97,7 @@ Average running tables per check on each kind of day, in total and for NLH and O
 
 | Days | Dates | Checks | Tables | NLH | Omaha | vs normal, same hour |
 |:--|:--|--:|--:|--:|--:|--:|
-| Normal days | 10–29 Oct (15 days) | 2020 | 0.2 | 0.1 | 0.0 | +0.0 |
+| Normal days | 10–29 Oct (15 days) | 2021 | 0.2 | 0.1 | 0.0 | +0.0 |
 | 🎪 PLO festival | 15–18 Oct (4 days) | 578 | 0.5 | 0.3 | 0.1 | +0.4 |
 | 📅 Public holidays | 28 Oct (1 day) | 144 | 0.0 | 0.0 | 0.0 | -0.2 |
 
@@ -107,7 +107,7 @@ The most recent ones. The game is read from the tournament's name.
 
 | Tournament | Game | Buy-in | Entries | Seen |
 |:--|:--|--:|--:|:--|
-| KaKo Cup Opener | NLH | €70 | 102 | 2026-10-28 19:00 → 10-29 00:00 |
+| KaKo Cup Opener | NLH | €70 | 102 | 2026-10-28 19:00 → 10-29 00:30 |
 | Megastack Turbo | NLH | €70 | 155 | 2026-10-24 17:00 → 10-25 01:30 |
 | Noon Turbo | NLH | €50 | 57 | 2026-10-17 13:00 → 10-24 18:00 |
 | Classic Friday | NLH | €70 | 126 | 2026-10-16 18:30 → 10-24 03:00 |
