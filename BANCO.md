@@ -2,10 +2,10 @@
 
 Checks [its website](https://bancocasino.sk/ba/en) together with King's, about every 10 minutes. All times are **Czech time** (same as Poland and Slovakia). Back to [King's](README.md).
 
-**Last check:** 2026-10-29 04:20 — ✅ OK  
-**Checks so far:** 2271 successful out of 2778 (since 2026-10-10)
+**Last check:** 2026-10-29 04:30 — ✅ OK  
+**Checks so far:** 2272 successful out of 2779 (since 2026-10-10)
 
-## Tables running at 2026-10-29 04:20
+## Tables running at 2026-10-29 04:30
 
 ```
 PLO 4/5  €2/2     4 players
@@ -107,7 +107,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 01:00 | 🟩 78% | 🟥 14% | 🟥 22% | 🟥 7% | 🟥 0% | 86 |
 | 02:00 | 🟩 79% | 🟥 8% | 🟥 20% | 🟥 7% | 🟥 0% | 91 |
 | 03:00 | 🟨 61% | 🟥 9% | 🟨 28% | 🟥 7% | 🟥 0% | 85 |
-| 04:00 | 🟨 47% | 🟥 7% | 🟥 15% | 🟥 7% | 🟥 0% | 81 |
+| 04:00 | 🟨 46% | 🟥 7% | 🟥 16% | 🟥 7% | 🟥 0% | 82 |
 | 05:00 | 🟨 46% | 🟥 8% | 🟥 3% | 🟥 8% | 🟥 0% | 78 |
 | 06:00 | 🟨 39% | 🟥 11% | 🟥 0% | 🟥 8% | 🟥 0% | 79 |
 | 07:00 | 🟨 26% | 🟥 14% | 🟥 0% | 🟥 5% | 🟥 0% | 77 |
@@ -134,7 +134,7 @@ Average seated players per check on each kind of day, in total and for NLH and O
 
 | Days | Dates | Checks | Players | NLH | Omaha | vs normal, same hour |
 |:--|:--|--:|--:|--:|--:|--:|
-| Normal days | 13–29 Oct (15 days) | 1983 | 5.8 | 3.6 | 1.8 | +0.0 |
+| Normal days | 13–29 Oct (15 days) | 1984 | 5.7 | 3.6 | 1.8 | +0.0 |
 | 📅 Public holidays | 23–26 Oct (2 days) | 288 | 4.8 | 2.7 | 1.9 | -0.8 |
 
 ## All games seen
@@ -143,7 +143,7 @@ Average seated players per check on each kind of day, in total and for NLH and O
 |:--|--:|:--|:--|
 | NLH €1/3 | 38% of checks | Sun around 02:00 | 2026-10-28 20:50 |
 | NLH €2/5 | 6% of checks | Sat around 07:00 | 2026-10-29 02:00 |
-| PLO 4/5 €2/2 | 25% of checks | Wed around 21:00 | 2026-10-29 04:20 |
+| PLO 4/5 €2/2 | 25% of checks | Wed around 21:00 | 2026-10-29 04:30 |
 | PLO €25/50 | 3% of checks | Thu around 20:00 | 2026-10-16 07:30 |
 | Dealer's Choice €2/2 | 5% of checks | Thu around 15:00 | 2026-10-26 01:40 |
 
