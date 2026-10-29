@@ -2,10 +2,10 @@
 
 Reads [Grand Casino Aš's live cash games](https://www.grandcasinoas.eu/en/poker/poker-live) every 10 minutes and its [current tournaments](https://www.grandcasinoas.eu/en/poker) every 30 minutes. All times are **Czech time** (same as Poland). Back to [King's](README.md).
 
-**Last check:** 2026-10-29 19:10 — ✅ OK  
-**Last 24 h:** 145 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-10 (2855 good checks)
+**Last check:** 2026-10-29 19:20 — ✅ OK  
+**Last 24 h:** 145 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-10 (2856 good checks)
 
-## Cash games at 2026-10-29 19:10
+## Cash games at 2026-10-29 19:20
 
 ```
 NLH      €1/2     running
@@ -55,7 +55,7 @@ Average number of running tables (Grand Casino Aš shows which games run, not ho
 | 16:00 | 0.0 | 0.0 | 0.0 | 0.5 | 0.0 | 0.0 | 0.0 | 0.1 |
 | 17:00 | 0.0 | 0.0 | 0.0 | 0.5 | 0.0 | 0.0 | 0.0 | 0.1 |
 | 18:00 | 0.0 | 0.0 | 0.0 | 0.5 | 0.0 | 0.5 | 0.0 | 0.1 |
-| 19:00 | 0.0 | 0.0 | 0.0 | 0.2 | 0.0 | 1.1 | 0.0 | 0.2 |
+| 19:00 | 0.0 | 0.0 | 0.0 | 0.3 | 0.0 | 1.1 | 0.0 | 0.2 |
 | 20:00 | 0.0 | 0.0 | 0.0 | 0.0 | 0.0 | 1.5 | 0.5 | 0.3 |
 | 21:00 | 0.0 | 0.0 | 0.0 | 0.0 | 0.0 | 2.3 | 0.4 | 0.4 |
 | 22:00 | 0.0 | 0.0 | 0.0 | 0.0 | 0.5 | 3.0 | 0.0 | 0.5 |
@@ -86,7 +86,7 @@ Average number of running tables (Grand Casino Aš shows which games run, not ho
 | 16:00 | 🟥 7% | 🟥 0% | 🟥 0% | 🟥 0% | 91 |
 | 17:00 | 🟥 7% | 🟥 0% | 🟥 0% | 🟥 0% | 90 |
 | 18:00 | 🟥 10% | 🟥 3% | 🟥 0% | 🟥 0% | 90 |
-| 19:00 | 🟥 10% | 🟥 6% | 🟥 0% | 🟥 2% | 87 |
+| 19:00 | 🟥 11% | 🟥 6% | 🟥 0% | 🟥 2% | 88 |
 | 20:00 | 🟥 18% | 🟥 1% | 🟥 0% | 🟥 7% | 85 |
 | 21:00 | 🟥 14% | 🟥 6% | 🟥 0% | 🟥 7% | 85 |
 | 22:00 | 🟥 18% | 🟥 0% | 🟥 0% | 🟥 7% | 85 |
@@ -98,7 +98,7 @@ Average running tables per check on each kind of day, in total and for NLH and O
 
 | Days | Dates | Checks | Tables | NLH | Omaha | vs normal, same hour |
 |:--|:--|--:|--:|--:|--:|--:|
-| Normal days | 10–29 Oct (15 days) | 2133 | 0.2 | 0.1 | 0.0 | +0.0 |
+| Normal days | 10–29 Oct (15 days) | 2134 | 0.2 | 0.1 | 0.0 | +0.0 |
 | 🎪 PLO festival | 15–18 Oct (4 days) | 578 | 0.5 | 0.3 | 0.1 | +0.4 |
 | 📅 Public holidays | 28 Oct (1 day) | 144 | 0.0 | 0.0 | 0.0 | -0.2 |
 
