@@ -2,19 +2,18 @@
 
 Checks [its website](https://bancocasino.sk/ba/en) together with King's, about every 10 minutes. All times are **Czech time** (same as Poland and Slovakia). Back to [King's](README.md).
 
-**Last check:** 2026-10-29 02:00 — ✅ OK  
-**Checks so far:** 2257 successful out of 2764 (since 2026-10-10)
+**Last check:** 2026-10-29 02:10 — ✅ OK  
+**Checks so far:** 2258 successful out of 2765 (since 2026-10-10)
 
-## Tables running at 2026-10-29 02:00
+## Tables running at 2026-10-29 02:10
 
 ```
-NLH      €2/5     6 players
-PLO 4/5  €2/2     4 players
+PLO 4/5  €2/2     6 players
 ```
-**NLH:** 6 players at 1 table · **PLO 4/5:** 4 players at 1 table
+**PLO 4/5:** 6 players at 1 table
 
-*The whole list (Banco also shows its Košice casino; the numbers above are Bratislava only):* Bratislava: PLO 4/5 €2/2 4 players (buy-in €100), NLH €2/5 6 players (buy-in €200)  
-**Tournaments running:** Ladies Night: 7/109 players, level 19, blinds 15000/30000, buy-in €35, €3000 GTD
+*The whole list (Banco also shows its Košice casino; the numbers above are Bratislava only):* Bratislava: PLO 4/5 €2/2 6 players (buy-in €100)  
+**Tournaments running:** Ladies Night: 6/109 players, level 19, blinds 15000/30000, buy-in €35, €3000 GTD
 
 **Note:** Since 13 Oct the tracker reads Banco's cash list and its live tournaments straight from where its page gets them; before that, its page's scripts didn't run in the tracker's browser, so those checks show as errors.
 
@@ -46,7 +45,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 |:--|--:|--:|--:|--:|--:|--:|--:|--:|
 | 00:00 | 9 | 12 | 7 | 8 | 7 | 11 | 15 | 10 |
 | 01:00 | 7 | 11 | 5 | 10 | 6 | 11 | 11 | 9 |
-| 02:00 | 7 | 9 | 5 | 11 | 6 | 11 | 13 | 9 |
+| 02:00 | 7 | 9 | 5 | 10 | 6 | 11 | 13 | 9 |
 | 03:00 | 7 | 4 | 3 | 7 | 5 | 9 | 12 | 6 |
 | 04:00 | 8 | 2 | 1 | 6 | 0 | 6 | 11 | 5 |
 | 05:00 | 6 | 2 | 0 | 6 | 0 | 4 | 8 | 3 |
@@ -106,7 +105,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 |:--|--:|--:|--:|--:|--:|--:|
 | 00:00 | 🟩 85% | 🟥 14% | 🟥 21% | 🟥 7% | 🟥 0% | 84 |
 | 01:00 | 🟩 78% | 🟥 14% | 🟥 22% | 🟥 7% | 🟥 0% | 86 |
-| 02:00 | 🟩 84% | 🟥 8% | 🟥 15% | 🟥 7% | 🟥 0% | 86 |
+| 02:00 | 🟩 83% | 🟥 8% | 🟥 16% | 🟥 7% | 🟥 0% | 87 |
 | 03:00 | 🟨 66% | 🟥 10% | 🟥 23% | 🟥 8% | 🟥 0% | 79 |
 | 04:00 | 🟨 49% | 🟥 8% | 🟥 12% | 🟥 8% | 🟥 0% | 78 |
 | 05:00 | 🟨 46% | 🟥 8% | 🟥 3% | 🟥 8% | 🟥 0% | 78 |
@@ -135,7 +134,7 @@ Average seated players per check on each kind of day, in total and for NLH and O
 
 | Days | Dates | Checks | Players | NLH | Omaha | vs normal, same hour |
 |:--|:--|--:|--:|--:|--:|--:|
-| Normal days | 13–29 Oct (15 days) | 1969 | 5.8 | 3.6 | 1.8 | +0.0 |
+| Normal days | 13–29 Oct (15 days) | 1970 | 5.8 | 3.6 | 1.8 | +0.0 |
 | 📅 Public holidays | 23–26 Oct (2 days) | 288 | 4.8 | 2.7 | 1.9 | -0.8 |
 
 ## All games seen
@@ -144,7 +143,7 @@ Average seated players per check on each kind of day, in total and for NLH and O
 |:--|--:|:--|:--|
 | NLH €1/3 | 38% of checks | Sun around 02:00 | 2026-10-28 20:50 |
 | NLH €2/5 | 6% of checks | Sat around 07:00 | 2026-10-29 02:00 |
-| PLO 4/5 €2/2 | 25% of checks | Wed around 21:00 | 2026-10-29 02:00 |
+| PLO 4/5 €2/2 | 25% of checks | Wed around 21:00 | 2026-10-29 02:10 |
 | PLO €25/50 | 3% of checks | Thu around 20:00 | 2026-10-16 07:30 |
 | Dealer's Choice €2/2 | 5% of checks | Thu around 15:00 | 2026-10-26 01:40 |
 
