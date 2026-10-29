@@ -2,10 +2,10 @@
 
 Checks [its website](https://bancocasino.sk/ba/en) together with King's, about every 10 minutes. All times are **Czech time** (same as Poland and Slovakia). Back to [King's](README.md).
 
-**Last check:** 2026-10-29 23:40 — ✅ OK  
-**Checks so far:** 2387 successful out of 2894 (since 2026-10-10)
+**Last check:** 2026-10-29 23:50 — ✅ OK  
+**Checks so far:** 2388 successful out of 2895 (since 2026-10-10)
 
-## Tables running at 2026-10-29 23:40
+## Tables running at 2026-10-29 23:50
 
 ```
 PLO 4/5  €2/2     8 players
@@ -66,7 +66,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 20:00 | 4 | 3 | 1 | 4 | 0 | 8 | 7 | 4 |
 | 21:00 | 7 | 5 | 2 | 4 | 4 | 11 | 10 | 6 |
 | 22:00 | 8 | 7 | 4 | 6 | 6 | 9 | 11 | 7 |
-| 23:00 | 8 | 7 | 6 | 3 | 9 | 12 | 10 | 7 |
+| 23:00 | 8 | 7 | 6 | 2 | 9 | 12 | 10 | 7 |
 
 ### PLO 4/5
 
@@ -95,7 +95,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 20:00 | 0 | 6 | 6 | 5 | 0 | 0 | 0 | 3 |
 | 21:00 | 0 | 5 | 6 | 6 | 0 | 3 | 0 | 4 |
 | 22:00 | 0 | 4 | 5 | 5 | 0 | 4 | 0 | 3 |
-| 23:00 | 0 | 2 | 4 | 2 | 0 | 4 | 0 | 2 |
+| 23:00 | 0 | 2 | 4 | 3 | 0 | 4 | 0 | 2 |
 
 ## How often each game was running, by hour (all days)
 
@@ -126,7 +126,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 20:00 | 🟨 58% | 🟥 0% | 🟨 51% | 🟥 7% | 🟥 20% | 90 |
 | 21:00 | 🟨 70% | 🟥 7% | 🟨 59% | 🟥 7% | 🟥 20% | 91 |
 | 22:00 | 🟩 81% | 🟥 7% | 🟨 53% | 🟥 7% | 🟥 11% | 89 |
-| 23:00 | 🟩 79% | 🟥 7% | 🟨 37% | 🟥 7% | 🟥 7% | 89 |
+| 23:00 | 🟩 78% | 🟥 7% | 🟨 38% | 🟥 7% | 🟥 7% | 90 |
 
 ## Festivals, holidays and normal days
 
@@ -134,7 +134,7 @@ Average seated players per check on each kind of day, in total and for NLH and O
 
 | Days | Dates | Checks | Players | NLH | Omaha | vs normal, same hour |
 |:--|:--|--:|--:|--:|--:|--:|
-| Normal days | 13–29 Oct (15 days) | 2099 | 5.8 | 3.4 | 1.8 | +0.0 |
+| Normal days | 13–29 Oct (15 days) | 2100 | 5.8 | 3.4 | 1.9 | +0.0 |
 | 📅 Public holidays | 23–26 Oct (2 days) | 288 | 4.8 | 2.7 | 1.9 | -0.9 |
 
 ## All games seen
@@ -143,7 +143,7 @@ Average seated players per check on each kind of day, in total and for NLH and O
 |:--|--:|:--|:--|
 | NLH €1/3 | 36% of checks | Sun around 02:00 | 2026-10-29 22:50 |
 | NLH €2/5 | 6% of checks | Sat around 07:00 | 2026-10-29 02:00 |
-| PLO 4/5 €2/2 | 26% of checks | Wed around 21:00 | 2026-10-29 23:40 |
+| PLO 4/5 €2/2 | 26% of checks | Wed around 21:00 | 2026-10-29 23:50 |
 | PLO €25/50 | 3% of checks | Thu around 20:00 | 2026-10-16 07:30 |
 | Dealer's Choice €2/2 | 7% of checks | Thu around 15:00 | 2026-10-29 22:20 |
 
