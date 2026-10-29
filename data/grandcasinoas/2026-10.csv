@@ -2816,3 +2816,4 @@
 2026-10-29 12:30,Thu,12,ok,0,1,PLO/NLH [WAITING],0,0,[],
 2026-10-29 12:40,Thu,12,ok,0,1,PLO/NLH [WAITING],,,,
 2026-10-29 12:50,Thu,12,ok,0,1,PLO/NLH [WAITING],,,,
+2026-10-29 13:00,Thu,13,ok,0,1,PLO/NLH [WAITING],1,30,"[{""name"":""Crazy Pineapple"",""game"":""Pineapple"",""status"":""BREAK"",""left"":30,""entries"":30,""buyin"":50,""prizepool"":2000,""currency"":""EUR"",""avg_stack"":15000,""start_stack"":15000,""late_reg_open"":true,""start"":""29.10. 13:00""}]",
