@@ -6,10 +6,10 @@ Checks King's live cash games and tournaments about every 10 minutes and updates
 
 **🎯 Omaha right now:** King's Rozvadov: PLO5 €5/5 (4 players)
 
-**Last check:** 2026-10-29 06:10 — ✅ OK (data feed)  
-**Last 24 h:** 145 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-06 (2841 good checks)
+**Last check:** 2026-10-29 06:20 — ✅ OK (data feed)  
+**Last 24 h:** 145 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-06 (2842 good checks)
 
-## Tables running at 2026-10-29 06:10
+## Tables running at 2026-10-29 06:20
 
 ```
 PLO5  €5/5     4/8 players
@@ -77,7 +77,7 @@ Average Omaha tables running per check on each **evening, 18:00–02:00** (after
 
 ## Busiest times so far
 
-*Normal days only: 182 checks during festivals, cash-game events or public holidays are compared separately in “Festivals, holidays and normal days” below.*
+*Normal days only: 183 checks during festivals, cash-game events or public holidays are compared separately in “Festivals, holidays and normal days” below.*
 
 Day, hour and average seated players (only day-hour slots seen on at least 2 different dates).
 
@@ -216,7 +216,7 @@ Average seated players per check on each kind of day, in total and for NLH and O
 | Normal days | 6–27 Oct (22 days) | 2659 | 32.7 | 23.0 | 9.6 | -0.0 |
 | ↳ with an Omaha tournament on the schedule | 10–23 Oct (3 days) | 428 | 50.5 | 36.7 | 13.8 | +19.0 |
 | ↳ without one | 7–27 Oct (18 days) | 2174 | 29.3 | 20.6 | 8.7 | -3.7 |
-| 🎪 WSOP Super Circuit | 28–29 Oct (2 days) | 182 | 11.7 | 6.5 | 5.2 | -20.6 |
+| 🎪 WSOP Super Circuit | 28–29 Oct (2 days) | 183 | 11.7 | 6.4 | 5.2 | -20.5 |
 
 ## Cash games vs tournaments
 
@@ -224,7 +224,7 @@ Cash players grouped by how many players were still in tournaments at the time. 
 
 | Tournament players in action | Checks | Avg cash players | vs usual for that hour |
 |:--|--:|--:|--:|
-| none | 1066 | 11 | -6 |
+| none | 1067 | 11 | -6 |
 | 1–49 | 642 | 26 | -17 |
 | 50–149 | 482 | 49 | +9 |
 | 150 or more | 503 | 68 | +29 |
@@ -235,7 +235,7 @@ NLH and PLO cash players depending on which tournament games were running. The g
 
 | Tournaments in play | Checks | NLH cash players | vs usual | PLO cash players | vs usual |
 |:--|--:|--:|--:|--:|--:|
-| none | 1066 | 8 | -4 | 3 | -2 |
+| none | 1067 | 8 | -4 | 3 | -2 |
 | only NLH tournaments | 1457 | 30 | +1 | 13 | +1 |
 | a PLO tournament | 124 | 49 | +21 | 20 | +8 |
 | other tournament games | 46 | 50 | +29 | 20 | +12 |
@@ -249,7 +249,7 @@ NLH and PLO cash players depending on which tournament games were running. The g
 | NLH €5/10 | 7% of checks | Sat around 23:00 | 2026-10-29 00:00 |
 | NLH €10/25 | 1% of checks | Thu around 01:00 | 2026-10-29 02:40 |
 | PLO €2/2 | 49% of checks | Sun around 02:00 | 2026-10-29 04:10 |
-| PLO5 €5/5 | 42% of checks | Wed around 01:00 | 2026-10-29 06:10 |
+| PLO5 €5/5 | 42% of checks | Wed around 01:00 | 2026-10-29 06:20 |
 | PLO5 €5/10 | 2% of checks | Sat around 16:00 | 2026-10-18 02:10 |
 | PLO5 €10/10 | 4% of checks | Fri around 23:00 | 2026-10-29 03:20 |
 | PLO5 €10/25 | 0% of checks | Wed around 06:00 | 2026-10-07 10:04 |
@@ -283,11 +283,11 @@ The most recent ones. The game is read from the tournament's name.
 
 | Room | Last check | OK in the last 24 h | Most common problem |
 |:--|:--|--:|:--|
-| King's Rozvadov | ✅ 10-29 06:10 | 145 of 145 | · |
-| [King's Prague](KINGS_PRAGUE.md) | ✅ 10-29 06:10 | 145 of 145 | · |
-| [Grand Casino Aš](GRAND_CASINO_AS.md) | ✅ 10-29 06:10 | 145 of 145 | · |
-| [Card Casino Šamorín](CARD_CASINO.md) | ⚠️ 10-29 06:10 | 92 of 145 | Card Casino's site didn't answer |
-| [Banco Casino Bratislava](BANCO.md) | ✅ 10-29 06:10 | 145 of 145 | · |
+| King's Rozvadov | ✅ 10-29 06:20 | 145 of 145 | · |
+| [King's Prague](KINGS_PRAGUE.md) | ✅ 10-29 06:20 | 145 of 145 | · |
+| [Grand Casino Aš](GRAND_CASINO_AS.md) | ✅ 10-29 06:20 | 145 of 145 | · |
+| [Card Casino Šamorín](CARD_CASINO.md) | ⚠️ 10-29 06:20 | 91 of 145 | Card Casino's site didn't answer |
+| [Banco Casino Bratislava](BANCO.md) | ✅ 10-29 06:20 | 145 of 145 | · |
 | [Olympic Park Tallinn](OLYMPIC_TALLINN.md) | ⚠️ 10-29 06:00 | 0 of 48 | blocked by the site's bot protection |
 | [Olympic Voodoo Riga](OLYMPIC_RIGA.md) | ⚠️ 10-29 06:00 | 0 of 48 | couldn't read the cash games table (page saved for a closer look) |
 | [Olympic Casino Vilnius](OLYMPIC_VILNIUS.md) | ⚠️ 10-29 06:00 | 0 of 48 | blocked by the site's bot protection |
