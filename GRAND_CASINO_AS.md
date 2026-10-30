@@ -2,12 +2,13 @@
 
 Reads [Grand Casino Aš's live cash games](https://www.grandcasinoas.eu/en/poker/poker-live) every 10 minutes and its [current tournaments](https://www.grandcasinoas.eu/en/poker) every 30 minutes. All times are **Czech time** (same as Poland). Back to [King's](README.md).
 
-**Last check:** 2026-10-30 20:00 — ✅ OK  
-**Last 24 h:** 145 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-10 (3004 good checks)
+**Last check:** 2026-10-30 20:10 — ✅ OK  
+**Last 24 h:** 145 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-10 (3005 good checks)
 
-## Cash games at 2026-10-30 20:00
+## Cash games at 2026-10-30 20:10
 
 ```
+NLH      €1/2     running
 PLO/NLH           waiting
 ```
 
@@ -55,7 +56,7 @@ Average number of running tables (Grand Casino Aš shows which games run, not ho
 | 17:00 | 0.0 | 0.0 | 0.0 | 0.5 | 0.0 | 0.0 | 0.0 | 0.1 |
 | 18:00 | 0.0 | 0.0 | 0.0 | 0.5 | 0.0 | 0.5 | 0.0 | 0.1 |
 | 19:00 | 0.0 | 0.0 | 0.0 | 0.3 | 0.0 | 1.1 | 0.0 | 0.2 |
-| 20:00 | 0.0 | 0.0 | 0.0 | 0.0 | 0.0 | 1.5 | 0.5 | 0.3 |
+| 20:00 | 0.0 | 0.0 | 0.0 | 0.0 | 0.1 | 1.5 | 0.5 | 0.3 |
 | 21:00 | 0.0 | 0.0 | 0.0 | 0.0 | 0.0 | 2.3 | 0.4 | 0.4 |
 | 22:00 | 0.0 | 0.0 | 0.0 | 0.1 | 0.5 | 3.0 | 0.0 | 0.4 |
 | 23:00 | 0.0 | 0.0 | 0.0 | 0.8 | 1.0 | 3.1 | 0.0 | 0.6 |
@@ -86,7 +87,7 @@ Average number of running tables (Grand Casino Aš shows which games run, not ho
 | 17:00 | 🟥 6% | 🟥 0% | 🟥 0% | 🟥 0% | 96 |
 | 18:00 | 🟥 9% | 🟥 3% | 🟥 0% | 🟥 0% | 96 |
 | 19:00 | 🟥 11% | 🟥 5% | 🟥 0% | 🟥 2% | 97 |
-| 20:00 | 🟥 16% | 🟥 1% | 🟥 0% | 🟥 7% | 92 |
+| 20:00 | 🟥 17% | 🟥 1% | 🟥 0% | 🟥 6% | 93 |
 | 21:00 | 🟥 13% | 🟥 5% | 🟥 0% | 🟥 7% | 91 |
 | 22:00 | 🟥 18% | 🟥 0% | 🟥 0% | 🟥 7% | 91 |
 | 23:00 | 🟨 27% | 🟥 0% | 🟥 0% | 🟥 8% | 91 |
@@ -97,8 +98,8 @@ Average running tables per check on each kind of day, in total and for NLH and O
 
 | Days | Dates | Checks | Tables | NLH | Omaha | vs normal, same hour |
 |:--|:--|--:|--:|--:|--:|--:|
-| Normal days | 10–30 Oct (16 days) | 2282 | 0.2 | 0.2 | 0.0 | -0.0 |
-| ↳ with an Omaha tournament on the schedule | 30 Oct (1 day) | 121 | 0.3 | 0.3 | 0.0 | +0.2 |
+| Normal days | 10–30 Oct (16 days) | 2283 | 0.2 | 0.2 | 0.0 | -0.0 |
+| ↳ with an Omaha tournament on the schedule | 30 Oct (1 day) | 122 | 0.3 | 0.3 | 0.0 | +0.2 |
 | ↳ without one | 10–29 Oct (15 days) | 2161 | 0.2 | 0.1 | 0.0 | -0.0 |
 | 🎪 PLO festival | 15–18 Oct (4 days) | 578 | 0.5 | 0.3 | 0.1 | +0.3 |
 | 📅 Public holidays | 28 Oct (1 day) | 144 | 0.0 | 0.0 | 0.0 | -0.2 |
