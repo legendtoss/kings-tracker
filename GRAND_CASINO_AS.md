@@ -2,14 +2,14 @@
 
 Reads [Grand Casino Aš's live cash games](https://www.grandcasinoas.eu/en/poker/poker-live) every 10 minutes and its [current tournaments](https://www.grandcasinoas.eu/en/poker) every 30 minutes. All times are **Czech time** (same as Poland). Back to [King's](README.md).
 
-**Last check:** 2026-10-30 10:50 — ✅ OK  
-**Last 24 h:** 145 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-10 (2949 good checks)
+**Last check:** 2026-10-30 11:00 — ✅ OK  
+**Last 24 h:** 145 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-10 (2950 good checks)
 
-## Cash games at 2026-10-30 10:50
+## Cash games at 2026-10-30 11:00
 
 No cash games listed.
 
-**Tournaments in play at 2026-10-30 10:30:** none
+**Tournaments in play at 2026-10-30 11:00:** none
 
 ## Festivals and schedule
 
@@ -75,7 +75,7 @@ Average number of running tables (Grand Casino Aš shows which games run, not ho
 | 08:00 | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 96 |
 | 09:00 | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 97 |
 | 10:00 | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 96 |
-| 11:00 | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 90 |
+| 11:00 | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 91 |
 | 12:00 | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 92 |
 | 13:00 | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 90 |
 | 14:00 | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 91 |
@@ -95,8 +95,8 @@ Average running tables per check on each kind of day, in total and for NLH and O
 
 | Days | Dates | Checks | Tables | NLH | Omaha | vs normal, same hour |
 |:--|:--|--:|--:|--:|--:|--:|
-| Normal days | 10–30 Oct (16 days) | 2227 | 0.2 | 0.2 | 0.0 | -0.0 |
-| ↳ with an Omaha tournament on the schedule | 30 Oct (1 day) | 66 | 0.6 | 0.6 | 0.0 | +0.4 |
+| Normal days | 10–30 Oct (16 days) | 2228 | 0.2 | 0.2 | 0.0 | -0.0 |
+| ↳ with an Omaha tournament on the schedule | 30 Oct (1 day) | 67 | 0.6 | 0.6 | 0.0 | +0.4 |
 | ↳ without one | 10–29 Oct (15 days) | 2161 | 0.2 | 0.1 | 0.0 | -0.0 |
 | 🎪 PLO festival | 15–18 Oct (4 days) | 578 | 0.5 | 0.3 | 0.1 | +0.3 |
 | 📅 Public holidays | 28 Oct (1 day) | 144 | 0.0 | 0.0 | 0.0 | -0.2 |
