@@ -2,16 +2,16 @@
 
 Reads [Grand Casino Aš's live cash games](https://www.grandcasinoas.eu/en/poker/poker-live) every 10 minutes and its [current tournaments](https://www.grandcasinoas.eu/en/poker) every 30 minutes. All times are **Czech time** (same as Poland). Back to [King's](README.md).
 
-**Last check:** 2026-10-30 12:50 — ✅ OK  
-**Last 24 h:** 145 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-10 (2961 good checks)
+**Last check:** 2026-10-30 13:00 — ✅ OK  
+**Last 24 h:** 145 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-10 (2962 good checks)
 
-## Cash games at 2026-10-30 12:50
+## Cash games at 2026-10-30 13:00
 
 ```
 PLO/NLH           waiting
 ```
 
-**Tournaments in play at 2026-10-30 12:30:** none
+**Tournaments in play at 2026-10-30 13:00:** Super Satellite to Highroller (NLH, €40, 30 of 30 left, on a break, late reg open)
 
 ## Festivals and schedule
 
@@ -79,7 +79,7 @@ Average number of running tables (Grand Casino Aš shows which games run, not ho
 | 10:00 | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 96 |
 | 11:00 | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 96 |
 | 12:00 | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 98 |
-| 13:00 | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 90 |
+| 13:00 | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 91 |
 | 14:00 | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 91 |
 | 15:00 | 🟥 1% | 🟥 0% | 🟥 0% | 🟥 0% | 90 |
 | 16:00 | 🟥 7% | 🟥 0% | 🟥 0% | 🟥 0% | 91 |
@@ -97,8 +97,8 @@ Average running tables per check on each kind of day, in total and for NLH and O
 
 | Days | Dates | Checks | Tables | NLH | Omaha | vs normal, same hour |
 |:--|:--|--:|--:|--:|--:|--:|
-| Normal days | 10–30 Oct (16 days) | 2239 | 0.2 | 0.2 | 0.0 | -0.0 |
-| ↳ with an Omaha tournament on the schedule | 30 Oct (1 day) | 78 | 0.5 | 0.5 | 0.0 | +0.3 |
+| Normal days | 10–30 Oct (16 days) | 2240 | 0.2 | 0.2 | 0.0 | -0.0 |
+| ↳ with an Omaha tournament on the schedule | 30 Oct (1 day) | 79 | 0.5 | 0.5 | 0.0 | +0.3 |
 | ↳ without one | 10–29 Oct (15 days) | 2161 | 0.2 | 0.1 | 0.0 | -0.0 |
 | 🎪 PLO festival | 15–18 Oct (4 days) | 578 | 0.5 | 0.3 | 0.1 | +0.3 |
 | 📅 Public holidays | 28 Oct (1 day) | 144 | 0.0 | 0.0 | 0.0 | -0.2 |
@@ -109,6 +109,7 @@ The most recent ones. The game is read from the tournament's name.
 
 | Tournament | Game | Buy-in | Entries | Seen |
 |:--|:--|--:|--:|:--|
+| Super Satellite to Highroller | NLH | €40 | 30 | 2026-10-30 13:00 |
 | Warm Up | NLH | €70 | 167 | 2026-10-29 19:00 → 10-30 05:00 |
 | Crazy Pineapple | Pineapple | €50 | 84 | 2026-10-29 13:00 → 10-29 18:30 |
 | KaKo Cup Opener | NLH | €70 | 102 | 2026-10-28 19:00 → 10-29 02:00 |
@@ -123,7 +124,6 @@ The most recent ones. The game is read from the tournament's name.
 | PLO Main Event 1D | PLO | €340 | 41 | 2026-10-18 10:00 → 10-18 15:30 |
 | Classic Deepstack | NLH | €80 | 143 | 2026-10-17 18:00 → 10-18 03:00 |
 | PLO Main Event 1C | PLO | €340 | 30 | 2026-10-17 19:30 → 10-18 02:30 |
-| PLO Main Event 1B | PLO | €340 | 82 | 2026-10-17 14:30 → 10-18 00:00 |
 
 ---
 Raw data: `data/grandcasinoas` (one CSV file per month).
