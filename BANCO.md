@@ -2,10 +2,10 @@
 
 Checks [its website](https://bancocasino.sk/ba/en) together with King's, about every 10 minutes. All times are **Czech time** (same as Poland and Slovakia). Back to [King's](README.md).
 
-**Last check:** 2026-10-30 23:50 — ✅ OK  
-**Checks so far:** 2532 successful out of 3039 (since 2026-10-10)
+**Last check:** 2026-10-31 00:00 — ✅ OK  
+**Checks so far:** 2533 successful out of 3040 (since 2026-10-10)
 
-## Tables running at 2026-10-30 23:50
+## Tables running at 2026-10-31 00:00
 
 ```
 NLH      €1/3     8 players
@@ -14,7 +14,7 @@ PLO 4/5  €2/2     7 players
 **NLH:** 8 players at 1 table · **PLO 4/5:** 7 players at 1 table
 
 *The whole list (Banco also shows its Košice casino; the numbers above are Bratislava only):* Bratislava: PLO 4/5 €2/2 7 players (buy-in €100), NLH €1/3 8 players (buy-in €100) Košice: NLH €1/3 8 players (buy-in €100)  
-**Tournaments running:** Halloween Night: 76/148 players, level 11, blinds 1500/3000, buy-in €100, €20000 GTD
+**Tournaments running:** Halloween Night: 72/152 players, level 11, blinds 1500/3000, buy-in €100, €20000 GTD
 
 **Note:** Since 13 Oct the tracker reads Banco's cash list and its live tournaments straight from where its page gets them; before that, its page's scripts didn't run in the tracker's browser, so those checks show as errors.
 
@@ -23,7 +23,11 @@ PLO 4/5  €2/2     7 players
 - **Coming up:** 🎪 **PPC festival**, 4–16 Nov (festival) — €150 main event 6–16 Nov; €1,000 super high roller 12 Nov; €400 high roller 13–14 Nov · Omaha: €75 NLH/PLO 4/5 mix (14 Nov 10:00)
 - **Coming up:** 🎪 **Masters festival**, 1–7 Dec (festival) — €170 main event 1–7 Dec; €550 SPT Challenger 4–5 Dec; €550 10-Game Mix 4–6 Dec · Omaha: €250 PLO Masters Main Event 8-Max (3–5 Dec); €60 PLO Nightly Turbo (2 Dec 21:00); €150 NLH/PLO level of each (3 Dec 21:00); €130 PLO Masters Mystery Bounty (4 Dec 16:00); €150 Big O Masters (5 Dec 19:00); €60 PLO 4/5/6 Masters 7-Max (6 Dec 20:00)
 
-No Omaha tournaments on the schedule in the next 14 days.
+**Omaha tournaments in the next 14 days** (from `hendonmob.txt`):
+
+| Day | Time (local) | Buy-in | Tournament |
+|:--|:--|--:|:--|
+| Sat 14 Nov | 10:00 | €75 | No Limit Hold'em / Pot Limit Omaha 4/5 Card - Mix (Event #10) |
 
 **Public holidays in the next 30 days** where most players come from (Slovakia, Austria, Hungary): Sun 1 Nov: All Saints' Day (Slovakia, Austria, Hungary).
 
@@ -73,7 +77,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 
 | Hour | Mon | Tue | Wed | Thu | Fri | Sat | Sun | All days |
 |:--|--:|--:|--:|--:|--:|--:|--:|--:|
-| 00:00 | 0 | 0 | 0 | 4 | 4 | 0 | 3 | 2 |
+| 00:00 | 0 | 0 | 0 | 4 | 4 | 1 | 3 | 2 |
 | 01:00 | 0 | 0 | 0 | 4 | 4 | 0 | 3 | 2 |
 | 02:00 | 0 | 0 | 0 | 4 | 4 | 0 | 2 | 2 |
 | 03:00 | 0 | 0 | 1 | 3 | 4 | 1 | 3 | 2 |
@@ -104,7 +108,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 
 | Hour | NLH €1/3 | NLH €2/5 | PLO 4/5 €2/2 | PLO €25/50 | Dealer's Choice €2/2 | Checks |
 |:--|--:|--:|--:|--:|--:|--:|
-| 00:00 | 🟩 79% | 🟥 13% | 🟨 27% | 🟥 7% | 🟥 0% | 90 |
+| 00:00 | 🟩 79% | 🟥 13% | 🟨 27% | 🟥 7% | 🟥 0% | 91 |
 | 01:00 | 🟨 73% | 🟥 13% | 🟨 27% | 🟥 7% | 🟥 0% | 92 |
 | 02:00 | 🟨 74% | 🟥 7% | 🟨 25% | 🟥 6% | 🟥 0% | 97 |
 | 03:00 | 🟨 57% | 🟥 9% | 🟨 33% | 🟥 7% | 🟥 0% | 91 |
@@ -135,16 +139,16 @@ Average seated players per check on each kind of day, in total and for NLH and O
 
 | Days | Dates | Checks | Players | NLH | Omaha | vs normal, same hour |
 |:--|:--|--:|--:|--:|--:|--:|
-| Normal days | 13–30 Oct (16 days) | 2244 | 5.9 | 3.4 | 2.0 | +0.0 |
+| Normal days | 13–31 Oct (17 days) | 2245 | 5.9 | 3.4 | 2.0 | +0.0 |
 | 📅 Public holidays | 23–26 Oct (2 days) | 288 | 4.8 | 2.7 | 1.9 | -1.0 |
 
 ## All games seen
 
 | Game | Running in | Most often | Last seen |
 |:--|--:|:--|:--|
-| NLH €1/3 | 36% of checks | Sun around 02:00 | 2026-10-30 23:50 |
+| NLH €1/3 | 36% of checks | Sun around 02:00 | 2026-10-31 00:00 |
 | NLH €2/5 | 6% of checks | Sat around 07:00 | 2026-10-29 02:00 |
-| PLO 4/5 €2/2 | 28% of checks | Wed around 21:00 | 2026-10-30 23:50 |
+| PLO 4/5 €2/2 | 28% of checks | Wed around 21:00 | 2026-10-31 00:00 |
 | PLO €25/50 | 3% of checks | Thu around 20:00 | 2026-10-16 07:30 |
 | Dealer's Choice €2/2 | 6% of checks | Thu around 15:00 | 2026-10-29 22:20 |
 
