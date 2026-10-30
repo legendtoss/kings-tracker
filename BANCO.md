@@ -2,10 +2,10 @@
 
 Checks [its website](https://bancocasino.sk/ba/en) together with King's, about every 10 minutes. All times are **Czech time** (same as Poland and Slovakia). Back to [King's](README.md).
 
-**Last check:** 2026-10-30 18:00 — ✅ OK  
-**Checks so far:** 2497 successful out of 3004 (since 2026-10-10)
+**Last check:** 2026-10-30 18:10 — ✅ OK  
+**Checks so far:** 2498 successful out of 3005 (since 2026-10-10)
 
-## Tables running at 2026-10-30 18:00
+## Tables running at 2026-10-30 18:10
 
 ```
 NLH      €1/3     8 players
@@ -62,7 +62,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 15:00 | 0 | 2 | 1 | 0 | 0 | 0 | 0 | 1 |
 | 16:00 | 1 | 1 | 0 | 1 | 2 | 2 | 0 | 1 |
 | 17:00 | 0 | 1 | 3 | 2 | 4 | 1 | 1 | 2 |
-| 18:00 | 4 | 2 | 4 | 2 | 1 | 1 | 2 | 3 |
+| 18:00 | 4 | 2 | 4 | 2 | 2 | 1 | 2 | 3 |
 | 19:00 | 3 | 2 | 0 | 3 | 0 | 4 | 4 | 2 |
 | 20:00 | 4 | 3 | 1 | 4 | 0 | 8 | 7 | 4 |
 | 21:00 | 7 | 5 | 2 | 4 | 4 | 11 | 10 | 6 |
@@ -91,7 +91,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 15:00 | 0 | 5 | 1 | 0 | 3 | 0 | 0 | 2 |
 | 16:00 | 4 | 6 | 5 | 3 | 4 | 0 | 0 | 3 |
 | 17:00 | 7 | 7 | 5 | 7 | 3 | 0 | 0 | 4 |
-| 18:00 | 0 | 7 | 5 | 7 | 1 | 2 | 0 | 4 |
+| 18:00 | 0 | 7 | 5 | 7 | 2 | 2 | 0 | 4 |
 | 19:00 | 0 | 8 | 6 | 6 | 0 | 2 | 0 | 4 |
 | 20:00 | 0 | 6 | 6 | 5 | 0 | 0 | 0 | 3 |
 | 21:00 | 0 | 5 | 6 | 6 | 0 | 3 | 0 | 4 |
@@ -122,7 +122,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 15:00 | 🟥 9% | 🟥 0% | 🟥 22% | 🟥 0% | 🟥 19% | 96 |
 | 16:00 | 🟥 23% | 🟥 0% | 🟨 50% | 🟥 0% | 🟥 20% | 96 |
 | 17:00 | 🟨 34% | 🟥 0% | 🟨 63% | 🟥 0% | 🟥 21% | 95 |
-| 18:00 | 🟨 44% | 🟥 0% | 🟨 62% | 🟥 0% | 🟥 20% | 91 |
+| 18:00 | 🟨 45% | 🟥 0% | 🟨 62% | 🟥 0% | 🟥 20% | 92 |
 | 19:00 | 🟨 41% | 🟥 0% | 🟨 64% | 🟥 1% | 🟥 20% | 90 |
 | 20:00 | 🟨 58% | 🟥 0% | 🟨 51% | 🟥 7% | 🟥 20% | 90 |
 | 21:00 | 🟨 70% | 🟥 7% | 🟨 59% | 🟥 7% | 🟥 20% | 91 |
@@ -135,16 +135,16 @@ Average seated players per check on each kind of day, in total and for NLH and O
 
 | Days | Dates | Checks | Players | NLH | Omaha | vs normal, same hour |
 |:--|:--|--:|--:|--:|--:|--:|
-| Normal days | 13–30 Oct (16 days) | 2209 | 5.7 | 3.3 | 2.0 | +0.0 |
+| Normal days | 13–30 Oct (16 days) | 2210 | 5.7 | 3.3 | 2.0 | +0.0 |
 | 📅 Public holidays | 23–26 Oct (2 days) | 288 | 4.8 | 2.7 | 1.9 | -0.9 |
 
 ## All games seen
 
 | Game | Running in | Most often | Last seen |
 |:--|--:|:--|:--|
-| NLH €1/3 | 35% of checks | Sun around 02:00 | 2026-10-30 18:00 |
+| NLH €1/3 | 35% of checks | Sun around 02:00 | 2026-10-30 18:10 |
 | NLH €2/5 | 6% of checks | Sat around 07:00 | 2026-10-29 02:00 |
-| PLO 4/5 €2/2 | 27% of checks | Wed around 21:00 | 2026-10-30 18:00 |
+| PLO 4/5 €2/2 | 27% of checks | Wed around 21:00 | 2026-10-30 18:10 |
 | PLO €25/50 | 3% of checks | Thu around 20:00 | 2026-10-16 07:30 |
 | Dealer's Choice €2/2 | 6% of checks | Thu around 15:00 | 2026-10-29 22:20 |
 
