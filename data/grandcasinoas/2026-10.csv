@@ -2963,3 +2963,4 @@
 2026-10-30 13:00,Fri,13,ok,0,1,PLO/NLH [WAITING],1,30,"[{""name"":""Super Satellite to Highroller"",""game"":""NLH"",""status"":""BREAK"",""left"":30,""entries"":30,""buyin"":40,""prizepool"":3000,""currency"":""EUR"",""avg_stack"":10000,""start_stack"":10000,""late_reg_open"":true,""start"":""30.10. 13:00""}]",
 2026-10-30 13:10,Fri,13,ok,0,1,PLO/NLH [WAITING],,,,
 2026-10-30 13:20,Fri,13,ok,0,1,PLO/NLH [WAITING],,,,
+2026-10-30 13:30,Fri,13,ok,0,1,PLO/NLH [WAITING],1,64,"[{""name"":""Super Satellite to Highroller"",""game"":""NLH"",""status"":""RUNNING"",""left"":64,""entries"":76,""buyin"":40,""prizepool"":3000,""currency"":""EUR"",""level"":2,""blinds"":""100/200/200"",""avg_stack"":11875,""start_stack"":10000,""late_reg_open"":true,""start"":""30.10. 13:00""}]",
