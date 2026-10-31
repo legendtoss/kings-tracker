@@ -2,7 +2,7 @@
 
 Reads [OlyBet's live cash games page](https://olybetpoker.com/ee/en/cash-games/?club=6) every 30 minutes (their site has bot protection, so the tracker checks gently and simply records it when a check is refused). All times are **Czech time** (Tallinn is one hour ahead). Back to [King's](README.md).
 
-**Last check:** 2026-10-31 23:30 — ⚠️ error: blocked by the site's bot protection — details in `debug/olympic-tallinn_page.json`  
+**Last check:** 2026-11-01 00:00 — ⚠️ error: couldn't read the cash games table (page saved for a closer look) — details in `debug/olympic-tallinn_page.json`  
 **Last 24 h:** 0 of 49 checks OK, longest gap 0 h 30 min · **Collecting since:** 2026-10-10 (273 good checks)
 
 **Club:** Olympic Park Casino
@@ -13,21 +13,16 @@ No tables were running.
 
 **Waiting lists:** 6 players · **All games listed:** NLH €1/3 (closed): 0 tables, 0/0 players, 3 waiting PLO/PLO5 €1/3 (closed): 0 tables, 0/0 players, 2 waiting PLO €5/5 (closed): 0 tables, 0/0 players, 0 waiting NLH €5/5 (closed): 0 tables, 0/0 players, 1 waiting
 
-**Tournaments on their site at 2026-10-31 23:00:** live 19:00 Tartu Kesklinna Olympic Casino New Players Holdem 10,000 €15
+**Tournaments on their site at 2026-11-01 00:00:** live 19:00 Tartu Kesklinna Olympic Casino New Players Holdem 10,000 €15
 
 ## Festivals and schedule
 
-- **Now:** 🎪 **Mixed games festival**, 26–31 Oct (festival) — Big Bet Mix, Lowball, Dealer's Choice, S.O.R.B.E.T.; €800 8-Game main event 30–31 Oct · Omaha: €200 Omaha Dealer's Choice (31 Oct 18:00)
 - **Coming up:** 🎪 **The Hendon Mob Championship**, 20–23 Nov (festival) — €350 main event 20–22 Nov · Omaha: €350 Pot Limit Dealer's Choice (21 Nov 13:00); €200 Omaha Jack (22 Nov 21:00); €350 PLO 4/5/6 (23 Nov 14:00)
 - **Coming up:** 🎪 **The Festival**, 24–29 Nov (festival) — €555 main event 25–29 Nov; €200 Cash Game Challenge events 24–27 Nov · Omaha: €200 NLH/PLO Half n Half (24 Nov 20:00); €350 PLO Bomb Pot 4/5/6 (25 Nov 17:00); €200 Big O (25 Nov 20:00); €350 PLO Bomb Pot (26 Nov 15:00); €350 PLO 4/5 (27 Nov 15:00); €1,100 PLO High Roller (27 Nov 17:00); €350 PLO 4/5/6 Bomb Pot (28 Nov 13:00); €100 PLO Flips (29 Nov 12:30)
 
-**Omaha tournaments in the next 14 days** (from `hendonmob.txt`):
+No Omaha tournaments on the schedule in the next 14 days.
 
-| Day | Time (local) | Buy-in | Tournament |
-|:--|:--|--:|:--|
-| Sat 31 Oct | 18:00 | €200 | Omaha Dealers Choice (Event #12) |
-
-**Public holidays in the next 30 days** where most players come from (Estonia, Finland): Sat 31 Oct: All Saints' Day (Finland).
+**Public holidays in the next 30 days** where most players come from (Estonia, Finland): none.
 
 ## Busiest times so far
 
