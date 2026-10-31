@@ -2,10 +2,10 @@
 
 Reads [Card Casino's live cash-game list](https://www.cardcasino.sk/en/cashgames/) together with King's, about every 10 minutes. All times are **Czech time** (same as Poland and Slovakia). Back to [King's](README.md).
 
-**Last check:** 2026-10-31 09:50 — ✅ OK (live list)  
-**Last 24 h:** 129 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-10 (2626 good checks)
+**Last check:** 2026-10-31 10:00 — ✅ OK (live list)  
+**Last 24 h:** 130 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-10 (2627 good checks)
 
-## Tables running at 2026-10-31 09:50
+## Tables running at 2026-10-31 10:00
 
 No tables were running.
 
@@ -73,7 +73,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 07:00 | 3 | 2 | 0 | 0 | 0 | 0 | 0 | 1 |
 | 08:00 | 3 | 2 | 0 | 0 | 0 | 0 | 0 | 1 |
 | 09:00 | 2 | 2 | 0 | 0 | 0 | 0 | 0 | 1 |
-| 10:00 | 1 | 2 | 0 | 0 | 0 | 0 | 0 | 1 |
+| 10:00 | 1 | 2 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 11:00 | 0 | 2 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 12:00 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 13:00 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 |
@@ -104,7 +104,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 07:00 | 🟥 8% | 🟥 0% | 🟥 7% | 🟥 8% | 🟥 8% | 61 |
 | 08:00 | 🟥 2% | 🟥 0% | 🟥 10% | 🟥 10% | 🟥 10% | 63 |
 | 09:00 | 🟥 0% | 🟥 0% | 🟥 7% | 🟥 8% | 🟥 7% | 72 |
-| 10:00 | 🟥 0% | 🟥 0% | 🟥 11% | 🟥 2% | 🟥 9% | 57 |
+| 10:00 | 🟥 0% | 🟥 0% | 🟥 10% | 🟥 2% | 🟥 9% | 58 |
 | 11:00 | 🟥 0% | 🟥 0% | 🟥 8% | 🟥 0% | 🟥 9% | 65 |
 | 12:00 | 🟥 0% | 🟥 0% | 🟥 7% | 🟥 0% | 🟥 10% | 60 |
 | 13:00 | 🟥 0% | 🟥 0% | 🟥 7% | 🟥 0% | 🟥 3% | 59 |
@@ -125,7 +125,7 @@ Average seated players per check on each kind of day, in total and for NLH and O
 
 | Days | Dates | Checks | Players | NLH | Omaha | vs normal, same hour |
 |:--|:--|--:|--:|--:|--:|--:|
-| Normal days | 12–31 Oct (13 days) | 1486 | 4.2 | 3.0 | 0.9 | -0.0 |
+| Normal days | 12–31 Oct (13 days) | 1487 | 4.2 | 3.0 | 0.9 | -0.0 |
 | 💵 Cash game days: NLH/PLO/PLO5 from €10/20 | 10–11 Oct (2 days) | 240 | 11.9 | 6.2 | 5.7 | +8.0 |
 | 🎪 Main Event week | 20–25 Oct (6 days) | 771 | 8.5 | 7.0 | 1.4 | +4.2 |
 | 📅 Public holidays | 26 Oct (1 day) | 129 | 6.7 | 4.0 | 2.7 | +2.7 |
