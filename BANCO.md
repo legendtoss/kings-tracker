@@ -2,10 +2,10 @@
 
 Checks [its website](https://bancocasino.sk/ba/en) together with King's, about every 10 minutes. All times are **Czech time** (same as Poland and Slovakia). Back to [King's](README.md).
 
-**Last check:** 2026-11-01 23:50 — ✅ OK  
-**Checks so far:** 2819 successful out of 3327 (since 2026-10-10)
+**Last check:** 2026-11-02 00:00 — ✅ OK  
+**Checks so far:** 2820 successful out of 3328 (since 2026-10-10)
 
-## Tables running at 2026-11-01 23:50
+## Tables running at 2026-11-02 00:00
 
 No tables were running.
 
@@ -25,7 +25,7 @@ No tables were running.
 |:--|:--|--:|:--|
 | Sat 14 Nov | 10:00 | €75 | No Limit Hold'em / Pot Limit Omaha 4/5 Card - Mix (Event #10) |
 
-**Public holidays in the next 30 days** where most players come from (Slovakia, Austria, Hungary): Sun 1 Nov: All Saints' Day (Slovakia, Austria, Hungary).
+**Public holidays in the next 30 days** where most players come from (Slovakia, Austria, Hungary): none.
 
 ## Busiest times so far
 
@@ -44,7 +44,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 
 | Hour | Mon | Tue | Wed | Thu | Fri | Sat | Sun | All days |
 |:--|--:|--:|--:|--:|--:|--:|--:|--:|
-| 00:00 | 9 | 12 | 7 | 8 | 3 | 10 | 15 | 9 |
+| 00:00 | 8 | 12 | 7 | 8 | 3 | 10 | 15 | 9 |
 | 01:00 | 7 | 11 | 5 | 10 | 3 | 11 | 11 | 8 |
 | 02:00 | 7 | 9 | 5 | 8 | 3 | 11 | 13 | 8 |
 | 03:00 | 7 | 4 | 3 | 5 | 2 | 10 | 12 | 6 |
@@ -104,7 +104,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 
 | Hour | NLH €1/3 | NLH €2/5 | PLO 4/5 €2/2 | PLO €25/50 | Dealer's Choice €2/2 | Checks |
 |:--|--:|--:|--:|--:|--:|--:|
-| 00:00 | 🟩 80% | 🟥 12% | 🟨 31% | 🟥 6% | 🟥 0% | 96 |
+| 00:00 | 🟩 79% | 🟥 12% | 🟨 31% | 🟥 6% | 🟥 0% | 97 |
 | 01:00 | 🟨 74% | 🟥 12% | 🟨 26% | 🟥 6% | 🟥 0% | 98 |
 | 02:00 | 🟩 76% | 🟥 7% | 🟥 23% | 🟥 6% | 🟥 0% | 103 |
 | 03:00 | 🟨 60% | 🟥 8% | 🟨 31% | 🟥 6% | 🟥 0% | 97 |
@@ -135,7 +135,7 @@ Average seated players per check on each kind of day, in total and for NLH and O
 
 | Days | Dates | Checks | Players | NLH | Omaha | vs normal, same hour |
 |:--|:--|--:|--:|--:|--:|--:|
-| Normal days | 13–31 Oct (17 days) | 2388 | 5.7 | 3.3 | 1.9 | +0.0 |
+| Normal days | 13 Oct – 2 Nov (18 days) | 2389 | 5.7 | 3.3 | 1.9 | +0.0 |
 | 📅 Public holidays | 23 Oct – 1 Nov (3 days) | 431 | 3.2 | 1.8 | 1.3 | -2.4 |
 
 ## All games seen

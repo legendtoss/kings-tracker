@@ -2,7 +2,7 @@
 
 Reads [OlyBet's live cash games page](https://olybetpoker.com/lt/cash-games/?club=10) every 30 minutes (their site has bot protection, so the tracker checks gently and simply records it when a check is refused). All times are **Czech time** (Vilnius is one hour ahead). Back to [King's](README.md).
 
-**Last check:** 2026-11-01 23:30 — ⚠️ error: blocked by the site's bot protection — details in `debug/olympic-vilnius_page.json`  
+**Last check:** 2026-11-02 00:00 — ⚠️ error: blocked by the site's bot protection — details in `debug/olympic-vilnius_page.json`  
 **Last 24 h:** 0 of 49 checks OK, longest gap 0 h 30 min · **Collecting since:** 2026-10-10 (326 good checks)
 
 **Club:** Olympic Casino Vilnius, Lietuva
@@ -21,7 +21,7 @@ No tables were running.
 
 No Omaha tournaments on the schedule in the next 14 days.
 
-**Public holidays in the next 30 days** where most players come from (Lithuania, Latvia, Poland): Sun 1 Nov: All Saints' Day (Lithuania, Poland) · Mon 2 Nov: All Souls' Day (Lithuania) · Wed 11 Nov: National Independence Day (Poland) · Wed 18 Nov: Republic of Latvia Proclamation Day (Latvia).
+**Public holidays in the next 30 days** where most players come from (Lithuania, Latvia, Poland): Mon 2 Nov: All Souls' Day (Lithuania) · Wed 11 Nov: National Independence Day (Poland) · Wed 18 Nov: Republic of Latvia Proclamation Day (Latvia).
 
 ## Busiest times so far
 

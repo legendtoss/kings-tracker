@@ -1,6 +1,6 @@
 {
- "saved_on": "2026-11-01",
- "records": 12,
+ "saved_on": "2026-11-02",
+ "records": 7,
  "fields": [
   "gameProfile",
   "gameType",
@@ -15,24 +15,24 @@
  "sample": [
   {
    "status": "PLAYING",
-   "startTime": "2026-10-31T22:09:16",
-   "startPlayingTime": "2026-10-31T22:23:07",
+   "startTime": "2026-11-01T16:28:05",
+   "startPlayingTime": "2026-11-01T16:28:08",
    "seatCount": 8,
-   "playerCount": 8,
+   "playerCount": 7,
    "gameType": {
-    "id": 9,
-    "name": "Omaha Poker"
+    "id": 10,
+    "name": "No Limit Holdem"
    },
    "gameProfile": {
-    "id": 67,
-    "name": "PLO 10-10 5cards",
+    "id": 103,
+    "name": "NLH 5-10-25",
     "params": {
      "smallBlind": 10,
-     "bigBlind": 10,
+     "bigBlind": 25,
      "buyInMin": null,
      "buyInMax": null
     },
-    "blindsFormatted": "€ 10/10"
+    "blindsFormatted": "€ 10/25"
    },
    "table": {
     "id": 32,
@@ -47,8 +47,8 @@
   },
   {
    "status": "PLAYING",
-   "startTime": "2026-10-31T15:20:59",
-   "startPlayingTime": "2026-10-31T15:31:21",
+   "startTime": "2026-11-01T20:56:28",
+   "startPlayingTime": "2026-11-01T21:12:47",
    "seatCount": 8,
    "playerCount": 8,
    "gameType": {
@@ -56,19 +56,19 @@
     "name": "Omaha Poker"
    },
    "gameProfile": {
-    "id": 67,
-    "name": "PLO 10-10 5cards",
+    "id": 100,
+    "name": "PLO 25-25 5cards",
     "params": {
-     "smallBlind": 10,
-     "bigBlind": 10,
+     "smallBlind": 25,
+     "bigBlind": 25,
      "buyInMin": null,
      "buyInMax": null
     },
-    "blindsFormatted": "€ 10/10"
+    "blindsFormatted": "€ 25/25"
    },
    "table": {
-    "id": 31,
-    "name": "PK45",
+    "id": 34,
+    "name": "PK48",
     "type": "CASH_GAME",
     "zone": {
      "id": 8,
@@ -79,42 +79,10 @@
   },
   {
    "status": "PLAYING",
-   "startTime": "2026-10-31T10:33:04",
-   "startPlayingTime": "2026-10-31T11:29:45",
+   "startTime": "2026-11-01T13:50:39",
+   "startPlayingTime": "2026-11-01T13:56:36",
    "seatCount": 8,
    "playerCount": 8,
-   "gameType": {
-    "id": 9,
-    "name": "Omaha Poker"
-   },
-   "gameProfile": {
-    "id": 69,
-    "name": "PLO 5-5 5cards",
-    "params": {
-     "smallBlind": 5,
-     "bigBlind": 5,
-     "buyInMin": null,
-     "buyInMax": null
-    },
-    "blindsFormatted": "€ 5/5"
-   },
-   "table": {
-    "id": 40,
-    "name": "PK54",
-    "type": "CASH_GAME",
-    "zone": {
-     "id": 8,
-     "name": "FABERGE"
-    }
-   },
-   "venue": 1
-  },
-  {
-   "status": "PLAYING",
-   "startTime": "2026-10-31T13:12:06",
-   "startPlayingTime": "2026-10-31T13:32:56",
-   "seatCount": 8,
-   "playerCount": 7,
    "gameType": {
     "id": 9,
     "name": "Omaha Poker"
@@ -143,8 +111,8 @@
   },
   {
    "status": "PLAYING",
-   "startTime": "2026-10-31T12:34:57",
-   "startPlayingTime": "2026-10-31T12:49:35",
+   "startTime": "2026-11-01T15:05:55",
+   "startPlayingTime": "2026-11-01T15:10:55",
    "seatCount": 8,
    "playerCount": 8,
    "gameType": {
@@ -152,19 +120,51 @@
     "name": "No Limit Holdem"
    },
    "gameProfile": {
-    "id": 142,
-    "name": "NLH 2-4",
+    "id": 147,
+    "name": "NLH 1-2",
     "params": {
-     "smallBlind": 2,
-     "bigBlind": 4,
+     "smallBlind": 1,
+     "bigBlind": 2,
      "buyInMin": null,
      "buyInMax": null
     },
-    "blindsFormatted": "€ 2/4"
+    "blindsFormatted": "€ 1/2"
    },
    "table": {
-    "id": 38,
-    "name": "PK52",
+    "id": 40,
+    "name": "PK54",
+    "type": "CASH_GAME",
+    "zone": {
+     "id": 8,
+     "name": "FABERGE"
+    }
+   },
+   "venue": 1
+  },
+  {
+   "status": "PLAYING",
+   "startTime": "2026-11-01T18:38:42",
+   "startPlayingTime": "2026-11-01T18:40:15",
+   "seatCount": 8,
+   "playerCount": 6,
+   "gameType": {
+    "id": 10,
+    "name": "No Limit Holdem"
+   },
+   "gameProfile": {
+    "id": 147,
+    "name": "NLH 1-2",
+    "params": {
+     "smallBlind": 1,
+     "bigBlind": 2,
+     "buyInMin": null,
+     "buyInMax": null
+    },
+    "blindsFormatted": "€ 1/2"
+   },
+   "table": {
+    "id": 30,
+    "name": "PK44",
     "type": "CASH_GAME",
     "zone": {
      "id": 8,
