@@ -2,10 +2,10 @@
 
 Checks [its website](https://bancocasino.sk/ba/en) together with King's, about every 10 minutes. All times are **Czech time** (same as Poland and Slovakia). Back to [King's](README.md).
 
-**Last check:** 2026-11-02 00:50 — ✅ OK  
-**Checks so far:** 2825 successful out of 3333 (since 2026-10-10)
+**Last check:** 2026-11-02 01:00 — ✅ OK  
+**Checks so far:** 2826 successful out of 3334 (since 2026-10-10)
 
-## Tables running at 2026-11-02 00:50
+## Tables running at 2026-11-02 01:00
 
 No tables were running.
 
@@ -45,7 +45,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | Hour | Mon | Tue | Wed | Thu | Fri | Sat | Sun | All days |
 |:--|--:|--:|--:|--:|--:|--:|--:|--:|
 | 00:00 | 4 | 12 | 7 | 8 | 3 | 10 | 15 | 8 |
-| 01:00 | 7 | 11 | 5 | 10 | 3 | 11 | 11 | 8 |
+| 01:00 | 6 | 11 | 5 | 10 | 3 | 11 | 11 | 8 |
 | 02:00 | 7 | 9 | 5 | 8 | 3 | 11 | 13 | 8 |
 | 03:00 | 7 | 4 | 3 | 5 | 2 | 10 | 12 | 6 |
 | 04:00 | 8 | 2 | 1 | 4 | 0 | 6 | 11 | 4 |
@@ -105,7 +105,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | Hour | NLH €1/3 | NLH €2/5 | PLO 4/5 €2/2 | PLO €25/50 | Dealer's Choice €2/2 | Checks |
 |:--|--:|--:|--:|--:|--:|--:|
 | 00:00 | 🟩 75% | 🟥 12% | 🟨 29% | 🟥 6% | 🟥 0% | 102 |
-| 01:00 | 🟨 74% | 🟥 12% | 🟨 26% | 🟥 6% | 🟥 0% | 98 |
+| 01:00 | 🟨 74% | 🟥 12% | 🟨 25% | 🟥 6% | 🟥 0% | 99 |
 | 02:00 | 🟩 76% | 🟥 7% | 🟥 23% | 🟥 6% | 🟥 0% | 103 |
 | 03:00 | 🟨 60% | 🟥 8% | 🟨 31% | 🟥 6% | 🟥 0% | 97 |
 | 04:00 | 🟨 46% | 🟥 6% | 🟥 22% | 🟥 6% | 🟥 0% | 96 |
@@ -135,7 +135,7 @@ Average seated players per check on each kind of day, in total and for NLH and O
 
 | Days | Dates | Checks | Players | NLH | Omaha | vs normal, same hour |
 |:--|:--|--:|--:|--:|--:|--:|
-| Normal days | 13 Oct – 2 Nov (18 days) | 2394 | 5.7 | 3.3 | 1.9 | +0.0 |
+| Normal days | 13 Oct – 2 Nov (18 days) | 2395 | 5.7 | 3.3 | 1.9 | +0.0 |
 | 📅 Public holidays | 23 Oct – 1 Nov (3 days) | 431 | 3.2 | 1.8 | 1.3 | -2.4 |
 
 ## All games seen
