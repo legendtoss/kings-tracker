@@ -2,14 +2,14 @@
 
 Prague's tables come in the same King's data feed as Rozvadov's, so they're read at every check (about every 10 minutes) without any extra visits, together with Prague's tournament clocks. All times are **Czech time** (same as Poland). Back to [King's Rozvadov](README.md).
 
-**Last check:** 2026-11-02 19:00 — ✅ OK  
-**Last 24 h:** 145 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-17 (2159 good checks)
+**Last check:** 2026-11-02 19:10 — ✅ OK  
+**Last 24 h:** 145 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-17 (2160 good checks)
 
-## Tables running at 2026-11-02 19:00
+## Tables running at 2026-11-02 19:10
 
 No tables were running.
 
-**Tournaments in play:** Satellite to 1 Million Crown Series - Day 1A (NLH, €15, 20 of 63 left, level 12, blinds 1000/2000/2000)
+**Tournaments in play:** Satellite to 1 Million Crown Series - Day 1A (NLH, €15, 16 of 63 left, level 13, blinds 1500/3000/3000) · King's Prague 1 Million Crown Series - Day 1A (NLH, €80, 11 of 11 left, late reg open, level 1, blinds 100/100/100)
 
 ## Festivals and schedule
 
@@ -86,7 +86,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 16:00 | 🟥 0% | 🟥 0% | 🟥 0% | 87 |
 | 17:00 | 🟥 0% | 🟥 0% | 🟥 0% | 87 |
 | 18:00 | 🟥 7% | 🟥 0% | 🟥 0% | 87 |
-| 19:00 | 🟥 7% | 🟥 3% | 🟥 0% | 87 |
+| 19:00 | 🟥 7% | 🟥 3% | 🟥 0% | 88 |
 | 20:00 | 🟥 22% | 🟥 0% | 🟥 0% | 89 |
 | 21:00 | 🟨 48% | 🟥 2% | 🟥 0% | 90 |
 | 22:00 | 🟨 61% | 🟥 4% | 🟥 0% | 89 |
@@ -98,7 +98,7 @@ Average seated players per check on each kind of day, in total and for NLH and O
 
 | Days | Dates | Checks | Players | NLH | Omaha | vs normal, same hour |
 |:--|:--|--:|--:|--:|--:|--:|
-| Normal days | 17 Oct – 2 Nov (16 days) | 2015 | 0.9 | 0.8 | 0.1 | -0.0 |
+| Normal days | 17 Oct – 2 Nov (16 days) | 2016 | 0.9 | 0.8 | 0.1 | -0.0 |
 | 📅 Public holidays | 28 Oct (1 day) | 144 | 0.0 | 0.0 | 0.0 | -0.8 |
 
 ## All games seen
@@ -115,7 +115,8 @@ The most recent ones. The game is read from the tournament's name.
 
 | Tournament | Game | Buy-in | Entries | Seen |
 |:--|:--|--:|--:|:--|
-| Satellite to 1 Million Crown Series - Day 1A | NLH | €15 | 63 | 2026-11-02 16:10 → 11-02 19:00 |
+| Satellite to 1 Million Crown Series - Day 1A | NLH | €15 | 63 | 2026-11-02 16:10 → 11-02 19:10 |
+| King's Prague 1 Million Crown Series - Day 1A | NLH | €80 | 11 | 2026-11-02 19:10 |
 | ČPT Česká Pokerová Tour at King's - Final Day | NLH | €200 | 175 | 2026-11-01 16:00 → 11-02 00:30 |
 | ČPT Česká Pokerová Tour at King's - Day 1C TURBO | NLH | €200 | 35 | 2026-11-01 11:00 → 11-01 15:00 |
 | ČPT Česká Pokerová Tour at King's - Day 1B | NLH | €200 | 84 | 2026-10-31 16:10 → 11-01 02:30 |
@@ -129,7 +130,6 @@ The most recent ones. The game is read from the tournament's name.
 | King's Prague Sunday Knockout (Bounty 25 ) | NLH | €55 | 74 | 2026-10-18 17:10 → 10-26 02:10 |
 | King's Prague Saturday Monsterstack | NLH | €100 | 80 | 2026-10-17 20:40 → 10-25 03:30 |
 | BPC 1Million - Day 1 PRAGUE | NLH | €295 | 79 | 2026-10-23 19:10 → 10-24 03:40 |
-| Satellite to BPC ME - Day 1 PRAGUE | NLH | €40 | 90 | 2026-10-23 16:10 → 10-23 20:00 |
 
 ---
 Raw data: `data/kings-prague` (one CSV file per month). Prague is venue 3 in King's feed (`data/kings_venues.json`).
