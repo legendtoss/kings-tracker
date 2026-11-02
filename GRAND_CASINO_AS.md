@@ -2,8 +2,8 @@
 
 Reads [Grand Casino Aš's live cash games](https://www.grandcasinoas.eu/en/poker/poker-live) every 10 minutes and its [current tournaments](https://www.grandcasinoas.eu/en/poker) every 30 minutes. All times are **Czech time** (same as Poland). Back to [King's](README.md).
 
-**Last check:** 2026-11-02 13:50 — ✅ OK  
-**Last 24 h:** 145 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-10 (3399 good checks)
+**Last check:** 2026-11-02 14:00 — ⚠️ error: HTTPError: HTTP Error 502: Bad Gateway — details in `debug/grandcasinoas_page.json`  
+**Last 24 h:** 144 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-10 (3399 good checks)
 
 ## Cash games at 2026-11-02 13:50
 
