@@ -2,10 +2,10 @@
 
 Reads [Grand Casino Aš's live cash games](https://www.grandcasinoas.eu/en/poker/poker-live) every 10 minutes and its [current tournaments](https://www.grandcasinoas.eu/en/poker) every 30 minutes. All times are **Czech time** (same as Poland). Back to [King's](README.md).
 
-**Last check:** 2026-11-03 23:50 — ✅ OK  
-**Last 24 h:** 145 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-10 (3602 good checks)
+**Last check:** 2026-11-04 00:00 — ✅ OK  
+**Last 24 h:** 145 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-10 (3603 good checks)
 
-## Cash games at 2026-11-03 23:50
+## Cash games at 2026-11-04 00:00
 
 No cash games listed.
 
@@ -13,7 +13,7 @@ No cash games listed.
 
 ## Festivals and schedule
 
-- **Coming up:** 🎪 **GRND festival**, 4–15 Nov (festival) — €200 GRND Main Event 11–15 Nov; €350 GRND Highroller 6 Nov; €100 GRND Cup 8–11 Nov
+- **Now:** 🎪 **GRND festival**, 4–15 Nov (festival) — €200 GRND Main Event 11–15 Nov; €350 GRND Highroller 6 Nov; €100 GRND Cup 8–11 Nov
 - **Coming up:** 🎟️ **Isar series**, 25–29 Nov (series) — €150 Isar Main Event 28 Nov · Omaha: €60 NLH/PLO/Crazy Pineapple (26 Nov 14:00); €100 PLO StackAttack (27 Nov 20:00)
 
 No Omaha tournaments on the schedule in the next 14 days.
@@ -22,7 +22,7 @@ No Omaha tournaments on the schedule in the next 14 days.
 
 ## Running cash tables by hour
 
-*Normal days only: 1010 checks during festivals, cash-game events or public holidays are compared separately in “Festivals, holidays and normal days” below.*
+*Normal days only: 1011 checks during festivals, cash-game events or public holidays are compared separately in “Festivals, holidays and normal days” below.*
 
 Average number of running tables (Grand Casino Aš shows which games run, not how many players).
 
@@ -94,6 +94,7 @@ Average running tables per check on each kind of day, in total and for NLH and O
 | ↳ with an Omaha tournament on the schedule | 30 Oct (1 day) | 144 | 0.6 | 0.6 | 0.0 | +0.4 |
 | ↳ without one | 10 Oct – 3 Nov (17 days) | 2448 | 0.2 | 0.1 | 0.0 | -0.0 |
 | 🎪 PLO festival | 15–18 Oct (4 days) | 578 | 0.5 | 0.3 | 0.1 | +0.4 |
+| 🎪 GRND festival | 4 Nov (1 day) | 1 | 0.0 | 0.0 | 0.0 | -0.5 |
 | 📅 Public holidays | 28 Oct – 1 Nov (3 days) | 432 | 0.7 | 0.6 | 0.0 | +0.5 |
 
 ## Tournaments seen
