@@ -1,9 +1,9 @@
 {
- "saved_at": "2026-11-02T18:40:20+01:00",
+ "saved_at": "2026-11-03T18:40:25+01:00",
  "status": "ok",
  "url": "https://bancocasino.sk/ba/en",
  "source": "direct",
- "now_playing_html": "    <div class=\"views-field-body empty-view\">Momentálne sa nehrajú žiadne cash games.</div>\n",
+ "now_playing_html": "    <div class='title'>Bratislava</div>            <div class=\"game-info\">\n                <div class=\"game-type info-item\">PLO 4/5c 2/2&euro;</div><!--\n                                --><div class=\"buy-in info-item\">100&euro;</div>\n                <div class=\"players info-item\">\n                    6                    <i class=\"fa fa-users\"></i>\n                </div>\n                <a href=\"tel:+421908024024\" class=\"phone info-item\">\n                    <i class=\"fa fa-phone\"></i>\n                </a>\n            </div>\n                            <div class=\"title\">&nbsp;</div>\n                <div class=\"game-info\"></div>\n            <div class=\"game-info\"></div>\n        <div class=\"updated\">\n        <span>Aktualizované: </span>\n        03.11.2026 18:41            </div>\n",
  "tournaments": {
   "running": 0,
   "first": ""
