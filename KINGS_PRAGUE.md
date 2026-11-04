@@ -2,14 +2,14 @@
 
 Prague's tables come in the same King's data feed as Rozvadov's, so they're read at every check (about every 10 minutes) without any extra visits, together with Prague's tournament clocks. All times are **Czech time** (same as Poland). Back to [King's Rozvadov](README.md).
 
-**Last check:** 2026-11-04 22:40 — ✅ OK  
-**Last 24 h:** 141 of 141 checks OK, longest gap 0 h 30 min · **Collecting since:** 2026-10-17 (2465 good checks)
+**Last check:** 2026-11-04 22:50 — ✅ OK  
+**Last 24 h:** 141 of 141 checks OK, longest gap 0 h 30 min · **Collecting since:** 2026-10-17 (2466 good checks)
 
-## Tables running at 2026-11-04 22:40
+## Tables running at 2026-11-04 22:50
 
 No tables were running.
 
-**Tournaments in play:** King's Prague 1 Million Crown Series - Day 1C (NLH, €80, 18 of 26 left, late reg open, level 9, blinds 600/1200/1200)
+**Tournaments in play:** King's Prague 1 Million Crown Series - Day 1C (NLH, €80, 18 of 26 left, late reg open, level 10, blinds 800/1600/1600)
 
 ## Festivals and schedule
 
@@ -89,7 +89,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 19:00 | 🟥 6% | 🟥 3% | 🟥 0% | 104 |
 | 20:00 | 🟥 19% | 🟥 0% | 🟥 0% | 107 |
 | 21:00 | 🟨 40% | 🟥 2% | 🟥 0% | 108 |
-| 22:00 | 🟨 51% | 🟥 4% | 🟥 0% | 106 |
+| 22:00 | 🟨 50% | 🟥 4% | 🟥 0% | 107 |
 | 23:00 | 🟨 43% | 🟥 8% | 🟥 0% | 100 |
 
 ## Festivals, holidays and normal days
@@ -98,7 +98,7 @@ Average seated players per check on each kind of day, in total and for NLH and O
 
 | Days | Dates | Checks | Players | NLH | Omaha | vs normal, same hour |
 |:--|:--|--:|--:|--:|--:|--:|
-| Normal days | 17 Oct – 4 Nov (18 days) | 2321 | 0.8 | 0.7 | 0.1 | -0.0 |
+| Normal days | 17 Oct – 4 Nov (18 days) | 2322 | 0.8 | 0.7 | 0.1 | +0.0 |
 | 📅 Public holidays | 28 Oct (1 day) | 144 | 0.0 | 0.0 | 0.0 | -0.7 |
 
 ## All games seen
@@ -115,7 +115,7 @@ The most recent ones. The game is read from the tournament's name.
 
 | Tournament | Game | Buy-in | Entries | Seen |
 |:--|:--|--:|--:|:--|
-| King's Prague 1 Million Crown Series - Day 1C | NLH | €80 | 26 | 2026-11-04 19:10 → 11-04 22:40 |
+| King's Prague 1 Million Crown Series - Day 1C | NLH | €80 | 26 | 2026-11-04 19:10 → 11-04 22:50 |
 | Satellite to 1 Million Crown Series - Day 1C | NLH | €15 | 56 | 2026-11-04 16:11 → 11-04 19:50 |
 | King's Prague 1 Million Crown Series - Day 1B | NLH | €80 | 47 | 2026-11-03 19:40 → 11-04 01:40 |
 | Satellite to 1 Million Crown Series - Day 1B | NLH | €15 | 55 | 2026-11-03 16:10 → 11-03 19:40 |
