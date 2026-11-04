@@ -2,10 +2,10 @@
 
 Checks [its website](https://bancocasino.sk/ba/en) together with King's, about every 10 minutes. All times are **Czech time** (same as Poland and Slovakia). Back to [King's](README.md).
 
-**Last check:** 2026-11-04 04:20 — ✅ OK  
-**Checks so far:** 3133 successful out of 3642 (since 2026-10-10)
+**Last check:** 2026-11-04 04:30 — ✅ OK  
+**Checks so far:** 3134 successful out of 3643 (since 2026-10-10)
 
-## Tables running at 2026-11-04 04:20
+## Tables running at 2026-11-04 04:30
 
 No tables were running.
 
@@ -29,7 +29,7 @@ No tables were running.
 
 ## Busiest times so far
 
-*Normal days only: 458 checks during festivals, cash-game events or public holidays are compared separately in “Festivals, holidays and normal days” below.*
+*Normal days only: 459 checks during festivals, cash-game events or public holidays are compared separately in “Festivals, holidays and normal days” below.*
 
 Day, hour and average seated players (only day-hour slots seen on at least 2 different dates).
 
@@ -136,7 +136,7 @@ Average seated players per check on each kind of day, in total and for NLH and O
 | Days | Dates | Checks | Players | NLH | Omaha | vs normal, same hour |
 |:--|:--|--:|--:|--:|--:|--:|
 | Normal days | 13 Oct – 3 Nov (19 days) | 2675 | 5.2 | 3.0 | 1.9 | -0.0 |
-| 🎪 PPC festival | 4 Nov (1 day) | 27 | 1.2 | 0.0 | 1.2 | -7.4 |
+| 🎪 PPC festival | 4 Nov (1 day) | 28 | 1.1 | 0.0 | 1.1 | -7.4 |
 | 📅 Public holidays | 23 Oct – 1 Nov (3 days) | 431 | 3.2 | 1.8 | 1.3 | -1.9 |
 
 ## All games seen
@@ -144,7 +144,7 @@ Average seated players per check on each kind of day, in total and for NLH and O
 | Game | Running in | Most often | Last seen |
 |:--|--:|:--|:--|
 | NLH €1/3 | 30% of checks | Sun around 02:00 | 2026-10-31 05:40 |
-| NLH €2/5 | 5% of checks | Sat around 07:00 | 2026-10-29 02:00 |
+| NLH €2/5 | 4% of checks | Sat around 07:00 | 2026-10-29 02:00 |
 | PLO 4/5 €2/2 | 25% of checks | Tue around 18:00 | 2026-11-04 01:10 |
 | PLO €25/50 | 2% of checks | Thu around 20:00 | 2026-10-16 07:30 |
 | Dealer's Choice €2/2 | 5% of checks | Thu around 15:00 | 2026-10-29 22:20 |
