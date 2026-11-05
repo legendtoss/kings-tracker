@@ -1,6 +1,6 @@
 {
- "saved_on": "2026-11-05",
- "records": 7,
+ "saved_on": "2026-11-06",
+ "records": 8,
  "fields": [
   "gameProfile",
   "gameType",
@@ -15,8 +15,8 @@
  "sample": [
   {
    "status": "PLAYING",
-   "startTime": "2026-11-04T19:27:53",
-   "startPlayingTime": "2026-11-04T20:06:14",
+   "startTime": "2026-11-05T16:25:17",
+   "startPlayingTime": "2026-11-05T18:37:40",
    "seatCount": 8,
    "playerCount": 8,
    "gameType": {
@@ -24,19 +24,19 @@
     "name": "Omaha Poker"
    },
    "gameProfile": {
-    "id": 100,
-    "name": "PLO 25-25 5cards",
+    "id": 67,
+    "name": "PLO 10-10 5cards",
     "params": {
-     "smallBlind": 25,
-     "bigBlind": 25,
+     "smallBlind": 10,
+     "bigBlind": 10,
      "buyInMin": null,
      "buyInMax": null
     },
-    "blindsFormatted": "€ 25/25"
+    "blindsFormatted": "€ 10/10"
    },
    "table": {
-    "id": 30,
-    "name": "PK44",
+    "id": 31,
+    "name": "PK45",
     "type": "CASH_GAME",
     "zone": {
      "id": 8,
@@ -47,10 +47,42 @@
   },
   {
    "status": "PLAYING",
-   "startTime": "2026-11-04T22:35:09",
-   "startPlayingTime": "2026-11-04T22:52:05",
+   "startTime": "2026-11-05T19:57:30",
+   "startPlayingTime": "2026-11-05T20:06:48",
    "seatCount": 8,
    "playerCount": 8,
+   "gameType": {
+    "id": 9,
+    "name": "Omaha Poker"
+   },
+   "gameProfile": {
+    "id": 67,
+    "name": "PLO 10-10 5cards",
+    "params": {
+     "smallBlind": 10,
+     "bigBlind": 10,
+     "buyInMin": null,
+     "buyInMax": null
+    },
+    "blindsFormatted": "€ 10/10"
+   },
+   "table": {
+    "id": 33,
+    "name": "PK47",
+    "type": "CASH_GAME",
+    "zone": {
+     "id": 8,
+     "name": "FABERGE"
+    }
+   },
+   "venue": 1
+  },
+  {
+   "status": "PLAYING",
+   "startTime": "2026-11-05T22:51:18",
+   "startPlayingTime": "2026-11-05T23:00:20",
+   "seatCount": 8,
+   "playerCount": 7,
    "gameType": {
     "id": 10,
     "name": "No Limit Holdem"
@@ -67,8 +99,8 @@
     "blindsFormatted": "€ 5/10"
    },
    "table": {
-    "id": 38,
-    "name": "PK52",
+    "id": 30,
+    "name": "PK44",
     "type": "CASH_GAME",
     "zone": {
      "id": 8,
@@ -79,74 +111,10 @@
   },
   {
    "status": "PLAYING",
-   "startTime": "2026-11-04T19:13:13",
-   "startPlayingTime": "2026-11-04T19:18:49",
+   "startTime": "2026-11-05T18:41:58",
+   "startPlayingTime": "2026-11-05T18:47:06",
    "seatCount": 8,
-   "playerCount": 7,
-   "gameType": {
-    "id": 9,
-    "name": "Omaha Poker"
-   },
-   "gameProfile": {
-    "id": 69,
-    "name": "PLO 5-5 5cards",
-    "params": {
-     "smallBlind": 5,
-     "bigBlind": 5,
-     "buyInMin": null,
-     "buyInMax": null
-    },
-    "blindsFormatted": "€ 5/5"
-   },
-   "table": {
-    "id": 34,
-    "name": "PK48",
-    "type": "CASH_GAME",
-    "zone": {
-     "id": 8,
-     "name": "FABERGE"
-    }
-   },
-   "venue": 1
-  },
-  {
-   "status": "PLAYING",
-   "startTime": "2026-11-04T23:15:36",
-   "startPlayingTime": "2026-11-04T23:27:01",
-   "seatCount": 8,
-   "playerCount": 7,
-   "gameType": {
-    "id": 9,
-    "name": "Omaha Poker"
-   },
-   "gameProfile": {
-    "id": 69,
-    "name": "PLO 5-5 5cards",
-    "params": {
-     "smallBlind": 5,
-     "bigBlind": 5,
-     "buyInMin": null,
-     "buyInMax": null
-    },
-    "blindsFormatted": "€ 5/5"
-   },
-   "table": {
-    "id": 33,
-    "name": "PK47",
-    "type": "CASH_GAME",
-    "zone": {
-     "id": 8,
-     "name": "FABERGE"
-    }
-   },
-   "venue": 1
-  },
-  {
-   "status": "PLAYING",
-   "startTime": "2026-11-04T20:18:02",
-   "startPlayingTime": "2026-11-04T20:31:49",
-   "seatCount": 8,
-   "playerCount": 2,
+   "playerCount": 8,
    "gameType": {
     "id": 10,
     "name": "No Limit Holdem"
@@ -165,6 +133,38 @@
    "table": {
     "id": 40,
     "name": "PK54",
+    "type": "CASH_GAME",
+    "zone": {
+     "id": 8,
+     "name": "FABERGE"
+    }
+   },
+   "venue": 1
+  },
+  {
+   "status": "PLAYING",
+   "startTime": "2026-11-05T13:44:04",
+   "startPlayingTime": "2026-11-05T13:47:08",
+   "seatCount": 8,
+   "playerCount": 8,
+   "gameType": {
+    "id": 10,
+    "name": "No Limit Holdem"
+   },
+   "gameProfile": {
+    "id": 147,
+    "name": "NLH 1-2",
+    "params": {
+     "smallBlind": 1,
+     "bigBlind": 2,
+     "buyInMin": null,
+     "buyInMax": null
+    },
+    "blindsFormatted": "€ 1/2"
+   },
+   "table": {
+    "id": 36,
+    "name": "PK50",
     "type": "CASH_GAME",
     "zone": {
      "id": 8,
