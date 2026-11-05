@@ -2,16 +2,16 @@
 
 Reads [Grand Casino Aš's live cash games](https://www.grandcasinoas.eu/en/poker/poker-live) every 10 minutes and its [current tournaments](https://www.grandcasinoas.eu/en/poker) every 30 minutes. All times are **Czech time** (same as Poland). Back to [King's](README.md).
 
-**Last check:** 2026-11-05 20:20 — ✅ OK  
-**Last 24 h:** 145 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-10 (3865 good checks)
+**Last check:** 2026-11-05 20:30 — ✅ OK  
+**Last 24 h:** 145 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-10 (3866 good checks)
 
-## Cash games at 2026-11-05 20:20
+## Cash games at 2026-11-05 20:30
 
 ```
 PLO/NLH           waiting
 ```
 
-**Tournaments in play at 2026-11-05 20:00:** Hot PKO (NLH, €120, 204 of 242 left, late reg open, level 5, blinds 200/400/400)
+**Tournaments in play at 2026-11-05 20:30:** Hot PKO (NLH, €120, 196 of 267 left, late reg open, level 7, blinds 400/800/800)
 
 ## Festivals and schedule
 
@@ -24,7 +24,7 @@ No Omaha tournaments on the schedule in the next 14 days.
 
 ## Running cash tables by hour
 
-*Normal days only: 1273 checks during festivals, cash-game events or public holidays are compared separately in “Festivals, holidays and normal days” below.*
+*Normal days only: 1274 checks during festivals, cash-game events or public holidays are compared separately in “Festivals, holidays and normal days” below.*
 
 Average number of running tables (Grand Casino Aš shows which games run, not how many players).
 
@@ -96,7 +96,7 @@ Average running tables per check on each kind of day, in total and for NLH and O
 | ↳ with an Omaha tournament on the schedule | 30 Oct (1 day) | 144 | 0.6 | 0.6 | 0.0 | +0.4 |
 | ↳ without one | 10 Oct – 3 Nov (17 days) | 2448 | 0.2 | 0.1 | 0.0 | -0.0 |
 | 🎪 PLO festival | 15–18 Oct (4 days) | 578 | 0.5 | 0.3 | 0.1 | +0.4 |
-| 🎪 GRND festival | 4–5 Nov (2 days) | 263 | 0.3 | 0.3 | 0.0 | +0.2 |
+| 🎪 GRND festival | 4–5 Nov (2 days) | 264 | 0.3 | 0.3 | 0.0 | +0.2 |
 | 📅 Public holidays | 28 Oct – 1 Nov (3 days) | 432 | 0.7 | 0.6 | 0.0 | +0.5 |
 
 ## Tournaments seen
@@ -105,7 +105,7 @@ The most recent ones. The game is read from the tournament's name.
 
 | Tournament | Game | Buy-in | Entries | Seen |
 |:--|:--|--:|--:|:--|
-| Hot PKO | NLH | €120 | 242 | 2026-11-05 18:00 → 11-05 20:00 |
+| Hot PKO | NLH | €120 | 267 | 2026-11-05 18:00 → 11-05 20:30 |
 | Snowman Special | NLH | €80 | 115 | 2026-11-05 13:00 → 11-05 18:30 |
 | Kroko Cup I | NLH | €70 | 206 | 2026-11-04 19:00 → 11-05 03:30 |
 | KaKo Cup | NLH | €140 | 322 | 2026-10-31 13:00 → 11-01 04:00 |
