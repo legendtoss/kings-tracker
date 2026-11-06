@@ -2,17 +2,14 @@
 
 Checks [its website](https://bancocasino.sk/ba/en) together with King's, about every 10 minutes. All times are **Czech time** (same as Poland and Slovakia). Back to [King's](README.md).
 
-**Last check:** 2026-11-06 07:30 — ✅ OK  
-**Checks so far:** 3434 successful out of 3944 (since 2026-10-10)
+**Last check:** 2026-11-06 07:40 — ✅ OK  
+**Checks so far:** 3435 successful out of 3945 (since 2026-10-10)
 
-## Tables running at 2026-11-06 07:30
+## Tables running at 2026-11-06 07:40
 
-```
-NLH  €1/3     4 players
-```
-**NLH:** 4 players at 1 table
+No tables were running.
 
-*The whole list (Banco also shows its Košice casino; the numbers above are Bratislava only):* Bratislava: NLH €1/3 4 players (buy-in €100)  
+*The whole list (Banco also shows its Košice casino; the numbers above are Bratislava only):* no games listed  
 **Tournaments running:** none
 
 **Note:** Since 13 Oct the tracker reads Banco's cash list and its live tournaments straight from where its page gets them; before that, its page's scripts didn't run in the tracker's browser, so those checks show as errors.
@@ -32,7 +29,7 @@ NLH  €1/3     4 players
 
 ## Busiest times so far
 
-*Normal days only: 759 checks during festivals, cash-game events or public holidays are compared separately in “Festivals, holidays and normal days” below.*
+*Normal days only: 760 checks during festivals, cash-game events or public holidays are compared separately in “Festivals, holidays and normal days” below.*
 
 Day, hour and average seated players (only day-hour slots seen on at least 2 different dates).
 
@@ -139,7 +136,7 @@ Average seated players per check on each kind of day, in total and for NLH and O
 | Days | Dates | Checks | Players | NLH | Omaha | vs normal, same hour |
 |:--|:--|--:|--:|--:|--:|--:|
 | Normal days | 13 Oct – 3 Nov (19 days) | 2675 | 5.2 | 3.0 | 1.9 | -0.0 |
-| 🎪 PPC festival | 4–6 Nov (3 days) | 328 | 9.0 | 6.1 | 2.9 | +3.6 |
+| 🎪 PPC festival | 4–6 Nov (3 days) | 329 | 9.0 | 6.1 | 2.9 | +3.6 |
 | 📅 Public holidays | 23 Oct – 1 Nov (3 days) | 431 | 3.2 | 1.8 | 1.3 | -1.9 |
 
 ## All games seen
