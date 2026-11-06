@@ -1,5 +1,5 @@
 {
- "saved_on": "2026-11-06",
+ "saved_on": "2026-11-07",
  "records": 3,
  "fields": [
   "activePause",
@@ -48,9 +48,9 @@
  ],
  "sample": [
   {
-   "referenceTime": "2026-11-06T00:00:20.549",
-   "name": "King's Prague 1 Million Crown Series - Day 1D",
-   "fullName": "King's Prague 1 Million Crown Series - Day 1D",
+   "referenceTime": "2026-11-07T00:00:16.989",
+   "name": "King's Prague 1 Million Crown Series - Day 1E",
+   "fullName": "King's Prague 1 Million Crown Series - Day 1E",
    "tournamentName": "King's Prague 1 Million Crown Series",
    "notes": " played till 10% min cash €160 • Chipleader bonus KoK Prague Highroller Ticket",
    "color": "#33691e",
@@ -66,50 +66,50 @@
    "openRegistration": false,
    "lateRegistrationUntilLevel": 10,
    "expectedLastLevel": 20,
-   "start": "2026-11-05T19:31:52",
+   "start": "2026-11-06T18:00:23",
    "pausedSeconds": 0,
    "pausedMillis": 0,
    "flightGameTimeDelta": 0,
    "stickerText": "♣♠️♦♥️played till 10% min cash €160, Chipleaders BONUS 1x KoK Prague Highroller ticket 500€  (9.1.2027)♣♠️♦♥️🍀GOOD LUCK🍀 ♣♠️♦♥️",
-   "totalEntries": 36,
-   "activePlayers": 15,
-   "averageStack": 72000,
-   "nextBreakStart": "2026-11-06T01:11:52.535",
+   "totalEntries": 100,
+   "activePlayers": 26,
+   "averageStack": 115385,
+   "nextBreakStart": "2026-11-07T02:10:23.148",
    "nextBreakSeconds": 600,
    "entryValue": 80,
    "serviceFee": 0,
    "bountyValue": null,
    "payoutPositions": null,
    "currentLevel": {
-    "start": "2026-11-05T23:51:52.535",
-    "gameEnd": "2026-11-06T00:11:52.535",
-    "levelEnd": "2026-11-06T00:11:52.535",
-    "number": 12,
-    "ante": 2500,
+    "start": "2026-11-06T23:40:23.148",
+    "gameEnd": "2026-11-07T00:10:23.148",
+    "levelEnd": "2026-11-07T00:10:23.148",
+    "number": 11,
+    "ante": 2000,
     "limits": "",
-    "gameSeconds": 1200,
+    "gameSeconds": 1800,
     "breakSeconds": 0,
     "sb": 1000,
-    "bb": 2500
+    "bb": 2000
    },
    "nextLevels": [
+    {
+     "number": 12,
+     "ante": 2500,
+     "limits": "",
+     "gameSeconds": 1800,
+     "breakSeconds": 0,
+     "sb": 1000,
+     "bb": 2500
+    },
     {
      "number": 13,
      "ante": 3000,
      "limits": "",
-     "gameSeconds": 1200,
+     "gameSeconds": 1800,
      "breakSeconds": 0,
      "sb": 1500,
      "bb": 3000
-    },
-    {
-     "number": 14,
-     "ante": 4000,
-     "limits": "",
-     "gameSeconds": 1200,
-     "breakSeconds": 0,
-     "sb": 2000,
-     "bb": 4000
     }
    ],
    "softPauseEnd": null,
@@ -127,13 +127,13 @@
     "addOnLimit": null,
     "reBuyLimit": null
    },
-   "tournament_id": 14221
+   "tournament_id": 14222
   },
   {
-   "referenceTime": "2026-11-06T00:00:13.581",
-   "name": "Satellite to 1 Million Crown Series - Day 1E",
-   "fullName": "Satellite to 1 Million Crown Series - Day 1E",
-   "tournamentName": "Satellite to 1 Million Crown Series - Day 1E",
+   "referenceTime": "2026-11-07T00:00:17.067",
+   "name": "Satellite to 1 Million Crown Series - Day 1F",
+   "fullName": "Satellite to 1 Million Crown Series - Day 1F",
+   "tournamentName": "Satellite to 1 Million Crown Series - Day 1F",
    "notes": null,
    "color": "#f57f17",
    "background": null,
@@ -148,7 +148,7 @@
    "openRegistration": true,
    "lateRegistrationUntilLevel": 8,
    "expectedLastLevel": null,
-   "start": "2026-11-06T15:00:00",
+   "start": "2026-11-07T13:00:00",
    "pausedSeconds": null,
    "pausedMillis": null,
    "flightGameTimeDelta": null,
@@ -197,16 +197,16 @@
     "addOnLimit": null,
     "reBuyLimit": null
    },
-   "tournament_id": 14216
+   "tournament_id": 14217
   },
   {
-   "referenceTime": "2026-11-06T00:00:13.776",
-   "name": "King's Prague 1 Million Crown Series - Day 1E",
-   "fullName": "King's Prague 1 Million Crown Series - Day 1E",
+   "referenceTime": "2026-11-07T00:00:26.976",
+   "name": "King's Prague 1 Million Crown Series - Day 1F",
+   "fullName": "King's Prague 1 Million Crown Series - Day 1F",
    "tournamentName": "King's Prague 1 Million Crown Series",
    "notes": " played till 10% min cash €160 • Chipleader bonus KoK Prague Highroller Ticket",
    "color": "#33691e",
-   "background": "chips_with_cards.jpg",
+   "background": "kings_cards_1.jpg",
    "status": "READY_FOR_PUBLICATION",
    "isPaused": false,
    "currency": "EUR",
@@ -218,7 +218,7 @@
    "openRegistration": true,
    "lateRegistrationUntilLevel": 10,
    "expectedLastLevel": 20,
-   "start": "2026-11-06T18:00:00",
+   "start": "2026-11-07T16:00:00",
    "pausedSeconds": null,
    "pausedMillis": null,
    "flightGameTimeDelta": null,
@@ -238,7 +238,7 @@
      "number": 1,
      "ante": 100,
      "limits": "",
-     "gameSeconds": 1800,
+     "gameSeconds": 2400,
      "breakSeconds": 0,
      "sb": 100,
      "bb": 100
@@ -247,7 +247,7 @@
      "number": 2,
      "ante": 200,
      "limits": "",
-     "gameSeconds": 1800,
+     "gameSeconds": 2400,
      "breakSeconds": 0,
      "sb": 100,
      "bb": 200
@@ -268,7 +268,7 @@
     "addOnLimit": null,
     "reBuyLimit": null
    },
-   "tournament_id": 14222
+   "tournament_id": 14223
   }
  ]
 }
