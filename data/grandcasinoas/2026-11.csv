@@ -833,3 +833,4 @@
 2026-11-06 19:20,Fri,19,ok,0,1,PLO/NLH [WAITING],,,,
 2026-11-06 19:30,Fri,19,ok,0,1,PLO/NLH [WAITING],2,280,"[{""name"":""GRND Highroller"",""game"":""NLH"",""status"":""BREAK"",""left"":97,""entries"":172,""buyin"":350,""prizepool"":55040,""currency"":""EUR"",""avg_stack"":88660,""start_stack"":50000,""late_reg_open"":true,""start"":""06.11. 15:00""},{""name"":""GRND Night"",""game"":""NLH"",""status"":""RUNNING"",""left"":183,""entries"":210,""buyin"":80,""prizepool"":14700,""currency"":""EUR"",""level"":5,""blinds"":""300/600/600"",""avg_stack"":34426,""start_stack"":30000,""late_reg_open"":true,""start"":""06.11. 18:00""}]",
 2026-11-06 19:40,Fri,19,ok,0,1,PLO/NLH [WAITING],,,,
+2026-11-06 19:50,Fri,19,ok,1,1,NLH €1/2 [RUNNING]; PLO/NLH [WAITING],,,,
