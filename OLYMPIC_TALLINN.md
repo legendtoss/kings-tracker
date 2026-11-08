@@ -2,7 +2,7 @@
 
 Reads [OlyBet's live cash games page](https://olybetpoker.com/ee/en/cash-games/?club=6) every 30 minutes (their site has bot protection, so the tracker checks gently and simply records it when a check is refused). All times are **Czech time** (Tallinn is one hour ahead). Back to [King's](README.md).
 
-**Last check:** 2026-11-08 23:30 — ⚠️ error: couldn't read the cash games table (page saved for a closer look) — details in `debug/olympic-tallinn_page.json`  
+**Last check:** 2026-11-09 00:00 — ⚠️ error: couldn't read the cash games table (page saved for a closer look) — details in `debug/olympic-tallinn_page.json`  
 **Last 24 h:** 0 of 49 checks OK, longest gap 0 h 30 min · **Collecting since:** 2026-10-10 (273 good checks)
 
 **Club:** Olympic Park Casino
@@ -13,7 +13,7 @@ No tables were running.
 
 **Waiting lists:** 6 players · **All games listed:** NLH €1/3 (closed): 0 tables, 0/0 players, 3 waiting PLO/PLO5 €1/3 (closed): 0 tables, 0/0 players, 2 waiting PLO €5/5 (closed): 0 tables, 0/0 players, 0 waiting NLH €5/5 (closed): 0 tables, 0/0 players, 1 waiting
 
-**Tournaments on their site at 2026-11-08 11:00:** live 17:15 Olympic Park Casino NLH New Players Holdem 10,000 €25
+**Tournaments on their site at 2026-11-09 00:00:** live 19:15 Olympic Park Casino Monday PLO/5 Card PLO 15,000 €50
 
 ## Festivals and schedule
 
@@ -25,6 +25,7 @@ No tables were running.
 | Day | Time (local) | Buy-in | Tournament |
 |:--|:--|--:|:--|
 | Sun 22 Nov | 21:00 | €200 | Omaha Jack (Event #18) |
+| Mon 23 Nov | 14:00 | €350 | Pot Limit Omaha 4/5/6 (Event #22) |
 
 **Public holidays in the next 30 days** where most players come from (Estonia, Finland): Sun 6 Dec: Independence Day (Finland).
 

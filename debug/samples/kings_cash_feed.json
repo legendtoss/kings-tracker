@@ -1,6 +1,6 @@
 {
- "saved_on": "2026-11-08",
- "records": 14,
+ "saved_on": "2026-11-09",
+ "records": 7,
  "fields": [
   "gameProfile",
   "gameType",
@@ -15,40 +15,8 @@
  "sample": [
   {
    "status": "PLAYING",
-   "startTime": "2026-11-07T19:45:43",
-   "startPlayingTime": "2026-11-07T19:45:48",
-   "seatCount": 8,
-   "playerCount": 8,
-   "gameType": {
-    "id": 9,
-    "name": "Omaha Poker"
-   },
-   "gameProfile": {
-    "id": 75,
-    "name": "PLO 10-10-25 5cards",
-    "params": {
-     "smallBlind": 10,
-     "bigBlind": 25,
-     "buyInMin": null,
-     "buyInMax": null
-    },
-    "blindsFormatted": "€ 10/25"
-   },
-   "table": {
-    "id": 33,
-    "name": "PK47",
-    "type": "CASH_GAME",
-    "zone": {
-     "id": 8,
-     "name": "FABERGE"
-    }
-   },
-   "venue": 1
-  },
-  {
-   "status": "PLAYING",
-   "startTime": "2026-11-07T15:03:32",
-   "startPlayingTime": "2026-11-07T15:10:04",
+   "startTime": "2026-11-08T22:20:07",
+   "startPlayingTime": "2026-11-08T22:20:19",
    "seatCount": 8,
    "playerCount": 8,
    "gameType": {
@@ -67,8 +35,8 @@
     "blindsFormatted": "€ 5/10"
    },
    "table": {
-    "id": 36,
-    "name": "PK50",
+    "id": 40,
+    "name": "PK54",
     "type": "CASH_GAME",
     "zone": {
      "id": 8,
@@ -79,42 +47,10 @@
   },
   {
    "status": "PLAYING",
-   "startTime": "2026-11-07T19:28:28",
-   "startPlayingTime": "2026-11-07T19:32:01",
+   "startTime": "2026-11-08T19:09:22",
+   "startPlayingTime": "2026-11-08T19:43:47",
    "seatCount": 8,
-   "playerCount": 7,
-   "gameType": {
-    "id": 9,
-    "name": "Omaha Poker"
-   },
-   "gameProfile": {
-    "id": 69,
-    "name": "PLO 5-5 5cards",
-    "params": {
-     "smallBlind": 5,
-     "bigBlind": 5,
-     "buyInMin": null,
-     "buyInMax": null
-    },
-    "blindsFormatted": "€ 5/5"
-   },
-   "table": {
-    "id": 34,
-    "name": "PK48",
-    "type": "CASH_GAME",
-    "zone": {
-     "id": 8,
-     "name": "FABERGE"
-    }
-   },
-   "venue": 1
-  },
-  {
-   "status": "PLAYING",
-   "startTime": "2026-11-07T20:40:07",
-   "startPlayingTime": "2026-11-07T20:47:02",
-   "seatCount": 8,
-   "playerCount": 8,
+   "playerCount": 6,
    "gameType": {
     "id": 9,
     "name": "Omaha Poker"
@@ -143,8 +79,8 @@
   },
   {
    "status": "PLAYING",
-   "startTime": "2026-11-07T11:15:40",
-   "startPlayingTime": "2026-11-07T11:20:42",
+   "startTime": "2026-11-08T17:14:09",
+   "startPlayingTime": "2026-11-08T17:15:26",
    "seatCount": 8,
    "playerCount": 8,
    "gameType": {
@@ -152,23 +88,87 @@
     "name": "No Limit Holdem"
    },
    "gameProfile": {
-    "id": 142,
-    "name": "NLH 2-4",
+    "id": 147,
+    "name": "NLH 1-2",
     "params": {
-     "smallBlind": 2,
-     "bigBlind": 4,
+     "smallBlind": 1,
+     "bigBlind": 2,
      "buyInMin": null,
      "buyInMax": null
     },
-    "blindsFormatted": "€ 2/4"
+    "blindsFormatted": "€ 1/2"
    },
    "table": {
-    "id": 40,
-    "name": "PK54",
+    "id": 42,
+    "name": "PK56",
     "type": "CASH_GAME",
     "zone": {
      "id": 8,
      "name": "FABERGE"
+    }
+   },
+   "venue": 1
+  },
+  {
+   "status": "PLAYING",
+   "startTime": "2026-11-08T17:25:14",
+   "startPlayingTime": "2026-11-08T17:27:04",
+   "seatCount": 8,
+   "playerCount": 8,
+   "gameType": {
+    "id": 10,
+    "name": "No Limit Holdem"
+   },
+   "gameProfile": {
+    "id": 147,
+    "name": "NLH 1-2",
+    "params": {
+     "smallBlind": 1,
+     "bigBlind": 2,
+     "buyInMin": null,
+     "buyInMax": null
+    },
+    "blindsFormatted": "€ 1/2"
+   },
+   "table": {
+    "id": 36,
+    "name": "PK50",
+    "type": "CASH_GAME",
+    "zone": {
+     "id": 8,
+     "name": "FABERGE"
+    }
+   },
+   "venue": 1
+  },
+  {
+   "status": "PLAYING",
+   "startTime": "2026-11-08T20:41:27",
+   "startPlayingTime": "2026-11-08T20:55:13",
+   "seatCount": 9,
+   "playerCount": 9,
+   "gameType": {
+    "id": 10,
+    "name": "No Limit Holdem"
+   },
+   "gameProfile": {
+    "id": 147,
+    "name": "NLH 1-2",
+    "params": {
+     "smallBlind": 1,
+     "bigBlind": 2,
+     "buyInMin": null,
+     "buyInMax": null
+    },
+    "blindsFormatted": "€ 1/2"
+   },
+   "table": {
+    "id": 43,
+    "name": "PK57",
+    "type": "CASH_GAME",
+    "zone": {
+     "id": 9,
+     "name": "BALCONY"
     }
    },
    "venue": 1
