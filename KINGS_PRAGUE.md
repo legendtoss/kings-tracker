@@ -2,10 +2,10 @@
 
 Prague's tables come in the same King's data feed as Rozvadov's, so they're read at every check (about every 10 minutes) without any extra visits, together with Prague's tournament clocks. All times are **Czech time** (same as Poland). Back to [King's Rozvadov](README.md).
 
-**Last check:** 2026-11-08 01:40 — ✅ OK  
-**Last 24 h:** 145 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-17 (2914 good checks)
+**Last check:** 2026-11-08 01:50 — ✅ OK  
+**Last 24 h:** 145 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-17 (2915 good checks)
 
-## Tables running at 2026-11-08 01:40
+## Tables running at 2026-11-08 01:50
 
 ```
 NLH  €2/4     7/8 players
@@ -40,7 +40,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | Hour | Mon | Tue | Wed | Thu | Fri | Sat | Sun | All days |
 |:--|--:|--:|--:|--:|--:|--:|--:|--:|
 | 00:00 | 0 | 0 | 0 | 1 | 3 | 9 | 6 | 3 |
-| 01:00 | 0 | 0 | 0 | 1 | 2 | 8 | 4 | 3 |
+| 01:00 | 0 | 0 | 0 | 1 | 2 | 8 | 5 | 3 |
 | 02:00 | 0 | 0 | 0 | 0 | 0 | 5 | 2 | 1 |
 | 03:00 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 0 |
 | 04:00 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
@@ -71,7 +71,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | Hour | NLH €2/4 | PLO €2/2 | PLO5 €5/5 | Checks |
 |:--|--:|--:|--:|--:|
 | 00:00 | 🟨 38% | 🟥 9% | 🟥 0% | 125 |
-| 01:00 | 🟨 34% | 🟥 8% | 🟥 0% | 125 |
+| 01:00 | 🟨 35% | 🟥 8% | 🟥 0% | 126 |
 | 02:00 | 🟥 16% | 🟥 1% | 🟥 2% | 127 |
 | 03:00 | 🟥 4% | 🟥 0% | 🟥 0% | 117 |
 | 04:00 | 🟥 2% | 🟥 0% | 🟥 0% | 118 |
@@ -101,14 +101,14 @@ Average seated players per check on each kind of day, in total and for NLH and O
 
 | Days | Dates | Checks | Players | NLH | Omaha | vs normal, same hour |
 |:--|:--|--:|--:|--:|--:|--:|
-| Normal days | 17 Oct – 8 Nov (22 days) | 2770 | 0.8 | 0.7 | 0.1 | +0.0 |
+| Normal days | 17 Oct – 8 Nov (22 days) | 2771 | 0.8 | 0.8 | 0.1 | +0.0 |
 | 📅 Public holidays | 28 Oct (1 day) | 144 | 0.0 | 0.0 | 0.0 | -0.8 |
 
 ## All games seen
 
 | Game | Running in | Most often | Last seen |
 |:--|--:|:--|:--|
-| NLH €2/4 | 12% of checks | Sat around 21:00 | 2026-11-08 01:40 |
+| NLH €2/4 | 12% of checks | Sat around 21:00 | 2026-11-08 01:50 |
 | PLO €2/2 | 1% of checks | Mon around 00:00 | 2026-10-27 01:30 |
 | PLO5 €5/5 | 0% of checks | Mon around 02:00 | 2026-10-26 02:20 |
 
@@ -118,7 +118,7 @@ The most recent ones. The game is read from the tournament's name.
 
 | Tournament | Game | Buy-in | Entries | Seen |
 |:--|:--|--:|--:|:--|
-| King's Prague 1 Million Crown Series - Day 1F | NLH | €80 | 160 | 2026-11-07 16:10 → 11-08 01:40 |
+| King's Prague 1 Million Crown Series - Day 1F | NLH | €80 | 160 | 2026-11-07 16:10 → 11-08 01:50 |
 | Satellite to 1 Million Crown Series - Day 1F | NLH | €15 | 85 | 2026-11-07 13:10 → 11-07 16:40 |
 | King's Prague 1 Million Crown Series - Day 1E | NLH | €80 | 100 | 2026-11-06 18:00 → 11-07 02:40 |
 | Satellite to 1 Million Crown Series - Day 1E | NLH | €15 | 87 | 2026-11-06 15:00 → 11-06 18:40 |
