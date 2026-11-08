@@ -2,10 +2,10 @@
 
 Reads [Grand Casino Aš's live cash games](https://www.grandcasinoas.eu/en/poker/poker-live) every 10 minutes and its [current tournaments](https://www.grandcasinoas.eu/en/poker) every 30 minutes. All times are **Czech time** (same as Poland). Back to [King's](README.md).
 
-**Last check:** 2026-11-08 02:50 — ✅ OK  
-**Last 24 h:** 145 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-10 (4191 good checks)
+**Last check:** 2026-11-08 03:00 — ✅ OK  
+**Last 24 h:** 145 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-10 (4192 good checks)
 
-## Cash games at 2026-11-08 02:50
+## Cash games at 2026-11-08 03:00
 
 ```
 NLH      €1/2     running
@@ -18,7 +18,7 @@ PLO      €2/2     running
 PLO/NLH           waiting
 ```
 
-**Tournaments in play at 2026-11-08 02:30:** Death Star - GRND Mystery (NLH, €160, 10 of 475 left, level 23, blinds 40000/80000/80000) · Starnuts Special (NLH, €100, 10 of 196 left, level 20, blinds 15000/30000/30000)
+**Tournaments in play at 2026-11-08 03:00:** Death Star - GRND Mystery (NLH, €160, 9 of 475 left, level 22, blinds 30000/60000/60000) · Starnuts Special (NLH, €100, 9 of 196 left, level 21, blinds 20000/40000/40000)
 
 ## Festivals and schedule
 
@@ -31,7 +31,7 @@ No Omaha tournaments on the schedule in the next 14 days.
 
 ## Running cash tables by hour
 
-*Normal days only: 1599 checks during festivals, cash-game events or public holidays are compared separately in “Festivals, holidays and normal days” below.*
+*Normal days only: 1600 checks during festivals, cash-game events or public holidays are compared separately in “Festivals, holidays and normal days” below.*
 
 Average number of running tables (Grand Casino Aš shows which games run, not how many players).
 
@@ -103,7 +103,7 @@ Average running tables per check on each kind of day, in total and for NLH and O
 | ↳ with an Omaha tournament on the schedule | 30 Oct (1 day) | 144 | 0.6 | 0.6 | 0.0 | +0.4 |
 | ↳ without one | 10 Oct – 3 Nov (17 days) | 2448 | 0.2 | 0.1 | 0.0 | -0.0 |
 | 🎪 PLO festival | 15–18 Oct (4 days) | 578 | 0.5 | 0.3 | 0.1 | +0.4 |
-| 🎪 GRND festival | 4–8 Nov (5 days) | 589 | 1.4 | 1.3 | 0.1 | +1.2 |
+| 🎪 GRND festival | 4–8 Nov (5 days) | 590 | 1.4 | 1.3 | 0.1 | +1.2 |
 | 📅 Public holidays | 28 Oct – 1 Nov (3 days) | 432 | 0.7 | 0.6 | 0.0 | +0.5 |
 
 ## Tournaments seen
@@ -112,8 +112,8 @@ The most recent ones. The game is read from the tournament's name.
 
 | Tournament | Game | Buy-in | Entries | Seen |
 |:--|:--|--:|--:|:--|
-| Death Star - GRND Mystery | NLH | €160 | 475 | 2026-11-07 13:00 → 11-08 02:30 |
-| Starnuts Special | NLH | €100 | 196 | 2026-11-07 19:00 → 11-08 02:30 |
+| Death Star - GRND Mystery | NLH | €160 | 475 | 2026-11-07 13:00 → 11-08 03:00 |
+| Starnuts Special | NLH | €100 | 196 | 2026-11-07 19:00 → 11-08 03:00 |
 | GRND Highroller | NLH | €350 | 172 | 2026-11-06 15:00 → 11-07 06:30 |
 | GRND Night | NLH | €80 | 254 | 2026-11-06 18:00 → 11-07 04:00 |
 | Supersatellite to Highroller | NLH | €70 | 134 | 2026-11-06 12:00 → 11-06 16:00 |
