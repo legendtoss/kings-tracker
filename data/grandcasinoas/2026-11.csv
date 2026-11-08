@@ -1080,3 +1080,4 @@
 2026-11-08 12:30,Sun,12,ok,0,1,PLO/NLH [WAITING],0,0,[],
 2026-11-08 12:40,Sun,12,ok,0,1,PLO/NLH [WAITING],,,,
 2026-11-08 12:50,Sun,12,ok,0,1,PLO/NLH [WAITING],,,,
+2026-11-08 13:00,Sun,13,ok,0,1,PLO/NLH [WAITING],1,55,"[{""name"":""Date With An Eight"",""game"":""NLH"",""status"":""BREAK"",""left"":55,""entries"":55,""buyin"":60,""prizepool"":5000,""currency"":""EUR"",""avg_stack"":30000,""start_stack"":30000,""late_reg_open"":true,""start"":""08.11. 13:00""}]",
