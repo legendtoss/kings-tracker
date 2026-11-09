@@ -2,7 +2,7 @@
 
 Reads [OlyBet's live cash games page](https://olybetpoker.com/ee/en/cash-games/?club=6) every 30 minutes (their site has bot protection, so the tracker checks gently and simply records it when a check is refused). All times are **Czech time** (Tallinn is one hour ahead). Back to [King's](README.md).
 
-**Last check:** 2026-11-09 23:30 — ⚠️ error: couldn't read the cash games table (page saved for a closer look) — details in `debug/olympic-tallinn_page.json`  
+**Last check:** 2026-11-10 00:00 — ⚠️ error: couldn't read the cash games table (page saved for a closer look) — details in `debug/olympic-tallinn_page.json`  
 **Last 24 h:** 0 of 49 checks OK, longest gap 0 h 31 min · **Collecting since:** 2026-10-10 (273 good checks)
 
 **Club:** Olympic Park Casino
@@ -26,6 +26,7 @@ No tables were running.
 |:--|:--|--:|:--|
 | Sun 22 Nov | 21:00 | €200 | Omaha Jack (Event #18) |
 | Mon 23 Nov | 14:00 | €350 | Pot Limit Omaha 4/5/6 (Event #22) |
+| Tue 24 Nov | 20:00 | €200 | No Limit Hold'em / Pot Limit Omaha - Half n Half (Event #29) |
 
 **Public holidays in the next 30 days** where most players come from (Estonia, Finland): Sun 6 Dec: Independence Day (Finland).
 
