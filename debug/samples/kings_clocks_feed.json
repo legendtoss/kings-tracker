@@ -1,6 +1,6 @@
 {
- "saved_on": "2026-11-10",
- "records": 1,
+ "saved_on": "2026-11-11",
+ "records": 4,
  "fields": [
   "activePause",
   "activePlayers",
@@ -40,6 +40,7 @@
   "startingStack",
   "status",
   "stickerText",
+  "subName",
   "totalEntries",
   "tournamentName",
   "tournament_id",
@@ -47,10 +48,152 @@
  ],
  "sample": [
   {
-   "referenceTime": "2026-11-10T00:00:11.689",
+   "referenceTime": "2026-11-11T00:00:42.158",
    "name": "Satellite to WOLF Millionaire Day 1",
    "fullName": "Satellite to WOLF Millionaire Day 1",
    "tournamentName": "Satellite to WOLF Millionaire Day 1",
+   "notes": null,
+   "color": "#f57f17",
+   "background": null,
+   "status": "PAUSED",
+   "isPaused": true,
+   "currency": "EUR",
+   "effectivePrizePool": 3500,
+   "guaranteeInEffect": true,
+   "overlay": null,
+   "reEntryMaxCount": null,
+   "startingStack": 10000,
+   "openRegistration": false,
+   "lateRegistrationUntilLevel": 8,
+   "expectedLastLevel": null,
+   "start": "2026-11-10T20:16:03",
+   "pausedSeconds": 404,
+   "pausedMillis": 404475,
+   "flightGameTimeDelta": 462812,
+   "stickerText": null,
+   "totalEntries": 35,
+   "activePlayers": 10,
+   "averageStack": 35000,
+   "nextBreakStart": null,
+   "nextBreakSeconds": null,
+   "entryValue": 60,
+   "serviceFee": 0,
+   "bountyValue": null,
+   "payoutPositions": [
+    {
+     "from": 1,
+     "to": 1,
+     "amount": null,
+     "label": "Ticket WOLF Day 1"
+    },
+    {
+     "from": 2,
+     "to": 2,
+     "amount": null,
+     "label": "Ticket WOLF Day 1"
+    },
+    {
+     "from": 3,
+     "to": 3,
+     "amount": null,
+     "label": "Ticket WOLF Day 1"
+    },
+    {
+     "from": 4,
+     "to": 4,
+     "amount": null,
+     "label": "Ticket WOLF Day 1"
+    },
+    {
+     "from": 5,
+     "to": 5,
+     "amount": null,
+     "label": "Ticket WOLF Day 1"
+    },
+    {
+     "from": 6,
+     "to": 6,
+     "amount": null,
+     "label": "Ticket WOLF Day 1"
+    },
+    {
+     "from": 7,
+     "to": 7,
+     "amount": null,
+     "label": "Ticket WOLF Day 1"
+    },
+    {
+     "from": 8,
+     "to": 8,
+     "amount": null,
+     "label": "Ticket WOLF Day 1"
+    },
+    {
+     "from": 9,
+     "to": 9,
+     "amount": 140,
+     "label": null
+    }
+   ],
+   "currentLevel": {
+    "start": "2026-11-10T23:57:47.902",
+    "gameEnd": "2026-11-11T00:07:47.902",
+    "levelEnd": "2026-11-11T00:07:47.902",
+    "number": 15,
+    "ante": 5000,
+    "limits": null,
+    "gameSeconds": 600,
+    "breakSeconds": 0,
+    "sb": 2000,
+    "bb": 5000
+   },
+   "nextLevels": [
+    {
+     "number": 16,
+     "ante": 6000,
+     "limits": null,
+     "gameSeconds": 600,
+     "breakSeconds": 0,
+     "sb": 3000,
+     "bb": 6000
+    },
+    {
+     "number": 17,
+     "ante": 8000,
+     "limits": null,
+     "gameSeconds": 600,
+     "breakSeconds": 0,
+     "sb": 4000,
+     "bb": 8000
+    }
+   ],
+   "softPauseEnd": null,
+   "activePause": {
+    "type": "BUBBLE_TIME",
+    "flightTimeRunning": false,
+    "sinceTime": "2026-11-10T23:46:14.871",
+    "untilTime": null,
+    "previousPause": null
+   },
+   "plannedEnd": null,
+   "winningStructureType": "SATELLITE",
+   "levelCount": null,
+   "reEntryCountLimit": null,
+   "availableTickets": {
+    "buyIn": 60,
+    "serviceFee": 0,
+    "addon": null,
+    "rebuy": null,
+    "addOnLimit": null,
+    "reBuyLimit": null
+   },
+   "tournament_id": 14161
+  },
+  {
+   "referenceTime": "2026-11-11T00:01:29.576",
+   "name": "Satellite to WOLF ME - Day 1A",
+   "fullName": "Satellite to WOLF ME - Day 1A",
+   "tournamentName": "Satellite to WOLF ME - Day 1A",
    "notes": null,
    "color": "#f57f17",
    "background": null,
@@ -65,7 +208,7 @@
    "openRegistration": true,
    "lateRegistrationUntilLevel": 8,
    "expectedLastLevel": null,
-   "start": "2026-11-10T20:00:00",
+   "start": "2026-11-11T15:00:00",
    "pausedSeconds": null,
    "pausedMillis": null,
    "flightGameTimeDelta": null,
@@ -114,7 +257,148 @@
     "addOnLimit": null,
     "reBuyLimit": null
    },
-   "tournament_id": 14161
+   "tournament_id": 13865
+  },
+  {
+   "referenceTime": "2026-11-11T00:01:29.652",
+   "name": "[RING EVENT #18] Super Turbo Bounty NLH",
+   "fullName": "[RING EVENT #18] Super Turbo Bounty NLH",
+   "tournamentName": "[RING EVENT #18] Super Turbo Bounty NLH",
+   "notes": null,
+   "color": "#bf360c",
+   "background": null,
+   "status": "READY_FOR_PUBLICATION",
+   "isPaused": false,
+   "currency": "EUR",
+   "effectivePrizePool": 100000,
+   "guaranteeInEffect": true,
+   "overlay": null,
+   "reEntryMaxCount": null,
+   "startingStack": 50000,
+   "openRegistration": true,
+   "lateRegistrationUntilLevel": 10,
+   "expectedLastLevel": null,
+   "start": "2026-11-11T15:00:00",
+   "pausedSeconds": null,
+   "pausedMillis": null,
+   "flightGameTimeDelta": null,
+   "stickerText": null,
+   "totalEntries": 0,
+   "activePlayers": 0,
+   "averageStack": 0,
+   "nextBreakStart": null,
+   "nextBreakSeconds": null,
+   "entryValue": 1500,
+   "serviceFee": 0,
+   "bountyValue": 500,
+   "payoutPositions": null,
+   "currentLevel": null,
+   "nextLevels": [
+    {
+     "number": 1,
+     "ante": 200,
+     "limits": null,
+     "gameSeconds": 1200,
+     "breakSeconds": null,
+     "sb": 100,
+     "bb": 200
+    },
+    {
+     "number": 2,
+     "ante": 300,
+     "limits": null,
+     "gameSeconds": 1200,
+     "breakSeconds": null,
+     "sb": 100,
+     "bb": 300
+    }
+   ],
+   "softPauseEnd": null,
+   "activePause": null,
+   "plannedEnd": null,
+   "winningStructureType": "STANDARD",
+   "levelCount": null,
+   "reEntryCountLimit": null,
+   "availableTickets": {
+    "buyIn": 1500,
+    "serviceFee": 0,
+    "addon": null,
+    "rebuy": null,
+    "addOnLimit": null,
+    "reBuyLimit": null
+   },
+   "tournament_id": 14162
+  },
+  {
+   "referenceTime": "2026-11-11T00:00:45.448",
+   "name": "WOLF Millionaire - Day 1A Speed",
+   "fullName": "WOLF Millionaire - Day 1A Speed",
+   "tournamentName": "WOLF Millionaire",
+   "notes": "15% ITM MC 700€ • played till 10%",
+   "color": "#4a148c",
+   "background": "all_in_kings.jpg",
+   "status": "READY_FOR_PUBLICATION",
+   "isPaused": false,
+   "currency": "EUR",
+   "effectivePrizePool": 1000000,
+   "guaranteeInEffect": true,
+   "overlay": null,
+   "reEntryMaxCount": 2,
+   "startingStack": 50000,
+   "openRegistration": true,
+   "lateRegistrationUntilLevel": 10,
+   "expectedLastLevel": 17,
+   "start": "2026-11-11T18:00:00",
+   "pausedSeconds": null,
+   "pausedMillis": null,
+   "flightGameTimeDelta": null,
+   "stickerText": null,
+   "totalEntries": 0,
+   "activePlayers": 0,
+   "averageStack": 0,
+   "nextBreakStart": null,
+   "nextBreakSeconds": null,
+   "entryValue": 350,
+   "serviceFee": 0,
+   "bountyValue": null,
+   "payoutPositions": null,
+   "currentLevel": null,
+   "nextLevels": [
+    {
+     "number": 1,
+     "ante": 200,
+     "limits": "",
+     "gameSeconds": 1800,
+     "breakSeconds": 0,
+     "sb": 100,
+     "bb": 200
+    },
+    {
+     "number": 2,
+     "ante": 300,
+     "limits": "",
+     "gameSeconds": 1800,
+     "breakSeconds": 0,
+     "sb": 100,
+     "bb": 300
+    }
+   ],
+   "softPauseEnd": null,
+   "activePause": null,
+   "plannedEnd": null,
+   "winningStructureType": "STANDARD",
+   "levelCount": 17,
+   "reEntryCountLimit": 2,
+   "subName": "15% ITM MC 700€ • played till 10%",
+   "availableTickets": {
+    "buyIn": 350,
+    "serviceFee": 0,
+    "addon": null,
+    "rebuy": null,
+    "addOnLimit": null,
+    "reBuyLimit": null
+   },
+   "tournament_id": 13853
   }
  ]
 }
