@@ -2,10 +2,10 @@
 
 Prague's tables come in the same King's data feed as Rozvadov's, so they're read at every check (about every 10 minutes) without any extra visits, together with Prague's tournament clocks. All times are **Czech time** (same as Poland). Back to [King's Rozvadov](README.md).
 
-**Last check:** 2026-11-10 16:20 — ✅ OK  
-**Last 24 h:** 143 of 143 checks OK, longest gap 0 h 31 min · **Collecting since:** 2026-10-17 (3288 good checks)
+**Last check:** 2026-11-10 16:30 — ✅ OK  
+**Last 24 h:** 143 of 143 checks OK, longest gap 0 h 31 min · **Collecting since:** 2026-10-17 (3289 good checks)
 
-## Tables running at 2026-11-10 16:20
+## Tables running at 2026-11-10 16:30
 
 No tables were running.
 
@@ -82,7 +82,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 13:00 | 🟥 0% | 🟥 0% | 🟥 0% | 134 |
 | 14:00 | 🟥 0% | 🟥 0% | 🟥 0% | 137 |
 | 15:00 | 🟥 0% | 🟥 0% | 🟥 0% | 137 |
-| 16:00 | 🟥 0% | 🟥 0% | 🟥 0% | 132 |
+| 16:00 | 🟥 0% | 🟥 0% | 🟥 0% | 133 |
 | 17:00 | 🟥 1% | 🟥 0% | 🟥 0% | 129 |
 | 18:00 | 🟥 9% | 🟥 0% | 🟥 0% | 129 |
 | 19:00 | 🟥 12% | 🟥 2% | 🟥 0% | 132 |
@@ -97,7 +97,7 @@ Average seated players per check on each kind of day, in total and for NLH and O
 
 | Days | Dates | Checks | Players | NLH | Omaha | vs normal, same hour |
 |:--|:--|--:|--:|--:|--:|--:|
-| Normal days | 17 Oct – 10 Nov (24 days) | 3144 | 0.9 | 0.8 | 0.1 | -0.0 |
+| Normal days | 17 Oct – 10 Nov (24 days) | 3145 | 0.9 | 0.8 | 0.1 | -0.0 |
 | 📅 Public holidays | 28 Oct (1 day) | 144 | 0.0 | 0.0 | 0.0 | -0.8 |
 
 ## All games seen
