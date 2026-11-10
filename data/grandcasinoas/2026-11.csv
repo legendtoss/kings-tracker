@@ -1296,3 +1296,4 @@
 2026-11-10 00:50,Tue,0,ok,2,1,NLH €1/2 [RUNNING]; PLO €2/2 [RUNNING]; PLO/NLH [WAITING],,,,
 2026-11-10 01:00,Tue,1,ok,2,1,NLH €1/2 [RUNNING]; PLO €2/2 [RUNNING]; PLO/NLH [WAITING],1,17,"[{""name"":""GRND Cup 1B"",""game"":""NLH"",""status"":""RUNNING"",""left"":17,""entries"":111,""buyin"":100,""prizepool"":30000,""currency"":""EUR"",""level"":17,""blinds"":""5000/10000/10000"",""avg_stack"":195882,""start_stack"":30000,""late_reg_open"":false,""start"":""09.11. 17:00""}]",
 2026-11-10 01:10,Tue,1,ok,2,1,NLH €1/2 [RUNNING]; PLO €2/2 [RUNNING]; PLO/NLH [WAITING],,,,
+2026-11-10 01:20,Tue,1,ok,1,1,NLH €1/2 [RUNNING]; PLO/NLH [WAITING],,,,
