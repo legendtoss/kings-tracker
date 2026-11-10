@@ -2,10 +2,10 @@
 
 Checks [its website](https://bancocasino.sk/ba/en) together with King's, about every 10 minutes. All times are **Czech time** (same as Poland and Slovakia). Back to [King's](README.md).
 
-**Last check:** 2026-11-10 03:20 — ✅ OK  
-**Checks so far:** 3983 successful out of 4493 (since 2026-10-10)
+**Last check:** 2026-11-10 03:30 — ✅ OK  
+**Checks so far:** 3984 successful out of 4494 (since 2026-10-10)
 
-## Tables running at 2026-11-10 03:20
+## Tables running at 2026-11-10 03:30
 
 ```
 NLH  €1/3     6 players
@@ -34,7 +34,7 @@ NLH  €2/5     7 players
 
 ## Busiest times so far
 
-*Normal days only: 1308 checks during festivals, cash-game events or public holidays are compared separately in “Festivals, holidays and normal days” below.*
+*Normal days only: 1309 checks during festivals, cash-game events or public holidays are compared separately in “Festivals, holidays and normal days” below.*
 
 Day, hour and average seated players (only day-hour slots seen on at least 2 different dates).
 
@@ -141,15 +141,15 @@ Average seated players per check on each kind of day, in total and for NLH and O
 | Days | Dates | Checks | Players | NLH | Omaha | vs normal, same hour |
 |:--|:--|--:|--:|--:|--:|--:|
 | Normal days | 13 Oct – 3 Nov (19 days) | 2675 | 5.2 | 3.0 | 1.9 | -0.0 |
-| 🎪 PPC festival | 4–10 Nov (7 days) | 877 | 11.0 | 7.6 | 3.4 | +5.7 |
+| 🎪 PPC festival | 4–10 Nov (7 days) | 878 | 11.0 | 7.6 | 3.4 | +5.7 |
 | 📅 Public holidays | 23 Oct – 1 Nov (3 days) | 431 | 3.2 | 1.8 | 1.3 | -1.9 |
 
 ## All games seen
 
 | Game | Running in | Most often | Last seen |
 |:--|--:|:--|:--|
-| NLH €1/3 | 37% of checks | Sun around 02:00 | 2026-11-10 03:20 |
-| NLH €2/5 | 5% of checks | Sat around 07:00 | 2026-11-10 03:20 |
+| NLH €1/3 | 37% of checks | Sun around 02:00 | 2026-11-10 03:30 |
+| NLH €2/5 | 5% of checks | Sat around 07:00 | 2026-11-10 03:30 |
 | PLO €2/2 | 0% of checks | Thu around 02:00 | 2026-11-05 03:30 |
 | PLO 4/5 €2/2 | 29% of checks | Wed around 21:00 | 2026-11-09 23:50 |
 | PLO €2/5 | 1% of checks | Sun around 23:00 | 2026-11-09 03:30 |
