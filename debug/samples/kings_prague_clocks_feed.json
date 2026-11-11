@@ -1,5 +1,5 @@
 {
- "saved_on": "2026-11-11",
+ "saved_on": "2026-11-12",
  "records": 2,
  "fields": [
   "activePause",
@@ -48,150 +48,25 @@
  ],
  "sample": [
   {
-   "referenceTime": "2026-11-11T00:01:20.186",
-   "name": "King's Prague Beginner's Mystery Bounty",
-   "fullName": "King's Prague Beginner's Mystery Bounty",
-   "tournamentName": "King's Prague Beginner's Mystery Bounty",
-   "notes": "(1x KOK Highroller tkt incl.)",
-   "color": "#4a148c",
-   "background": "kings_all_in.jpg",
-   "status": "RUNNING",
-   "isPaused": false,
-   "currency": "EUR",
-   "effectivePrizePool": 5000,
-   "guaranteeInEffect": true,
-   "overlay": null,
-   "reEntryMaxCount": null,
-   "startingStack": 40000,
-   "openRegistration": false,
-   "lateRegistrationUntilLevel": 10,
-   "expectedLastLevel": null,
-   "start": "2026-11-10T18:00:04",
-   "pausedSeconds": 128,
-   "pausedMillis": 128402,
-   "flightGameTimeDelta": -128402,
-   "stickerText": null,
-   "totalEntries": 63,
-   "activePlayers": 7,
-   "averageStack": 360000,
-   "nextBreakStart": "2026-11-11T01:12:13.360",
-   "nextBreakSeconds": 600,
-   "entryValue": 30,
-   "serviceFee": 0,
-   "bountyValue": 20,
-   "payoutPositions": [
-    {
-     "from": 1,
-     "to": 1,
-     "amount": 732,
-     "label": "ticket"
-    },
-    {
-     "from": 2,
-     "to": 2,
-     "amount": 529,
-     "label": null
-    },
-    {
-     "from": 3,
-     "to": 3,
-     "amount": 342,
-     "label": null
-    },
-    {
-     "from": 4,
-     "to": 4,
-     "amount": 259,
-     "label": null
-    },
-    {
-     "from": 5,
-     "to": 5,
-     "amount": 200,
-     "label": null
-    },
-    {
-     "from": 6,
-     "to": 6,
-     "amount": 156,
-     "label": null
-    },
-    {
-     "from": 7,
-     "to": 7,
-     "amount": 124,
-     "label": null
-    }
-   ],
-   "currentLevel": {
-    "start": "2026-11-10T23:52:13.360",
-    "gameEnd": "2026-11-11T00:12:13.360",
-    "levelEnd": "2026-11-11T00:12:13.360",
-    "number": 16,
-    "ante": 8000,
-    "limits": "",
-    "gameSeconds": 1200,
-    "breakSeconds": 0,
-    "sb": 4000,
-    "bb": 8000
-   },
-   "nextLevels": [
-    {
-     "number": 17,
-     "ante": 10000,
-     "limits": "",
-     "gameSeconds": 1200,
-     "breakSeconds": 0,
-     "sb": 5000,
-     "bb": 10000
-    },
-    {
-     "number": 18,
-     "ante": 12000,
-     "limits": "",
-     "gameSeconds": 1200,
-     "breakSeconds": 0,
-     "sb": 6000,
-     "bb": 12000
-    }
-   ],
-   "softPauseEnd": null,
-   "activePause": null,
-   "plannedEnd": null,
-   "winningStructureType": "STANDARD",
-   "levelCount": null,
-   "reEntryCountLimit": null,
-   "subName": "(1x KOK Highroller tkt incl.)",
-   "availableTickets": {
-    "buyIn": 30,
-    "serviceFee": 0,
-    "addon": null,
-    "rebuy": null,
-    "addOnLimit": null,
-    "reBuyLimit": null
-   },
-   "tournament_id": 14228
-  },
-  {
-   "referenceTime": "2026-11-11T00:01:20.502",
+   "referenceTime": "2026-11-12T00:00:19.835",
    "name": "Satellite to King's Prague Mystery Thursday",
    "fullName": "Satellite to King's Prague Mystery Thursday",
    "tournamentName": "Satellite to King's Prague Mystery Thursday",
    "notes": null,
    "color": "#f57f17",
    "background": null,
-   "status": "READY_FOR_PUBLICATION",
+   "status": "REGISTRATION_OPEN",
    "isPaused": false,
    "currency": "EUR",
-   "effectivePrizePool": 1500,
+   "effectivePrizePool": 2250,
    "guaranteeInEffect": true,
    "overlay": null,
    "reEntryMaxCount": null,
-   "startingStack": 15000,
+   "startingStack": 10000,
    "openRegistration": true,
-   "lateRegistrationUntilLevel": 10,
+   "lateRegistrationUntilLevel": 8,
    "expectedLastLevel": null,
-   "start": "2026-11-11T18:00:00",
+   "start": "2026-11-12T16:00:00",
    "pausedSeconds": null,
    "pausedMillis": null,
    "flightGameTimeDelta": null,
@@ -201,7 +76,7 @@
    "averageStack": 0,
    "nextBreakStart": null,
    "nextBreakSeconds": null,
-   "entryValue": 20,
+   "entryValue": 30,
    "serviceFee": 0,
    "bountyValue": null,
    "payoutPositions": null,
@@ -211,7 +86,7 @@
      "number": 1,
      "ante": 100,
      "limits": "",
-     "gameSeconds": 1200,
+     "gameSeconds": 900,
      "breakSeconds": 0,
      "sb": 100,
      "bb": 100
@@ -220,7 +95,7 @@
      "number": 2,
      "ante": 200,
      "limits": "",
-     "gameSeconds": 1200,
+     "gameSeconds": 900,
      "breakSeconds": 0,
      "sb": 100,
      "bb": 200
@@ -233,14 +108,85 @@
    "levelCount": null,
    "reEntryCountLimit": null,
    "availableTickets": {
-    "buyIn": 20,
+    "buyIn": 30,
     "serviceFee": 0,
     "addon": null,
     "rebuy": null,
     "addOnLimit": null,
     "reBuyLimit": null
    },
-   "tournament_id": 14229
+   "tournament_id": 14230
+  },
+  {
+   "referenceTime": "2026-11-12T00:00:19.921",
+   "name": "King's Prague Mystery Bounty Thursday",
+   "fullName": "King's Prague Mystery Bounty Thursday",
+   "tournamentName": "King's Prague Mystery Bounty Thursday",
+   "notes": "(2x KOK Highroller tkt incl.)",
+   "color": "#4a148c",
+   "background": "kings_all_in.jpg",
+   "status": "REGISTRATION_OPEN",
+   "isPaused": false,
+   "currency": "EUR",
+   "effectivePrizePool": 10000,
+   "guaranteeInEffect": true,
+   "overlay": null,
+   "reEntryMaxCount": null,
+   "startingStack": 40000,
+   "openRegistration": true,
+   "lateRegistrationUntilLevel": 10,
+   "expectedLastLevel": null,
+   "start": "2026-11-12T19:00:00",
+   "pausedSeconds": null,
+   "pausedMillis": null,
+   "flightGameTimeDelta": null,
+   "stickerText": null,
+   "totalEntries": 0,
+   "activePlayers": 0,
+   "averageStack": 0,
+   "nextBreakStart": null,
+   "nextBreakSeconds": null,
+   "entryValue": 100,
+   "serviceFee": 0,
+   "bountyValue": 50,
+   "payoutPositions": null,
+   "currentLevel": null,
+   "nextLevels": [
+    {
+     "number": 1,
+     "ante": 200,
+     "limits": "",
+     "gameSeconds": 1800,
+     "breakSeconds": 0,
+     "sb": 100,
+     "bb": 200
+    },
+    {
+     "number": 2,
+     "ante": 300,
+     "limits": "",
+     "gameSeconds": 1800,
+     "breakSeconds": 0,
+     "sb": 100,
+     "bb": 300
+    }
+   ],
+   "softPauseEnd": null,
+   "activePause": null,
+   "plannedEnd": null,
+   "winningStructureType": "STANDARD",
+   "levelCount": null,
+   "reEntryCountLimit": null,
+   "subName": "(2x KOK Highroller tkt incl.)",
+   "availableTickets": {
+    "buyIn": 100,
+    "serviceFee": 0,
+    "addon": null,
+    "rebuy": null,
+    "addOnLimit": null,
+    "reBuyLimit": null
+   },
+   "tournament_id": 14231
   }
  ]
 }

@@ -1,6 +1,6 @@
 {
- "saved_on": "2026-11-11",
- "records": 5,
+ "saved_on": "2026-11-12",
+ "records": 4,
  "fields": [
   "gameProfile",
   "gameType",
@@ -15,42 +15,10 @@
  "sample": [
   {
    "status": "PLAYING",
-   "startTime": "2026-11-10T22:05:25",
-   "startPlayingTime": "2026-11-10T22:13:04",
+   "startTime": "2026-11-11T20:18:22",
+   "startPlayingTime": "2026-11-11T20:24:43",
    "seatCount": 8,
-   "playerCount": 8,
-   "gameType": {
-    "id": 9,
-    "name": "Omaha Poker"
-   },
-   "gameProfile": {
-    "id": 67,
-    "name": "PLO 10-10 5cards",
-    "params": {
-     "smallBlind": 10,
-     "bigBlind": 10,
-     "buyInMin": null,
-     "buyInMax": null
-    },
-    "blindsFormatted": "€ 10/10"
-   },
-   "table": {
-    "id": 34,
-    "name": "PK48",
-    "type": "CASH_GAME",
-    "zone": {
-     "id": 8,
-     "name": "FABERGE"
-    }
-   },
-   "venue": 1
-  },
-  {
-   "status": "PLAYING",
-   "startTime": "2026-11-10T14:43:52",
-   "startPlayingTime": "2026-11-10T17:08:52",
-   "seatCount": 8,
-   "playerCount": 8,
+   "playerCount": 7,
    "gameType": {
     "id": 9,
     "name": "Omaha Poker"
@@ -67,8 +35,8 @@
     "blindsFormatted": "€ 5/5"
    },
    "table": {
-    "id": 40,
-    "name": "PK54",
+    "id": 36,
+    "name": "PK50",
     "type": "CASH_GAME",
     "zone": {
      "id": 8,
@@ -79,24 +47,24 @@
   },
   {
    "status": "PLAYING",
-   "startTime": "2026-11-10T19:33:18",
-   "startPlayingTime": "2026-11-10T20:00:58",
+   "startTime": "2026-11-11T18:19:52",
+   "startPlayingTime": "2026-11-11T18:21:46",
    "seatCount": 8,
    "playerCount": 7,
    "gameType": {
-    "id": 10,
-    "name": "No Limit Holdem"
+    "id": 9,
+    "name": "Omaha Poker"
    },
    "gameProfile": {
-    "id": 142,
-    "name": "NLH 2-4",
+    "id": 69,
+    "name": "PLO 5-5 5cards",
     "params": {
-     "smallBlind": 2,
-     "bigBlind": 4,
+     "smallBlind": 5,
+     "bigBlind": 5,
      "buyInMin": null,
      "buyInMax": null
     },
-    "blindsFormatted": "€ 2/4"
+    "blindsFormatted": "€ 5/5"
    },
    "table": {
     "id": 38,
@@ -111,8 +79,8 @@
   },
   {
    "status": "PLAYING",
-   "startTime": "2026-11-10T14:19:30",
-   "startPlayingTime": "2026-11-10T14:24:15",
+   "startTime": "2026-11-11T16:30:43",
+   "startPlayingTime": "2026-11-11T16:44:01",
    "seatCount": 8,
    "playerCount": 8,
    "gameType": {
@@ -143,8 +111,8 @@
   },
   {
    "status": "PLAYING",
-   "startTime": "2026-11-10T22:38:45",
-   "startPlayingTime": "2026-11-10T22:39:27",
+   "startTime": "2026-11-11T20:30:59",
+   "startPlayingTime": "2026-11-11T20:33:20",
    "seatCount": 8,
    "playerCount": 8,
    "gameType": {
@@ -163,8 +131,8 @@
     "blindsFormatted": "€ 1/2"
    },
    "table": {
-    "id": 28,
-    "name": "PK42",
+    "id": 34,
+    "name": "PK48",
     "type": "CASH_GAME",
     "zone": {
      "id": 8,
