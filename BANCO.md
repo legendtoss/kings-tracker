@@ -2,10 +2,10 @@
 
 Checks [its website](https://bancocasino.sk/ba/en) together with King's, about every 10 minutes. All times are **Czech time** (same as Poland and Slovakia). Back to [King's](README.md).
 
-**Last check:** 2026-11-11 18:40 — ✅ OK  
-**Checks so far:** 4218 successful out of 4729 (since 2026-10-10)
+**Last check:** 2026-11-11 18:50 — ✅ OK  
+**Checks so far:** 4219 successful out of 4730 (since 2026-10-10)
 
-## Tables running at 2026-11-11 18:40
+## Tables running at 2026-11-11 18:50
 
 ```
 NLH      €1/3     8 players
@@ -15,7 +15,7 @@ PLO 4/5  €2/2     8 players
 **NLH:** 16 players at 2 tables · **PLO 4/5:** 8 players at 1 table
 
 *The whole list (Banco also shows its Košice casino; the numbers above are Bratislava only):* Bratislava: NLH €1/3 8 players (buy-in €100), NLH €1/3 8 players (buy-in €100), PLO 4/5 €2/2 8 players (buy-in €100)  
-**Tournaments running:** 1 PPC Main Event Day 1/F: 105/418 players, level 12, blinds 2000/4000, buy-in €150, €500000 GTD 1 PPC Main Event Day 1/G: 186/211 players, level 4, blinds 300/600, buy-in €150, €500000 GTD 1 PPC Main Event Day 1/H Turbo, starts at 22:00, buy-in €150, €500000 GTD 2 PPC Deepstack (1 Day Event): 84/118
+**Tournaments running:** 1 PPC Main Event Day 1/F: 98/421 players, level 12, blinds 2000/4000, buy-in €150, €500000 GTD 1 PPC Main Event Day 1/G: 195/228 players, level 4, blinds 300/600, buy-in €150, €500000 GTD 1 PPC Main Event Day 1/H Turbo, starts at 22:00, buy-in €150, €500000 GTD 2 PPC Deepstack (1 Day Event): 84/123 
 
 **Note:** Since 13 Oct the tracker reads Banco's cash list and its live tournaments straight from where its page gets them; before that, its page's scripts didn't run in the tracker's browser, so those checks show as errors.
 
@@ -34,7 +34,7 @@ PLO 4/5  €2/2     8 players
 
 ## Busiest times so far
 
-*Normal days only: 1543 checks during festivals, cash-game events or public holidays are compared separately in “Festivals, holidays and normal days” below.*
+*Normal days only: 1544 checks during festivals, cash-game events or public holidays are compared separately in “Festivals, holidays and normal days” below.*
 
 Day, hour and average seated players (only day-hour slots seen on at least 2 different dates).
 
@@ -141,17 +141,17 @@ Average seated players per check on each kind of day, in total and for NLH and O
 | Days | Dates | Checks | Players | NLH | Omaha | vs normal, same hour |
 |:--|:--|--:|--:|--:|--:|--:|
 | Normal days | 13 Oct – 3 Nov (19 days) | 2675 | 5.2 | 3.0 | 1.9 | -0.0 |
-| 🎪 PPC festival | 4–11 Nov (8 days) | 1112 | 11.6 | 8.2 | 3.4 | +6.5 |
+| 🎪 PPC festival | 4–11 Nov (8 days) | 1113 | 11.6 | 8.2 | 3.4 | +6.5 |
 | 📅 Public holidays | 23 Oct – 1 Nov (3 days) | 431 | 3.2 | 1.8 | 1.3 | -1.9 |
 
 ## All games seen
 
 | Game | Running in | Most often | Last seen |
 |:--|--:|:--|:--|
-| NLH €1/3 | 39% of checks | Sun around 02:00 | 2026-11-11 18:40 |
+| NLH €1/3 | 39% of checks | Sun around 02:00 | 2026-11-11 18:50 |
 | NLH €2/5 | 7% of checks | Sat around 07:00 | 2026-11-11 18:10 |
 | PLO €2/2 | 0% of checks | Thu around 02:00 | 2026-11-05 03:30 |
-| PLO 4/5 €2/2 | 30% of checks | Tue around 18:00 | 2026-11-11 18:40 |
+| PLO 4/5 €2/2 | 30% of checks | Tue around 18:00 | 2026-11-11 18:50 |
 | PLO €2/5 | 1% of checks | Sun around 23:00 | 2026-11-09 03:30 |
 | PLO 4/5 €5/5 | 1% of checks | Mon around 04:00 | 2026-11-09 07:30 |
 | PLO €25/50 | 2% of checks | Thu around 20:00 | 2026-10-16 07:30 |
