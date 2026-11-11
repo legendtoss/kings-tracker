@@ -2,10 +2,10 @@
 
 Reads [Card Casino's live cash-game list](https://www.cardcasino.sk/en/cashgames/) together with King's, about every 10 minutes. All times are **Czech time** (same as Poland and Slovakia). Back to [King's](README.md).
 
-**Last check:** 2026-11-11 02:40 — ✅ OK (live list)  
-**Last 24 h:** 125 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-10 (3982 good checks)
+**Last check:** 2026-11-11 02:50 — ✅ OK (live list)  
+**Last 24 h:** 125 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-10 (3983 good checks)
 
-## Tables running at 2026-11-11 02:40
+## Tables running at 2026-11-11 02:50
 
 No tables were running.
 
@@ -36,7 +36,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 |:--|--:|--:|--:|--:|--:|--:|--:|--:|
 | 00:00 | 9 | 3 | 4 | 6 | 4 | 22 | 23 | 9 |
 | 01:00 | 7 | 0 | 2 | 5 | 3 | 21 | 18 | 7 |
-| 02:00 | 4 | 0 | 2 | 0 | 2 | 18 | 18 | 6 |
+| 02:00 | 4 | 0 | 2 | 0 | 2 | 18 | 18 | 5 |
 | 03:00 | 1 | 0 | 2 | 0 | 1 | 12 | 16 | 4 |
 | 04:00 | 0 | 0 | 1 | 0 | 0 | 6 | 10 | 2 |
 | 05:00 | 0 | 0 | 1 | 0 | 0 | 5 | 6 | 2 |
@@ -96,7 +96,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 |:--|--:|--:|--:|--:|--:|--:|--:|
 | 00:00 | 🟨 72% | 🟥 9% | 🟥 4% | 🟥 13% | 🟥 11% | 🟥 4% | 109 |
 | 01:00 | 🟨 50% | 🟥 4% | 🟥 0% | 🟥 14% | 🟥 10% | 🟥 5% | 113 |
-| 02:00 | 🟨 38% | 🟥 5% | 🟥 0% | 🟥 14% | 🟥 10% | 🟥 5% | 121 |
+| 02:00 | 🟨 38% | 🟥 5% | 🟥 0% | 🟥 14% | 🟥 10% | 🟥 5% | 122 |
 | 03:00 | 🟨 38% | 🟥 1% | 🟥 0% | 🟥 13% | 🟥 9% | 🟥 5% | 105 |
 | 04:00 | 🟨 31% | 🟥 0% | 🟥 0% | 🟥 14% | 🟥 9% | 🟥 5% | 110 |
 | 05:00 | 🟥 20% | 🟥 0% | 🟥 0% | 🟥 14% | 🟥 5% | 🟥 4% | 109 |
@@ -125,7 +125,7 @@ Average seated players per check on each kind of day, in total and for NLH and O
 
 | Days | Dates | Checks | Players | NLH | Omaha | vs normal, same hour |
 |:--|:--|--:|--:|--:|--:|--:|
-| Normal days | 12 Oct – 11 Nov (23 days) | 2714 | 4.1 | 3.2 | 0.8 | +0.0 |
+| Normal days | 12 Oct – 11 Nov (23 days) | 2715 | 4.1 | 3.2 | 0.8 | +0.0 |
 | 💵 Cash game days: NLH/PLO/PLO5 from €10/20 | 10–11 Oct (2 days) | 240 | 11.9 | 6.2 | 5.7 | +8.1 |
 | 🎪 Main Event week | 20–25 Oct (6 days) | 771 | 8.5 | 7.0 | 1.4 | +4.3 |
 | 📅 Public holidays | 26 Oct – 1 Nov (2 days) | 257 | 5.9 | 4.2 | 1.7 | +1.8 |
