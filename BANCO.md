@@ -2,8 +2,8 @@
 
 Checks [its website](https://bancocasino.sk/ba/en) together with King's, about every 10 minutes. All times are **Czech time** (same as Poland and Slovakia). Back to [King's](README.md).
 
-**Last check:** 2026-11-11 12:20 — ✅ OK  
-**Checks so far:** 4181 successful out of 4691 (since 2026-10-10)
+**Last check:** 2026-11-11 12:30 — ⚠️ error: URLError: urlopen error Errno 101 Network is unreachable  
+**Checks so far:** 4181 successful out of 4692 (since 2026-10-10)
 
 ## Tables running at 2026-11-11 12:20
 
