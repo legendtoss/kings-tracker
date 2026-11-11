@@ -2,16 +2,16 @@
 
 Reads [Grand Casino Aš's live cash games](https://www.grandcasinoas.eu/en/poker/poker-live) every 10 minutes and its [current tournaments](https://www.grandcasinoas.eu/en/poker) every 30 minutes. All times are **Czech time** (same as Poland). Back to [King's](README.md).
 
-**Last check:** 2026-11-11 17:50 — ✅ OK  
-**Last 24 h:** 145 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-10 (4711 good checks)
+**Last check:** 2026-11-11 18:00 — ✅ OK  
+**Last 24 h:** 145 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-10 (4712 good checks)
 
-## Cash games at 2026-11-11 17:50
+## Cash games at 2026-11-11 18:00
 
 ```
 PLO/NLH           waiting
 ```
 
-**Tournaments in play at 2026-11-11 17:30:** GRND Kick Off III (NLH, €60, 33 of 107 left, level 13, blinds 1500/3000/3000) · GRND Cup Final Day (NLH, €100, 49 of 364 left, level 17, blinds 5000/10000/10000)
+**Tournaments in play at 2026-11-11 18:00:** GRND Kick Off III (NLH, €60, 30 of 107 left, level 14, blinds 2000/4000/4000) · GRND Cup Final Day (NLH, €100, 37 of 364 left, level 18, blinds 6000/12000/12000) · GRND Main Event 1A (NLH, €200, 17 of 17 left, on a break, late reg open)
 
 ## Festivals and schedule
 
@@ -24,7 +24,7 @@ No Omaha tournaments on the schedule in the next 14 days.
 
 ## Running cash tables by hour
 
-*Normal days only: 2119 checks during festivals, cash-game events or public holidays are compared separately in “Festivals, holidays and normal days” below.*
+*Normal days only: 2120 checks during festivals, cash-game events or public holidays are compared separately in “Festivals, holidays and normal days” below.*
 
 Average number of running tables (Grand Casino Aš shows which games run, not how many players).
 
@@ -96,7 +96,7 @@ Average running tables per check on each kind of day, in total and for NLH and O
 | ↳ with an Omaha tournament on the schedule | 30 Oct (1 day) | 144 | 0.6 | 0.6 | 0.0 | +0.4 |
 | ↳ without one | 10 Oct – 3 Nov (17 days) | 2448 | 0.2 | 0.1 | 0.0 | -0.0 |
 | 🎪 PLO festival | 15–18 Oct (4 days) | 578 | 0.5 | 0.3 | 0.1 | +0.4 |
-| 🎪 GRND festival | 4–11 Nov (8 days) | 1109 | 1.0 | 0.9 | 0.1 | +0.8 |
+| 🎪 GRND festival | 4–11 Nov (8 days) | 1110 | 1.0 | 0.9 | 0.1 | +0.8 |
 | 📅 Public holidays | 28 Oct – 1 Nov (3 days) | 432 | 0.7 | 0.6 | 0.0 | +0.5 |
 
 ## Tournaments seen
@@ -105,8 +105,9 @@ The most recent ones. The game is read from the tournament's name.
 
 | Tournament | Game | Buy-in | Entries | Seen |
 |:--|:--|--:|--:|:--|
-| GRND Kick Off III | NLH | €60 | 107 | 2026-11-11 14:00 → 11-11 17:30 |
-| GRND Cup Final Day | NLH | €100 | 364 | 2026-11-11 17:00 |
+| GRND Kick Off III | NLH | €60 | 107 | 2026-11-11 14:00 → 11-11 18:00 |
+| GRND Cup Final Day | NLH | €100 | 364 | 2026-11-11 17:00 → 11-11 18:00 |
+| GRND Main Event 1A | NLH | €200 | 17 | 2026-11-11 18:00 |
 | GRND Cup 1C | NLH | €100 | 164 | 2026-11-10 17:00 → 11-11 02:00 |
 | GRND Kick Off II | NLH | €60 | 104 | 2026-11-10 14:00 → 11-10 20:30 |
 | GRND Cup 1B | NLH | €100 | 111 | 2026-11-09 17:00 → 11-10 01:30 |
@@ -119,7 +120,6 @@ The most recent ones. The game is read from the tournament's name.
 | GRND Night | NLH | €80 | 254 | 2026-11-06 18:00 → 11-07 04:00 |
 | Supersatellite to Highroller | NLH | €70 | 134 | 2026-11-06 12:00 → 11-06 16:00 |
 | Hot PKO | NLH | €120 | 297 | 2026-11-05 18:00 → 11-06 07:00 |
-| Satellite to Highroller | NLH | €70 | 65 | 2026-11-05 22:00 → 11-06 01:30 |
 
 ---
 Raw data: `data/grandcasinoas` (one CSV file per month).

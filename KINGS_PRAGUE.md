@@ -2,14 +2,14 @@
 
 Prague's tables come in the same King's data feed as Rozvadov's, so they're read at every check (about every 10 minutes) without any extra visits, together with Prague's tournament clocks. All times are **Czech time** (same as Poland). Back to [King's Rozvadov](README.md).
 
-**Last check:** 2026-11-11 17:50 — ✅ OK  
-**Last 24 h:** 145 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-17 (3441 good checks)
+**Last check:** 2026-11-11 18:00 — ✅ OK  
+**Last 24 h:** 145 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-17 (3442 good checks)
 
-## Tables running at 2026-11-11 17:50
+## Tables running at 2026-11-11 18:00
 
 No tables were running.
 
-**Tournaments in play:** none
+**Tournaments in play:** Satellite to King's Prague Mystery Thursday (NLH, €20, 10 of 10 left, late reg open)
 
 ## Festivals and schedule
 
@@ -84,7 +84,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 15:00 | 🟥 0% | 🟥 0% | 🟥 0% | 143 |
 | 16:00 | 🟥 0% | 🟥 0% | 🟥 0% | 141 |
 | 17:00 | 🟥 1% | 🟥 0% | 🟥 0% | 141 |
-| 18:00 | 🟥 9% | 🟥 0% | 🟥 0% | 135 |
+| 18:00 | 🟥 9% | 🟥 0% | 🟥 0% | 136 |
 | 19:00 | 🟥 12% | 🟥 2% | 🟥 0% | 138 |
 | 20:00 | 🟥 24% | 🟥 0% | 🟥 0% | 143 |
 | 21:00 | 🟨 44% | 🟥 1% | 🟥 0% | 144 |
@@ -97,7 +97,7 @@ Average seated players per check on each kind of day, in total and for NLH and O
 
 | Days | Dates | Checks | Players | NLH | Omaha | vs normal, same hour |
 |:--|:--|--:|--:|--:|--:|--:|
-| Normal days | 17 Oct – 11 Nov (25 days) | 3297 | 0.8 | 0.8 | 0.1 | -0.0 |
+| Normal days | 17 Oct – 11 Nov (25 days) | 3298 | 0.8 | 0.8 | 0.1 | -0.0 |
 | 📅 Public holidays | 28 Oct (1 day) | 144 | 0.0 | 0.0 | 0.0 | -0.8 |
 
 ## All games seen
@@ -114,6 +114,7 @@ The most recent ones. The game is read from the tournament's name.
 
 | Tournament | Game | Buy-in | Entries | Seen |
 |:--|:--|--:|--:|:--|
+| Satellite to King's Prague Mystery Thursday | NLH | €20 | 73 | 2026-10-21 18:30 → 11-11 18:00 |
 | King's Prague Beginner's Mystery Bounty | NLH | €30 | 72 | 2026-10-20 18:20 → 11-11 02:20 |
 | King's Prague Beginner's Monday | NLH | €60 | 111 | 2026-10-19 18:00 → 11-10 03:00 |
 | King's Prague 1 Million Crown Series - Final Day | NLH | €80 | 478 | 2026-11-08 17:00 → 11-09 00:30 |
@@ -128,7 +129,6 @@ The most recent ones. The game is read from the tournament's name.
 | Satellite to 1 Million Crown Series - Day 1C | NLH | €15 | 56 | 2026-11-04 16:11 → 11-04 19:50 |
 | King's Prague 1 Million Crown Series - Day 1B | NLH | €80 | 47 | 2026-11-03 19:40 → 11-04 01:40 |
 | Satellite to 1 Million Crown Series - Day 1B | NLH | €15 | 55 | 2026-11-03 16:10 → 11-03 19:40 |
-| King's Prague 1 Million Crown Series - Day 1A | NLH | €80 | 60 | 2026-11-02 19:10 → 11-03 01:50 |
 
 ---
 Raw data: `data/kings-prague` (one CSV file per month). Prague is venue 3 in King's feed (`data/kings_venues.json`).
