@@ -2,12 +2,12 @@
 
 Checks King's live cash games and tournaments about every 10 minutes and updates this page by itself. All times are **Czech time** (same as Poland). Also tracking: [King's Prague](KINGS_PRAGUE.md) · [Card Casino Šamorín](CARD_CASINO.md) · [Grand Casino Aš](GRAND_CASINO_AS.md) · [Banco Casino Bratislava](BANCO.md) · [Olympic Park Tallinn](OLYMPIC_TALLINN.md) · [Olympic Voodoo Riga](OLYMPIC_RIGA.md) · [Olympic Casino Vilnius](OLYMPIC_VILNIUS.md).
 
-**Right now:** King's: 9 tables, 67 players · [King's Prague](KINGS_PRAGUE.md): 0 tables, 0 players · [Card Casino Šamorín](CARD_CASINO.md): 1 table, 8 players · [Grand Casino Aš](GRAND_CASINO_AS.md) 🎪 GRND festival: 2 tables running, 1 waiting · [Olympic Park Tallinn](OLYMPIC_TALLINN.md): couldn't be read at 22:30 · [Olympic Voodoo Riga](OLYMPIC_RIGA.md): couldn't be read at 22:30 · [Olympic Vilnius](OLYMPIC_VILNIUS.md): couldn't be read at 22:30 · [Banco](BANCO.md) 🎪 PPC festival: 3 tables, 24 players
+**Right now:** King's: couldn't be read · [King's Prague](KINGS_PRAGUE.md): couldn't be read · [Card Casino Šamorín](CARD_CASINO.md): 1 table, 7 players · [Grand Casino Aš](GRAND_CASINO_AS.md) 🎪 GRND festival: 3 tables running, 1 waiting · [Olympic Park Tallinn](OLYMPIC_TALLINN.md): couldn't be read at 22:30 · [Olympic Voodoo Riga](OLYMPIC_RIGA.md): couldn't be read at 22:30 · [Olympic Vilnius](OLYMPIC_VILNIUS.md): couldn't be read at 22:30 · [Banco](BANCO.md) 🎪 PPC festival: 3 tables, 24 players
 
 **🎯 Omaha right now:** King's Rozvadov: PLO €2/2, PLO5 €5/5, PLO5 €10/10 (23 players) · [Banco Casino Bratislava](BANCO.md): PLO 4/5 €2/2 (8 players)
 
-**Last check:** 2026-11-12 22:40 — ✅ OK (data feed)  
-**Last 24 h:** 145 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-06 (4946 good checks)
+**Last check:** 2026-11-12 22:50 — ⚠️ error: TimeoutError: Page.goto: Timeout 60000ms exceeded. — details in `debug/last_problem.json`  
+**Last 24 h:** 144 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-06 (4946 good checks)
 
 ## Tables running at 2026-11-12 22:40
 
@@ -257,7 +257,7 @@ The most recent ones. The game is read from the tournament's name.
 
 | Tournament | Game | Buy-in | Entries | Seen |
 |:--|:--|--:|--:|:--|
-| WOLF Millionaire - Day 1B Speed | NLH | €350 | 127 | 2026-11-12 18:00 → 11-12 22:40 |
+| WOLF Millionaire - Day 1B Speed | NLH | €350 | 129 | 2026-11-12 18:00 → 11-12 22:50 |
 | Satellite to WOLF ME - Day 1B | NLH | €60 | 90 | 2026-11-12 15:00 → 11-12 18:50 |
 | WOLF Morning NLH Turbo Knockout (Bounty 25 ) | NLH | €100 | 77 | 2026-11-12 12:00 → 11-12 18:00 |
 | WOLF Millionaire - Day 1A Speed | NLH | €350 | 65 | 2026-11-11 18:00 → 11-12 02:20 |
@@ -277,11 +277,11 @@ The most recent ones. The game is read from the tournament's name.
 
 | Room | Last check | OK in the last 24 h | Most common problem |
 |:--|:--|--:|:--|
-| King's Rozvadov | ✅ 11-12 22:40 | 145 of 145 | · |
-| [King's Prague](KINGS_PRAGUE.md) | ✅ 11-12 22:40 | 144 of 145 | King's feed came back empty and that couldn't be confirmed, so it wasn |
-| [Grand Casino Aš](GRAND_CASINO_AS.md) | ✅ 11-12 22:40 | 145 of 145 | · |
-| [Card Casino Šamorín](CARD_CASINO.md) | ✅ 11-12 22:40 | 122 of 145 | Card Casino's site didn't answer |
-| [Banco Casino Bratislava](BANCO.md) | ✅ 11-12 22:40 | 145 of 145 | · |
+| King's Rozvadov | ⚠️ 11-12 22:50 | 144 of 145 | TimeoutError: Page.goto: Timeout 60000ms exceeded. |
+| [King's Prague](KINGS_PRAGUE.md) | ⚠️ 11-12 22:50 | 143 of 145 | King's feed came back empty and that couldn't be confirmed, so it wasn |
+| [Grand Casino Aš](GRAND_CASINO_AS.md) | ✅ 11-12 22:50 | 145 of 145 | · |
+| [Card Casino Šamorín](CARD_CASINO.md) | ✅ 11-12 22:50 | 122 of 145 | Card Casino's site didn't answer |
+| [Banco Casino Bratislava](BANCO.md) | ✅ 11-12 22:50 | 145 of 145 | · |
 | [Olympic Park Tallinn](OLYMPIC_TALLINN.md) | ⚠️ 11-12 22:30 | 0 of 48 | blocked by the site's bot protection |
 | [Olympic Voodoo Riga](OLYMPIC_RIGA.md) | ⚠️ 11-12 22:30 | 0 of 48 | blocked by the site's bot protection |
 | [Olympic Casino Vilnius](OLYMPIC_VILNIUS.md) | ⚠️ 11-12 22:30 | 0 of 48 | blocked by the site's bot protection |
