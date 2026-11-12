@@ -2,7 +2,7 @@
 
 Reads [OlyBet's live cash games page](https://olybetpoker.com/ee/en/cash-games/?club=6) every 30 minutes (their site has bot protection, so the tracker checks gently and simply records it when a check is refused). All times are **Czech time** (Tallinn is one hour ahead). Back to [King's](README.md).
 
-**Last check:** 2026-11-12 01:30 — ⚠️ error: couldn't read the cash games table (page saved for a closer look) — details in `debug/olympic-tallinn_page.json`  
+**Last check:** 2026-11-12 02:00 — ⚠️ error: couldn't read the cash games table (page saved for a closer look) — details in `debug/olympic-tallinn_page.json`  
 **Last 24 h:** 0 of 48 checks OK, longest gap 1 h 0 min · **Collecting since:** 2026-10-10 (273 good checks)
 
 **Club:** Olympic Park Casino
@@ -13,7 +13,7 @@ No tables were running.
 
 **Waiting lists:** 6 players · **All games listed:** NLH €1/3 (closed): 0 tables, 0/0 players, 3 waiting PLO/PLO5 €1/3 (closed): 0 tables, 0/0 players, 2 waiting PLO €5/5 (closed): 0 tables, 0/0 players, 0 waiting NLH €5/5 (closed): 0 tables, 0/0 players, 1 waiting
 
-**Tournaments on their site at 2026-11-11 17:00:** live 19:15 Olympic Park Casino NLH - OlyBet Wednesday 5,000 €25
+**Tournaments on their site at 2026-11-12 02:00:** live 19:15 Olympic Park Casino NLH Royal Flush RF JackPot 2967€ 15,000 €40
 
 ## Festivals and schedule
 

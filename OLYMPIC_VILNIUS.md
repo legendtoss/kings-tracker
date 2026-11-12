@@ -2,7 +2,7 @@
 
 Reads [OlyBet's live cash games page](https://olybetpoker.com/lt/cash-games/?club=10) every 30 minutes (their site has bot protection, so the tracker checks gently and simply records it when a check is refused). All times are **Czech time** (Vilnius is one hour ahead). Back to [King's](README.md).
 
-**Last check:** 2026-11-12 01:30 — ⚠️ error: blocked by the site's bot protection — details in `debug/olympic-vilnius_page.json`  
+**Last check:** 2026-11-12 02:00 — ⚠️ error: couldn't read the cash games table (page saved for a closer look) — details in `debug/olympic-vilnius_page.json`  
 **Last 24 h:** 0 of 48 checks OK, longest gap 1 h 0 min · **Collecting since:** 2026-10-10 (326 good checks)
 
 **Club:** Olympic Casino Vilnius, Lietuva
@@ -13,7 +13,7 @@ No tables were running.
 
 **Waiting lists:** 0 players · **All games listed:** Dealer's Choice €1/2 (waiting to start): 1 table, 0/8 players, 0 waiting NLH €1/2 (waiting to start): 1 table, 0/9 players, 0 waiting
 
-**Tournaments on their site at 2026-11-11 13:00:** live 18:00 Olympic Casino Vilnius, Lietuva 11 4 €250 NLH Progressive Knockout 4 25, Re-Entry 10 levels 20,000 €250
+**Tournaments on their site at 2026-11-12 02:00:** live 18:00 Olympic Casino Vilnius, Lietuva 12 6 555€ NLH High Roller, Progressive Knockout, re-entry 10 levels, 4 50€ bounty 50,000 €555
 
 ## Festivals and schedule
 
