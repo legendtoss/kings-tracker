@@ -1,21 +1,6 @@
 {
- "saved_at": "2026-11-12T07:50:17+01:00",
- "status": "error: King's feed came back empty and that couldn't be confirmed, so it wasn't counted as 0 tables",
+ "saved_at": "2026-11-12T14:50:20+01:00",
+ "status": "ok",
  "url": "https://admin.kings-resort.com/zeus/?data=cash_games_by_venue",
- "venues_in_feed": {},
- "venues_seen": {
-  "1": {
-   "checks": 3219,
-   "first": "2026-10-17 19:30",
-   "last": "2026-11-12 06:50",
-   "most_tables": 19
-  },
-  "3": {
-   "checks": 444,
-   "first": "2026-10-17 20:40",
-   "last": "2026-11-10 02:20",
-   "most_tables": 2
-  }
- },
- "feed_trusted": false
+ "tournaments": "URLError: urlopen error _ssl.c:994: The handshake operation timed out"
 }
