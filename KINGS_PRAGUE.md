@@ -2,14 +2,14 @@
 
 Prague's tables come in the same King's data feed as Rozvadov's, so they're read at every check (about every 10 minutes) without any extra visits, together with Prague's tournament clocks. All times are **Czech time** (same as Poland). Back to [King's Rozvadov](README.md).
 
-**Last check:** 2026-11-13 00:10 — ✅ OK  
-**Last 24 h:** 143 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-17 (3618 good checks)
+**Last check:** 2026-11-13 00:20 — ✅ OK  
+**Last 24 h:** 143 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-17 (3619 good checks)
 
-## Tables running at 2026-11-13 00:10
+## Tables running at 2026-11-13 00:20
 
 No tables were running.
 
-**Tournaments in play:** King's Prague Mystery Bounty Thursday (NLH, €100, €50 bounty, 19 of 64 left, late reg open, level 10, blinds 1000/2000/2000)
+**Tournaments in play:** King's Prague Mystery Bounty Thursday (NLH, €100, €50 bounty, 20 of 65 left, late reg open, level 10, blinds 1000/2000/2000)
 
 ## Festivals and schedule
 
@@ -35,7 +35,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 
 | Hour | Mon | Tue | Wed | Thu | Fri | Sat | Sun | All days |
 |:--|--:|--:|--:|--:|--:|--:|--:|--:|
-| 00:00 | 0 | 2 | 0 | 0 | 3 | 9 | 6 | 3 |
+| 00:00 | 0 | 2 | 0 | 0 | 2 | 9 | 6 | 3 |
 | 01:00 | 0 | 1 | 0 | 1 | 2 | 8 | 5 | 2 |
 | 02:00 | 0 | 1 | 0 | 0 | 0 | 5 | 2 | 1 |
 | 03:00 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 0 |
@@ -66,7 +66,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 
 | Hour | NLH €2/4 | PLO €2/2 | PLO5 €5/5 | Checks |
 |:--|--:|--:|--:|--:|
-| 00:00 | 🟨 37% | 🟥 7% | 🟥 0% | 151 |
+| 00:00 | 🟨 37% | 🟥 7% | 🟥 0% | 152 |
 | 01:00 | 🟨 33% | 🟥 7% | 🟥 0% | 150 |
 | 02:00 | 🟥 16% | 🟥 1% | 🟥 1% | 157 |
 | 03:00 | 🟥 3% | 🟥 0% | 🟥 0% | 147 |
@@ -97,7 +97,7 @@ Average seated players per check on each kind of day, in total and for NLH and O
 
 | Days | Dates | Checks | Players | NLH | Omaha | vs normal, same hour |
 |:--|:--|--:|--:|--:|--:|--:|
-| Normal days | 17 Oct – 13 Nov (27 days) | 3474 | 0.8 | 0.7 | 0.1 | +0.0 |
+| Normal days | 17 Oct – 13 Nov (27 days) | 3475 | 0.8 | 0.7 | 0.1 | +0.0 |
 | 📅 Public holidays | 28 Oct (1 day) | 144 | 0.0 | 0.0 | 0.0 | -0.7 |
 
 ## All games seen
@@ -114,7 +114,7 @@ The most recent ones. The game is read from the tournament's name.
 
 | Tournament | Game | Buy-in | Entries | Seen |
 |:--|:--|--:|--:|:--|
-| King's Prague Mystery Bounty Thursday | NLH | €100 | 68 | 2026-10-22 19:10 → 11-13 00:10 |
+| King's Prague Mystery Bounty Thursday | NLH | €100 | 68 | 2026-10-22 19:10 → 11-13 00:20 |
 | Satellite to King's Prague Mystery Thursday | NLH | €30 | 73 | 2026-10-21 18:30 → 11-12 19:00 |
 | King's Prague Beginner's Mystery Bounty | NLH | €30 | 72 | 2026-10-20 18:20 → 11-11 02:20 |
 | King's Prague Beginner's Monday | NLH | €60 | 111 | 2026-10-19 18:00 → 11-10 03:00 |
