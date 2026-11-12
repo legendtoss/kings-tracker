@@ -1588,3 +1588,4 @@
 2026-11-12 02:00,Thu,2,ok,3,1,NLH €1/2 [RUNNING]; NLH €1/2 [RUNNING]; PLO €2/2 [RUNNING]; PLO/NLH [WAITING],1,24,"[{""name"":""GRND Main Event 1A"",""game"":""NLH"",""status"":""RUNNING"",""left"":24,""entries"":120,""buyin"":200,""prizepool"":200000,""currency"":""EUR"",""level"":14,""blinds"":""4000/8000/8000"",""avg_stack"":250000,""start_stack"":50000,""late_reg_open"":false,""start"":""11.11. 18:00""}]",
 2026-11-12 02:10,Thu,2,ok,2,1,NLH €1/2 [RUNNING]; PLO €2/2 [RUNNING]; PLO/NLH [WAITING],,,,
 2026-11-12 02:20,Thu,2,ok,2,1,NLH €1/2 [RUNNING]; PLO €2/2 [RUNNING]; PLO/NLH [WAITING],,,,
+2026-11-12 02:30,Thu,2,ok,1,1,NLH €1/2 [RUNNING]; PLO/NLH [WAITING],1,18,"[{""name"":""GRND Main Event 1A"",""game"":""NLH"",""status"":""RUNNING"",""left"":18,""entries"":120,""buyin"":200,""prizepool"":200000,""currency"":""EUR"",""level"":15,""blinds"":""5000/10000/10000"",""avg_stack"":333333,""start_stack"":50000,""late_reg_open"":false,""start"":""11.11. 18:00""}]",
