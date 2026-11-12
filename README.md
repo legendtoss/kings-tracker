@@ -2,14 +2,14 @@
 
 Checks King's live cash games and tournaments about every 10 minutes and updates this page by itself. All times are **Czech time** (same as Poland). Also tracking: [King's Prague](KINGS_PRAGUE.md) · [Card Casino Šamorín](CARD_CASINO.md) · [Grand Casino Aš](GRAND_CASINO_AS.md) · [Banco Casino Bratislava](BANCO.md) · [Olympic Park Tallinn](OLYMPIC_TALLINN.md) · [Olympic Voodoo Riga](OLYMPIC_RIGA.md) · [Olympic Casino Vilnius](OLYMPIC_VILNIUS.md).
 
-**Right now:** King's: 0 tables, 0 players · [King's Prague](KINGS_PRAGUE.md): 0 tables, 0 players · [Card Casino Šamorín](CARD_CASINO.md): 0 tables, 0 players · [Grand Casino Aš](GRAND_CASINO_AS.md) 🎪 GRND festival: 0 tables running · [Olympic Park Tallinn](OLYMPIC_TALLINN.md): couldn't be read at 07:00 · [Olympic Voodoo Riga](OLYMPIC_RIGA.md): blocked at 07:00 · [Olympic Vilnius](OLYMPIC_VILNIUS.md): couldn't be read at 07:00 · [Banco](BANCO.md) 🎪 PPC festival: 1 table, 8 players
+**Right now:** King's: 0 tables, 0 players · [King's Prague](KINGS_PRAGUE.md): 0 tables, 0 players · [Card Casino Šamorín](CARD_CASINO.md): 0 tables, 0 players · [Grand Casino Aš](GRAND_CASINO_AS.md) 🎪 GRND festival: 0 tables running · [Olympic Park Tallinn](OLYMPIC_TALLINN.md): couldn't be read at 07:30 · [Olympic Voodoo Riga](OLYMPIC_RIGA.md): couldn't be read at 07:30 · [Olympic Vilnius](OLYMPIC_VILNIUS.md): couldn't be read at 07:30 · [Banco](BANCO.md) 🎪 PPC festival: 1 table, 8 players
 
 **🎯 Omaha right now:** [Banco Casino Bratislava](BANCO.md): PLO 4/5 €2/2 (8 players)
 
-**Last check:** 2026-11-12 07:20 — ✅ OK (data feed)  
-**Last 24 h:** 142 of 142 checks OK, longest gap 0 h 47 min · **Collecting since:** 2026-10-06 (4854 good checks)
+**Last check:** 2026-11-12 07:30 — ✅ OK (data feed)  
+**Last 24 h:** 142 of 142 checks OK, longest gap 0 h 47 min · **Collecting since:** 2026-10-06 (4855 good checks)
 
-## Tables running at 2026-11-12 07:20
+## Tables running at 2026-11-12 07:30
 
 No tables were running.
 
@@ -170,7 +170,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 04:00 | 🟩 85% | 🟥 12% | 🟥 7% | 🟨 34% | 🟨 45% | 🟥 0% | 🟥 2% | 🟥 0% | 123 |
 | 05:00 | 🟩 83% | 🟥 12% | 🟥 8% | 🟥 20% | 🟨 32% | 🟥 0% | 🟥 3% | 🟥 2% | 118 |
 | 06:00 | 🟩 76% | 🟥 13% | 🟥 4% | 🟥 21% | 🟥 17% | 🟥 0% | 🟥 3% | 🟥 3% | 112 |
-| 07:00 | 🟨 73% | 🟥 14% | 🟥 3% | 🟥 21% | 🟥 6% | 🟥 0% | 🟥 3% | 🟥 2% | 107 |
+| 07:00 | 🟨 72% | 🟥 14% | 🟥 3% | 🟥 20% | 🟥 6% | 🟥 0% | 🟥 3% | 🟥 2% | 108 |
 | 08:00 | 🟩 75% | 🟥 8% | 🟥 0% | 🟥 18% | 🟥 3% | 🟥 0% | 🟥 2% | 🟥 3% | 102 |
 | 09:00 | 🟨 71% | 🟥 3% | 🟥 0% | 🟥 19% | 🟥 1% | 🟥 0% | 🟥 1% | 🟥 2% | 90 |
 | 10:00 | 🟨 73% | 🟥 3% | 🟥 0% | 🟥 19% | 🟥 0% | 🟥 0% | 🟥 3% | 🟥 1% | 89 |
@@ -194,9 +194,9 @@ Average seated players per check on each kind of day, in total and for NLH and O
 
 | Days | Dates | Checks | Players | NLH | Omaha | vs normal, same hour |
 |:--|:--|--:|--:|--:|--:|--:|
-| Normal days | 6 Oct – 12 Nov (23 days) | 2704 | 32.4 | 22.7 | 9.6 | -0.0 |
+| Normal days | 6 Oct – 12 Nov (23 days) | 2705 | 32.4 | 22.7 | 9.6 | -0.0 |
 | ↳ with an Omaha tournament on the schedule | 10–23 Oct (3 days) | 428 | 50.5 | 36.7 | 13.8 | +19.3 |
-| ↳ without one | 7 Oct – 12 Nov (19 days) | 2219 | 29.1 | 20.3 | 8.8 | -3.6 |
+| ↳ without one | 7 Oct – 12 Nov (19 days) | 2220 | 29.0 | 20.3 | 8.8 | -3.6 |
 | 🎪 WSOP Super Circuit | 28 Oct – 11 Nov (15 days) | 2150 | 30.4 | 17.6 | 12.7 | -0.8 |
 
 ## Cash games vs tournaments
@@ -205,7 +205,7 @@ Cash players grouped by how many players were still in tournaments at the time. 
 
 | Tournament players in action | Checks | Avg cash players | vs usual for that hour |
 |:--|--:|--:|--:|
-| none | 2963 | 25 | -1 |
+| none | 2964 | 25 | -1 |
 | 1–49 | 757 | 26 | -20 |
 | 50–149 | 482 | 49 | +8 |
 | 150 or more | 503 | 68 | +29 |
@@ -216,7 +216,7 @@ NLH and PLO cash players depending on which tournament games were running. The g
 
 | Tournaments in play | Checks | NLH cash players | vs usual | PLO cash players | vs usual |
 |:--|--:|--:|--:|--:|--:|
-| none | 2963 | 15 | -1 | 10 | +1 |
+| none | 2964 | 15 | -1 | 10 | +1 |
 | only NLH tournaments | 1572 | 29 | +0 | 13 | -2 |
 | a PLO tournament | 124 | 49 | +23 | 20 | +6 |
 | other tournament games | 46 | 50 | +31 | 20 | +11 |
@@ -266,14 +266,14 @@ The most recent ones. The game is read from the tournament's name.
 
 | Room | Last check | OK in the last 24 h | Most common problem |
 |:--|:--|--:|:--|
-| King's Rozvadov | ✅ 11-12 07:20 | 142 of 142 | · |
-| [King's Prague](KINGS_PRAGUE.md) | ✅ 11-12 07:20 | 142 of 142 | · |
-| [Grand Casino Aš](GRAND_CASINO_AS.md) | ✅ 11-12 07:20 | 142 of 142 | · |
-| [Card Casino Šamorín](CARD_CASINO.md) | ✅ 11-12 07:20 | 125 of 142 | Card Casino's site didn't answer |
-| [Banco Casino Bratislava](BANCO.md) | ✅ 11-12 07:20 | 141 of 142 | URLError: urlopen error Errno 101 Network is unreachable |
-| [Olympic Park Tallinn](OLYMPIC_TALLINN.md) | ⚠️ 11-12 07:00 | 0 of 47 | blocked by the site's bot protection |
-| [Olympic Voodoo Riga](OLYMPIC_RIGA.md) | ⚠️ 11-12 07:00 | 0 of 47 | blocked by the site's bot protection |
-| [Olympic Casino Vilnius](OLYMPIC_VILNIUS.md) | ⚠️ 11-12 07:00 | 0 of 47 | blocked by the site's bot protection |
+| King's Rozvadov | ✅ 11-12 07:30 | 142 of 142 | · |
+| [King's Prague](KINGS_PRAGUE.md) | ✅ 11-12 07:30 | 142 of 142 | · |
+| [Grand Casino Aš](GRAND_CASINO_AS.md) | ✅ 11-12 07:30 | 142 of 142 | · |
+| [Card Casino Šamorín](CARD_CASINO.md) | ✅ 11-12 07:30 | 125 of 142 | Card Casino's site didn't answer |
+| [Banco Casino Bratislava](BANCO.md) | ✅ 11-12 07:30 | 141 of 142 | URLError: urlopen error Errno 101 Network is unreachable |
+| [Olympic Park Tallinn](OLYMPIC_TALLINN.md) | ⚠️ 11-12 07:30 | 0 of 48 | blocked by the site's bot protection |
+| [Olympic Voodoo Riga](OLYMPIC_RIGA.md) | ⚠️ 11-12 07:30 | 0 of 48 | blocked by the site's bot protection |
+| [Olympic Casino Vilnius](OLYMPIC_VILNIUS.md) | ⚠️ 11-12 07:30 | 0 of 48 | blocked by the site's bot protection |
 
 ---
 Raw data: the `data` folder, one CSV file per month. To open one in Excel, use Data → From Text/CSV (double-clicking puts everything in one column in Polish Excel). The tracker is `tracker.py`; its schedule is in `.github/workflows/track.yml`.  
