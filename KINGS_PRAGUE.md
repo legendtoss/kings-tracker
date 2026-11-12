@@ -2,10 +2,10 @@
 
 Prague's tables come in the same King's data feed as Rozvadov's, so they're read at every check (about every 10 minutes) without any extra visits, together with Prague's tournament clocks. All times are **Czech time** (same as Poland). Back to [King's Rozvadov](README.md).
 
-**Last check:** 2026-11-12 07:50 — ⚠️ error: King's feed came back empty and that couldn't be confirmed, so it wasn't counted as 0 tables — details in `debug/kings-prague_feed.json`  
-**Last 24 h:** 141 of 142 checks OK, longest gap 0 h 47 min · **Collecting since:** 2026-10-17 (3521 good checks)
+**Last check:** 2026-11-12 08:00 — ✅ OK  
+**Last 24 h:** 141 of 142 checks OK, longest gap 0 h 47 min · **Collecting since:** 2026-10-17 (3522 good checks)
 
-## Tables running at 2026-11-12 07:40
+## Tables running at 2026-11-12 08:00
 
 No tables were running.
 
@@ -74,7 +74,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 05:00 | 🟥 0% | 🟥 0% | 🟥 0% | 147 |
 | 06:00 | 🟥 0% | 🟥 0% | 🟥 0% | 138 |
 | 07:00 | 🟥 0% | 🟥 0% | 🟥 0% | 136 |
-| 08:00 | 🟥 0% | 🟥 0% | 🟥 0% | 129 |
+| 08:00 | 🟥 0% | 🟥 0% | 🟥 0% | 130 |
 | 09:00 | 🟥 0% | 🟥 0% | 🟥 0% | 120 |
 | 10:00 | 🟥 0% | 🟥 0% | 🟥 0% | 118 |
 | 11:00 | 🟥 0% | 🟥 0% | 🟥 0% | 124 |
@@ -97,14 +97,14 @@ Average seated players per check on each kind of day, in total and for NLH and O
 
 | Days | Dates | Checks | Players | NLH | Omaha | vs normal, same hour |
 |:--|:--|--:|--:|--:|--:|--:|
-| Normal days | 17 Oct – 12 Nov (26 days) | 3377 | 0.8 | 0.7 | 0.1 | +0.0 |
+| Normal days | 17 Oct – 12 Nov (26 days) | 3378 | 0.8 | 0.7 | 0.1 | +0.0 |
 | 📅 Public holidays | 28 Oct (1 day) | 144 | 0.0 | 0.0 | 0.0 | -0.7 |
 
 ## All games seen
 
 | Game | Running in | Most often | Last seen |
 |:--|--:|:--|:--|
-| NLH €2/4 | 12% of checks | Sat around 21:00 | 2026-11-10 02:20 |
+| NLH €2/4 | 11% of checks | Sat around 21:00 | 2026-11-10 02:20 |
 | PLO €2/2 | 1% of checks | Mon around 00:00 | 2026-10-27 01:30 |
 | PLO5 €5/5 | 0% of checks | Mon around 02:00 | 2026-10-26 02:20 |
 
