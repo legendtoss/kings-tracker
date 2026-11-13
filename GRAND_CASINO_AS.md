@@ -2,16 +2,16 @@
 
 Reads [Grand Casino Aš's live cash games](https://www.grandcasinoas.eu/en/poker/poker-live) every 10 minutes and its [current tournaments](https://www.grandcasinoas.eu/en/poker) every 30 minutes. All times are **Czech time** (same as Poland). Back to [King's](README.md).
 
-**Last check:** 2026-11-13 12:20 — ✅ OK  
-**Last 24 h:** 145 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-10 (4963 good checks)
+**Last check:** 2026-11-13 12:30 — ✅ OK  
+**Last 24 h:** 145 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-10 (4964 good checks)
 
-## Cash games at 2026-11-13 12:20
+## Cash games at 2026-11-13 12:30
 
 ```
 PLO/NLH           waiting
 ```
 
-**Tournaments in play at 2026-11-13 12:00:** Satellite to Main Event (NLH, €50, 83 of 147 left, level 7, blinds 400/800/800)
+**Tournaments in play at 2026-11-13 12:30:** Satellite to Main Event (NLH, €50, 62 of 147 left, level 9, blinds 600/1200/1200)
 
 ## Festivals and schedule
 
@@ -29,7 +29,7 @@ PLO/NLH           waiting
 
 ## Running cash tables by hour
 
-*Normal days only: 2371 checks during festivals, cash-game events or public holidays are compared separately in “Festivals, holidays and normal days” below.*
+*Normal days only: 2372 checks during festivals, cash-game events or public holidays are compared separately in “Festivals, holidays and normal days” below.*
 
 Average number of running tables (Grand Casino Aš shows which games run, not how many players).
 
@@ -101,7 +101,7 @@ Average running tables per check on each kind of day, in total and for NLH and O
 | ↳ with an Omaha tournament on the schedule | 30 Oct (1 day) | 144 | 0.6 | 0.6 | 0.0 | +0.4 |
 | ↳ without one | 10 Oct – 3 Nov (17 days) | 2448 | 0.2 | 0.1 | 0.0 | -0.0 |
 | 🎪 PLO festival | 15–18 Oct (4 days) | 578 | 0.5 | 0.3 | 0.1 | +0.4 |
-| 🎪 GRND festival | 4–13 Nov (10 days) | 1361 | 1.0 | 0.8 | 0.1 | +0.8 |
+| 🎪 GRND festival | 4–13 Nov (10 days) | 1362 | 1.0 | 0.8 | 0.1 | +0.8 |
 | 📅 Public holidays | 28 Oct – 1 Nov (3 days) | 432 | 0.7 | 0.6 | 0.0 | +0.5 |
 
 ## Tournaments seen
@@ -110,7 +110,7 @@ The most recent ones. The game is read from the tournament's name.
 
 | Tournament | Game | Buy-in | Entries | Seen |
 |:--|:--|--:|--:|:--|
-| Satellite to Main Event | NLH | €50 | 147 | 2026-11-12 12:00 → 11-13 12:00 |
+| Satellite to Main Event | NLH | €50 | 147 | 2026-11-12 12:00 → 11-13 12:30 |
 | Seven Always Comes | NLH | €77 | 257 | 2026-11-12 19:00 → 11-13 04:00 |
 | GRND Main Event 1B | NLH | €200 | 164 | 2026-11-12 15:00 → 11-13 00:30 |
 | GRND Kick Off IV | NLH | €60 | 122 | 2026-11-12 14:00 → 11-12 20:30 |
