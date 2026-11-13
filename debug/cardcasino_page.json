@@ -1,6 +1,9 @@
 {
- "saved_at": "2026-11-12T10:30:28+01:00",
- "status": "error: Card Casino's site didn't answer",
+ "saved_at": "2026-11-13T21:00:39+01:00",
+ "status": "error: the cash games list wasn't found on the page",
  "url": "https://www.cardcasino.sk/ajax/cashgames.php?lang=EN",
- "feed": "URLError: urlopen error timed out"
+ "feed": "HTTPError: HTTP Error 503: Service Unavailable",
+ "page_text_start": "Service Unavailable\n\nThe server is temporarily unable to service your request due to maintenance downtime or capacity problems. Please try again later.\n\nApache Server at www.cardcasino.sk Port 443",
+ "data_requests": [],
+ "cash_section_html": null
 }
