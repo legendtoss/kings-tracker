@@ -2,17 +2,17 @@
 
 Prague's tables come in the same King's data feed as Rozvadov's, so they're read at every check (about every 10 minutes) without any extra visits, together with Prague's tournament clocks. All times are **Czech time** (same as Poland). Back to [King's Rozvadov](README.md).
 
-**Last check:** 2026-11-13 21:50 — ✅ OK  
-**Last 24 h:** 143 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-17 (3747 good checks)
+**Last check:** 2026-11-13 22:00 — ✅ OK  
+**Last 24 h:** 143 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-17 (3748 good checks)
 
-## Tables running at 2026-11-13 21:50
+## Tables running at 2026-11-13 22:00
 
 ```
 NLH  €2/4     3/8 players
 ```
 **NLH:** 3 players at 1 table
 
-**Tournaments in play:** WOLF Millionaire - Day 1 PRAGUE (NLH, €350, 31 of 41 left, late reg open, level 4, blinds 300/600/600)
+**Tournaments in play:** WOLF Millionaire - Day 1 PRAGUE (NLH, €350, 33 of 43 left, late reg open, level 4, blinds 300/600/600)
 
 ## Festivals and schedule
 
@@ -91,7 +91,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 19:00 | 🟥 10% | 🟥 2% | 🟥 0% | 156 |
 | 20:00 | 🟥 22% | 🟥 0% | 🟥 0% | 161 |
 | 21:00 | 🟨 42% | 🟥 1% | 🟥 0% | 159 |
-| 22:00 | 🟨 48% | 🟥 3% | 🟥 0% | 154 |
+| 22:00 | 🟨 48% | 🟥 3% | 🟥 0% | 155 |
 | 23:00 | 🟨 44% | 🟥 5% | 🟥 0% | 154 |
 
 ## Festivals, holidays and normal days
@@ -100,14 +100,14 @@ Average seated players per check on each kind of day, in total and for NLH and O
 
 | Days | Dates | Checks | Players | NLH | Omaha | vs normal, same hour |
 |:--|:--|--:|--:|--:|--:|--:|
-| Normal days | 17 Oct – 13 Nov (27 days) | 3603 | 0.7 | 0.7 | 0.1 | +0.0 |
+| Normal days | 17 Oct – 13 Nov (27 days) | 3604 | 0.7 | 0.7 | 0.1 | -0.0 |
 | 📅 Public holidays | 28 Oct (1 day) | 144 | 0.0 | 0.0 | 0.0 | -0.7 |
 
 ## All games seen
 
 | Game | Running in | Most often | Last seen |
 |:--|--:|:--|:--|
-| NLH €2/4 | 11% of checks | Sat around 21:00 | 2026-11-13 21:50 |
+| NLH €2/4 | 11% of checks | Sat around 21:00 | 2026-11-13 22:00 |
 | PLO €2/2 | 1% of checks | Mon around 00:00 | 2026-10-27 01:30 |
 | PLO5 €5/5 | 0% of checks | Mon around 02:00 | 2026-10-26 02:20 |
 
@@ -117,7 +117,7 @@ The most recent ones. The game is read from the tournament's name.
 
 | Tournament | Game | Buy-in | Entries | Seen |
 |:--|:--|--:|--:|:--|
-| WOLF Millionaire - Day 1 PRAGUE | NLH | €350 | 41 | 2026-11-13 19:10 → 11-13 21:50 |
+| WOLF Millionaire - Day 1 PRAGUE | NLH | €350 | 43 | 2026-11-13 19:10 → 11-13 22:00 |
 | Satellite to WOLF ME - Day 1 PRAGUE | NLH | €60 | 92 | 2026-11-13 16:00 → 11-13 19:40 |
 | King's Prague Mystery Bounty Thursday | NLH | €100 | 68 | 2026-10-22 19:10 → 11-13 04:40 |
 | Satellite to King's Prague Mystery Thursday | NLH | €30 | 73 | 2026-10-21 18:30 → 11-12 19:00 |
