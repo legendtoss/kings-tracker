@@ -2,10 +2,10 @@
 
 Checks [its website](https://bancocasino.sk/ba/en) together with King's, about every 10 minutes. All times are **Czech time** (same as Poland and Slovakia). Back to [King's](README.md).
 
-**Last check:** 2026-11-14 09:30 — ✅ OK  
-**Checks so far:** 4589 successful out of 5103 (since 2026-10-10)
+**Last check:** 2026-11-14 09:40 — ✅ OK  
+**Checks so far:** 4590 successful out of 5104 (since 2026-10-10)
 
-## Tables running at 2026-11-14 09:30
+## Tables running at 2026-11-14 09:40
 
 ```
 NLH      €1/3     8 players
@@ -34,7 +34,7 @@ PLO 4/5  €2/2     8 players
 
 ## Busiest times so far
 
-*Normal days only: 1914 checks during festivals, cash-game events or public holidays are compared separately in “Festivals, holidays and normal days” below.*
+*Normal days only: 1915 checks during festivals, cash-game events or public holidays are compared separately in “Festivals, holidays and normal days” below.*
 
 Day, hour and average seated players (only day-hour slots seen on at least 2 different dates).
 
@@ -141,17 +141,17 @@ Average seated players per check on each kind of day, in total and for NLH and O
 | Days | Dates | Checks | Players | NLH | Omaha | vs normal, same hour |
 |:--|:--|--:|--:|--:|--:|--:|
 | Normal days | 13 Oct – 3 Nov (19 days) | 2675 | 5.2 | 3.0 | 1.9 | -0.0 |
-| 🎪 PPC festival | 4–14 Nov (11 days) | 1483 | 14.4 | 10.5 | 3.9 | +9.2 |
+| 🎪 PPC festival | 4–14 Nov (11 days) | 1484 | 14.4 | 10.5 | 3.9 | +9.2 |
 | 📅 Public holidays | 23 Oct – 1 Nov (3 days) | 431 | 3.2 | 1.8 | 1.3 | -1.9 |
 
 ## All games seen
 
 | Game | Running in | Most often | Last seen |
 |:--|--:|:--|:--|
-| NLH €1/3 | 44% of checks | Thu around 22:00 | 2026-11-14 09:30 |
+| NLH €1/3 | 44% of checks | Thu around 22:00 | 2026-11-14 09:40 |
 | NLH €2/5 | 6% of checks | Sat around 07:00 | 2026-11-11 18:10 |
 | PLO €2/2 | 0% of checks | Thu around 02:00 | 2026-11-05 03:30 |
-| PLO 4/5 €2/2 | 33% of checks | Tue around 18:00 | 2026-11-14 09:30 |
+| PLO 4/5 €2/2 | 33% of checks | Tue around 18:00 | 2026-11-14 09:40 |
 | PLO €2/5 | 1% of checks | Sun around 23:00 | 2026-11-09 03:30 |
 | PLO 4/5 €5/5 | 1% of checks | Mon around 04:00 | 2026-11-09 07:30 |
 | PLO €25/50 | 2% of checks | Thu around 20:00 | 2026-11-12 06:40 |
