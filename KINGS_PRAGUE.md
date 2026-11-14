@@ -2,14 +2,14 @@
 
 Prague's tables come in the same King's data feed as Rozvadov's, so they're read at every check (about every 10 minutes) without any extra visits, together with Prague's tournament clocks. All times are **Czech time** (same as Poland). Back to [King's Rozvadov](README.md).
 
-**Last check:** 2026-11-14 15:20 — ✅ OK  
-**Last 24 h:** 145 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-17 (3852 good checks)
+**Last check:** 2026-11-14 15:30 — ✅ OK  
+**Last 24 h:** 145 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-17 (3853 good checks)
 
-## Tables running at 2026-11-14 15:20
+## Tables running at 2026-11-14 15:30
 
 No tables were running.
 
-**Tournaments in play:** King's Prague Saturday Monsterstack (NLH, €100, 20 of 20 left, late reg open, level 1, blinds 200/400/400)
+**Tournaments in play:** King's Prague Saturday Monsterstack (NLH, €100, 24 of 24 left, late reg open, level 1, blinds 200/400/400)
 
 ## Festivals and schedule
 
@@ -81,7 +81,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 12:00 | 🟥 0% | 🟥 0% | 🟥 0% | 146 |
 | 13:00 | 🟥 0% | 🟥 0% | 🟥 0% | 158 |
 | 14:00 | 🟥 0% | 🟥 0% | 🟥 0% | 161 |
-| 15:00 | 🟥 0% | 🟥 0% | 🟥 0% | 158 |
+| 15:00 | 🟥 0% | 🟥 0% | 🟥 0% | 159 |
 | 16:00 | 🟥 0% | 🟥 0% | 🟥 0% | 153 |
 | 17:00 | 🟥 1% | 🟥 0% | 🟥 0% | 153 |
 | 18:00 | 🟥 8% | 🟥 0% | 🟥 0% | 153 |
@@ -97,7 +97,7 @@ Average seated players per check on each kind of day, in total and for NLH and O
 
 | Days | Dates | Checks | Players | NLH | Omaha | vs normal, same hour |
 |:--|:--|--:|--:|--:|--:|--:|
-| Normal days | 17 Oct – 14 Nov (28 days) | 3708 | 0.8 | 0.7 | 0.0 | -0.0 |
+| Normal days | 17 Oct – 14 Nov (28 days) | 3709 | 0.8 | 0.7 | 0.0 | -0.0 |
 | 📅 Public holidays | 28 Oct (1 day) | 144 | 0.0 | 0.0 | 0.0 | -0.7 |
 
 ## All games seen
@@ -114,7 +114,7 @@ The most recent ones. The game is read from the tournament's name.
 
 | Tournament | Game | Buy-in | Entries | Seen |
 |:--|:--|--:|--:|:--|
-| King's Prague Saturday Monsterstack | NLH | €100 | 80 | 2026-10-17 20:40 → 11-14 15:20 |
+| King's Prague Saturday Monsterstack | NLH | €100 | 80 | 2026-10-17 20:40 → 11-14 15:30 |
 | WOLF Millionaire - Day 1 PRAGUE | NLH | €350 | 60 | 2026-11-13 19:10 → 11-14 03:40 |
 | Satellite to WOLF ME - Day 1 PRAGUE | NLH | €60 | 92 | 2026-11-13 16:00 → 11-13 19:40 |
 | King's Prague Mystery Bounty Thursday | NLH | €100 | 68 | 2026-10-22 19:10 → 11-13 04:40 |
