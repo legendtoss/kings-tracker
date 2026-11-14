@@ -2,7 +2,7 @@
 
 Reads [OlyBet's live cash games page](https://olybetpoker.com/ee/en/cash-games/?club=6) every 30 minutes (their site has bot protection, so the tracker checks gently and simply records it when a check is refused). All times are **Czech time** (Tallinn is one hour ahead). Back to [King's](README.md).
 
-**Last check:** 2026-11-14 23:30 — ⚠️ error: couldn't read the cash games table (page saved for a closer look) — details in `debug/olympic-tallinn_page.json`  
+**Last check:** 2026-11-15 00:00 — ⚠️ error: couldn't read the cash games table (page saved for a closer look) — details in `debug/olympic-tallinn_page.json`  
 **Last 24 h:** 0 of 49 checks OK, longest gap 0 h 30 min · **Collecting since:** 2026-10-10 (273 good checks)
 
 **Club:** Olympic Park Casino
@@ -13,7 +13,7 @@ No tables were running.
 
 **Waiting lists:** 6 players · **All games listed:** NLH €1/3 (closed): 0 tables, 0/0 players, 3 waiting PLO/PLO5 €1/3 (closed): 0 tables, 0/0 players, 2 waiting PLO €5/5 (closed): 0 tables, 0/0 players, 0 waiting NLH €5/5 (closed): 0 tables, 0/0 players, 1 waiting
 
-**Tournaments on their site at 2026-11-14 21:00:** live 16:15 Olympic Park Casino NLH Epicbet Mystery Bounty 20,000 €150 19:00 Olympic Park Casino EPICBET SPORTSBOOK TOURNAMENT 1 €65 20:00 Olympic Park Casino 25€ NLH Wild Rebuys Satellite to 25.11 The Festival ME - 1665€ GTD 10,000 €25
+**Tournaments on their site at 2026-11-15 00:00:** live 14:00 Olympic Park Casino NLH Naisteliiga Tallinna etapp 2026 20,000 €80
 
 ## Festivals and schedule
 
@@ -33,6 +33,8 @@ No tables were running.
 | Fri 27 Nov | 15:00 | €350 | Pot Limit Omaha 4/5 (Event #54) |
 | Fri 27 Nov | 17:00 | €1 100 | Pot Limit Omaha - High Roller (Event #55) |
 | Sat 28 Nov | 13:00 | €350 | Pot Limit Omaha 4/5/6 - Bomb Pot Feature (Event #62) |
+| Sun 29 Nov | 12:30 | €100 | Pot Limit Omaha Flips Tournament - Round 1 - Accumulator (Event #70) |
+| Sun 29 Nov | 16:00 | · | Pot Limit Omaha Flips Tournament - Final - Accumulator (Event #70) |
 
 **Public holidays in the next 30 days** where most players come from (Estonia, Finland): Sun 6 Dec: Independence Day (Finland).
 
