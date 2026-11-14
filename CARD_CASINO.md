@@ -2,16 +2,16 @@
 
 Reads [Card Casino's live cash-game list](https://www.cardcasino.sk/en/cashgames/) together with King's, about every 10 minutes. All times are **Czech time** (same as Poland and Slovakia). Back to [King's](README.md).
 
-**Last check:** 2026-11-14 03:20 — ✅ OK (live list)  
-**Last 24 h:** 137 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-10 (4380 good checks)
+**Last check:** 2026-11-14 03:30 — ✅ OK (live list)  
+**Last 24 h:** 137 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-10 (4381 good checks)
 
-## Tables running at 2026-11-14 03:20
+## Tables running at 2026-11-14 03:30
 
 ```
-NLH  €1/2     7/8 players
+NLH  €1/2     8/8 players
 PLO  €2/2     8/8 players
 ```
-**NLH:** 7 players at 1 table · **PLO:** 8 players at 1 table
+**NLH:** 8 players at 1 table · **PLO:** 8 players at 1 table
 
 ## Festivals and schedule
 
@@ -101,7 +101,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 00:00 | 🟩 75% | 🟥 8% | 🟥 8% | 🟥 12% | 🟥 10% | 🟥 3% | 120 |
 | 01:00 | 🟨 55% | 🟥 4% | 🟥 5% | 🟥 13% | 🟥 9% | 🟥 5% | 125 |
 | 02:00 | 🟨 45% | 🟥 4% | 🟥 4% | 🟥 12% | 🟥 9% | 🟥 4% | 139 |
-| 03:00 | 🟨 43% | 🟥 1% | 🟥 2% | 🟥 11% | 🟥 7% | 🟥 4% | 125 |
+| 03:00 | 🟨 44% | 🟥 1% | 🟥 2% | 🟥 11% | 🟥 7% | 🟥 4% | 126 |
 | 04:00 | 🟨 28% | 🟥 0% | 🟥 1% | 🟥 12% | 🟥 8% | 🟥 4% | 128 |
 | 05:00 | 🟥 17% | 🟥 0% | 🟥 0% | 🟥 12% | 🟥 4% | 🟥 3% | 127 |
 | 06:00 | 🟥 9% | 🟥 0% | 🟥 0% | 🟥 9% | 🟥 4% | 🟥 6% | 127 |
@@ -129,18 +129,18 @@ Average seated players per check on each kind of day, in total and for NLH and O
 
 | Days | Dates | Checks | Players | NLH | Omaha | vs normal, same hour |
 |:--|:--|--:|--:|--:|--:|--:|
-| Normal days | 12 Oct – 14 Nov (26 days) | 3112 | 4.1 | 3.2 | 0.8 | -0.0 |
+| Normal days | 12 Oct – 14 Nov (26 days) | 3113 | 4.1 | 3.2 | 0.8 | -0.0 |
 | 💵 Cash game days: NLH/PLO/PLO5 from €10/20 | 10–11 Oct (2 days) | 240 | 11.9 | 6.2 | 5.7 | +8.1 |
 | 🎪 Main Event week | 20–25 Oct (6 days) | 771 | 8.5 | 7.0 | 1.4 | +4.3 |
-| 📅 Public holidays | 26 Oct – 1 Nov (2 days) | 257 | 5.9 | 4.2 | 1.7 | +1.8 |
+| 📅 Public holidays | 26 Oct – 1 Nov (2 days) | 257 | 5.9 | 4.2 | 1.7 | +1.7 |
 
 ## All games seen
 
 | Game | Running in | Most often | Last seen |
 |:--|--:|:--|:--|
-| NLH €1/2 | 23% of checks | Tue around 21:00 | 2026-11-14 03:20 |
+| NLH €1/2 | 23% of checks | Tue around 21:00 | 2026-11-14 03:30 |
 | NLH €1/3 | 13% of checks | Sun around 02:00 | 2026-10-26 03:30 |
-| PLO €2/2 | 4% of checks | Thu around 22:00 | 2026-11-14 03:20 |
+| PLO €2/2 | 4% of checks | Thu around 22:00 | 2026-11-14 03:30 |
 | PLO €5/5 | 8% of checks | Tue around 02:00 | 2026-11-10 05:50 |
 | PLO €10/10 | 6% of checks | Sat around 03:00 | 2026-10-24 06:40 |
 | PLO €100/100 | 1% of checks | Sat around 14:00 | 2026-10-10 20:40 |
