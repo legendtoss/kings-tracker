@@ -2,21 +2,20 @@
 
 Reads [Grand Casino Aš's live cash games](https://www.grandcasinoas.eu/en/poker/poker-live) every 10 minutes and its [current tournaments](https://www.grandcasinoas.eu/en/poker) every 30 minutes. All times are **Czech time** (same as Poland). Back to [King's](README.md).
 
-**Last check:** 2026-11-15 23:50 — ✅ OK  
-**Last 24 h:** 145 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-10 (5320 good checks)
+**Last check:** 2026-11-16 00:00 — ✅ OK  
+**Last 24 h:** 145 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-10 (5321 good checks)
 
-## Cash games at 2026-11-15 23:50
+## Cash games at 2026-11-16 00:00
 
 ```
 NLH      €1/2     running
 PLO/NLH           waiting
 ```
 
-**Tournaments in play at 2026-11-15 23:30:** GRND Main Event Final Day (NLH, €200, 11 of 1391 left, level 30, blinds 150000/300000/300000)
+**Tournaments in play at 2026-11-16 00:00:** GRND Main Event Final Day (NLH, €200, 9 of 1391 left, level 30, blinds 150000/300000/300000)
 
 ## Festivals and schedule
 
-- **Now:** 🎪 **GRND festival**, 4–15 Nov (festival) — €200 GRND Main Event 11–15 Nov; €350 GRND Highroller 6 Nov; €100 GRND Cup 8–11 Nov
 - **Coming up:** 🎟️ **Isar series**, 25–29 Nov (series) — €150 Isar Main Event 28 Nov · Omaha: €60 NLH/PLO/Crazy Pineapple (26 Nov 14:00); €100 PLO StackAttack (27 Nov 20:00)
 
 **Omaha tournaments in the next 14 days** (from `hendonmob.txt`):
@@ -67,7 +66,7 @@ Average number of running tables (Grand Casino Aš shows which games run, not ho
 
 | Hour | NLH €1/2 | PLO €2/2 | PLO 5Card €2/2 | DC €2/2 | Checks |
 |:--|--:|--:|--:|--:|--:|
-| 00:00 | 🟥 23% | 🟥 0% | 🟥 0% | 🟥 6% | 103 |
+| 00:00 | 🟥 24% | 🟥 0% | 🟥 0% | 🟥 6% | 104 |
 | 01:00 | 🟥 23% | 🟥 0% | 🟥 0% | 🟥 6% | 103 |
 | 02:00 | 🟥 22% | 🟥 0% | 🟥 0% | 🟥 6% | 109 |
 | 03:00 | 🟥 13% | 🟥 0% | 🟥 4% | 🟥 6% | 104 |
@@ -98,9 +97,9 @@ Average running tables per check on each kind of day, in total and for NLH and O
 
 | Days | Dates | Checks | Tables | NLH | Omaha | vs normal, same hour |
 |:--|:--|--:|--:|--:|--:|--:|
-| Normal days | 10 Oct – 3 Nov (18 days) | 2592 | 0.2 | 0.2 | 0.0 | -0.0 |
+| Normal days | 10 Oct – 16 Nov (19 days) | 2593 | 0.2 | 0.2 | 0.0 | -0.0 |
 | ↳ with an Omaha tournament on the schedule | 30 Oct (1 day) | 144 | 0.6 | 0.6 | 0.0 | +0.4 |
-| ↳ without one | 10 Oct – 3 Nov (17 days) | 2448 | 0.2 | 0.1 | 0.0 | -0.0 |
+| ↳ without one | 10 Oct – 16 Nov (18 days) | 2449 | 0.2 | 0.1 | 0.0 | -0.0 |
 | 🎪 PLO festival | 15–18 Oct (4 days) | 578 | 0.5 | 0.3 | 0.1 | +0.4 |
 | 🎪 GRND festival | 4–15 Nov (12 days) | 1718 | 1.2 | 1.0 | 0.2 | +1.0 |
 | 📅 Public holidays | 28 Oct – 1 Nov (3 days) | 432 | 0.7 | 0.6 | 0.0 | +0.5 |
@@ -111,7 +110,7 @@ The most recent ones. The game is read from the tournament's name.
 
 | Tournament | Game | Buy-in | Entries | Seen |
 |:--|:--|--:|--:|:--|
-| GRND Main Event Final Day | NLH | €200 | 1391 | 2026-11-15 13:00 → 11-15 23:30 |
+| GRND Main Event Final Day | NLH | €200 | 1391 | 2026-11-15 13:00 → 11-16 00:00 |
 | Kroko Cup II | NLH | €60 | 171 | 2026-11-15 13:00 → 11-15 22:00 |
 | GRND Main Event 1F Turbo | NLH | €200 | 147 | 2026-11-14 22:30 → 11-15 08:30 |
 | Cooldown | NLH | €100 | 283 | 2026-11-14 19:00 → 11-15 05:30 |
