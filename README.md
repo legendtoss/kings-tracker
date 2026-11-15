@@ -2,25 +2,26 @@
 
 Checks King's live cash games and tournaments about every 10 minutes and updates this page by itself. All times are **Czech time** (same as Poland). Also tracking: [King's Prague](KINGS_PRAGUE.md) · [Card Casino Šamorín](CARD_CASINO.md) · [Grand Casino Aš](GRAND_CASINO_AS.md) · [Banco Casino Bratislava](BANCO.md) · [Olympic Park Tallinn](OLYMPIC_TALLINN.md) · [Olympic Voodoo Riga](OLYMPIC_RIGA.md) · [Olympic Casino Vilnius](OLYMPIC_VILNIUS.md).
 
-**Right now:** King's: 5 tables, 40 players · [King's Prague](KINGS_PRAGUE.md): 0 tables, 0 players · [Card Casino Šamorín](CARD_CASINO.md): 0 tables, 0 players · [Grand Casino Aš](GRAND_CASINO_AS.md) 🎪 GRND festival: 0 tables running, 1 waiting · [Olympic Park Tallinn](OLYMPIC_TALLINN.md): blocked at 13:30 · [Olympic Voodoo Riga](OLYMPIC_RIGA.md): blocked at 13:30 · [Olympic Vilnius](OLYMPIC_VILNIUS.md): blocked at 13:30 · [Banco](BANCO.md) 🎪 PPC festival: 3 tables, 24 players
+**Right now:** King's: 6 tables, 46 players · [King's Prague](KINGS_PRAGUE.md): 0 tables, 0 players · [Card Casino Šamorín](CARD_CASINO.md): 0 tables, 0 players · [Grand Casino Aš](GRAND_CASINO_AS.md) 🎪 GRND festival: 0 tables running, 1 waiting · [Olympic Park Tallinn](OLYMPIC_TALLINN.md): blocked at 13:30 · [Olympic Voodoo Riga](OLYMPIC_RIGA.md): blocked at 13:30 · [Olympic Vilnius](OLYMPIC_VILNIUS.md): blocked at 13:30 · [Banco](BANCO.md) 🎪 PPC festival: 3 tables, 24 players
 
 **🎯 Omaha right now:** King's Rozvadov: PLO €2/2 (8 players)
 
-**Last check:** 2026-11-15 13:40 — ✅ OK (data feed)  
-**Last 24 h:** 145 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-06 (5322 good checks)
+**Last check:** 2026-11-15 13:50 — ✅ OK (data feed)  
+**Last 24 h:** 145 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-06 (5323 good checks)
 
-## Tables running at 2026-11-15 13:40
+## Tables running at 2026-11-15 13:50
 
 ```
 NLH  €1/2     8/8 players
 NLH  €1/2     8/8 players
-NLH  €1/2     8/8 players
+NLH  €1/2     7/8 players
+NLH  €1/2     7/8 players
 NLH  €2/4     8/8 players
 PLO  €2/2     8/8 players
 ```
-**NLH:** 32 players at 4 tables · **PLO:** 8 players at 1 table
+**NLH:** 38 players at 5 tables · **PLO:** 8 players at 1 table
 
-**Tournaments in play:** WOLF Millionaire - 1G Turbo (NLH, €350, 183 of 323 left, late reg open, level 10, blinds 1500/3000/3000)
+**Tournaments in play:** WOLF Millionaire - 1G Turbo (NLH, €350, 170 of 334 left, late reg open, level 10, blinds 1500/3000/3000)
 
 ## Festivals and schedule
 
@@ -94,7 +95,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 10:00 | 4 | 2 | 0 | 4 | 4 | 13 | 11 | 7 |
 | 11:00 | 4 | 1 | 1 | 4 | 9 | 11 | 12 | 7 |
 | 12:00 | 8 | 1 | 5 | 3 | 13 | 17 | 21 | 11 |
-| 13:00 | 7 | 2 | 8 | 3 | 18 | 25 | 29 | 14 |
+| 13:00 | 7 | 2 | 8 | 3 | 18 | 25 | 30 | 15 |
 | 14:00 | 9 | 6 | 9 | 4 | 21 | 32 | 43 | 19 |
 | 15:00 | 13 | 7 | 10 | 7 | 23 | 40 | 49 | 22 |
 | 16:00 | 13 | 9 | 9 | 13 | 31 | 48 | 50 | 26 |
@@ -183,7 +184,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 10:00 | 🟨 63% | 🟥 8% | 🟥 0% | 🟨 26% | 🟥 0% | 🟥 0% | 🟥 13% | 🟥 1% | 113 |
 | 11:00 | 🟨 68% | 🟥 8% | 🟥 0% | 🟨 34% | 🟥 2% | 🟥 0% | 🟥 13% | 🟥 0% | 118 |
 | 12:00 | 🟩 76% | 🟥 18% | 🟥 0% | 🟨 35% | 🟥 6% | 🟥 0% | 🟥 7% | 🟥 0% | 125 |
-| 13:00 | 🟩 80% | 🟥 19% | 🟥 0% | 🟨 39% | 🟥 15% | 🟥 0% | 🟥 7% | 🟥 0% | 133 |
+| 13:00 | 🟩 80% | 🟥 19% | 🟥 0% | 🟨 40% | 🟥 15% | 🟥 0% | 🟥 7% | 🟥 0% | 134 |
 | 14:00 | 🟩 84% | 🟥 22% | 🟥 0% | 🟨 40% | 🟥 22% | 🟥 0% | 🟥 5% | 🟥 0% | 132 |
 | 15:00 | 🟩 89% | 🟨 28% | 🟥 2% | 🟨 52% | 🟨 31% | 🟥 1% | 🟥 2% | 🟥 0% | 130 |
 | 16:00 | 🟩 93% | 🟨 34% | 🟥 0% | 🟨 55% | 🟨 44% | 🟥 4% | 🟥 2% | 🟥 0% | 135 |
@@ -201,9 +202,9 @@ Average seated players per check on each kind of day, in total and for NLH and O
 
 | Days | Dates | Checks | Players | NLH | Omaha | vs normal, same hour |
 |:--|:--|--:|--:|--:|--:|--:|
-| Normal days | 6 Oct – 15 Nov (26 days) | 3172 | 34.6 | 24.2 | 10.3 | +0.0 |
+| Normal days | 6 Oct – 15 Nov (26 days) | 3173 | 34.6 | 24.2 | 10.3 | +0.0 |
 | ↳ with an Omaha tournament on the schedule | 10–23 Oct (3 days) | 428 | 50.5 | 36.7 | 13.8 | +16.8 |
-| ↳ without one | 7 Oct – 15 Nov (22 days) | 2687 | 32.2 | 22.5 | 9.7 | -2.6 |
+| ↳ without one | 7 Oct – 15 Nov (22 days) | 2688 | 32.2 | 22.5 | 9.7 | -2.6 |
 | 🎪 WSOP Super Circuit | 28 Oct – 11 Nov (15 days) | 2150 | 30.4 | 17.6 | 12.7 | -3.3 |
 
 ## Cash games vs tournaments
@@ -215,7 +216,7 @@ Cash players grouped by how many players were still in tournaments at the time. 
 | none | 3117 | 24 | -1 |
 | 1–49 | 830 | 26 | -21 |
 | 50–149 | 570 | 52 | +9 |
-| 150 or more | 651 | 69 | +28 |
+| 150 or more | 652 | 69 | +28 |
 
 ### Cash games by tournament type
 
@@ -224,7 +225,7 @@ NLH and PLO cash players depending on which tournament games were running. The g
 | Tournaments in play | Checks | NLH cash players | vs usual | PLO cash players | vs usual |
 |:--|--:|--:|--:|--:|--:|
 | none | 3117 | 15 | -2 | 10 | +1 |
-| only NLH tournaments | 1813 | 30 | +1 | 14 | -1 |
+| only NLH tournaments | 1814 | 30 | +1 | 14 | -1 |
 | a PLO tournament | 192 | 51 | +22 | 19 | +4 |
 | other tournament games | 46 | 50 | +31 | 20 | +11 |
 
@@ -232,12 +233,12 @@ NLH and PLO cash players depending on which tournament games were running. The g
 
 | Game | Running in | Most often | Last seen |
 |:--|--:|:--|:--|
-| NLH €1/2 | 81% of checks | Sun around 02:00 | 2026-11-15 13:40 |
-| NLH €2/4 | 35% of checks | Sat around 01:00 | 2026-11-15 13:40 |
+| NLH €1/2 | 81% of checks | Sun around 02:00 | 2026-11-15 13:50 |
+| NLH €2/4 | 35% of checks | Sat around 01:00 | 2026-11-15 13:50 |
 | NLH €5/10 | 10% of checks | Sat around 23:00 | 2026-11-14 23:20 |
 | NLH €10/25 | 4% of checks | Thu around 01:00 | 2026-11-08 08:30 |
 | NLH €25/50 | 0% of checks | Fri around 05:00 | 2026-11-07 07:50 |
-| PLO €2/2 | 47% of checks | Sun around 02:00 | 2026-11-15 13:40 |
+| PLO €2/2 | 47% of checks | Sun around 02:00 | 2026-11-15 13:50 |
 | PLO5 €5/5 | 54% of checks | Sat around 23:00 | 2026-11-15 08:10 |
 | PLO5 €5/10 | 1% of checks | Sat around 16:00 | 2026-11-09 06:20 |
 | PLO5 €10/10 | 18% of checks | Fri around 23:00 | 2026-11-15 11:50 |
@@ -253,7 +254,7 @@ The most recent ones. The game is read from the tournament's name.
 
 | Tournament | Game | Buy-in | Entries | Seen |
 |:--|:--|--:|--:|:--|
-| WOLF Millionaire - 1G Turbo | NLH | €350 | 323 | 2026-11-15 11:00 → 11-15 13:40 |
+| WOLF Millionaire - 1G Turbo | NLH | €350 | 334 | 2026-11-15 11:00 → 11-15 13:50 |
 | WOLF Millionaire - Day 1F Speed | NLH | €350 | 414 | 2026-11-14 18:00 → 11-15 04:10 |
 | WOLF Millionaire - Day 1E | NLH | €350 | 563 | 2026-11-14 11:00 → 11-14 23:30 |
 | Flip n Go Satellite (8 handed) to WOLF Millionaire | NLH | €55 | 30 | 2026-11-13 17:00 → 11-14 18:20 |
@@ -273,11 +274,11 @@ The most recent ones. The game is read from the tournament's name.
 
 | Room | Last check | OK in the last 24 h | Most common problem |
 |:--|:--|--:|:--|
-| King's Rozvadov | ✅ 11-15 13:40 | 145 of 145 | · |
-| [King's Prague](KINGS_PRAGUE.md) | ✅ 11-15 13:40 | 145 of 145 | · |
-| [Grand Casino Aš](GRAND_CASINO_AS.md) | ✅ 11-15 13:40 | 145 of 145 | · |
-| [Card Casino Šamorín](CARD_CASINO.md) | ✅ 11-15 13:40 | 135 of 145 | Card Casino's site didn't answer |
-| [Banco Casino Bratislava](BANCO.md) | ✅ 11-15 13:40 | 143 of 145 | HTTPError: HTTP Error 429: Too Many Requests |
+| King's Rozvadov | ✅ 11-15 13:50 | 145 of 145 | · |
+| [King's Prague](KINGS_PRAGUE.md) | ✅ 11-15 13:50 | 145 of 145 | · |
+| [Grand Casino Aš](GRAND_CASINO_AS.md) | ✅ 11-15 13:50 | 145 of 145 | · |
+| [Card Casino Šamorín](CARD_CASINO.md) | ✅ 11-15 13:50 | 135 of 145 | Card Casino's site didn't answer |
+| [Banco Casino Bratislava](BANCO.md) | ✅ 11-15 13:50 | 143 of 145 | HTTPError: HTTP Error 429: Too Many Requests |
 | [Olympic Park Tallinn](OLYMPIC_TALLINN.md) | ⚠️ 11-15 13:30 | 0 of 48 | blocked by the site's bot protection |
 | [Olympic Voodoo Riga](OLYMPIC_RIGA.md) | ⚠️ 11-15 13:30 | 0 of 48 | blocked by the site's bot protection |
 | [Olympic Casino Vilnius](OLYMPIC_VILNIUS.md) | ⚠️ 11-15 13:30 | 0 of 48 | blocked by the site's bot protection |
