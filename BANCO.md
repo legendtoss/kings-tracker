@@ -2,8 +2,8 @@
 
 Checks [its website](https://bancocasino.sk/ba/en) together with King's, about every 10 minutes. All times are **Czech time** (same as Poland and Slovakia). Back to [King's](README.md).
 
-**Last check:** 2026-11-15 20:30 — ✅ OK  
-**Checks so far:** 4794 successful out of 5313 (since 2026-10-10)
+**Last check:** 2026-11-15 20:40 — ⚠️ error: HTTPError: HTTP Error 429: Too Many Requests  
+**Checks so far:** 4794 successful out of 5314 (since 2026-10-10)
 
 ## Tables running at 2026-11-15 20:30
 
