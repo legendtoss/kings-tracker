@@ -1,8 +1,8 @@
 # 🃏 Olympic Casino Vilnius — cash game tracker
 
-Reads [OlyBet's live cash games page](https://olybetpoker.com/lt/cash-games/?club=10) every 30 minutes (their site has bot protection, so the tracker checks gently and simply records it when a check is refused). All times are **Czech time** (Vilnius is one hour ahead). Back to [King's](README.md).
+Reads [OlyBet's live cash games page](https://olybetpoker.com/lt/en/cash-games/) every 30 minutes (their site has bot protection, so the tracker checks gently and simply records it when a check is refused). All times are **Czech time** (Vilnius is one hour ahead). Back to [King's](README.md).
 
-**Last check:** 2026-11-16 14:30 — ⚠️ error: couldn't confirm the page shows the right club — details in `debug/olympic-vilnius_page.json`  
+**Last check:** 2026-11-16 15:00 — ⚠️ error: blocked by the site's bot protection — details in `debug/olympic-vilnius_page.json`  
 **Last 24 h:** 0 of 49 checks OK, longest gap 0 h 33 min · **Collecting since:** 2026-10-10 (326 good checks)
 
 **Club:** Olympic Casino Vilnius, Lietuva
