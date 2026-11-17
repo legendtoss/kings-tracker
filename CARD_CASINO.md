@@ -2,20 +2,19 @@
 
 Reads [Card Casino's live cash-game list](https://www.cardcasino.sk/en/cashgames/) together with King's, about every 10 minutes. All times are **Czech time** (same as Poland and Slovakia). Back to [King's](README.md).
 
-**Last check:** 2026-11-17 02:50 — ✅ OK (live list)  
-**Last 24 h:** 130 of 143 checks OK, longest gap 0 h 20 min · **Collecting since:** 2026-10-10 (4774 good checks)
+**Last check:** 2026-11-17 03:00 — ✅ OK (live list)  
+**Last 24 h:** 130 of 143 checks OK, longest gap 0 h 20 min · **Collecting since:** 2026-10-10 (4775 good checks)
 
-## Tables running at 2026-11-17 02:50
+## Tables running at 2026-11-17 03:00
 
 ```
 NLH  €1/2     8/8 players
 NLH  €1/2     7/8 players
-PLO  €2/2     7/8 players
-PLO  €5/5     7/8 players
+PLO  €2/2     8/8 players
 PLO  €5/5     6/8 players
 PLO  €5/10    8/8 players
 ```
-**NLH:** 15 players at 2 tables · **PLO:** 28 players at 4 tables
+**NLH:** 15 players at 2 tables · **PLO:** 22 players at 3 tables
 
 ## Festivals and schedule
 
@@ -45,7 +44,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 00:00 | 10 | 7 | 4 | 6 | 5 | 23 | 24 | 11 |
 | 01:00 | 7 | 3 | 2 | 5 | 5 | 21 | 18 | 9 |
 | 02:00 | 4 | 4 | 2 | 2 | 3 | 17 | 18 | 7 |
-| 03:00 | 2 | 0 | 1 | 2 | 2 | 11 | 16 | 5 |
+| 03:00 | 2 | 1 | 1 | 2 | 2 | 11 | 16 | 5 |
 | 04:00 | 1 | 0 | 1 | 0 | 0 | 5 | 11 | 2 |
 | 05:00 | 1 | 0 | 1 | 0 | 0 | 4 | 6 | 2 |
 | 06:00 | 0 | 0 | 0 | 0 | 0 | 2 | 5 | 1 |
@@ -74,7 +73,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 00:00 | 2 | 11 | 0 | 0 | 0 | 3 | 3 | 3 |
 | 01:00 | 1 | 9 | 0 | 0 | 0 | 3 | 2 | 3 |
 | 02:00 | 1 | 11 | 0 | 0 | 0 | 2 | 1 | 3 |
-| 03:00 | 1 | 6 | 0 | 0 | 0 | 2 | 0 | 1 |
+| 03:00 | 1 | 7 | 0 | 0 | 0 | 2 | 0 | 2 |
 | 04:00 | 2 | 5 | 0 | 0 | 0 | 1 | 0 | 1 |
 | 05:00 | 1 | 3 | 0 | 0 | 0 | 0 | 0 | 1 |
 | 06:00 | 1 | 3 | 0 | 0 | 0 | 0 | 0 | 1 |
@@ -105,7 +104,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 00:00 | 🟩 78% | 🟥 7% | 🟥 12% | 🟥 14% | 🟥 4% | 🟥 9% | 🟥 3% | 137 |
 | 01:00 | 🟨 60% | 🟥 4% | 🟥 11% | 🟥 14% | 🟥 3% | 🟥 8% | 🟥 4% | 140 |
 | 02:00 | 🟨 51% | 🟥 4% | 🟥 11% | 🟥 15% | 🟥 4% | 🟥 8% | 🟥 4% | 156 |
-| 03:00 | 🟨 49% | 🟥 1% | 🟥 4% | 🟥 10% | 🟥 0% | 🟥 6% | 🟥 4% | 140 |
+| 03:00 | 🟨 50% | 🟥 1% | 🟥 5% | 🟥 11% | 🟥 1% | 🟥 6% | 🟥 4% | 141 |
 | 04:00 | 🟨 34% | 🟥 0% | 🟥 5% | 🟥 10% | 🟥 0% | 🟥 7% | 🟥 3% | 143 |
 | 05:00 | 🟥 23% | 🟥 0% | 🟥 3% | 🟥 10% | 🟥 0% | 🟥 3% | 🟥 3% | 145 |
 | 06:00 | 🟥 13% | 🟥 0% | 🟥 0% | 🟥 8% | 🟥 0% | 🟥 4% | 🟥 5% | 142 |
@@ -133,20 +132,20 @@ Average seated players per check on each kind of day, in total and for NLH and O
 
 | Days | Dates | Checks | Players | NLH | Omaha | vs normal, same hour |
 |:--|:--|--:|--:|--:|--:|--:|
-| Normal days | 12 Oct – 17 Nov (29 days) | 3506 | 4.5 | 3.4 | 1.0 | +0.0 |
+| Normal days | 12 Oct – 17 Nov (29 days) | 3507 | 4.5 | 3.4 | 1.0 | -0.0 |
 | 💵 Cash game days: NLH/PLO/PLO5 from €10/20 | 10–11 Oct (2 days) | 240 | 11.9 | 6.2 | 5.7 | +7.8 |
-| 🎪 Main Event week | 20–25 Oct (6 days) | 771 | 8.5 | 7.0 | 1.4 | +3.9 |
+| 🎪 Main Event week | 20–25 Oct (6 days) | 771 | 8.5 | 7.0 | 1.4 | +3.8 |
 | 📅 Public holidays | 26 Oct – 1 Nov (2 days) | 257 | 5.9 | 4.2 | 1.7 | +1.4 |
 
 ## All games seen
 
 | Game | Running in | Most often | Last seen |
 |:--|--:|:--|:--|
-| NLH €1/2 | 25% of checks | Tue around 21:00 | 2026-11-17 02:50 |
+| NLH €1/2 | 25% of checks | Tue around 21:00 | 2026-11-17 03:00 |
 | NLH €1/3 | 12% of checks | Sun around 02:00 | 2026-10-26 03:30 |
-| PLO €2/2 | 5% of checks | Sat around 22:00 | 2026-11-17 02:50 |
-| PLO €5/5 | 8% of checks | Tue around 02:00 | 2026-11-17 02:50 |
-| PLO €5/10 | 1% of checks | Mon around 21:00 | 2026-11-17 02:50 |
+| PLO €2/2 | 5% of checks | Sat around 22:00 | 2026-11-17 03:00 |
+| PLO €5/5 | 8% of checks | Tue around 02:00 | 2026-11-17 03:00 |
+| PLO €5/10 | 1% of checks | Mon around 21:00 | 2026-11-17 03:00 |
 | PLO €10/10 | 5% of checks | Sat around 03:00 | 2026-10-24 06:40 |
 | PLO €100/100 | 1% of checks | Sat around 14:00 | 2026-10-10 20:40 |
 | PLO €100/200 | 1% of checks | Sat around 21:00 | 2026-10-11 05:10 |
