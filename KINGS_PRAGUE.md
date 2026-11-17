@@ -2,8 +2,8 @@
 
 Prague's tables come in the same King's data feed as Rozvadov's, so they're read at every check (about every 10 minutes) without any extra visits, together with Prague's tournament clocks. All times are **Czech time** (same as Poland). Back to [King's Rozvadov](README.md).
 
-**Last check:** 2026-11-17 02:10 — ✅ OK  
-**Last 24 h:** 143 of 143 checks OK, longest gap 0 h 20 min · **Collecting since:** 2026-10-17 (4203 good checks)
+**Last check:** 2026-11-17 02:20 — ⚠️ error: King's feed came back empty and that couldn't be confirmed, so it wasn't counted as 0 tables — details in `debug/kings-prague_feed.json`  
+**Last 24 h:** 142 of 143 checks OK, longest gap 0 h 20 min · **Collecting since:** 2026-10-17 (4203 good checks)
 
 ## Tables running at 2026-11-17 02:10
 
@@ -114,7 +114,7 @@ The most recent ones. The game is read from the tournament's name.
 
 | Tournament | Game | Buy-in | Entries | Seen |
 |:--|:--|--:|--:|:--|
-| King's Prague Beginner's Monday | NLH | €60 | 111 | 2026-10-19 18:00 → 11-17 02:10 |
+| King's Prague Beginner's Monday | NLH | €60 | 111 | 2026-10-19 18:00 → 11-17 02:20 |
 | King's Prague Sunday Knockout (Bounty 25 ) | NLH | €55 | 87 | 2026-10-18 17:10 → 11-16 01:20 |
 | King's Prague Saturday Monsterstack | NLH | €100 | 90 | 2026-10-17 20:40 → 11-15 03:50 |
 | WOLF Millionaire - Day 1 PRAGUE | NLH | €350 | 60 | 2026-11-13 19:10 → 11-14 03:40 |
