@@ -2,14 +2,14 @@
 
 Prague's tables come in the same King's data feed as Rozvadov's, so they're read at every check (about every 10 minutes) without any extra visits, together with Prague's tournament clocks. All times are **Czech time** (same as Poland). Back to [King's Rozvadov](README.md).
 
-**Last check:** 2026-11-18 00:30 — ✅ OK  
-**Last 24 h:** 104 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-17 (4296 good checks)
+**Last check:** 2026-11-18 00:40 — ✅ OK  
+**Last 24 h:** 104 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-17 (4297 good checks)
 
-## Tables running at 2026-11-18 00:30
+## Tables running at 2026-11-18 00:40
 
 No tables were running.
 
-**Tournaments in play:** King's Prague Beginner's Mystery Bounty (NLH, €30, €20 bounty, 9 of 63 left, level 17, blinds 5000/10000/10000)
+**Tournaments in play:** King's Prague Beginner's Mystery Bounty (NLH, €30, €20 bounty, 8 of 63 left, level 18, blinds 6000/12000/12000)
 
 ## Festivals and schedule
 
@@ -66,7 +66,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 
 | Hour | NLH €2/4 | PLO €2/2 | PLO5 €5/5 | Checks |
 |:--|--:|--:|--:|--:|
-| 00:00 | 🟨 41% | 🟥 6% | 🟥 0% | 177 |
+| 00:00 | 🟨 41% | 🟥 6% | 🟥 0% | 178 |
 | 01:00 | 🟨 33% | 🟥 6% | 🟥 0% | 174 |
 | 02:00 | 🟥 15% | 🟥 1% | 🟥 1% | 181 |
 | 03:00 | 🟥 3% | 🟥 0% | 🟥 0% | 171 |
@@ -97,7 +97,7 @@ Average seated players per check on each kind of day, in total and for NLH and O
 
 | Days | Dates | Checks | Players | NLH | Omaha | vs normal, same hour |
 |:--|:--|--:|--:|--:|--:|--:|
-| Normal days | 17 Oct – 18 Nov (31 days) | 4049 | 0.7 | 0.7 | 0.0 | +0.0 |
+| Normal days | 17 Oct – 18 Nov (31 days) | 4050 | 0.7 | 0.7 | 0.0 | +0.0 |
 | 📅 Public holidays | 28 Oct – 17 Nov (2 days) | 247 | 0.0 | 0.0 | 0.0 | -0.8 |
 
 ## All games seen
@@ -114,7 +114,7 @@ The most recent ones. The game is read from the tournament's name.
 
 | Tournament | Game | Buy-in | Entries | Seen |
 |:--|:--|--:|--:|:--|
-| King's Prague Beginner's Mystery Bounty | NLH | €30 | 72 | 2026-10-20 18:20 → 11-18 00:30 |
+| King's Prague Beginner's Mystery Bounty | NLH | €30 | 72 | 2026-10-20 18:20 → 11-18 00:40 |
 | King's Prague Beginner's Monday | NLH | €60 | 111 | 2026-10-19 18:00 → 11-17 02:30 |
 | King's Prague Sunday Knockout (Bounty 25 ) | NLH | €55 | 87 | 2026-10-18 17:10 → 11-16 01:20 |
 | King's Prague Saturday Monsterstack | NLH | €100 | 90 | 2026-10-17 20:40 → 11-15 03:50 |
