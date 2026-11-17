@@ -2,10 +2,10 @@
 
 Checks [its website](https://bancocasino.sk/ba/en) together with King's, about every 10 minutes. All times are **Czech time** (same as Poland and Slovakia). Back to [King's](README.md).
 
-**Last check:** 2026-11-17 00:50 — ✅ OK  
-**Checks so far:** 4958 successful out of 5481 (since 2026-10-10)
+**Last check:** 2026-11-17 01:00 — ✅ OK  
+**Checks so far:** 4959 successful out of 5482 (since 2026-10-10)
 
-## Tables running at 2026-11-17 00:50
+## Tables running at 2026-11-17 01:00
 
 No tables were running.
 
@@ -40,7 +40,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | Hour | Mon | Tue | Wed | Thu | Fri | Sat | Sun | All days |
 |:--|--:|--:|--:|--:|--:|--:|--:|--:|
 | 00:00 | 4 | 6 | 7 | 8 | 3 | 10 | 15 | 8 |
-| 01:00 | 4 | 8 | 5 | 10 | 3 | 11 | 11 | 8 |
+| 01:00 | 4 | 7 | 5 | 10 | 3 | 11 | 11 | 7 |
 | 02:00 | 4 | 6 | 5 | 8 | 3 | 11 | 13 | 8 |
 | 03:00 | 3 | 3 | 3 | 5 | 2 | 10 | 12 | 5 |
 | 04:00 | 4 | 2 | 1 | 4 | 0 | 6 | 11 | 4 |
@@ -100,7 +100,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | Hour | NLH €1/3 | NLH €2/5 | PLO 4/5 €2/2 | PLO €25/50 | Dealer's Choice €2/2 | Checks |
 |:--|--:|--:|--:|--:|--:|--:|
 | 00:00 | 🟨 68% | 🟥 11% | 🟨 26% | 🟥 5% | 🟥 0% | 114 |
-| 01:00 | 🟨 66% | 🟥 11% | 🟥 23% | 🟥 5% | 🟥 0% | 110 |
+| 01:00 | 🟨 66% | 🟥 11% | 🟥 23% | 🟥 5% | 🟥 0% | 111 |
 | 02:00 | 🟨 68% | 🟥 6% | 🟥 21% | 🟥 5% | 🟥 0% | 115 |
 | 03:00 | 🟨 53% | 🟥 7% | 🟨 28% | 🟥 6% | 🟥 0% | 109 |
 | 04:00 | 🟨 41% | 🟥 6% | 🟥 19% | 🟥 6% | 🟥 0% | 108 |
@@ -130,7 +130,7 @@ Average seated players per check on each kind of day, in total and for NLH and O
 
 | Days | Dates | Checks | Players | NLH | Omaha | vs normal, same hour |
 |:--|:--|--:|--:|--:|--:|--:|
-| Normal days | 13 Oct – 17 Nov (20 days) | 2681 | 5.2 | 3.0 | 1.8 | +0.0 |
+| Normal days | 13 Oct – 17 Nov (20 days) | 2682 | 5.2 | 3.0 | 1.8 | +0.0 |
 | 🎪 PPC festival | 4–16 Nov (13 days) | 1846 | 16.1 | 12.0 | 4.0 | +10.9 |
 | 📅 Public holidays | 23 Oct – 1 Nov (3 days) | 431 | 3.2 | 1.8 | 1.3 | -1.9 |
 
