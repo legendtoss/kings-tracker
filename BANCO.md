@@ -2,10 +2,10 @@
 
 Checks [its website](https://bancocasino.sk/ba/en) together with King's, about every 10 minutes. All times are **Czech time** (same as Poland and Slovakia). Back to [King's](README.md).
 
-**Last check:** 2026-11-17 23:50 — ✅ OK  
-**Checks so far:** 5095 successful out of 5619 (since 2026-10-10)
+**Last check:** 2026-11-18 00:00 — ✅ OK  
+**Checks so far:** 5096 successful out of 5620 (since 2026-10-10)
 
-## Tables running at 2026-11-17 23:50
+## Tables running at 2026-11-18 00:00
 
 No tables were running.
 
@@ -18,7 +18,11 @@ No tables were running.
 
 - **Coming up:** 🎪 **Masters festival**, 1–7 Dec (festival) — €170 main event 1–7 Dec; €550 SPT Challenger 4–5 Dec; €550 10-Game Mix 4–6 Dec · Omaha: €250 PLO Masters Main Event 8-Max (3–5 Dec); €60 PLO Nightly Turbo (2 Dec 21:00); €150 NLH/PLO level of each (3 Dec 21:00); €130 PLO Masters Mystery Bounty (4 Dec 16:00); €150 Big O Masters (5 Dec 19:00); €60 PLO 4/5/6 Masters 7-Max (6 Dec 20:00)
 
-No Omaha tournaments on the schedule in the next 14 days.
+**Omaha tournaments in the next 14 days** (from `hendonmob.txt`):
+
+| Day | Time (local) | Buy-in | Tournament |
+|:--|:--|--:|:--|
+| Wed 2 Dec | 21:00 | €60 | Pot Limit Omaha - Nightly Turbo |
 
 **Public holidays in the next 30 days** where most players come from (Slovakia, Austria, Hungary): Tue 8 Dec: Immaculate Conception (Austria).
 
@@ -39,7 +43,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 
 | Hour | Mon | Tue | Wed | Thu | Fri | Sat | Sun | All days |
 |:--|--:|--:|--:|--:|--:|--:|--:|--:|
-| 00:00 | 4 | 6 | 7 | 8 | 3 | 10 | 15 | 8 |
+| 00:00 | 4 | 6 | 7 | 8 | 3 | 10 | 15 | 7 |
 | 01:00 | 4 | 6 | 5 | 10 | 3 | 11 | 11 | 7 |
 | 02:00 | 4 | 5 | 5 | 8 | 3 | 11 | 13 | 7 |
 | 03:00 | 3 | 2 | 3 | 5 | 2 | 10 | 12 | 5 |
@@ -99,7 +103,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 
 | Hour | NLH €1/3 | NLH €2/5 | PLO 4/5 €2/2 | PLO €25/50 | Dealer's Choice €2/2 | Checks |
 |:--|--:|--:|--:|--:|--:|--:|
-| 00:00 | 🟨 68% | 🟥 11% | 🟨 26% | 🟥 5% | 🟥 0% | 114 |
+| 00:00 | 🟨 67% | 🟥 10% | 🟨 26% | 🟥 5% | 🟥 0% | 115 |
 | 01:00 | 🟨 63% | 🟥 10% | 🟥 22% | 🟥 5% | 🟥 0% | 116 |
 | 02:00 | 🟨 64% | 🟥 6% | 🟥 20% | 🟥 5% | 🟥 0% | 121 |
 | 03:00 | 🟨 50% | 🟥 7% | 🟨 26% | 🟥 5% | 🟥 0% | 115 |
@@ -130,7 +134,7 @@ Average seated players per check on each kind of day, in total and for NLH and O
 
 | Days | Dates | Checks | Players | NLH | Omaha | vs normal, same hour |
 |:--|:--|--:|--:|--:|--:|--:|
-| Normal days | 13 Oct – 17 Nov (20 days) | 2818 | 5.0 | 2.8 | 1.8 | +0.0 |
+| Normal days | 13 Oct – 18 Nov (21 days) | 2819 | 5.0 | 2.8 | 1.8 | +0.0 |
 | 🎪 PPC festival | 4–16 Nov (13 days) | 1846 | 16.1 | 12.0 | 4.0 | +11.1 |
 | 📅 Public holidays | 23 Oct – 1 Nov (3 days) | 431 | 3.2 | 1.8 | 1.3 | -1.7 |
 

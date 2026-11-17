@@ -1,5 +1,5 @@
 {
- "made": "2026-11-17",
+ "made": "2026-11-18",
  "rooms": {
   "kings": {
    "2025-01-01": {
@@ -1230,9 +1230,7 @@
    },
    "2026-12-24": {
     "Christmas Eve": [
-     "Slovakia"
-    ],
-    "Day off (substituted from 12/12/2026)": [
+     "Slovakia",
      "Hungary"
     ]
    },
@@ -1374,7 +1372,8 @@
    },
    "2027-12-24": {
     "Christmas Eve": [
-     "Slovakia"
+     "Slovakia",
+     "Hungary"
     ]
    },
    "2027-12-25": {
@@ -1671,9 +1670,7 @@
    },
    "2026-12-24": {
     "Christmas Eve": [
-     "Slovakia"
-    ],
-    "Day off (substituted from 12/12/2026)": [
+     "Slovakia",
      "Hungary"
     ]
    },
@@ -1815,7 +1812,8 @@
    },
    "2027-12-24": {
     "Christmas Eve": [
-     "Slovakia"
+     "Slovakia",
+     "Hungary"
     ]
    },
    "2027-12-25": {
