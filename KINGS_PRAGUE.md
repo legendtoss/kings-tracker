@@ -2,10 +2,10 @@
 
 Prague's tables come in the same King's data feed as Rozvadov's, so they're read at every check (about every 10 minutes) without any extra visits, together with Prague's tournament clocks. All times are **Czech time** (same as Poland). Back to [King's Rozvadov](README.md).
 
-**Last check:** 2026-11-17 04:40 — ✅ OK  
-**Last 24 h:** 142 of 143 checks OK, longest gap 0 h 20 min · **Collecting since:** 2026-10-17 (4217 good checks)
+**Last check:** 2026-11-17 04:50 — ✅ OK  
+**Last 24 h:** 143 of 144 checks OK, longest gap 0 h 20 min · **Collecting since:** 2026-10-17 (4218 good checks)
 
-## Tables running at 2026-11-17 04:40
+## Tables running at 2026-11-17 04:50
 
 No tables were running.
 
@@ -21,7 +21,7 @@ No Omaha tournaments on the schedule in the next 14 days.
 
 ## Busiest times so far
 
-*Normal days only: 172 checks during festivals, cash-game events or public holidays are compared separately in “Festivals, holidays and normal days” below.*
+*Normal days only: 173 checks during festivals, cash-game events or public holidays are compared separately in “Festivals, holidays and normal days” below.*
 
 Day, hour and average seated players (only day-hour slots seen on at least 2 different dates).
 
@@ -98,13 +98,13 @@ Average seated players per check on each kind of day, in total and for NLH and O
 | Days | Dates | Checks | Players | NLH | Omaha | vs normal, same hour |
 |:--|:--|--:|--:|--:|--:|--:|
 | Normal days | 17 Oct – 16 Nov (30 days) | 4045 | 0.7 | 0.7 | 0.0 | +0.0 |
-| 📅 Public holidays | 28 Oct – 17 Nov (2 days) | 172 | 0.0 | 0.0 | 0.0 | -0.8 |
+| 📅 Public holidays | 28 Oct – 17 Nov (2 days) | 173 | 0.0 | 0.0 | 0.0 | -0.8 |
 
 ## All games seen
 
 | Game | Running in | Most often | Last seen |
 |:--|--:|:--|:--|
-| NLH €2/4 | 12% of checks | Sat around 21:00 | 2026-11-16 02:20 |
+| NLH €2/4 | 11% of checks | Sat around 21:00 | 2026-11-16 02:20 |
 | PLO €2/2 | 1% of checks | Mon around 00:00 | 2026-10-27 01:30 |
 | PLO5 €5/5 | 0% of checks | Mon around 02:00 | 2026-10-26 02:20 |
 
