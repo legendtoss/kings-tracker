@@ -2,11 +2,11 @@
 
 Checks King's live cash games and tournaments about every 10 minutes and updates this page by itself. All times are **Czech time** (same as Poland). Also tracking: [King's Prague](KINGS_PRAGUE.md) · [Card Casino Šamorín](CARD_CASINO.md) · [Grand Casino Aš](GRAND_CASINO_AS.md) · [Banco Casino Bratislava](BANCO.md) · [Olympic Park Tallinn](OLYMPIC_TALLINN.md) · [Olympic Voodoo Riga](OLYMPIC_RIGA.md) · [Olympic Casino Vilnius](OLYMPIC_VILNIUS.md).
 
-**Right now:** King's: couldn't be read · [King's Prague](KINGS_PRAGUE.md): couldn't be read · [Card Casino Šamorín](CARD_CASINO.md): 0 tables, 0 players · [Grand Casino Aš](GRAND_CASINO_AS.md) 📅 public holiday: 0 tables running · [Olympic Park Tallinn](OLYMPIC_TALLINN.md): blocked at 13:00 · [Olympic Voodoo Riga](OLYMPIC_RIGA.md) 📅 public holiday: blocked at 13:00 · [Olympic Vilnius](OLYMPIC_VILNIUS.md) 📅 public holiday: couldn't be read at 13:00 · [Banco](BANCO.md): 0 tables, 0 players
+**Right now:** King's: couldn't be read · [King's Prague](KINGS_PRAGUE.md): couldn't be read · [Card Casino Šamorín](CARD_CASINO.md): couldn't be read · [Grand Casino Aš](GRAND_CASINO_AS.md) 📅 public holiday: 0 tables running · [Olympic Park Tallinn](OLYMPIC_TALLINN.md): blocked at 13:00 · [Olympic Voodoo Riga](OLYMPIC_RIGA.md) 📅 public holiday: blocked at 13:00 · [Olympic Vilnius](OLYMPIC_VILNIUS.md) 📅 public holiday: couldn't be read at 13:00 · [Banco](BANCO.md): 0 tables, 0 players
 
 **🎯 Omaha right now:** no Omaha tables running at any room
 
-**Last check:** 2026-11-18 13:10 — ⚠️ error: couldn't read the tables on the page — details in `debug/last_problem.json`  
+**Last check:** 2026-11-18 13:20 — ⚠️ error: couldn't read the tables on the page — details in `debug/last_problem.json`  
 **Last 24 h:** 110 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-06 (5686 good checks)
 
 ## Tables running at 2026-11-18 09:30
@@ -265,11 +265,11 @@ The most recent ones. The game is read from the tournament's name.
 
 | Room | Last check | OK in the last 24 h | Most common problem |
 |:--|:--|--:|:--|
-| King's Rozvadov | ⚠️ 11-18 13:10 | 110 of 145 | couldn't read the tables on the page |
-| [King's Prague](KINGS_PRAGUE.md) | ⚠️ 11-18 13:10 | 110 of 145 | King's feed couldn't be read |
-| [Grand Casino Aš](GRAND_CASINO_AS.md) | ✅ 11-18 13:10 | 143 of 143 | · |
-| [Card Casino Šamorín](CARD_CASINO.md) | ✅ 11-18 13:10 | 136 of 145 | Card Casino's site didn't answer |
-| [Banco Casino Bratislava](BANCO.md) | ✅ 11-18 13:10 | 141 of 143 | HTTPError: HTTP Error 429: Too Many Requests |
+| King's Rozvadov | ⚠️ 11-18 13:20 | 110 of 145 | couldn't read the tables on the page |
+| [King's Prague](KINGS_PRAGUE.md) | ⚠️ 11-18 13:20 | 110 of 145 | King's feed couldn't be read |
+| [Grand Casino Aš](GRAND_CASINO_AS.md) | ✅ 11-18 13:20 | 143 of 143 | · |
+| [Card Casino Šamorín](CARD_CASINO.md) | ⚠️ 11-18 13:20 | 135 of 145 | Card Casino's site didn't answer |
+| [Banco Casino Bratislava](BANCO.md) | ✅ 11-18 13:20 | 141 of 143 | HTTPError: HTTP Error 429: Too Many Requests |
 | [Olympic Park Tallinn](OLYMPIC_TALLINN.md) | ⚠️ 11-18 13:00 | 0 of 47 | blocked by the site's bot protection |
 | [Olympic Voodoo Riga](OLYMPIC_RIGA.md) | ⚠️ 11-18 13:00 | 0 of 47 | couldn't read the cash games table (page saved for a closer look) |
 | [Olympic Casino Vilnius](OLYMPIC_VILNIUS.md) | ⚠️ 11-18 13:00 | 0 of 47 | couldn't read the cash games table (page saved for a closer look) |
