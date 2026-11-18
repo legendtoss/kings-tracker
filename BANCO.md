@@ -2,10 +2,10 @@
 
 Checks [its website](https://bancocasino.sk/ba/en) together with King's, about every 10 minutes. All times are **Czech time** (same as Poland and Slovakia). Back to [King's](README.md).
 
-**Last check:** 2026-11-18 15:30 — ✅ OK  
-**Checks so far:** 5186 successful out of 5711 (since 2026-10-10)
+**Last check:** 2026-11-18 15:40 — ✅ OK  
+**Checks so far:** 5187 successful out of 5712 (since 2026-10-10)
 
-## Tables running at 2026-11-18 15:30
+## Tables running at 2026-11-18 15:40
 
 ```
 NLH  €1/3     3 players
@@ -121,7 +121,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 12:00 | 🟥 6% | 🟥 0% | 🟥 6% | 🟥 0% | 🟥 0% | 127 |
 | 13:00 | 🟥 5% | 🟥 0% | 🟥 5% | 🟥 0% | 🟥 0% | 126 |
 | 14:00 | 🟥 10% | 🟥 0% | 🟨 25% | 🟥 0% | 🟥 2% | 126 |
-| 15:00 | 🟥 10% | 🟥 0% | 🟥 22% | 🟥 0% | 🟥 15% | 124 |
+| 15:00 | 🟥 11% | 🟥 0% | 🟥 22% | 🟥 0% | 🟥 14% | 125 |
 | 16:00 | 🟥 18% | 🟥 0% | 🟨 45% | 🟥 0% | 🟥 16% | 120 |
 | 17:00 | 🟨 27% | 🟥 0% | 🟨 55% | 🟥 0% | 🟥 17% | 119 |
 | 18:00 | 🟨 38% | 🟥 0% | 🟨 56% | 🟥 0% | 🟥 15% | 119 |
@@ -137,7 +137,7 @@ Average seated players per check on each kind of day, in total and for NLH and O
 
 | Days | Dates | Checks | Players | NLH | Omaha | vs normal, same hour |
 |:--|:--|--:|--:|--:|--:|--:|
-| Normal days | 13 Oct – 18 Nov (21 days) | 2909 | 4.8 | 2.7 | 1.7 | +0.0 |
+| Normal days | 13 Oct – 18 Nov (21 days) | 2910 | 4.8 | 2.7 | 1.7 | +0.0 |
 | 🎪 PPC festival | 4–16 Nov (13 days) | 1846 | 16.1 | 12.0 | 4.0 | +11.2 |
 | 📅 Public holidays | 23 Oct – 1 Nov (3 days) | 431 | 3.2 | 1.8 | 1.3 | -1.6 |
 
@@ -145,7 +145,7 @@ Average seated players per check on each kind of day, in total and for NLH and O
 
 | Game | Running in | Most often | Last seen |
 |:--|--:|:--|:--|
-| NLH €1/3 | 46% of checks | Sun around 02:00 | 2026-11-18 15:30 |
+| NLH €1/3 | 46% of checks | Sun around 02:00 | 2026-11-18 15:40 |
 | NLH €2/5 | 5% of checks | Sat around 07:00 | 2026-11-11 18:10 |
 | PLO €2/2 | 0% of checks | Thu around 02:00 | 2026-11-05 03:30 |
 | PLO 4/5 €2/2 | 32% of checks | Tue around 18:00 | 2026-11-16 22:50 |
