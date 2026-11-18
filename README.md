@@ -6,7 +6,7 @@ Checks King's live cash games and tournaments about every 10 minutes and updates
 
 **🎯 Omaha right now:** no Omaha tables running at any room
 
-**Last check:** 2026-11-18 13:00 — ⚠️ error: couldn't read the tables on the page — details in `debug/last_problem.json`  
+**Last check:** 2026-11-18 13:10 — ⚠️ error: couldn't read the tables on the page — details in `debug/last_problem.json`  
 **Last 24 h:** 110 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-06 (5686 good checks)
 
 ## Tables running at 2026-11-18 09:30
@@ -265,14 +265,14 @@ The most recent ones. The game is read from the tournament's name.
 
 | Room | Last check | OK in the last 24 h | Most common problem |
 |:--|:--|--:|:--|
-| King's Rozvadov | ⚠️ 11-18 13:00 | 110 of 145 | couldn't read the tables on the page |
-| [King's Prague](KINGS_PRAGUE.md) | ⚠️ 11-18 13:00 | 110 of 145 | King's feed couldn't be read |
-| [Grand Casino Aš](GRAND_CASINO_AS.md) | ✅ 11-18 13:00 | 143 of 143 | · |
-| [Card Casino Šamorín](CARD_CASINO.md) | ✅ 11-18 13:00 | 135 of 145 | Card Casino's site didn't answer |
-| [Banco Casino Bratislava](BANCO.md) | ✅ 11-18 13:00 | 141 of 143 | HTTPError: HTTP Error 429: Too Many Requests |
-| [Olympic Park Tallinn](OLYMPIC_TALLINN.md) | ⚠️ 11-18 13:00 | 0 of 48 | couldn't read the cash games table (page saved for a closer look) |
-| [Olympic Voodoo Riga](OLYMPIC_RIGA.md) | ⚠️ 11-18 13:00 | 0 of 48 | couldn't read the cash games table (page saved for a closer look) |
-| [Olympic Casino Vilnius](OLYMPIC_VILNIUS.md) | ⚠️ 11-18 13:00 | 0 of 48 | couldn't read the cash games table (page saved for a closer look) |
+| King's Rozvadov | ⚠️ 11-18 13:10 | 110 of 145 | couldn't read the tables on the page |
+| [King's Prague](KINGS_PRAGUE.md) | ⚠️ 11-18 13:10 | 110 of 145 | King's feed couldn't be read |
+| [Grand Casino Aš](GRAND_CASINO_AS.md) | ✅ 11-18 13:10 | 143 of 143 | · |
+| [Card Casino Šamorín](CARD_CASINO.md) | ✅ 11-18 13:10 | 136 of 145 | Card Casino's site didn't answer |
+| [Banco Casino Bratislava](BANCO.md) | ✅ 11-18 13:10 | 141 of 143 | HTTPError: HTTP Error 429: Too Many Requests |
+| [Olympic Park Tallinn](OLYMPIC_TALLINN.md) | ⚠️ 11-18 13:00 | 0 of 47 | blocked by the site's bot protection |
+| [Olympic Voodoo Riga](OLYMPIC_RIGA.md) | ⚠️ 11-18 13:00 | 0 of 47 | couldn't read the cash games table (page saved for a closer look) |
+| [Olympic Casino Vilnius](OLYMPIC_VILNIUS.md) | ⚠️ 11-18 13:00 | 0 of 47 | couldn't read the cash games table (page saved for a closer look) |
 
 ---
 Raw data: the `data` folder, one CSV file per month. To open one in Excel, use Data → From Text/CSV (double-clicking puts everything in one column in Polish Excel). The tracker is `tracker.py`; its schedule is in `.github/workflows/track.yml`.  
