@@ -1,5 +1,5 @@
 {
- "saved_on": "2026-11-18",
+ "saved_on": "2026-11-19",
  "records": 2,
  "fields": [
   "activePause",
@@ -47,10 +47,10 @@
  ],
  "sample": [
   {
-   "referenceTime": "2026-11-18T00:00:50.810",
-   "name": "King's Big Tuesday",
-   "fullName": "King's Big Tuesday",
-   "tournamentName": "King's Big Tuesday",
+   "referenceTime": "2026-11-19T00:00:35.644",
+   "name": "King's Big Wednesday",
+   "fullName": "King's Big Wednesday",
+   "tournamentName": "King's Big Wednesday",
    "notes": null,
    "color": "#1a237e",
    "background": null,
@@ -65,16 +65,16 @@
    "openRegistration": false,
    "lateRegistrationUntilLevel": 8,
    "expectedLastLevel": null,
-   "start": "2026-11-17T18:00:02",
-   "pausedSeconds": 969,
-   "pausedMillis": 969069,
-   "flightGameTimeDelta": -969069,
+   "start": "2026-11-18T18:00:14",
+   "pausedSeconds": 1397,
+   "pausedMillis": 1397079,
+   "flightGameTimeDelta": -1397079,
    "stickerText": null,
-   "totalEntries": 96,
+   "totalEntries": 85,
    "activePlayers": 13,
-   "averageStack": 147692,
-   "nextBreakStart": "2026-11-18T01:36:11.715",
-   "nextBreakSeconds": 900,
+   "averageStack": 130769,
+   "nextBreakStart": "2026-11-19T01:35:39.606",
+   "nextBreakSeconds": 600,
    "entryValue": 100,
    "serviceFee": 0,
    "bountyValue": null,
@@ -82,74 +82,68 @@
     {
      "from": 1,
      "to": 1,
-     "amount": 2280,
+     "amount": 2361,
      "label": null
     },
     {
      "from": 2,
      "to": 2,
-     "amount": 1475,
+     "amount": 1518,
      "label": null
     },
     {
      "from": 3,
      "to": 3,
-     "amount": 991,
+     "amount": 1019,
      "label": null
     },
     {
      "from": 4,
      "to": 4,
-     "amount": 693,
+     "amount": 715,
      "label": null
     },
     {
      "from": 5,
      "to": 5,
-     "amount": 505,
+     "amount": 526,
      "label": null
     },
     {
      "from": 6,
      "to": 6,
-     "amount": 384,
+     "amount": 406,
      "label": null
     },
     {
      "from": 7,
      "to": 7,
-     "amount": 306,
+     "amount": 329,
      "label": null
     },
     {
      "from": 8,
      "to": 8,
-     "amount": 255,
+     "amount": 282,
      "label": null
     },
     {
      "from": 9,
      "to": 9,
-     "amount": 223,
+     "amount": 256,
      "label": null
     },
     {
      "from": 10,
-     "to": 11,
-     "amount": 218,
-     "label": null
-    },
-    {
-     "from": 12,
      "to": 13,
-     "amount": 213,
+     "amount": 247,
      "label": null
     }
    ],
    "currentLevel": {
-    "start": "2026-11-17T23:56:11.715",
-    "gameEnd": "2026-11-18T00:16:11.715",
-    "levelEnd": "2026-11-18T00:16:11.715",
+    "start": "2026-11-18T23:55:39.606",
+    "gameEnd": "2026-11-19T00:15:39.606",
+    "levelEnd": "2026-11-19T00:15:39.606",
     "sb": 4000,
     "bb": 8000,
     "number": 16,
@@ -192,20 +186,20 @@
     "addOnLimit": null,
     "reBuyLimit": null
    },
-   "tournament_id": 14014
+   "tournament_id": 14015
   },
   {
-   "referenceTime": "2026-11-18T00:00:13.571",
-   "name": "King's Big Wednesday",
-   "fullName": "King's Big Wednesday",
-   "tournamentName": "King's Big Wednesday",
+   "referenceTime": "2026-11-19T00:00:12.743",
+   "name": "King's Big Thursday",
+   "fullName": "King's Big Thursday",
+   "tournamentName": "King's Big Thursday",
    "notes": null,
    "color": "#1a237e",
    "background": null,
    "status": "READY_FOR_PUBLICATION",
    "isPaused": false,
    "currency": "EUR",
-   "effectivePrizePool": 10000,
+   "effectivePrizePool": 15000,
    "guaranteeInEffect": true,
    "overlay": null,
    "reEntryMaxCount": null,
@@ -213,7 +207,7 @@
    "openRegistration": true,
    "lateRegistrationUntilLevel": 8,
    "expectedLastLevel": null,
-   "start": "2026-11-18T18:00:00",
+   "start": "2026-11-19T18:00:00",
    "pausedSeconds": null,
    "pausedMillis": null,
    "flightGameTimeDelta": null,
@@ -262,7 +256,7 @@
     "addOnLimit": null,
     "reBuyLimit": null
    },
-   "tournament_id": 14015
+   "tournament_id": 14016
   }
  ]
 }
