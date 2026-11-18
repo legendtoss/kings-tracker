@@ -1,13 +1,14 @@
 {
- "saved_at": "2026-11-17T02:20:18+01:00",
- "status": "error: King's feed came back empty and that couldn't be confirmed, so it wasn't counted as 0 tables",
+ "saved_at": "2026-11-18T09:40:20+01:00",
+ "status": "error: King's feed couldn't be read",
  "url": "https://admin.kings-resort.com/zeus/?data=cash_games_by_venue",
+ "feed": "URLError: urlopen error SSL: UNEXPECTED_EOF_WHILE_READING EOF occurred in violation of protocol (_ssl.c:1011)",
  "venues_in_feed": {},
  "venues_seen": {
   "1": {
-   "checks": 3816,
+   "checks": 3933,
    "first": "2026-10-17 19:30",
-   "last": "2026-11-17 02:10",
+   "last": "2026-11-18 06:10",
    "most_tables": 19
   },
   "3": {
@@ -17,5 +18,6 @@
    "most_tables": 2
   }
  },
- "feed_trusted": false
+ "feed_trusted": false,
+ "tournaments": "RemoteDisconnected: Remote end closed connection without response"
 }
