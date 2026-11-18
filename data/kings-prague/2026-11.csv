@@ -2522,3 +2522,4 @@
 2026-11-18 14:00,Wed,14,error: King's feed couldn't be read,,,,,,,
 2026-11-18 14:10,Wed,14,error: King's feed couldn't be read,,,,,,,
 2026-11-18 14:20,Wed,14,error: King's feed couldn't be read,,,,,,,
+2026-11-18 14:30,Wed,14,"error: King's feed came back empty and that couldn't be confirmed, so it wasn't counted as 0 tables",,,,0,0,,
