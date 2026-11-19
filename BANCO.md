@@ -2,10 +2,10 @@
 
 Checks [its website](https://bancocasino.sk/ba/en) together with King's, about every 10 minutes. All times are **Czech time** (same as Poland and Slovakia). Back to [King's](README.md).
 
-**Last check:** 2026-11-19 14:30 — ✅ OK  
-**Checks so far:** 5323 successful out of 5849 (since 2026-10-10)
+**Last check:** 2026-11-19 14:40 — ✅ OK  
+**Checks so far:** 5324 successful out of 5850 (since 2026-10-10)
 
-## Tables running at 2026-11-19 14:30
+## Tables running at 2026-11-19 14:40
 
 ```
 NLH  €1/3     3 players
@@ -122,7 +122,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 11:00 | 🟥 2% | 🟥 0% | 🟥 2% | 🟥 0% | 🟥 0% | 126 |
 | 12:00 | 🟥 5% | 🟥 0% | 🟥 5% | 🟥 0% | 🟥 0% | 133 |
 | 13:00 | 🟥 5% | 🟥 0% | 🟥 5% | 🟥 0% | 🟥 0% | 132 |
-| 14:00 | 🟥 12% | 🟥 0% | 🟨 25% | 🟥 0% | 🟥 2% | 130 |
+| 14:00 | 🟥 13% | 🟥 0% | 🟥 24% | 🟥 0% | 🟥 2% | 131 |
 | 15:00 | 🟥 12% | 🟥 0% | 🟥 21% | 🟥 0% | 🟥 14% | 126 |
 | 16:00 | 🟥 22% | 🟥 0% | 🟨 43% | 🟥 0% | 🟥 15% | 126 |
 | 17:00 | 🟨 30% | 🟥 0% | 🟨 53% | 🟥 0% | 🟥 16% | 125 |
@@ -139,7 +139,7 @@ Average seated players per check on each kind of day, in total and for NLH and O
 
 | Days | Dates | Checks | Players | NLH | Omaha | vs normal, same hour |
 |:--|:--|--:|--:|--:|--:|--:|
-| Normal days | 13 Oct – 19 Nov (22 days) | 3046 | 4.7 | 2.8 | 1.6 | -0.0 |
+| Normal days | 13 Oct – 19 Nov (22 days) | 3047 | 4.7 | 2.8 | 1.6 | -0.0 |
 | 🎪 PPC festival | 4–16 Nov (13 days) | 1846 | 16.1 | 12.0 | 4.0 | +11.3 |
 | 📅 Public holidays | 23 Oct – 1 Nov (3 days) | 431 | 3.2 | 1.8 | 1.3 | -1.5 |
 
@@ -147,7 +147,7 @@ Average seated players per check on each kind of day, in total and for NLH and O
 
 | Game | Running in | Most often | Last seen |
 |:--|--:|:--|:--|
-| NLH €1/3 | 46% of checks | Thu around 01:00 | 2026-11-19 14:30 |
+| NLH €1/3 | 46% of checks | Thu around 01:00 | 2026-11-19 14:40 |
 | NLH €2/5 | 5% of checks | Sat around 07:00 | 2026-11-11 18:10 |
 | PLO €2/2 | 0% of checks | Thu around 02:00 | 2026-11-05 03:30 |
 | PLO 4/5 €2/2 | 31% of checks | Tue around 18:00 | 2026-11-16 22:50 |
