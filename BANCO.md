@@ -2,10 +2,10 @@
 
 Checks [its website](https://bancocasino.sk/ba/en) together with King's, about every 10 minutes. All times are **Czech time** (same as Poland and Slovakia). Back to [King's](README.md).
 
-**Last check:** 2026-11-19 22:10 — ✅ OK  
-**Checks so far:** 5369 successful out of 5895 (since 2026-10-10)
+**Last check:** 2026-11-19 22:20 — ✅ OK  
+**Checks so far:** 5370 successful out of 5896 (since 2026-10-10)
 
-## Tables running at 2026-11-19 22:10
+## Tables running at 2026-11-19 22:20
 
 ```
 Dealer's Choice  €2/2     8 players
@@ -70,7 +70,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 19:00 | 2 | 1 | 2 | 2 | 7 | 2 | 4 | 3 |
 | 20:00 | 2 | 2 | 2 | 3 | 6 | 5 | 7 | 3 |
 | 21:00 | 3 | 3 | 4 | 3 | 8 | 7 | 10 | 5 |
-| 22:00 | 4 | 4 | 5 | 5 | 7 | 6 | 11 | 6 |
+| 22:00 | 4 | 4 | 5 | 5 | 7 | 6 | 11 | 5 |
 | 23:00 | 4 | 4 | 5 | 2 | 8 | 8 | 10 | 6 |
 
 ### PLO 4/5
@@ -130,7 +130,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 19:00 | 🟨 37% | 🟥 0% | 🟨 53% | 🟥 1% | 🟥 18% | 132 |
 | 20:00 | 🟨 48% | 🟥 0% | 🟨 44% | 🟥 5% | 🟥 18% | 132 |
 | 21:00 | 🟨 57% | 🟥 5% | 🟨 50% | 🟥 5% | 🟥 18% | 133 |
-| 22:00 | 🟨 66% | 🟥 5% | 🟨 46% | 🟥 5% | 🟥 9% | 127 |
+| 22:00 | 🟨 66% | 🟥 5% | 🟨 46% | 🟥 5% | 🟥 10% | 128 |
 | 23:00 | 🟨 65% | 🟥 5% | 🟨 37% | 🟥 5% | 🟥 5% | 125 |
 
 ## Festivals, holidays and normal days
@@ -139,7 +139,7 @@ Average seated players per check on each kind of day, in total and for NLH and O
 
 | Days | Dates | Checks | Players | NLH | Omaha | vs normal, same hour |
 |:--|:--|--:|--:|--:|--:|--:|
-| Normal days | 13 Oct – 19 Nov (22 days) | 3092 | 4.8 | 2.7 | 1.6 | -0.0 |
+| Normal days | 13 Oct – 19 Nov (22 days) | 3093 | 4.8 | 2.7 | 1.6 | -0.0 |
 | 🎪 PPC festival | 4–16 Nov (13 days) | 1846 | 16.1 | 12.0 | 4.0 | +11.3 |
 | 📅 Public holidays | 23 Oct – 1 Nov (3 days) | 431 | 3.2 | 1.8 | 1.3 | -1.5 |
 
@@ -154,7 +154,7 @@ Average seated players per check on each kind of day, in total and for NLH and O
 | PLO €2/5 | 1% of checks | Sun around 23:00 | 2026-11-09 03:30 |
 | PLO 4/5 €5/5 | 1% of checks | Mon around 07:00 | 2026-11-16 11:10 |
 | PLO €25/50 | 1% of checks | Thu around 20:00 | 2026-11-12 06:40 |
-| Dealer's Choice €2/2 | 4% of checks | Thu around 16:00 | 2026-11-19 22:10 |
+| Dealer's Choice €2/2 | 4% of checks | Thu around 16:00 | 2026-11-19 22:20 |
 
 ---
 The numbers count Bratislava only (Banco's list also shows Košice, kept in words above). Banco shows no seat counts, so tables show players only.
