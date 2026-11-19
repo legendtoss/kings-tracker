@@ -2,10 +2,10 @@
 
 Reads [Grand Casino Aš's live cash games](https://www.grandcasinoas.eu/en/poker/poker-live) every 10 minutes and its [current tournaments](https://www.grandcasinoas.eu/en/poker) every 30 minutes. All times are **Czech time** (same as Poland). Back to [King's](README.md).
 
-**Last check:** 2026-11-19 21:10 — ✅ OK  
-**Last 24 h:** 145 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-10 (5876 good checks)
+**Last check:** 2026-11-19 21:20 — ✅ OK  
+**Last 24 h:** 145 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-10 (5877 good checks)
 
-## Cash games at 2026-11-19 21:10
+## Cash games at 2026-11-19 21:20
 
 ```
 PLO/NLH           waiting
@@ -55,7 +55,7 @@ Average number of running tables (Grand Casino Aš shows which games run, not ho
 | 18:00 | 0.0 | 0.0 | 0.0 | 0.3 | 0.0 | 0.5 | 0.0 | 0.1 |
 | 19:00 | 0.0 | 0.0 | 0.0 | 0.2 | 0.0 | 1.1 | 0.0 | 0.1 |
 | 20:00 | 0.0 | 0.0 | 0.0 | 0.0 | 0.4 | 1.5 | 0.5 | 0.2 |
-| 21:00 | 0.0 | 0.0 | 0.0 | 0.0 | 0.7 | 2.3 | 0.4 | 0.4 |
+| 21:00 | 0.0 | 0.0 | 0.0 | 0.0 | 0.7 | 2.3 | 0.4 | 0.3 |
 | 22:00 | 0.0 | 0.0 | 0.0 | 0.1 | 1.5 | 3.0 | 0.0 | 0.5 |
 | 23:00 | 0.0 | 0.0 | 0.0 | 0.8 | 2.0 | 3.1 | 0.0 | 0.6 |
 
@@ -86,7 +86,7 @@ Average number of running tables (Grand Casino Aš shows which games run, not ho
 | 18:00 | 🟥 8% | 🟥 3% | 🟥 0% | 🟥 0% | 119 |
 | 19:00 | 🟥 9% | 🟥 4% | 🟥 0% | 🟥 2% | 121 |
 | 20:00 | 🟥 17% | 🟥 1% | 🟥 0% | 🟥 5% | 121 |
-| 21:00 | 🟥 15% | 🟥 4% | 🟥 0% | 🟥 5% | 117 |
+| 21:00 | 🟥 15% | 🟥 4% | 🟥 0% | 🟥 5% | 118 |
 | 22:00 | 🟥 19% | 🟥 0% | 🟥 0% | 🟥 5% | 115 |
 | 23:00 | 🟨 27% | 🟥 0% | 🟥 0% | 🟥 6% | 115 |
 
@@ -96,9 +96,9 @@ Average running tables per check on each kind of day, in total and for NLH and O
 
 | Days | Dates | Checks | Tables | NLH | Omaha | vs normal, same hour |
 |:--|:--|--:|--:|--:|--:|--:|
-| Normal days | 10 Oct – 19 Nov (20 days) | 2862 | 0.2 | 0.1 | 0.0 | +0.0 |
+| Normal days | 10 Oct – 19 Nov (20 days) | 2863 | 0.2 | 0.1 | 0.0 | +0.0 |
 | ↳ with an Omaha tournament on the schedule | 30 Oct (1 day) | 144 | 0.6 | 0.6 | 0.0 | +0.4 |
-| ↳ without one | 10 Oct – 19 Nov (19 days) | 2718 | 0.1 | 0.1 | 0.0 | -0.0 |
+| ↳ without one | 10 Oct – 19 Nov (19 days) | 2719 | 0.1 | 0.1 | 0.0 | -0.0 |
 | 🎪 PLO festival | 15–18 Oct (4 days) | 578 | 0.5 | 0.3 | 0.1 | +0.4 |
 | 🎪 GRND festival | 4–15 Nov (12 days) | 1718 | 1.2 | 1.0 | 0.2 | +1.0 |
 | 📅 Public holidays | 28 Oct – 18 Nov (5 days) | 718 | 0.4 | 0.4 | 0.0 | +0.2 |
