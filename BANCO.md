@@ -2,10 +2,10 @@
 
 Checks [its website](https://bancocasino.sk/ba/en) together with King's, about every 10 minutes. All times are **Czech time** (same as Poland and Slovakia). Back to [King's](README.md).
 
-**Last check:** 2026-11-19 02:30 — ✅ OK  
-**Checks so far:** 5251 successful out of 5777 (since 2026-10-10)
+**Last check:** 2026-11-19 02:40 — ✅ OK  
+**Checks so far:** 5252 successful out of 5778 (since 2026-10-10)
 
-## Tables running at 2026-11-19 02:30
+## Tables running at 2026-11-19 02:40
 
 ```
 NLH  €1/3     8 players
@@ -110,7 +110,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 |:--|--:|--:|--:|--:|--:|--:|
 | 00:00 | 🟨 66% | 🟥 10% | 🟥 24% | 🟥 5% | 🟥 0% | 126 |
 | 01:00 | 🟨 62% | 🟥 9% | 🟥 20% | 🟥 5% | 🟥 0% | 128 |
-| 02:00 | 🟨 63% | 🟥 5% | 🟥 18% | 🟥 5% | 🟥 0% | 131 |
+| 02:00 | 🟨 63% | 🟥 5% | 🟥 18% | 🟥 5% | 🟥 0% | 132 |
 | 03:00 | 🟨 48% | 🟥 7% | 🟨 25% | 🟥 5% | 🟥 0% | 121 |
 | 04:00 | 🟨 37% | 🟥 5% | 🟥 18% | 🟥 5% | 🟥 0% | 120 |
 | 05:00 | 🟨 34% | 🟥 5% | 🟥 6% | 🟥 5% | 🟥 0% | 120 |
@@ -139,7 +139,7 @@ Average seated players per check on each kind of day, in total and for NLH and O
 
 | Days | Dates | Checks | Players | NLH | Omaha | vs normal, same hour |
 |:--|:--|--:|--:|--:|--:|--:|
-| Normal days | 13 Oct – 19 Nov (22 days) | 2974 | 4.8 | 2.8 | 1.7 | -0.0 |
+| Normal days | 13 Oct – 19 Nov (22 days) | 2975 | 4.8 | 2.8 | 1.7 | -0.0 |
 | 🎪 PPC festival | 4–16 Nov (13 days) | 1846 | 16.1 | 12.0 | 4.0 | +11.3 |
 | 📅 Public holidays | 23 Oct – 1 Nov (3 days) | 431 | 3.2 | 1.8 | 1.3 | -1.5 |
 
@@ -147,7 +147,7 @@ Average seated players per check on each kind of day, in total and for NLH and O
 
 | Game | Running in | Most often | Last seen |
 |:--|--:|:--|:--|
-| NLH €1/3 | 46% of checks | Thu around 01:00 | 2026-11-19 02:30 |
+| NLH €1/3 | 46% of checks | Thu around 01:00 | 2026-11-19 02:40 |
 | NLH €2/5 | 5% of checks | Sat around 07:00 | 2026-11-11 18:10 |
 | PLO €2/2 | 0% of checks | Thu around 02:00 | 2026-11-05 03:30 |
 | PLO 4/5 €2/2 | 32% of checks | Tue around 18:00 | 2026-11-16 22:50 |
