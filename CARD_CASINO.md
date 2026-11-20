@@ -2,16 +2,15 @@
 
 Reads [Card Casino's live cash-game list](https://www.cardcasino.sk/en/cashgames/) together with King's, about every 10 minutes. All times are **Czech time** (same as Poland and Slovakia). Back to [King's](README.md).
 
-**Last check:** 2026-11-20 04:20 — ⚠️ error: Card Casino's site didn't answer — details in `debug/cardcasino_page.json`  
-**Last 24 h:** 123 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-10 (5177 good checks)
+**Last check:** 2026-11-20 04:30 — ✅ OK (live list)  
+**Last 24 h:** 123 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-10 (5178 good checks)
 
-## Tables running at 2026-11-20 04:10
+## Tables running at 2026-11-20 04:30
 
 ```
 NLH  €2/5     8/8 players
-PLO  €5/5     2/8 players
 ```
-**NLH:** 8 players at 1 table · **PLO:** 2 players at 1 table
+**NLH:** 8 players at 1 table
 
 ## Festivals and schedule
 
@@ -102,7 +101,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 01:00 | 🟨 54% | 🟥 11% | 🟥 3% | 🟥 13% | 🟥 20% | 🟥 3% | 🟥 7% | 🟥 4% | 157 |
 | 02:00 | 🟨 47% | 🟥 9% | 🟥 2% | 🟥 12% | 🟥 19% | 🟥 4% | 🟥 7% | 🟥 4% | 170 |
 | 03:00 | 🟨 46% | 🟥 8% | 🟥 4% | 🟥 10% | 🟥 16% | 🟥 4% | 🟥 5% | 🟥 3% | 164 |
-| 04:00 | 🟨 33% | 🟥 7% | 🟥 1% | 🟥 7% | 🟥 14% | 🟥 3% | 🟥 6% | 🟥 3% | 161 |
+| 04:00 | 🟨 33% | 🟥 7% | 🟥 2% | 🟥 7% | 🟥 14% | 🟥 3% | 🟥 6% | 🟥 3% | 162 |
 | 05:00 | 🟨 25% | 🟥 3% | 🟥 0% | 🟥 3% | 🟥 13% | 🟥 4% | 🟥 3% | 🟥 2% | 161 |
 | 06:00 | 🟥 13% | 🟥 4% | 🟥 0% | 🟥 0% | 🟥 11% | 🟥 4% | 🟥 3% | 🟥 4% | 160 |
 | 07:00 | 🟥 7% | 🟥 3% | 🟥 0% | 🟥 0% | 🟥 10% | 🟥 4% | 🟥 3% | 🟥 3% | 159 |
@@ -129,7 +128,7 @@ Average seated players per check on each kind of day, in total and for NLH and O
 
 | Days | Dates | Checks | Players | NLH | Omaha | vs normal, same hour |
 |:--|:--|--:|--:|--:|--:|--:|
-| Normal days | 12 Oct – 20 Nov (32 days) | 3909 | 4.8 | 3.5 | 1.2 | -0.0 |
+| Normal days | 12 Oct – 20 Nov (32 days) | 3910 | 4.8 | 3.5 | 1.2 | -0.0 |
 | 💵 Cash game days: NLH/PLO/PLO5 from €10/20 | 10–11 Oct (2 days) | 240 | 11.9 | 6.2 | 5.7 | +7.5 |
 | 🎪 Main Event week | 20–25 Oct (6 days) | 771 | 8.5 | 7.0 | 1.4 | +3.6 |
 | 📅 Public holidays | 26 Oct – 1 Nov (2 days) | 257 | 5.9 | 4.2 | 1.7 | +1.1 |
@@ -140,7 +139,7 @@ Average seated players per check on each kind of day, in total and for NLH and O
 |:--|--:|:--|:--|
 | NLH €1/2 | 23% of checks | Tue around 21:00 | 2026-11-17 06:20 |
 | NLH €1/3 | 14% of checks | Sun around 02:00 | 2026-11-19 21:40 |
-| NLH €2/5 | 1% of checks | Thu around 23:00 | 2026-11-20 04:10 |
+| NLH €2/5 | 1% of checks | Thu around 23:00 | 2026-11-20 04:30 |
 | PLO €2/2 | 5% of checks | Sat around 22:00 | 2026-11-19 05:00 |
 | PLO €5/5 | 10% of checks | Tue around 02:00 | 2026-11-20 04:10 |
 | PLO €5/10 | 1% of checks | Mon around 21:00 | 2026-11-17 09:00 |
