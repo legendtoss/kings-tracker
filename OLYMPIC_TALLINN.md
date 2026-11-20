@@ -2,7 +2,7 @@
 
 Reads [OlyBet's live cash games page](https://olybetpoker.com/ee/en/cash-games/?club=6) every 30 minutes (their site has bot protection, so the tracker checks gently and simply records it when a check is refused). All times are **Czech time** (Tallinn is one hour ahead). Back to [King's](README.md).
 
-**Last check:** 2026-11-20 08:30 — ⚠️ error: couldn't read the cash games table (page saved for a closer look) — details in `debug/olympic-tallinn_page.json`  
+**Last check:** 2026-11-20 09:00 — ⚠️ error: couldn't read the cash games table (page saved for a closer look) — details in `debug/olympic-tallinn_page.json`  
 **Last 24 h:** 0 of 49 checks OK, longest gap 0 h 30 min · **Collecting since:** 2026-10-10 (273 good checks)
 
 **Club:** Olympic Park Casino
@@ -13,7 +13,7 @@ No tables were running.
 
 **Waiting lists:** 6 players · **All games listed:** NLH €1/3 (closed): 0 tables, 0/0 players, 3 waiting PLO/PLO5 €1/3 (closed): 0 tables, 0/0 players, 2 waiting PLO €5/5 (closed): 0 tables, 0/0 players, 0 waiting NLH €5/5 (closed): 0 tables, 0/0 players, 1 waiting
 
-**Tournaments on their site at 2026-11-20 07:00:** live 12:00 Olympic Park Casino 1 FREEBUY NLH The Hendon Mob Championship 1A, €20 Rebuys & Add-On 10,000 €0 15:00 Olympic Park Casino 2 Sviten Special 30,000 €350 17:00 Olympic Park Casino 3 The Hendon Mob Championship Day 1/A 30,000 €350 19:00 Olympic Park Casino 4 NLH Seniors Event (50+) 25,000 €200 20:00 Olympic Park Casino 5 FL Baducey/Badacey 20,000 €200 20:00 Olympic Park Casino X Franke s Flip Flops Day 1/A 1 €0 21:00 Olympic Park Casino 6 NLH Total Knock Out 20,000 €200 23:00 Olympic Park Casino 7 Chicago European Championship Day 1/A 1 €125
+**Tournaments on their site at 2026-11-20 09:00:** live 12:00 Olympic Park Casino 1 FREEBUY NLH The Hendon Mob Championship 1A, €20 Rebuys & Add-On 10,000 €0 15:00 Olympic Park Casino 2 Sviten Special 30,000 €350 17:00 Olympic Park Casino 3 The Hendon Mob Championship Day 1/A 30,000 €350 19:00 Olympic Park Casino 4 NLH Seniors Event (50+) 25,000 €200 20:00 Olympic Park Casino 5 FL Baducey/Badacey 20,000 €200 20:00 Olympic Park Casino X Franke s Flip Flops Day 1/A 1 €0 21:00 Olympic Park Casino 6 NLH Total Knock Out 20,000 €200 23:00 Olympic Park Casino 7 Chicago European Championship Day 1/A 1 €125
 
 ## Festivals and schedule
 
