@@ -2829,3 +2829,4 @@
 2026-11-20 17:30,Fri,17,ok,0,1,PLO/NLH [WAITING],0,0,[],
 2026-11-20 17:40,Fri,17,ok,0,1,PLO/NLH [WAITING],,,,
 2026-11-20 17:50,Fri,17,ok,0,1,PLO/NLH [WAITING],,,,
+2026-11-20 18:00,Fri,18,ok,0,1,PLO/NLH [WAITING],1,26,"[{""name"":""Lucky Opener"",""game"":""NLH"",""status"":""BREAK"",""left"":26,""entries"":26,""buyin"":70,""prizepool"":7000,""currency"":""EUR"",""avg_stack"":20000,""start_stack"":20000,""late_reg_open"":true,""start"":""20.11. 18:00""}]",
