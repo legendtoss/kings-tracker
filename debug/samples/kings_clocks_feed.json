@@ -1,5 +1,5 @@
 {
- "saved_on": "2026-11-20",
+ "saved_on": "2026-11-21",
  "records": 6,
  "fields": [
   "activePause",
@@ -48,143 +48,206 @@
  ],
  "sample": [
   {
-   "referenceTime": "2026-11-20T00:00:21.821",
-   "name": "King's Big Thursday",
-   "fullName": "King's Big Thursday",
-   "tournamentName": "King's Big Thursday",
-   "notes": null,
-   "color": "#1a237e",
-   "background": null,
+   "referenceTime": "2026-11-20T23:59:59.892",
+   "name": "GPM €1Million - 1A Part 1",
+   "fullName": "GPM €1Million - 1A Part 1",
+   "tournamentName": "GPM €1Million",
+   "notes": "played till end of level 8",
+   "color": "#006064",
+   "background": "chips_with_cards_2.jpg",
    "status": "PAUSED",
    "isPaused": true,
+   "currency": "EUR",
+   "effectivePrizePool": 1000000,
+   "guaranteeInEffect": true,
+   "overlay": null,
+   "reEntryMaxCount": null,
+   "startingStack": 50000,
+   "openRegistration": true,
+   "lateRegistrationUntilLevel": 10,
+   "expectedLastLevel": 8,
+   "start": "2026-11-20T16:00:48",
+   "pausedSeconds": 1152,
+   "pausedMillis": 1152319,
+   "flightGameTimeDelta": 0,
+   "stickerText": "♠♥♦♣15x KINGS MILLION EUROPEAN POKER PACKAGES (3500€) included in prizepool and 5 of them as chipleader bonus for Day 1A/B part 2  ♠♥♦♣\nDay 1A Part 1 is played till the end of lvl 8 ♠♥♦♣",
+   "totalEntries": 119,
+   "activePlayers": 42,
+   "averageStack": 141667,
+   "nextBreakStart": null,
+   "nextBreakSeconds": null,
+   "entryValue": 285,
+   "serviceFee": 0,
+   "bountyValue": null,
+   "payoutPositions": null,
+   "currentLevel": {
+    "start": "2026-11-20T23:20:00.481",
+    "gameEnd": "2026-11-21T00:10:00.481",
+    "levelEnd": "2026-11-21T00:10:00.481",
+    "sb": 1000,
+    "bb": 1500,
+    "number": 8,
+    "gameSeconds": 3000,
+    "breakSeconds": 0,
+    "limits": "",
+    "ante": 1500
+   },
+   "nextLevels": [],
+   "softPauseEnd": null,
+   "activePause": {
+    "type": "SUSPENSION",
+    "flightTimeRunning": false,
+    "sinceTime": "2026-11-20T23:40:47.573",
+    "untilTime": null,
+    "previousPause": null
+   },
+   "plannedEnd": null,
+   "winningStructureType": "STANDARD",
+   "levelCount": 8,
+   "reEntryCountLimit": null,
+   "subName": "played till end of level 8",
+   "availableTickets": {
+    "buyIn": 285,
+    "serviceFee": 0,
+    "addon": null,
+    "rebuy": null,
+    "addOnLimit": null,
+    "reBuyLimit": null
+   },
+   "tournament_id": 13952
+  },
+  {
+   "referenceTime": "2026-11-21T00:00:31.595",
+   "name": "GPM Friday Night Turbo",
+   "fullName": "GPM Friday Night Turbo",
+   "tournamentName": "GPM Friday Night Turbo",
+   "notes": null,
+   "color": "#880e4f",
+   "background": null,
+   "status": "RUNNING",
+   "isPaused": false,
    "currency": "EUR",
    "effectivePrizePool": 15000,
    "guaranteeInEffect": true,
    "overlay": null,
    "reEntryMaxCount": null,
-   "startingStack": 20000,
+   "startingStack": 15000,
    "openRegistration": false,
-   "lateRegistrationUntilLevel": 8,
+   "lateRegistrationUntilLevel": 6,
    "expectedLastLevel": null,
-   "start": "2026-11-19T17:59:58",
-   "pausedSeconds": 307,
-   "pausedMillis": 307062,
-   "flightGameTimeDelta": 946226,
+   "start": "2026-11-20T20:00:05",
+   "pausedSeconds": 0,
+   "pausedMillis": 0,
+   "flightGameTimeDelta": 0,
    "stickerText": null,
-   "totalEntries": 120,
-   "activePlayers": 19,
-   "averageStack": 126316,
+   "totalEntries": 82,
+   "activePlayers": 15,
+   "averageStack": 82000,
    "nextBreakStart": null,
    "nextBreakSeconds": null,
-   "entryValue": 100,
+   "entryValue": 125,
    "serviceFee": 0,
    "bountyValue": null,
    "payoutPositions": [
     {
      "from": 1,
      "to": 1,
-     "amount": 3245,
+     "amount": 3541,
      "label": null
     },
     {
      "from": 2,
      "to": 2,
-     "amount": 2122,
+     "amount": 2278,
      "label": null
     },
     {
      "from": 3,
      "to": 3,
-     "amount": 1437,
+     "amount": 1529,
      "label": null
     },
     {
      "from": 4,
      "to": 4,
-     "amount": 1008,
+     "amount": 1073,
      "label": null
     },
     {
      "from": 5,
      "to": 5,
-     "amount": 734,
+     "amount": 789,
      "label": null
     },
     {
      "from": 6,
      "to": 6,
-     "amount": 556,
+     "amount": 608,
      "label": null
     },
     {
      "from": 7,
      "to": 7,
-     "amount": 438,
+     "amount": 494,
      "label": null
     },
     {
      "from": 8,
      "to": 8,
-     "amount": 359,
+     "amount": 424,
      "label": null
     },
     {
      "from": 9,
      "to": 9,
-     "amount": 308,
+     "amount": 384,
      "label": null
     },
     {
      "from": 10,
-     "to": 11,
-     "amount": 276,
-     "label": null
-    },
-    {
-     "from": 12,
-     "to": 18,
-     "amount": 263,
+     "to": 13,
+     "amount": 370,
      "label": null
     }
    ],
    "currentLevel": {
-    "start": "2026-11-20T00:00:05.364",
-    "gameEnd": "2026-11-20T00:20:05.364",
-    "levelEnd": "2026-11-20T00:20:05.364",
-    "sb": 4000,
-    "bb": 8000,
-    "number": 16,
-    "limits": "",
-    "gameSeconds": 1200,
-    "breakSeconds": 0,
-    "ante": 8000
+    "start": "2026-11-20T23:35:05.656",
+    "gameEnd": "2026-11-20T23:50:05.656",
+    "levelEnd": "2026-11-21T00:05:05.656",
+    "sb": 2500,
+    "bb": 5000,
+    "number": 14,
+    "gameSeconds": 900,
+    "breakSeconds": 900,
+    "limits": null,
+    "ante": 5000
    },
    "nextLevels": [
     {
-     "sb": 5000,
-     "bb": 10000,
-     "number": 17,
-     "limits": "",
-     "gameSeconds": 1200,
+     "sb": 3000,
+     "bb": 6000,
+     "number": 15,
+     "gameSeconds": 900,
      "breakSeconds": 0,
-     "ante": 10000
+     "limits": null,
+     "ante": 6000
     },
     {
-     "sb": 6000,
-     "bb": 12000,
-     "number": 18,
-     "limits": "",
-     "gameSeconds": 1200,
+     "sb": 4000,
+     "bb": 8000,
+     "number": 16,
+     "gameSeconds": 900,
      "breakSeconds": 0,
-     "ante": 12000
+     "limits": null,
+     "ante": 8000
     }
    ],
    "softPauseEnd": null,
    "activePause": {
-    "type": "BUBBLE_TIME",
-    "flightTimeRunning": false,
-    "sinceTime": "2026-11-19T23:39:28.533",
-    "untilTime": null,
+    "type": "LEVEL_BREAK",
+    "flightTimeRunning": true,
+    "sinceTime": "2026-11-20T23:50:05.656",
+    "untilTime": "2026-11-21T00:05:05.656",
     "previousPause": null
    },
    "plannedEnd": null,
@@ -192,20 +255,20 @@
    "levelCount": null,
    "reEntryCountLimit": null,
    "availableTickets": {
-    "buyIn": 100,
+    "buyIn": 125,
     "serviceFee": 0,
     "addon": null,
     "rebuy": null,
     "addOnLimit": null,
     "reBuyLimit": null
    },
-   "tournament_id": 14016
+   "tournament_id": 14024
   },
   {
-   "referenceTime": "2026-11-20T00:00:12.753",
-   "name": "Satellite to GPM ME - Day 1A Part 1",
-   "fullName": "Satellite to GPM ME - Day 1A Part 1",
-   "tournamentName": "Satellite to GPM ME - Day 1A Part 1",
+   "referenceTime": "2026-11-21T00:00:04.006",
+   "name": "Satellite to GPM ME - Day 1B Part 1",
+   "fullName": "Satellite to GPM ME - Day 1B Part 1",
+   "tournamentName": "Satellite to GPM ME - Day 1B Part 1",
    "notes": null,
    "color": "#f57f17",
    "background": null,
@@ -220,7 +283,7 @@
    "openRegistration": true,
    "lateRegistrationUntilLevel": 8,
    "expectedLastLevel": null,
-   "start": "2026-11-20T13:00:00",
+   "start": "2026-11-21T11:00:00",
    "pausedSeconds": null,
    "pausedMillis": null,
    "flightGameTimeDelta": null,
@@ -240,18 +303,18 @@
      "sb": 100,
      "bb": 100,
      "number": 1,
-     "limits": null,
      "gameSeconds": 900,
      "breakSeconds": 0,
+     "limits": null,
      "ante": 100
     },
     {
      "sb": 100,
      "bb": 200,
      "number": 2,
-     "limits": null,
      "gameSeconds": 900,
      "breakSeconds": 0,
+     "limits": null,
      "ante": 200
     }
    ],
@@ -269,87 +332,16 @@
     "addOnLimit": null,
     "reBuyLimit": null
    },
-   "tournament_id": 14017
+   "tournament_id": 14018
   },
   {
-   "referenceTime": "2026-11-20T00:00:12.835",
-   "name": "GPM Pot Limit Omaha 8-max - Day 1",
-   "fullName": "GPM Pot Limit Omaha 8-max - Day 1",
-   "tournamentName": "GPM Pot Limit Omaha 8-max",
-   "notes": "played till ITM",
-   "color": "#bf360c",
-   "background": "kings_cards_with_chips_2.jpg",
-   "status": "READY_FOR_PUBLICATION",
-   "isPaused": false,
-   "currency": "EUR",
-   "effectivePrizePool": 20000,
-   "guaranteeInEffect": true,
-   "overlay": null,
-   "reEntryMaxCount": null,
-   "startingStack": 40000,
-   "openRegistration": true,
-   "lateRegistrationUntilLevel": 9,
-   "expectedLastLevel": 13,
-   "start": "2026-11-20T15:00:00",
-   "pausedSeconds": null,
-   "pausedMillis": null,
-   "flightGameTimeDelta": null,
-   "stickerText": null,
-   "totalEntries": 0,
-   "activePlayers": 0,
-   "averageStack": 0,
-   "nextBreakStart": null,
-   "nextBreakSeconds": null,
-   "entryValue": 300,
-   "serviceFee": 0,
-   "bountyValue": null,
-   "payoutPositions": null,
-   "currentLevel": null,
-   "nextLevels": [
-    {
-     "sb": 100,
-     "bb": 300,
-     "number": 1,
-     "limits": "",
-     "gameSeconds": 2400,
-     "breakSeconds": 0,
-     "ante": 300
-    },
-    {
-     "sb": 200,
-     "bb": 400,
-     "number": 2,
-     "limits": "",
-     "gameSeconds": 2400,
-     "breakSeconds": 0,
-     "ante": 400
-    }
-   ],
-   "softPauseEnd": null,
-   "activePause": null,
-   "plannedEnd": null,
-   "winningStructureType": "STANDARD",
-   "levelCount": 13,
-   "reEntryCountLimit": null,
-   "subName": "played till ITM",
-   "availableTickets": {
-    "buyIn": 300,
-    "serviceFee": 0,
-    "addon": null,
-    "rebuy": null,
-    "addOnLimit": null,
-    "reBuyLimit": null
-   },
-   "tournament_id": 14022
-  },
-  {
-   "referenceTime": "2026-11-20T00:00:12.949",
-   "name": "German Poker Masters €1MILLION - Day 1A Part 1 (50 minutes)",
-   "fullName": "German Poker Masters €1MILLION - Day 1A Part 1 (50 minutes)",
+   "referenceTime": "2026-11-21T00:00:04.244",
+   "name": "German Poker Masters €1MILLION - Day 1B Part 1 (50 minutes)",
+   "fullName": "German Poker Masters €1MILLION - Day 1B Part 1 (50 minutes)",
    "tournamentName": "German Poker Masters €1MILLION",
    "notes": "played till end of level 8",
-   "color": "#006064",
-   "background": "chips_with_cards_2.jpg",
+   "color": "#4a148c",
+   "background": "chips_kings_cards.jpg",
    "status": "READY_FOR_PUBLICATION",
    "isPaused": false,
    "currency": "EUR",
@@ -361,11 +353,11 @@
    "openRegistration": true,
    "lateRegistrationUntilLevel": 10,
    "expectedLastLevel": 8,
-   "start": "2026-11-20T16:00:00",
+   "start": "2026-11-21T14:00:00",
    "pausedSeconds": null,
    "pausedMillis": null,
    "flightGameTimeDelta": null,
-   "stickerText": null,
+   "stickerText": "♠♥♦♣ 15x KINGS MILLION EUROPEAN POKER PACKAGES (3500€) included in prizepool and 5 of them as chipleader bonus for Day 1A/B part 2  ♠♥♦♣\nDay 1B Part 1 is played till the end of lvl 8 ♠♥♦♣",
    "totalEntries": 0,
    "activePlayers": 0,
    "averageStack": 0,
@@ -381,18 +373,18 @@
      "sb": 100,
      "bb": 200,
      "number": 1,
-     "limits": "",
      "gameSeconds": 3000,
      "breakSeconds": 0,
+     "limits": "",
      "ante": 200
     },
     {
      "sb": 200,
      "bb": 300,
      "number": 2,
-     "limits": "",
      "gameSeconds": 3000,
      "breakSeconds": 900,
+     "limits": "",
      "ante": 300
     }
    ],
@@ -411,10 +403,10 @@
     "addOnLimit": null,
     "reBuyLimit": null
    },
-   "tournament_id": 13952
+   "tournament_id": 13953
   },
   {
-   "referenceTime": "2026-11-20T00:00:13.042",
+   "referenceTime": "2026-11-21T00:00:04.371",
    "name": "Flip n Go Satellite (9 handed) to GPM",
    "fullName": "Flip n Go Satellite (9 handed) to GPM",
    "tournamentName": "Flip n Go Satellite (9 handed) to GPM",
@@ -432,7 +424,7 @@
    "openRegistration": true,
    "lateRegistrationUntilLevel": 1,
    "expectedLastLevel": null,
-   "start": "2026-11-20T17:00:00",
+   "start": "2026-11-21T17:00:00",
    "pausedSeconds": null,
    "pausedMillis": null,
    "flightGameTimeDelta": null,
@@ -452,9 +444,9 @@
      "sb": 5000,
      "bb": 5000,
      "number": 1,
-     "limits": null,
      "gameSeconds": 7200,
      "breakSeconds": 300,
+     "limits": null,
      "ante": 5000
     }
    ],
@@ -472,7 +464,7 @@
     "addOnLimit": null,
     "reBuyLimit": null
    },
-   "tournament_id": 14021
+   "tournament_id": 14020
   }
  ]
 }
