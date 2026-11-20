@@ -2,10 +2,10 @@
 
 Checks [its website](https://bancocasino.sk/ba/en) together with King's, about every 10 minutes. All times are **Czech time** (same as Poland and Slovakia). Back to [King's](README.md).
 
-**Last check:** 2026-11-20 00:50 — ✅ OK  
-**Checks so far:** 5385 successful out of 5911 (since 2026-10-10)
+**Last check:** 2026-11-20 01:00 — ✅ OK  
+**Checks so far:** 5386 successful out of 5912 (since 2026-10-10)
 
-## Tables running at 2026-11-20 00:50
+## Tables running at 2026-11-20 01:00
 
 ```
 Dealer's Choice  €2/2     6 players
@@ -111,7 +111,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | Hour | NLH €1/3 | NLH €2/5 | PLO 4/5 €2/2 | PLO €25/50 | Dealer's Choice €2/2 | Checks |
 |:--|--:|--:|--:|--:|--:|--:|
 | 00:00 | 🟨 63% | 🟥 9% | 🟥 23% | 🟥 5% | 🟥 5% | 132 |
-| 01:00 | 🟨 62% | 🟥 9% | 🟥 20% | 🟥 5% | 🟥 0% | 128 |
+| 01:00 | 🟨 61% | 🟥 9% | 🟥 19% | 🟥 5% | 🟥 1% | 129 |
 | 02:00 | 🟨 63% | 🟥 5% | 🟥 18% | 🟥 5% | 🟥 0% | 133 |
 | 03:00 | 🟨 50% | 🟥 6% | 🟥 24% | 🟥 5% | 🟥 0% | 127 |
 | 04:00 | 🟨 37% | 🟥 5% | 🟥 17% | 🟥 5% | 🟥 2% | 126 |
@@ -141,7 +141,7 @@ Average seated players per check on each kind of day, in total and for NLH and O
 
 | Days | Dates | Checks | Players | NLH | Omaha | vs normal, same hour |
 |:--|:--|--:|--:|--:|--:|--:|
-| Normal days | 13 Oct – 20 Nov (23 days) | 3108 | 4.8 | 2.7 | 1.6 | +0.0 |
+| Normal days | 13 Oct – 20 Nov (23 days) | 3109 | 4.8 | 2.7 | 1.6 | -0.0 |
 | 🎪 PPC festival | 4–16 Nov (13 days) | 1846 | 16.1 | 12.0 | 4.0 | +11.3 |
 | 📅 Public holidays | 23 Oct – 1 Nov (3 days) | 431 | 3.2 | 1.8 | 1.3 | -1.5 |
 
@@ -156,7 +156,7 @@ Average seated players per check on each kind of day, in total and for NLH and O
 | PLO €2/5 | 1% of checks | Sun around 23:00 | 2026-11-09 03:30 |
 | PLO 4/5 €5/5 | 1% of checks | Mon around 07:00 | 2026-11-16 11:10 |
 | PLO €25/50 | 1% of checks | Thu around 20:00 | 2026-11-12 06:40 |
-| Dealer's Choice €2/2 | 4% of checks | Thu around 16:00 | 2026-11-20 00:50 |
+| Dealer's Choice €2/2 | 4% of checks | Thu around 16:00 | 2026-11-20 01:00 |
 
 ---
 The numbers count Bratislava only (Banco's list also shows Košice, kept in words above). Banco shows no seat counts, so tables show players only.
