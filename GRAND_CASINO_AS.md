@@ -2,14 +2,12 @@
 
 Reads [Grand Casino Aš's live cash games](https://www.grandcasinoas.eu/en/poker/poker-live) every 10 minutes and its [current tournaments](https://www.grandcasinoas.eu/en/poker) every 30 minutes. All times are **Czech time** (same as Poland). Back to [King's](README.md).
 
-**Last check:** 2026-11-21 03:30 — ✅ OK  
-**Last 24 h:** 145 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-10 (6058 good checks)
+**Last check:** 2026-11-21 03:40 — ✅ OK  
+**Last 24 h:** 145 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-10 (6059 good checks)
 
-## Cash games at 2026-11-21 03:30
+## Cash games at 2026-11-21 03:40
 
-```
-PLO/NLH           waiting
-```
+No cash games listed.
 
 **Tournaments in play at 2026-11-21 03:30:** Lucky Opener (NLH, €70, 5 of 138 left, level 23, blinds 15000/30000/30000)
 
@@ -68,7 +66,7 @@ Average number of running tables (Grand Casino Aš shows which games run, not ho
 | 00:00 | 🟨 27% | 🟥 0% | 🟥 0% | 🟥 5% | 127 |
 | 01:00 | 🟥 24% | 🟥 0% | 🟥 0% | 🟥 5% | 127 |
 | 02:00 | 🟥 23% | 🟥 0% | 🟥 0% | 🟥 5% | 133 |
-| 03:00 | 🟥 12% | 🟥 0% | 🟥 3% | 🟥 5% | 126 |
+| 03:00 | 🟥 12% | 🟥 0% | 🟥 3% | 🟥 5% | 127 |
 | 04:00 | 🟥 14% | 🟥 0% | 🟥 3% | 🟥 3% | 127 |
 | 05:00 | 🟥 11% | 🟥 0% | 🟥 0% | 🟥 0% | 126 |
 | 06:00 | 🟥 5% | 🟥 0% | 🟥 0% | 🟥 0% | 127 |
@@ -96,9 +94,9 @@ Average running tables per check on each kind of day, in total and for NLH and O
 
 | Days | Dates | Checks | Tables | NLH | Omaha | vs normal, same hour |
 |:--|:--|--:|--:|--:|--:|--:|
-| Normal days | 10 Oct – 21 Nov (22 days) | 3044 | 0.2 | 0.2 | 0.0 | +0.0 |
+| Normal days | 10 Oct – 21 Nov (22 days) | 3045 | 0.2 | 0.2 | 0.0 | +0.0 |
 | ↳ with an Omaha tournament on the schedule | 30 Oct (1 day) | 144 | 0.6 | 0.6 | 0.0 | +0.4 |
-| ↳ without one | 10 Oct – 21 Nov (21 days) | 2900 | 0.2 | 0.1 | 0.0 | -0.0 |
+| ↳ without one | 10 Oct – 21 Nov (21 days) | 2901 | 0.2 | 0.1 | 0.0 | -0.0 |
 | 🎪 PLO festival | 15–18 Oct (4 days) | 578 | 0.5 | 0.3 | 0.1 | +0.4 |
 | 🎪 GRND festival | 4–15 Nov (12 days) | 1718 | 1.2 | 1.0 | 0.2 | +1.0 |
 | 📅 Public holidays | 28 Oct – 18 Nov (5 days) | 718 | 0.4 | 0.4 | 0.0 | +0.2 |
