@@ -2,15 +2,15 @@
 
 Checks [its website](https://bancocasino.sk/ba/en) together with King's, about every 10 minutes. All times are **Czech time** (same as Poland and Slovakia). Back to [King's](README.md).
 
-**Last check:** 2026-11-21 13:20 — ✅ OK  
-**Checks so far:** 5601 successful out of 6130 (since 2026-10-10)
+**Last check:** 2026-11-21 13:30 — ✅ OK  
+**Checks so far:** 5602 successful out of 6131 (since 2026-10-10)
 
-## Tables running at 2026-11-21 13:20
+## Tables running at 2026-11-21 13:30
 
 No tables were running.
 
 *The whole list (Banco also shows its Košice casino; the numbers above are Bratislava only):* no games listed  
-**Tournaments running:** none
+**Tournaments running:** VPT Poker Round 4 (PRIVATE), starts at 14:00, buy-in €50
 
 **Note:** Since 13 Oct the tracker reads Banco's cash list and its live tournaments straight from where its page gets them; before that, its page's scripts didn't run in the tracker's browser, so those checks show as errors.
 
@@ -122,7 +122,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 10:00 | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 137 |
 | 11:00 | 🟥 1% | 🟥 0% | 🟥 1% | 🟥 0% | 🟥 0% | 138 |
 | 12:00 | 🟥 5% | 🟥 0% | 🟥 5% | 🟥 0% | 🟥 0% | 145 |
-| 13:00 | 🟥 4% | 🟥 0% | 🟥 4% | 🟥 0% | 🟥 0% | 141 |
+| 13:00 | 🟥 4% | 🟥 0% | 🟥 4% | 🟥 0% | 🟥 0% | 142 |
 | 14:00 | 🟥 13% | 🟥 0% | 🟥 23% | 🟥 0% | 🟥 6% | 138 |
 | 15:00 | 🟥 14% | 🟥 0% | 🟥 20% | 🟥 0% | 🟥 18% | 138 |
 | 16:00 | 🟥 20% | 🟥 0% | 🟨 39% | 🟥 0% | 🟥 22% | 138 |
@@ -140,7 +140,7 @@ Average seated players per check on each kind of day, in total and for NLH and O
 
 | Days | Dates | Checks | Players | NLH | Omaha | vs normal, same hour |
 |:--|:--|--:|--:|--:|--:|--:|
-| Normal days | 13 Oct – 21 Nov (24 days) | 3324 | 4.8 | 2.6 | 1.5 | -0.0 |
+| Normal days | 13 Oct – 21 Nov (24 days) | 3325 | 4.7 | 2.6 | 1.5 | -0.0 |
 | 🎪 PPC festival | 4–16 Nov (13 days) | 1846 | 16.1 | 12.0 | 4.0 | +11.3 |
 | 📅 Public holidays | 23 Oct – 1 Nov (3 days) | 431 | 3.2 | 1.8 | 1.3 | -1.5 |
 
