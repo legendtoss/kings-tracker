@@ -2,7 +2,7 @@
 
 Reads [OlyBet's live cash games page](https://olybetpoker.com/ee/en/cash-games/?club=6) every 30 minutes (their site has bot protection, so the tracker checks gently and simply records it when a check is refused). All times are **Czech time** (Tallinn is one hour ahead). Back to [King's](README.md).
 
-**Last check:** 2026-11-21 02:30 — ⚠️ error: blocked by the site's bot protection — details in `debug/olympic-tallinn_page.json`  
+**Last check:** 2026-11-21 03:00 — ⚠️ error: couldn't read the cash games table (page saved for a closer look) — details in `debug/olympic-tallinn_page.json`  
 **Last 24 h:** 0 of 49 checks OK, longest gap 0 h 30 min · **Collecting since:** 2026-10-10 (273 good checks)
 
 **Club:** Olympic Park Casino
@@ -13,7 +13,7 @@ No tables were running.
 
 **Waiting lists:** 6 players · **All games listed:** NLH €1/3 (closed): 0 tables, 0/0 players, 3 waiting PLO/PLO5 €1/3 (closed): 0 tables, 0/0 players, 2 waiting PLO €5/5 (closed): 0 tables, 0/0 players, 0 waiting NLH €5/5 (closed): 0 tables, 0/0 players, 1 waiting
 
-**Tournaments on their site at 2026-11-21 00:00:** live 11:00 Olympic Park Casino 7 Chicago European Championship Day 1/B 1 €125 12:00 Olympic Park Casino 8 NLH 7-2 Estonia Special (incl. INES rule) 25,000 €200 13:00 Olympic Park Casino 9 Dealers Choice all PL (BigO, PLO4, PLO5, PLO6, Sviten Special, OmahaJack) 30,000 €350 15:30 Olympic Park Casino 10 NLH Win TV Series - The Festival Special 30,000 €100 17:00 Olympic Park Casino 3 The Hendon Mob Championship Day 1/B 30,000 €350 20:00 Olympic Park Casino 11 PL Razz Progressive Bounty 20,000 €200 20:00 Olympic Park Casino X Franke s Flip Flops Day 1/B 1 €0 21:00 Olympic Park Casino 12 NLH PKO (Live Straddle) 20,000 €200 22:00 Olympic Park Casino 13 Mega-Satellite to the €350 Mystery Bounty Day 1A 15,000 €50 23:00 Olympic Park Casino 7 Chicago European Championship Day 1/C 1 €125
+**Tournaments on their site at 2026-11-21 03:00:** live 11:00 Olympic Park Casino 7 Chicago European Championship Day 1/B 1 €125 12:00 Olympic Park Casino 8 NLH 7-2 Estonia Special (incl. INES rule) 25,000 €200 13:00 Olympic Park Casino 9 Dealers Choice all PL (BigO, PLO4, PLO5, PLO6, Sviten Special, OmahaJack) 30,000 €350 15:30 Olympic Park Casino 10 NLH Win TV Series - The Festival Special 30,000 €100 17:00 Olympic Park Casino 3 The Hendon Mob Championship Day 1/B 30,000 €350 20:00 Olympic Park Casino 11 PL Razz Progressive Bounty 20,000 €200 20:00 Olympic Park Casino X Franke s Flip Flops Day 1/B 1 €0 21:00 Olympic Park Casino 12 NLH PKO (Live Straddle) 20,000 €200 22:00 Olympic Park Casino 13 Mega-Satellite to the €350 Mystery Bounty Day 1A 15,000 €50 23:00 Olympic Park Casino 7 Chicago European Championship Day 1/C 1 €125
 
 ## Festivals and schedule
 
