@@ -2991,3 +2991,4 @@
 2026-11-21 20:30,Sat,20,ok,0,1,PLO/NLH [WAITING],1,153,"[{""name"":""Carbanick Cup"",""game"":""NLH"",""status"":""BREAK"",""left"":153,""entries"":236,""buyin"":100,""prizepool"":20060,""currency"":""EUR"",""avg_stack"":61699,""start_stack"":40000,""late_reg_open"":true,""start"":""21.11. 17:00""}]",
 2026-11-21 20:40,Sat,20,ok,0,1,PLO/NLH [WAITING],,,,
 2026-11-21 20:50,Sat,20,ok,0,1,PLO/NLH [WAITING],,,,
+2026-11-21 21:00,Sat,21,ok,1,1,NLH €1/2 [RUNNING]; PLO/NLH [WAITING],1,140,"[{""name"":""Carbanick Cup"",""game"":""NLH"",""status"":""RUNNING"",""left"":140,""entries"":236,""buyin"":100,""prizepool"":20060,""currency"":""EUR"",""level"":9,""blinds"":""800/1600/1600"",""avg_stack"":67429,""start_stack"":40000,""late_reg_open"":false,""start"":""21.11. 17:00""}]",
