@@ -2,15 +2,15 @@
 
 Checks [its website](https://bancocasino.sk/ba/en) together with King's, about every 10 minutes. All times are **Czech time** (same as Poland and Slovakia). Back to [King's](README.md).
 
-**Last check:** 2026-11-21 16:50 — ✅ OK  
-**Checks so far:** 5621 successful out of 6151 (since 2026-10-10)
+**Last check:** 2026-11-21 17:00 — ✅ OK  
+**Checks so far:** 5622 successful out of 6152 (since 2026-10-10)
 
-## Tables running at 2026-11-21 16:50
+## Tables running at 2026-11-21 17:00
 
 No tables were running.
 
 *The whole list (Banco also shows its Košice casino; the numbers above are Bratislava only):* no games listed  
-**Tournaments running:** Banco Poker Open, starts at 18:00, buy-in €120, €50000 GTD VPT Poker Round 4 (PRIVATE): 42/44 players, level 7, blinds 1000/1500, buy-in €50
+**Tournaments running:** Banco Poker Open, starts at 18:00, buy-in €120, €50000 GTD VPT Poker Round 4 (PRIVATE): 41/44 players, level 8, blinds 1000/2000, buy-in €50
 
 **Note:** Since 13 Oct the tracker reads Banco's cash list and its live tournaments straight from where its page gets them; before that, its page's scripts didn't run in the tracker's browser, so those checks show as errors.
 
@@ -126,7 +126,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 14:00 | 🟥 12% | 🟥 0% | 🟥 22% | 🟥 0% | 🟥 6% | 144 |
 | 15:00 | 🟥 14% | 🟥 0% | 🟥 19% | 🟥 0% | 🟥 17% | 143 |
 | 16:00 | 🟥 19% | 🟥 0% | 🟨 38% | 🟥 0% | 🟥 22% | 144 |
-| 17:00 | 🟨 28% | 🟥 0% | 🟨 49% | 🟥 0% | 🟥 23% | 136 |
+| 17:00 | 🟨 28% | 🟥 0% | 🟨 48% | 🟥 0% | 🟥 23% | 137 |
 | 18:00 | 🟨 37% | 🟥 0% | 🟨 49% | 🟥 0% | 🟥 22% | 137 |
 | 19:00 | 🟨 36% | 🟥 0% | 🟨 51% | 🟥 1% | 🟥 22% | 138 |
 | 20:00 | 🟨 46% | 🟥 0% | 🟨 42% | 🟥 4% | 🟥 22% | 138 |
@@ -140,7 +140,7 @@ Average seated players per check on each kind of day, in total and for NLH and O
 
 | Days | Dates | Checks | Players | NLH | Omaha | vs normal, same hour |
 |:--|:--|--:|--:|--:|--:|--:|
-| Normal days | 13 Oct – 21 Nov (24 days) | 3344 | 4.7 | 2.6 | 1.5 | -0.0 |
+| Normal days | 13 Oct – 21 Nov (24 days) | 3345 | 4.7 | 2.6 | 1.5 | -0.0 |
 | 🎪 PPC festival | 4–16 Nov (13 days) | 1846 | 16.1 | 12.0 | 4.0 | +11.3 |
 | 📅 Public holidays | 23 Oct – 1 Nov (3 days) | 431 | 3.2 | 1.8 | 1.3 | -1.5 |
 
