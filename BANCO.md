@@ -2,15 +2,15 @@
 
 Checks [its website](https://bancocasino.sk/ba/en) together with King's, about every 10 minutes. All times are **Czech time** (same as Poland and Slovakia). Back to [King's](README.md).
 
-**Last check:** 2026-11-21 19:20 — ✅ OK  
-**Checks so far:** 5636 successful out of 6166 (since 2026-10-10)
+**Last check:** 2026-11-21 19:30 — ✅ OK  
+**Checks so far:** 5637 successful out of 6167 (since 2026-10-10)
 
-## Tables running at 2026-11-21 19:20
+## Tables running at 2026-11-21 19:30
 
 No tables were running.
 
 *The whole list (Banco also shows its Košice casino; the numbers above are Bratislava only):* Košice: NLH €1/3 6 players (buy-in €100)  
-**Tournaments running:** Banco Poker Open: 151/161 players, level 4, blinds 300/600, buy-in €120, €50000 GTD VPT Poker Round 4 (PRIVATE): 19/44 players, level 14, blinds 5000/10000, buy-in €50
+**Tournaments running:** none
 
 **Note:** Since 13 Oct the tracker reads Banco's cash list and its live tournaments straight from where its page gets them; before that, its page's scripts didn't run in the tracker's browser, so those checks show as errors.
 
@@ -128,7 +128,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 16:00 | 🟥 19% | 🟥 0% | 🟨 38% | 🟥 0% | 🟥 22% | 144 |
 | 17:00 | 🟨 27% | 🟥 0% | 🟨 46% | 🟥 0% | 🟥 22% | 142 |
 | 18:00 | 🟨 36% | 🟥 0% | 🟨 47% | 🟥 0% | 🟥 21% | 143 |
-| 19:00 | 🟨 35% | 🟥 0% | 🟨 50% | 🟥 1% | 🟥 21% | 141 |
+| 19:00 | 🟨 35% | 🟥 0% | 🟨 49% | 🟥 1% | 🟥 21% | 142 |
 | 20:00 | 🟨 46% | 🟥 0% | 🟨 42% | 🟥 4% | 🟥 22% | 138 |
 | 21:00 | 🟨 55% | 🟥 4% | 🟨 47% | 🟥 4% | 🟥 22% | 139 |
 | 22:00 | 🟨 62% | 🟥 4% | 🟨 43% | 🟥 4% | 🟥 15% | 136 |
@@ -140,7 +140,7 @@ Average seated players per check on each kind of day, in total and for NLH and O
 
 | Days | Dates | Checks | Players | NLH | Omaha | vs normal, same hour |
 |:--|:--|--:|--:|--:|--:|--:|
-| Normal days | 13 Oct – 21 Nov (24 days) | 3359 | 4.7 | 2.6 | 1.5 | -0.0 |
+| Normal days | 13 Oct – 21 Nov (24 days) | 3360 | 4.7 | 2.6 | 1.5 | -0.0 |
 | 🎪 PPC festival | 4–16 Nov (13 days) | 1846 | 16.1 | 12.0 | 4.0 | +11.4 |
 | 📅 Public holidays | 23 Oct – 1 Nov (3 days) | 431 | 3.2 | 1.8 | 1.3 | -1.5 |
 
