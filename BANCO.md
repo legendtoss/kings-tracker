@@ -2,14 +2,14 @@
 
 Checks [its website](https://bancocasino.sk/ba/en) together with King's, about every 10 minutes. All times are **Czech time** (same as Poland and Slovakia). Back to [King's](README.md).
 
-**Last check:** 2026-11-21 08:30 — ✅ OK  
-**Checks so far:** 5572 successful out of 6101 (since 2026-10-10)
+**Last check:** 2026-11-21 08:40 — ✅ OK  
+**Checks so far:** 5573 successful out of 6102 (since 2026-10-10)
 
-## Tables running at 2026-11-21 08:30
+## Tables running at 2026-11-21 08:40
 
 No tables were running.
 
-*The whole list (Banco also shows its Košice casino; the numbers above are Bratislava only):* Košice: NLH €1/3 3 players (buy-in €100)  
+*The whole list (Banco also shows its Košice casino; the numbers above are Bratislava only):* no games listed  
 **Tournaments running:** none
 
 **Note:** Since 13 Oct the tracker reads Banco's cash list and its live tournaments straight from where its page gets them; before that, its page's scripts didn't run in the tracker's browser, so those checks show as errors.
@@ -117,7 +117,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 05:00 | 🟨 34% | 🟥 4% | 🟥 9% | 🟥 4% | 🟥 3% | 138 |
 | 06:00 | 🟨 27% | 🟥 7% | 🟥 4% | 🟥 4% | 🟥 0% | 138 |
 | 07:00 | 🟥 18% | 🟥 8% | 🟥 0% | 🟥 3% | 🟥 0% | 137 |
-| 08:00 | 🟥 4% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 136 |
+| 08:00 | 🟥 4% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 137 |
 | 09:00 | 🟥 2% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 132 |
 | 10:00 | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 131 |
 | 11:00 | 🟥 2% | 🟥 0% | 🟥 2% | 🟥 0% | 🟥 0% | 132 |
@@ -140,7 +140,7 @@ Average seated players per check on each kind of day, in total and for NLH and O
 
 | Days | Dates | Checks | Players | NLH | Omaha | vs normal, same hour |
 |:--|:--|--:|--:|--:|--:|--:|
-| Normal days | 13 Oct – 21 Nov (24 days) | 3295 | 4.8 | 2.6 | 1.5 | -0.0 |
+| Normal days | 13 Oct – 21 Nov (24 days) | 3296 | 4.8 | 2.6 | 1.5 | -0.0 |
 | 🎪 PPC festival | 4–16 Nov (13 days) | 1846 | 16.1 | 12.0 | 4.0 | +11.3 |
 | 📅 Public holidays | 23 Oct – 1 Nov (3 days) | 431 | 3.2 | 1.8 | 1.3 | -1.5 |
 
