@@ -2,14 +2,14 @@
 
 Prague's tables come in the same King's data feed as Rozvadov's, so they're read at every check (about every 10 minutes) without any extra visits, together with Prague's tournament clocks. All times are **Czech time** (same as Poland). Back to [King's Rozvadov](README.md).
 
-**Last check:** 2026-11-21 02:40 — ✅ OK  
-**Last 24 h:** 144 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-17 (4710 good checks)
+**Last check:** 2026-11-21 02:50 — ✅ OK  
+**Last 24 h:** 144 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-17 (4711 good checks)
 
-## Tables running at 2026-11-21 02:40
+## Tables running at 2026-11-21 02:50
 
 No tables were running.
 
-**Tournaments in play:** ČPT Česká Pokerová Tour at King's - Day 1A SPEED (NLH, €200, 11 of 53 left, level 14, blinds 3000/6000/6000)
+**Tournaments in play:** ČPT Česká Pokerová Tour at King's - Day 1A SPEED (NLH, €200, 10 of 53 left, level 14, blinds 3000/6000/6000)
 
 ## Festivals and schedule
 
@@ -68,7 +68,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 |:--|--:|--:|--:|--:|
 | 00:00 | 🟨 44% | 🟥 6% | 🟥 0% | 197 |
 | 01:00 | 🟨 34% | 🟥 5% | 🟥 0% | 198 |
-| 02:00 | 🟥 17% | 🟥 0% | 🟥 1% | 204 |
+| 02:00 | 🟥 17% | 🟥 0% | 🟥 1% | 205 |
 | 03:00 | 🟥 4% | 🟥 0% | 🟥 0% | 189 |
 | 04:00 | 🟥 1% | 🟥 0% | 🟥 0% | 189 |
 | 05:00 | 🟥 0% | 🟥 0% | 🟥 0% | 189 |
@@ -97,7 +97,7 @@ Average seated players per check on each kind of day, in total and for NLH and O
 
 | Days | Dates | Checks | Players | NLH | Omaha | vs normal, same hour |
 |:--|:--|--:|--:|--:|--:|--:|
-| Normal days | 17 Oct – 21 Nov (34 days) | 4463 | 0.7 | 0.7 | 0.0 | -0.0 |
+| Normal days | 17 Oct – 21 Nov (34 days) | 4464 | 0.7 | 0.7 | 0.0 | -0.0 |
 | 📅 Public holidays | 28 Oct – 17 Nov (2 days) | 247 | 0.0 | 0.0 | 0.0 | -0.8 |
 
 ## All games seen
@@ -114,7 +114,7 @@ The most recent ones. The game is read from the tournament's name.
 
 | Tournament | Game | Buy-in | Entries | Seen |
 |:--|:--|--:|--:|:--|
-| ČPT Česká Pokerová Tour at King's - Day 1A SPEED | NLH | €200 | 56 | 2026-10-30 19:10 → 11-21 02:40 |
+| ČPT Česká Pokerová Tour at King's - Day 1A SPEED | NLH | €200 | 56 | 2026-10-30 19:10 → 11-21 02:50 |
 | Satellite to ČPT 1 Million - Day 1A | NLH | €30 | 83 | 2026-10-30 16:10 → 11-20 19:40 |
 | King's Prague Mystery Bounty Thursday | NLH | €100 | 68 | 2026-10-22 19:10 → 11-20 04:40 |
 | Satellite to King's Prague Mystery Thursday | NLH | €30 | 73 | 2026-10-21 18:30 → 11-19 19:20 |
