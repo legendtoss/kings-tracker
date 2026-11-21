@@ -2,10 +2,10 @@
 
 Reads [Grand Casino Aš's live cash games](https://www.grandcasinoas.eu/en/poker/poker-live) every 10 minutes and its [current tournaments](https://www.grandcasinoas.eu/en/poker) every 30 minutes. All times are **Czech time** (same as Poland). Back to [King's](README.md).
 
-**Last check:** 2026-11-21 22:20 — ✅ OK  
-**Last 24 h:** 145 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-10 (6171 good checks)
+**Last check:** 2026-11-21 22:30 — ✅ OK  
+**Last 24 h:** 145 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-10 (6172 good checks)
 
-## Cash games at 2026-11-21 22:20
+## Cash games at 2026-11-21 22:30
 
 ```
 NLH      €1/2     running
@@ -14,7 +14,7 @@ NLH      €1/2     running
 PLO/NLH           waiting
 ```
 
-**Tournaments in play at 2026-11-21 22:00:** Carbanick Cup (NLH, €100, 99 of 236 left, level 12, blinds 1500/3000/3000)
+**Tournaments in play at 2026-11-21 22:30:** Carbanick Cup (NLH, €100, 92 of 236 left, level 13, blinds 2000/4000/4000)
 
 ## Festivals and schedule
 
@@ -90,7 +90,7 @@ Average number of running tables (Grand Casino Aš shows which games run, not ho
 | 19:00 | 🟥 8% | 🟥 4% | 🟥 0% | 🟥 2% | 133 |
 | 20:00 | 🟥 15% | 🟥 1% | 🟥 0% | 🟥 5% | 133 |
 | 21:00 | 🟥 18% | 🟥 4% | 🟥 0% | 🟥 5% | 133 |
-| 22:00 | 🟥 23% | 🟥 0% | 🟥 0% | 🟥 5% | 130 |
+| 22:00 | 🟥 24% | 🟥 0% | 🟥 0% | 🟥 5% | 131 |
 | 23:00 | 🟨 29% | 🟥 0% | 🟥 0% | 🟥 6% | 127 |
 
 ## Festivals, holidays and normal days
@@ -99,9 +99,9 @@ Average running tables per check on each kind of day, in total and for NLH and O
 
 | Days | Dates | Checks | Tables | NLH | Omaha | vs normal, same hour |
 |:--|:--|--:|--:|--:|--:|--:|
-| Normal days | 10 Oct – 21 Nov (22 days) | 3157 | 0.2 | 0.2 | 0.0 | +0.0 |
+| Normal days | 10 Oct – 21 Nov (22 days) | 3158 | 0.2 | 0.2 | 0.0 | +0.0 |
 | ↳ with an Omaha tournament on the schedule | 30 Oct (1 day) | 144 | 0.6 | 0.6 | 0.0 | +0.4 |
-| ↳ without one | 10 Oct – 21 Nov (21 days) | 3013 | 0.2 | 0.1 | 0.0 | -0.0 |
+| ↳ without one | 10 Oct – 21 Nov (21 days) | 3014 | 0.2 | 0.1 | 0.0 | -0.0 |
 | 🎪 PLO festival | 15–18 Oct (4 days) | 578 | 0.5 | 0.3 | 0.1 | +0.4 |
 | 🎪 GRND festival | 4–15 Nov (12 days) | 1718 | 1.2 | 1.0 | 0.2 | +1.0 |
 | 📅 Public holidays | 28 Oct – 18 Nov (5 days) | 718 | 0.4 | 0.4 | 0.0 | +0.2 |
@@ -112,7 +112,7 @@ The most recent ones. The game is read from the tournament's name.
 
 | Tournament | Game | Buy-in | Entries | Seen |
 |:--|:--|--:|--:|:--|
-| Carbanick Cup | NLH | €100 | 236 | 2026-11-21 17:00 → 11-21 22:00 |
+| Carbanick Cup | NLH | €100 | 236 | 2026-11-21 17:00 → 11-21 22:30 |
 | Lucky Turbo | NLH | €50 | 77 | 2026-11-21 13:00 → 11-21 18:30 |
 | Lucky Opener | NLH | €70 | 138 | 2026-11-20 18:00 → 11-21 04:00 |
 | Thursday 3K | NLH | €60 | 64 | 2026-10-15 20:00 → 11-20 01:30 |
