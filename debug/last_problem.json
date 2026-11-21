@@ -1,9 +1,6 @@
 {
- "saved_at": "2026-11-21T05:20:24+01:00",
- "status": "error: couldn't read the tables on the page",
- "source": "page table",
- "feed": "no Rozvadov tables in the feed",
- "page_text_start": "Server error\nAn error occurred in the application and your page could not be served. If you are the application owner, check your logs for details.\nNuxt",
- "box_html": null,
- "feed_seen_by_page": []
+ "saved_at": "2026-11-21T07:00:40+01:00",
+ "status": "ok",
+ "source": "feed",
+ "tournaments": "URLError: urlopen error SSL: UNEXPECTED_EOF_WHILE_READING EOF occurred in violation of protocol (_ssl.c:1011)"
 }
