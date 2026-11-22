@@ -2,14 +2,14 @@
 
 Prague's tables come in the same King's data feed as Rozvadov's, so they're read at every check (about every 10 minutes) without any extra visits, together with Prague's tournament clocks. All times are **Czech time** (same as Poland). Back to [King's Rozvadov](README.md).
 
-**Last check:** 2026-11-22 13:00 — ✅ OK  
-**Last 24 h:** 145 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-17 (4915 good checks)
+**Last check:** 2026-11-22 13:10 — ✅ OK  
+**Last 24 h:** 145 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-17 (4916 good checks)
 
-## Tables running at 2026-11-22 13:00
+## Tables running at 2026-11-22 13:10
 
 No tables were running.
 
-**Tournaments in play:** ČPT Česká Pokerová Tour at King's - Day 1C TURBO (NLH, €200, 25 of 37 left, late reg open, level 7, blinds 600/1200/1200)
+**Tournaments in play:** ČPT Česká Pokerová Tour at King's - Day 1C TURBO (NLH, €200, 24 of 37 left, late reg open, level 8, blinds 800/1600/1600)
 
 ## Festivals and schedule
 
@@ -79,7 +79,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 10:00 | 🟥 0% | 🟥 0% | 🟥 0% | 172 |
 | 11:00 | 🟥 0% | 🟥 0% | 🟥 0% | 178 |
 | 12:00 | 🟥 0% | 🟥 0% | 🟥 0% | 182 |
-| 13:00 | 🟥 0% | 🟥 0% | 🟥 0% | 189 |
+| 13:00 | 🟥 0% | 🟥 0% | 🟥 0% | 190 |
 | 14:00 | 🟥 0% | 🟥 0% | 🟥 0% | 193 |
 | 15:00 | 🟥 0% | 🟥 0% | 🟥 0% | 196 |
 | 16:00 | 🟥 0% | 🟥 0% | 🟥 0% | 195 |
@@ -97,7 +97,7 @@ Average seated players per check on each kind of day, in total and for NLH and O
 
 | Days | Dates | Checks | Players | NLH | Omaha | vs normal, same hour |
 |:--|:--|--:|--:|--:|--:|--:|
-| Normal days | 17 Oct – 22 Nov (35 days) | 4668 | 0.8 | 0.7 | 0.0 | +0.0 |
+| Normal days | 17 Oct – 22 Nov (35 days) | 4669 | 0.8 | 0.7 | 0.0 | +0.0 |
 | 📅 Public holidays | 28 Oct – 17 Nov (2 days) | 247 | 0.0 | 0.0 | 0.0 | -0.9 |
 
 ## All games seen
@@ -114,7 +114,7 @@ The most recent ones. The game is read from the tournament's name.
 
 | Tournament | Game | Buy-in | Entries | Seen |
 |:--|:--|--:|--:|:--|
-| ČPT Česká Pokerová Tour at King's - Day 1C TURBO | NLH | €200 | 37 | 2026-11-01 11:00 → 11-22 13:00 |
+| ČPT Česká Pokerová Tour at King's - Day 1C TURBO | NLH | €200 | 37 | 2026-11-01 11:00 → 11-22 13:10 |
 | ČPT Česká Pokerová Tour at King's - Day 1B | NLH | €200 | 101 | 2026-10-31 16:10 → 11-22 02:30 |
 | Satellite to ČPT 1 Million - Day 1B | NLH | €30 | 88 | 2026-10-31 13:10 → 11-21 16:40 |
 | ČPT Česká Pokerová Tour at King's - Day 1A SPEED | NLH | €200 | 56 | 2026-10-30 19:10 → 11-21 02:50 |
