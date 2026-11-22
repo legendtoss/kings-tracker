@@ -2,10 +2,10 @@
 
 Reads [Card Casino's live cash-game list](https://www.cardcasino.sk/en/cashgames/) together with King's, about every 10 minutes. All times are **Czech time** (same as Poland and Slovakia). Back to [King's](README.md).
 
-**Last check:** 2026-11-22 21:20 — ✅ OK (live list)  
-**Last 24 h:** 120 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-10 (5508 good checks)
+**Last check:** 2026-11-22 21:30 — ✅ OK (live list)  
+**Last 24 h:** 120 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-10 (5509 good checks)
 
-## Tables running at 2026-11-22 21:20
+## Tables running at 2026-11-22 21:30
 
 ```
 NLH  €1/3     7/8 players
@@ -119,7 +119,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 18:00 | 🟥 19% | 🟥 12% | 🟥 0% | 🟥 5% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 2% | 180 |
 | 19:00 | 🟨 39% | 🟥 17% | 🟥 0% | 🟥 7% | 🟥 7% | 🟥 0% | 🟥 2% | 🟥 0% | 179 |
 | 20:00 | 🟨 65% | 🟥 20% | 🟥 1% | 🟥 12% | 🟥 15% | 🟥 0% | 🟥 2% | 🟥 0% | 182 |
-| 21:00 | 🟨 73% | 🟥 19% | 🟥 4% | 🟥 11% | 🟥 22% | 🟥 3% | 🟥 2% | 🟥 0% | 172 |
+| 21:00 | 🟨 73% | 🟥 19% | 🟥 4% | 🟥 11% | 🟥 21% | 🟥 3% | 🟥 2% | 🟥 0% | 173 |
 | 22:00 | 🟨 74% | 🟥 16% | 🟥 6% | 🟥 10% | 🟥 24% | 🟥 2% | 🟥 3% | 🟥 2% | 174 |
 | 23:00 | 🟨 70% | 🟥 15% | 🟥 6% | 🟥 14% | 🟥 24% | 🟥 4% | 🟥 3% | 🟥 4% | 164 |
 
@@ -129,7 +129,7 @@ Average seated players per check on each kind of day, in total and for NLH and O
 
 | Days | Dates | Checks | Players | NLH | Omaha | vs normal, same hour |
 |:--|:--|--:|--:|--:|--:|--:|
-| Normal days | 12 Oct – 22 Nov (34 days) | 4240 | 5.1 | 3.7 | 1.3 | +0.0 |
+| Normal days | 12 Oct – 22 Nov (34 days) | 4241 | 5.1 | 3.7 | 1.3 | +0.0 |
 | 💵 Cash game days: NLH/PLO/PLO5 from €10/20 | 10–11 Oct (2 days) | 240 | 11.9 | 6.2 | 5.7 | +7.2 |
 | 🎪 Main Event week | 20–25 Oct (6 days) | 771 | 8.5 | 7.0 | 1.4 | +3.2 |
 | 📅 Public holidays | 26 Oct – 1 Nov (2 days) | 257 | 5.9 | 4.2 | 1.7 | +0.7 |
@@ -139,7 +139,7 @@ Average seated players per check on each kind of day, in total and for NLH and O
 | Game | Running in | Most often | Last seen |
 |:--|--:|:--|:--|
 | NLH €1/2 | 22% of checks | Tue around 21:00 | 2026-11-17 06:20 |
-| NLH €1/3 | 17% of checks | Sun around 02:00 | 2026-11-22 21:20 |
+| NLH €1/3 | 17% of checks | Sun around 02:00 | 2026-11-22 21:30 |
 | NLH €2/5 | 1% of checks | Thu around 23:00 | 2026-11-21 01:10 |
 | PLO €2/2 | 7% of checks | Sun around 01:00 | 2026-11-22 20:50 |
 | PLO €5/5 | 10% of checks | Tue around 02:00 | 2026-11-22 00:20 |
