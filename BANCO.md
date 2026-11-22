@@ -2,10 +2,10 @@
 
 Checks [its website](https://bancocasino.sk/ba/en) together with King's, about every 10 minutes. All times are **Czech time** (same as Poland and Slovakia). Back to [King's](README.md).
 
-**Last check:** 2026-11-22 08:40 — ✅ OK  
-**Checks so far:** 5713 successful out of 6246 (since 2026-10-10)
+**Last check:** 2026-11-22 08:50 — ✅ OK  
+**Checks so far:** 5714 successful out of 6247 (since 2026-10-10)
 
-## Tables running at 2026-11-22 08:40
+## Tables running at 2026-11-22 08:50
 
 ```
 NLH  €1/3     5 players
@@ -121,7 +121,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 05:00 | 🟨 37% | 🟥 4% | 🟥 9% | 🟥 4% | 🟥 3% | 144 |
 | 06:00 | 🟨 30% | 🟥 6% | 🟥 4% | 🟥 4% | 🟥 0% | 144 |
 | 07:00 | 🟥 21% | 🟥 8% | 🟥 0% | 🟥 3% | 🟥 0% | 143 |
-| 08:00 | 🟥 8% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 143 |
+| 08:00 | 🟥 8% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 144 |
 | 09:00 | 🟥 1% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 138 |
 | 10:00 | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 137 |
 | 11:00 | 🟥 1% | 🟥 0% | 🟥 1% | 🟥 0% | 🟥 0% | 138 |
@@ -144,7 +144,7 @@ Average seated players per check on each kind of day, in total and for NLH and O
 
 | Days | Dates | Checks | Players | NLH | Omaha | vs normal, same hour |
 |:--|:--|--:|--:|--:|--:|--:|
-| Normal days | 13 Oct – 22 Nov (25 days) | 3436 | 4.9 | 2.8 | 1.5 | -0.0 |
+| Normal days | 13 Oct – 22 Nov (25 days) | 3437 | 4.9 | 2.8 | 1.5 | -0.0 |
 | 🎪 PPC festival | 4–16 Nov (13 days) | 1846 | 16.1 | 12.0 | 4.0 | +11.2 |
 | 📅 Public holidays | 23 Oct – 1 Nov (3 days) | 431 | 3.2 | 1.8 | 1.3 | -1.6 |
 
@@ -152,7 +152,7 @@ Average seated players per check on each kind of day, in total and for NLH and O
 
 | Game | Running in | Most often | Last seen |
 |:--|--:|:--|:--|
-| NLH €1/3 | 45% of checks | Sun around 02:00 | 2026-11-22 08:40 |
+| NLH €1/3 | 45% of checks | Sun around 02:00 | 2026-11-22 08:50 |
 | NLH €2/5 | 5% of checks | Sat around 07:00 | 2026-11-11 18:10 |
 | PLO €2/2 | 0% of checks | Thu around 02:00 | 2026-11-05 03:30 |
 | PLO 4/5 €2/2 | 30% of checks | Tue around 18:00 | 2026-11-22 04:10 |
