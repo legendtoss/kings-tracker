@@ -2,10 +2,10 @@
 
 Checks [its website](https://bancocasino.sk/ba/en) together with King's, about every 10 minutes. All times are **Czech time** (same as Poland and Slovakia). Back to [King's](README.md).
 
-**Last check:** 2026-11-22 21:40 — ✅ OK  
-**Checks so far:** 5789 successful out of 6324 (since 2026-10-10)
+**Last check:** 2026-11-22 21:50 — ✅ OK  
+**Checks so far:** 5790 successful out of 6325 (since 2026-10-10)
 
-## Tables running at 2026-11-22 21:40
+## Tables running at 2026-11-22 21:50
 
 ```
 Dealer's Choice  €2/2     8 players
@@ -134,7 +134,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 18:00 | 🟨 34% | 🟥 0% | 🟨 45% | 🟥 0% | 🟥 24% | 149 |
 | 19:00 | 🟨 33% | 🟥 0% | 🟨 47% | 🟥 1% | 🟥 23% | 149 |
 | 20:00 | 🟨 44% | 🟥 0% | 🟨 39% | 🟥 4% | 🟥 24% | 148 |
-| 21:00 | 🟨 55% | 🟥 4% | 🟨 44% | 🟥 4% | 🟥 23% | 150 |
+| 21:00 | 🟨 54% | 🟥 4% | 🟨 44% | 🟥 4% | 🟥 24% | 151 |
 | 22:00 | 🟨 63% | 🟥 4% | 🟨 42% | 🟥 4% | 🟥 15% | 141 |
 | 23:00 | 🟨 61% | 🟥 4% | 🟨 32% | 🟥 4% | 🟥 13% | 143 |
 
@@ -144,7 +144,7 @@ Average seated players per check on each kind of day, in total and for NLH and O
 
 | Days | Dates | Checks | Players | NLH | Omaha | vs normal, same hour |
 |:--|:--|--:|--:|--:|--:|--:|
-| Normal days | 13 Oct – 22 Nov (25 days) | 3512 | 4.8 | 2.7 | 1.5 | +0.0 |
+| Normal days | 13 Oct – 22 Nov (25 days) | 3513 | 4.8 | 2.7 | 1.5 | -0.0 |
 | 🎪 PPC festival | 4–16 Nov (13 days) | 1846 | 16.1 | 12.0 | 4.0 | +11.2 |
 | 📅 Public holidays | 23 Oct – 1 Nov (3 days) | 431 | 3.2 | 1.8 | 1.3 | -1.6 |
 
@@ -159,7 +159,7 @@ Average seated players per check on each kind of day, in total and for NLH and O
 | PLO €2/5 | 0% of checks | Sun around 23:00 | 2026-11-09 03:30 |
 | PLO 4/5 €5/5 | 1% of checks | Mon around 07:00 | 2026-11-16 11:10 |
 | PLO €25/50 | 1% of checks | Thu around 20:00 | 2026-11-12 06:40 |
-| Dealer's Choice €2/2 | 6% of checks | Thu around 16:00 | 2026-11-22 21:40 |
+| Dealer's Choice €2/2 | 6% of checks | Thu around 16:00 | 2026-11-22 21:50 |
 
 ---
 The numbers count Bratislava only (Banco's list also shows Košice, kept in words above). Banco shows no seat counts, so tables show players only.
