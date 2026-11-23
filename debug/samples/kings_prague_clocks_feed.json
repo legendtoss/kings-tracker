@@ -1,6 +1,6 @@
 {
- "saved_on": "2026-11-23",
- "records": 2,
+ "saved_on": "2026-11-24",
+ "records": 1,
  "fields": [
   "activePause",
   "activePlayers",
@@ -48,108 +48,14 @@
  ],
  "sample": [
   {
-   "referenceTime": "2026-11-23T00:00:15.999",
-   "name": "ČPT Česká Pokerová Tour at King's  - Final Day",
-   "fullName": "ČPT Česká Pokerová Tour at King's  - Final Day",
-   "tournamentName": "ČPT Česká Pokerová Tour at King's ",
-   "notes": "",
-   "color": "#f57f17",
-   "background": "chips_all_in_kings.jpg",
-   "status": "RUNNING",
-   "isPaused": false,
-   "currency": "EUR",
-   "effectivePrizePool": 40000,
-   "guaranteeInEffect": true,
-   "overlay": null,
-   "reEntryMaxCount": 0,
-   "startingStack": 50000,
-   "openRegistration": false,
-   "lateRegistrationUntilLevel": null,
-   "expectedLastLevel": null,
-   "start": "2026-11-22T16:03:36",
-   "pausedSeconds": 838,
-   "pausedMillis": 838894,
-   "flightGameTimeDelta": -838894,
-   "stickerText": null,
-   "totalEntries": 201,
-   "activePlayers": 2,
-   "averageStack": 5025000,
-   "nextBreakStart": "2026-11-23T03:02:35.004",
-   "nextBreakSeconds": 600,
-   "entryValue": 200,
-   "serviceFee": 0,
-   "bountyValue": null,
-   "payoutPositions": [
-    {
-     "from": 1,
-     "to": 1,
-     "amount": 7479,
-     "label": null
-    },
-    {
-     "from": 2,
-     "to": 2,
-     "amount": 5048,
-     "label": null
-    }
-   ],
-   "currentLevel": {
-    "start": "2026-11-22T23:42:35.004",
-    "gameEnd": "2026-11-23T00:22:35.004",
-    "levelEnd": "2026-11-23T00:22:35.004",
-    "sb": 40000,
-    "bb": 80000,
-    "number": 25,
-    "gameSeconds": 2400,
-    "breakSeconds": 0,
-    "limits": null,
-    "ante": 80000
-   },
-   "nextLevels": [
-    {
-     "sb": 50000,
-     "bb": 100000,
-     "number": 26,
-     "gameSeconds": 2400,
-     "breakSeconds": 0,
-     "limits": null,
-     "ante": 100000
-    },
-    {
-     "sb": 60000,
-     "bb": 120000,
-     "number": 27,
-     "gameSeconds": 2400,
-     "breakSeconds": 0,
-     "limits": null,
-     "ante": 120000
-    }
-   ],
-   "softPauseEnd": null,
-   "activePause": null,
-   "plannedEnd": null,
-   "winningStructureType": "STANDARD",
-   "levelCount": null,
-   "reEntryCountLimit": 0,
-   "availableTickets": {
-    "buyIn": 200,
-    "serviceFee": 0,
-    "addon": null,
-    "rebuy": null,
-    "addOnLimit": null,
-    "reBuyLimit": null
-   },
-   "tournament_id": 14245
-  },
-  {
-   "referenceTime": "2026-11-23T00:00:18.467",
+   "referenceTime": "2026-11-24T00:00:39.670",
    "name": "King's Prague Beginner's Monday",
    "fullName": "King's Prague Beginner's Monday",
    "tournamentName": "King's Prague Beginner's Monday",
    "notes": "(1x KOK Highroller tkt incl.)",
    "color": "#33691e",
    "background": "chips_all_in_kings.jpg",
-   "status": "READY_FOR_PUBLICATION",
+   "status": "RUNNING",
    "isPaused": false,
    "currency": "EUR",
    "effectivePrizePool": 6000,
@@ -157,42 +63,126 @@
    "overlay": null,
    "reEntryMaxCount": null,
    "startingStack": 40000,
-   "openRegistration": true,
+   "openRegistration": false,
    "lateRegistrationUntilLevel": 10,
    "expectedLastLevel": null,
-   "start": "2026-11-23T18:00:00",
-   "pausedSeconds": null,
-   "pausedMillis": null,
-   "flightGameTimeDelta": null,
+   "start": "2026-11-23T18:00:04",
+   "pausedSeconds": 0,
+   "pausedMillis": 0,
+   "flightGameTimeDelta": 0,
    "stickerText": null,
-   "totalEntries": 0,
-   "activePlayers": 0,
-   "averageStack": 0,
-   "nextBreakStart": null,
-   "nextBreakSeconds": null,
+   "totalEntries": 117,
+   "activePlayers": 14,
+   "averageStack": 334286,
+   "nextBreakStart": "2026-11-24T01:10:04.918",
+   "nextBreakSeconds": 600,
    "entryValue": 60,
    "serviceFee": 0,
    "bountyValue": null,
-   "payoutPositions": null,
-   "currentLevel": null,
-   "nextLevels": [
+   "payoutPositions": [
     {
-     "sb": 100,
-     "bb": 100,
-     "number": 1,
-     "gameSeconds": 1200,
-     "breakSeconds": 0,
-     "limits": "",
-     "ante": 100
+     "from": 1,
+     "to": 1,
+     "amount": 1390,
+     "label": "ticket"
     },
     {
-     "sb": 100,
-     "bb": 200,
-     "number": 2,
+     "from": 2,
+     "to": 2,
+     "amount": 955,
+     "label": null
+    },
+    {
+     "from": 3,
+     "to": 3,
+     "amount": 626,
+     "label": null
+    },
+    {
+     "from": 4,
+     "to": 4,
+     "amount": 507,
+     "label": null
+    },
+    {
+     "from": 5,
+     "to": 5,
+     "amount": 407,
+     "label": null
+    },
+    {
+     "from": 6,
+     "to": 6,
+     "amount": 318,
+     "label": null
+    },
+    {
+     "from": 7,
+     "to": 7,
+     "amount": 251,
+     "label": null
+    },
+    {
+     "from": 8,
+     "to": 8,
+     "amount": 192,
+     "label": null
+    },
+    {
+     "from": 9,
+     "to": 9,
+     "amount": 140,
+     "label": null
+    },
+    {
+     "from": 10,
+     "to": 11,
+     "amount": 113,
+     "label": null
+    },
+    {
+     "from": 12,
+     "to": 13,
+     "amount": 100,
+     "label": null
+    },
+    {
+     "from": 14,
+     "to": 14,
+     "amount": 92,
+     "label": null
+    }
+   ],
+   "currentLevel": {
+    "start": "2026-11-23T23:50:04.918",
+    "gameEnd": "2026-11-24T00:10:04.918",
+    "levelEnd": "2026-11-24T00:10:04.918",
+    "sb": 4000,
+    "bb": 8000,
+    "number": 16,
+    "gameSeconds": 1200,
+    "breakSeconds": 0,
+    "limits": "",
+    "ante": 8000
+   },
+   "nextLevels": [
+    {
+     "sb": 5000,
+     "bb": 10000,
+     "number": 17,
      "gameSeconds": 1200,
      "breakSeconds": 0,
      "limits": "",
-     "ante": 200
+     "ante": 10000
+    },
+    {
+     "sb": 6000,
+     "bb": 12000,
+     "number": 18,
+     "gameSeconds": 1200,
+     "breakSeconds": 0,
+     "limits": "",
+     "ante": 12000
     }
    ],
    "softPauseEnd": null,
