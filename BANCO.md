@@ -2,17 +2,14 @@
 
 Checks [its website](https://bancocasino.sk/ba/en) together with King's, about every 10 minutes. All times are **Czech time** (same as Poland and Slovakia). Back to [King's](README.md).
 
-**Last check:** 2026-11-23 03:40 — ✅ OK  
-**Checks so far:** 5825 successful out of 6360 (since 2026-10-10)
+**Last check:** 2026-11-23 03:50 — ✅ OK  
+**Checks so far:** 5826 successful out of 6361 (since 2026-10-10)
 
-## Tables running at 2026-11-23 03:40
+## Tables running at 2026-11-23 03:50
 
-```
-Dealer's Choice  €2/2     4 players
-```
-**Dealer's Choice:** 4 players at 1 table
+No tables were running.
 
-*The whole list (Banco also shows its Košice casino; the numbers above are Bratislava only):* Bratislava: Dealer's Choice €2/2 4 players (buy-in €100)  
+*The whole list (Banco also shows its Košice casino; the numbers above are Bratislava only):* no games listed  
 **Tournaments running:** none
 
 **Note:** Since 13 Oct the tracker reads Banco's cash list and its live tournaments straight from where its page gets them; before that, its page's scripts didn't run in the tracker's browser, so those checks show as errors.
@@ -146,7 +143,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 00:00 | 🟨 59% | 🟥 8% | 🟥 20% | 🟥 4% | 🟥 12% | 150 |
 | 01:00 | 🟨 59% | 🟥 8% | 🟥 17% | 🟥 4% | 🟥 12% | 151 |
 | 02:00 | 🟨 61% | 🟥 4% | 🟥 15% | 🟥 4% | 🟥 11% | 157 |
-| 03:00 | 🟨 51% | 🟥 5% | 🟨 27% | 🟥 4% | 🟥 9% | 150 |
+| 03:00 | 🟨 50% | 🟥 5% | 🟨 26% | 🟥 4% | 🟥 9% | 151 |
 | 04:00 | 🟨 40% | 🟥 4% | 🟥 20% | 🟥 4% | 🟥 6% | 143 |
 | 05:00 | 🟨 37% | 🟥 4% | 🟥 9% | 🟥 4% | 🟥 3% | 144 |
 | 06:00 | 🟨 30% | 🟥 6% | 🟥 4% | 🟥 4% | 🟥 0% | 144 |
@@ -174,7 +171,7 @@ Average seated players per check on each kind of day, in total and for NLH and O
 
 | Days | Dates | Checks | Players | NLH | Omaha | vs normal, same hour |
 |:--|:--|--:|--:|--:|--:|--:|
-| Normal days | 13 Oct – 23 Nov (26 days) | 3548 | 4.8 | 2.7 | 1.4 | -0.0 |
+| Normal days | 13 Oct – 23 Nov (26 days) | 3549 | 4.8 | 2.7 | 1.4 | +0.0 |
 | 🎪 PPC festival | 4–16 Nov (13 days) | 1846 | 16.1 | 12.0 | 4.0 | +11.3 |
 | 📅 Public holidays | 23 Oct – 1 Nov (3 days) | 431 | 3.2 | 1.8 | 1.3 | -1.6 |
 
