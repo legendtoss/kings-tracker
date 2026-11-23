@@ -2,14 +2,14 @@
 
 Prague's tables come in the same King's data feed as Rozvadov's, so they're read at every check (about every 10 minutes) without any extra visits, together with Prague's tournament clocks. All times are **Czech time** (same as Poland). Back to [King's Rozvadov](README.md).
 
-**Last check:** 2026-11-23 19:40 — ✅ OK  
-**Last 24 h:** 144 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-17 (5098 good checks)
+**Last check:** 2026-11-23 19:50 — ✅ OK  
+**Last 24 h:** 144 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-17 (5099 good checks)
 
-## Tables running at 2026-11-23 19:40
+## Tables running at 2026-11-23 19:50
 
 No tables were running.
 
-**Tournaments in play:** King's Prague Beginner's Monday (NLH, €60, 48 of 74 left, late reg open, level 5, blinds 300/600/600)
+**Tournaments in play:** King's Prague Beginner's Monday (NLH, €60, 48 of 76 left, late reg open, level 5, blinds 300/600/600)
 
 ## Festivals and schedule
 
@@ -85,7 +85,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 16:00 | 🟥 0% | 🟥 0% | 🟥 0% | 207 |
 | 17:00 | 🟥 2% | 🟥 0% | 🟥 0% | 207 |
 | 18:00 | 🟥 9% | 🟥 0% | 🟥 0% | 206 |
-| 19:00 | 🟥 12% | 🟥 1% | 🟥 0% | 209 |
+| 19:00 | 🟥 12% | 🟥 1% | 🟥 0% | 210 |
 | 20:00 | 🟥 22% | 🟥 0% | 🟥 0% | 209 |
 | 21:00 | 🟨 41% | 🟥 1% | 🟥 0% | 207 |
 | 22:00 | 🟨 49% | 🟥 2% | 🟥 0% | 208 |
@@ -97,7 +97,7 @@ Average seated players per check on each kind of day, in total and for NLH and O
 
 | Days | Dates | Checks | Players | NLH | Omaha | vs normal, same hour |
 |:--|:--|--:|--:|--:|--:|--:|
-| Normal days | 17 Oct – 23 Nov (36 days) | 4851 | 0.8 | 0.7 | 0.0 | -0.0 |
+| Normal days | 17 Oct – 23 Nov (36 days) | 4852 | 0.8 | 0.7 | 0.0 | -0.0 |
 | 📅 Public holidays | 28 Oct – 17 Nov (2 days) | 247 | 0.0 | 0.0 | 0.0 | -0.8 |
 
 ## All games seen
@@ -114,7 +114,7 @@ The most recent ones. The game is read from the tournament's name.
 
 | Tournament | Game | Buy-in | Entries | Seen |
 |:--|:--|--:|--:|:--|
-| King's Prague Beginner's Monday | NLH | €60 | 111 | 2026-10-19 18:00 → 11-23 19:40 |
+| King's Prague Beginner's Monday | NLH | €60 | 111 | 2026-10-19 18:00 → 11-23 19:50 |
 | ČPT Česká Pokerová Tour at King's - Final Day | NLH | €200 | 201 | 2026-11-01 16:00 → 11-23 00:20 |
 | ČPT Česká Pokerová Tour at King's - Day 1C TURBO | NLH | €200 | 47 | 2026-11-01 11:00 → 11-22 15:10 |
 | ČPT Česká Pokerová Tour at King's - Day 1B | NLH | €200 | 101 | 2026-10-31 16:10 → 11-22 02:30 |
