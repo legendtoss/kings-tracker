@@ -2,7 +2,7 @@
 
 Reads [OlyBet's live cash games page](https://olybetpoker.com/ee/en/cash-games/?club=6) every 30 minutes (their site has bot protection, so the tracker checks gently and simply records it when a check is refused). All times are **Czech time** (Tallinn is one hour ahead). Back to [King's](README.md).
 
-**Last check:** 2026-11-24 14:30 — ⚠️ error: blocked by the site's bot protection — details in `debug/olympic-tallinn_page.json`  
+**Last check:** 2026-11-24 15:00 — ⚠️ error: couldn't read the cash games table (page saved for a closer look) — details in `debug/olympic-tallinn_page.json`  
 **Last 24 h:** 0 of 49 checks OK, longest gap 0 h 35 min · **Collecting since:** 2026-10-10 (273 good checks)
 
 **Club:** Olympic Park Casino
@@ -13,7 +13,7 @@ No tables were running.
 
 **Waiting lists:** 6 players · **All games listed:** NLH €1/3 (closed): 0 tables, 0/0 players, 3 waiting PLO/PLO5 €1/3 (closed): 0 tables, 0/0 players, 2 waiting PLO €5/5 (closed): 0 tables, 0/0 players, 0 waiting NLH €5/5 (closed): 0 tables, 0/0 players, 1 waiting
 
-**Tournaments on their site at 2026-11-24 12:00:** live 11:00 Olympic Park Casino 7 Chicago European Championship Day 1/H 1 €125 11:30 Olympic Park Casino 26 FREEBUY Satellite to Mystery Bounty 1C, €20 Rebuys & Add-On 10,000 €0 13:00 Olympic Park Casino 15 NLH Mystery Bounty Day 1/C 30,000 €350 13:30 Olympic Park Casino 27 Mixed Games Main Event - TORSES Day 1 50,000 €555 18:30 Olympic Park Casino 28 Seven Card Mix (5 games) 20,000 €200 19:00 Olympic Park Casino 15 NLH Mystery Bounty Day 1/D Turbo 30,000 €350 20:00 Olympic Park Casino 29 NLH/PLO (Bomb Pot Feature) 20,000 €200 20:00 Olympic Park Casino 30 Cash Game Challenge 1 €200 20:00 Olympic Park Casino X Franke s Flip Flops Day 1/E 1 €0 21:00 Olympic Park Casino 31 Slots Tournament 1 €125 22:00 Olympic Park Casino 32 NLH Mega-Satellite to €555 NLH The Festival Main Event Day 1A, 6x€555 Seats GTD 15,000 €80 22:30 Olympic Park Casino 33 Cash Game Challenge 1 €200 23:00 Olympic Park Casino 7 Chicago European Championship Day 1/I 1 €125
+**Tournaments on their site at 2026-11-24 15:00:** live 11:00 Olympic Park Casino 7 Chicago European Championship Day 1/H 1 €125 11:30 Olympic Park Casino 26 FREEBUY Satellite to Mystery Bounty 1C, €20 Rebuys & Add-On 10,000 €0 13:00 Olympic Park Casino 15 NLH Mystery Bounty Day 1/C 30,000 €350 13:30 Olympic Park Casino 27 Mixed Games Main Event - TORSES Day 1 50,000 €555 18:30 Olympic Park Casino 28 Seven Card Mix (5 games) 20,000 €200 19:00 Olympic Park Casino 15 NLH Mystery Bounty Day 1/D Turbo 30,000 €350 20:00 Olympic Park Casino 29 NLH/PLO (Bomb Pot Feature) 20,000 €200 20:00 Olympic Park Casino 30 Cash Game Challenge 1 €200 20:00 Olympic Park Casino X Franke s Flip Flops Day 1/E 1 €0 21:00 Olympic Park Casino 31 Slots Tournament 1 €125 22:00 Olympic Park Casino 32 NLH Mega-Satellite to €555 NLH The Festival Main Event Day 1A, 6x€555 Seats GTD 15,000 €80 22:30 Olympic Park Casino 33 Cash Game Challenge 1 €200 23:00 Olympic Park Casino 7 Chicago European Championship Day 1/I 1 €125
 
 ## Festivals and schedule
 
