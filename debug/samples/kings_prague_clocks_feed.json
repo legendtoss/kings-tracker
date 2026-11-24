@@ -1,5 +1,5 @@
 {
- "saved_on": "2026-11-24",
+ "saved_on": "2026-11-25",
  "records": 1,
  "fields": [
   "activePause",
@@ -40,7 +40,6 @@
   "startingStack",
   "status",
   "stickerText",
-  "subName",
   "totalEntries",
   "tournamentName",
   "tournament_id",
@@ -48,159 +47,74 @@
  ],
  "sample": [
   {
-   "referenceTime": "2026-11-24T00:00:39.670",
-   "name": "King's Prague Beginner's Monday",
-   "fullName": "King's Prague Beginner's Monday",
-   "tournamentName": "King's Prague Beginner's Monday",
-   "notes": "(1x KOK Highroller tkt incl.)",
-   "color": "#33691e",
-   "background": "chips_all_in_kings.jpg",
-   "status": "RUNNING",
+   "referenceTime": "2026-11-25T00:00:29.020",
+   "name": "Satellite to King's Prague Mystery Thursday",
+   "fullName": "Satellite to King's Prague Mystery Thursday",
+   "tournamentName": "Satellite to King's Prague Mystery Thursday",
+   "notes": null,
+   "color": "#f57f17",
+   "background": null,
+   "status": "READY_FOR_PUBLICATION",
    "isPaused": false,
    "currency": "EUR",
-   "effectivePrizePool": 6000,
+   "effectivePrizePool": 1500,
    "guaranteeInEffect": true,
    "overlay": null,
    "reEntryMaxCount": null,
-   "startingStack": 40000,
-   "openRegistration": false,
+   "startingStack": 15000,
+   "openRegistration": true,
    "lateRegistrationUntilLevel": 10,
    "expectedLastLevel": null,
-   "start": "2026-11-23T18:00:04",
-   "pausedSeconds": 0,
-   "pausedMillis": 0,
-   "flightGameTimeDelta": 0,
+   "start": "2026-11-25T18:00:00",
+   "pausedSeconds": null,
+   "pausedMillis": null,
+   "flightGameTimeDelta": null,
    "stickerText": null,
-   "totalEntries": 117,
-   "activePlayers": 14,
-   "averageStack": 334286,
-   "nextBreakStart": "2026-11-24T01:10:04.918",
-   "nextBreakSeconds": 600,
-   "entryValue": 60,
+   "totalEntries": 0,
+   "activePlayers": 0,
+   "averageStack": 0,
+   "nextBreakStart": null,
+   "nextBreakSeconds": null,
+   "entryValue": 20,
    "serviceFee": 0,
    "bountyValue": null,
-   "payoutPositions": [
-    {
-     "from": 1,
-     "to": 1,
-     "amount": 1390,
-     "label": "ticket"
-    },
-    {
-     "from": 2,
-     "to": 2,
-     "amount": 955,
-     "label": null
-    },
-    {
-     "from": 3,
-     "to": 3,
-     "amount": 626,
-     "label": null
-    },
-    {
-     "from": 4,
-     "to": 4,
-     "amount": 507,
-     "label": null
-    },
-    {
-     "from": 5,
-     "to": 5,
-     "amount": 407,
-     "label": null
-    },
-    {
-     "from": 6,
-     "to": 6,
-     "amount": 318,
-     "label": null
-    },
-    {
-     "from": 7,
-     "to": 7,
-     "amount": 251,
-     "label": null
-    },
-    {
-     "from": 8,
-     "to": 8,
-     "amount": 192,
-     "label": null
-    },
-    {
-     "from": 9,
-     "to": 9,
-     "amount": 140,
-     "label": null
-    },
-    {
-     "from": 10,
-     "to": 11,
-     "amount": 113,
-     "label": null
-    },
-    {
-     "from": 12,
-     "to": 13,
-     "amount": 100,
-     "label": null
-    },
-    {
-     "from": 14,
-     "to": 14,
-     "amount": 92,
-     "label": null
-    }
-   ],
-   "currentLevel": {
-    "start": "2026-11-23T23:50:04.918",
-    "gameEnd": "2026-11-24T00:10:04.918",
-    "levelEnd": "2026-11-24T00:10:04.918",
-    "sb": 4000,
-    "bb": 8000,
-    "number": 16,
-    "gameSeconds": 1200,
-    "breakSeconds": 0,
-    "limits": "",
-    "ante": 8000
-   },
+   "payoutPositions": null,
+   "currentLevel": null,
    "nextLevels": [
     {
-     "sb": 5000,
-     "bb": 10000,
-     "number": 17,
+     "sb": 100,
+     "bb": 100,
+     "number": 1,
      "gameSeconds": 1200,
      "breakSeconds": 0,
      "limits": "",
-     "ante": 10000
+     "ante": 100
     },
     {
-     "sb": 6000,
-     "bb": 12000,
-     "number": 18,
+     "sb": 100,
+     "bb": 200,
+     "number": 2,
      "gameSeconds": 1200,
      "breakSeconds": 0,
      "limits": "",
-     "ante": 12000
+     "ante": 200
     }
    ],
    "softPauseEnd": null,
    "activePause": null,
    "plannedEnd": null,
-   "winningStructureType": "STANDARD",
+   "winningStructureType": "SATELLITE",
    "levelCount": null,
    "reEntryCountLimit": null,
-   "subName": "(1x KOK Highroller tkt incl.)",
    "availableTickets": {
-    "buyIn": 60,
+    "buyIn": 20,
     "serviceFee": 0,
     "addon": null,
     "rebuy": null,
     "addOnLimit": null,
     "reBuyLimit": null
    },
-   "tournament_id": 14246
+   "tournament_id": 14248
   }
  ]
 }

@@ -2,10 +2,10 @@
 
 Checks [its website](https://bancocasino.sk/ba/en) together with King's, about every 10 minutes. All times are **Czech time** (same as Poland and Slovakia). Back to [King's](README.md).
 
-**Last check:** 2026-11-24 23:50 — ✅ OK  
-**Checks so far:** 6087 successful out of 6625 (since 2026-10-10)
+**Last check:** 2026-11-25 00:00 — ✅ OK  
+**Checks so far:** 6088 successful out of 6626 (since 2026-10-10)
 
-## Tables running at 2026-11-24 23:50
+## Tables running at 2026-11-25 00:00
 
 No tables were running.
 
@@ -31,7 +31,7 @@ No tables were running.
 | Sat 5 Dec | 19:00 | €150 | Big O Masters |
 | Sun 6 Dec | 20:00 | €60 | Pot Limit Omaha - 4/5/6 Masters 7 Max |
 
-**Public holidays in the next 30 days** where most players come from (Slovakia, Austria, Hungary): Tue 8 Dec: Immaculate Conception (Austria) · Thu 24 Dec: Christmas Eve (Slovakia, Hungary).
+**Public holidays in the next 30 days** where most players come from (Slovakia, Austria, Hungary): Tue 8 Dec: Immaculate Conception (Austria) · Thu 24 Dec: Christmas Eve (Slovakia, Hungary) · Fri 25 Dec: Christmas Day (Slovakia, Austria, Hungary).
 
 ## Busiest times so far
 
@@ -110,7 +110,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 
 | Hour | NLH €1/3 | NLH €2/5 | PLO 4/5 €2/2 | PLO €25/50 | Dealer's Choice €2/2 | Checks |
 |:--|--:|--:|--:|--:|--:|--:|
-| 00:00 | 🟨 61% | 🟥 8% | 🟥 20% | 🟥 4% | 🟥 12% | 156 |
+| 00:00 | 🟨 61% | 🟥 8% | 🟥 20% | 🟥 4% | 🟥 11% | 157 |
 | 01:00 | 🟨 61% | 🟥 8% | 🟥 16% | 🟥 4% | 🟥 11% | 157 |
 | 02:00 | 🟨 63% | 🟥 4% | 🟥 15% | 🟥 4% | 🟥 11% | 163 |
 | 03:00 | 🟨 52% | 🟥 5% | 🟨 25% | 🟥 4% | 🟥 8% | 157 |
@@ -141,7 +141,7 @@ Average seated players per check on each kind of day, in total and for NLH and O
 
 | Days | Dates | Checks | Players | NLH | Omaha | vs normal, same hour |
 |:--|:--|--:|--:|--:|--:|--:|
-| Normal days | 13 Oct – 24 Nov (27 days) | 3810 | 4.8 | 2.7 | 1.5 | -0.0 |
+| Normal days | 13 Oct – 25 Nov (28 days) | 3811 | 4.8 | 2.7 | 1.5 | -0.0 |
 | 🎪 PPC festival | 4–16 Nov (13 days) | 1846 | 16.1 | 12.0 | 4.0 | +11.3 |
 | 📅 Public holidays | 23 Oct – 1 Nov (3 days) | 431 | 3.2 | 1.8 | 1.3 | -1.5 |
 

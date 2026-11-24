@@ -2,10 +2,10 @@
 
 Reads [Grand Casino Aš's live cash games](https://www.grandcasinoas.eu/en/poker/poker-live) every 10 minutes and its [current tournaments](https://www.grandcasinoas.eu/en/poker) every 30 minutes. All times are **Czech time** (same as Poland). Back to [King's](README.md).
 
-**Last check:** 2026-11-24 23:50 — ✅ OK  
-**Last 24 h:** 145 of 145 checks OK, longest gap 0 h 15 min · **Collecting since:** 2026-10-10 (6612 good checks)
+**Last check:** 2026-11-25 00:00 — ✅ OK  
+**Last 24 h:** 145 of 145 checks OK, longest gap 0 h 15 min · **Collecting since:** 2026-10-10 (6613 good checks)
 
-## Cash games at 2026-11-24 23:50
+## Cash games at 2026-11-25 00:00
 
 No cash games listed.
 
@@ -13,7 +13,7 @@ No cash games listed.
 
 ## Festivals and schedule
 
-- **Coming up:** 🎟️ **Isar series**, 25–29 Nov (series) — €150 Isar Main Event 28 Nov · Omaha: €60 NLH/PLO/Crazy Pineapple (26 Nov 14:00); €100 PLO StackAttack (27 Nov 20:00)
+- **Now:** 🎟️ **Isar series**, 25–29 Nov (series) — €150 Isar Main Event 28 Nov · Omaha: €60 NLH/PLO/Crazy Pineapple (26 Nov 14:00); €100 PLO StackAttack (27 Nov 20:00)
 
 **Omaha tournaments in the next 14 days** (from `hendonmob.txt`):
 
@@ -22,7 +22,7 @@ No cash games listed.
 | Thu 26 Nov | 14:00 | €60 | No Limit Hold'em/Pot Limit Omaha/Crazy Pineapple |
 | Fri 27 Nov | 20:00 | €100 | Pot Limit Omaha - StackAttack |
 
-**Public holidays in the next 30 days** where most players come from (Czechia, Bavaria, Saxony): Thu 24 Dec: Christmas Eve (Czechia).
+**Public holidays in the next 30 days** where most players come from (Czechia, Bavaria, Saxony): Thu 24 Dec: Christmas Eve (Czechia) · Fri 25 Dec: Christmas Day (Czechia, Bavaria, Saxony).
 
 ## Running cash tables by hour
 
@@ -63,7 +63,7 @@ Average number of running tables (Grand Casino Aš shows which games run, not ho
 
 | Hour | NLH €1/2 | PLO €2/2 | PLO 5Card €2/2 | DC €2/2 | Checks |
 |:--|--:|--:|--:|--:|--:|
-| 00:00 | 🟨 28% | 🟥 0% | 🟥 0% | 🟥 4% | 145 |
+| 00:00 | 🟨 27% | 🟥 0% | 🟥 0% | 🟥 4% | 146 |
 | 01:00 | 🟨 25% | 🟥 0% | 🟥 0% | 🟥 4% | 145 |
 | 02:00 | 🟥 24% | 🟥 0% | 🟥 0% | 🟥 4% | 151 |
 | 03:00 | 🟥 14% | 🟥 0% | 🟥 3% | 🟥 4% | 146 |
@@ -94,9 +94,9 @@ Average running tables per check on each kind of day, in total and for NLH and O
 
 | Days | Dates | Checks | Tables | NLH | Omaha | vs normal, same hour |
 |:--|:--|--:|--:|--:|--:|--:|
-| Normal days | 10 Oct – 24 Nov (25 days) | 3598 | 0.2 | 0.2 | 0.0 | -0.0 |
+| Normal days | 10 Oct – 25 Nov (26 days) | 3599 | 0.2 | 0.2 | 0.0 | -0.0 |
 | ↳ with an Omaha tournament on the schedule | 30 Oct (1 day) | 144 | 0.6 | 0.6 | 0.0 | +0.4 |
-| ↳ without one | 10 Oct – 24 Nov (24 days) | 3454 | 0.2 | 0.2 | 0.0 | -0.0 |
+| ↳ without one | 10 Oct – 25 Nov (25 days) | 3455 | 0.2 | 0.2 | 0.0 | -0.0 |
 | 🎪 PLO festival | 15–18 Oct (4 days) | 578 | 0.5 | 0.3 | 0.1 | +0.3 |
 | 🎪 GRND festival | 4–15 Nov (12 days) | 1718 | 1.2 | 1.0 | 0.2 | +1.0 |
 | 📅 Public holidays | 28 Oct – 18 Nov (5 days) | 718 | 0.4 | 0.4 | 0.0 | +0.2 |

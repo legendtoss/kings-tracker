@@ -1,6 +1,6 @@
 {
- "saved_on": "2026-11-24",
- "records": 5,
+ "saved_on": "2026-11-25",
+ "records": 8,
  "fields": [
   "activePause",
   "activePlayers",
@@ -48,12 +48,12 @@
  ],
  "sample": [
   {
-   "referenceTime": "2026-11-23T23:59:56.934",
-   "name": "GPM Mystery Bounty - Day 1B",
-   "fullName": "GPM Mystery Bounty - Day 1B",
+   "referenceTime": "2026-11-24T23:59:58.426",
+   "name": "GPM Mystery Bounty - Day 1C",
+   "fullName": "GPM Mystery Bounty - Day 1C",
    "tournamentName": "GPM Mystery Bounty",
    "notes": "15% ITM MC 240€ • played till 10%",
-   "color": "#bf360c",
+   "color": "#e65100",
    "background": null,
    "status": "RUNNING",
    "isPaused": false,
@@ -65,25 +65,25 @@
    "startingStack": 50000,
    "openRegistration": false,
    "lateRegistrationUntilLevel": 10,
-   "expectedLastLevel": 18,
-   "start": "2026-11-23T18:00:10",
+   "expectedLastLevel": 17,
+   "start": "2026-11-24T18:00:08",
    "pausedSeconds": 0,
    "pausedMillis": 0,
    "flightGameTimeDelta": 0,
-   "stickerText": "13 players ITM (min. cash 240€) ♠♥♦♣\n\nDay 1B is played down to the last 9 players ♠♥♦♣\n\nThe tournament is played as a multi-stack format – if you play multiple flights, only your biggest stack advances to Final day ♠♥♦♣\n\nChipleader of the flight will receive a bonus King's Million European Poker Championship Super Main Event ticket (1.150€) ♦♣♠♥",
-   "totalEntries": 85,
-   "activePlayers": 26,
-   "averageStack": 163462,
-   "nextBreakStart": "2026-11-24T00:45:10.503",
+   "stickerText": "15 players ITM (min. cash 240€) ♠♥♦♣\n\nDay 1C is played down to the last 10 players ♠♥♦♣\n\nThe tournament is played as a multi-stack format – if you play multiple flights, only your biggest stack advances to Final day ♠♥♦♣\n\nChipleader of the flight will receive a bonus King's Million European Poker Championship Super Main Event ticket (1.150€) ♦♣♠♥",
+   "totalEntries": 99,
+   "activePlayers": 32,
+   "averageStack": 154688,
+   "nextBreakStart": "2026-11-25T00:45:08.041",
    "nextBreakSeconds": 900,
    "entryValue": 150,
    "serviceFee": 0,
    "bountyValue": 50,
    "payoutPositions": null,
    "currentLevel": {
-    "start": "2026-11-23T23:45:10.503",
-    "gameEnd": "2026-11-24T00:15:10.503",
-    "levelEnd": "2026-11-24T00:15:10.503",
+    "start": "2026-11-24T23:45:08.041",
+    "gameEnd": "2026-11-25T00:15:08.041",
+    "levelEnd": "2026-11-25T00:15:08.041",
     "sb": 2000,
     "bb": 4000,
     "number": 11,
@@ -116,7 +116,7 @@
    "activePause": null,
    "plannedEnd": null,
    "winningStructureType": "STANDARD",
-   "levelCount": 18,
+   "levelCount": 17,
    "reEntryCountLimit": null,
    "subName": "15% ITM MC 240€ • played till 10%",
    "availableTickets": {
@@ -127,10 +127,10 @@
     "addOnLimit": null,
     "reBuyLimit": null
    },
-   "tournament_id": 14009
+   "tournament_id": 14010
   },
   {
-   "referenceTime": "2026-11-24T00:00:25.013",
+   "referenceTime": "2026-11-25T00:00:12.349",
    "name": "Satellite to GPM ME - Day 1",
    "fullName": "Satellite to GPM ME - Day 1",
    "tournamentName": "Satellite to GPM ME - Day 1",
@@ -148,15 +148,15 @@
    "openRegistration": false,
    "lateRegistrationUntilLevel": 8,
    "expectedLastLevel": null,
-   "start": "2026-11-23T21:00:07",
+   "start": "2026-11-24T21:00:07",
    "pausedSeconds": 0,
    "pausedMillis": 0,
    "flightGameTimeDelta": 0,
    "stickerText": null,
-   "totalEntries": 47,
-   "activePlayers": 13,
-   "averageStack": 36154,
-   "nextBreakStart": "2026-11-24T03:30:07.248",
+   "totalEntries": 67,
+   "activePlayers": 21,
+   "averageStack": 31905,
+   "nextBreakStart": "2026-11-25T03:35:07.473",
    "nextBreakSeconds": null,
    "entryValue": 40,
    "serviceFee": 0,
@@ -165,8 +165,8 @@
     {
      "from": 1,
      "to": 8,
-     "amount": 0,
-     "label": "GPM ME - Day 1"
+     "amount": null,
+     "label": "Ticket Day 1"
     },
     {
      "from": 9,
@@ -176,18 +176,27 @@
     }
    ],
    "currentLevel": {
-    "start": "2026-11-24T00:00:07.248",
-    "gameEnd": "2026-11-24T00:15:07.248",
-    "levelEnd": "2026-11-24T00:15:07.248",
-    "sb": 1000,
-    "bb": 1500,
-    "number": 11,
+    "start": "2026-11-24T23:50:07.473",
+    "gameEnd": "2026-11-25T00:05:07.473",
+    "levelEnd": "2026-11-25T00:05:07.473",
+    "sb": 600,
+    "bb": 1200,
+    "number": 10,
     "gameSeconds": 900,
     "breakSeconds": 0,
     "limits": null,
-    "ante": 1500
+    "ante": 1200
    },
    "nextLevels": [
+    {
+     "sb": 1000,
+     "bb": 1500,
+     "number": 11,
+     "gameSeconds": 900,
+     "breakSeconds": 0,
+     "limits": null,
+     "ante": 1500
+    },
     {
      "sb": 1000,
      "bb": 2000,
@@ -196,15 +205,6 @@
      "breakSeconds": 0,
      "limits": null,
      "ante": 2000
-    },
-    {
-     "sb": 1500,
-     "bb": 3000,
-     "number": 13,
-     "gameSeconds": 900,
-     "breakSeconds": 0,
-     "limits": null,
-     "ante": 3000
     }
    ],
    "softPauseEnd": null,
@@ -221,13 +221,83 @@
     "addOnLimit": null,
     "reBuyLimit": null
    },
-   "tournament_id": 14033
+   "tournament_id": 14034
   },
   {
-   "referenceTime": "2026-11-24T00:00:06.647",
-   "name": "Satellite to GPM Mystery Bounty - Day 1C",
-   "fullName": "Satellite to GPM Mystery Bounty - Day 1C",
-   "tournamentName": "Satellite to GPM Mystery Bounty - Day 1C",
+   "referenceTime": "2026-11-25T00:00:16.083",
+   "name": "GPM Morning NLH Turbo",
+   "fullName": "GPM Morning NLH Turbo",
+   "tournamentName": "GPM Morning NLH Turbo",
+   "notes": null,
+   "color": "#880e4f",
+   "background": null,
+   "status": "READY_FOR_PUBLICATION",
+   "isPaused": false,
+   "currency": "EUR",
+   "effectivePrizePool": 10000,
+   "guaranteeInEffect": true,
+   "overlay": null,
+   "reEntryMaxCount": null,
+   "startingStack": 15000,
+   "openRegistration": true,
+   "lateRegistrationUntilLevel": 8,
+   "expectedLastLevel": null,
+   "start": "2026-11-25T12:00:00",
+   "pausedSeconds": null,
+   "pausedMillis": null,
+   "flightGameTimeDelta": null,
+   "stickerText": null,
+   "totalEntries": 0,
+   "activePlayers": 0,
+   "averageStack": 0,
+   "nextBreakStart": null,
+   "nextBreakSeconds": null,
+   "entryValue": 130,
+   "serviceFee": 0,
+   "bountyValue": null,
+   "payoutPositions": null,
+   "currentLevel": null,
+   "nextLevels": [
+    {
+     "sb": 100,
+     "bb": 100,
+     "number": 1,
+     "gameSeconds": 900,
+     "breakSeconds": 0,
+     "limits": null,
+     "ante": 100
+    },
+    {
+     "sb": 100,
+     "bb": 200,
+     "number": 2,
+     "gameSeconds": 900,
+     "breakSeconds": 0,
+     "limits": null,
+     "ante": 200
+    }
+   ],
+   "softPauseEnd": null,
+   "activePause": null,
+   "plannedEnd": null,
+   "winningStructureType": "STANDARD",
+   "levelCount": null,
+   "reEntryCountLimit": null,
+   "availableTickets": {
+    "buyIn": 130,
+    "serviceFee": 0,
+    "addon": null,
+    "rebuy": null,
+    "addOnLimit": null,
+    "reBuyLimit": null
+   },
+   "tournament_id": 14031
+  },
+  {
+   "referenceTime": "2026-11-25T00:00:16.176",
+   "name": "Satellite to GPM Mystery Bounty - Day 1D",
+   "fullName": "Satellite to GPM Mystery Bounty - Day 1D",
+   "tournamentName": "Satellite to GPM Mystery Bounty - Day 1D",
    "notes": null,
    "color": "#f57f17",
    "background": null,
@@ -242,7 +312,7 @@
    "openRegistration": true,
    "lateRegistrationUntilLevel": 8,
    "expectedLastLevel": null,
-   "start": "2026-11-24T15:00:00",
+   "start": "2026-11-25T13:00:00",
    "pausedSeconds": null,
    "pausedMillis": null,
    "flightGameTimeDelta": null,
@@ -291,84 +361,13 @@
     "addOnLimit": null,
     "reBuyLimit": null
    },
-   "tournament_id": 14028
+   "tournament_id": 14029
   },
   {
-   "referenceTime": "2026-11-24T00:00:06.814",
-   "name": "GPM Mystery Bounty - Day 1C",
-   "fullName": "GPM Mystery Bounty - Day 1C",
-   "tournamentName": "GPM Mystery Bounty",
-   "notes": "15% ITM MC 240€ • played till 10%",
-   "color": "#e65100",
-   "background": null,
-   "status": "READY_FOR_PUBLICATION",
-   "isPaused": false,
-   "currency": "EUR",
-   "effectivePrizePool": 100000,
-   "guaranteeInEffect": true,
-   "overlay": null,
-   "reEntryMaxCount": null,
-   "startingStack": 50000,
-   "openRegistration": true,
-   "lateRegistrationUntilLevel": 10,
-   "expectedLastLevel": 15,
-   "start": "2026-11-24T18:00:00",
-   "pausedSeconds": null,
-   "pausedMillis": null,
-   "flightGameTimeDelta": null,
-   "stickerText": "15% of players ITM (min. cash 240€) ♠♥♦♣\n\nDay 1 is played down to the last 10% of the field ♠♥♦♣\n\nThe tournament is played as a multi-stack format – if you play multiple flights, only your biggest stack advances to Final day ♠♥♦♣\n\nChipleader of the flight will receive a bonus King's Million European Poker Championship Super Main Event ticket (1.150€) ♦♣♠♥",
-   "totalEntries": 0,
-   "activePlayers": 0,
-   "averageStack": 0,
-   "nextBreakStart": null,
-   "nextBreakSeconds": null,
-   "entryValue": 150,
-   "serviceFee": 0,
-   "bountyValue": 50,
-   "payoutPositions": null,
-   "currentLevel": null,
-   "nextLevels": [
-    {
-     "sb": 100,
-     "bb": 300,
-     "number": 1,
-     "gameSeconds": 1800,
-     "breakSeconds": 0,
-     "limits": null,
-     "ante": 300
-    },
-    {
-     "sb": 200,
-     "bb": 400,
-     "number": 2,
-     "gameSeconds": 1800,
-     "breakSeconds": 0,
-     "limits": null,
-     "ante": 400
-    }
-   ],
-   "softPauseEnd": null,
-   "activePause": null,
-   "plannedEnd": null,
-   "winningStructureType": "STANDARD",
-   "levelCount": 15,
-   "reEntryCountLimit": null,
-   "subName": "15% ITM MC 240€ • played till 10%",
-   "availableTickets": {
-    "buyIn": 150,
-    "serviceFee": 0,
-    "addon": null,
-    "rebuy": null,
-    "addOnLimit": null,
-    "reBuyLimit": null
-   },
-   "tournament_id": 14010
-  },
-  {
-   "referenceTime": "2026-11-24T00:00:06.934",
-   "name": "Satellite to GPM ME - Day 1",
-   "fullName": "Satellite to GPM ME - Day 1",
-   "tournamentName": "Satellite to GPM ME - Day 1",
+   "referenceTime": "2026-11-25T00:00:16.261",
+   "name": "Satellite to GPM ME - Day 1C",
+   "fullName": "Satellite to GPM ME - Day 1C",
+   "tournamentName": "Satellite to GPM ME - Day 1C",
    "notes": null,
    "color": "#f57f17",
    "background": null,
@@ -383,7 +382,7 @@
    "openRegistration": true,
    "lateRegistrationUntilLevel": 8,
    "expectedLastLevel": null,
-   "start": "2026-11-24T21:00:00",
+   "start": "2026-11-25T15:00:00",
    "pausedSeconds": null,
    "pausedMillis": null,
    "flightGameTimeDelta": null,
@@ -432,7 +431,7 @@
     "addOnLimit": null,
     "reBuyLimit": null
    },
-   "tournament_id": 14034
+   "tournament_id": 14035
   }
  ]
 }
