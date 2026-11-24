@@ -2,10 +2,10 @@
 
 Prague's tables come in the same King's data feed as Rozvadov's, so they're read at every check (about every 10 minutes) without any extra visits, together with Prague's tournament clocks. All times are **Czech time** (same as Poland). Back to [King's Rozvadov](README.md).
 
-**Last check:** 2026-11-24 01:00 — ✅ OK  
-**Last 24 h:** 144 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-17 (5130 good checks)
+**Last check:** 2026-11-24 01:10 — ✅ OK  
+**Last 24 h:** 144 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-17 (5131 good checks)
 
-## Tables running at 2026-11-24 01:00
+## Tables running at 2026-11-24 01:10
 
 ```
 NLH  €2/4     8/8 players
@@ -39,7 +39,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | Hour | Mon | Tue | Wed | Thu | Fri | Sat | Sun | All days |
 |:--|--:|--:|--:|--:|--:|--:|--:|--:|
 | 00:00 | 1 | 3 | 0 | 1 | 3 | 7 | 7 | 3 |
-| 01:00 | 0 | 1 | 0 | 2 | 2 | 6 | 5 | 3 |
+| 01:00 | 0 | 2 | 0 | 2 | 2 | 6 | 5 | 3 |
 | 02:00 | 0 | 1 | 0 | 0 | 1 | 3 | 2 | 1 |
 | 03:00 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 0 |
 | 04:00 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
@@ -70,7 +70,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | Hour | NLH €2/4 | PLO €2/2 | PLO5 €5/5 | Checks |
 |:--|--:|--:|--:|--:|
 | 00:00 | 🟨 46% | 🟥 5% | 🟥 0% | 215 |
-| 01:00 | 🟨 36% | 🟥 5% | 🟥 0% | 211 |
+| 01:00 | 🟨 36% | 🟥 5% | 🟥 0% | 212 |
 | 02:00 | 🟥 18% | 🟥 0% | 🟥 1% | 217 |
 | 03:00 | 🟥 4% | 🟥 0% | 🟥 0% | 207 |
 | 04:00 | 🟥 1% | 🟥 0% | 🟥 0% | 207 |
@@ -100,14 +100,14 @@ Average seated players per check on each kind of day, in total and for NLH and O
 
 | Days | Dates | Checks | Players | NLH | Omaha | vs normal, same hour |
 |:--|:--|--:|--:|--:|--:|--:|
-| Normal days | 17 Oct – 24 Nov (37 days) | 4883 | 0.8 | 0.7 | 0.0 | -0.0 |
+| Normal days | 17 Oct – 24 Nov (37 days) | 4884 | 0.8 | 0.7 | 0.0 | +0.0 |
 | 📅 Public holidays | 28 Oct – 17 Nov (2 days) | 247 | 0.0 | 0.0 | 0.0 | -0.9 |
 
 ## All games seen
 
 | Game | Running in | Most often | Last seen |
 |:--|--:|:--|:--|
-| NLH €2/4 | 12% of checks | Sat around 21:00 | 2026-11-24 01:00 |
+| NLH €2/4 | 12% of checks | Sat around 21:00 | 2026-11-24 01:10 |
 | PLO €2/2 | 1% of checks | Mon around 00:00 | 2026-10-27 01:30 |
 | PLO5 €5/5 | 0% of checks | Mon around 02:00 | 2026-11-19 02:10 |
 
@@ -117,7 +117,7 @@ The most recent ones. The game is read from the tournament's name.
 
 | Tournament | Game | Buy-in | Entries | Seen |
 |:--|:--|--:|--:|:--|
-| King's Prague Beginner's Monday | NLH | €60 | 117 | 2026-10-19 18:00 → 11-24 01:00 |
+| King's Prague Beginner's Monday | NLH | €60 | 117 | 2026-10-19 18:00 → 11-24 01:10 |
 | ČPT Česká Pokerová Tour at King's - Final Day | NLH | €200 | 201 | 2026-11-01 16:00 → 11-23 00:20 |
 | ČPT Česká Pokerová Tour at King's - Day 1C TURBO | NLH | €200 | 47 | 2026-11-01 11:00 → 11-22 15:10 |
 | ČPT Česká Pokerová Tour at King's - Day 1B | NLH | €200 | 101 | 2026-10-31 16:10 → 11-22 02:30 |
