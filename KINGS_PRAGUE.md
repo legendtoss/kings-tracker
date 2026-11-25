@@ -2,10 +2,10 @@
 
 Prague's tables come in the same King's data feed as Rozvadov's, so they're read at every check (about every 10 minutes) without any extra visits, together with Prague's tournament clocks. All times are **Czech time** (same as Poland). Back to [King's Rozvadov](README.md).
 
-**Last check:** 2026-11-25 01:00 — ✅ OK  
-**Last 24 h:** 145 of 145 checks OK, longest gap 0 h 15 min · **Collecting since:** 2026-10-17 (5274 good checks)
+**Last check:** 2026-11-25 01:10 — ✅ OK  
+**Last 24 h:** 145 of 145 checks OK, longest gap 0 h 15 min · **Collecting since:** 2026-10-17 (5275 good checks)
 
-## Tables running at 2026-11-25 01:00
+## Tables running at 2026-11-25 01:10
 
 ```
 NLH  €2/4     8/8 players
@@ -39,7 +39,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | Hour | Mon | Tue | Wed | Thu | Fri | Sat | Sun | All days |
 |:--|--:|--:|--:|--:|--:|--:|--:|--:|
 | 00:00 | 1 | 3 | 1 | 1 | 3 | 7 | 7 | 3 |
-| 01:00 | 0 | 2 | 0 | 2 | 2 | 6 | 5 | 3 |
+| 01:00 | 0 | 2 | 1 | 2 | 2 | 6 | 5 | 3 |
 | 02:00 | 0 | 2 | 0 | 0 | 1 | 3 | 2 | 1 |
 | 03:00 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 0 |
 | 04:00 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
@@ -70,7 +70,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | Hour | NLH €2/4 | PLO €2/2 | PLO5 €5/5 | Checks |
 |:--|--:|--:|--:|--:|
 | 00:00 | 🟨 47% | 🟥 5% | 🟥 0% | 221 |
-| 01:00 | 🟨 37% | 🟥 5% | 🟥 0% | 217 |
+| 01:00 | 🟨 38% | 🟥 5% | 🟥 0% | 218 |
 | 02:00 | 🟥 20% | 🟥 0% | 🟥 1% | 223 |
 | 03:00 | 🟥 4% | 🟥 0% | 🟥 0% | 213 |
 | 04:00 | 🟥 1% | 🟥 0% | 🟥 0% | 213 |
@@ -100,14 +100,14 @@ Average seated players per check on each kind of day, in total and for NLH and O
 
 | Days | Dates | Checks | Players | NLH | Omaha | vs normal, same hour |
 |:--|:--|--:|--:|--:|--:|--:|
-| Normal days | 17 Oct – 25 Nov (38 days) | 5027 | 0.8 | 0.8 | 0.0 | +0.0 |
+| Normal days | 17 Oct – 25 Nov (38 days) | 5028 | 0.8 | 0.8 | 0.0 | +0.0 |
 | 📅 Public holidays | 28 Oct – 17 Nov (2 days) | 247 | 0.0 | 0.0 | 0.0 | -0.9 |
 
 ## All games seen
 
 | Game | Running in | Most often | Last seen |
 |:--|--:|:--|:--|
-| NLH €2/4 | 12% of checks | Sat around 21:00 | 2026-11-25 01:00 |
+| NLH €2/4 | 12% of checks | Sat around 21:00 | 2026-11-25 01:10 |
 | PLO €2/2 | 1% of checks | Mon around 00:00 | 2026-10-27 01:30 |
 | PLO5 €5/5 | 0% of checks | Mon around 02:00 | 2026-11-19 02:10 |
 
