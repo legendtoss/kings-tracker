@@ -2,27 +2,27 @@
 
 Checks King's live cash games and tournaments about every 10 minutes and updates this page by itself. All times are **Czech time** (same as Poland). Also tracking: [King's Prague](KINGS_PRAGUE.md) · [Card Casino Šamorín](CARD_CASINO.md) · [Grand Casino Aš](GRAND_CASINO_AS.md) · [Banco Casino Bratislava](BANCO.md) · [Olympic Park Tallinn](OLYMPIC_TALLINN.md) · [Olympic Voodoo Riga](OLYMPIC_RIGA.md) · [Olympic Casino Vilnius](OLYMPIC_VILNIUS.md).
 
-**Right now:** King's: 7 tables, 46 players · [King's Prague](KINGS_PRAGUE.md): 0 tables, 0 players · [Card Casino Šamorín](CARD_CASINO.md): couldn't be read · [Grand Casino Aš](GRAND_CASINO_AS.md): 0 tables running, 1 waiting · [Olympic Park Tallinn](OLYMPIC_TALLINN.md) 🎪 The Festival: couldn't be read at 23:00 · [Olympic Voodoo Riga](OLYMPIC_RIGA.md): couldn't be read at 23:00 · [Olympic Vilnius](OLYMPIC_VILNIUS.md): couldn't be read at 23:00 · [Banco](BANCO.md): couldn't be read
+**Right now:** King's: 7 tables, 43 players · [King's Prague](KINGS_PRAGUE.md): 0 tables, 0 players · [Card Casino Šamorín](CARD_CASINO.md): 0 tables, 0 players · [Grand Casino Aš](GRAND_CASINO_AS.md): 0 tables running, 1 waiting · [Olympic Park Tallinn](OLYMPIC_TALLINN.md) 🎪 The Festival: couldn't be read at 23:00 · [Olympic Voodoo Riga](OLYMPIC_RIGA.md): couldn't be read at 23:00 · [Olympic Vilnius](OLYMPIC_VILNIUS.md): couldn't be read at 23:00 · [Banco](BANCO.md): 1 table, 8 players
 
 **🎯 Omaha right now:** King's Rozvadov: PLO €2/2 (2 players)
 
-**Last check:** 2026-11-25 23:10 — ✅ OK (data feed)  
-**Last 24 h:** 141 of 142 checks OK, longest gap 0 h 29 min · **Collecting since:** 2026-10-06 (6740 good checks)
+**Last check:** 2026-11-25 23:20 — ✅ OK (data feed)  
+**Last 24 h:** 141 of 142 checks OK, longest gap 0 h 29 min · **Collecting since:** 2026-10-06 (6741 good checks)
 
-## Tables running at 2026-11-25 23:10
+## Tables running at 2026-11-25 23:20
 
 ```
+NLH  €1/2     6/8 players
 NLH  €1/2     7/8 players
 NLH  €1/2     8/8 players
-NLH  €1/2     8/8 players
-NLH  €1/2     7/8 players
-NLH  €1/2     7/8 players
-NLH  €2/4     7/8 players
+NLH  €1/2     6/8 players
+NLH  €1/2     6/8 players
+NLH  €2/4     8/8 players
 PLO  €2/2     2/8 players
 ```
-**NLH:** 44 players at 6 tables · **PLO:** 2 players at 1 table
+**NLH:** 41 players at 6 tables · **PLO:** 2 players at 1 table
 
-**Tournaments in play:** GPM Mystery Bounty - Day 1D (NLH, €150, €50 bounty, 48 of 186 left, level 13, blinds 3000/6000/6000) · GPM 1MILLION - Day 1C SPEED (NLH, €285, 49 of 98 left, late reg open, level 9, blinds 1000/2000/2000) · Satellite to GPM ME - Day 1D (NLH, €40, 32 of 66 left, late reg open, level 8, blinds 400/800/800)
+**Tournaments in play:** GPM Mystery Bounty - Day 1D (NLH, €150, €50 bounty, 46 of 186 left, level 13, blinds 3000/6000/6000) · GPM 1MILLION - Day 1C SPEED (NLH, €285, 49 of 100 left, late reg open, level 9, blinds 1000/2000/2000) · Satellite to GPM ME - Day 1D (NLH, €40, 33 of 72 left, late reg open, level 8, blinds 400/800/800)
 
 ## Festivals and schedule
 
@@ -53,7 +53,7 @@ Average Omaha tables running per check on each **evening, 18:00–02:00** (after
 
 | Room | Mon | Tue | Wed | Thu | Fri | Sat | Sun | Best hour | Days tracked |
 |:--|--:|--:|--:|--:|--:|--:|--:|:--|--:|
-| King's Rozvadov | 1.2 (8) | 1.3 (10) | 1.5 (10) | 2.3 (16) | 3.4 (25) | 4.0 (30) | 2.4 (17) | 00:00 (19 players) | 51 |
+| King's Rozvadov | 1.2 (8) | 1.3 (10) | 1.4 (10) | 2.3 (16) | 3.4 (25) | 4.0 (30) | 2.4 (17) | 00:00 (19 players) | 51 |
 | [King's Prague](KINGS_PRAGUE.md) | 0.0 (0) | 0.0 (0) | 0.0 (0) | 0.0 (0) | 0.0 (0) | 0.0 (0) | 0.1 (0) | 00:00 (0 players) | 40 |
 | [Grand Casino Aš](GRAND_CASINO_AS.md) | 0.0 | 0.0 | 0.1 | 0.0 | 0.2 | 0.3 | 0.0 | 00:00 (0.2 tables) | 47 |
 | [Card Casino Šamorín](CARD_CASINO.md) | 0.9 (6) | 0.1 (1) | 0.1 (1) | 0.2 (2) | 0.4 (2) | 0.7 (5) | 0.3 (2) | 00:00 (4 players) | 47 |
@@ -103,7 +103,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 20:00 | 14 | 12 | 16 | 36 | 55 | 68 | 38 | 35 |
 | 21:00 | 14 | 14 | 18 | 40 | 59 | 74 | 40 | 37 |
 | 22:00 | 13 | 14 | 26 | 38 | 67 | 77 | 37 | 40 |
-| 23:00 | 13 | 15 | 24 | 37 | 74 | 82 | 39 | 42 |
+| 23:00 | 13 | 15 | 25 | 37 | 74 | 82 | 39 | 42 |
 
 ### Pot-Limit Omaha (PLO)
 
@@ -192,7 +192,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 20:00 | 🟩 98% | 🟨 51% | 🟥 5% | 🟨 67% | 🟨 67% | 🟥 3% | 🟥 3% | 🟥 0% | 196 |
 | 21:00 | 🟩 98% | 🟨 51% | 🟥 8% | 🟨 68% | 🟨 56% | 🟥 3% | 🟥 8% | 🟥 0% | 198 |
 | 22:00 | 🟩 99% | 🟨 47% | 🟥 10% | 🟩 80% | 🟨 63% | 🟥 3% | 🟥 11% | 🟥 0% | 196 |
-| 23:00 | 🟩 98% | 🟨 53% | 🟥 10% | 🟩 88% | 🟨 71% | 🟥 3% | 🟥 18% | 🟥 0% | 194 |
+| 23:00 | 🟩 98% | 🟨 53% | 🟥 10% | 🟩 88% | 🟨 70% | 🟥 3% | 🟥 17% | 🟥 0% | 195 |
 
 ## Festivals, holidays and normal days
 
@@ -200,9 +200,9 @@ Average seated players per check on each kind of day, in total and for NLH and O
 
 | Days | Dates | Checks | Players | NLH | Omaha | vs normal, same hour |
 |:--|:--|--:|--:|--:|--:|--:|
-| Normal days | 6 Oct – 25 Nov (35 days) | 4487 | 30.6 | 21.6 | 9.0 | +0.0 |
+| Normal days | 6 Oct – 25 Nov (35 days) | 4488 | 30.6 | 21.6 | 9.0 | +0.0 |
 | ↳ with an Omaha tournament on the schedule | 10–23 Oct (3 days) | 428 | 50.5 | 36.7 | 13.8 | +20.7 |
-| ↳ without one | 7 Oct – 25 Nov (31 days) | 4002 | 28.5 | 20.1 | 8.5 | -2.2 |
+| ↳ without one | 7 Oct – 25 Nov (31 days) | 4003 | 28.5 | 20.1 | 8.5 | -2.2 |
 | 🎪 WSOP Super Circuit | 28 Oct – 11 Nov (15 days) | 2150 | 30.4 | 17.6 | 12.7 | +0.6 |
 | 📅 Public holidays | 17 Nov (1 day) | 103 | 13.2 | 13.0 | 0.2 | -22.8 |
 
@@ -214,7 +214,7 @@ Cash players grouped by how many players were still in tournaments at the time. 
 |:--|--:|--:|--:|
 | none | 3718 | 22 | -1 |
 | 1–49 | 1288 | 25 | -18 |
-| 50–149 | 873 | 46 | +6 |
+| 50–149 | 874 | 46 | +6 |
 | 150 or more | 705 | 68 | +30 |
 
 ### Cash games by tournament type
@@ -224,7 +224,7 @@ NLH and PLO cash players depending on which tournament games were running. The g
 | Tournaments in play | Checks | NLH cash players | vs usual | PLO cash players | vs usual |
 |:--|--:|--:|--:|--:|--:|
 | none | 3718 | 13 | -1 | 8 | +1 |
-| only NLH tournaments | 2610 | 27 | -0 | 12 | -2 |
+| only NLH tournaments | 2611 | 27 | -0 | 12 | -2 |
 | a PLO tournament | 193 | 51 | +24 | 19 | +6 |
 | other tournament games | 63 | 47 | +30 | 19 | +11 |
 
@@ -232,12 +232,12 @@ NLH and PLO cash players depending on which tournament games were running. The g
 
 | Game | Running in | Most often | Last seen |
 |:--|--:|:--|:--|
-| NLH €1/2 | 80% of checks | Sun around 02:00 | 2026-11-25 23:10 |
-| NLH €2/4 | 33% of checks | Sat around 01:00 | 2026-11-25 23:10 |
+| NLH €1/2 | 80% of checks | Sun around 02:00 | 2026-11-25 23:20 |
+| NLH €2/4 | 33% of checks | Sat around 01:00 | 2026-11-25 23:20 |
 | NLH €5/10 | 8% of checks | Sat around 23:00 | 2026-11-22 04:30 |
 | NLH €10/25 | 3% of checks | Thu around 01:00 | 2026-11-08 08:30 |
 | NLH €25/50 | 0% of checks | Fri around 05:00 | 2026-11-07 07:50 |
-| PLO €2/2 | 46% of checks | Sun around 02:00 | 2026-11-25 23:10 |
+| PLO €2/2 | 46% of checks | Sun around 02:00 | 2026-11-25 23:20 |
 | PLO5 €5/5 | 49% of checks | Sat around 23:00 | 2026-11-25 00:30 |
 | PLO5 €5/10 | 1% of checks | Sat around 16:00 | 2026-11-09 06:20 |
 | PLO5 €10/10 | 15% of checks | Fri around 23:00 | 2026-11-16 06:50 |
@@ -253,9 +253,9 @@ The most recent ones. The game is read from the tournament's name.
 
 | Tournament | Game | Buy-in | Entries | Seen |
 |:--|:--|--:|--:|:--|
-| GPM Mystery Bounty - Day 1D | NLH | €150 | 186 | 2026-11-25 16:00 → 11-25 23:10 |
-| GPM 1MILLION - Day 1C SPEED | NLH | €285 | 98 | 2026-11-25 18:00 → 11-25 23:10 |
-| Satellite to GPM ME - Day 1D | NLH | €40 | 66 | 2026-11-25 21:00 → 11-25 23:10 |
+| GPM Mystery Bounty - Day 1D | NLH | €150 | 186 | 2026-11-25 16:00 → 11-25 23:20 |
+| GPM 1MILLION - Day 1C SPEED | NLH | €285 | 100 | 2026-11-25 18:00 → 11-25 23:20 |
+| Satellite to GPM ME - Day 1D | NLH | €40 | 72 | 2026-11-25 21:00 → 11-25 23:20 |
 | Satellite to GPM ME - Day 1C | NLH | €40 | 75 | 2026-11-25 15:00 → 11-25 18:50 |
 | GPM Morning NLH Turbo | NLH | €130 | 63 | 2026-11-25 12:00 → 11-25 18:00 |
 | Satellite to GPM Mystery Bounty - Day 1D | NLH | €35 | 78 | 2026-11-25 13:00 → 11-25 16:40 |
@@ -273,11 +273,11 @@ The most recent ones. The game is read from the tournament's name.
 
 | Room | Last check | OK in the last 24 h | Most common problem |
 |:--|:--|--:|:--|
-| King's Rozvadov | ✅ 11-25 23:10 | 141 of 142 | Error: Page.goto: net::ERR_CONNECTION_RESET at https://kings-resort.co |
-| [King's Prague](KINGS_PRAGUE.md) | ✅ 11-25 23:10 | 141 of 142 | King's feed came back empty and that couldn't be confirmed, so it wasn |
-| [Grand Casino Aš](GRAND_CASINO_AS.md) | ✅ 11-25 23:10 | 142 of 142 | · |
-| [Card Casino Šamorín](CARD_CASINO.md) | ⚠️ 11-25 23:10 | 117 of 142 | Card Casino's site didn't answer |
-| [Banco Casino Bratislava](BANCO.md) | ⚠️ 11-25 23:10 | 138 of 142 | HTTPError: HTTP Error 504: Gateway Time-out |
+| King's Rozvadov | ✅ 11-25 23:20 | 141 of 142 | Error: Page.goto: net::ERR_CONNECTION_RESET at https://kings-resort.co |
+| [King's Prague](KINGS_PRAGUE.md) | ✅ 11-25 23:20 | 141 of 142 | King's feed came back empty and that couldn't be confirmed, so it wasn |
+| [Grand Casino Aš](GRAND_CASINO_AS.md) | ✅ 11-25 23:20 | 142 of 142 | · |
+| [Card Casino Šamorín](CARD_CASINO.md) | ✅ 11-25 23:20 | 117 of 142 | Card Casino's site didn't answer |
+| [Banco Casino Bratislava](BANCO.md) | ✅ 11-25 23:20 | 138 of 142 | HTTPError: HTTP Error 504: Gateway Time-out |
 | [Olympic Park Tallinn](OLYMPIC_TALLINN.md) | ⚠️ 11-25 23:00 | 0 of 48 | couldn't read the cash games table (page saved for a closer look) |
 | [Olympic Voodoo Riga](OLYMPIC_RIGA.md) | ⚠️ 11-25 23:00 | 0 of 48 | couldn't read the cash games table (page saved for a closer look) |
 | [Olympic Casino Vilnius](OLYMPIC_VILNIUS.md) | ⚠️ 11-25 23:00 | 0 of 48 | couldn't read the cash games table (page saved for a closer look) |
