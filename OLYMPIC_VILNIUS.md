@@ -2,7 +2,7 @@
 
 Reads [OlyBet's live cash games page](https://olybetpoker.com/lt/cash-games/?club=10) every 30 minutes (their site has bot protection, so the tracker checks gently and simply records it when a check is refused). All times are **Czech time** (Vilnius is one hour ahead). Back to [King's](README.md).
 
-**Last check:** 2026-11-25 23:30 — ⚠️ error: blocked by the site's bot protection — details in `debug/olympic-vilnius_page.json`  
+**Last check:** 2026-11-26 00:00 — ⚠️ error: couldn't read the cash games table (page saved for a closer look) — details in `debug/olympic-vilnius_page.json`  
 **Last 24 h:** 0 of 49 checks OK, longest gap 0 h 31 min · **Collecting since:** 2026-10-10 (326 good checks)
 
 **Club:** Olympic Casino Vilnius, Lietuva
@@ -13,7 +13,7 @@ No tables were running.
 
 **Waiting lists:** 0 players · **All games listed:** Dealer's Choice €1/2 (waiting to start): 1 table, 0/8 players, 0 waiting NLH €1/2 (waiting to start): 1 table, 0/9 players, 0 waiting
 
-**Tournaments on their site at 2026-11-25 23:00:** live 18:00 Olympic Casino Kaunas, Donelaičio Satellite to Kings of Vilnius, Re-entry 10 levels, JP 6972 €, 1 seat GTD to Main event -1100- 15,000 €80 19:00 Olympic Casino Vilnius, Lietuva 26 Dealer's choice (NLH/PLO/5PLO/NLCP) , Re-entry 8 levels 20,000 €50
+**Tournaments on their site at 2026-11-26 00:00:** live 18:00 Olympic Casino Kaunas, Donelaičio Satellite to Kings of Vilnius, Re-entry 10 levels, JP 6972 €, 1 seat GTD to Main event -1100- 15,000 €80 19:00 Olympic Casino Vilnius, Lietuva 26 Dealer's choice (NLH/PLO/5PLO/NLCP) , Re-entry 8 levels 20,000 €50
 
 ## Festivals and schedule
 
@@ -28,7 +28,7 @@ No tables were running.
 | Mon 7 Dec | 19:00 | €200 | Pot Limit Omaha - PLO4/PLO5/PLO6 (Event #13) |
 | Tue 8 Dec | 14:00 | €555 | Pot Limit Omaha - PLO4/PLO5 Championship (Event #16) |
 
-**Public holidays in the next 30 days** where most players come from (Lithuania, Latvia, Poland): Thu 24 Dec: Christmas Eve (Lithuania, Latvia, Poland) · Fri 25 Dec: Christmas Day (Lithuania, Latvia, Poland).
+**Public holidays in the next 30 days** where most players come from (Lithuania, Latvia, Poland): Thu 24 Dec: Christmas Eve (Lithuania, Latvia, Poland) · Fri 25 Dec: Christmas Day (Lithuania, Latvia, Poland) · Sat 26 Dec: Second Day of Christmas (Lithuania, Latvia, Poland).
 
 ## Busiest times so far
 

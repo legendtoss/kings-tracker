@@ -2,8 +2,8 @@
 
 Reads [Card Casino's live cash-game list](https://www.cardcasino.sk/en/cashgames/) together with King's, about every 10 minutes. All times are **Czech time** (same as Poland and Slovakia). Back to [King's](README.md).
 
-**Last check:** 2026-11-25 23:50 — ✅ OK (live list)  
-**Last 24 h:** 116 of 142 checks OK, longest gap 0 h 29 min · **Collecting since:** 2026-10-10 (5865 good checks)
+**Last check:** 2026-11-26 00:00 — ⚠️ error: Card Casino's site didn't answer — details in `debug/cardcasino_page.json`  
+**Last 24 h:** 115 of 142 checks OK, longest gap 0 h 29 min · **Collecting since:** 2026-10-10 (5865 good checks)
 
 ## Tables running at 2026-11-25 23:50
 
@@ -11,11 +11,11 @@ No tables were running.
 
 ## Festivals and schedule
 
-- **Coming up:** 💵 **Cash game days: NLH/PLO €5/5**, 26 Nov – 1 Dec (cash event) — Announced on Card Casino's website
+- **Now:** 💵 **Cash game days: NLH/PLO €5/5**, 26 Nov – 1 Dec (cash event) — Announced on Card Casino's website
 
 No Omaha tournaments on the schedule in the next 14 days.
 
-**Public holidays in the next 30 days** where most players come from (Slovakia, Austria, Hungary): Tue 8 Dec: Immaculate Conception (Austria) · Thu 24 Dec: Christmas Eve (Slovakia, Hungary) · Fri 25 Dec: Christmas Day (Slovakia, Austria, Hungary).
+**Public holidays in the next 30 days** where most players come from (Slovakia, Austria, Hungary): Tue 8 Dec: Immaculate Conception (Austria) · Thu 24 Dec: Christmas Eve (Slovakia, Hungary) · Fri 25 Dec: Christmas Day (Slovakia, Austria, Hungary) · Sat 26 Dec: Second Day of Christmas (Slovakia, Hungary); Saint Stephen's Day (Austria).
 
 ## Busiest times so far
 

@@ -2,7 +2,7 @@
 
 Reads [OlyBet's live cash games page](https://olybetpoker.com/ee/en/cash-games/?club=6) every 30 minutes (their site has bot protection, so the tracker checks gently and simply records it when a check is refused). All times are **Czech time** (Tallinn is one hour ahead). Back to [King's](README.md).
 
-**Last check:** 2026-11-25 23:30 — ⚠️ error: couldn't read the cash games table (page saved for a closer look) — details in `debug/olympic-tallinn_page.json`  
+**Last check:** 2026-11-26 00:00 — ⚠️ error: couldn't read the cash games table (page saved for a closer look) — details in `debug/olympic-tallinn_page.json`  
 **Last 24 h:** 0 of 49 checks OK, longest gap 0 h 31 min · **Collecting since:** 2026-10-10 (273 good checks)
 
 **Club:** Olympic Park Casino
@@ -13,7 +13,7 @@ No tables were running.
 
 **Waiting lists:** 6 players · **All games listed:** NLH €1/3 (closed): 0 tables, 0/0 players, 3 waiting PLO/PLO5 €1/3 (closed): 0 tables, 0/0 players, 2 waiting PLO €5/5 (closed): 0 tables, 0/0 players, 0 waiting NLH €5/5 (closed): 0 tables, 0/0 players, 1 waiting
 
-**Tournaments on their site at 2026-11-25 23:00:** live 11:00 Olympic Park Casino 7 Chicago European Championship Day 1/L 1 €125 12:00 Olympic Park Casino 34 NLH The Festival Main Event Day 1/B 50,000 €555 12:30 Olympic Park Casino 43 8-Game 30,000 €350 13:00 Olympic Park Casino 44 NLH Satellite to €1100 NLH Highroller, 2 x €1100 SEATS GTD (€80 Add-on) 15,000 €80 14:00 Olympic Park Casino 7 Chicago European Championship Final 1 €125 15:00 Olympic Park Casino 45 PLO4 (Bomb Pot Feature) 30,000 €350 18:00 Olympic Park Casino 46 NLH Highroller 100,000 €1,100 18:30 Olympic Park Casino 47 Sviten Special 20,000 €125 19:00 Olympic Park Casino 48 Roulette Championship 1 €125 20:00 Olympic Park Casino 49 Cash Game Challenge 1 €200 20:00 Olympic Park Casino X Franke s Flip Flops Day 1/G 1 €0 21:00 Olympic Park Casino 50 NLH PKO Madness 15,000 €200 22:00 Olympic Park Casino 51 NLH Mega-Satellite to €555 NLH The Festival Main Event Day 1C/D, 6x€555 Seats GTD 15,000 €80 22:30 Olympic Park Casino 52 Cash Game Challenge 1 €200
+**Tournaments on their site at 2026-11-26 00:00:** live 11:00 Olympic Park Casino 7 Chicago European Championship Day 1/L 1 €125 12:00 Olympic Park Casino 34 NLH The Festival Main Event Day 1/B 50,000 €555 12:30 Olympic Park Casino 43 8-Game 30,000 €350 13:00 Olympic Park Casino 44 NLH Satellite to €1100 NLH Highroller, 2 x €1100 SEATS GTD (€80 Add-on) 15,000 €80 14:00 Olympic Park Casino 7 Chicago European Championship Final 1 €125 15:00 Olympic Park Casino 45 PLO4 (Bomb Pot Feature) 30,000 €350 18:00 Olympic Park Casino 46 NLH Highroller 100,000 €1,100 18:30 Olympic Park Casino 47 Sviten Special 20,000 €125 19:00 Olympic Park Casino 48 Roulette Championship 1 €125 20:00 Olympic Park Casino 49 Cash Game Challenge 1 €200 20:00 Olympic Park Casino X Franke s Flip Flops Day 1/G 1 €0 21:00 Olympic Park Casino 50 NLH PKO Madness 15,000 €200 22:00 Olympic Park Casino 51 NLH Mega-Satellite to €555 NLH The Festival Main Event Day 1C/D, 6x€555 Seats GTD 15,000 €80 22:30 Olympic Park Casino 52 Cash Game Challenge 1 €200
 
 ## Festivals and schedule
 
@@ -23,8 +23,6 @@ No tables were running.
 
 | Day | Time (local) | Buy-in | Tournament |
 |:--|:--|--:|:--|
-| Wed 25 Nov | 17:00 | €350 | Pot Limit Omaha - Bomb Pot 4/5/6 (Event #36) |
-| Wed 25 Nov | 20:00 | €200 | Big O (Event #40) |
 | Thu 26 Nov | 15:00 | €350 | Pot Limit Omaha - Bomb Pot (Event #45) |
 | Fri 27 Nov | 15:00 | €350 | Pot Limit Omaha 4/5 (Event #54) |
 | Fri 27 Nov | 17:00 | €1 100 | Pot Limit Omaha - High Roller (Event #55) |
@@ -32,7 +30,7 @@ No tables were running.
 | Sun 29 Nov | 12:30 | €100 | Pot Limit Omaha Flips Tournament - Round 1 - Accumulator (Event #70) |
 | Sun 29 Nov | 16:00 | · | Pot Limit Omaha Flips Tournament - Final - Accumulator (Event #70) |
 
-**Public holidays in the next 30 days** where most players come from (Estonia, Finland): Sun 6 Dec: Independence Day (Finland) · Thu 24 Dec: Christmas Eve (Estonia, Finland) · Fri 25 Dec: Christmas Day (Estonia, Finland).
+**Public holidays in the next 30 days** where most players come from (Estonia, Finland): Sun 6 Dec: Independence Day (Finland) · Thu 24 Dec: Christmas Eve (Estonia, Finland) · Fri 25 Dec: Christmas Day (Estonia, Finland) · Sat 26 Dec: Second Day of Christmas (Estonia, Finland).
 
 ## Busiest times so far
 
