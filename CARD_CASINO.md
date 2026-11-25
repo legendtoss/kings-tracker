@@ -2,10 +2,10 @@
 
 Reads [Card Casino's live cash-game list](https://www.cardcasino.sk/en/cashgames/) together with King's, about every 10 minutes. All times are **Czech time** (same as Poland and Slovakia). Back to [King's](README.md).
 
-**Last check:** 2026-11-25 22:50 — ✅ OK (live list)  
-**Last 24 h:** 118 of 142 checks OK, longest gap 0 h 29 min · **Collecting since:** 2026-10-10 (5861 good checks)
+**Last check:** 2026-11-25 23:00 — ✅ OK (live list)  
+**Last 24 h:** 118 of 142 checks OK, longest gap 0 h 29 min · **Collecting since:** 2026-10-10 (5862 good checks)
 
-## Tables running at 2026-11-25 22:50
+## Tables running at 2026-11-25 23:00
 
 No tables were running.
 
@@ -57,7 +57,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 20:00 | 2 | 6 | 6 | 4 | 17 | 15 | 11 | 9 |
 | 21:00 | 4 | 7 | 5 | 6 | 19 | 16 | 11 | 9 |
 | 22:00 | 5 | 6 | 6 | 6 | 21 | 16 | 12 | 10 |
-| 23:00 | 5 | 5 | 7 | 6 | 21 | 18 | 12 | 10 |
+| 23:00 | 5 | 5 | 6 | 6 | 21 | 18 | 12 | 10 |
 
 ### Pot-Limit Omaha (PLO)
 
@@ -117,7 +117,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 20:00 | 🟨 63% | 🟥 18% | 🟥 1% | 🟥 11% | 🟥 14% | 🟥 0% | 🟥 2% | 🟥 0% | 196 |
 | 21:00 | 🟨 69% | 🟥 18% | 🟥 4% | 🟥 10% | 🟥 19% | 🟥 3% | 🟥 2% | 🟥 0% | 190 |
 | 22:00 | 🟨 69% | 🟥 17% | 🟥 5% | 🟥 9% | 🟥 21% | 🟥 2% | 🟥 3% | 🟥 2% | 194 |
-| 23:00 | 🟨 67% | 🟥 16% | 🟥 6% | 🟥 13% | 🟥 22% | 🟥 3% | 🟥 3% | 🟥 3% | 180 |
+| 23:00 | 🟨 67% | 🟥 16% | 🟥 6% | 🟥 13% | 🟥 22% | 🟥 3% | 🟥 3% | 🟥 3% | 181 |
 
 ## Festivals, holidays and normal days
 
@@ -125,7 +125,7 @@ Average seated players per check on each kind of day, in total and for NLH and O
 
 | Days | Dates | Checks | Players | NLH | Omaha | vs normal, same hour |
 |:--|:--|--:|--:|--:|--:|--:|
-| Normal days | 12 Oct – 25 Nov (37 days) | 4593 | 4.9 | 3.5 | 1.2 | -0.0 |
+| Normal days | 12 Oct – 25 Nov (37 days) | 4594 | 4.9 | 3.5 | 1.2 | -0.0 |
 | 💵 Cash game days: NLH/PLO/PLO5 from €10/20 | 10–11 Oct (2 days) | 240 | 11.9 | 6.2 | 5.7 | +7.4 |
 | 🎪 Main Event week | 20–25 Oct (6 days) | 771 | 8.5 | 7.0 | 1.4 | +3.5 |
 | 📅 Public holidays | 26 Oct – 1 Nov (2 days) | 257 | 5.9 | 4.2 | 1.7 | +1.0 |
