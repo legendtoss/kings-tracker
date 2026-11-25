@@ -2,14 +2,14 @@
 
 Checks King's live cash games and tournaments about every 10 minutes and updates this page by itself. All times are **Czech time** (same as Poland). Also tracking: [King's Prague](KINGS_PRAGUE.md) · [Card Casino Šamorín](CARD_CASINO.md) · [Grand Casino Aš](GRAND_CASINO_AS.md) · [Banco Casino Bratislava](BANCO.md) · [Olympic Park Tallinn](OLYMPIC_TALLINN.md) · [Olympic Voodoo Riga](OLYMPIC_RIGA.md) · [Olympic Casino Vilnius](OLYMPIC_VILNIUS.md).
 
-**Right now:** King's: 0 tables, 0 players · [King's Prague](KINGS_PRAGUE.md): 0 tables, 0 players · [Card Casino Šamorín](CARD_CASINO.md): 0 tables, 0 players · [Grand Casino Aš](GRAND_CASINO_AS.md): 0 tables running · [Olympic Park Tallinn](OLYMPIC_TALLINN.md) 🎪 The Festival: couldn't be read at 11:00 · [Olympic Voodoo Riga](OLYMPIC_RIGA.md): couldn't be read at 11:00 · [Olympic Vilnius](OLYMPIC_VILNIUS.md): blocked at 11:00 · [Banco](BANCO.md): 0 tables, 0 players
+**Right now:** King's: 0 tables, 0 players · [King's Prague](KINGS_PRAGUE.md): 0 tables, 0 players · [Card Casino Šamorín](CARD_CASINO.md): 0 tables, 0 players · [Grand Casino Aš](GRAND_CASINO_AS.md): 0 tables running · [Olympic Park Tallinn](OLYMPIC_TALLINN.md) 🎪 The Festival: blocked at 11:30 · [Olympic Voodoo Riga](OLYMPIC_RIGA.md): blocked at 11:30 · [Olympic Vilnius](OLYMPIC_VILNIUS.md): couldn't be read at 11:30 · [Banco](BANCO.md): 0 tables, 0 players
 
 **🎯 Omaha right now:** no Omaha tables running at any room
 
-**Last check:** 2026-11-25 11:20 — ✅ OK (data feed)  
-**Last 24 h:** 144 of 145 checks OK, longest gap 0 h 15 min · **Collecting since:** 2026-10-06 (6672 good checks)
+**Last check:** 2026-11-25 11:30 — ✅ OK (data feed)  
+**Last 24 h:** 144 of 145 checks OK, longest gap 0 h 15 min · **Collecting since:** 2026-10-06 (6673 good checks)
 
-## Tables running at 2026-11-25 11:20
+## Tables running at 2026-11-25 11:30
 
 No tables were running.
 
@@ -171,7 +171,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 08:00 | 🟨 56% | 🟥 11% | 🟥 0% | 🟥 20% | 🟥 9% | 🟥 0% | 🟥 6% | 🟥 2% | 180 |
 | 09:00 | 🟨 49% | 🟥 9% | 🟥 3% | 🟥 21% | 🟥 8% | 🟥 0% | 🟥 8% | 🟥 1% | 166 |
 | 10:00 | 🟨 51% | 🟥 9% | 🟥 1% | 🟥 20% | 🟥 7% | 🟥 0% | 🟥 9% | 🟥 1% | 160 |
-| 11:00 | 🟨 54% | 🟥 10% | 🟥 0% | 🟨 25% | 🟥 5% | 🟥 0% | 🟥 9% | 🟥 0% | 163 |
+| 11:00 | 🟨 54% | 🟥 10% | 🟥 0% | 🟨 25% | 🟥 5% | 🟥 0% | 🟥 9% | 🟥 0% | 164 |
 | 12:00 | 🟨 67% | 🟥 16% | 🟥 0% | 🟨 32% | 🟥 8% | 🟥 0% | 🟥 5% | 🟥 0% | 167 |
 | 13:00 | 🟩 76% | 🟥 18% | 🟥 0% | 🟨 40% | 🟥 15% | 🟥 0% | 🟥 5% | 🟥 0% | 176 |
 | 14:00 | 🟩 83% | 🟥 23% | 🟥 0% | 🟨 42% | 🟥 18% | 🟥 0% | 🟥 4% | 🟥 0% | 182 |
@@ -191,9 +191,9 @@ Average seated players per check on each kind of day, in total and for NLH and O
 
 | Days | Dates | Checks | Players | NLH | Omaha | vs normal, same hour |
 |:--|:--|--:|--:|--:|--:|--:|
-| Normal days | 6 Oct – 25 Nov (35 days) | 4419 | 30.8 | 21.7 | 9.2 | -0.0 |
+| Normal days | 6 Oct – 25 Nov (35 days) | 4420 | 30.8 | 21.7 | 9.1 | -0.0 |
 | ↳ with an Omaha tournament on the schedule | 10–23 Oct (3 days) | 428 | 50.5 | 36.7 | 13.8 | +20.4 |
-| ↳ without one | 7 Oct – 25 Nov (31 days) | 3934 | 28.8 | 20.2 | 8.6 | -2.2 |
+| ↳ without one | 7 Oct – 25 Nov (31 days) | 3935 | 28.8 | 20.2 | 8.6 | -2.2 |
 | 🎪 WSOP Super Circuit | 28 Oct – 11 Nov (15 days) | 2150 | 30.4 | 17.6 | 12.7 | +0.3 |
 | 📅 Public holidays | 17 Nov (1 day) | 103 | 13.2 | 13.0 | 0.2 | -23.1 |
 
@@ -203,7 +203,7 @@ Cash players grouped by how many players were still in tournaments at the time. 
 
 | Tournament players in action | Checks | Avg cash players | vs usual for that hour |
 |:--|--:|--:|--:|
-| none | 3715 | 22 | -1 |
+| none | 3716 | 22 | -1 |
 | 1–49 | 1282 | 25 | -18 |
 | 50–149 | 823 | 48 | +7 |
 | 150 or more | 696 | 69 | +31 |
@@ -214,7 +214,7 @@ NLH and PLO cash players depending on which tournament games were running. The g
 
 | Tournaments in play | Checks | NLH cash players | vs usual | PLO cash players | vs usual |
 |:--|--:|--:|--:|--:|--:|
-| none | 3715 | 13 | -1 | 8 | +1 |
+| none | 3716 | 13 | -1 | 8 | +1 |
 | only NLH tournaments | 2545 | 28 | -0 | 12 | -2 |
 | a PLO tournament | 193 | 51 | +24 | 19 | +6 |
 | other tournament games | 63 | 47 | +29 | 19 | +11 |
@@ -264,14 +264,14 @@ The most recent ones. The game is read from the tournament's name.
 
 | Room | Last check | OK in the last 24 h | Most common problem |
 |:--|:--|--:|:--|
-| King's Rozvadov | ✅ 11-25 11:20 | 144 of 145 | Error: Page.goto: net::ERR_CONNECTION_RESET at https://kings-resort.co |
-| [King's Prague](KINGS_PRAGUE.md) | ✅ 11-25 11:20 | 144 of 145 | King's feed came back empty and that couldn't be confirmed, so it wasn |
-| [Grand Casino Aš](GRAND_CASINO_AS.md) | ✅ 11-25 11:20 | 145 of 145 | · |
-| [Card Casino Šamorín](CARD_CASINO.md) | ✅ 11-25 11:20 | 118 of 145 | Card Casino's site didn't answer |
-| [Banco Casino Bratislava](BANCO.md) | ✅ 11-25 11:20 | 144 of 145 | HTTPError: HTTP Error 429: Too Many Requests |
-| [Olympic Park Tallinn](OLYMPIC_TALLINN.md) | ⚠️ 11-25 11:00 | 0 of 48 | couldn't read the cash games table (page saved for a closer look) |
-| [Olympic Voodoo Riga](OLYMPIC_RIGA.md) | ⚠️ 11-25 11:00 | 0 of 48 | couldn't read the cash games table (page saved for a closer look) |
-| [Olympic Casino Vilnius](OLYMPIC_VILNIUS.md) | ⚠️ 11-25 11:00 | 0 of 48 | blocked by the site's bot protection |
+| King's Rozvadov | ✅ 11-25 11:30 | 144 of 145 | Error: Page.goto: net::ERR_CONNECTION_RESET at https://kings-resort.co |
+| [King's Prague](KINGS_PRAGUE.md) | ✅ 11-25 11:30 | 144 of 145 | King's feed came back empty and that couldn't be confirmed, so it wasn |
+| [Grand Casino Aš](GRAND_CASINO_AS.md) | ✅ 11-25 11:30 | 145 of 145 | · |
+| [Card Casino Šamorín](CARD_CASINO.md) | ✅ 11-25 11:30 | 118 of 145 | Card Casino's site didn't answer |
+| [Banco Casino Bratislava](BANCO.md) | ✅ 11-25 11:30 | 144 of 145 | HTTPError: HTTP Error 429: Too Many Requests |
+| [Olympic Park Tallinn](OLYMPIC_TALLINN.md) | ⚠️ 11-25 11:30 | 0 of 49 | couldn't read the cash games table (page saved for a closer look) |
+| [Olympic Voodoo Riga](OLYMPIC_RIGA.md) | ⚠️ 11-25 11:30 | 0 of 49 | couldn't read the cash games table (page saved for a closer look) |
+| [Olympic Casino Vilnius](OLYMPIC_VILNIUS.md) | ⚠️ 11-25 11:30 | 0 of 49 | blocked by the site's bot protection |
 
 ---
 Raw data: the `data` folder, one CSV file per month. To open one in Excel, use Data → From Text/CSV (double-clicking puts everything in one column in Polish Excel). The tracker is `tracker.py`; its schedule is in `.github/workflows/track.yml`.  
