@@ -6,10 +6,10 @@ Checks King's live cash games and tournaments about every 10 minutes and updates
 
 **🎯 Omaha right now:** no Omaha tables running at any room
 
-**Last check:** 2026-11-26 08:40 — ✅ OK (data feed)  
-**Last 24 h:** 141 of 142 checks OK, longest gap 0 h 29 min · **Collecting since:** 2026-10-06 (6797 good checks)
+**Last check:** 2026-11-26 08:50 — ✅ OK (data feed)  
+**Last 24 h:** 141 of 142 checks OK, longest gap 0 h 29 min · **Collecting since:** 2026-10-06 (6798 good checks)
 
-## Tables running at 2026-11-26 08:40
+## Tables running at 2026-11-26 08:50
 
 No tables were running.
 
@@ -168,7 +168,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 05:00 | 🟩 84% | 🟥 13% | 🟥 5% | 🟨 28% | 🟨 34% | 🟥 0% | 🟥 11% | 🟥 1% | 195 |
 | 06:00 | 🟩 77% | 🟥 14% | 🟥 3% | 🟨 28% | 🟥 23% | 🟥 0% | 🟥 11% | 🟥 2% | 190 |
 | 07:00 | 🟨 62% | 🟥 14% | 🟥 2% | 🟥 22% | 🟥 13% | 🟥 0% | 🟥 6% | 🟥 1% | 187 |
-| 08:00 | 🟨 54% | 🟥 11% | 🟥 0% | 🟥 19% | 🟥 9% | 🟥 0% | 🟥 6% | 🟥 2% | 185 |
+| 08:00 | 🟨 54% | 🟥 11% | 🟥 0% | 🟥 19% | 🟥 9% | 🟥 0% | 🟥 6% | 🟥 2% | 186 |
 | 09:00 | 🟨 49% | 🟥 9% | 🟥 3% | 🟥 21% | 🟥 8% | 🟥 0% | 🟥 8% | 🟥 1% | 166 |
 | 10:00 | 🟨 51% | 🟥 9% | 🟥 1% | 🟥 20% | 🟥 7% | 🟥 0% | 🟥 9% | 🟥 1% | 160 |
 | 11:00 | 🟨 53% | 🟥 10% | 🟥 0% | 🟨 25% | 🟥 5% | 🟥 0% | 🟥 9% | 🟥 0% | 166 |
@@ -191,9 +191,9 @@ Average seated players per check on each kind of day, in total and for NLH and O
 
 | Days | Dates | Checks | Players | NLH | Omaha | vs normal, same hour |
 |:--|:--|--:|--:|--:|--:|--:|
-| Normal days | 6 Oct – 26 Nov (36 days) | 4544 | 30.5 | 21.6 | 9.0 | +0.0 |
+| Normal days | 6 Oct – 26 Nov (36 days) | 4545 | 30.5 | 21.6 | 9.0 | +0.0 |
 | ↳ with an Omaha tournament on the schedule | 10–23 Oct (3 days) | 428 | 50.5 | 36.7 | 13.8 | +20.7 |
-| ↳ without one | 7 Oct – 26 Nov (32 days) | 4059 | 28.5 | 20.1 | 8.4 | -2.2 |
+| ↳ without one | 7 Oct – 26 Nov (32 days) | 4060 | 28.5 | 20.1 | 8.4 | -2.2 |
 | 🎪 WSOP Super Circuit | 28 Oct – 11 Nov (15 days) | 2150 | 30.4 | 17.6 | 12.7 | +0.6 |
 | 📅 Public holidays | 17 Nov (1 day) | 103 | 13.2 | 13.0 | 0.2 | -22.7 |
 
@@ -203,7 +203,7 @@ Cash players grouped by how many players were still in tournaments at the time. 
 
 | Tournament players in action | Checks | Avg cash players | vs usual for that hour |
 |:--|--:|--:|--:|
-| none | 3751 | 22 | -1 |
+| none | 3752 | 22 | -1 |
 | 1–49 | 1295 | 25 | -17 |
 | 50–149 | 890 | 46 | +6 |
 | 150 or more | 705 | 68 | +30 |
@@ -214,7 +214,7 @@ NLH and PLO cash players depending on which tournament games were running. The g
 
 | Tournaments in play | Checks | NLH cash players | vs usual | PLO cash players | vs usual |
 |:--|--:|--:|--:|--:|--:|
-| none | 3751 | 13 | -1 | 8 | +1 |
+| none | 3752 | 13 | -1 | 8 | +1 |
 | only NLH tournaments | 2634 | 27 | -0 | 12 | -2 |
 | a PLO tournament | 193 | 51 | +24 | 19 | +6 |
 | other tournament games | 63 | 47 | +30 | 19 | +11 |
@@ -265,11 +265,11 @@ The most recent ones. The game is read from the tournament's name.
 
 | Room | Last check | OK in the last 24 h | Most common problem |
 |:--|:--|--:|:--|
-| King's Rozvadov | ✅ 11-26 08:40 | 141 of 142 | Error: Page.goto: net::ERR_CONNECTION_RESET at https://kings-resort.co |
-| [King's Prague](KINGS_PRAGUE.md) | ✅ 11-26 08:40 | 141 of 142 | King's feed came back empty and that couldn't be confirmed, so it wasn |
-| [Grand Casino Aš](GRAND_CASINO_AS.md) | ✅ 11-26 08:40 | 142 of 142 | · |
-| [Card Casino Šamorín](CARD_CASINO.md) | ✅ 11-26 08:40 | 113 of 142 | Card Casino's site didn't answer |
-| [Banco Casino Bratislava](BANCO.md) | ✅ 11-26 08:40 | 137 of 142 | HTTPError: HTTP Error 504: Gateway Time-out |
+| King's Rozvadov | ✅ 11-26 08:50 | 141 of 142 | Error: Page.goto: net::ERR_CONNECTION_RESET at https://kings-resort.co |
+| [King's Prague](KINGS_PRAGUE.md) | ✅ 11-26 08:50 | 141 of 142 | King's feed came back empty and that couldn't be confirmed, so it wasn |
+| [Grand Casino Aš](GRAND_CASINO_AS.md) | ✅ 11-26 08:50 | 142 of 142 | · |
+| [Card Casino Šamorín](CARD_CASINO.md) | ✅ 11-26 08:50 | 113 of 142 | Card Casino's site didn't answer |
+| [Banco Casino Bratislava](BANCO.md) | ✅ 11-26 08:50 | 137 of 142 | HTTPError: HTTP Error 504: Gateway Time-out |
 | [Olympic Park Tallinn](OLYMPIC_TALLINN.md) | ⚠️ 11-26 08:30 | 0 of 48 | couldn't read the cash games table (page saved for a closer look) |
 | [Olympic Voodoo Riga](OLYMPIC_RIGA.md) | ⚠️ 11-26 08:30 | 0 of 48 | couldn't read the cash games table (page saved for a closer look) |
 | [Olympic Casino Vilnius](OLYMPIC_VILNIUS.md) | ⚠️ 11-26 08:30 | 0 of 48 | couldn't read the cash games table (page saved for a closer look) |
