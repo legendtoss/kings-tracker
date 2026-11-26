@@ -2,14 +2,14 @@
 
 Reads [Grand Casino Aš's live cash games](https://www.grandcasinoas.eu/en/poker/poker-live) every 10 minutes and its [current tournaments](https://www.grandcasinoas.eu/en/poker) every 30 minutes. All times are **Czech time** (same as Poland). Back to [King's](README.md).
 
-**Last check:** 2026-11-26 05:50 — ✅ OK  
-**Last 24 h:** 142 of 142 checks OK, longest gap 0 h 29 min · **Collecting since:** 2026-10-10 (6789 good checks)
+**Last check:** 2026-11-26 06:00 — ✅ OK  
+**Last 24 h:** 142 of 142 checks OK, longest gap 0 h 29 min · **Collecting since:** 2026-10-10 (6790 good checks)
 
-## Cash games at 2026-11-26 05:50
+## Cash games at 2026-11-26 06:00
 
 No cash games listed.
 
-**Tournaments in play at 2026-11-26 05:30:** none
+**Tournaments in play at 2026-11-26 06:00:** none
 
 ## Festivals and schedule
 
@@ -69,7 +69,7 @@ Average number of running tables (Grand Casino Aš shows which games run, not ho
 | 03:00 | 🟥 13% | 🟥 0% | 🟥 3% | 🟥 4% | 158 |
 | 04:00 | 🟥 15% | 🟥 0% | 🟥 2% | 🟥 2% | 163 |
 | 05:00 | 🟥 11% | 🟥 0% | 🟥 0% | 🟥 0% | 162 |
-| 06:00 | 🟥 4% | 🟥 0% | 🟥 0% | 🟥 0% | 157 |
+| 06:00 | 🟥 4% | 🟥 0% | 🟥 0% | 🟥 0% | 158 |
 | 07:00 | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 157 |
 | 08:00 | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 156 |
 | 09:00 | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 157 |
@@ -94,8 +94,8 @@ Average running tables per check on each kind of day, in total and for NLH and O
 
 | Days | Dates | Checks | Tables | NLH | Omaha | vs normal, same hour |
 |:--|:--|--:|--:|--:|--:|--:|
-| Normal days | 10 Oct – 26 Nov (27 days) | 3775 | 0.2 | 0.2 | 0.0 | +0.0 |
-| ↳ with an Omaha tournament on the schedule | 30 Oct – 26 Nov (2 days) | 180 | 0.5 | 0.5 | 0.0 | +0.3 |
+| Normal days | 10 Oct – 26 Nov (27 days) | 3776 | 0.2 | 0.2 | 0.0 | +0.0 |
+| ↳ with an Omaha tournament on the schedule | 30 Oct – 26 Nov (2 days) | 181 | 0.5 | 0.5 | 0.0 | +0.3 |
 | ↳ without one | 10 Oct – 25 Nov (25 days) | 3595 | 0.2 | 0.2 | 0.0 | -0.0 |
 | 🎪 PLO festival | 15–18 Oct (4 days) | 578 | 0.5 | 0.3 | 0.1 | +0.4 |
 | 🎪 GRND festival | 4–15 Nov (12 days) | 1718 | 1.2 | 1.0 | 0.2 | +1.0 |
