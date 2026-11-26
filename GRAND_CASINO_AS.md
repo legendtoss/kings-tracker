@@ -2,10 +2,10 @@
 
 Reads [Grand Casino Aš's live cash games](https://www.grandcasinoas.eu/en/poker/poker-live) every 10 minutes and its [current tournaments](https://www.grandcasinoas.eu/en/poker) every 30 minutes. All times are **Czech time** (same as Poland). Back to [King's](README.md).
 
-**Last check:** 2026-11-26 23:00 — ✅ OK  
-**Last 24 h:** 145 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-10 (6892 good checks)
+**Last check:** 2026-11-26 23:10 — ✅ OK  
+**Last 24 h:** 145 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-10 (6893 good checks)
 
-## Cash games at 2026-11-26 23:00
+## Cash games at 2026-11-26 23:10
 
 ```
 NLH      €1/2     running
@@ -60,7 +60,7 @@ Average number of running tables (Grand Casino Aš shows which games run, not ho
 | 20:00 | 0.0 | 0.0 | 0.0 | 0.0 | 0.3 | 1.0 | 0.4 | 0.2 |
 | 21:00 | 0.0 | 0.0 | 0.0 | 0.5 | 0.4 | 2.2 | 0.3 | 0.4 |
 | 22:00 | 0.0 | 0.0 | 0.0 | 0.8 | 1.3 | 3.1 | 0.0 | 0.6 |
-| 23:00 | 0.0 | 0.0 | 0.0 | 0.7 | 1.9 | 3.4 | 0.0 | 0.7 |
+| 23:00 | 0.0 | 0.0 | 0.0 | 0.8 | 1.9 | 3.4 | 0.0 | 0.7 |
 
 ## How often each game was running, by hour (all days)
 
@@ -91,7 +91,7 @@ Average number of running tables (Grand Casino Aš shows which games run, not ho
 | 20:00 | 🟥 12% | 🟥 1% | 🟥 0% | 🟥 4% | 🟥 0% | 163 |
 | 21:00 | 🟥 18% | 🟥 3% | 🟥 0% | 🟥 4% | 🟥 4% | 163 |
 | 22:00 | 🟥 24% | 🟥 0% | 🟥 0% | 🟥 4% | 🟥 4% | 163 |
-| 23:00 | 🟨 28% | 🟥 0% | 🟥 0% | 🟥 4% | 🟥 1% | 158 |
+| 23:00 | 🟨 28% | 🟥 0% | 🟥 0% | 🟥 4% | 🟥 1% | 159 |
 
 ## Festivals, holidays and normal days
 
@@ -99,8 +99,8 @@ Average running tables per check on each kind of day, in total and for NLH and O
 
 | Days | Dates | Checks | Tables | NLH | Omaha | vs normal, same hour |
 |:--|:--|--:|--:|--:|--:|--:|
-| Normal days | 10 Oct – 26 Nov (27 days) | 3878 | 0.2 | 0.2 | 0.0 | -0.0 |
-| ↳ with an Omaha tournament on the schedule | 30 Oct – 26 Nov (2 days) | 283 | 0.4 | 0.4 | 0.0 | +0.2 |
+| Normal days | 10 Oct – 26 Nov (27 days) | 3879 | 0.2 | 0.2 | 0.0 | +0.0 |
+| ↳ with an Omaha tournament on the schedule | 30 Oct – 26 Nov (2 days) | 284 | 0.4 | 0.4 | 0.0 | +0.2 |
 | ↳ without one | 10 Oct – 25 Nov (25 days) | 3595 | 0.2 | 0.2 | 0.0 | -0.0 |
 | 🎪 PLO festival | 15–18 Oct (4 days) | 578 | 0.5 | 0.3 | 0.1 | +0.4 |
 | 🎪 GRND festival | 4–15 Nov (12 days) | 1718 | 1.2 | 1.0 | 0.2 | +1.0 |
