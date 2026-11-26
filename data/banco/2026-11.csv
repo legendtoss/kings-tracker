@@ -3621,3 +3621,4 @@
 2026-11-26 06:00,Thu,6,ok,1,4,NLH €1/3 4/0,Bratislava: NLH €1/3 4 players (buy-in €100),
 2026-11-26 06:10,Thu,6,error: HTTPError: HTTP Error 429: Too Many Requests,,,,,
 2026-11-26 06:20,Thu,6,ok,0,0,,,
+2026-11-26 06:30,Thu,6,ok,0,0,,,
