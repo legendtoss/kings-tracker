@@ -2,16 +2,16 @@
 
 Reads [Grand Casino Aš's live cash games](https://www.grandcasinoas.eu/en/poker/poker-live) every 10 minutes and its [current tournaments](https://www.grandcasinoas.eu/en/poker) every 30 minutes. All times are **Czech time** (same as Poland). Back to [King's](README.md).
 
-**Last check:** 2026-11-26 17:50 — ✅ OK  
-**Last 24 h:** 145 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-10 (6861 good checks)
+**Last check:** 2026-11-26 18:00 — ✅ OK  
+**Last 24 h:** 145 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-10 (6862 good checks)
 
-## Cash games at 2026-11-26 17:50
+## Cash games at 2026-11-26 18:00
 
 ```
 PLO/NLH           waiting
 ```
 
-**Tournaments in play at 2026-11-26 17:30:** Mixed (NL/PLO/CP) (PLO, €60, 13 of 59 left, level 13, blinds 4000/8000/8000)
+**Tournaments in play at 2026-11-26 18:00:** Mixed (NL/PLO/CP) (PLO, €60, 7 of 59 left, level 13, blinds 4000/8000/8000) · Isar Warm Up (NLH, €80, 55 of 55 left, on a break, late reg open)
 
 ## Festivals and schedule
 
@@ -83,7 +83,7 @@ Average number of running tables (Grand Casino Aš shows which games run, not ho
 | 15:00 | 🟥 1% | 🟥 0% | 🟥 0% | 🟥 0% | 162 |
 | 16:00 | 🟥 6% | 🟥 0% | 🟥 0% | 🟥 0% | 162 |
 | 17:00 | 🟥 7% | 🟥 0% | 🟥 0% | 🟥 0% | 160 |
-| 18:00 | 🟥 6% | 🟥 2% | 🟥 0% | 🟥 0% | 155 |
+| 18:00 | 🟥 6% | 🟥 2% | 🟥 0% | 🟥 0% | 156 |
 | 19:00 | 🟥 7% | 🟥 3% | 🟥 0% | 🟥 1% | 157 |
 | 20:00 | 🟥 13% | 🟥 1% | 🟥 0% | 🟥 4% | 157 |
 | 21:00 | 🟥 15% | 🟥 3% | 🟥 0% | 🟥 4% | 157 |
@@ -96,8 +96,8 @@ Average running tables per check on each kind of day, in total and for NLH and O
 
 | Days | Dates | Checks | Tables | NLH | Omaha | vs normal, same hour |
 |:--|:--|--:|--:|--:|--:|--:|
-| Normal days | 10 Oct – 26 Nov (27 days) | 3847 | 0.2 | 0.2 | 0.0 | +0.0 |
-| ↳ with an Omaha tournament on the schedule | 30 Oct – 26 Nov (2 days) | 252 | 0.3 | 0.3 | 0.0 | +0.2 |
+| Normal days | 10 Oct – 26 Nov (27 days) | 3848 | 0.2 | 0.2 | 0.0 | +0.0 |
+| ↳ with an Omaha tournament on the schedule | 30 Oct – 26 Nov (2 days) | 253 | 0.3 | 0.3 | 0.0 | +0.2 |
 | ↳ without one | 10 Oct – 25 Nov (25 days) | 3595 | 0.2 | 0.2 | 0.0 | -0.0 |
 | 🎪 PLO festival | 15–18 Oct (4 days) | 578 | 0.5 | 0.3 | 0.1 | +0.4 |
 | 🎪 GRND festival | 4–15 Nov (12 days) | 1718 | 1.2 | 1.0 | 0.2 | +1.0 |
@@ -109,7 +109,8 @@ The most recent ones. The game is read from the tournament's name.
 
 | Tournament | Game | Buy-in | Entries | Seen |
 |:--|:--|--:|--:|:--|
-| Mixed (NL/PLO/CP) | PLO | €60 | 59 | 2026-11-26 14:00 → 11-26 17:30 |
+| Mixed (NL/PLO/CP) | PLO | €60 | 59 | 2026-11-26 14:00 → 11-26 18:00 |
+| Isar Warm Up | NLH | €80 | 55 | 2026-11-26 18:00 |
 | Isar Opener | NLH | €60 | 97 | 2026-11-25 18:00 → 11-26 01:30 |
 | Carbanick Cup | NLH | €100 | 236 | 2026-11-21 17:00 → 11-22 05:30 |
 | Lucky Turbo | NLH | €50 | 77 | 2026-11-21 13:00 → 11-21 18:30 |
@@ -123,7 +124,6 @@ The most recent ones. The game is read from the tournament's name.
 | GRND Main Event 1E | NLH | €200 | 504 | 2026-11-14 13:00 → 11-15 00:00 |
 | Satellite to Main Event | NLH | €50 | 147 | 2026-11-12 12:00 → 11-14 14:00 |
 | Seven Always Goes | NLH | €77 | 351 | 2026-11-13 19:30 → 11-14 06:30 |
-| GRND Main Event 1D Turbo | NLH | €200 | 57 | 2026-11-13 22:30 → 11-14 03:30 |
 
 ---
 Raw data: `data/grandcasinoas` (one CSV file per month).
