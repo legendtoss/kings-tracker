@@ -2,17 +2,17 @@
 
 Reads [Grand Casino Aš's live cash games](https://www.grandcasinoas.eu/en/poker/poker-live) every 10 minutes and its [current tournaments](https://www.grandcasinoas.eu/en/poker) every 30 minutes. All times are **Czech time** (same as Poland). Back to [King's](README.md).
 
-**Last check:** 2026-11-27 18:50 — ✅ OK  
-**Last 24 h:** 145 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-10 (7011 good checks)
+**Last check:** 2026-11-27 19:00 — ✅ OK  
+**Last 24 h:** 145 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-10 (7012 good checks)
 
-## Cash games at 2026-11-27 18:50
+## Cash games at 2026-11-27 19:00
 
 ```
 NLH      €1/2     running
 PLO/NLH           waiting
 ```
 
-**Tournaments in play at 2026-11-27 18:30:** Crazy Pineapple (Pineapple, €60, 15 of 149 left, on a break) · Bullets Mystery Bounty (NLH, €150, 195 of 222 left, on a break, late reg open)
+**Tournaments in play at 2026-11-27 19:00:** Crazy Pineapple (Pineapple, €60, 9 of 149 left, level 20, blinds 20000/40000/40000) · Bullets Mystery Bounty (NLH, €150, 200 of 242 left, late reg open, level 6, blinds 400/800/800)
 
 ## Festivals and schedule
 
@@ -53,7 +53,7 @@ Average number of running tables (Grand Casino Aš shows which games run, not ho
 | 16:00 | 0.0 | 0.0 | 0.0 | 0.2 | 0.2 | 0.2 | 0.0 | 0.1 |
 | 17:00 | 0.0 | 0.0 | 0.0 | 0.2 | 0.0 | 0.3 | 0.0 | 0.1 |
 | 18:00 | 0.0 | 0.0 | 0.0 | 0.2 | 0.1 | 0.3 | 0.0 | 0.1 |
-| 19:00 | 0.0 | 0.0 | 0.0 | 0.2 | 0.0 | 0.7 | 0.0 | 0.1 |
+| 19:00 | 0.0 | 0.0 | 0.0 | 0.2 | 0.1 | 0.7 | 0.0 | 0.1 |
 | 20:00 | 0.0 | 0.0 | 0.0 | 0.0 | 0.3 | 1.0 | 0.4 | 0.2 |
 | 21:00 | 0.0 | 0.0 | 0.0 | 0.5 | 0.4 | 2.2 | 0.3 | 0.4 |
 | 22:00 | 0.0 | 0.0 | 0.0 | 0.8 | 1.3 | 3.1 | 0.0 | 0.6 |
@@ -84,7 +84,7 @@ Average number of running tables (Grand Casino Aš shows which games run, not ho
 | 16:00 | 🟥 8% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 168 |
 | 17:00 | 🟥 7% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 166 |
 | 18:00 | 🟥 7% | 🟥 2% | 🟥 0% | 🟥 0% | 🟥 0% | 167 |
-| 19:00 | 🟥 7% | 🟥 3% | 🟥 0% | 🟥 1% | 🟥 0% | 163 |
+| 19:00 | 🟥 7% | 🟥 3% | 🟥 0% | 🟥 1% | 🟥 0% | 164 |
 | 20:00 | 🟥 12% | 🟥 1% | 🟥 0% | 🟥 4% | 🟥 0% | 163 |
 | 21:00 | 🟥 18% | 🟥 3% | 🟥 0% | 🟥 4% | 🟥 4% | 163 |
 | 22:00 | 🟥 24% | 🟥 0% | 🟥 0% | 🟥 4% | 🟥 4% | 163 |
@@ -96,8 +96,8 @@ Average running tables per check on each kind of day, in total and for NLH and O
 
 | Days | Dates | Checks | Tables | NLH | Omaha | vs normal, same hour |
 |:--|:--|--:|--:|--:|--:|--:|
-| Normal days | 10 Oct – 27 Nov (28 days) | 3997 | 0.2 | 0.2 | 0.0 | +0.0 |
-| ↳ with an Omaha tournament on the schedule | 30 Oct – 27 Nov (3 days) | 402 | 0.5 | 0.4 | 0.0 | +0.3 |
+| Normal days | 10 Oct – 27 Nov (28 days) | 3998 | 0.2 | 0.2 | 0.0 | +0.0 |
+| ↳ with an Omaha tournament on the schedule | 30 Oct – 27 Nov (3 days) | 403 | 0.5 | 0.4 | 0.0 | +0.3 |
 | ↳ without one | 10 Oct – 25 Nov (25 days) | 3595 | 0.2 | 0.2 | 0.0 | -0.0 |
 | 🎪 PLO festival | 15–18 Oct (4 days) | 578 | 0.5 | 0.3 | 0.1 | +0.3 |
 | 🎪 GRND festival | 4–15 Nov (12 days) | 1718 | 1.2 | 1.0 | 0.2 | +1.0 |
@@ -109,8 +109,8 @@ The most recent ones. The game is read from the tournament's name.
 
 | Tournament | Game | Buy-in | Entries | Seen |
 |:--|:--|--:|--:|:--|
-| Crazy Pineapple | Pineapple | €60 | 149 | 2026-10-29 13:00 → 11-27 18:30 |
-| Bullets Mystery Bounty | NLH | €150 | 222 | 2026-11-27 18:00 |
+| Crazy Pineapple | Pineapple | €60 | 149 | 2026-10-29 13:00 → 11-27 19:00 |
+| Bullets Mystery Bounty | NLH | €150 | 242 | 2026-11-27 18:00 → 11-27 19:00 |
 | Isar Warm Up | NLH | €80 | 176 | 2026-11-26 18:00 → 11-27 02:00 |
 | Mixed (NL/PLO/CP) | PLO | €60 | 59 | 2026-11-26 14:00 → 11-26 18:30 |
 | Isar Opener | NLH | €60 | 97 | 2026-11-25 18:00 → 11-26 01:30 |
