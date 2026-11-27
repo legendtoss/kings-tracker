@@ -2,10 +2,10 @@
 
 Reads [Grand Casino Aš's live cash games](https://www.grandcasinoas.eu/en/poker/poker-live) every 10 minutes and its [current tournaments](https://www.grandcasinoas.eu/en/poker) every 30 minutes. All times are **Czech time** (same as Poland). Back to [King's](README.md).
 
-**Last check:** 2026-11-27 23:50 — ✅ OK  
-**Last 24 h:** 145 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-10 (7041 good checks)
+**Last check:** 2026-11-28 00:00 — ✅ OK  
+**Last 24 h:** 145 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-10 (7042 good checks)
 
-## Cash games at 2026-11-27 23:50
+## Cash games at 2026-11-28 00:00
 
 ```
 NLH      €1/2     running
@@ -19,17 +19,13 @@ PLO      €2/2     running
 PLO/NLH           waiting
 ```
 
-**Tournaments in play at 2026-11-27 23:30:** Bullets Mystery Bounty (NLH, €150, 39 of 313 left, level 17, blinds 8000/16000/16000) · Stackattack PLO (PLO, €100, 58 of 122 left, level 9, blinds 1000/2000/2000)
+**Tournaments in play at 2026-11-28 00:00:** Bullets Mystery Bounty (NLH, €150, 25 of 313 left, level 18, blinds 10000/20000/20000) · Stackattack PLO (PLO, €100, 37 of 122 left, level 10, blinds 1500/3000/3000)
 
 ## Festivals and schedule
 
 - **Now:** 🎟️ **Isar series**, 25–29 Nov (series) — €150 Isar Main Event 28 Nov · Omaha: €60 NLH/PLO/Crazy Pineapple (26 Nov 14:00); €100 PLO StackAttack (27 Nov 20:00)
 
-**Omaha tournaments in the next 14 days** (from `hendonmob.txt`):
-
-| Day | Time (local) | Buy-in | Tournament |
-|:--|:--|--:|:--|
-| Fri 27 Nov | 20:00 | €100 | Pot Limit Omaha - StackAttack |
+No Omaha tournaments on the schedule in the next 14 days.
 
 **Public holidays in the next 30 days** where most players come from (Czechia, Bavaria, Saxony): Thu 24 Dec: Christmas Eve (Czechia) · Fri 25 Dec: Christmas Day (Czechia, Bavaria, Saxony) · Sat 26 Dec: Second Day of Christmas (Czechia, Bavaria, Saxony).
 
@@ -41,7 +37,7 @@ Average number of running tables (Grand Casino Aš shows which games run, not ho
 
 | Hour | Mon | Tue | Wed | Thu | Fri | Sat | Sun | All days |
 |:--|--:|--:|--:|--:|--:|--:|--:|--:|
-| 00:00 | 0.1 | 0.0 | 0.0 | 0.0 | 1.2 | 2.0 | 3.4 | 0.7 |
+| 00:00 | 0.1 | 0.0 | 0.0 | 0.0 | 1.2 | 2.5 | 3.4 | 0.8 |
 | 01:00 | 0.0 | 0.0 | 0.0 | 0.0 | 0.8 | 1.8 | 3.6 | 0.6 |
 | 02:00 | 0.0 | 0.0 | 0.0 | 0.0 | 0.7 | 1.3 | 2.1 | 0.5 |
 | 03:00 | 0.0 | 0.0 | 0.0 | 0.0 | 0.5 | 0.4 | 1.9 | 0.3 |
@@ -72,7 +68,7 @@ Average number of running tables (Grand Casino Aš shows which games run, not ho
 
 | Hour | NLH €1/2 | PLO €2/2 | PLO 5Card €2/2 | DC €2/2 | DC €5/5 | Checks |
 |:--|--:|--:|--:|--:|--:|--:|
-| 00:00 | 🟨 28% | 🟥 0% | 🟥 0% | 🟥 4% | 🟥 4% | 163 |
+| 00:00 | 🟨 29% | 🟥 1% | 🟥 0% | 🟥 4% | 🟥 4% | 164 |
 | 01:00 | 🟨 26% | 🟥 0% | 🟥 0% | 🟥 4% | 🟥 1% | 163 |
 | 02:00 | 🟨 25% | 🟥 0% | 🟥 0% | 🟥 4% | 🟥 0% | 169 |
 | 03:00 | 🟥 16% | 🟥 0% | 🟥 2% | 🟥 4% | 🟥 0% | 164 |
@@ -103,9 +99,9 @@ Average running tables per check on each kind of day, in total and for NLH and O
 
 | Days | Dates | Checks | Tables | NLH | Omaha | vs normal, same hour |
 |:--|:--|--:|--:|--:|--:|--:|
-| Normal days | 10 Oct – 27 Nov (28 days) | 4027 | 0.2 | 0.2 | 0.0 | +0.0 |
+| Normal days | 10 Oct – 28 Nov (29 days) | 4028 | 0.2 | 0.2 | 0.0 | +0.0 |
 | ↳ with an Omaha tournament on the schedule | 30 Oct – 27 Nov (3 days) | 432 | 0.7 | 0.6 | 0.0 | +0.5 |
-| ↳ without one | 10 Oct – 25 Nov (25 days) | 3595 | 0.2 | 0.2 | 0.0 | -0.1 |
+| ↳ without one | 10 Oct – 28 Nov (26 days) | 3596 | 0.2 | 0.2 | 0.0 | -0.1 |
 | 🎪 PLO festival | 15–18 Oct (4 days) | 578 | 0.5 | 0.3 | 0.1 | +0.3 |
 | 🎪 GRND festival | 4–15 Nov (12 days) | 1718 | 1.2 | 1.0 | 0.2 | +1.0 |
 | 📅 Public holidays | 28 Oct – 18 Nov (5 days) | 718 | 0.4 | 0.4 | 0.0 | +0.2 |
@@ -116,8 +112,8 @@ The most recent ones. The game is read from the tournament's name.
 
 | Tournament | Game | Buy-in | Entries | Seen |
 |:--|:--|--:|--:|:--|
-| Bullets Mystery Bounty | NLH | €150 | 313 | 2026-11-27 18:00 → 11-27 23:30 |
-| Stackattack PLO | PLO | €100 | 122 | 2026-11-27 20:00 → 11-27 23:30 |
+| Bullets Mystery Bounty | NLH | €150 | 313 | 2026-11-27 18:00 → 11-28 00:00 |
+| Stackattack PLO | PLO | €100 | 122 | 2026-11-27 20:00 → 11-28 00:00 |
 | Crazy Pineapple | Pineapple | €60 | 149 | 2026-10-29 13:00 → 11-27 19:30 |
 | Isar Warm Up | NLH | €80 | 176 | 2026-11-26 18:00 → 11-27 02:00 |
 | Mixed (NL/PLO/CP) | PLO | €60 | 59 | 2026-11-26 14:00 → 11-26 18:30 |

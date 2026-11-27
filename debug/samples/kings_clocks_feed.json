@@ -1,6 +1,6 @@
 {
- "saved_on": "2026-11-27",
- "records": 8,
+ "saved_on": "2026-11-28",
+ "records": 7,
  "fields": [
   "activePause",
   "activePlayers",
@@ -49,163 +49,13 @@
  ],
  "sample": [
   {
-   "referenceTime": "2026-11-27T00:00:33.275",
-   "name": "Mystery Bounty - Final Day",
-   "fullName": "Mystery Bounty - Final Day",
-   "tournamentName": "Mystery Bounty",
-   "notes": "All players ITM and Mystery Bounty Phase",
-   "color": "#f57f17",
-   "background": "kings_all_in.jpg",
-   "status": "PAUSED",
-   "isPaused": true,
-   "currency": "EUR",
-   "effectivePrizePool": 123144,
-   "guaranteeInEffect": false,
-   "overlay": null,
-   "reEntryMaxCount": 0,
-   "startingStack": 50000,
-   "openRegistration": false,
-   "lateRegistrationUntilLevel": null,
-   "expectedLastLevel": null,
-   "start": "2026-11-26T17:48:53",
-   "pausedSeconds": 1351,
-   "pausedMillis": 1351017,
-   "flightGameTimeDelta": -857486,
-   "stickerText": "♠♥♦♣\n\nMystery bounties are in the game ♠♥♦♣\n\nRedraw last 27, 18, 9 players ♠♥♦♣",
-   "totalEntries": 733,
-   "activePlayers": 9,
-   "totalChipCount": 36650000,
-   "averageStack": 4072222,
-   "nextBreakStart": null,
-   "nextBreakSeconds": null,
-   "entryValue": 150,
-   "serviceFee": 0,
-   "bountyValue": 50,
-   "payoutPositions": [
-    {
-     "from": 1,
-     "to": 1,
-     "amount": 14400,
-     "label": null
-    },
-    {
-     "from": 2,
-     "to": 2,
-     "amount": 8900,
-     "label": null
-    },
-    {
-     "from": 3,
-     "to": 3,
-     "amount": 6400,
-     "label": null
-    },
-    {
-     "from": 4,
-     "to": 4,
-     "amount": 4725,
-     "label": null
-    },
-    {
-     "from": 5,
-     "to": 5,
-     "amount": 3550,
-     "label": null
-    },
-    {
-     "from": 6,
-     "to": 6,
-     "amount": 2675,
-     "label": null
-    },
-    {
-     "from": 7,
-     "to": 7,
-     "amount": 1990,
-     "label": null
-    },
-    {
-     "from": 8,
-     "to": 8,
-     "amount": 1465,
-     "label": null
-    },
-    {
-     "from": 9,
-     "to": 9,
-     "amount": 1065,
-     "label": null
-    }
-   ],
-   "currentLevel": {
-    "start": "2026-11-26T23:29:24.630",
-    "gameEnd": "2026-11-27T00:09:24.630",
-    "levelEnd": "2026-11-27T00:09:24.630",
-    "sb": 40000,
-    "bb": 80000,
-    "number": 23,
-    "gameSeconds": 2400,
-    "breakSeconds": 0,
-    "limits": null,
-    "ante": 80000
-   },
-   "nextLevels": [
-    {
-     "sb": 50000,
-     "bb": 100000,
-     "number": 24,
-     "gameSeconds": 2400,
-     "breakSeconds": 900,
-     "limits": null,
-     "ante": 100000
-    },
-    {
-     "sb": 60000,
-     "bb": 120000,
-     "number": 25,
-     "gameSeconds": 2400,
-     "breakSeconds": 0,
-     "limits": null,
-     "ante": 120000
-    }
-   ],
-   "softPauseEnd": "2026-11-27T00:07:19.000",
-   "activePause": {
-    "type": "BREAK",
-    "flightTimeRunning": false,
-    "sinceTime": "2026-11-26T23:52:19.744",
-    "untilTime": "2026-11-27T00:07:19.000",
-    "previousPause": {
-     "type": "SUSPENSION",
-     "flightTimeRunning": false,
-     "sinceTime": "2026-11-26T23:47:44.196",
-     "untilTime": null,
-     "previousPause": null
-    }
-   },
-   "plannedEnd": null,
-   "winningStructureType": "STANDARD",
-   "levelCount": null,
-   "reEntryCountLimit": 0,
-   "subName": "All players ITM and Mystery Bounty Phase",
-   "availableTickets": {
-    "buyIn": 150,
-    "serviceFee": 0,
-    "addon": null,
-    "rebuy": null,
-    "addOnLimit": null,
-    "reBuyLimit": null
-   },
-   "tournament_id": 14013
-  },
-  {
-   "referenceTime": "2026-11-27T00:00:44.080",
-   "name": "GPM €1MILLION - Day 1D SPEED",
-   "fullName": "GPM €1MILLION - Day 1D SPEED",
+   "referenceTime": "2026-11-27T23:59:53.191",
+   "name": "GPM €1MILLION - Day 1E",
+   "fullName": "GPM €1MILLION - Day 1E",
    "tournamentName": "GPM €1MILLION",
    "notes": "15% ITM MC 570€ • played till 10% • ",
-   "color": "#4a148c",
-   "background": "chips_with_cards_small.png",
+   "color": "#b71c1c",
+   "background": "chips_all_in_kings.jpg",
    "status": "RUNNING",
    "isPaused": false,
    "currency": "EUR",
@@ -216,26 +66,100 @@
    "startingStack": 50000,
    "openRegistration": false,
    "lateRegistrationUntilLevel": 10,
-   "expectedLastLevel": 16,
-   "start": "2026-11-26T18:00:05",
+   "expectedLastLevel": 18,
+   "start": "2026-11-27T11:00:24",
+   "pausedSeconds": 791,
+   "pausedMillis": 791382,
+   "flightGameTimeDelta": -791382,
+   "stickerText": "♠♥♦♣ 15x KINGS MILLION EUROPEAN POKER PACKAGES (3500€) included in prizepool and 5 of them as chipleader bonus for Day 1A/B part 2 ♠♥♦♣\n\n15% (82) of players ITM (min. cash 570€)\nDay 1E is played down to the last 10% (55) of the field ♠♥♦♣\n\nThe tournament is played as a multi-stack format – if you play multiple flights, only your biggest stack advances to DAY 2 ♠♥♦♣\n\nChipleader of the flight will receive a bonus King's Million European Poker Championship Super Main Event ticket (1.150€) ♦♣♠♥",
+   "totalEntries": 544,
+   "activePlayers": 60,
+   "totalChipCount": 27200000,
+   "averageStack": 453333,
+   "nextBreakStart": "2026-11-28T00:58:36.162",
+   "nextBreakSeconds": null,
+   "entryValue": 285,
+   "serviceFee": 0,
+   "bountyValue": null,
+   "payoutPositions": null,
+   "currentLevel": {
+    "start": "2026-11-27T23:38:36.162",
+    "gameEnd": "2026-11-28T00:18:36.162",
+    "levelEnd": "2026-11-28T00:18:36.162",
+    "sb": 10000,
+    "bb": 15000,
+    "number": 17,
+    "gameSeconds": 2400,
+    "breakSeconds": 0,
+    "limits": "",
+    "ante": 15000
+   },
+   "nextLevels": [
+    {
+     "sb": 10000,
+     "bb": 20000,
+     "number": 18,
+     "gameSeconds": 2400,
+     "breakSeconds": 0,
+     "limits": "",
+     "ante": 20000
+    }
+   ],
+   "softPauseEnd": null,
+   "activePause": null,
+   "plannedEnd": null,
+   "winningStructureType": "STANDARD",
+   "levelCount": 18,
+   "reEntryCountLimit": null,
+   "subName": "15% ITM MC 570€ • played till 10% • ",
+   "availableTickets": {
+    "buyIn": 285,
+    "serviceFee": 0,
+    "addon": null,
+    "rebuy": null,
+    "addOnLimit": null,
+    "reBuyLimit": null
+   },
+   "tournament_id": 13957
+  },
+  {
+   "referenceTime": "2026-11-27T23:59:53.267",
+   "name": "GPM €1MILLION - Day 1F SPEED",
+   "fullName": "GPM €1MILLION - Day 1F SPEED",
+   "tournamentName": "GPM €1MILLION",
+   "notes": "15% ITM MC 570€ • played till 10% • ",
+   "color": "#880e4f",
+   "background": "kings_cards_with_chips.jpg",
+   "status": "RUNNING",
+   "isPaused": false,
+   "currency": "EUR",
+   "effectivePrizePool": 1000000,
+   "guaranteeInEffect": true,
+   "overlay": null,
+   "reEntryMaxCount": null,
+   "startingStack": 50000,
+   "openRegistration": true,
+   "lateRegistrationUntilLevel": 10,
+   "expectedLastLevel": 18,
+   "start": "2026-11-27T18:00:38",
    "pausedSeconds": 0,
    "pausedMillis": 0,
    "flightGameTimeDelta": 0,
    "stickerText": "♠♥♦♣ 15x KINGS MILLION EUROPEAN POKER PACKAGES (3500€) included in prizepool and 5 of them as chipleader bonus for Day 1A/B part 2 ♠♥♦♣\n\n15% of players ITM (min. cash 570€)\nDay 1 is played down to the last 10% of the field ♠♥♦♣\n\nThe tournament is played as a multi-stack format – if you play multiple flights, only your biggest stack advances to DAY 2 ♠♥♦♣\n\nChipleader of the flight will receive a bonus King's Million European Poker Championship Super Main Event ticket (1.150€) ♦♣♠♥",
-   "totalEntries": 255,
-   "activePlayers": 100,
-   "totalChipCount": 12750000,
-   "averageStack": 127500,
-   "nextBreakStart": "2026-11-27T00:55:05.168",
+   "totalEntries": 385,
+   "activePlayers": 149,
+   "totalChipCount": 19250000,
+   "averageStack": 129195,
+   "nextBreakStart": "2026-11-28T00:55:38.163",
    "nextBreakSeconds": 900,
    "entryValue": 285,
    "serviceFee": 0,
    "bountyValue": null,
    "payoutPositions": null,
    "currentLevel": {
-    "start": "2026-11-26T23:55:05.168",
-    "gameEnd": "2026-11-27T00:25:05.168",
-    "levelEnd": "2026-11-27T00:25:05.168",
+    "start": "2026-11-27T23:55:38.163",
+    "gameEnd": "2026-11-28T00:25:38.163",
+    "levelEnd": "2026-11-28T00:25:38.163",
     "sb": 2000,
     "bb": 4000,
     "number": 11,
@@ -268,7 +192,7 @@
    "activePause": null,
    "plannedEnd": null,
    "winningStructureType": "STANDARD",
-   "levelCount": 16,
+   "levelCount": 18,
    "reEntryCountLimit": null,
    "subName": "15% ITM MC 570€ • played till 10% • ",
    "availableTickets": {
@@ -279,151 +203,72 @@
     "addOnLimit": null,
     "reBuyLimit": null
    },
-   "tournament_id": 13968
+   "tournament_id": 13958
   },
   {
-   "referenceTime": "2026-11-27T00:00:44.172",
-   "name": "GPM Thursday Night Turbo",
-   "fullName": "GPM Thursday Night Turbo",
-   "tournamentName": "GPM Thursday Night Turbo",
+   "referenceTime": "2026-11-27T23:59:53.348",
+   "name": "GPM Friday Night Turbo",
+   "fullName": "GPM Friday Night Turbo",
+   "tournamentName": "GPM Friday Night Turbo",
    "notes": null,
    "color": "#880e4f",
    "background": null,
    "status": "RUNNING",
    "isPaused": false,
    "currency": "EUR",
-   "effectivePrizePool": 20638,
+   "effectivePrizePool": 31777,
    "guaranteeInEffect": false,
    "overlay": null,
    "reEntryMaxCount": 2,
    "startingStack": 15000,
-   "openRegistration": false,
+   "openRegistration": true,
    "lateRegistrationUntilLevel": 8,
    "expectedLastLevel": null,
-   "start": "2026-11-26T20:59:59",
+   "start": "2026-11-27T22:00:06",
    "pausedSeconds": 0,
    "pausedMillis": 0,
    "flightGameTimeDelta": 0,
    "stickerText": null,
-   "totalEntries": 189,
-   "activePlayers": 60,
-   "totalChipCount": 2835000,
-   "averageStack": 47250,
-   "nextBreakStart": "2026-11-27T00:44:59.964",
+   "totalEntries": 291,
+   "activePlayers": 142,
+   "totalChipCount": 4365000,
+   "averageStack": 30739,
+   "nextBreakStart": "2026-11-28T00:00:06.742",
    "nextBreakSeconds": 900,
    "entryValue": 130,
    "serviceFee": 0,
    "bountyValue": null,
-   "payoutPositions": [
-    {
-     "from": 1,
-     "to": 1,
-     "amount": 4851,
-     "label": null
-    },
-    {
-     "from": 2,
-     "to": 2,
-     "amount": 3192,
-     "label": null
-    },
-    {
-     "from": 3,
-     "to": 3,
-     "amount": 2160,
-     "label": null
-    },
-    {
-     "from": 4,
-     "to": 4,
-     "amount": 1506,
-     "label": null
-    },
-    {
-     "from": 5,
-     "to": 5,
-     "amount": 1082,
-     "label": null
-    },
-    {
-     "from": 6,
-     "to": 6,
-     "amount": 803,
-     "label": null
-    },
-    {
-     "from": 7,
-     "to": 7,
-     "amount": 615,
-     "label": null
-    },
-    {
-     "from": 8,
-     "to": 8,
-     "amount": 487,
-     "label": null
-    },
-    {
-     "from": 9,
-     "to": 9,
-     "amount": 400,
-     "label": null
-    },
-    {
-     "from": 10,
-     "to": 11,
-     "amount": 340,
-     "label": null
-    },
-    {
-     "from": 12,
-     "to": 13,
-     "amount": 301,
-     "label": null
-    },
-    {
-     "from": 14,
-     "to": 17,
-     "amount": 276,
-     "label": null
-    },
-    {
-     "from": 18,
-     "to": 29,
-     "amount": 263,
-     "label": null
-    }
-   ],
+   "payoutPositions": null,
    "currentLevel": {
-    "start": "2026-11-26T23:59:59.964",
-    "gameEnd": "2026-11-27T00:14:59.964",
-    "levelEnd": "2026-11-27T00:14:59.964",
-    "sb": 1500,
-    "bb": 3000,
-    "number": 12,
+    "start": "2026-11-27T23:45:06.742",
+    "gameEnd": "2026-11-28T00:00:06.742",
+    "levelEnd": "2026-11-28T00:15:06.742",
+    "sb": 500,
+    "bb": 1000,
+    "number": 8,
     "gameSeconds": 900,
-    "breakSeconds": 0,
+    "breakSeconds": 900,
     "limits": null,
-    "ante": 3000
+    "ante": 1000
    },
    "nextLevels": [
     {
-     "sb": 2000,
-     "bb": 4000,
-     "number": 13,
+     "sb": 600,
+     "bb": 1200,
+     "number": 9,
      "gameSeconds": 900,
      "breakSeconds": 0,
      "limits": null,
-     "ante": 4000
+     "ante": 1200
     },
     {
-     "sb": 2500,
-     "bb": 5000,
-     "number": 14,
+     "sb": 1000,
+     "bb": 1500,
+     "number": 10,
      "gameSeconds": 900,
-     "breakSeconds": 900,
+     "breakSeconds": 0,
      "limits": null,
-     "ante": 5000
+     "ante": 1500
     }
    ],
    "softPauseEnd": null,
@@ -440,16 +285,16 @@
     "addOnLimit": null,
     "reBuyLimit": null
    },
-   "tournament_id": 14040
+   "tournament_id": 14042
   },
   {
-   "referenceTime": "2026-11-27T00:00:13.093",
-   "name": "German Poker Masters €1MILLION - Day 1E",
-   "fullName": "German Poker Masters €1MILLION - Day 1E",
+   "referenceTime": "2026-11-28T00:00:26.199",
+   "name": "German Poker Masters €1MILLION - Day 1G",
+   "fullName": "German Poker Masters €1MILLION - Day 1G",
    "tournamentName": "German Poker Masters €1MILLION",
    "notes": "15% ITM MC 570€ • played till 10% • ",
-   "color": "#b71c1c",
-   "background": "chips_all_in_kings.jpg",
+   "color": "#880e4f",
+   "background": "kings_cards_with_chips.jpg",
    "status": "READY_FOR_PUBLICATION",
    "isPaused": false,
    "currency": "EUR",
@@ -460,8 +305,8 @@
    "startingStack": 50000,
    "openRegistration": true,
    "lateRegistrationUntilLevel": 10,
-   "expectedLastLevel": 18,
-   "start": "2026-11-27T11:00:00",
+   "expectedLastLevel": 19,
+   "start": "2026-11-28T11:00:00",
    "pausedSeconds": null,
    "pausedMillis": null,
    "flightGameTimeDelta": null,
@@ -501,7 +346,7 @@
    "activePause": null,
    "plannedEnd": null,
    "winningStructureType": "STANDARD",
-   "levelCount": 18,
+   "levelCount": 19,
    "reEntryCountLimit": null,
    "subName": "15% ITM MC 570€ • played till 10% • ",
    "availableTickets": {
@@ -512,20 +357,20 @@
     "addOnLimit": null,
     "reBuyLimit": null
    },
-   "tournament_id": 13957
+   "tournament_id": 13959
   },
   {
-   "referenceTime": "2026-11-27T00:00:13.174",
-   "name": "Friday Pot Limit Omaha",
-   "fullName": "Friday Pot Limit Omaha",
-   "tournamentName": "Friday Pot Limit Omaha",
+   "referenceTime": "2026-11-28T00:00:26.343",
+   "name": "GPM Ladies Event",
+   "fullName": "GPM Ladies Event",
+   "tournamentName": "GPM Ladies Event",
    "notes": null,
    "color": "#880e4f",
    "background": null,
    "status": "READY_FOR_PUBLICATION",
    "isPaused": false,
    "currency": "EUR",
-   "effectivePrizePool": 10000,
+   "effectivePrizePool": 3000,
    "guaranteeInEffect": true,
    "overlay": null,
    "reEntryMaxCount": null,
@@ -533,7 +378,7 @@
    "openRegistration": true,
    "lateRegistrationUntilLevel": 8,
    "expectedLastLevel": null,
-   "start": "2026-11-27T14:00:00",
+   "start": "2026-11-28T14:00:00",
    "pausedSeconds": null,
    "pausedMillis": null,
    "flightGameTimeDelta": null,
@@ -552,21 +397,21 @@
    "nextLevels": [
     {
      "sb": 100,
-     "bb": 200,
+     "bb": 100,
      "number": 1,
-     "gameSeconds": 900,
+     "gameSeconds": 1200,
      "breakSeconds": 0,
-     "limits": null,
-     "ante": 200
+     "limits": "",
+     "ante": 100
     },
     {
      "sb": 100,
-     "bb": 300,
+     "bb": 200,
      "number": 2,
-     "gameSeconds": 900,
+     "gameSeconds": 1200,
      "breakSeconds": 0,
-     "limits": null,
-     "ante": 300
+     "limits": "",
+     "ante": 200
     }
    ],
    "softPauseEnd": null,
@@ -583,7 +428,7 @@
     "addOnLimit": null,
     "reBuyLimit": null
    },
-   "tournament_id": 14041
+   "tournament_id": 14043
   }
  ]
 }

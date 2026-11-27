@@ -2,7 +2,7 @@
 
 Reads [OlyBet's live cash games page](https://olybetpoker.com/lt/cash-games/?club=10) every 30 minutes (their site has bot protection, so the tracker checks gently and simply records it when a check is refused). All times are **Czech time** (Vilnius is one hour ahead). Back to [King's](README.md).
 
-**Last check:** 2026-11-27 23:30 — ⚠️ error: blocked by the site's bot protection — details in `debug/olympic-vilnius_page.json`  
+**Last check:** 2026-11-28 00:00 — ⚠️ error: couldn't read the cash games table (page saved for a closer look) — details in `debug/olympic-vilnius_page.json`  
 **Last 24 h:** 0 of 49 checks OK, longest gap 0 h 30 min · **Collecting since:** 2026-10-10 (326 good checks)
 
 **Club:** Olympic Casino Vilnius, Lietuva
@@ -27,6 +27,7 @@ No tables were running.
 | Sun 6 Dec | 18:00 | €200 | No Limit Hold'em/Pot Limit Omaha Mix (Event #9) |
 | Mon 7 Dec | 19:00 | €200 | Pot Limit Omaha - PLO4/PLO5/PLO6 (Event #13) |
 | Tue 8 Dec | 14:00 | €555 | Pot Limit Omaha - PLO4/PLO5 Championship (Event #16) |
+| Sat 12 Dec | 20:00 | €250 | Pot Limit Omaha - PLO4/PLO5 Progressive Knockout (Event #33) |
 
 **Public holidays in the next 30 days** where most players come from (Lithuania, Latvia, Poland): Thu 24 Dec: Christmas Eve (Lithuania, Latvia, Poland) · Fri 25 Dec: Christmas Day (Lithuania, Latvia, Poland) · Sat 26 Dec: Second Day of Christmas (Lithuania, Latvia, Poland).
 

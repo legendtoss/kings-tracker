@@ -2,7 +2,7 @@
 
 Reads [OlyBet's live cash games page](https://olybetpoker.com/ee/en/cash-games/?club=6) every 30 minutes (their site has bot protection, so the tracker checks gently and simply records it when a check is refused). All times are **Czech time** (Tallinn is one hour ahead). Back to [King's](README.md).
 
-**Last check:** 2026-11-27 23:30 — ⚠️ error: couldn't read the cash games table (page saved for a closer look) — details in `debug/olympic-tallinn_page.json`  
+**Last check:** 2026-11-28 00:00 — ⚠️ error: couldn't read the cash games table (page saved for a closer look) — details in `debug/olympic-tallinn_page.json`  
 **Last 24 h:** 0 of 49 checks OK, longest gap 0 h 30 min · **Collecting since:** 2026-10-10 (273 good checks)
 
 **Club:** Olympic Park Casino
@@ -13,7 +13,7 @@ No tables were running.
 
 **Waiting lists:** 6 players · **All games listed:** NLH €1/3 (closed): 0 tables, 0/0 players, 3 waiting PLO/PLO5 €1/3 (closed): 0 tables, 0/0 players, 2 waiting PLO €5/5 (closed): 0 tables, 0/0 players, 0 waiting NLH €5/5 (closed): 0 tables, 0/0 players, 1 waiting
 
-**Tournaments on their site at 2026-11-27 23:00:** live 10:00 Olympic Park Casino 75 NLH Super Seniors Event (60+) Playing inside casino 25,000 €200 11:00 Olympic Park Casino 8 Heads Up 8 Senkel's Paradise Pick'em 30,000 €300 12:00 Olympic Park Casino 60 NLH 7-2 Estonia Special (incl. INES rule) 25,000 €200 12:30 Olympic Park Casino 61 Dealers Choice all FL (16 games) 30,000 €350 13:00 Olympic Park Casino 62 PLO 4/5/6 Bomb Pot Feature 30,000 €350 14:00 Olympic Park Casino 63 Sportsbook 1 €125 14:00 Olympic Park Casino 34 NLH The Festival Main Event Day 2 50,000 €555 16:00 Olympic Park Casino 64 NLH Queens 25,000 €150 17:00 Olympic Park Casino 65 The Festival 10 Game Day 1 50,000 €1,100 18:00 Olympic Park Casino 66 NL Crazy Pineapple 25,000 €200 20:00 Olympic Park Casino X Franke s Flip Flops Day 1/I 1 €0 21:00 Olympic Park Casino 67 FL Thrilleri 20,000 €200
+**Tournaments on their site at 2026-11-28 00:00:** live 10:00 Olympic Park Casino 75 NLH Super Seniors Event (60+) Playing inside casino 25,000 €200 11:00 Olympic Park Casino 8 Heads Up 8 Senkel's Paradise Pick'em 30,000 €300 12:00 Olympic Park Casino 60 NLH 7-2 Estonia Special (incl. INES rule) 25,000 €200 12:30 Olympic Park Casino 61 Dealers Choice all FL (16 games) 30,000 €350 13:00 Olympic Park Casino 62 PLO 4/5/6 Bomb Pot Feature 30,000 €350 14:00 Olympic Park Casino 63 Sportsbook 1 €125 14:00 Olympic Park Casino 34 NLH The Festival Main Event Day 2 50,000 €555 16:00 Olympic Park Casino 64 NLH Queens 25,000 €150 17:00 Olympic Park Casino 65 The Festival 10 Game Day 1 50,000 €1,100 18:00 Olympic Park Casino 66 NL Crazy Pineapple 25,000 €200 20:00 Olympic Park Casino X Franke s Flip Flops Day 1/I 1 €0 21:00 Olympic Park Casino 67 FL Thrilleri 20,000 €200
 
 ## Festivals and schedule
 
@@ -23,8 +23,6 @@ No tables were running.
 
 | Day | Time (local) | Buy-in | Tournament |
 |:--|:--|--:|:--|
-| Fri 27 Nov | 15:00 | €350 | Pot Limit Omaha 4/5 (Event #54) |
-| Fri 27 Nov | 17:00 | €1 100 | Pot Limit Omaha - High Roller (Event #55) |
 | Sat 28 Nov | 13:00 | €350 | Pot Limit Omaha 4/5/6 - Bomb Pot Feature (Event #62) |
 | Sun 29 Nov | 12:30 | €100 | Pot Limit Omaha Flips Tournament - Round 1 - Accumulator (Event #70) |
 | Sun 29 Nov | 16:00 | · | Pot Limit Omaha Flips Tournament - Final - Accumulator (Event #70) |
