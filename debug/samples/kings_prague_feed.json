@@ -1,5 +1,5 @@
 {
- "saved_on": "2026-11-25",
+ "saved_on": "2026-11-27",
  "records": 1,
  "fields": [
   "gameProfile",
@@ -14,11 +14,11 @@
  ],
  "sample": [
   {
-   "status": "PLAYING",
-   "startTime": "2026-11-24T22:30:58",
-   "startPlayingTime": "2026-11-24T22:33:45",
+   "status": "STARTED",
+   "startTime": "2026-11-27T19:55:06",
+   "startPlayingTime": null,
    "seatCount": 8,
-   "playerCount": 7,
+   "playerCount": 1,
    "gameType": {
     "id": 10,
     "name": "No Limit Holdem"
@@ -35,8 +35,8 @@
     "blindsFormatted": "€ 2/4"
    },
    "table": {
-    "id": 113,
-    "name": "PKH1",
+    "id": 118,
+    "name": "PKH2",
     "type": "CASH_GAME",
     "zone": {
      "id": 5,
