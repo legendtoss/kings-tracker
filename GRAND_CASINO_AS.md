@@ -2,14 +2,14 @@
 
 Reads [Grand Casino Aš's live cash games](https://www.grandcasinoas.eu/en/poker/poker-live) every 10 minutes and its [current tournaments](https://www.grandcasinoas.eu/en/poker) every 30 minutes. All times are **Czech time** (same as Poland). Back to [King's](README.md).
 
-**Last check:** 2026-11-27 09:50 — ✅ OK  
-**Last 24 h:** 145 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-10 (6957 good checks)
+**Last check:** 2026-11-27 10:00 — ✅ OK  
+**Last 24 h:** 145 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-10 (6958 good checks)
 
-## Cash games at 2026-11-27 09:50
+## Cash games at 2026-11-27 10:00
 
 No cash games listed.
 
-**Tournaments in play at 2026-11-27 09:30:** none
+**Tournaments in play at 2026-11-27 10:00:** none
 
 ## Festivals and schedule
 
@@ -72,7 +72,7 @@ Average number of running tables (Grand Casino Aš shows which games run, not ho
 | 07:00 | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 169 |
 | 08:00 | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 168 |
 | 09:00 | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 169 |
-| 10:00 | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 162 |
+| 10:00 | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 163 |
 | 11:00 | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 162 |
 | 12:00 | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 164 |
 | 13:00 | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 162 |
@@ -93,8 +93,8 @@ Average running tables per check on each kind of day, in total and for NLH and O
 
 | Days | Dates | Checks | Tables | NLH | Omaha | vs normal, same hour |
 |:--|:--|--:|--:|--:|--:|--:|
-| Normal days | 10 Oct – 27 Nov (28 days) | 3943 | 0.2 | 0.2 | 0.0 | +0.0 |
-| ↳ with an Omaha tournament on the schedule | 30 Oct – 27 Nov (3 days) | 348 | 0.6 | 0.5 | 0.0 | +0.3 |
+| Normal days | 10 Oct – 27 Nov (28 days) | 3944 | 0.2 | 0.2 | 0.0 | +0.0 |
+| ↳ with an Omaha tournament on the schedule | 30 Oct – 27 Nov (3 days) | 349 | 0.6 | 0.5 | 0.0 | +0.3 |
 | ↳ without one | 10 Oct – 25 Nov (25 days) | 3595 | 0.2 | 0.2 | 0.0 | -0.0 |
 | 🎪 PLO festival | 15–18 Oct (4 days) | 578 | 0.5 | 0.3 | 0.1 | +0.3 |
 | 🎪 GRND festival | 4–15 Nov (12 days) | 1718 | 1.2 | 1.0 | 0.2 | +1.0 |
