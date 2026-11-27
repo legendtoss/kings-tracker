@@ -2,17 +2,17 @@
 
 Prague's tables come in the same King's data feed as Rozvadov's, so they're read at every check (about every 10 minutes) without any extra visits, together with Prague's tournament clocks. All times are **Czech time** (same as Poland). Back to [King's Rozvadov](README.md).
 
-**Last check:** 2026-11-27 23:10 — ✅ OK  
-**Last 24 h:** 145 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-17 (5691 good checks)
+**Last check:** 2026-11-27 23:20 — ✅ OK  
+**Last 24 h:** 145 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-17 (5692 good checks)
 
-## Tables running at 2026-11-27 23:10
+## Tables running at 2026-11-27 23:20
 
 ```
 NLH  €2/4     6/8 players
 ```
 **NLH:** 6 players at 1 table
 
-**Tournaments in play:** German Poker Masters 1MILLION - Day 1 PRAGUE (NLH, €285, 32 of 55 left, late reg open, level 7, blinds 600/1200/1200)
+**Tournaments in play:** German Poker Masters 1MILLION - Day 1 PRAGUE (NLH, €285, 32 of 55 left, late reg open, level 8, blinds 1000/1500/1500)
 
 ## Festivals and schedule
 
@@ -28,7 +28,7 @@ No Omaha tournaments on the schedule in the next 14 days.
 
 Day, hour and average seated players (only day-hour slots seen on at least 2 different dates).
 
-- **NLH:** Fri 23:00 (8) · Sun 00:00 (7) · Sat 00:00 (7)
+- **NLH:** Fri 23:00 (7) · Sun 00:00 (7) · Sat 00:00 (7)
 
 ## Average players by hour
 
@@ -61,7 +61,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 20:00 | 0 | 0 | 0 | 0 | 0 | 3 | 3 | 1 |
 | 21:00 | 0 | 0 | 0 | 1 | 3 | 4 | 3 | 2 |
 | 22:00 | 2 | 1 | 0 | 2 | 5 | 6 | 2 | 3 |
-| 23:00 | 3 | 1 | 1 | 2 | 8 | 7 | 2 | 3 |
+| 23:00 | 3 | 1 | 1 | 2 | 7 | 7 | 2 | 3 |
 
 ## How often each game was running, by hour (all days)
 
@@ -92,7 +92,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 20:00 | 🟥 22% | 🟥 0% | 🟥 0% | 239 |
 | 21:00 | 🟨 39% | 🟥 1% | 🟥 0% | 237 |
 | 22:00 | 🟨 48% | 🟥 2% | 🟥 0% | 238 |
-| 23:00 | 🟨 47% | 🟥 3% | 🟥 0% | 234 |
+| 23:00 | 🟨 48% | 🟥 3% | 🟥 0% | 235 |
 
 ## Festivals, holidays and normal days
 
@@ -100,14 +100,14 @@ Average seated players per check on each kind of day, in total and for NLH and O
 
 | Days | Dates | Checks | Players | NLH | Omaha | vs normal, same hour |
 |:--|:--|--:|--:|--:|--:|--:|
-| Normal days | 17 Oct – 27 Nov (40 days) | 5444 | 0.8 | 0.7 | 0.0 | -0.0 |
+| Normal days | 17 Oct – 27 Nov (40 days) | 5445 | 0.8 | 0.7 | 0.0 | -0.0 |
 | 📅 Public holidays | 28 Oct – 17 Nov (2 days) | 247 | 0.0 | 0.0 | 0.0 | -0.8 |
 
 ## All games seen
 
 | Game | Running in | Most often | Last seen |
 |:--|--:|:--|:--|
-| NLH €2/4 | 12% of checks | Sat around 21:00 | 2026-11-27 23:10 |
+| NLH €2/4 | 12% of checks | Sat around 21:00 | 2026-11-27 23:20 |
 | PLO €2/2 | 1% of checks | Mon around 00:00 | 2026-10-27 01:30 |
 | PLO5 €5/5 | 0% of checks | Mon around 02:00 | 2026-11-19 02:10 |
 
@@ -117,7 +117,7 @@ The most recent ones. The game is read from the tournament's name.
 
 | Tournament | Game | Buy-in | Entries | Seen |
 |:--|:--|--:|--:|:--|
-| German Poker Masters 1MILLION - Day 1 PRAGUE | NLH | €285 | 55 | 2026-11-27 19:10 → 11-27 23:10 |
+| German Poker Masters 1MILLION - Day 1 PRAGUE | NLH | €285 | 55 | 2026-11-27 19:10 → 11-27 23:20 |
 | Satellite to GPM ME - Day 1 PRAGUE | NLH | €40 | 90 | 2026-11-27 16:00 → 11-27 19:30 |
 | King's Prague Mystery Bounty Thursday | NLH | €100 | 68 | 2026-10-22 19:10 → 11-27 04:50 |
 | Satellite to King's Prague Mystery Thursday | NLH | €30 | 73 | 2026-10-21 18:30 → 11-26 18:50 |
