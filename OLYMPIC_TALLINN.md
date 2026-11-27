@@ -2,7 +2,7 @@
 
 Reads [OlyBet's live cash games page](https://olybetpoker.com/ee/en/cash-games/?club=6) every 30 minutes (their site has bot protection, so the tracker checks gently and simply records it when a check is refused). All times are **Czech time** (Tallinn is one hour ahead). Back to [King's](README.md).
 
-**Last check:** 2026-11-27 00:30 — ⚠️ error: couldn't read the cash games table (page saved for a closer look) — details in `debug/olympic-tallinn_page.json`  
+**Last check:** 2026-11-27 01:00 — ⚠️ error: couldn't read the cash games table (page saved for a closer look) — details in `debug/olympic-tallinn_page.json`  
 **Last 24 h:** 0 of 49 checks OK, longest gap 0 h 30 min · **Collecting since:** 2026-10-10 (273 good checks)
 
 **Club:** Olympic Park Casino
@@ -13,7 +13,7 @@ No tables were running.
 
 **Waiting lists:** 6 players · **All games listed:** NLH €1/3 (closed): 0 tables, 0/0 players, 3 waiting PLO/PLO5 €1/3 (closed): 0 tables, 0/0 players, 2 waiting PLO €5/5 (closed): 0 tables, 0/0 players, 0 waiting NLH €5/5 (closed): 0 tables, 0/0 players, 1 waiting
 
-**Tournaments on their site at 2026-11-27 00:00:** live 12:00 Olympic Park Casino 34 NLH The Festival Main Event Day 1/C 50,000 €555 12:30 Olympic Park Casino 53 The Festival 10 Game (Supreme) 30,000 €350 15:00 Olympic Park Casino 54 PLO4/PLO5 (Bomb Pot Feature) 30,000 €350 17:00 Olympic Park Casino 55 PLO High Roller 100,000 €1,100 17:30 Olympic Park Casino 74 Reissupelit NLH 25,000 €100 18:00 Olympic Park Casino 56 Mixed Games Madness (24 games) 20,000 €200 19:00 Olympic Park Casino 34 NLH The Festival Main Event Day 1/D Turbo 50,000 €555 20:00 Olympic Park Casino 57 Cash Game Challenge 1 €200 20:00 Olympic Park Casino X Franke s Flip Flops Day 1/H 1 €0 21:00 Olympic Park Casino 58 NLH PKO (Live Straddle) 20,000 €200 22:30 Olympic Park Casino 59 Cash Game Challenge 1 €200
+**Tournaments on their site at 2026-11-27 01:00:** live 12:00 Olympic Park Casino 34 NLH The Festival Main Event Day 1/C 50,000 €555 12:30 Olympic Park Casino 53 The Festival 10 Game (Supreme) 30,000 €350 15:00 Olympic Park Casino 54 PLO4/PLO5 (Bomb Pot Feature) 30,000 €350 17:00 Olympic Park Casino 55 PLO High Roller 100,000 €1,100 17:30 Olympic Park Casino 74 Reissupelit NLH 25,000 €100 18:00 Olympic Park Casino 56 Mixed Games Madness (24 games) 20,000 €200 19:00 Olympic Park Casino 34 NLH The Festival Main Event Day 1/D Turbo 50,000 €555 20:00 Olympic Park Casino 57 Cash Game Challenge 1 €200 20:00 Olympic Park Casino X Franke s Flip Flops Day 1/H 1 €0 21:00 Olympic Park Casino 58 NLH PKO (Live Straddle) 20,000 €200 22:30 Olympic Park Casino 59 Cash Game Challenge 1 €200
 
 ## Festivals and schedule
 
