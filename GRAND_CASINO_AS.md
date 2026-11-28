@@ -2,15 +2,12 @@
 
 Reads [Grand Casino Aš's live cash games](https://www.grandcasinoas.eu/en/poker/poker-live) every 10 minutes and its [current tournaments](https://www.grandcasinoas.eu/en/poker) every 30 minutes. All times are **Czech time** (same as Poland). Back to [King's](README.md).
 
-**Last check:** 2026-11-28 05:30 — ✅ OK  
-**Last 24 h:** 145 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-10 (7075 good checks)
+**Last check:** 2026-11-28 05:40 — ✅ OK  
+**Last 24 h:** 145 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-10 (7076 good checks)
 
-## Cash games at 2026-11-28 05:30
+## Cash games at 2026-11-28 05:40
 
-```
-NLH      €1/2     running
-PLO/NLH           waiting
-```
+No cash games listed.
 
 **Tournaments in play at 2026-11-28 05:30:** none
 
@@ -66,7 +63,7 @@ Average number of running tables (Grand Casino Aš shows which games run, not ho
 | 02:00 | 🟨 27% | 🟥 1% | 🟥 0% | 🟥 3% | 🟥 3% | 175 |
 | 03:00 | 🟥 19% | 🟥 0% | 🟥 2% | 🟥 4% | 🟥 1% | 170 |
 | 04:00 | 🟥 21% | 🟥 0% | 🟥 2% | 🟥 2% | 🟥 0% | 175 |
-| 05:00 | 🟥 15% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 172 |
+| 05:00 | 🟥 14% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 173 |
 | 06:00 | 🟥 4% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 169 |
 | 07:00 | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 169 |
 | 08:00 | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 168 |
@@ -92,9 +89,9 @@ Average running tables per check on each kind of day, in total and for NLH and O
 
 | Days | Dates | Checks | Tables | NLH | Omaha | vs normal, same hour |
 |:--|:--|--:|--:|--:|--:|--:|
-| Normal days | 10 Oct – 28 Nov (29 days) | 4061 | 0.3 | 0.2 | 0.0 | -0.0 |
+| Normal days | 10 Oct – 28 Nov (29 days) | 4062 | 0.3 | 0.2 | 0.0 | -0.0 |
 | ↳ with an Omaha tournament on the schedule | 30 Oct – 27 Nov (3 days) | 432 | 0.7 | 0.6 | 0.0 | +0.4 |
-| ↳ without one | 10 Oct – 28 Nov (26 days) | 3629 | 0.2 | 0.2 | 0.0 | -0.1 |
+| ↳ without one | 10 Oct – 28 Nov (26 days) | 3630 | 0.2 | 0.2 | 0.0 | -0.1 |
 | 🎪 PLO festival | 15–18 Oct (4 days) | 578 | 0.5 | 0.3 | 0.1 | +0.3 |
 | 🎪 GRND festival | 4–15 Nov (12 days) | 1718 | 1.2 | 1.0 | 0.2 | +0.9 |
 | 📅 Public holidays | 28 Oct – 18 Nov (5 days) | 718 | 0.4 | 0.4 | 0.0 | +0.1 |
