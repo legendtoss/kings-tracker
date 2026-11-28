@@ -2,17 +2,17 @@
 
 Prague's tables come in the same King's data feed as Rozvadov's, so they're read at every check (about every 10 minutes) without any extra visits, together with Prague's tournament clocks. All times are **Czech time** (same as Poland). Back to [King's Rozvadov](README.md).
 
-**Last check:** 2026-11-28 02:20 — ✅ OK  
-**Last 24 h:** 145 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-17 (5710 good checks)
+**Last check:** 2026-11-28 02:30 — ✅ OK  
+**Last 24 h:** 145 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-17 (5711 good checks)
 
-## Tables running at 2026-11-28 02:20
+## Tables running at 2026-11-28 02:30
 
 ```
-NLH  €2/4     2/8 players
+NLH  €5/10    2/8 players
 ```
 **NLH:** 2 players at 1 table
 
-**Tournaments in play:** German Poker Masters 1MILLION - Day 1 PRAGUE (NLH, €285, 11 of 62 left, level 15, blinds 5000/10000/10000)
+**Tournaments in play:** German Poker Masters 1MILLION - Day 1 PRAGUE (NLH, €285, 10 of 62 left, level 15, blinds 5000/10000/10000)
 
 ## Festivals and schedule
 
@@ -67,32 +67,32 @@ Seated players at each game's tables. 0 = that game wasn't running.
 
 🟩 most of the time · 🟨 sometimes · 🟥 rarely
 
-| Hour | NLH €2/4 | PLO €2/2 | PLO5 €5/5 | Checks |
-|:--|--:|--:|--:|--:|
-| 00:00 | 🟨 46% | 🟥 5% | 🟥 0% | 239 |
-| 01:00 | 🟨 38% | 🟥 4% | 🟥 0% | 240 |
-| 02:00 | 🟥 20% | 🟥 0% | 🟥 1% | 244 |
-| 03:00 | 🟥 3% | 🟥 0% | 🟥 0% | 231 |
-| 04:00 | 🟥 1% | 🟥 0% | 🟥 0% | 231 |
-| 05:00 | 🟥 0% | 🟥 0% | 🟥 0% | 230 |
-| 06:00 | 🟥 0% | 🟥 0% | 🟥 0% | 222 |
-| 07:00 | 🟥 0% | 🟥 0% | 🟥 0% | 219 |
-| 08:00 | 🟥 0% | 🟥 0% | 🟥 0% | 219 |
-| 09:00 | 🟥 0% | 🟥 0% | 🟥 0% | 208 |
-| 10:00 | 🟥 0% | 🟥 0% | 🟥 0% | 201 |
-| 11:00 | 🟥 0% | 🟥 0% | 🟥 0% | 208 |
-| 12:00 | 🟥 0% | 🟥 0% | 🟥 0% | 212 |
-| 13:00 | 🟥 0% | 🟥 0% | 🟥 0% | 223 |
-| 14:00 | 🟥 0% | 🟥 0% | 🟥 0% | 229 |
-| 15:00 | 🟥 0% | 🟥 0% | 🟥 0% | 232 |
-| 16:00 | 🟥 0% | 🟥 0% | 🟥 0% | 230 |
-| 17:00 | 🟥 2% | 🟥 0% | 🟥 0% | 229 |
-| 18:00 | 🟥 8% | 🟥 0% | 🟥 0% | 230 |
-| 19:00 | 🟥 11% | 🟥 1% | 🟥 0% | 234 |
-| 20:00 | 🟥 22% | 🟥 0% | 🟥 0% | 239 |
-| 21:00 | 🟨 39% | 🟥 1% | 🟥 0% | 237 |
-| 22:00 | 🟨 48% | 🟥 2% | 🟥 0% | 238 |
-| 23:00 | 🟨 48% | 🟥 3% | 🟥 0% | 238 |
+| Hour | NLH €2/4 | NLH €5/10 | PLO €2/2 | PLO5 €5/5 | Checks |
+|:--|--:|--:|--:|--:|--:|
+| 00:00 | 🟨 46% | 🟥 0% | 🟥 5% | 🟥 0% | 239 |
+| 01:00 | 🟨 38% | 🟥 0% | 🟥 4% | 🟥 0% | 240 |
+| 02:00 | 🟥 20% | 🟥 0% | 🟥 0% | 🟥 1% | 245 |
+| 03:00 | 🟥 3% | 🟥 0% | 🟥 0% | 🟥 0% | 231 |
+| 04:00 | 🟥 1% | 🟥 0% | 🟥 0% | 🟥 0% | 231 |
+| 05:00 | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 230 |
+| 06:00 | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 222 |
+| 07:00 | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 219 |
+| 08:00 | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 219 |
+| 09:00 | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 208 |
+| 10:00 | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 201 |
+| 11:00 | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 208 |
+| 12:00 | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 212 |
+| 13:00 | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 223 |
+| 14:00 | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 229 |
+| 15:00 | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 232 |
+| 16:00 | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 230 |
+| 17:00 | 🟥 2% | 🟥 0% | 🟥 0% | 🟥 0% | 229 |
+| 18:00 | 🟥 8% | 🟥 0% | 🟥 0% | 🟥 0% | 230 |
+| 19:00 | 🟥 11% | 🟥 0% | 🟥 1% | 🟥 0% | 234 |
+| 20:00 | 🟥 22% | 🟥 0% | 🟥 0% | 🟥 0% | 239 |
+| 21:00 | 🟨 39% | 🟥 0% | 🟥 1% | 🟥 0% | 237 |
+| 22:00 | 🟨 48% | 🟥 0% | 🟥 2% | 🟥 0% | 238 |
+| 23:00 | 🟨 48% | 🟥 0% | 🟥 3% | 🟥 0% | 238 |
 
 ## Festivals, holidays and normal days
 
@@ -100,7 +100,7 @@ Average seated players per check on each kind of day, in total and for NLH and O
 
 | Days | Dates | Checks | Players | NLH | Omaha | vs normal, same hour |
 |:--|:--|--:|--:|--:|--:|--:|
-| Normal days | 17 Oct – 28 Nov (41 days) | 5463 | 0.8 | 0.7 | 0.0 | -0.0 |
+| Normal days | 17 Oct – 28 Nov (41 days) | 5464 | 0.8 | 0.7 | 0.0 | -0.0 |
 | 📅 Public holidays | 28 Oct – 17 Nov (2 days) | 247 | 0.0 | 0.0 | 0.0 | -0.9 |
 
 ## All games seen
@@ -108,6 +108,7 @@ Average seated players per check on each kind of day, in total and for NLH and O
 | Game | Running in | Most often | Last seen |
 |:--|--:|:--|:--|
 | NLH €2/4 | 12% of checks | Fri around 23:00 | 2026-11-28 02:20 |
+| NLH €5/10 | 0% of checks | Sat around 02:00 | 2026-11-28 02:30 |
 | PLO €2/2 | 1% of checks | Mon around 00:00 | 2026-10-27 01:30 |
 | PLO5 €5/5 | 0% of checks | Mon around 02:00 | 2026-11-19 02:10 |
 
@@ -117,7 +118,7 @@ The most recent ones. The game is read from the tournament's name.
 
 | Tournament | Game | Buy-in | Entries | Seen |
 |:--|:--|--:|--:|:--|
-| German Poker Masters 1MILLION - Day 1 PRAGUE | NLH | €285 | 62 | 2026-11-27 19:10 → 11-28 02:20 |
+| German Poker Masters 1MILLION - Day 1 PRAGUE | NLH | €285 | 62 | 2026-11-27 19:10 → 11-28 02:30 |
 | Satellite to GPM ME - Day 1 PRAGUE | NLH | €40 | 90 | 2026-11-27 16:00 → 11-27 19:30 |
 | King's Prague Mystery Bounty Thursday | NLH | €100 | 68 | 2026-10-22 19:10 → 11-27 04:50 |
 | Satellite to King's Prague Mystery Thursday | NLH | €30 | 73 | 2026-10-21 18:30 → 11-26 18:50 |
