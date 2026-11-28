@@ -2,14 +2,14 @@
 
 Prague's tables come in the same King's data feed as Rozvadov's, so they're read at every check (about every 10 minutes) without any extra visits, together with Prague's tournament clocks. All times are **Czech time** (same as Poland). Back to [King's Rozvadov](README.md).
 
-**Last check:** 2026-11-28 15:00 — ✅ OK  
-**Last 24 h:** 145 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-17 (5786 good checks)
+**Last check:** 2026-11-28 15:10 — ✅ OK  
+**Last 24 h:** 145 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-17 (5787 good checks)
 
-## Tables running at 2026-11-28 15:00
+## Tables running at 2026-11-28 15:10
 
 No tables were running.
 
-**Tournaments in play:** none
+**Tournaments in play:** King's Prague Saturday Monsterstack (NLH, €100, 11 of 11 left, late reg open)
 
 ## Festivals and schedule
 
@@ -81,7 +81,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 12:00 | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 218 |
 | 13:00 | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 229 |
 | 14:00 | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 235 |
-| 15:00 | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 233 |
+| 15:00 | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 234 |
 | 16:00 | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 230 |
 | 17:00 | 🟥 2% | 🟥 0% | 🟥 0% | 🟥 0% | 229 |
 | 18:00 | 🟥 8% | 🟥 0% | 🟥 0% | 🟥 0% | 230 |
@@ -97,7 +97,7 @@ Average seated players per check on each kind of day, in total and for NLH and O
 
 | Days | Dates | Checks | Players | NLH | Omaha | vs normal, same hour |
 |:--|:--|--:|--:|--:|--:|--:|
-| Normal days | 17 Oct – 28 Nov (41 days) | 5539 | 0.8 | 0.7 | 0.0 | +0.0 |
+| Normal days | 17 Oct – 28 Nov (41 days) | 5540 | 0.8 | 0.7 | 0.0 | +0.0 |
 | 📅 Public holidays | 28 Oct – 17 Nov (2 days) | 247 | 0.0 | 0.0 | 0.0 | -0.9 |
 
 ## All games seen
@@ -115,6 +115,7 @@ The most recent ones. The game is read from the tournament's name.
 
 | Tournament | Game | Buy-in | Entries | Seen |
 |:--|:--|--:|--:|:--|
+| King's Prague Saturday Monsterstack | NLH | €100 | 90 | 2026-10-17 20:40 → 11-28 15:10 |
 | German Poker Masters 1MILLION - Day 1 PRAGUE | NLH | €285 | 62 | 2026-11-27 19:10 → 11-28 03:40 |
 | Satellite to GPM ME - Day 1 PRAGUE | NLH | €40 | 90 | 2026-11-27 16:00 → 11-27 19:30 |
 | King's Prague Mystery Bounty Thursday | NLH | €100 | 68 | 2026-10-22 19:10 → 11-27 04:50 |
@@ -128,7 +129,6 @@ The most recent ones. The game is read from the tournament's name.
 | Satellite to ČPT 1 Million - Day 1A | NLH | €30 | 83 | 2026-10-30 16:10 → 11-20 19:40 |
 | King's Prague Beginner's Mystery Bounty | NLH | €30 | 72 | 2026-10-20 18:20 → 11-18 01:50 |
 | King's Prague Sunday Knockout (Bounty 25 ) | NLH | €55 | 87 | 2026-10-18 17:10 → 11-16 01:20 |
-| King's Prague Saturday Monsterstack | NLH | €100 | 90 | 2026-10-17 20:40 → 11-15 03:50 |
 | WOLF Millionaire - Day 1 PRAGUE | NLH | €350 | 60 | 2026-11-13 19:10 → 11-14 03:40 |
 
 ---
