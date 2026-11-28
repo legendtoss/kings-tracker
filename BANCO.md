@@ -2,10 +2,10 @@
 
 Checks [its website](https://bancocasino.sk/ba/en) together with King's, about every 10 minutes. All times are **Czech time** (same as Poland and Slovakia). Back to [King's](README.md).
 
-**Last check:** 2026-11-28 04:10 — ✅ OK  
-**Checks so far:** 6534 successful out of 7080 (since 2026-10-10)
+**Last check:** 2026-11-28 04:20 — ✅ OK  
+**Checks so far:** 6535 successful out of 7081 (since 2026-10-10)
 
-## Tables running at 2026-11-28 04:10
+## Tables running at 2026-11-28 04:20
 
 ```
 NLH  €1/3     8 players
@@ -117,7 +117,7 @@ Seated players at each game's tables. 0 = that game wasn't running.
 | 01:00 | 🟨 62% | 🟥 7% | 🟥 17% | 🟥 3% | 🟥 10% | 181 |
 | 02:00 | 🟨 61% | 🟥 4% | 🟥 16% | 🟥 3% | 🟥 10% | 187 |
 | 03:00 | 🟨 52% | 🟥 4% | 🟨 25% | 🟥 3% | 🟥 7% | 181 |
-| 04:00 | 🟨 41% | 🟥 3% | 🟥 20% | 🟥 3% | 🟥 5% | 174 |
+| 04:00 | 🟨 41% | 🟥 3% | 🟥 19% | 🟥 3% | 🟥 5% | 175 |
 | 05:00 | 🟨 34% | 🟥 3% | 🟥 10% | 🟥 3% | 🟥 2% | 173 |
 | 06:00 | 🟨 25% | 🟥 5% | 🟥 7% | 🟥 3% | 🟥 0% | 173 |
 | 07:00 | 🟥 17% | 🟥 6% | 🟥 1% | 🟥 2% | 🟥 0% | 173 |
@@ -144,7 +144,7 @@ Average seated players per check on each kind of day, in total and for NLH and O
 
 | Days | Dates | Checks | Players | NLH | Omaha | vs normal, same hour |
 |:--|:--|--:|--:|--:|--:|--:|
-| Normal days | 13 Oct – 28 Nov (31 days) | 4257 | 4.8 | 2.6 | 1.6 | -0.0 |
+| Normal days | 13 Oct – 28 Nov (31 days) | 4258 | 4.8 | 2.6 | 1.6 | -0.0 |
 | 🎪 PPC festival | 4–16 Nov (13 days) | 1846 | 16.1 | 12.0 | 4.0 | +11.3 |
 | 📅 Public holidays | 23 Oct – 1 Nov (3 days) | 431 | 3.2 | 1.8 | 1.3 | -1.5 |
 
@@ -152,7 +152,7 @@ Average seated players per check on each kind of day, in total and for NLH and O
 
 | Game | Running in | Most often | Last seen |
 |:--|--:|:--|:--|
-| NLH €1/3 | 43% of checks | Thu around 01:00 | 2026-11-28 04:10 |
+| NLH €1/3 | 43% of checks | Thu around 01:00 | 2026-11-28 04:20 |
 | NLH €2/5 | 4% of checks | Sat around 07:00 | 2026-11-11 18:10 |
 | PLO €2/2 | 0% of checks | Thu around 02:00 | 2026-11-05 03:30 |
 | PLO 4/5 €2/2 | 30% of checks | Tue around 18:00 | 2026-11-27 23:00 |
