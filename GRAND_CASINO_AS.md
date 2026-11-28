@@ -2,17 +2,17 @@
 
 Reads [Grand Casino Aš's live cash games](https://www.grandcasinoas.eu/en/poker/poker-live) every 10 minutes and its [current tournaments](https://www.grandcasinoas.eu/en/poker) every 30 minutes. All times are **Czech time** (same as Poland). Back to [King's](README.md).
 
-**Last check:** 2026-11-28 17:50 — ✅ OK  
-**Last 24 h:** 145 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-10 (7149 good checks)
+**Last check:** 2026-11-28 18:00 — ✅ OK  
+**Last 24 h:** 145 of 145 checks OK, longest gap 0 h 10 min · **Collecting since:** 2026-10-10 (7150 good checks)
 
-## Cash games at 2026-11-28 17:50
+## Cash games at 2026-11-28 18:00
 
 ```
 NLH      €1/2     running
 PLO/NLH           waiting
 ```
 
-**Tournaments in play at 2026-11-28 17:30:** Isar Poker Main Event (NLH, €150, 260 of 470 left, late reg open, level 8, blinds 1000/2000/2000)
+**Tournaments in play at 2026-11-28 18:00:** Isar Poker Main Event (NLH, €150, 264 of 487 left, on a break)
 
 ## Festivals and schedule
 
@@ -48,7 +48,7 @@ Average number of running tables (Grand Casino Aš shows which games run, not ho
 | 15:00 | 0.0 | 0.0 | 0.0 | 0.0 | 0.0 | 0.0 | 0.0 | 0.0 |
 | 16:00 | 0.0 | 0.0 | 0.0 | 0.2 | 0.2 | 0.2 | 0.0 | 0.1 |
 | 17:00 | 0.0 | 0.0 | 0.0 | 0.2 | 0.0 | 0.3 | 0.0 | 0.1 |
-| 18:00 | 0.0 | 0.0 | 0.0 | 0.2 | 0.1 | 0.3 | 0.0 | 0.1 |
+| 18:00 | 0.0 | 0.0 | 0.0 | 0.2 | 0.1 | 0.4 | 0.0 | 0.1 |
 | 19:00 | 0.0 | 0.0 | 0.0 | 0.2 | 0.2 | 0.7 | 0.0 | 0.1 |
 | 20:00 | 0.0 | 0.0 | 0.0 | 0.0 | 0.7 | 1.0 | 0.4 | 0.2 |
 | 21:00 | 0.0 | 0.0 | 0.0 | 0.5 | 1.1 | 2.2 | 0.3 | 0.5 |
@@ -79,7 +79,7 @@ Average number of running tables (Grand Casino Aš shows which games run, not ho
 | 15:00 | 🟥 1% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 174 |
 | 16:00 | 🟥 8% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 174 |
 | 17:00 | 🟥 8% | 🟥 0% | 🟥 0% | 🟥 0% | 🟥 0% | 172 |
-| 18:00 | 🟥 7% | 🟥 2% | 🟥 0% | 🟥 0% | 🟥 0% | 167 |
+| 18:00 | 🟥 7% | 🟥 2% | 🟥 0% | 🟥 0% | 🟥 0% | 168 |
 | 19:00 | 🟥 10% | 🟥 3% | 🟥 0% | 🟥 1% | 🟥 0% | 169 |
 | 20:00 | 🟥 15% | 🟥 1% | 🟥 0% | 🟥 4% | 🟥 0% | 169 |
 | 21:00 | 🟥 21% | 🟥 3% | 🟥 0% | 🟥 4% | 🟥 4% | 169 |
@@ -92,9 +92,9 @@ Average running tables per check on each kind of day, in total and for NLH and O
 
 | Days | Dates | Checks | Tables | NLH | Omaha | vs normal, same hour |
 |:--|:--|--:|--:|--:|--:|--:|
-| Normal days | 10 Oct – 28 Nov (29 days) | 4135 | 0.3 | 0.2 | 0.0 | -0.0 |
+| Normal days | 10 Oct – 28 Nov (29 days) | 4136 | 0.3 | 0.2 | 0.0 | -0.0 |
 | ↳ with an Omaha tournament on the schedule | 30 Oct – 27 Nov (3 days) | 432 | 0.7 | 0.6 | 0.0 | +0.4 |
-| ↳ without one | 10 Oct – 28 Nov (26 days) | 3703 | 0.2 | 0.2 | 0.0 | -0.1 |
+| ↳ without one | 10 Oct – 28 Nov (26 days) | 3704 | 0.2 | 0.2 | 0.0 | -0.1 |
 | 🎪 PLO festival | 15–18 Oct (4 days) | 578 | 0.5 | 0.3 | 0.1 | +0.3 |
 | 🎪 GRND festival | 4–15 Nov (12 days) | 1718 | 1.2 | 1.0 | 0.2 | +0.9 |
 | 📅 Public holidays | 28 Oct – 18 Nov (5 days) | 718 | 0.4 | 0.4 | 0.0 | +0.1 |
@@ -105,7 +105,7 @@ The most recent ones. The game is read from the tournament's name.
 
 | Tournament | Game | Buy-in | Entries | Seen |
 |:--|:--|--:|--:|:--|
-| Isar Poker Main Event | NLH | €150 | 470 | 2026-11-28 13:00 → 11-28 17:30 |
+| Isar Poker Main Event | NLH | €150 | 487 | 2026-11-28 13:00 → 11-28 18:00 |
 | Stackattack PLO | PLO | €100 | 122 | 2026-11-27 20:00 → 11-28 04:00 |
 | Bullets Mystery Bounty | NLH | €150 | 313 | 2026-11-27 18:00 → 11-28 03:30 |
 | Crazy Pineapple | Pineapple | €60 | 149 | 2026-10-29 13:00 → 11-27 19:30 |
